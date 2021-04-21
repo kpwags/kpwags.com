@@ -1,0 +1,47 @@
+{
+    "lastupdate": "March 2021",
+    "reading": [
+        {
+            "title": "Without Remorse",
+            "author": "Tom Clancy",
+            "cover": "withoutremorse.jpg",
+            "link": "https://bookshop.org/books/without-remorse/9780425143322",
+            "rating": null,
+            "thoughts": null
+        }
+    ],
+    "watching": [
+        {
+            "title": "The Expanse",
+            "cover": "expanse.jpg"
+        },
+        {
+            "title": "Cosmos",
+            "cover": "cosmos.jpg"
+        },
+        {
+            "title": "Scrubs",
+            "cover": "scrubs.jpg"
+        }
+    ],
+    "playing": [
+        {
+            "title": "Destiny 2",
+            "system": "Xbox Series X & PC",
+            "cover": "destiny2.jpg",
+            "link": "https://www.bungie.net/7/en/Destiny/NewLight"
+        },
+        {
+            "title": "Borderlands 3",
+            "system": "Xbox Series X",
+            "cover": "borderlands3.jpg",
+            "link": "https://www.microsoft.com/en-us/p/Borderlands-3/C34NB0F1B5WQ"
+        },
+        {
+            "title": "World of Warcraft",
+            "system": "PC",
+            "cover": "wow_shadowlands.jpg",
+            "link": "https://worldofwarcraft.com/en-us/"
+        }
+    ]
+}

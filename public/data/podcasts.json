@@ -1,0 +1,613 @@
+[
+    {
+        "name": "Business & Economics",
+        "podcasts": [
+            {
+                "name": "Business Movers",
+                "link": "https://wondery.com/shows/business-movers/"
+            },
+            {
+                "name": "Business Wars",
+                "link": "https://wondery.com/shows/business-wars/"
+            },
+            {
+                "name": "Capitalisn't",
+                "link": "https://www.capitalisnt.com/"
+            },
+            {
+                "name": "Chat with Traders",
+                "link": "https://chatwithtraders.com/"
+            },
+            {
+                "name": "Corner Office",
+                "link": "https://www.marketplace.org/shows/corner-office-from-marketplace/"
+            },
+            {
+                "name": "EconTalk",
+                "link": "https://www.econtalk.org/"
+            },
+            {
+                "name": "Freakonomics",
+                "link": "https://freakonomics.com/"
+            },
+            {
+                "name": "The Indicator",
+                "link": "https://www.npr.org/podcasts/510325/the-indicator-from-planet-money"
+            },
+            {
+                "name": "Invest Like the Best",
+                "link": "https://podcasts.apple.com/us/podcast/invest-like-the-best/id1154105909"
+            },
+            {
+                "name": "Land of the Giants",
+                "link": "https://podcasts.voxmedia.com/show/land-of-the-giants"
+            },
+            {
+                "name": "Marketplace",
+                "link": "https://www.marketplace.org"
+            },
+            {
+                "name": "Masters in Business",
+                "link": "https://www.bloomberg.com/podcasts/masters_in_business"
+            },
+            {
+                "name": "The Meb Faber Show",
+                "link": "https://themebfabershow.com/"
+            },
+            {
+                "name": "Money Talks",
+                "link": "https://podcasts.apple.com/us/podcast/money-talks-from-economist-radio/id420929545"
+            },
+            {
+                "name": "Money With Friends",
+                "link": "https://www.moneywithfriendspodcast.com/"
+            },
+            {
+                "name": "Pitchfork Economics",
+                "link": "https://pitchforkeconomics.com/"
+            },
+            {
+                "name": "Planet Money",
+                "link": "https://www.npr.org/sections/money/"
+            },
+            {
+                "name": "Spectacular Failures",
+                "link": "https://www.spectacularfailures.org/"
+            },
+            {
+                "name": "The Stacking Benjamins Show",
+                "link": "https://www.stackingbenjamins.com/"
+            },
+            {
+                "name": "Trillions",
+                "link": "https://www.bloomberg.com/podcasts/decrypted1"
+            },
+            {
+                "name": "We Study Billionaires",
+                "link": "https://www.theinvestorspodcast.com/we-study-billionaires/"
+            },
+            {
+                "name": "Weathtrack",
+                "link": "https://wealthtrack.com/"
+            }
+        ]
+    },
+    {
+        "name": "Design",
+        "podcasts": [
+            {
+                "name": "99% Invisible",
+                "link": "https://www.99pi.org"
+            }
+        ]
+    },
+    {
+        "name": "Development",
+        "podcasts": [
+            {
+                "name": "The .NET Core Podcast",
+                "link": "https://dotnetcore.show/"
+            },
+            {
+                "name": ".NET Rocks!",
+                "link": "https://www.dotnetrocks.com/"
+            },
+            {
+                "name": "The Changelog",
+                "link": "https://changelog.com/"
+            },
+            {
+                "name": "Chats with Kent C Dodds",
+                "link": "https://kentcdodds.com/chats-with-kent-podcast/"
+            },
+            {
+                "name": "CodeNewbie",
+                "link": "https://www.codenewbie.org/podcast"
+            },
+            {
+                "name": "CodePen Radio",
+                "link": "https://blog.codepen.io/radio/"
+            },
+            {
+                "name": "DevDiscuss",
+                "link": "https://dev.to/devdiscuss"
+            },
+            {
+                "name": "Developer Tea",
+                "link": "https://developertea.com/"
+            },
+            {
+                "name": "DevNews",
+                "link": "https://devpods.dev/podcasts/devnews"
+            },
+            {
+                "name": "Hanselminutes",
+                "link": "https://hanselminutes.com/"
+            },
+            {
+                "name": "JS Party",
+                "link": "https://changelog.com/jsparty"
+            },
+            {
+                "name": "Ladybug Podcast",
+                "link": "https://www.ladybug.dev/"
+            },
+            {
+                "name": "Programming Throwdown",
+                "link": "https://www.programmingthrowdown.com/"
+            },
+            {
+                "name": "ShopTalk",
+                "link": "https://shoptalkshow.com/"
+            },
+            {
+                "name": "Software Engineering Daily",
+                "link": "https://softwareengineeringdaily.com/"
+            },
+            {
+                "name": "The Stack Overflow Podcast",
+                "link": "https://stackoverflow.blog/podcast/"
+            },
+            {
+                "name": "Syntax",
+                "link": "https://syntax.fm/"
+            }
+        ]
+    },
+    {
+        "name": "Fitness",
+        "podcasts": [
+            {
+                "name": "Iron Radio",
+                "link": "http://www.ironradio.org/"
+            },
+            {
+                "name": "Muscle for Life",
+                "link": "https://legionathletics.com/podcast/"
+            },
+            {
+                "name": "Stronger By Science",
+                "link": "https://www.strongerbyscience.com/"
+            }
+        ]
+    },
+    {
+        "name": "Food",
+        "podcasts": [
+            {
+                "name": "Gastropod",
+                "link": "https://gastropod.com/"
+            },
+            {
+                "name": "The Splendid Table",
+                "link": "https://www.splendidtable.org/"
+            },
+            {
+                "name": "The Sporkful",
+                "link": "http://www.sporkful.com/"
+            }
+        ]
+    },
+    {
+        "name": "News",
+        "podcasts": [
+            {
+                "name": "1A",
+                "link": "https://the1a.org/"
+            },
+            {
+                "name": "Axios Today",
+                "link": "https://www.axios.com/podcasts/today"
+            },
+            {
+                "name": "Business Matters",
+                "link": "https://www.bbc.co.uk/programmes/p016tl04"
+            },
+            {
+                "name": "The Daily",
+                "link": "https://www.nytimes.com/column/the-daily"
+            },
+            {
+                "name": "The Intelligence",
+                "link": "https://theintelligence.economist.com/"
+            },
+            {
+                "name": "The Journal",
+                "link": "https://www.wsj.com/podcasts/the-journal"
+            },
+            {
+                "name": "Up First",
+                "link": "https://www.npr.org/podcasts/510318/up-first"
+            },
+            {
+                "name": "Wait Wait...Don't Tell Me!",
+                "link": "https://www.npr.org/programs/wait-wait-dont-tell-me/"
+            }
+        ]
+    },
+    {
+        "name": "Politics",
+        "podcasts": [
+            {
+                "name": "All the Presidents' Lawyers",
+                "link": "https://www.npr.org/podcasts/615846125/k-c-r-w-s-l-r-c-presents-all-the-presidents-lawyers"
+            },
+            {
+                "name": "Checks and Balance",
+                "link": "https://www.economist.com/checks-and-balance-our-weekly-podcast-on-american-politics"
+            },
+            {
+                "name": "Common Sense with Dan Carlin",
+                "link": "https://www.dancarlin.com/product-category/common-sense-with-dan-carlin/"
+            },
+            {
+                "name": "FiveThirtyEight Politics",
+                "link": "https://fivethirtyeight.com/tag/politics-podcast/"
+            },
+            {
+                "name": "Intercepted",
+                "link": "https://theintercept.com/podcasts/intercepted/"
+            },
+            {
+                "name": "Ken Rudin's The Political Junkie",
+                "link": "https://www.krpoliticaljunkie.com/"
+            },
+            {
+                "name": "Left, Right & Center",
+                "link": "https://www.kcrw.com/news/shows/left-right-center"
+            },
+            {
+                "name": "NPR Politics",
+                "link": "https://www.npr.org/podcasts/510310/npr-politics-podcast"
+            },
+            {
+                "name": "People I Mostly Admire",
+                "link": "https://freakonomics.com/pima/"
+            },
+            {
+                "name": "Pod Save America",
+                "link": "https://crooked.com/podcast-series/pod-save-america/"
+            }
+        ]
+    },
+    {
+        "name": "Science",
+        "podcasts": [
+            {
+                "name": "Hidden Brain",
+                "link": "https://www.npr.org/series/423302056/hidden-brain"
+            },
+            {
+                "name": "Invisibilia",
+                "link": "https://www.npr.org/podcasts/510307/invisibilia"
+            },
+            {
+                "name": "Radiolab",
+                "link": "https://www.wnycstudios.org/podcasts/radiolab"
+            },
+            {
+                "name": "Science Friday",
+                "link": "https://www.wnycstudios.org/podcasts/science-friday"
+            },
+            {
+                "name": "Science Vs.",
+                "link": "https://gimletmedia.com/shows/science-vs"
+            },
+            {
+                "name": "Short Wave",
+                "link": "https://www.npr.org/podcasts/510351/short-wave"
+            }
+        ]
+    },
+    {
+        "name": "Sports",
+        "podcasts": [
+            {
+                "name": "30 for 30",
+                "link": "https://30for30podcasts.com/"
+            },
+            {
+                "name": "The Athletic Baseball Show",
+                "link": "https://theathletic.com/podcast/243-the-athletic-baseball-show/"
+            },
+            {
+                "name": "The Athletic Football Show",
+                "link": "https://theathletic.com/podcast/211-the-athletic-football-show/"
+            },
+            {
+                "name": "The Athletic Hockey Show",
+                "link": "https://theathletic.com/podcast/240-the-athletic-hockey-show/"
+            },
+            {
+                "name": "The Athletic NBA Show",
+                "link": "https://theathletic.com/podcast/8-the-nba-show/"
+            },
+            {
+                "name": "Beyond the Scrum",
+                "link": "https://theathletic.com/podcast/169-beyond-the-scrum/"
+            },
+            {
+                "name": "Birds with Friends",
+                "link": "https://theathletic.com/podcast/62-birds-with-friends/"
+            },
+            {
+                "name": "Chin Music",
+                "link": "https://blogs.fangraphs.com/category/chin-music/"
+            },
+            {
+                "name": "Effectively Wild",
+                "link": "https://blogs.fangraphs.com/category/effectively-wild/"
+            },
+            {
+                "name": "FanGraphs Baseball",
+                "link": "https://blogs.fangraphs.com/category/podcast/"
+            },
+            {
+                "name": "The Good Phight",
+                "link": "https://www.thegoodphight.com/"
+            },
+            {
+                "name": "High Hopes",
+                "link": "https://podcasts.apple.com/us/podcast/high-hopes-a-phillies-podcast/id1304311183"
+            },
+            {
+                "name": "The Lead",
+                "link": "https://theathletic.com/podcast/99-the-lead/"
+            },
+            {
+                "name": "Phillies Talk",
+                "link": "https://www.nbcsports.com/philadelphia/phillies-talk"
+            },
+            {
+                "name": "The PosCast",
+                "link": "https://theathletic.com/podcast/174-the-poscast/"
+            },
+            {
+                "name": "Puck Podcast",
+                "link": "https://puckpodcast.com/"
+            },
+            {
+                "name": "Puck Soup",
+                "link": "https://www.pucksoup.com/"
+            },
+            {
+                "name": "The Ringer MLB Show",
+                "link": "https://www.theringer.com/the-mlb-show"
+            },
+            {
+                "name": "The Ringer NBA Show",
+                "link": "https://www.theringer.com/the-nba-show"
+            },
+            {
+                "name": "The Ringer NFL Show",
+                "link": "https://www.theringer.com/the-nfl-show"
+            },
+            {
+                "name": "Sixers Beat",
+                "link": "https://theathletic.com/podcast/132-sixers-beat/"
+            }
+        ]
+    },
+    {
+        "name": "Tech",
+        "podcasts": [
+            {
+                "name": "Babbage",
+                "link": "https://www.economist.com/babbage/"
+            },
+            {
+                "name": "CYBER",
+                "link": "https://podcasts.apple.com/us/podcast/cyber/id1441708044"
+            },
+            {
+                "name": "Darknet Diaries",
+                "link": "https://darknetdiaries.com/"
+            },
+            {
+                "name": "Decoder",
+                "link": "https://www.theverge.com/decoder-podcast-with-nilay-patel"
+            },
+            {
+                "name": "Marketplace Tech",
+                "link": "https://www.marketplace.org/shows/marketplace-tech/"
+            },
+            {
+                "name": "Smashing Security",
+                "link": "https://www.smashingsecurity.com/"
+            },
+            {
+                "name": "Techdirt",
+                "link": "https://www.techdirt.com/blog/podcast/"
+            },
+            {
+                "name": "The Vergecast",
+                "link": "https://www.theverge.com/the-vergecast"
+            }
+        ]
+    },
+    {
+        "name": "Everything Else",
+        "podcasts": [
+            {
+                "name": "Against the Rules",
+                "link": "https://atrpodcast.com/"
+            },
+            {
+                "name": "Code Switch",
+                "link": "https://www.npr.org/sections/codeswitch/"
+            },
+            {
+                "name": "Hardcore History",
+                "link": "https://www.dancarlin.com/hardcore-history-series/"
+            },
+            {
+                "name": "Hardcore History: Addendum",
+                "link": "https://www.dancarlin.com/addendum/"
+            },
+            {
+                "name": "Death, Sex & Money",
+                "link": "https://www.wnycstudios.org/podcasts/deathsexmoney"
+            },
+            {
+                "name": "The Distraction",
+                "link": "https://www.stitcher.com/show/the-distraction-a-defector-podcast"
+            },
+            {
+                "name": "Doing Justice",
+                "link": "https://cafe.com/doing-justice-podcast/"
+            },
+            {
+                "name": "The Dream",
+                "link": "https://www.stitcher.com/show/the-dream"
+            },
+            {
+                "name": "The Ezra Klein Show",
+                "link": "https://www.nytimes.com/column/ezra-klein-podcast"
+            },
+            {
+                "name": "Fresh Air",
+                "link": "https://www.npr.org/programs/fresh-air/"
+            },
+            {
+                "name": "How I Built This",
+                "link": "https://www.npr.org/podcasts/510313/how-i-built-this"
+            },
+            {
+                "name": "It's Been a Minute",
+                "link": "https://www.npr.org/podcasts/510317/its-been-a-minute-with-sam-sanders"
+            },
+            {
+                "name": "The Jordan Harbinger Show",
+                "link": "https://www.jordanharbinger.com/"
+            },
+            {
+                "name": "Lifekit",
+                "link": "https://www.npr.org/lifekit"
+            },
+            {
+                "name": "Make Me Smart",
+                "link": "https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly/"
+            },
+            {
+                "name": "Make No Law",
+                "link": "https://legaltalknetwork.com/podcasts/make-no-law/"
+            },
+            {
+                "name": "Making Sense",
+                "link": "https://samharris.org/podcast/"
+            },
+            {
+                "name": "More Perfect",
+                "link": "https://www.wnycstudios.org/podcasts/radiolabmoreperfect"
+            },
+            {
+                "name": "On Point",
+                "link": "https://www.wbur.org/onpoint"
+            },
+            {
+                "name": "On the Media",
+                "link": "https://www.wnycstudios.org/podcasts/otm"
+            },
+            {
+                "name": "Pivot",
+                "link": "https://podcasts.voxmedia.com/show/pivot"
+            },
+            {
+                "name": "The Prof G Show",
+                "link": "https://westwoodonepodcasts.com/pods/the-prof-g-show-with-scott-galloway/"
+            },
+            {
+                "name": "Radio Times",
+                "link": "https://whyy.org/programs/radio-times/"
+            },
+            {
+                "name": "Reply All",
+                "link": "https://gimletmedia.com/shows/reply-all/episodes"
+            },
+            {
+                "name": "Revisionist History",
+                "link": "http://revisionisthistory.com/"
+            },
+            {
+                "name": "Rough Translation",
+                "link": "https://www.npr.org/podcasts/510324/rough-translation"
+            },
+            {
+                "name": "Serial",
+                "link": "https://serialpodcast.org/"
+            },
+            {
+                "name": "Slow Burn",
+                "link": "https://slate.com/podcasts/slow-burn/s1/watergate"
+            },
+            {
+                "name": "Snap Judgement",
+                "link": "https://snapjudgment.org/"
+            },
+            {
+                "name": "Sway",
+                "link": "https://www.nytimes.com/column/sway"
+            },
+            {
+                "name": "Swindled",
+                "link": "https://swindledpodcast.com/"
+            },
+            {
+                "name": "TED Radio Hour",
+                "link": "https://www.npr.org/podcasts/510298/ted-radio-hour"
+            },
+            {
+                "name": "This American Life",
+                "link": "https://www.thisamericanlife.org/"
+            },
+            {
+                "name": "This is Uncomfortable",
+                "link": "https://www.marketplace.org/shows/this-is-uncomfortable-reema-khrais/"
+            },
+            {
+                "name": "Throughline",
+                "link": "https://www.npr.org/podcasts/510333/throughline"
+            },
+            {
+                "name": "The Uncertain Hour",
+                "link": "https://www.marketplace.org/shows/the-uncertain-hour/"
+            },
+            {
+                "name": "The Upgrade",
+                "link": "https://lifehacker.com/c/the-upgrade"
+            },
+            {
+                "name": "Vox Conversations",
+                "link": "https://www.vox.com/vox-conversations-podcast"
+            },
+            {
+                "name": "Whatever Happened To...?",
+                "link": "https://curiouscast.ca/podcast/822/whatever-happened-to/"
+            },
+            {
+                "name": "You're Wrong About",
+                "link": "https://yourewrongabout.com/"
+            }
+        ]
+    }
+]
