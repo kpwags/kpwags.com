@@ -6,7 +6,7 @@ export const themeDefinitions: ThemeData = {
             id: 'light_theme',
             name: 'Light',
             colors: {
-                background: '#EDEDED',
+                background: '#FEFEFE',
                 text: '#343434',
                 link: 'hsl(225, 93%, 32%)',
                 h1: 'hsl(225, 93%, 32%)',

@@ -13,17 +13,83 @@ const Hdr = styled.header`
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
+    @media all and (max-width: 767px) {
+        line-height: 1.5;
+        padding: 10px 0;
+        height: auto;
+        text-align: center;
+        margin-bottom: 0;
+        display: block;
+    }
+
     div.site-title {
         grid-column-start: 1;
         grid-column-end: 1;
+        padding: 0 25px 0 10px;
+
+        @media all and (max-width: 767px) {
+            padding: 0;
+            line-height: 60px;
+        }
+
+        :hover {
+            animation: shake 2.5s linear forwards;
+
+            @keyframes shake {
+                5%,
+                15%,
+                25%,
+                35%,
+                55%,
+                65%,
+                75%,
+                95% {
+                    filter: blur(0.018em);
+                    transform: translateY(0.018em) rotate(0deg);
+                }
+
+                10%,
+                30%,
+                40%,
+                50%,
+                70%,
+                80%,
+                90% {
+                    filter: blur(0.01em);
+                    transform: translateY(-0.018em) rotate(0deg);
+                }
+
+                20%,
+                60% {
+                    filter: blur(0.03em);
+                    transform: translate(-0.018em, 0.018em) rotate(0deg);
+                }
+
+                45%,
+                85% {
+                    filter: blur(0.03em);
+                    transform: translate(0.018em, -0.018em) rotate(0deg);
+                }
+
+                100% {
+                    filter: blur(0.007em);
+                    transform: translate(0) rotate(-0.5deg);
+                }
+            }
+        }
 
         span.title {
             font-weight: 400;
-            font-size: 1.4rem;
-            padding: 0 25px 0 10px;
+            font-size: 1.7rem;
             color: ${({ theme }) => theme.colors.blue};
             letter-spacing: 0.08rem;
             float: left;
+
+            @media all and (max-width: 767px) {
+                float: none;
+                font-size: 2rem;
+                line-height: 60px;
+            }
         }
     }
 
@@ -33,11 +99,35 @@ const Hdr = styled.header`
         grid-column-end: 2;
         justify-self: end;
 
+        @media all and (max-width: 1023px) {
+            padding-right: 10px;
+        }
+
+        @media all and (max-width: 767px) {
+            display: block;
+            margin-top: 12px;
+        }
+
         a,
         a:visited {
             padding: 0 25px;
             font-size: 1.2rem;
             color: ${({ theme }) => theme.colors.blue};
+
+            @media all and (max-width: 1024px) {
+                padding: 0 10px;
+            }
+
+            @media all and (max-width: 767px) {
+                font-size: 1rem;
+                padding: 0 8px;
+            }
+        }
+
+        a.hide-on-mobile {
+            @media all and (max-width: 767px) {
+                display: none;
+            }
         }
 
         a:hover {
@@ -46,6 +136,10 @@ const Hdr = styled.header`
 
         a.extra-right {
             padding-right: 40px;
+
+            @media all and (max-width: 1024px) {
+                padding-right: 20px;
+            }
         }
 
         a svg#rss-svg {
@@ -68,13 +162,18 @@ const Header: React.FC = () => (
     <>
         <Hdr>
             <div className="site-title">
-                <span className="title"><a href="/">Keith Wagner</a></span>
+                <span className="title">
+                    <a href="/">Keith Wagner</a>
+                </span>
             </div>
             <nav>
+                <a href="/blog">Blog</a>
                 <a href="/photography">Photography</a>
                 <a href="/about">About</a>
                 <a href="/work">Work</a>
-                <a href="/uses" className="extra-right hide-on-mobile">Uses</a>
+                <a href="/uses" className="extra-right hide-on-mobile">
+                    Uses
+                </a>
                 <a href="/feed.xml" className="hide-on-mobile">
                     <svg width="64" height="64" id="rss-svg">
                         <g id="layer1">
