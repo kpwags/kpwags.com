@@ -24,7 +24,8 @@
     "paths": {
         "@components/*": ["components/*"],
         "@lib/*": ["lib/*"],
-        "@posts/*": ["posts/*"]
+        "@posts/*": ["posts/*"],
+        "@models/*": ["models/*"]
     }
   },
   "include": [

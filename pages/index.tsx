@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '@components/Header'
 import { getSortedPostsData } from '@lib/posts';
 
 export async function getStaticProps() {
@@ -12,26 +11,23 @@ export async function getStaticProps() {
 }
 
 interface HomeProps {
-    allPostsData: Array<{ id: string, date: Date, title: string }>
+    allPostsData: Array<{ id: string; date: Date; title: string }>;
 }
 
-const Home: React.FC<HomeProps> = ({ allPostsData }) => {
-    return (
-        <>
-            <Header />
-            <ul>
-                {allPostsData.map(({ id, date, title }) => (
-                    <li key={id}>
-                        {title}
-                        <br />
-                        {id}
-                        <br />
-                        {date}
-                    </li>
-                ))}
-            </ul>
-        </>
-    );
-};
+const Home: React.FC<HomeProps> = ({ allPostsData }) => (
+    <main>
+        <ul>
+            {allPostsData.map(({ id, date, title }) => (
+                <li key={id}>
+                    {title}
+                    <br />
+                    {id}
+                    <br />
+                    {date}
+                </li>
+            ))}
+        </ul>
+    </main>
+);
 
 export default Home;
