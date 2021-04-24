@@ -53,6 +53,15 @@
         "import/resolver": {
             "node": {
                 "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            },
+            "alias": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"],
+                "map": [
+                    ["@components", "./components"],
+                    ["@lib", "./lib"],
+                    ["@posts", "./posts"],
+                    ["@models", "./models"]
+                ]
             }
         }
     }

@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import _ from 'lodash';
-// eslint-disable-next-line import/no-unresolved
 import { Theme } from '@models/theme';
-// eslint-disable-next-line import/no-unresolved
 import { themeDefinitions } from '@lib/themeDefinitions';
 import { saveToLocalStorage, retrieveFromLocalStorage } from './storage';
 

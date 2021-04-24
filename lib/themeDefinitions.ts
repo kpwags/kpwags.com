@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import { ThemeData } from '@models/theme';
 
 export const themeDefinitions: ThemeData = {
