@@ -61,54 +61,7 @@ const Hdr = styled.header`
         a:hover svg path {
             fill: ${({ theme }) => theme.colors.mediumBlue};
         }
-
-        a svg#toggle-button {
-            max-height: 1.2rem;
-            vertical-align: middle;
-        }
-
-        a svg#toggle-button rect#togglebutton-rect {
-            stroke: ${({ theme }) => theme.colors.blue};
-        }
-
-        a:hover svg#toggle-button rect#togglebutton-rect {
-            stroke: ${({ theme }) => theme.colors.mediumBlue};
-        }
-
-        a svg#toggle-button circle#togglebutton-circle-lightmode,
-        a svg#toggle-button circle#togglebutton-circle-darkmode {
-            fill: ${({ theme }) => theme.colors.blue};
-        }
-
-        a:hover svg#toggle-button circle#togglebutton-circle-lightmode,
-        a:hover svg#toggle-button circle#togglebutton-circle-darkmode {
-            fill: ${({ theme }) => theme.colors.mediumBlue};
-        }
-
-        a svg#toggle-button #togglebutton-circle-lightmode {
-            display: var(--svg-display-lightmode);
-        }
-
-        a svg#toggle-button #togglebutton-circle-darkmode {
-            display: var(--svg-display-darkmode);
-        }
-
-        a svg#toggle-button #togglebutton-star {
-            display: var(--svg-display-lightmode);
-        }
-
-        a svg#toggle-button #togglebutton-sun-ellipse,
-        a svg#toggle-button #togglebutton-sun-star {
-            fill: #fff700;
-        }
-
-        a svg#toggle-button #togglebutton-moon {
-            fill: #363636;
-            display: var(--svg-display-darkmode);
-        }
     }
-
-
 `;
 
 const Header: React.FC = () => (
