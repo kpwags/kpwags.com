@@ -1,17 +1,14 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import styled, { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 import { AppProps } from 'next/app';
 import { useTheme } from '@lib/useTheme';
 import { GlobalStyles } from '@lib/GlobalStyles';
 import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 import '../styles/mavenpro.css';
-
-const Container = styled.div`
-    margin: 5px auto 5px auto;
-`;
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
     const { theme, themeLoaded } = useTheme();
@@ -31,10 +28,11 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
             {themeLoaded && (
                 <ThemeProvider theme={selectedTheme}>
                     <GlobalStyles />
-                    <Container style={{ fontFamily: selectedTheme.font }}>
+                    <div style={{ fontFamily: selectedTheme.font }}>
                         <Header />
                         <Component {...pageProps} />
-                    </Container>
+                        <Footer />
+                    </div>
                 </ThemeProvider>
             )}
         </>

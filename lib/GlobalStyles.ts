@@ -78,6 +78,7 @@ export const GlobalStyles = createGlobalStyle`
     main {
         width: 1024px;
         margin: 0 auto;
+        padding: 0 10px;
 
         @media all and (max-width: 1280px) {
             margin: 0 auto;
