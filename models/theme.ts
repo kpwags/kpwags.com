@@ -6,6 +6,7 @@ export interface ThemeColors {
     h2: string,
     blue: string,
     mediumBlue: string,
+    darkGray: string,
 }
 
 export interface Theme {
