@@ -2,12 +2,14 @@
 import React from 'react';
 import { getSortedPostsData } from '@lib/posts';
 import Welcome from '@components/Welcome';
+import LatestPosts from '@components/LatestPosts';
 
 export async function getStaticProps() {
-    const allPostsData = getSortedPostsData();
+    const postsData = getSortedPostsData();
+
     return {
         props: {
-            allPostsData,
+            allPostsData: postsData.length <= 5 ? postsData : postsData.slice(0, 5),
         },
     };
 }
@@ -19,6 +21,7 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ allPostsData }) => (
     <main>
         <Welcome />
+        <LatestPosts mostRecentPosts={allPostsData} />
     </main>
 );
 
