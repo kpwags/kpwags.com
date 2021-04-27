@@ -16,6 +16,7 @@ const Hello = styled.div`
             float: right;
             margin: 0 0 40px 75px;
             transition: transform 1.2s ease-in-out;
+            filter: drop-shadow(2px 4px 8px #585858);
 
             :hover {
                 transform: rotate(360deg);
