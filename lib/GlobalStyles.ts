@@ -36,6 +36,14 @@ export const GlobalStyles = createGlobalStyle`
         font-weight: 300;
     }
 
+    h1 {
+        font-weight: bold;
+        color: ${({ theme }: { theme: Theme }) => theme.colors.h1};
+        font-size: 2.1rem;
+        margin: 0;
+        padding: 0;
+    }
+
     img {
         max-width: 100%;
         vertical-align: middle;
