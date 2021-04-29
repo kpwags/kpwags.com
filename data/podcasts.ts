@@ -417,18 +417,22 @@ const podcasts: PodcastCategory[] = [
             {
                 name: 'The Good Phight',
                 link: 'https://www.thegoodphight.com/',
+                artwork: 'good_phight.jpg',
             },
             {
                 name: 'High Hopes',
                 link: 'https://podcasts.apple.com/us/podcast/high-hopes-a-phillies-podcast/id1304311183',
+                artwork: 'high_hopes.jpg',
             },
             {
                 name: 'The Lead',
                 link: 'https://theathletic.com/podcast/99-the-lead/',
+                artwork: 'the_lead.jpg',
             },
             {
                 name: 'Phillies Talk',
                 link: 'https://www.nbcsports.com/philadelphia/phillies-talk',
+                artwork: 'phillies_talk.jpg',
             },
             {
                 name: 'The PosCast',
