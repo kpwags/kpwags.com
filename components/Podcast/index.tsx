@@ -35,6 +35,10 @@ const Item = styled.div`
         width: 150px;
         height: 150px;
 
+        :hover {
+            animation: pulse-animation 2s infinite;
+        }
+
         @media all and (max-width: 1023px) {
             width: 100px;
             height: 100px;
@@ -42,6 +46,15 @@ const Item = styled.div`
 
         @media all and (max-width: 767px) {
             display: none;
+        }
+
+        @keyframes pulse-animation {
+            0% {
+                box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+            }
+            100% {
+                box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+            }
         }
     }
 `;

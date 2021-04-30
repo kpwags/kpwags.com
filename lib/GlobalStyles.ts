@@ -101,7 +101,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     main.wider {
-        width: 1200px;
+        width: 1280px;
 
         @media all and (max-width: 1280px) {
             width: 1024px;

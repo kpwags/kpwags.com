@@ -56,7 +56,7 @@ const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-column-gap: 10px;
-    grid-row-gap: 25px;
+    grid-row-gap: 20px;
 
     @media all and (max-width: 767px) {
         display:block;
