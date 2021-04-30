@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import React from 'react';
 import { GetStaticProps } from 'next';
+import Podcast from '@components/Podcast';
 import podcasts from '@data/podcasts';
 import { PodcastCategory } from '@models/podcasts';
 
 const Container = styled.div`
-    width: 800px;
     margin: 50px auto 30px auto;
 
     @media all and (max-width: 900px) {
@@ -50,13 +50,16 @@ const Category = styled.li`
     font-size: 1.3rem;
 `;
 
-const List = styled.ul`
-    margin: 0 25px 40px 25px;
+const Grid = styled.div`
+    margin: 0 0 40px;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
 
-    li {
-        margin: 10px 0;
-        font-size: 1.1rem;
+    @media all and (max-width: 767px) {
+        display:block;
     }
 `;
 
@@ -71,7 +74,7 @@ type PodcastsProps = {
 };
 
 const Podcasts: React.FC<PodcastsProps> = ({ listeningTo }) => (
-    <main>
+    <main className="wider">
         <Container>
             <h1>Podcasts I Listen To</h1>
 
@@ -82,15 +85,13 @@ const Podcasts: React.FC<PodcastsProps> = ({ listeningTo }) => (
                     <React.Fragment key={categoryName}>
                         <Category>{categoryName}</Category>
 
-                        <List>
-                            {podcastsInCategory.map(({ name: podcastName, link }) => (
-                                <li key={link}>
-                                    <a href={link} title={podcastName} target="_blank" rel="noreferrer">
-                                        {podcastName}
-                                    </a>
-                                </li>
-                            ))}
-                        </List>
+                        <Grid>
+                            {podcastsInCategory
+                                .filter((p) => p.artwork !== undefined)
+                                .map(({ name: podcastName, link, artwork }) => (
+                                    <Podcast podcastName={podcastName} link={link} artwork={artwork} key={link} />
+                                ))}
+                        </Grid>
                     </React.Fragment>
                 ))}
             </Categories>
