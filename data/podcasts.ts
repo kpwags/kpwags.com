@@ -50,6 +50,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'marketplace.jpg',
             },
             {
+                name: 'Marketplace Morning Report',
+                link: 'https://www.marketplace.org/shows/marketplace-morning-report/',
+                artwork: 'marketplace_morning_report.jpg',
+            },
+            {
                 name: 'Masters in Business',
                 link: 'https://www.bloomberg.com/podcasts/masters_in_business',
                 artwork: 'masters_in_business.jpg',
@@ -437,30 +442,32 @@ const podcasts: PodcastCategory[] = [
             {
                 name: 'The PosCast',
                 link: 'https://theathletic.com/podcast/174-the-poscast/',
+                artwork: 'poscast.jpg',
             },
             {
                 name: 'Puck Podcast',
                 link: 'https://puckpodcast.com/',
+                artwork: 'puck_podcast.jpg',
             },
             {
                 name: 'Puck Soup',
                 link: 'https://www.pucksoup.com/',
-            },
-            {
-                name: 'The Ringer MLB Show',
-                link: 'https://www.theringer.com/the-mlb-show',
+                artwork: 'puck_soup.jpg',
             },
             {
                 name: 'The Ringer NBA Show',
                 link: 'https://www.theringer.com/the-nba-show',
+                artwork: 'ringer_nba_show.jpg',
             },
             {
                 name: 'The Ringer NFL Show',
                 link: 'https://www.theringer.com/the-nfl-show',
+                artwork: 'ringer_nfl_show.jpg',
             },
             {
                 name: 'Sixers Beat',
                 link: 'https://theathletic.com/podcast/132-sixers-beat/',
+                artwork: 'sixers_beat.jpg',
             },
         ],
     },
@@ -470,34 +477,42 @@ const podcasts: PodcastCategory[] = [
             {
                 name: 'Babbage',
                 link: 'https://www.economist.com/babbage/',
+                artwork: 'babbage.jpg',
             },
             {
                 name: 'CYBER',
                 link: 'https://podcasts.apple.com/us/podcast/cyber/id1441708044',
+                artwork: 'cyber.jpg',
             },
             {
                 name: 'Darknet Diaries',
                 link: 'https://darknetdiaries.com/',
+                artwork: 'darknet_diaries.jpg',
             },
             {
                 name: 'Decoder',
                 link: 'https://www.theverge.com/decoder-podcast-with-nilay-patel',
+                artwork: 'decoder.jpg',
             },
             {
                 name: 'Marketplace Tech',
                 link: 'https://www.marketplace.org/shows/marketplace-tech/',
+                artwork: 'marketplace_tech.jpg',
             },
             {
                 name: 'Smashing Security',
                 link: 'https://www.smashingsecurity.com/',
+                artwork: 'smashing_security.jpg',
             },
             {
                 name: 'Techdirt',
                 link: 'https://www.techdirt.com/blog/podcast/',
+                artwork: 'techdirt.jpg',
             },
             {
                 name: 'The Vergecast',
                 link: 'https://www.theverge.com/the-vergecast',
+                artwork: 'vergecast.jpg',
             },
         ],
     },
@@ -507,158 +522,192 @@ const podcasts: PodcastCategory[] = [
             {
                 name: 'Against the Rules',
                 link: 'https://atrpodcast.com/',
+                artwork: 'against_the_rules.jpg',
             },
             {
                 name: 'Code Switch',
                 link: 'https://www.npr.org/sections/codeswitch/',
+                artwork: 'code_switch.jpg',
             },
             {
                 name: 'Hardcore History',
                 link: 'https://www.dancarlin.com/hardcore-history-series/',
+                artwork: 'hardcore_history.jpg',
             },
             {
                 name: 'Hardcore History: Addendum',
                 link: 'https://www.dancarlin.com/addendum/',
+                artwork: 'hardcore_history_addendum.jpg',
             },
             {
                 name: 'Death, Sex & Money',
                 link: 'https://www.wnycstudios.org/podcasts/deathsexmoney',
+                artwork: 'death_sex_and_money.jpg',
             },
             {
                 name: 'The Distraction',
                 link: 'https://www.stitcher.com/show/the-distraction-a-defector-podcast',
+                artwork: 'distraction.jpg',
             },
             {
                 name: 'The Dream',
                 link: 'https://www.stitcher.com/show/the-dream',
+                artwork: 'the_dream.jpg',
             },
             {
                 name: 'The Ezra Klein Show',
                 link: 'https://www.nytimes.com/column/ezra-klein-podcast',
+                artwork: 'ezra_klein_show.jpg',
             },
             {
                 name: 'Fresh Air',
                 link: 'https://www.npr.org/programs/fresh-air/',
+                artwork: 'fresh_air.jpg',
             },
             {
                 name: 'How I Built This',
                 link: 'https://www.npr.org/podcasts/510313/how-i-built-this',
+                artwork: 'how_i_built_this.jpg',
             },
             {
                 name: "It's Been a Minute",
                 link: 'https://www.npr.org/podcasts/510317/its-been-a-minute-with-sam-sanders',
+                artwork: 'its_been_a_minute.jpg',
             },
             {
                 name: 'The Jordan Harbinger Show',
                 link: 'https://www.jordanharbinger.com/',
+                artwork: 'jordan_harbinger_show.jpg',
             },
             {
                 name: 'Lifekit',
                 link: 'https://www.npr.org/lifekit',
+                artwork: 'lifekit.jpg',
             },
             {
                 name: 'Make Me Smart',
                 link: 'https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly/',
+                artwork: 'make_me_smart.jpg',
             },
             {
                 name: 'Make No Law',
                 link: 'https://legaltalknetwork.com/podcasts/make-no-law/',
+                artwork: 'make_no_law.jpg',
             },
             {
                 name: 'More Perfect',
                 link: 'https://www.wnycstudios.org/podcasts/radiolabmoreperfect',
+                artwork: 'more_perfect.jpg',
             },
             {
                 name: 'On Point',
                 link: 'https://www.wbur.org/onpoint',
+                artwork: 'on_point.jpg',
             },
             {
                 name: 'On the Media',
                 link: 'https://www.wnycstudios.org/podcasts/otm',
+                artwork: 'on_the_media.jpg',
             },
             {
                 name: 'People I Mostly Admire',
                 link: 'https://freakonomics.com/pima/',
+                artwork: 'people_i_mostly_admire.jpg',
             },
             {
                 name: 'Pivot',
                 link: 'https://podcasts.voxmedia.com/show/pivot',
-            },
-            {
-                name: 'The Prof G Show',
-                link: 'https://westwoodonepodcasts.com/pods/the-prof-g-show-with-scott-galloway/',
+                artwork: 'pivot.jpg',
             },
             {
                 name: 'Radio Times',
                 link: 'https://whyy.org/programs/radio-times/',
+                artwork: 'radio_times.jpg',
             },
             {
                 name: 'Reply All',
                 link: 'https://gimletmedia.com/shows/reply-all/episodes',
+                artwork: 'reply_all.jpg',
             },
             {
                 name: 'Revisionist History',
                 link: 'http://revisionisthistory.com/',
+                artwork: 'revisionist_history.jpg',
             },
             {
                 name: 'Rough Translation',
                 link: 'https://www.npr.org/podcasts/510324/rough-translation',
+                artwork: 'rough_translation.jpg',
             },
             {
                 name: 'Serial',
                 link: 'https://serialpodcast.org/',
+                artwork: 'serial.jpg',
             },
             {
                 name: 'Slow Burn',
                 link: 'https://slate.com/podcasts/slow-burn/s1/watergate',
+                artwork: 'slow_burn.jpg',
             },
             {
                 name: 'Snap Judgement',
                 link: 'https://snapjudgment.org/',
+                artwork: 'snap_judgement.jpg',
             },
             {
                 name: 'Sway',
                 link: 'https://www.nytimes.com/column/sway',
+                artwork: 'sway.jpg',
             },
             {
                 name: 'Swindled',
                 link: 'https://swindledpodcast.com/',
+                artwork: 'swindled.jpg',
             },
             {
                 name: 'TED Radio Hour',
                 link: 'https://www.npr.org/podcasts/510298/ted-radio-hour',
+                artwork: 'ted_radio_hour.jpg',
             },
             {
                 name: 'This American Life',
                 link: 'https://www.thisamericanlife.org/',
+                artwork: 'this_american_life.jpg',
             },
             {
                 name: 'This is Uncomfortable',
                 link: 'https://www.marketplace.org/shows/this-is-uncomfortable-reema-khrais/',
+                artwork: 'this_is_uncomfortable.jpg',
             },
             {
                 name: 'Throughline',
                 link: 'https://www.npr.org/podcasts/510333/throughline',
+                artwork: 'throughline.jpg',
             },
             {
                 name: 'The Uncertain Hour',
                 link: 'https://www.marketplace.org/shows/the-uncertain-hour/',
+                artwork: 'uncertain_hour.jpg',
             },
             {
                 name: 'The Upgrade',
                 link: 'https://lifehacker.com/c/the-upgrade',
+                artwork: 'the_upgrade.jpg',
             },
             {
                 name: 'Vox Conversations',
                 link: 'https://www.vox.com/vox-conversations-podcast',
+                artwork: 'vox_conversations.jpg',
             },
             {
-                name: 'Whatever Happened To...?',
+                name: 'What Happened To...?',
                 link: 'https://curiouscast.ca/podcast/822/whatever-happened-to/',
+                artwork: 'what_happened_to.jpg',
             },
             {
                 name: "You're Wrong About",
                 link: 'https://yourewrongabout.com/',
+                artwork: 'youre_wrong_about.jpg',
             },
         ],
     },

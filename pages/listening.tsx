@@ -50,9 +50,17 @@ const Category = styled.li`
     font-size: 1.3rem;
 `;
 
-const List = styled.ul`
+const Grid = styled.div`
     margin: 0 0 40px;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+
+    @media all and (max-width: 767px) {
+        display:block;
+    }
 `;
 
 export const getStaticProps: GetStaticProps = async () => ({
@@ -77,13 +85,13 @@ const Podcasts: React.FC<PodcastsProps> = ({ listeningTo }) => (
                     <React.Fragment key={categoryName}>
                         <Category>{categoryName}</Category>
 
-                        <List>
+                        <Grid>
                             {podcastsInCategory
                                 .filter((p) => p.artwork !== undefined)
                                 .map(({ name: podcastName, link, artwork }) => (
                                     <Podcast podcastName={podcastName} link={link} artwork={artwork} key={link} />
                                 ))}
-                        </List>
+                        </Grid>
                     </React.Fragment>
                 ))}
             </Categories>

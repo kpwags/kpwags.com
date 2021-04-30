@@ -7,13 +7,12 @@ type PodcastProps = {
     artwork: string;
 };
 
-const Item = styled.li`
-    margin: 20px 10px;
+const Item = styled.div`
     font-size: 1.1rem;
     width: 150px;
-    display: inline-block;
     text-align: center;
     vertical-align: top;
+    line-height: 1.3;
 
     @media all and (max-width: 1023px) {
         width: 100px;
@@ -22,7 +21,12 @@ const Item = styled.li`
     @media all and (max-width: 767px) {
         text-align: left;
         display: block;
-        margin: 20px 0 20px 20px;
+        margin: 20px 0 20px 0;
+        width: 100%;
+
+        a {
+            padding-left: 12px;
+        }
     }
 
     img {
