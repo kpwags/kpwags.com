@@ -42,6 +42,10 @@ export const GlobalStyles = createGlobalStyle`
         font-size: 2.1rem;
         margin: 0;
         padding: 0;
+
+        span {
+            white-space: nowrap;
+        }
     }
 
     img {
