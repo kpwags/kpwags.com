@@ -119,4 +119,8 @@ export const GlobalStyles = createGlobalStyle`
             width: 100%;
         }
     }
+
+    .clear {
+        clear: both;
+    }
 `;
