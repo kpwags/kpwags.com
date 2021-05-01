@@ -33,10 +33,6 @@ const Hello = styled.div`
             color: ${({ theme }) => theme.colors.blue};
         }
     }
-
-    .clear {
-        clear: both;
-    }
 `;
 
 const Welcome: React.FC = () => (
