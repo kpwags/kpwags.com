@@ -48,6 +48,18 @@ export const GlobalStyles = createGlobalStyle`
         }
     }
 
+    h2 {
+        font-weight: bold;
+        color: ${({ theme }: { theme: Theme }) => theme.colors.h2};
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 0;
+
+        span {
+            white-space: nowrap;
+        }
+    }
+
     img {
         max-width: 100%;
         vertical-align: middle;
