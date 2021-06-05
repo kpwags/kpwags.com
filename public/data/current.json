@@ -12,8 +12,8 @@
     ],
     "watching": [
         {
-            "title": "The Expanse",
-            "cover": "expanse.jpg"
+            "title": "Person of Interest",
+            "cover": "personofinterest.jpg"
         },
         {
             "title": "Cosmos",
@@ -26,21 +26,15 @@
     ],
     "playing": [
         {
-            "title": "Destiny 2",
-            "system": "Xbox Series X & PC",
-            "cover": "destiny2.jpg",
-            "link": "https://www.bungie.net/7/en/Destiny/NewLight"
-        },
-        {
-            "title": "Borderlands 3",
+            "title": "MLB The Show 21",
             "system": "Xbox Series X",
-            "cover": "borderlands3.jpg",
-            "link": "https://www.microsoft.com/en-us/p/Borderlands-3/C34NB0F1B5WQ"
+            "cover": "mlb21.jpg",
+            "link": "https://www.xbox.com/en-US/games/mlb-the-show-21"
         },
         {
-            "title": "World of Warcraft",
+            "title": "WoW Burning Crusade: Classic",
             "system": "PC",
-            "cover": "wow_shadowlands.jpg",
+            "cover": "wow_tbc_classic.jpg",
             "link": "https://worldofwarcraft.com/en-us/"
         }
     ]
