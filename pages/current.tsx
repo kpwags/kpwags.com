@@ -3,7 +3,9 @@ import { FC } from 'react';
 import current from '@data/current';
 import { GetStaticProps } from 'next';
 import { CurrentlyDoing } from '@models/currentlyDoing';
-import VideoGame from '@components/VideoGame';
+import GameListing from '@components/GameListing';
+import BookListing from '@components/BookListing';
+import TVListing from '@components/TVListing';
 
 const Container = styled.div`
     margin: 50px auto 30px auto;
@@ -53,7 +55,7 @@ const Grid = styled.div`
     justify-items: center;
 
     @media all and (max-width: 767px) {
-        display:block;
+        display: block;
     }
 `;
 
@@ -78,11 +80,27 @@ const Current: FC<CurrentProps> = ({ currentlyDoing }) => (
                 {currentlyDoing.lastUpdate}
             </p>
 
+            <h2>Reading</h2>
+
+            <Grid>
+                {currentlyDoing.reading.map((book) => (
+                    <BookListing book={book} key={book.cover} />
+                ))}
+            </Grid>
+
             <h2>Playing</h2>
 
             <Grid>
                 {currentlyDoing.playing.map((game) => (
-                    <VideoGame game={game} key={game.cover} />
+                    <GameListing game={game} key={game.cover} />
+                ))}
+            </Grid>
+
+            <h2>Watching</h2>
+
+            <Grid>
+                {currentlyDoing.watching.map((tvShow) => (
+                    <TVListing tvShow={tvShow} key={tvShow.cover} />
                 ))}
             </Grid>
         </Container>

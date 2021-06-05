@@ -1,13 +1,13 @@
-import { Game } from '@models/game';
+import { Book } from '@models/book';
 import { FC } from 'react';
 import styled from 'styled-components';
 
-type GameProps = {
-    game: Game
+type BookListingProps = {
+    book: Book
 }
 
 const Item = styled.div`
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     width: 250px;
     text-align: center;
     vertical-align: top;
@@ -53,25 +53,19 @@ const Item = styled.div`
     }
 `;
 
-const VideoGame: FC<GameProps> = ({ game }) => (
+const BookListing: FC<BookListingProps> = ({ book }) => (
     <Item>
-        <a href={game.link} target="_blank" rel="noreferrer">
+        <a href={book.link} target="_blank" rel="noreferrer">
             <picture>
-                <source srcSet={`/images/games/${game.cover}`} media="(min-width: 767px)" />
-                <img src="/images/1x1.png" alt={game.title} />
+                <source srcSet={`/images/books/${book.cover}`} media="(min-width: 767px)" />
+                <img src="/images/1x1.png" alt={book.title} />
             </picture>
         </a>
 
-        <a href={game.link} target="_blank" rel="noreferrer">
-            {game.title}
-            <br />
-            <span>
-                (
-                {game.system}
-                )
-            </span>
+        <a href={book.link} target="_blank" rel="noreferrer">
+            {book.title}
         </a>
     </Item>
 );
 
-export default VideoGame;
+export default BookListing;
