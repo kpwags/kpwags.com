@@ -47,7 +47,12 @@
         ],
         "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars-experimental": "error",
-        "no-unused-vars": "off"
+        "no-unused-vars": "off",
+        "jsx-a11y/anchor-is-valid": [ "error", {
+            "components": [ "Link" ],
+            "specialLink": [ "hrefLeft", "hrefRight" ],
+            "aspects": [ "invalidHref", "preferButton" ]
+        }]
     },
     "settings": {
         "import/resolver": {
