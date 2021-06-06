@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styled from 'styled-components';
 
 const Ftr = styled.footer`
@@ -56,34 +57,54 @@ const Footer: React.FC = () => (
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="/blog">Blog</a>
+                <Link href="/blog">
+                    <a title="Blog">Blog</a>
+                </Link>
             </li>
             <li>
-                <a href="/photography">Photography</a>
+                <Link href="/photography">
+                    <a title="Photography">Photography</a>
+                </Link>
             </li>
             <li>
-                <a href="/about">About</a>
+                <Link href="/about">
+                    <a title="About">About</a>
+                </Link>
             </li>
             <li>
-                <a href="/work">Work</a>
+                <Link href="/work">
+                    <a title="Work">Work</a>
+                </Link>
             </li>
             <li>
-                <a href="/uses">Uses</a>
+                <Link href="/uses">
+                    <a title="Uses">Uses</a>
+                </Link>
             </li>
             <li>
-                <a href="/bookshelf">Bookshelf</a>
+                <Link href="/bookshelf">
+                    <a title="Bookshelf">Bookshelf</a>
+                </Link>
             </li>
             <li>
-                <a href="/current">What I&apos;m Doing</a>
+                <Link href="/current">
+                    <a title="What I&apos;m Doing">What I&apos;m Doing</a>
+                </Link>
             </li>
             <li>
-                <a href="/movies">Movies</a>
+                <Link href="/movies">
+                    <a title="Movies">Movies</a>
+                </Link>
             </li>
             <li>
-                <a href="/likes">Likes</a>
+                <Link href="/likes">
+                    <a title="Likes">Likes</a>
+                </Link>
             </li>
             <li>
-                <a href="/listening/">Podcasts</a>
+                <Link href="/listening/">
+                    <a title="Podcasts">Podcasts</a>
+                </Link>
             </li>
         </ul>
         <ul>
@@ -98,7 +119,9 @@ const Footer: React.FC = () => (
                 <a href="https://www.twitter.com/kpwags">Twitter</a>
             </li>
             <li>
-                <a href="/feed.xml">RSS</a>
+                <Link href="/feed.xml">
+                    <a title="RSS">RSS</a>
+                </Link>
             </li>
         </ul>
     </Ftr>
