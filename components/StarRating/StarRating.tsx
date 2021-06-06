@@ -15,13 +15,13 @@ const StarRating: FC<StarRatingProps> = ({ rating }) => {
         const starsHtml = [];
 
         for (let i = 0; i < rating; i += 1) {
-            starsHtml.push(<Star src="/images/rating-star.png" alt="star" />);
+            starsHtml.push(<Star src="/images/rating-star.png" alt="star" key={i} />);
         }
 
         return starsHtml;
     };
 
-    return (<>{getStars()}</>);
+    return (<div>{getStars()}</div>);
 };
 
 export default StarRating;
