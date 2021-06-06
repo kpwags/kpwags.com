@@ -1,3 +1,4 @@
+import StarRating from '@components/StarRating/StarRating';
 import { Movie } from '@models/movie';
 import { FC, useState } from 'react';
 import styled from 'styled-components';
@@ -23,7 +24,7 @@ const Item = styled.div`
         width: 100%;
     }
 
-    img {
+    img.cover {
         border: 1px solid #bcbcbc;
         margin: 0 auto 5px;
         max-height:200px;
@@ -91,7 +92,7 @@ const MovieListing: FC<MovieListingProps> = ({ movie }) => {
             <a href={movie.link} target="_blank" rel="noreferrer">
                 <picture>
                     <source srcSet={`/images/movies/${movie.cover}`} media="(min-width: 767px)" />
-                    <img src="/images/1x1.png" alt={movie.title} />
+                    <img className="cover" src="/images/1x1.png" alt={movie.title} />
                 </picture>
             </a>
 
@@ -102,6 +103,8 @@ const MovieListing: FC<MovieListingProps> = ({ movie }) => {
             <div className="dateWatched">
                 {movie.dateWatched}
             </div>
+
+            <StarRating rating={movie.rating} />
 
             {movie.thoughts !== null && (
                 <div className="viewThoughts">
