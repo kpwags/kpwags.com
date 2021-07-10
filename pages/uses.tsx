@@ -13,7 +13,7 @@ const About: React.FC = () => (
     <main>
         <h1>What I Use</h1>
         <Container>
-            <p><em>Last Updated: February 2021</em></p>
+            <p><em>Last Updated: July 2021</em></p>
             <h2>Computers</h2>
 
             <h3>PC</h3>
