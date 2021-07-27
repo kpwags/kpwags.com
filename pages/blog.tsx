@@ -14,11 +14,11 @@ export const getStaticProps: GetStaticProps = async () => {
     };
 };
 
-interface HomeProps {
+interface BlogProps {
     allPostsData: Array<{ id: string; date: Date; title: string }>;
 }
 
-const Home: React.FC<HomeProps> = ({ allPostsData }) => (
+const Home: React.FC<BlogProps> = ({ allPostsData }) => (
     <main>
         <Welcome />
         <LatestPosts mostRecentPosts={allPostsData} />
