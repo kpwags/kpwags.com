@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { formatDate } from '@lib/utilities';
+import Link from 'next/link';
+import { formatDate, buildUrlFromId } from '@lib/utilities';
+import { BlogPost } from '@models/blogPost';
 
 const Post = styled.article`
     list-style-type: none;
@@ -14,22 +16,16 @@ const Post = styled.article`
 `;
 
 interface PostListingProps {
-    id: string
-    date: Date
-    title: string
-    excerpt: string
+    post: BlogPost
 }
 
 const PostListing: React.FC<PostListingProps> = ({
-    id,
-    date,
-    title,
-    excerpt,
+    post,
 }) => (
-    <Post key={id}>
-        <h2>{title}</h2>
-        <div className="datetime">{formatDate(date)}</div>
-        <p>{excerpt}</p>
+    <Post key={post.id}>
+        <h2><Link href={buildUrlFromId(post.id)}><a>{post.title}</a></Link></h2>
+        <div className="datetime">{formatDate(post.date)}</div>
+        <p>{post.excerpt}</p>
     </Post>
 );
 

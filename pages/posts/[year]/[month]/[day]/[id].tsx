@@ -1,17 +1,8 @@
-import { ReactNode } from 'react';
-import DefaultLayout from '@components/DefaultLayout/DefaultLayout';
+import { FC } from 'react';
+import { BlogPost } from '@models/blogPost';
+import BlogEntry from '@components/BlogEntry';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllPostIds, getPostData } from '@lib/posts';
-
-const Post = ({ postData }: { postData: { title: string, id: string, date: Date } }): ReactNode => (
-    <DefaultLayout>
-        {postData.title}
-        <br />
-        {postData.id}
-        <br />
-        {postData.date}
-    </DefaultLayout>
-);
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllPostIds();
@@ -27,9 +18,17 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
     return {
         props: {
-            postData,
+            post: postData,
         },
     };
 };
+
+interface PostProps {
+    post: BlogPost
+}
+
+const Post: FC<PostProps> = ({ post }) => (
+    <BlogEntry post={post} />
+);
 
 export default Post;

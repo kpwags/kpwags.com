@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import DefaultLayout from '@components/DefaultLayout/DefaultLayout';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllPostIds, getPostData } from '@lib/posts';
 import { BlogPost } from '@models/blogPost';
+import BlogEntry from '@components/BlogEntry';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllPostIds(true);
@@ -28,11 +28,7 @@ interface PostProps {
 }
 
 const Post: FC<PostProps> = ({ post }) => (
-    <DefaultLayout>
-        <h2>{post.title}</h2>
-        <div><em>{post.date}</em></div>
-        <div dangerouslySetInnerHTML={{ __html: post.content || 'No content found' }} />
-    </DefaultLayout>
+    <BlogEntry post={post} />
 );
 
 export default Post;

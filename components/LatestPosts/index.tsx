@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { formatDate } from '@lib/utilities';
+import Link from 'next/link';
+import { formatDate, buildUrlFromId } from '@lib/utilities';
 
 const Latest = styled.div`
     margin: 40px 0;
@@ -36,7 +37,9 @@ const LatestPosts: React.FC<LatestPostsProps> = ({ mostRecentPosts }) => (
         <Posts>
             {mostRecentPosts.map(({ id, date, title }) => (
                 <Post key={id}>
-                    <div className="title">{title}</div>
+                    <div className="title">
+                        <Link href={buildUrlFromId(id)}><a>{title}</a></Link>
+                    </div>
                     <div className="datetime">{formatDate(date)}</div>
                 </Post>
             ))}

@@ -135,4 +135,59 @@ export const GlobalStyles = createGlobalStyle`
     .clear {
         clear: both;
     }
+
+    .paginate-wrap {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 1rem 0 0 0;
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+        max-width: 100%;
+        flex-wrap: wrap;
+        background: #ccc;
+
+
+        .paginate-a,
+        .paginate-next-a,
+        .paginate-prev-a,
+        .paginate-break-a {
+            cursor: pointer;
+            padding: 0.2rem 0.4rem;
+
+            &:focus {
+            outline: 0;
+            }
+
+            &:hover {
+            background: $purple-color;
+            background: $purple-color-lighter;
+            }
+        }
+
+        .paginate-li {
+            margin: 0 0.2rem;
+        }
+
+        .paginate-next-a,
+        .paginate-prev-a {
+            color: $purple-color;
+            margin: 0 0.3rem;
+        }
+
+        .paginate-active {
+            border: 2px solid $purple-color-lighter;
+            background: $purple-color-lighter;
+        }
+
+        .paginate-disabled > a {
+            cursor: not-allowed;
+            background: transparent;
+            color: #666;
+
+            &:hover {
+            background: transparent !important;
+            }
+        }
+    }
 `;

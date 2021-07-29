@@ -4,10 +4,24 @@ import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
 import { JSDOM } from 'jsdom';
+import { BlogPost } from '@models/blogPost';
+import { postsPerPage } from './config';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
-export function getSortedPostsData() {
+export const getPostExcerpt = (html: string): string => {
+    const dom = new JSDOM(html);
+
+    const paragraphs = dom.window.document.getElementsByTagName('p');
+
+    if (paragraphs.length === 0) {
+        return html;
+    }
+
+    return paragraphs[0].innerHTML;
+};
+
+export const getSortedPostsData = () : BlogPost[] => {
     // Get file names under /posts
     const fileNames = fs.readdirSync(postsDirectory);
 
@@ -22,22 +36,27 @@ export function getSortedPostsData() {
         // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents);
 
+        const html = marked(matterResult.content);
+        const excerpt = getPostExcerpt(html);
+
         // Combine the data with the id
         return {
             id,
-            ...matterResult.data,
+            title: matterResult.data.title,
+            excerpt,
+            content: html,
+            date: matterResult.data.date,
         };
     });
 
     // Sort posts by date
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    return allPostsData.sort((a: any, b: any) => {
+    return allPostsData.sort((a: BlogPost, b: BlogPost) => {
         if (a.date < b.date) {
             return 1;
         }
         return -1;
     });
-}
+};
 
 export function getAllPostIds(includeHtmlExtension = false) {
     const fileNames = fs.readdirSync(postsDirectory);
@@ -57,16 +76,27 @@ export function getAllPostIds(includeHtmlExtension = false) {
     });
 }
 
-export const getPostExcerpt = (html: string): string => {
-    const dom = new JSDOM(html);
+export const getPostCount = (): number => {
+    const fileNames = fs.readdirSync(postsDirectory);
+    return fileNames.length;
+};
 
-    const paragraphs = dom.window.document.getElementsByTagName('p');
+export const getPostPages = () => {
+    const postCount = getPostCount();
 
-    if (paragraphs.length === 0) {
-        return html;
+    const maxPage = Math.ceil(postCount / postsPerPage);
+
+    const paths = [];
+
+    for (let x = 1; x < maxPage; x += 1) {
+        paths.push(x);
     }
 
-    return paragraphs[0].innerHTML;
+    return paths.map((p) => ({
+        params: {
+            page: p.toString(),
+        },
+    }));
 };
 
 export const getPostData = (year: string, month: string, day: string, id: string) => {
@@ -87,5 +117,19 @@ export const getPostData = (year: string, month: string, day: string, id: string
         excerpt,
         content: html,
         ...matterResult.data,
+    };
+};
+
+export const getPaginatedPosts = (page: number, count = postsPerPage) => {
+    const sortedPosts = getSortedPostsData();
+
+    const start = (page - 1) * 10;
+    const end = start + count;
+
+    const maxPage = Math.ceil(sortedPosts.length / postsPerPage);
+
+    return {
+        totalPages: maxPage,
+        posts: sortedPosts.slice(start, end),
     };
 };

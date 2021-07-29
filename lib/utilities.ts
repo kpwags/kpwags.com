@@ -42,3 +42,10 @@ export const formatDate = (dateVal: string|Date): string => {
 
     return `${month} ${day}, ${year}`;
 };
+
+export const buildUrlFromId = (id: string): string => {
+    const arr = id.split('-');
+    const stub = arr.splice(3).join('-');
+
+    return `posts/${arr[0]}/${arr[1]}/${arr[2]}/${stub}`;
+};
