@@ -1,6 +1,6 @@
 ---
 title: 'Delays, Delays...'
-date: 2014-01-24 2:30 pm
+date: '2014-01-24'
 ---
 
 This week, I was hoping to get back into my gym routine. I went so far as to do a double session on Monday in hockey (2.5 hours of drills) and was all ready to start on Tuesday after a few false starts over the last month.

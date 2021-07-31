@@ -1,6 +1,6 @@
 ---
 title: "What's on the Horizon for 2014?"
-date: 2013-12-29 4:00 pm
+date: '2013-12-29'
 ---
 
 I still can't believe that 2013 is almost over. It really seems like the year just flew by. I guess part of it was all the wedding preparation and the wedding itself. There are still some days where I can't believe I'm married, though I'm definitely happy I am…just seems so surreal.

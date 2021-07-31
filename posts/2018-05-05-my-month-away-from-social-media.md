@@ -1,6 +1,6 @@
 ---
 title: 'My Month Away from Social Media'
-date: 2018-05-05 1:14 pm
+date: '2018-05-05'
 ---
 
 In my last post, I was saying that I was going to attempt an experiment in how I got my news. I decided to turn off Twitter, Facebook and Reddit. Instead of them, I opted for utilizing my subscriptions to the New York Times, Wall Street Journal and The Economist. I also ended up using RSS feeds as well.

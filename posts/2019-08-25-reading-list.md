@@ -1,6 +1,6 @@
 ---
 title: 'Reading List 8/19 - 8/25'
-date: 2019-08-25 10:00 am
+date: '2019-08-25'
 ---
 
 This week I read about Javascript, jQuery, terraforming Mars, baseball cards and more.

@@ -1,6 +1,6 @@
 ---
 title: 'My Cat Cookie is Now 11 Years Old'
-date: 2020-05-15 4:10pm
+date: '2020-05-15'
 ---
 
 Meet Cookie, the cat that I’ve had now for almost 11 years.

@@ -1,6 +1,6 @@
 ---
 title: 'So I Finally Just Built a Home Gym'
-date: 2020-08-04 7:57pm
+date: '2020-08-04'
 ---
 
 Four months into the COVID-19 Pandemic, I finally broke down and built a gym in my basement.

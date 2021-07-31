@@ -1,6 +1,6 @@
 ---
 title: 'Three Months Down in 2021'
-date: 2021-04-06 7:40pm
+date: '2021-04-06'
 ---
 
 I still can't believe it's already April, it really seems like it was just New Year's yesterday. Alas, I figured I'd check in with how I'm doing with my goals.
@@ -28,7 +28,7 @@ I ended up getting my first COVID-19 shot mid-March. I am getting my second this
 I also ended up re-doing my office this past week. I switched from an ultrawide monitor to dual 27" 4k monitors. I have to say I like the extra screen real estate. I ended up moving my ultrawide downstairs to use for work. Since both my wife and I work from home and regularly have calls, I ended up creating a second office in my basement for work so that we're not interfering with each other. An added benefit of this setup is that it gives me some separation between "home" and "work". When I'm downstairs, I'm working; when I'm upstairs, I am on my own time.
 
 <div class="centered-image">
-    <img src="/assets/images/posts/2021-04-06-three-months-down-in-2021/desksetup.jpg" alt="My new desk setup with dual 27'' 4k monitors" class="shadowed" />
+    <img src="/images/posts/2021-04-06-three-months-down-in-2021/desksetup.jpg" alt="My new desk setup with dual 27'' 4k monitors" class="shadowed" />
 </div>
 
 My wife and I have now also started to re-do the kitchen cabinets. It's a smaller home improvement project, but we're taking the cabinet doors off, sanding and re-painting everything, and installing new hardware. It's not exactly HGTV-worthy, but it should spruce the kitchen up a little bit until we get around to redoing it entirely.

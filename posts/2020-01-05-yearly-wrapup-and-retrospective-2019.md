@@ -1,6 +1,6 @@
 ---
 title: 'Yearly Wrap-up and Retrospective: 2019'
-date: 2020-01-05 7:00 pm
+date: '2020-01-05'
 ---
 
 Another year has passed and it’s been a tradition of mine as of late to look back on the year that was to see what I hoped to have done, what I did, and where I might improve. I really wish I knew where 2019 went because it seemed to have just flown by. It seemed like it was just yesterday that I was writing about 2018, looking onward to 2019. Now 2019 is gone, the new decade has [maybe?](https://xkcd.com/2249/) begun, and I’m a year older.

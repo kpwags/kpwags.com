@@ -1,6 +1,6 @@
 ---
 title: 'Delving into Unit Testing'
-date: 2020-05-06 6:48pm
+date: '2020-05-06'
 ---
 
 In all of my professional experience, I've never worked for a company that did any unit testing and because of that, I haven't really done any either. I knew what unit testing is and the general concepts behind it, but never got around to actually building or implementing any tests. I decided that for Digital Family Cookbook, that would change.

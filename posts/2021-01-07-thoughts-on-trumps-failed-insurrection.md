@@ -1,6 +1,6 @@
 ---
 title: "Thoughts on Trump's Failed Insurrection"
-date: 2021-01-07 8:47pm
+date: '2021-01-07'
 ---
 
 As I'm sure just about all are aware, yesterday January 6, 2021, A group of Trump supporters stormed and broke into the US Capitol Building. I followed what was going on and it left me angry, upset, and utterly speechless.

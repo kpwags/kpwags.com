@@ -1,6 +1,6 @@
 ---
 title: 'Star Trek Discovery and the Future of Streaming'
-date: 2017-09-28 10:00 am
+date: '2017-09-28'
 ---
 
 Sunday night, like many Star Trek fans sat down to watch the premiere of Star Trek: Discovery.

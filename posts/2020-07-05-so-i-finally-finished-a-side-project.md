@@ -1,6 +1,6 @@
 ---
 title: 'So I Finally Finished A Side Project'
-date: 2020-07-05 2:25pm
+date: '2020-07-05'
 ---
 
 I’ve often seen a joke going around dev circles talking about how developers have tons of half-finished side projects lying around. And as much as it pains me to say, I’m one of them. But now I can say that that pile has decreased by one.

@@ -1,6 +1,6 @@
 ---
 title: 'My Typical Weekday'
-date: 2021-01-14 6:38pm
+date: '2021-01-14'
 ---
 
 I've seen posts like this going around so I figured I'd share what my typical weekday looks like.

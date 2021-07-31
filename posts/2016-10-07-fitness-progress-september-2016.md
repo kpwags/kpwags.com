@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - September 2016'
-date: 2016-10-07 5:00 pm
+date: '2016-10-07'
 ---
 
 I guess the one thing I could say that went well this month is that I got my lifts to my previous bests and I got a lot of runs in.

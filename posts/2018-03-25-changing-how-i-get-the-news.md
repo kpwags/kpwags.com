@@ -1,6 +1,6 @@
 ---
 title: 'Changing How I Get the News'
-date: 2018-03-25 4:27 pm
+date: '2018-03-25'
 ---
 
 A little while back, I read an article in the New York Times by Farhad Manjoo about how he switched to reading newspapers instead of getting his news from Social Media.

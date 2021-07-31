@@ -1,6 +1,6 @@
 ---
 title: 'Podcasts galore!'
-date: 2014-02-05 1:00 pm
+date: '2014-02-05'
 ---
 
 Many times while I am working, I often listen to podcasts. I find that they're a great way to keep myself up to date with what's going on around the world, or just to learn something new.

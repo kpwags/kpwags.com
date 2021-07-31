@@ -1,6 +1,6 @@
 ---
 title: 'Hope Everyone Had a Good Christmas'
-date: 2013-12-27 3:30 pm
+date: '2013-12-27'
 ---
 
 Hope everyone had a good Christmas. Mine was definitely a good one. It was nice to be able to spend the day with my family. For a first Christmas (well, Married Christmas) with Lauren, I couldn’t have asked for a better Christmas.

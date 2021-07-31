@@ -1,6 +1,6 @@
 ---
 title: 'Reading List 3/4 - 3/10'
-date: 2019-03-10 7:30 pm
+date: '2019-03-10'
 ---
 
 Not too long this week. We look at the anti-vaccine movement, a new drug treatment for depression, Facebook's "supposed" change, and a neat proof of concept for spying.

@@ -1,6 +1,6 @@
 ---
 title: 'Getting Stronger'
-date: 2019-07-30 9:00 pm
+date: '2019-07-30'
 ---
 
 At the beginning of July, I decided to change up my gym routine. I had been running a variation of the [P.H.U.L. routine](https://www.muscleandstrength.com/workouts/phul-workout), but decided I wanted to try something a little more intense since I felt like I was plateauing with both deadlifts and bench press.

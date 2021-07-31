@@ -1,6 +1,6 @@
 ---
 title: 'My Thoughts on Microsoft Acquiring GitHub'
-date: 2018-06-12 10:00 am
+date: '2018-06-12'
 ---
 
 Last Monday, [Microsoft bought GitHub for a whopping \$7.5 billion](https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal).

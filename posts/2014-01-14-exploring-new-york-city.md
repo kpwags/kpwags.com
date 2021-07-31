@@ -1,6 +1,6 @@
 ---
 title: 'Exploring New York City'
-date: 2014-01-14 12:00 pm
+date: '2014-01-14'
 ---
 
 This past weekend, Lauren and I went to New York City. It wasn't the best weather for the trip, but overall I feel we lucked out as we only needed umbrellas twice. Most of the time it was just gray or misting which isn't too bad in the grand scheme of things.

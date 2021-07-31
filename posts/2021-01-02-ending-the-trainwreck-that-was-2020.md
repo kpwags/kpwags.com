@@ -1,6 +1,6 @@
 ---
 title: 'Ending the Trainwreck that was 2020'
-date: 2021-01-02 2:17pm
+date: '2021-01-02'
 ---
 
 I think it's probably the world's biggest understatement to say that 2020 did not go the way I had envisioned it to go. And yet, the year has now come to a close.

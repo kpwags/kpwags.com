@@ -1,6 +1,6 @@
 ---
 title: 'Tracking My Runs'
-date: 2014-05-27 5:00 pm
+date: '2014-05-27'
 ---
 
 This year, I'm really starting to do some longer races. I've already run Broad Street (10 miles), and have 2 more half-marathons and then a full marathon in November. Since I've started running back in 2010, I've been using <a href="http://www.runkeeper.com/" target="_blank" rel="noopener">Runkeeper</a> on my phone to track my runs to give myself an idea how far and how fast I'm running. It's a pretty nice little app and service using your phone's GPS to track how you're doing and overlaying your path over Google Maps. But as I've been running more and participating in some longer races, I've noticed that its accuracy was starting to become questionable.

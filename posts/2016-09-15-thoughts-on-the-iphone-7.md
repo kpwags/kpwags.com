@@ -1,6 +1,6 @@
 ---
 title: 'Thoughts on the iPhone 7'
-date: 2016-09-15 10:00 am
+date: '2016-09-15'
 ---
 
 This post is a follow-up on my previous post <a href="http://kpwags.com/technology/2016/08/23/about-the-iphone-7.html">about the iPhone 7</a>.

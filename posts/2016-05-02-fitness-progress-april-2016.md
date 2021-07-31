@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - April 2016'
-date: 2016-05-02 5:04 pm
+date: '2016-05-02'
 ---
 
 April was not a good month for me. I was far less active than I wanted to be and wasn’t able to make it to the gym as often as I planned and generally have this year so far.

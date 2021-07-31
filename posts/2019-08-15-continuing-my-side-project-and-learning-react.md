@@ -1,6 +1,6 @@
 ---
 title: 'Continuing My Side Project & Learning React'
-date: 2019-08-15 10:00 am
+date: '2019-08-15'
 ---
 
 Lately, I’ve been making steady progress on my side project, which I’m currently calling _Digital Family Cookbook_. I’m making it as a content management system for cooking recipes. As I’ve mentioned previously, I’m writing it using Node.js, React, & GraphQL. It’s been quite a learning curve, but I’m definitely glad I’ve been working on it. The tools are pretty cool and easy-ish to use once you get used to the syntax and some of the idiosyncrasies of React and JSX.

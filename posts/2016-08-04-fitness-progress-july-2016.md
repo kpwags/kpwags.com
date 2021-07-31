@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - July 2016'
-date: 2016-08-04 7:25 pm
+date: '2016-08-04'
 ---
 
 This month was pretty much a complete wash. I didn't really progress at all.

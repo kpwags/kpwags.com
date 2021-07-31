@@ -1,6 +1,6 @@
 ---
 title: 'A New President'
-date: 2021-01-20 06:24pm
+date: '2021-01-20'
 ---
 
 Joseph R. Biden took the oath of office today at noon and became The United States of America's 46th President.

@@ -1,6 +1,6 @@
 ---
 title: 'Why I Chose the Apple Watch'
-date: 2020-11-01 2:21pm
+date: '2020-11-01'
 ---
 
 I know the Apple Watch has been around for over 5 years, and I've had one for almost 4, but I thought I'd share my reasons for still wearing it and why I like it.

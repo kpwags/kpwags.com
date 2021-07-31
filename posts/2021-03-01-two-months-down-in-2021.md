@@ -1,6 +1,6 @@
 ---
 title: 'Two Months Down in 2021'
-date: 2021-03-01 5:51pm
+date: '2021-03-01'
 ---
 
 I can't quite decide if this year is flying by...or dragging on...and on...and on.

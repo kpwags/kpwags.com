@@ -1,6 +1,6 @@
 ---
 title: 'I Did It! Half Marathon Complete!'
-date: 2013-11-18 11:15 am
+date: '2013-11-18'
 ---
 
 I did it. After all the hard work and exercise, I ran a half marathon yesterday! From barely being able to run a mile three and a half years ago, to 13.1 miles…it's a journey I am incredibly proud of.

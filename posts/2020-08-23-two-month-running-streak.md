@@ -1,6 +1,6 @@
 ---
 title: 'Two Month Running Streak'
-date: 2020-08-23 3:07pm
+date: '2020-08-23'
 ---
 
 Two months ago, I decided to go for a run, something I've been doing during most of the pandemic. What I didn't know was that this run would be the start of what would become a 2+ month running streak.

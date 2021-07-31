@@ -1,6 +1,6 @@
 ---
 title: 'A New Mini-Project is Brewing: Daily Shots'
-date: 2013-10-03 12:30 pm
+date: '2013-10-03'
 ---
 
 In November of 2011, after really getting into photography, I decided to finally take the plunge and get myself a DSLR camera. I chose the Canon EOS 60D because I liked what it offered, and my girlfriend (now my fiancee) also had it and recommended it to me. I should add that it also is nice since we'll be able to share lenses. Fast forward to now, I've gotten better with photography, but don't always have the time to go out with my Canon and find those awesome shots.

@@ -21,6 +21,12 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ posts }) => (
     <main>
         {posts.map((p) => (<PostListing key={p.id} post={p} />))}
+
+        <ul className="pagination">
+            <li className="next">
+                <a className="paginate-next-a">Newer Posts &rarr;</a>
+            </li>
+        </ul>
     </main>
 );
 

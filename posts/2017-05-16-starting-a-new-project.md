@@ -1,6 +1,6 @@
 ---
 title: 'Starting a New Project'
-date: 2017-05-16 10:00 am
+date: '2017-05-16'
 ---
 
 I've been having an itch lately to get working on a new side project.

@@ -1,6 +1,6 @@
 ---
 title: 'New Domain, New Look, More Posts (Hopefully)'
-date: 2013-08-14 5:30 pm
+date: '2013-08-14'
 ---
 
 Over the last couple months, I've been seriously considering doing a rebranding. I felt that DarkNemesis and Darker Nemesis just didn't really feel like 'me' anymore. So I went about trying to find a new moniker. "Wags" has always been sort of a nickname for me given my last name being Wagner and "kpwags" was available so after some thought, I ended up liking it and now here we are.

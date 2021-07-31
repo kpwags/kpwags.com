@@ -1,6 +1,6 @@
 ---
 title: "What I've Been Up To"
-date: 2015-04-17 2:00 pm
+date: '2015-04-17'
 ---
 
 It's been a while since the last time I've posted anything on here so I figured I'd give a little bit of an update as to what I've been up to.

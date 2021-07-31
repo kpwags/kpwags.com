@@ -6,12 +6,18 @@ import { BlogPost } from '@models/blogPost';
 
 const Post = styled.article`
     list-style-type: none;
-    margin: 15px 0;
+    margin: 40px 0;
 
-    .title {
+    h2 {
         color: ${({ theme }) => theme.colors.blue};
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         font-weight: 500;
+    }
+
+    .datetime {
+        margin: 5px 0;
+        font-style: italic;
+        color: ${({ theme }) => theme.colors.darkGray};
     }
 `;
 
@@ -25,7 +31,9 @@ const PostListing: React.FC<PostListingProps> = ({
     <Post key={post.id}>
         <h2><Link href={buildUrlFromId(post.id)}><a>{post.title}</a></Link></h2>
         <div className="datetime">{formatDate(post.date)}</div>
-        <p>{post.excerpt}</p>
+
+        {/* eslint-disable-next-line react/no-danger */}
+        <p dangerouslySetInnerHTML={{ __html: post.excerpt || 'No content found' }} />
     </Post>
 );
 

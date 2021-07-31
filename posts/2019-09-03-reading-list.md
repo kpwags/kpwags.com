@@ -1,6 +1,6 @@
 ---
 title: 'Reading List 8/26 - 9/1'
-date: 2019-09-03 10:00 am
+date: '2019-09-03'
 ---
 
 This week I read about a spouse's experience with the aftermath of an NFL career, Apple at least partially embracing the right-to-repair, and the benefits of code deletion.

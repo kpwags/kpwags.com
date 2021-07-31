@@ -1,6 +1,6 @@
 ---
 title: 'Looking Back at 2017 and Forward into 2018'
-date: 2018-01-25 8:49 pm
+date: '2018-01-25'
 ---
 
 A year later, let's see what happened in 2017 and what I'm looking at for 2018.

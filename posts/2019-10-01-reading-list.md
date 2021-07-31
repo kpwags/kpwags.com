@@ -1,6 +1,6 @@
 ---
 title: 'Reading List 9/23 - 9/29'
-date: 2019-10-01 10:00 am
+date: '2019-10-01'
 ---
 
 This week we look at a historical close call with our nuclear weapons, the OLPC laptop, the NSA going after ISIS, good CSS design tips, and ES2019.

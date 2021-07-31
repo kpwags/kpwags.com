@@ -1,6 +1,6 @@
 ---
 title: 'Outdoor Hockey'
-date: 2018-01-29 7:54 pm
+date: '2018-01-29'
 ---
 
 So last Friday night, I was able to do something that I've been dreaming of for a while. I was able to skate outdoors on an ice rink in Hershey, Pennsylvania.

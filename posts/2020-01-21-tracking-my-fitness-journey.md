@@ -1,6 +1,6 @@
 ---
 title: 'Tracking My Fitness Journey'
-date: 2020-01-21 7:30pm
+date: '2020-01-21'
 ---
 
 One of the things I’ve been trying to do while getting in shape is tracking my progress. Weight is obviously one of the metrics I track, but it’s not the only one.

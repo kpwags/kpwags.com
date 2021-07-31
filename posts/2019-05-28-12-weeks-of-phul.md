@@ -1,6 +1,6 @@
 ---
 title: '12 Weeks of P.H.U.L.'
-date: 2019-05-28 8:02 pm
+date: '2019-05-28'
 ---
 
 Over the last 12 weeks, I’ve been running the [P.H.U.L. Workout Routine](https://www.muscleandstrength.com/workouts/phul-workout).

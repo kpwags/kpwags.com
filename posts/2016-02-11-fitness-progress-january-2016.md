@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - January 2016'
-date: 2016-02-11 7:00 pm
+date: '2016-02-11'
 ---
 
 I've decided this year that I really want to rid myself of my gut. I think it's shrunk over the last year or two and I have gone down in pants size, but I've always wanted to get rid of it in its entirety. I don't know if that will happen this year, but I definitely want to see the majority of it go away. To that end, I've been making a concerted effort to go to the gym more with what I feel is a good lifting plan, and to generally just stay active.

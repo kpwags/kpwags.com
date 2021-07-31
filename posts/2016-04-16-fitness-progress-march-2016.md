@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - March 2016'
-date: 2016-04-16 2:00 pm
+date: '2016-04-16'
 ---
 
 I feel like I had a 'meh' March.

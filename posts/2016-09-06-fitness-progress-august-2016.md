@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - August 2016'
-date: 2016-09-06 8:25 pm
+date: '2016-09-06'
 ---
 
 I feel like August was another wash for me. I could never really get into any kind of rhythm with trips to the gym or runs.

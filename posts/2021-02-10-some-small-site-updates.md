@@ -1,6 +1,6 @@
 ---
 title: 'Some Small Site Updates'
-date: 2021-02-10 6:49pm
+date: '2021-02-10'
 ---
 
 Over the course of the last couple weeks, I've made some small improvements to my site. None of them are particularly huge, but I like the end result.

@@ -1,6 +1,6 @@
 ---
 title: 'The Redesign'
-date: 2014-11-14 3:30 pm
+date: '2014-11-14'
 ---
 
 This has been in the works for some time now.

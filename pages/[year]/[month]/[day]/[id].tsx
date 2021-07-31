@@ -28,7 +28,9 @@ interface PostProps {
 }
 
 const Post: FC<PostProps> = ({ post }) => (
-    <BlogEntry post={post} />
+    <main className="wider">
+        <BlogEntry post={post} />
+    </main>
 );
 
 export default Post;

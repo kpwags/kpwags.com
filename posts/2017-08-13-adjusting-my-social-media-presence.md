@@ -1,6 +1,6 @@
 ---
 title: 'Adjusting My Social Media Presence'
-date: 2017-08-13 8:15 pm
+date: '2017-08-13'
 ---
 
 Recently, much has changed in regards to my presence on social media.

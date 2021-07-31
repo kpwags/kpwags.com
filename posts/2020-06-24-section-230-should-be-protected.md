@@ -1,14 +1,11 @@
 ---
 title: 'Section 230 Should Be Protected'
-date: 2020-06-24 3:00pm
-excerpt_separator: <!--more-->
+date: '2020-06-24'
 ---
 
 <div class="cover-image" style="background-image:url('/assets/images/posts/cover-images/google-macbookpro.jpg');background-position:50% 12%;"></div>
 
 I’m going to preface this by saying that I am by no means an expert when it comes to all the nuances of Section 230 of the Communications Decency Act. I do however know that Section 230 serves as the underpinning of how the current Internet works and why all the sites that we all love can survive and exist.
-
-<!--more-->
 
 > For even better coverage of Section 230, I’d highly recommend you follow [Techdirt](https://www.techdirt.com) and [Mike Masnick](https://twitter.com/mmasnick) on Twitter.
 

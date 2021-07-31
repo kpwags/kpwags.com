@@ -1,6 +1,6 @@
 ---
 title: 'False Starts & My Side Project'
-date: 2018-06-20 10:00 am
+date: '2018-06-20'
 ---
 
 I think I mentioned it before, but I’ve been working on a new side project. I figured it was a good way to teach myself React and Node.js, much like OpenVoter taught me PHP. I’ve been wanting to familiarize myself with some more modern frameworks, and I feel like Node and React are good places to start.

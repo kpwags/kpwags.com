@@ -1,6 +1,6 @@
 ---
 title: 'Tweaking My Lifting Routine'
-date: 2021-01-28 6:12pm
+date: '2021-01-28'
 ---
 
 Looking back at the last two months, I've noticed I've done a pretty good job of hitting the weights 5-6 days a week. Because of this, I decided I'd tweak my routine a little bit to help jumpstart some gains.

@@ -1,6 +1,6 @@
 ---
 title: 'Uncluttered'
-date: 2013-09-03 1:30 pm
+date: '2013-09-03'
 ---
 
 One of the biggest things I try to do is keep my desk uncluttered. I find that it helps me stay organized. As an example, here's my desk at work.

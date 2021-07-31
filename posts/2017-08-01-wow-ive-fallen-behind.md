@@ -1,6 +1,6 @@
 ---
 title: "Wow, I've Fallen Behind"
-date: 2017-08-01 10:00 am
+date: '2017-08-01'
 ---
 
 The last couple months have been really hectic for me and unfortunately I didn’t get much done on my recipe side project.

@@ -1,6 +1,6 @@
 ---
 title: 'Reading List 1/28 - 2/3'
-date: 2019-02-03 10:00 am
+date: '2019-02-03'
 ---
 
 Another week, another set of articles ranging from Apple's row with Facebook to the future of American infrastructure.

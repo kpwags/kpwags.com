@@ -1,6 +1,6 @@
 ---
 title: 'Unit Testing with MSW'
-date: 2021-02-03 6:58pm
+date: '2021-02-03'
 ---
 
 A little while back, I started a new project. I have been using [spreadsheets to track a lot of my fitness goals](https://kpwags.com/2020/01/21/tracking-my-fitness-journey.html). This approach generally works, but I thought it would be easier if I had an app for that. So I did what any self-respecting fitness enthusiast developer would do...make one myself! But with that, also come unit tests.

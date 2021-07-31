@@ -100,19 +100,18 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     main {
-        width: 1024px;
+        width: 800px;
         margin: 0 auto;
         padding: 0 10px;
 
         @media all and (max-width: 1280px) {
-            margin: 0 auto;
-            width: 960px;
             padding: 0;
         }
 
         @media all and (max-width: 1023px) {
             width: 100%;
             padding: 0;
+            margin: 0;
         }
     }
 
@@ -136,58 +135,31 @@ export const GlobalStyles = createGlobalStyle`
         clear: both;
     }
 
-    .paginate-wrap {
-        display: flex;
-        align-items: center;
+    .pagination {
+        text-align: center;
         list-style: none;
-        margin: 1rem 0 0 0;
-        padding: 0.5rem 1rem;
-        border-radius: 3px;
-        max-width: 100%;
-        flex-wrap: wrap;
-        background: #ccc;
 
-
-        .paginate-a,
-        .paginate-next-a,
-        .paginate-prev-a,
-        .paginate-break-a {
-            cursor: pointer;
-            padding: 0.2rem 0.4rem;
-
-            &:focus {
-            outline: 0;
-            }
-
-            &:hover {
-            background: $purple-color;
-            background: $purple-color-lighter;
-            }
-        }
-
-        .paginate-li {
-            margin: 0 0.2rem;
+        li {
+            display: inline;
+            padding: 0 25px;
         }
 
         .paginate-next-a,
         .paginate-prev-a {
-            color: $purple-color;
+            color: ${({ theme }) => theme.colors.blue};
             margin: 0 0.3rem;
+
+            &:hover {
+                color: ${({ theme }) => theme.colors.mediumBlue};
+            }
+        }
+
+        .break {
+            display: none;
         }
 
         .paginate-active {
-            border: 2px solid $purple-color-lighter;
-            background: $purple-color-lighter;
-        }
-
-        .paginate-disabled > a {
-            cursor: not-allowed;
-            background: transparent;
-            color: #666;
-
-            &:hover {
-            background: transparent !important;
-            }
+            display: none;
         }
     }
 `;

@@ -1,6 +1,6 @@
 ---
 title: 'Reflections on My Running Streak Coming to an End'
-date: 2020-12-16 5:12pm
+date: '2020-12-16'
 ---
 
 This past Monday, December 14, my running streak came to an end. I managed to get it up to 175 days, almost half the year. In the end, I just felt it was time to let it go.

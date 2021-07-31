@@ -67,21 +67,17 @@ const Post: FC<PostProps> = ({ posts, lastPage, currentPage }) => {
             {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
 
             <ReactPaginate
-                marginPagesDisplayed={2}
-                pageRangeDisplayed={5}
-                previousLabel="Previous"
-                nextLabel="Next"
-                breakLabel="..."
+                marginPagesDisplayed={0}
+                pageRangeDisplayed={0}
+                previousLabel="&larr; Older Posts"
+                nextLabel="Newer Posts &rarr;"
                 initialPage={currentPage - 1}
                 pageCount={lastPage}
                 onPageChange={handlePagination}
-                containerClassName="paginate-wrap"
-                pageClassName="paginate-li"
-                pageLinkClassName="paginate-a"
+                containerClassName="pagination"
                 activeClassName="paginate-active"
                 nextLinkClassName="paginate-next-a"
                 previousLinkClassName="paginate-prev-a"
-                breakLinkClassName="paginate-break-a"
             />
         </main>
     );

@@ -1,6 +1,6 @@
 ---
 title: 'Starting a New Job'
-date: 2020-12-14 8:08pm
+date: '2020-12-14'
 ---
 
 At the end of November, I ended up leaving my job at Maintenance Strategies, Inc. and made the decision to take on a new challenge working as a software developer at Webstaurant.

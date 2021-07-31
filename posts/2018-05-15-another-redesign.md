@@ -1,6 +1,6 @@
 ---
 title: 'Another Redesign'
-date: 2018-05-15 10:00 am
+date: '2018-05-15'
 ---
 
 As you can tell, I've decided to give my blog a little bit of a facelift.

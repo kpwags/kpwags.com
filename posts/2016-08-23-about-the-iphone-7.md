@@ -1,6 +1,6 @@
 ---
 title: 'About the iPhone 7'
-date: 2016-08-23 10:00 am
+date: '2016-08-23'
 ---
 
 There have been a lot of rumors swirling around about the iPhone 7 coming out in September.

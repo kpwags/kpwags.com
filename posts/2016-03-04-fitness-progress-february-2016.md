@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - February 2016'
-date: 2016-03-04 9:15 pm
+date: '2016-03-04'
 ---
 
 I feel like I had a good February.

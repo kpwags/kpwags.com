@@ -1,6 +1,6 @@
 ---
 title: 'A Little Tip for Sticking with Fitness Goals'
-date: 2020-11-03 6:41pm
+date: '2020-11-03'
 ---
 
 I'm sure many have experienced the problem of not being able to stick with one's fitness goals. It's a common problem. You decide I'm going to go to the gym a few days a week, you stick with it for a week or two, then get lazy. I've dealt with this and have found a way to "trick" myself into sticking with my goals.

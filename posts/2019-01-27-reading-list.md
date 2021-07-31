@@ -1,6 +1,6 @@
 ---
 title: 'Reading List 1/17 - 1/27'
-date: 2019-01-27 10:00 am
+date: '2019-01-27'
 ---
 
 So I think for 2019, I'm going to try something new. I'm going to try to share a weekly list of various articles and podcasts I've read or listened to over the week that I've found interesting. So here we go.

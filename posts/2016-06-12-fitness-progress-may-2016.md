@@ -1,6 +1,6 @@
 ---
 title: 'Fitness Progress - May 2016'
-date: 2016-06-12 8:00 am
+date: '2016-06-12'
 ---
 
 I really need to figure out the whole diet thing. Other than that, I feel good about how the month of May went. I was more active, between gym trips and hockey, I stayed busy.

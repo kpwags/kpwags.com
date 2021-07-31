@@ -27,7 +27,7 @@ export const getSortedPostsData = () : BlogPost[] => {
 
     const allPostsData = fileNames.map((fileName) => {
         // Remove ".md" from file name to get id
-        const id = fileName.replace(/\.md$/, '');
+        const id = fileName.replace(/\.md$/, '').replace(/\.mdx$/, '');
 
         // Read markdown file as string
         const fullPath = path.join(postsDirectory, fileName);
@@ -62,7 +62,7 @@ export function getAllPostIds(includeHtmlExtension = false) {
     const fileNames = fs.readdirSync(postsDirectory);
 
     return fileNames.map((filename) => {
-        const arr = filename.replace(/\.md$/, '').split('-');
+        const arr = filename.replace(/\.md$/, '').replace(/\.mdx$/, '').split('-');
         const id = arr.splice(3).join('-');
 
         return ({
