@@ -4,23 +4,19 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     margin: 40px 0;
-
     .content {
         display: grid;
         grid-template-columns: 1fr 3fr;
         grid-template-rows: 1fr;
         gap: 0px 75px;
         grid-template-areas: '. .';
-
         img {
             transition: transform 1.2s ease-in-out;
             filter: drop-shadow(2px 4px 8px #585858);
-
             :hover {
                 transform: rotate(360deg);
             }
         }
-
         p {
             margin-block-start: 0;
             font-size: 1.15rem;

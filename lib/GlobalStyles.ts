@@ -100,19 +100,18 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     main {
-        width: 1024px;
+        width: 800px;
         margin: 0 auto;
         padding: 0 10px;
 
         @media all and (max-width: 1280px) {
-            margin: 0 auto;
-            width: 960px;
             padding: 0;
         }
 
         @media all and (max-width: 1023px) {
             width: 100%;
             padding: 0;
+            margin: 0;
         }
     }
 
@@ -134,5 +133,37 @@ export const GlobalStyles = createGlobalStyle`
 
     .clear {
         clear: both;
+    }
+
+    .pagination {
+        text-align: center;
+        list-style: none;
+
+        li {
+            display: inline;
+            padding: 0 25px;
+        }
+
+        .paginate-next-a,
+        .paginate-prev-a {
+            color: ${({ theme }) => theme.colors.blue};
+            margin: 0 0.3rem;
+
+            &:hover {
+                color: ${({ theme }) => theme.colors.mediumBlue};
+            }
+        }
+
+        .break {
+            display: none;
+        }
+
+        .paginate-active {
+            display: none;
+        }
+    }
+
+    .twitter-tweet-rendered {
+        margin: 30px auto !important;
     }
 `;

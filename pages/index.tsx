@@ -1,28 +1,28 @@
-/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
 import React from 'react';
 import { getSortedPostsData } from '@lib/posts';
 import { GetStaticProps } from 'next';
 import Welcome from '@components/Welcome';
 import LatestPosts from '@components/LatestPosts';
+import { BlogPost } from '@models/blogPost';
 
 export const getStaticProps: GetStaticProps = async () => {
-    const postsData = getSortedPostsData();
+    const blogPosts = getSortedPostsData();
 
     return {
         props: {
-            allPostsData: postsData.length <= 5 ? postsData : postsData.slice(0, 5),
+            posts: blogPosts.length <= 5 ? blogPosts : blogPosts.slice(0, 5),
         },
     };
 };
 
 interface HomeProps {
-    allPostsData: Array<{ id: string; date: Date; title: string }>;
+    posts: BlogPost[];
 }
 
-const Home: React.FC<HomeProps> = ({ allPostsData }) => (
+const Home: React.FC<HomeProps> = ({ posts }) => (
     <main>
         <Welcome />
-        <LatestPosts mostRecentPosts={allPostsData} />
+        <LatestPosts mostRecentPosts={posts} />
     </main>
 );
 

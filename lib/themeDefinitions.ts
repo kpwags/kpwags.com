@@ -16,6 +16,7 @@ export const themeDefinitions: ThemeData = {
                 darkGray: 'hsl(0, 0%, 40%)',
             },
             font: 'Maven Pro',
+            boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
         },
         dark: {
             id: 'dark_theme',
@@ -31,6 +32,7 @@ export const themeDefinitions: ThemeData = {
                 darkGray: 'hsl(0, 0%, 40%)',
             },
             font: 'Maven Pro',
+            boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
         },
     },
 };

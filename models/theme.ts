@@ -10,10 +10,11 @@ export interface ThemeColors {
 }
 
 export interface Theme {
-    id: string,
-    name: string,
-    colors: ThemeColors,
+    id: string
+    name: string
+    colors: ThemeColors
     font: string
+    boxShadow: string
 }
 
 export interface ThemeDefinition {

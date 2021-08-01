@@ -10,7 +10,8 @@
                 "h1": "hsl(225, 93%, 32%)",
                 "h2": "hsl(216, 100%, 20%)"
             },
-            "font": "Maven Pro"
+            "font": "Maven Pro",
+            "boxShadow": "0 12px 24px 0 hsla(0, 0%, 0%, 0.2)"
         },
         "dark": {
             "id": "dark_theme",
@@ -22,7 +23,8 @@
                 "h1": "hsl(199, 99%, 46%)",
                 "h2": "hsl(209, 79%, 44%)"
             },
-            "font": "Maven Pro"
+            "font": "Maven Pro",
+            "boxShadow": "0 12px 24px 0 hsla(0, 0%, 0%, 0.2)"
         }
     }
 }

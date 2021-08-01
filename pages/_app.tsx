@@ -24,6 +24,9 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title>Keith Wagner</title>
                 <link rel="shortcut icon" href="/favicon.ico" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:site_name" content="Keith Wagner" />
+                <meta name="twitter:creator" content="@kpwags" />
             </Head>
             {themeLoaded && (
                 <ThemeProvider theme={selectedTheme}>
