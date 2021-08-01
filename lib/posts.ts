@@ -4,8 +4,10 @@ import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
 import { JSDOM } from 'jsdom';
+import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { postsPerPage } from './config';
+import { buildUrlFromId } from './utilities';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
@@ -27,7 +29,7 @@ export const getSortedPostsData = () : BlogPost[] => {
 
     const allPostsData = fileNames.map((fileName) => {
         // Remove ".md" from file name to get id
-        const id = fileName.replace(/\.md$/, '').replace(/\.mdx$/, '');
+        const id = fileName.replace(/\.mdx$/, '');
 
         // Read markdown file as string
         const fullPath = path.join(postsDirectory, fileName);
@@ -38,14 +40,16 @@ export const getSortedPostsData = () : BlogPost[] => {
 
         const html = marked(matterResult.content);
         const excerpt = getPostExcerpt(html);
+        const url = buildUrlFromId(id);
 
         // Combine the data with the id
         return {
             id,
             title: matterResult.data.title,
             excerpt,
-            content: html,
             date: matterResult.data.date,
+            url,
+            hasEmbeddedTweet: false,
         };
     });
 
@@ -62,7 +66,7 @@ export function getAllPostIds(includeHtmlExtension = false) {
     const fileNames = fs.readdirSync(postsDirectory);
 
     return fileNames.map((filename) => {
-        const arr = filename.replace(/\.md$/, '').replace(/\.mdx$/, '').split('-');
+        const arr = filename.replace(/\.mdx$/, '').split('-');
         const id = arr.splice(3).join('-');
 
         return ({
@@ -88,7 +92,7 @@ export const getPostPages = () => {
 
     const paths = [];
 
-    for (let x = 1; x < maxPage; x += 1) {
+    for (let x = 1; x <= maxPage; x += 1) {
         paths.push(x);
     }
 
@@ -99,24 +103,45 @@ export const getPostPages = () => {
     }));
 };
 
-export const getPostData = (year: string, month: string, day: string, id: string) => {
+interface PostQuery {
+    year: string
+    month: string
+    day: string
+    id: string
+}
+
+export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
+    const {
+        year,
+        month,
+        day,
+        id,
+    } = query;
+
     const postId = `${year}-${month}-${day}-${id}`;
 
-    const fullPath = path.join(postsDirectory, `${postId}.md`);
+    const fullPath = path.join(postsDirectory, `${postId}.mdx`);
+
     const fileContents = fs.readFileSync(fullPath, 'utf8');
 
     // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents);
+    const { content, data } = matter(fileContents);
 
-    const html = marked(matterResult.content);
+    const html = marked(content);
     const excerpt = getPostExcerpt(html);
+
+    const mdx = await serialize(content, { scope: data });
 
     // Combine the data with the id
     return {
         id: postId,
         excerpt,
-        content: html,
-        ...matterResult.data,
+        title: data.title,
+        date: data.date,
+        content: mdx.compiledSource,
+        description: data.description || null,
+        url: buildUrlFromId(postId),
+        hasEmbeddedTweet: data.hasEmbeddedTweet || false,
     };
 };
 

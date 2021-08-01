@@ -1,4 +1,5 @@
 import { FC, useState, useEffect } from 'react';
+import Head from 'next/head';
 import { BlogPost } from '@models/blogPost';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
@@ -63,23 +64,26 @@ const Post: FC<PostProps> = ({ posts, lastPage, currentPage }) => {
     };
 
     return (
-        <main>
-            {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
+        <>
+            <Head><title>Blog - Keith Wagner</title></Head>
+            <main>
+                {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
 
-            <ReactPaginate
-                marginPagesDisplayed={0}
-                pageRangeDisplayed={0}
-                previousLabel="&larr; Older Posts"
-                nextLabel="Newer Posts &rarr;"
-                initialPage={currentPage - 1}
-                pageCount={lastPage}
-                onPageChange={handlePagination}
-                containerClassName="pagination"
-                activeClassName="paginate-active"
-                nextLinkClassName="paginate-next-a"
-                previousLinkClassName="paginate-prev-a"
-            />
-        </main>
+                <ReactPaginate
+                    marginPagesDisplayed={0}
+                    pageRangeDisplayed={0}
+                    previousLabel="&larr; Newer Posts"
+                    nextLabel="Older Posts &rarr;"
+                    initialPage={currentPage - 1}
+                    pageCount={lastPage}
+                    onPageChange={handlePagination}
+                    containerClassName="pagination"
+                    activeClassName="paginate-active"
+                    nextLinkClassName="paginate-next-a"
+                    previousLinkClassName="paginate-prev-a"
+                />
+            </main>
+        </>
     );
 };
 

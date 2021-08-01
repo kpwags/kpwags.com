@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import { formatDate, buildUrlFromId } from '@lib/utilities';
+import { formatDate } from '@lib/utilities';
+import { BlogPost } from '@models/blogPost';
 
 const Latest = styled.div`
     margin: 40px 0;
@@ -28,17 +29,19 @@ const Post = styled.li`
 `;
 
 interface LatestPostsProps {
-    mostRecentPosts: Array<{ id: string; date: Date; title: string }>;
+    mostRecentPosts: BlogPost[];
 }
 
 const LatestPosts: React.FC<LatestPostsProps> = ({ mostRecentPosts }) => (
     <Latest>
         <h1>Latest Posts</h1>
         <Posts>
-            {mostRecentPosts.map(({ id, date, title }) => (
+            {mostRecentPosts.map(({
+                id, url, date, title,
+            }) => (
                 <Post key={id}>
                     <div className="title">
-                        <Link href={buildUrlFromId(id)}><a>{title}</a></Link>
+                        <Link href={url}><a>{title}</a></Link>
                     </div>
                     <div className="datetime">{formatDate(date)}</div>
                 </Post>

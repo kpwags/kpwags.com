@@ -1,9 +1,16 @@
 import { FC, useEffect } from 'react';
+import Head from 'next/head';
+import { MDXRemote } from 'next-mdx-remote';
 import styled from 'styled-components';
 import Prism from 'prismjs';
 import { BlogPost } from '@models/blogPost';
 import { formatDate } from '@lib/utilities';
 
+// Blog Components
+import PostImage from '@components/PostImage';
+import EmbeddedTweet from '@components/EmbeddedTweet';
+
+// Prism
 import 'prismjs/components';
 import 'prismjs/components/prism-bash';
 import 'prismjs/components/prism-csharp';
@@ -13,6 +20,8 @@ import 'prismjs/components/prism-tsx';
 import 'prismjs/plugins/line-numbers/prism-line-numbers';
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 import 'prism-themes/themes/prism-night-owl.css';
+
+const components = { PostImage, EmbeddedTweet };
 
 const Post = styled.article`
     h1 {
@@ -31,6 +40,7 @@ const Post = styled.article`
         color: ${({ theme }) => theme.colors.mediumBlue};
         font-size: 1.35rem;
         font-weight: 500;
+        margin: 20px 0;
     }
 
     h4 {
@@ -91,12 +101,25 @@ const Post = styled.article`
     }
 
     pre {
-        margin: 10px 40px;
+        margin: 25px 40px;
+
+        @media all and (max-width: 1280px) {
+            margin:15px 5px;
+        }
     }
 
     p {
         a {
             font-weight: 700;
+        }
+    }
+
+    ul,
+    ol {
+        margin: 0 25px 40px 25px;
+
+        li {
+            padding-left: 12px;
         }
     }
 `;
@@ -111,13 +134,27 @@ const BlogEntry: FC<BlogEntryProps> = ({ post }) => {
     }, []);
 
     return (
-        <Post className="line-numbers">
-            <h1>{post.title}</h1>
-            <div className="datetime"><em>{formatDate(post.date)}</em></div>
+        <>
+            <Head>
+                <title>{`${post.title} - Keith Wagner`}</title>
+                <meta name="description" content={post.description || ''} />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content={post.title} />
+                <meta property="og:description" content={post.description || ''} />
+                <meta property="og:url" content={`https://kpwags.com${post.url}`} />
+                {post.socialImageUrl && <meta property="og:image" content={`https://kpwags.com${post.socialImageUrl}`} />}
+                {post.socialImageWidth && <meta property="og:image:width" content={post.socialImageWidth.toString()} />}
+                {post.socialImageUrl && <meta property="og:image:height" content={post.socialImageHeight.toString()} />}
+                {post.socialImageUrl && <meta property="twitter:image" content={`https://kpwags.com${post.socialImageUrl}`} />}
+                {post.hasEmbeddedTweet && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
+            </Head>
+            <Post className="line-numbers">
+                <h1>{post.title}</h1>
+                <div className="datetime"><em>{formatDate(post.date)}</em></div>
 
-            {/* eslint-disable-next-line react/no-danger */}
-            <div dangerouslySetInnerHTML={{ __html: post.content || 'No content found' }} />
-        </Post>
+                <MDXRemote compiledSource={post.content} components={components} />
+            </Post>
+        </>
     );
 };
 

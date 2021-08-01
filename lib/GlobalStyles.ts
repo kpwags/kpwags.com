@@ -162,4 +162,8 @@ export const GlobalStyles = createGlobalStyle`
             display: none;
         }
     }
+
+    .twitter-tweet-rendered {
+        margin: 30px auto !important;
+    }
 `;

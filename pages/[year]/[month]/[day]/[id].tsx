@@ -14,11 +14,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-    const postData = getPostData(params.year.toString(), params.month.toString(), params.day.toString(), params.id.toString().replace(/\.html$/, ''));
+    const blogPost = await getPostData({
+        year: params.year.toString(),
+        month: params.month.toString(),
+        day: params.day.toString(),
+        id: params.id.toString().replace(/\.html$/, ''),
+    });
 
     return {
         props: {
-            post: postData,
+            post: blogPost,
         },
     };
 };

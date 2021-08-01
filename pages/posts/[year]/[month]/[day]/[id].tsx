@@ -14,11 +14,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-    const postData = getPostData(params.year.toString(), params.month.toString(), params.day.toString(), params.id.toString());
+    const blogPost = await getPostData({
+        year: params.year.toString(),
+        month: params.month.toString(),
+        day: params.day.toString(),
+        id: params.id.toString(),
+    });
 
     return {
         props: {
-            post: postData,
+            post: blogPost,
         },
     };
 };
@@ -28,9 +33,11 @@ interface PostProps {
 }
 
 const Post: FC<PostProps> = ({ post }) => (
-    <main className="wider">
-        <BlogEntry post={post} />
-    </main>
+    <>
+        <main className="wider">
+            <BlogEntry post={post} />
+        </main>
+    </>
 );
 
 export default Post;
