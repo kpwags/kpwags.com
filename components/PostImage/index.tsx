@@ -1,10 +1,18 @@
 import { FC } from 'react';
+import styled from 'styled-components';
+
+const ImageCaptionCredit = styled.div`
+    margin: 10px 0;
+    color: hsl(0, 0%, 60%);
+    font-style: italic;
+`;
 
 interface PostImageProps {
     src: string
     alt: string
     centered?: boolean
     shadowed?: boolean
+    credit?: JSX.Element
 }
 
 const PostImage: FC<PostImageProps> = ({
@@ -12,6 +20,7 @@ const PostImage: FC<PostImageProps> = ({
     alt,
     centered = true,
     shadowed = false,
+    credit,
 }) => (
     <div className={centered ? 'centered-image' : ''}>
         <img
@@ -19,6 +28,7 @@ const PostImage: FC<PostImageProps> = ({
             alt={alt}
             className={shadowed ? 'shadowed' : ''}
         />
+        {credit && <ImageCaptionCredit>{credit}</ImageCaptionCredit>}
     </div>
 );
 

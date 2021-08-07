@@ -1,6 +1,7 @@
 ---
 title: 'So I Finally Finished A Side Project'
 date: '2020-07-05'
+description: 'I finally finished a side project to release into the wild.'
 ---
 
 I’ve often seen a joke going around dev circles talking about how developers have tons of half-finished side projects lying around. And as much as it pains me to say, I’m one of them. But now I can say that that pile has decreased by one.
@@ -11,15 +12,23 @@ _Edit: Due to hosting costs on Azure, I'm currently looking for a less expensive
 
 Ever have a back-and-forth with friends or your better half about where you want to go to eat? Well, I built a little web app so you can use that to make your decision. Now, you can let a web app tell you where to go so no one can be unhappy with each other for the decision! (Be angry at...wait a minute...please don’t be mad at me).
 
-<!-- [Where Do You Want to Eat?](https://www.wheredoyouwanttoeat.xyz) -->
-
-<div class="centered-image"><img src="/assets/images/posts/2020-07-05-so-i-finally-finished-a-side-project/wheredoyouwanttoeat2.jpg" alt="Screen shot of the new Where Do You Want to Eat" class="shadowed" /></div>
+<PostImage
+    src="/images/posts/2020-07-05-so-i-finally-finished-a-side-project/wheredoyouwanttoeat2.jpg"
+    alt="Screen shot of the new Where Do You Want to Eat"
+    shadowed
+    centered
+/>
 
 ## Where This Started
 
 I had built this a while back to be a little Javascript app tying into Google’s Geolocation API. I called it “Where Do You Want to Eat” It was simple. You typed in a zip code (the site did try to get your zip code using Google’s API), specified a range with optional keywords, and it randomly chose a restaurant. I ended up sunsetting it down after Google ended up changing how they charge for use of their API. I wasn’t mad of course, they let me use it for free for a while. It didn’t hurt that my little toy was hardly used. It also didn’t always provide the best results. The range was a radius, and you’d be surprised how close some places are that seem farther away. The final nail so to speak was that the results were hard to fine-tune. All too often restaurants were returned that didn’t seem to match the keywords as much as you’d want.
 
-<div class="centered-image"><img src="/assets/images/projects/where-do-you-want-to-eat.jpg" alt="Screen shot of the original Where Do You Want to Eat" class="shadowed" /></div>
+<PostImage
+    src="/images/posts/2020-07-05-so-i-finally-finished-a-side-project/where-do-you-want-to-eat.jpg"
+    alt="Screen shot of the original Where Do You Want to Eat"
+    shadowed
+    centered
+/>
 
 In the end, it was a cool little project. It might not have turned into anything, but I learned a bit and that’s what matters.
 
@@ -40,5 +49,3 @@ The final thing I did was get myself familiar with the .NET Unit Testing tools. 
 From the start, I knew I wanted to use Microsoft Azure for hosting. I used Amazon Web Services for most of my projects, but decided I’d give Azure at try to see how easy it is to use. Since I built the site in .NET Core, it only made sense. I managed to get it up and running relatively easily thanks to several tutorials I found online. I’m a little concerned on the cost factor, so I’m going to have to see after a month or two what it costs me and if I’m going to have to find a different hosting platform. I’m not really sure how to monetize it outside of ads, and depending on the cost, I’m not sure they’d generate enough to compensate. I don’t mind paying to host it of course, and I’m hoping it won’t end up costing too much since it’s probably not going to get a lot of usage and won’t need a lot of data processing. If the costs are too high, I’ll have to look into some alternatives.
 
 I found that it was a fun little project to build, and a good learning experience. I do find it kind of odd to release it during a pandemic where we probably shouldn’t be going out to eat, but for now it can still be used for takeout. So please feel free to check it out, test it out, and let me know what you think!
-
-<!-- [Where Do You Want to Eat?](https://www.wheredoyouwanttoeat.xyz) -->
