@@ -10,6 +10,10 @@ const ImageContainer = styled.div`
         margin: 30px auto;
         text-align: center;
     }
+
+    &.shadowed div {
+        box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+    }
 `;
 
 const ImageCaptionCredit = styled.div`
@@ -36,17 +40,27 @@ const PostImage: FC<PostImageProps> = ({
     centered = true,
     shadowed = false,
     credit,
-}) => (
-    <ImageContainer className={centered ? 'centered' : ''}>
-        <Image
-            src={src}
-            alt={alt}
-            width={width}
-            height={height}
-            className={shadowed ? 'shadowed' : ''}
-        />
-        {credit && <ImageCaptionCredit>{credit}</ImageCaptionCredit>}
-    </ImageContainer>
-);
+}) => {
+    const cssClasses: string[] = [];
+
+    if (centered) {
+        cssClasses.push('centered');
+    }
+
+    if (shadowed) {
+        cssClasses.push('shadowed');
+    }
+    return (
+        <ImageContainer className={cssClasses.join(' ')}>
+            <Image
+                src={src}
+                alt={alt}
+                width={width}
+                height={height}
+            />
+            {credit && <ImageCaptionCredit>{credit}</ImageCaptionCredit>}
+        </ImageContainer>
+    );
+};
 
 export default PostImage;

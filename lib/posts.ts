@@ -6,10 +6,13 @@ import marked from 'marked';
 import { JSDOM } from 'jsdom';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
+import { BlogTag } from '@models/BlogTag';
 import { postsPerPage } from './config';
 import { buildUrlFromId } from './utilities';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
+
+export const getUrlTag = (tag: string): string => tag.toString().toLowerCase().replace(/\./g, '').replace(/-/g, '');
 
 export const getPostExcerpt = (html: string): string => {
     const dom = new JSDOM(html);
@@ -23,7 +26,7 @@ export const getPostExcerpt = (html: string): string => {
     return paragraphs[0].innerHTML;
 };
 
-export const getSortedPostsData = () : BlogPost[] => {
+export const getAllPosts = (sorted = true) : BlogPost[] => {
     // Get file names under /posts
     const fileNames = fs.readdirSync(postsDirectory);
 
@@ -36,30 +39,37 @@ export const getSortedPostsData = () : BlogPost[] => {
         const fileContents = fs.readFileSync(fullPath, 'utf8');
 
         // Use gray-matter to parse the post metadata section
-        const matterResult = matter(fileContents);
+        const { content, data } = matter(fileContents);
 
-        const html = marked(matterResult.content);
+        const html = marked(content);
         const excerpt = getPostExcerpt(html);
         const url = buildUrlFromId(id);
+
+        const tags = data.tags || [] as BlogTag[];
 
         // Combine the data with the id
         return {
             id,
-            title: matterResult.data.title,
+            title: data.title,
             excerpt,
-            date: matterResult.data.date,
+            date: data.date,
             url,
             hasEmbeddedTweet: false,
+            tags,
         };
     });
 
+    if (sorted) {
     // Sort posts by date
-    return allPostsData.sort((a: BlogPost, b: BlogPost) => {
-        if (a.date < b.date) {
-            return 1;
-        }
-        return -1;
-    });
+        return allPostsData.sort((a: BlogPost, b: BlogPost) => {
+            if (a.date < b.date) {
+                return 1;
+            }
+            return -1;
+        });
+    }
+
+    return allPostsData;
 };
 
 export function getAllPostIds(includeHtmlExtension = false) {
@@ -132,6 +142,8 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
 
     const mdx = await serialize(content, { scope: data });
 
+    const tags = data.tags || [] as BlogTag[];
+
     // Combine the data with the id
     return {
         id: postId,
@@ -142,11 +154,12 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         description: data.description || null,
         url: buildUrlFromId(postId),
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
+        tags,
     };
 };
 
 export const getPaginatedPosts = (page: number, count = postsPerPage) => {
-    const sortedPosts = getSortedPostsData();
+    const sortedPosts = getAllPosts();
 
     const start = (page - 1) * 10;
     const end = start + count;
@@ -157,4 +170,94 @@ export const getPaginatedPosts = (page: number, count = postsPerPage) => {
         totalPages: maxPage,
         posts: sortedPosts.slice(start, end),
     };
+};
+
+export const getPostTagUrls = (post: BlogPost): string[] => post.tags.map((t) => t.url);
+
+export const getAllPostsForTag = (tag: string): BlogPost[] => {
+    const allPosts = getAllPosts();
+    const filteredPosts = allPosts.filter((p) => getPostTagUrls(p).includes(tag));
+
+    return filteredPosts;
+};
+
+export const getPaginatedPostsForTag = (tag: string, page: number, count = postsPerPage) => {
+    const sortedPosts = getAllPostsForTag(tag);
+
+    const start = (page - 1) * 10;
+    const end = start + count;
+
+    const maxPage = Math.ceil(sortedPosts.length / postsPerPage);
+
+    return {
+        totalPages: maxPage,
+        posts: sortedPosts.slice(start, end),
+    };
+};
+
+export const getTaggedPostPages = (tag: string) => {
+    const taggedPosts = getAllPostsForTag(tag);
+
+    const postCount = taggedPosts.length;
+
+    const maxPage = Math.ceil(postCount / postsPerPage);
+
+    const paths = [];
+
+    for (let x = 1; x <= maxPage; x += 1) {
+        paths.push(x);
+    }
+
+    return paths.map((p) => ({
+        params: {
+            page: p.toString(),
+        },
+    }));
+};
+
+export const getPageCountForTag = (tag: string) => {
+    const taggedPosts = getAllPostsForTag(tag);
+
+    const postCount = taggedPosts.length;
+
+    return Math.ceil(postCount / postsPerPage);
+};
+
+export const getAllTagPages = () => {
+    const allPosts = getAllPosts();
+
+    const tags: { name: string, pageCount: number}[] = [];
+
+    allPosts.forEach((p) => {
+        p.tags.forEach((t) => {
+            if (!tags.map((tag) => tag.name).includes(t.url)) {
+                tags.push({ name: t.url, pageCount: getPageCountForTag(t.url) });
+            }
+        });
+    });
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const pages: any[] = [];
+
+    tags.forEach((tag) => {
+        if (tag.pageCount === 1) {
+            pages.push({
+                params: {
+                    tag: tag.name,
+                    page: '1',
+                },
+            });
+        } else {
+            for (let x = 1; x <= tag.pageCount; x += 1) {
+                pages.push({
+                    params: {
+                        tag: tag.name,
+                        page: x.toString(),
+                    },
+                });
+            }
+        }
+    });
+
+    return pages;
 };

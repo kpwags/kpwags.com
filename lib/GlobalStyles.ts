@@ -2,6 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 import { Theme } from '@models/theme';
 
 export const GlobalStyles = createGlobalStyle`
+    * {
+        box-sizing: border-box;
+    }
+
     body {
         background: ${({ theme }: { theme: Theme }) => theme.colors.background};
         color: ${({ theme }: { theme: Theme }) => theme.colors.text};
@@ -110,7 +114,7 @@ export const GlobalStyles = createGlobalStyle`
 
         @media all and (max-width: 1023px) {
             width: 100%;
-            padding: 0;
+            padding: 0 20px;
             margin: 0;
         }
     }

@@ -28,7 +28,7 @@ const Home: React.FC<HomeProps> = ({ posts }) => (
 
             <ul className="pagination">
                 <li className="next">
-                    <Link href="/blog/2"><a className="paginate-next-a">Newer Posts &rarr;</a></Link>
+                    <Link href="/blog/2"><a className="paginate-next-a">Older Posts &rarr;</a></Link>
                 </li>
             </ul>
         </main>

@@ -1,12 +1,12 @@
 import React from 'react';
-import { getSortedPostsData } from '@lib/posts';
+import { getAllPosts } from '@lib/posts';
 import { GetStaticProps } from 'next';
 import Welcome from '@components/Welcome';
 import LatestPosts from '@components/LatestPosts';
 import { BlogPost } from '@models/blogPost';
 
 export const getStaticProps: GetStaticProps = async () => {
-    const blogPosts = getSortedPostsData();
+    const blogPosts = getAllPosts();
 
     return {
         props: {
