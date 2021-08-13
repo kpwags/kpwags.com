@@ -1,10 +1,12 @@
 import { FC, useEffect } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
 import styled from 'styled-components';
 import Prism from 'prismjs';
 import { BlogPost } from '@models/blogPost';
 import { formatDate } from '@lib/utilities';
+import { BlogTag } from '@models/BlogTag';
 
 // Blog Components
 import PostImage from '@components/PostImage';
@@ -26,7 +28,7 @@ const components = { PostImage, EmbeddedTweet };
 const Post = styled.article`
     h1 {
         color: ${({ theme }) => theme.colors.blue};
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 700;
     }
 
@@ -34,6 +36,7 @@ const Post = styled.article`
         color: ${({ theme }) => theme.colors.blue};
         font-size: 1.7rem;
         font-weight: 500;
+        margin: 20px 0;
     }
 
     h3 {
@@ -53,6 +56,7 @@ const Post = styled.article`
     .datetime {
         margin: 5px 0;
         font-style: italic;
+        font-size: 1.2rem;
         color: ${({ theme }) => theme.colors.darkGray};
     }
 
@@ -114,15 +118,41 @@ const Post = styled.article`
         }
     }
 
-    ul,
-    ol {
-        margin: 0 25px 40px 25px;
+    .content {
+        ul,
+        ol {
+            margin: 0 25px 40px 25px;
 
-        li {
-            padding-left: 12px;
+            li {
+                padding-left: 12px;
+            }
         }
     }
 `;
+
+const TagList = styled.ul`
+    margin: 36px 0 20px;
+    padding: 0;
+`;
+
+const Tag = styled.li`
+    display: inline;
+    list-style-type: none;
+    padding: 0 30px 0 0;
+    text-transform: uppercase;
+`;
+
+interface PostTagsProps {
+    tags: BlogTag[]
+}
+
+const PostTags = ({ tags }: PostTagsProps): JSX.Element => (
+    <TagList>
+        {tags.map((t) => (
+            <Tag key={t.url}><Link href={`/tag/${t.url}`}><a>{t.name}</a></Link></Tag>
+        ))}
+    </TagList>
+);
 
 interface BlogEntryProps {
     post: BlogPost
@@ -149,10 +179,14 @@ const BlogEntry: FC<BlogEntryProps> = ({ post }) => {
                 {post.hasEmbeddedTweet && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
             </Head>
             <Post className="line-numbers">
+                {post.tags.length > 0 && <PostTags tags={post.tags} />}
+
                 <h1>{post.title}</h1>
                 <div className="datetime"><em>{formatDate(post.date)}</em></div>
 
-                <MDXRemote compiledSource={post.content} components={components} />
+                <div className="content">
+                    <MDXRemote compiledSource={post.content} components={components} />
+                </div>
             </Post>
         </>
     );

@@ -1,3 +1,5 @@
+import { BlogTag } from '@models/BlogTag';
+
 export interface BlogPost {
     id: string
     title: string
@@ -10,4 +12,5 @@ export interface BlogPost {
     socialImageWidth?: number
     socialImageHeight?: number
     hasEmbeddedTweet: boolean
+    tags: BlogTag[]
 }
