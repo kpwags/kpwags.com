@@ -3,6 +3,7 @@ import { BlogPost } from '@models/blogPost';
 import BlogEntry from '@components/BlogEntry';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllPostIds, getPostData } from '@lib/posts';
+import PageScrollIndicator from '@components/PageScrollIndicator';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllPostIds();
@@ -34,6 +35,7 @@ interface PostProps {
 
 const Post: FC<PostProps> = ({ post }) => (
     <>
+        <PageScrollIndicator />
         <main className="wider">
             <BlogEntry post={post} />
         </main>
