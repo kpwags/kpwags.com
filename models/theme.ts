@@ -1,12 +1,13 @@
 export interface ThemeColors {
-    background: string,
-    text: string,
-    link: string,
-    h1: string,
-    h2: string,
-    blue: string,
-    mediumBlue: string,
-    darkGray: string,
+    background: string
+    text: string
+    link: string
+    h1: string
+    h2: string
+    blue: string
+    mediumBlue: string
+    lightBlue: string
+    darkGray: string
 }
 
 export interface Theme {
