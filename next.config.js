@@ -15,3 +15,15 @@ module.exports = {
 module.exports = withMDX({
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 });
+
+module.exports = {
+    async redirects() {
+        return [
+            {
+                source: '/feed.xml',
+                destination: '/rss/feed.xml',
+                permanent: true,
+            },
+        ];
+    },
+};

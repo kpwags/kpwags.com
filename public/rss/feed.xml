@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Keith Wagner</title>
+        <link>https://kpwags.com</link>
+        <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
+        <lastBuildDate>Tue, 17 Aug 2021 23:21:47 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Next.js using Feed for Node.js</generator>
+        <language>en</language>
+        <copyright>2021 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Halfway Through 2021]]></title>
+            <link>/posts/2021/07/24/halfway-through-2021</link>
+            <guid>/posts/2021/07/24/halfway-through-2021</guid>
+            <pubDate>Sat, 24 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I can't believe how fast we've gotten through the first half of 2021. It feels like despite the slow start, the year has just flown by. I figured I'd take a look back and see how I'm doing with what I've been doing this year, and how I've been faring with what I was hoping to focus on this year.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Slow Burn: The Road to the Iraq War]]></title>
+            <link>/posts/2021/06/03/slow-burn-the-road-to-the-iraq-war</link>
+            <guid>/posts/2021/06/03/slow-burn-the-road-to-the-iraq-war</guid>
+            <pubDate>Thu, 03 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Recently, I’ve been listening to the latest season of <a href="https://slate.com/podcasts/slow-burn/s5/road-to-the-iraq-war">Slow Burn</a> from Slate.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Refactoring Loops]]></title>
+            <link>/posts/2021/06/02/refactoring-loops</link>
+            <guid>/posts/2021/06/02/refactoring-loops</guid>
+            <pubDate>Wed, 02 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ever feel like you can never completely get started with a project? That's sometimes how it feels with the fitness tracking app I'm building.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Switching Platforms]]></title>
+            <link>/posts/2021/04/27/switching-platforms</link>
+            <guid>/posts/2021/04/27/switching-platforms</guid>
+            <pubDate>Tue, 27 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I've been using Jekyll to run this blog for the better part of the last six years. But recently, I've been giving serious consideration to switching to Gatsby or Next.js.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Three Months Down in 2021]]></title>
+            <link>/posts/2021/04/06/three-months-down-in-2021</link>
+            <guid>/posts/2021/04/06/three-months-down-in-2021</guid>
+            <pubDate>Tue, 06 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I still can't believe it's already April, it really seems like it was just New Year's yesterday. Alas, I figured I'd check in with how I'm doing with my goals.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[On New Stadiums]]></title>
+            <link>/posts/2021/03/20/on-new-stadiums</link>
+            <guid>/posts/2021/03/20/on-new-stadiums</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I'm currently reading <a href="https://bookshop.org/books/field-of-schemes-how-the-great-stadium-swindle-turns-public-money-into-private-profit-revised/9780803260160">Field of Schemes</a> by Neil Demause &amp; Joanna Cagan. It talks about how sports team owners manage to screw the public out of money to pay for their new stadiums and arenas. In one of the later chapters, I found a quote that I think sums up how absurd it is that we are the ones paying for their stadiums.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Two Months Down in 2021]]></title>
+            <link>/posts/2021/03/01/two-months-down-in-2021</link>
+            <guid>/posts/2021/03/01/two-months-down-in-2021</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I can't quite decide if this year is flying by...or dragging on...and on...and on.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Some Small Site Updates]]></title>
+            <link>/posts/2021/02/10/some-small-site-updates</link>
+            <guid>/posts/2021/02/10/some-small-site-updates</guid>
+            <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Over the course of the last couple weeks, I've made some small improvements to my site. None of them are particularly huge, but I like the end result.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Unit Testing with MSW]]></title>
+            <link>/posts/2021/02/03/unit-testing-with-msw</link>
+            <guid>/posts/2021/02/03/unit-testing-with-msw</guid>
+            <pubDate>Wed, 03 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A little while back, I started a new project. I have been using <a href="https://kpwags.com/2020/01/21/tracking-my-fitness-journey.html">spreadsheets to track a lot of my fitness goals</a>. This approach generally works, but I thought it would be easier if I had an app for that. So I did what any self-respecting fitness enthusiast developer would do...make one myself! But with that, also come unit tests.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Tweaking My Lifting Routine]]></title>
+            <link>/posts/2021/01/28/tweaking-my-lifting-routine</link>
+            <guid>/posts/2021/01/28/tweaking-my-lifting-routine</guid>
+            <pubDate>Thu, 28 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Looking back at the last two months, I've noticed I've done a pretty good job of hitting the weights 5-6 days a week. Because of this, I decided I'd tweak my routine a little bit to help jumpstart some gains.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[A New President]]></title>
+            <link>/posts/2021/01/20/a-new-president</link>
+            <guid>/posts/2021/01/20/a-new-president</guid>
+            <pubDate>Wed, 20 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Joseph R. Biden took the oath of office today at noon and became The United States of America's 46th President.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Typical Weekday]]></title>
+            <link>/posts/2021/01/14/my-typical-weekday</link>
+            <guid>/posts/2021/01/14/my-typical-weekday</guid>
+            <pubDate>Thu, 14 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I've seen posts like this going around so I figured I'd share what my typical weekday looks like.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Thoughts on Trump's Failed Insurrection]]></title>
+            <link>/posts/2021/01/07/thoughts-on-trumps-failed-insurrection</link>
+            <guid>/posts/2021/01/07/thoughts-on-trumps-failed-insurrection</guid>
+            <pubDate>Thu, 07 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[As I'm sure just about all are aware, yesterday January 6, 2021, A group of Trump supporters stormed and broke into the US Capitol Building. I followed what was going on and it left me angry, upset, and utterly speechless.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ending the Trainwreck that was 2020]]></title>
+            <link>/posts/2021/01/02/ending-the-trainwreck-that-was-2020</link>
+            <guid>/posts/2021/01/02/ending-the-trainwreck-that-was-2020</guid>
+            <pubDate>Sat, 02 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I think it's probably the world's biggest understatement to say that 2020 did not go the way I had envisioned it to go. And yet, the year has now come to a close.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reflections on My Running Streak Coming to an End]]></title>
+            <link>/posts/2020/12/16/reflections-on-my-running-streak-coming-to-an-end</link>
+            <guid>/posts/2020/12/16/reflections-on-my-running-streak-coming-to-an-end</guid>
+            <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[This past Monday, December 14, my running streak came to an end. I managed to get it up to 175 days, almost half the year. In the end, I just felt it was time to let it go.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Starting a New Job]]></title>
+            <link>/posts/2020/12/14/starting-a-new-job</link>
+            <guid>/posts/2020/12/14/starting-a-new-job</guid>
+            <pubDate>Mon, 14 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the end of November, I ended up leaving my job at Maintenance Strategies, Inc. and made the decision to take on a new challenge working as a software developer at Webstaurant.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[A Little Tip for Sticking with Fitness Goals]]></title>
+            <link>/posts/2020/11/03/a-little-tip-for-sticking-with-fitness-goals</link>
+            <guid>/posts/2020/11/03/a-little-tip-for-sticking-with-fitness-goals</guid>
+            <pubDate>Tue, 03 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I'm sure many have experienced the problem of not being able to stick with one's fitness goals. It's a common problem. You decide I'm going to go to the gym a few days a week, you stick with it for a week or two, then get lazy. I've dealt with this and have found a way to "trick" myself into sticking with my goals.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Why I Chose the Apple Watch]]></title>
+            <link>/posts/2020/11/01/why-i-chose-the-apple-watch</link>
+            <guid>/posts/2020/11/01/why-i-chose-the-apple-watch</guid>
+            <pubDate>Sun, 01 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I know the Apple Watch has been around for over 5 years, and I've had one for almost 4, but I thought I'd share my reasons for still wearing it and why I like it.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Handy Visual Studio Code Plugin for Jest]]></title>
+            <link>/posts/2020/09/24/handy-visual-studio-code-plugin-for-jest</link>
+            <guid>/posts/2020/09/24/handy-visual-studio-code-plugin-for-jest</guid>
+            <pubDate>Thu, 24 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I ended up starting a new project recently which I'll get into later, but after my experience writing unit tests with <a href="https://kpwags.com/2020/05/06/delving-into-unit-testing.html">Digital Family Cookbook</a>, I decided to write the tests as I code for this new project. I found a nifty little tool that makes things a little easier for me so I figured I'd share.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Two Month Running Streak]]></title>
+            <link>/posts/2020/08/23/two-month-running-streak</link>
+            <guid>/posts/2020/08/23/two-month-running-streak</guid>
+            <pubDate>Sun, 23 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Two months ago, I decided to go for a run, something I've been doing during most of the pandemic. What I didn't know was that this run would be the start of what would become a 2+ month running streak.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[So I Finally Just Built a Home Gym]]></title>
+            <link>/posts/2020/08/04/so-i-finally-built-a-home-gym</link>
+            <guid>/posts/2020/08/04/so-i-finally-built-a-home-gym</guid>
+            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Four months into the COVID-19 Pandemic, I finally broke down and built a gym in my basement.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[So I Finally Finished A Side Project]]></title>
+            <link>/posts/2020/07/05/so-i-finally-finished-a-side-project</link>
+            <guid>/posts/2020/07/05/so-i-finally-finished-a-side-project</guid>
+            <pubDate>Sun, 05 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I’ve often seen a joke going around dev circles talking about how developers have tons of half-finished side projects lying around. And as much as it pains me to say, I’m one of them. But now I can say that that pile has decreased by one.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Section 230 Should Be Protected]]></title>
+            <link>/posts/2020/06/24/section-230-should-be-protected</link>
+            <guid>/posts/2020/06/24/section-230-should-be-protected</guid>
+            <pubDate>Wed, 24 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I’m going to preface this by saying that I am by no means an expert when it comes to all the nuances of Section 230 of the Communications Decency Act. I do however know that Section 230 serves as the underpinning of how the current Internet works and why all the sites that we all love can survive and exist.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Cat Cookie is Now 11 Years Old]]></title>
+            <link>/posts/2020/05/15/my-cat-cookie-is-now-11-years-old</link>
+            <guid>/posts/2020/05/15/my-cat-cookie-is-now-11-years-old</guid>
+            <pubDate>Fri, 15 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meet Cookie, the cat that I’ve had now for almost 11 years.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Delving into Unit Testing]]></title>
+            <link>/posts/2020/05/06/delving-into-unit-testing</link>
+            <guid>/posts/2020/05/06/delving-into-unit-testing</guid>
+            <pubDate>Wed, 06 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[In all of my professional experience, I've never worked for a company that did any unit testing and because of that, I haven't really done any either. I knew what unit testing is and the general concepts behind it, but never got around to actually building or implementing any tests. I decided that for Digital Family Cookbook, that would change.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[I'm Now a React Hooks Convert]]></title>
+            <link>/posts/2020/04/08/im-now-a-react-hooks-convert</link>
+            <guid>/posts/2020/04/08/im-now-a-react-hooks-convert</guid>
+            <pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I’ve often joked that the recipe project I’ve been working on is my “white whale”. I have in the past thrown everything out only to start over. I first built it in Ruby on Rails, but it was buggy and my limited knowledge of Rails made it a little hard to debug and figure out exactly what was wrong. I opted to rebuild it in PHP since I was quite familiar with PHP after building OpenVoter. I decided then that I wanted to start over to teach myself Node.js...well you get the idea.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Quarantine Update]]></title>
+            <link>/posts/2020/03/31/quarantine-update</link>
+            <guid>/posts/2020/03/31/quarantine-update</guid>
+            <pubDate>Tue, 31 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Well, just like many others across the country and the world, I’m now practicing social distancing and staying home just about all the time. While I’m fortunate in that I have a job that allows me to work from home, I can’t help but to think of all those who aren’t as fortunate and have either lost their job or have to go to work and potentially put their health and life on the line. Doctors, nurses, first responders and others are braving this and they deserve nothing but praise and respect for working through these tough times.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Tracking My Fitness Journey]]></title>
+            <link>/posts/2020/01/21/tracking-my-fitness-journey</link>
+            <guid>/posts/2020/01/21/tracking-my-fitness-journey</guid>
+            <pubDate>Tue, 21 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of the things I’ve been trying to do while getting in shape is tracking my progress. Weight is obviously one of the metrics I track, but it’s not the only one.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Yearly Wrap-up and Retrospective: 2019]]></title>
+            <link>/posts/2020/01/05/yearly-wrapup-and-retrospective-2019</link>
+            <guid>/posts/2020/01/05/yearly-wrapup-and-retrospective-2019</guid>
+            <pubDate>Sun, 05 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Another year has passed and it’s been a tradition of mine as of late to look back on the year that was to see what I hoped to have done, what I did, and where I might improve. I really wish I knew where 2019 went because it seemed to have just flown by. It seemed like it was just yesterday that I was writing about 2018, looking onward to 2019. Now 2019 is gone, the new decade has <a href="https://xkcd.com/2249/">maybe?</a> begun, and I’m a year older.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 9/23 - 9/29]]></title>
+            <link>/posts/2019/10/01/reading-list</link>
+            <guid>/posts/2019/10/01/reading-list</guid>
+            <pubDate>Tue, 01 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we look at a historical close call with our nuclear weapons, the OLPC laptop, the NSA going after ISIS, good CSS design tips, and ES2019.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 9/2 - 9/8]]></title>
+            <link>/posts/2019/09/08/reading-list</link>
+            <guid>/posts/2019/09/08/reading-list</guid>
+            <pubDate>Sun, 08 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I read about Firefox improving users' privacy by default, why the GOP and conservatives are wrong about "censorship" on social media, nuclear energy, and a weird bit of tax policy.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 8/26 - 9/1]]></title>
+            <link>/posts/2019/09/03/reading-list</link>
+            <guid>/posts/2019/09/03/reading-list</guid>
+            <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I read about a spouse's experience with the aftermath of an NFL career, Apple at least partially embracing the right-to-repair, and the benefits of code deletion.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 8/19 - 8/25]]></title>
+            <link>/posts/2019/08/25/reading-list</link>
+            <guid>/posts/2019/08/25/reading-list</guid>
+            <pubDate>Sun, 25 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I read about Javascript, jQuery, terraforming Mars, baseball cards and more.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 8/12 - 8/18]]></title>
+            <link>/posts/2019/08/18/reading-list</link>
+            <guid>/posts/2019/08/18/reading-list</guid>
+            <pubDate>Sun, 18 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I read about changes in the US Navy, another nuclear accident in Russia, a prank gone wrong, and more.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Continuing My Side Project & Learning React]]></title>
+            <link>/posts/2019/08/15/continuing-my-side-project-and-learning-react</link>
+            <guid>/posts/2019/08/15/continuing-my-side-project-and-learning-react</guid>
+            <pubDate>Thu, 15 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lately, I’ve been making steady progress on my side project, which I’m currently calling <em>Digital Family Cookbook</em>. I’m making it as a content management system for cooking recipes. As I’ve mentioned previously, I’m writing it using Node.js, React, &amp; GraphQL. It’s been quite a learning curve, but I’m definitely glad I’ve been working on it. The tools are pretty cool and easy-ish to use once you get used to the syntax and some of the idiosyncrasies of React and JSX.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 8/5 - 8/11]]></title>
+            <link>/posts/2019/08/11/reading-list</link>
+            <guid>/posts/2019/08/11/reading-list</guid>
+            <pubDate>Sun, 11 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[I've decided to start this back up. Some interesting thoughts about making the data social media has on us transferrable, DIY Phone Farms, and a new software development podcast I've found.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Getting Stronger]]></title>
+            <link>/posts/2019/07/30/getting-stronger</link>
+            <guid>/posts/2019/07/30/getting-stronger</guid>
+            <pubDate>Tue, 30 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the beginning of July, I decided to change up my gym routine. I had been running a variation of the <a href="https://www.muscleandstrength.com/workouts/phul-workout">P.H.U.L. routine</a>, but decided I wanted to try something a little more intense since I felt like I was plateauing with both deadlifts and bench press.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[12 Weeks of P.H.U.L.]]></title>
+            <link>/posts/2019/05/28/12-weeks-of-phul</link>
+            <guid>/posts/2019/05/28/12-weeks-of-phul</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Over the last 12 weeks, I’ve been running the <a href="https://www.muscleandstrength.com/workouts/phul-workout">P.H.U.L. Workout Routine</a>.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Progress So Far]]></title>
+            <link>/posts/2019/03/12/my-progress-so-far</link>
+            <guid>/posts/2019/03/12/my-progress-so-far</guid>
+            <pubDate>Tue, 12 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Two and a half months in, I figured I’d reflect on where things stand with regards towards working towards the goals I set for myself.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 3/4 - 3/10]]></title>
+            <link>/posts/2019/03/10/reading-list</link>
+            <guid>/posts/2019/03/10/reading-list</guid>
+            <pubDate>Sun, 10 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Not too long this week. We look at the anti-vaccine movement, a new drug treatment for depression, Facebook's "supposed" change, and a neat proof of concept for spying.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 2/18 - 3/3]]></title>
+            <link>/posts/2019/03/03/reading-list</link>
+            <guid>/posts/2019/03/03/reading-list</guid>
+            <pubDate>Sat, 02 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[2 weeks combined this time as I was in NYC last weekend. This week I read about loot boxes, whistle blowing, YouTube conspiracies and more.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 2/11 - 2/17]]></title>
+            <link>/posts/2019/02/19/reading-list</link>
+            <guid>/posts/2019/02/19/reading-list</guid>
+            <pubDate>Tue, 19 Feb 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[It's a little late, but here we go. This week we look at code, login forms, and the old Altavista search engine.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 2/4 - 2/10]]></title>
+            <link>/posts/2019/02/10/reading-list</link>
+            <guid>/posts/2019/02/10/reading-list</guid>
+            <pubDate>Sun, 10 Feb 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week looks at controversies at Instacart and DoorDash, possible changes in MLB rules, French battlefields in WWI and WWII, &amp; Google/Facebook lock-in.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 1/28 - 2/3]]></title>
+            <link>/posts/2019/02/03/reading-list</link>
+            <guid>/posts/2019/02/03/reading-list</guid>
+            <pubDate>Sun, 03 Feb 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Another week, another set of articles ranging from Apple's row with Facebook to the future of American infrastructure.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reading List 1/17 - 1/27]]></title>
+            <link>/posts/2019/01/27/reading-list</link>
+            <guid>/posts/2019/01/27/reading-list</guid>
+            <pubDate>Sun, 27 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[So I think for 2019, I'm going to try something new. I'm going to try to share a weekly list of various articles and podcasts I've read or listened to over the week that I've found interesting. So here we go.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[3 Weeks In]]></title>
+            <link>/posts/2019/01/22/3-weeks-in</link>
+            <guid>/posts/2019/01/22/3-weeks-in</guid>
+            <pubDate>Tue, 22 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Since we’re now about 3 weeks into 2019, I figured I’d quickly see where I’m at in terms of my goals for the year.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[A New Year]]></title>
+            <link>/posts/2019/01/03/a-new-year</link>
+            <guid>/posts/2019/01/03/a-new-year</guid>
+            <pubDate>Thu, 03 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[A year later, let's see what happened in 2018 and what I'm looking at for 2019.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Goodbye Facebook & Good Riddance]]></title>
+            <link>/posts/2018/12/21/goodbye-facebook-good-riddance</link>
+            <guid>/posts/2018/12/21/goodbye-facebook-good-riddance</guid>
+            <pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[This past week, I finally pulled the trigger and completely removed Facebook from my life. I deleted my Facebook account in June or July, I forget which month, but I had kept my Instagram account. That ended this week when I downloaded my archive and deleted my Instagram account.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[False Starts & My Side Project]]></title>
+            <link>/posts/2018/06/20/false-starts-my-side-project</link>
+            <guid>/posts/2018/06/20/false-starts-my-side-project</guid>
+            <pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[I think I mentioned it before, but I’ve been working on a new side project. I figured it was a good way to teach myself React and Node.js, much like OpenVoter taught me PHP. I’ve been wanting to familiarize myself with some more modern frameworks, and I feel like Node and React are good places to start.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Thoughts on Microsoft Acquiring GitHub]]></title>
+            <link>/posts/2018/06/12/my-thoughts-on-microsoft-acquiring-github</link>
+            <guid>/posts/2018/06/12/my-thoughts-on-microsoft-acquiring-github</guid>
+            <pubDate>Tue, 12 Jun 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last Monday, <a href="https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal">Microsoft bought GitHub for a whopping $7.5 billion</a>.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Another Redesign]]></title>
+            <link>/posts/2018/05/15/another-redesign</link>
+            <guid>/posts/2018/05/15/another-redesign</guid>
+            <pubDate>Tue, 15 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[As you can tell, I've decided to give my blog a little bit of a facelift.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Month Away from Social Media]]></title>
+            <link>/posts/2018/05/05/my-month-away-from-social-media</link>
+            <guid>/posts/2018/05/05/my-month-away-from-social-media</guid>
+            <pubDate>Sat, 05 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[In my last post, I was saying that I was going to attempt an experiment in how I got my news. I decided to turn off Twitter, Facebook and Reddit. Instead of them, I opted for utilizing my subscriptions to the New York Times, Wall Street Journal and The Economist. I also ended up using RSS feeds as well.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Changing How I Get the News]]></title>
+            <link>/posts/2018/03/25/changing-how-i-get-the-news</link>
+            <guid>/posts/2018/03/25/changing-how-i-get-the-news</guid>
+            <pubDate>Sun, 25 Mar 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[A little while back, I read an article in the New York Times by Farhad Manjoo about how he switched to reading newspapers instead of getting his news from Social Media.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Outdoor Hockey]]></title>
+            <link>/posts/2018/01/29/outdoor-hockey</link>
+            <guid>/posts/2018/01/29/outdoor-hockey</guid>
+            <pubDate>Mon, 29 Jan 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[So last Friday night, I was able to do something that I've been dreaming of for a while. I was able to skate outdoors on an ice rink in Hershey, Pennsylvania.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Looking Back at 2017 and Forward into 2018]]></title>
+            <link>/posts/2018/01/25/looking-back-at-2017-and-forward-into-2018</link>
+            <guid>/posts/2018/01/25/looking-back-at-2017-and-forward-into-2018</guid>
+            <pubDate>Thu, 25 Jan 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[A year later, let's see what happened in 2017 and what I'm looking at for 2018.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Star Trek Discovery and the Future of Streaming]]></title>
+            <link>/posts/2017/09/28/star-trek-discovery-and-the-future-of-streaming</link>
+            <guid>/posts/2017/09/28/star-trek-discovery-and-the-future-of-streaming</guid>
+            <pubDate>Thu, 28 Sep 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sunday night, like many Star Trek fans sat down to watch the premiere of Star Trek: Discovery.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Adjusting My Social Media Presence]]></title>
+            <link>/posts/2017/08/13/adjusting-my-social-media-presence</link>
+            <guid>/posts/2017/08/13/adjusting-my-social-media-presence</guid>
+            <pubDate>Sun, 13 Aug 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Recently, much has changed in regards to my presence on social media.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Wow, I've Fallen Behind]]></title>
+            <link>/posts/2017/08/01/wow-ive-fallen-behind</link>
+            <guid>/posts/2017/08/01/wow-ive-fallen-behind</guid>
+            <pubDate>Tue, 01 Aug 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[The last couple months have been really hectic for me and unfortunately I didn’t get much done on my recipe side project.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Starting a New Project]]></title>
+            <link>/posts/2017/05/16/starting-a-new-project</link>
+            <guid>/posts/2017/05/16/starting-a-new-project</guid>
+            <pubDate>Tue, 16 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[I've been having an itch lately to get working on a new side project.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Goals for 2017]]></title>
+            <link>/posts/2017/01/24/goals-for-2017</link>
+            <guid>/posts/2017/01/24/goals-for-2017</guid>
+            <pubDate>Tue, 24 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[2016 was super busy for me and I really am hoping that 2017 is not quite as busy.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[2016 In Review]]></title>
+            <link>/posts/2017/01/06/2016-in-review</link>
+            <guid>/posts/2017/01/06/2016-in-review</guid>
+            <pubDate>Fri, 06 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[2016 was a super busy year for me, and in some cases, probably a little too busy.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - September 2016]]></title>
+            <link>/posts/2016/10/07/fitness-progress-september-2016</link>
+            <guid>/posts/2016/10/07/fitness-progress-september-2016</guid>
+            <pubDate>Fri, 07 Oct 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[I guess the one thing I could say that went well this month is that I got my lifts to my previous bests and I got a lot of runs in.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Thoughts on the iPhone 7]]></title>
+            <link>/posts/2016/09/15/thoughts-on-the-iphone-7</link>
+            <guid>/posts/2016/09/15/thoughts-on-the-iphone-7</guid>
+            <pubDate>Thu, 15 Sep 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[This post is a follow-up on my previous post <a href="http://kpwags.com/technology/2016/08/23/about-the-iphone-7.html">about the iPhone 7</a>.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - August 2016]]></title>
+            <link>/posts/2016/09/06/fitness-progress-august-2016</link>
+            <guid>/posts/2016/09/06/fitness-progress-august-2016</guid>
+            <pubDate>Tue, 06 Sep 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[I feel like August was another wash for me. I could never really get into any kind of rhythm with trips to the gym or runs.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[About the iPhone 7]]></title>
+            <link>/posts/2016/08/23/about-the-iphone-7</link>
+            <guid>/posts/2016/08/23/about-the-iphone-7</guid>
+            <pubDate>Tue, 23 Aug 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[There have been a lot of rumors swirling around about the iPhone 7 coming out in September.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - July 2016]]></title>
+            <link>/posts/2016/08/04/fitness-progress-july-2016</link>
+            <guid>/posts/2016/08/04/fitness-progress-july-2016</guid>
+            <pubDate>Thu, 04 Aug 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[This month was pretty much a complete wash. I didn't really progress at all.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - June 2016]]></title>
+            <link>/posts/2016/07/11/fitness-progress-june-2016</link>
+            <guid>/posts/2016/07/11/fitness-progress-june-2016</guid>
+            <pubDate>Mon, 11 Jul 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[June wasn't quite as much of a waste as the numbers seem to show. I want quite as active as previous months due to work on my dining room. In March I started gutting it and now I'm finally making some real progress...at the cost of trips to the gym. I've been playing a lot of hockey as well including 3 straight weeks of Sunday-Monday-Tuesday games back-to-back-to-back. It's been tiring as well given the late start times. As much as I love playing hockey, I think I'm looking forward to dropping down to 2 teams come fall.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - May 2016]]></title>
+            <link>/posts/2016/06/12/fitness-progress-may-2016</link>
+            <guid>/posts/2016/06/12/fitness-progress-may-2016</guid>
+            <pubDate>Sun, 12 Jun 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[I really need to figure out the whole diet thing. Other than that, I feel good about how the month of May went. I was more active, between gym trips and hockey, I stayed busy.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - April 2016]]></title>
+            <link>/posts/2016/05/02/fitness-progress-april-2016</link>
+            <guid>/posts/2016/05/02/fitness-progress-april-2016</guid>
+            <pubDate>Mon, 02 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[April was not a good month for me. I was far less active than I wanted to be and wasn’t able to make it to the gym as often as I planned and generally have this year so far.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - March 2016]]></title>
+            <link>/posts/2016/04/16/fitness-progress-march-2016</link>
+            <guid>/posts/2016/04/16/fitness-progress-march-2016</guid>
+            <pubDate>Sat, 16 Apr 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[I feel like I had a 'meh' March.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - February 2016]]></title>
+            <link>/posts/2016/03/04/fitness-progress-february-2016</link>
+            <guid>/posts/2016/03/04/fitness-progress-february-2016</guid>
+            <pubDate>Fri, 04 Mar 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[I feel like I had a good February.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[I Made A Thing!]]></title>
+            <link>/posts/2016/02/19/i-made-a-thing</link>
+            <guid>/posts/2016/02/19/i-made-a-thing</guid>
+            <pubDate>Fri, 19 Feb 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[So I was in a "I want to develop something mood" recently, but didn't feel like digging into a big project, so I came up with an idea for a new project.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fitness Progress - January 2016]]></title>
+            <link>/posts/2016/02/11/fitness-progress-january-2016</link>
+            <guid>/posts/2016/02/11/fitness-progress-january-2016</guid>
+            <pubDate>Thu, 11 Feb 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[I've decided this year that I really want to rid myself of my gut. I think it's shrunk over the last year or two and I have gone down in pants size, but I've always wanted to get rid of it in its entirety. I don't know if that will happen this year, but I definitely want to see the majority of it go away. To that end, I've been making a concerted effort to go to the gym more with what I feel is a good lifting plan, and to generally just stay active.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Podcasts Galore, Part II]]></title>
+            <link>/posts/2016/02/07/podcasts-galore-part-ii</link>
+            <guid>/posts/2016/02/07/podcasts-galore-part-ii</guid>
+            <pubDate>Sun, 07 Feb 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you've read my blog at all, you know that I'm a big fan of <a href="http://kpwags.com/2014/02/05/podcasts-galore.html">podcasts</a>. They're a great way to learn about a whole variety of subjects to fit your tastes. I listen to so many podcasts I unfortunately have to pick and choose which episodes I listen to based on interest levels, which for me is fine. It'd be nice to be able to listen to everything, but there just isn't enough time in the day.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[I Finally Ran a Marathon]]></title>
+            <link>/posts/2015/12/17/i-finally-ran-a-marathon</link>
+            <guid>/posts/2015/12/17/i-finally-ran-a-marathon</guid>
+            <pubDate>Thu, 17 Dec 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[I did it. I actually did it. Even almost a month later it sometimes dawns on me how amazing it is that I was able to run a full marathon (26.2 miles).]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Redesigned Again]]></title>
+            <link>/posts/2015/12/11/redesigned-again</link>
+            <guid>/posts/2015/12/11/redesigned-again</guid>
+            <pubDate>Sat, 12 Dec 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Over the course of the last several months, I’ve been busy building out my website utilizing <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> instead of Wordpress. It’s not my first time moving away from Wordpress, but I think it will end up being permanent.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[The Computer Fraud and Abuse Act]]></title>
+            <link>/posts/2015/11/1/the-computer-fraud-and-abuse-act</link>
+            <guid>/posts/2015/11/1/the-computer-fraud-and-abuse-act</guid>
+            <pubDate>Sun, 01 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was listening to the <a href="https://gimletmedia.com/show/reply-all/" target="_blank" rel="noopener">Reply All</a> podcast today and they had an interesting <a href="https://gimletmedia.com/episode/43-the-law-that-sticks/" target="_blank" rel="noopener">episode regarding the Computer Fraud and Abuse Act</a>. I knew some basics about it, but never knew how general and open-ended it really was. It really is disturbing to me that people could be charged for simply violating the terms of service on a site like Facebook. It’s highly unlikely that the government will go after you for it, but it's still scary to know that the potential is there.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[What I've Been Up To]]></title>
+            <link>/posts/2015/04/17/what-ive-been-up-to</link>
+            <guid>/posts/2015/04/17/what-ive-been-up-to</guid>
+            <pubDate>Fri, 17 Apr 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[It's been a while since the last time I've posted anything on here so I figured I'd give a little bit of an update as to what I've been up to.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[The Redesign]]></title>
+            <link>/posts/2014/11/14/the-redesign</link>
+            <guid>/posts/2014/11/14/the-redesign</guid>
+            <pubDate>Fri, 14 Nov 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[This has been in the works for some time now.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Tracking My Runs]]></title>
+            <link>/posts/2014/05/27/tracking-my-runs</link>
+            <guid>/posts/2014/05/27/tracking-my-runs</guid>
+            <pubDate>Tue, 27 May 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[This year, I'm really starting to do some longer races. I've already run Broad Street (10 miles), and have 2 more half-marathons and then a full marathon in November. Since I've started running back in 2010, I've been using <a href="http://www.runkeeper.com/" target="_blank" rel="noopener">Runkeeper</a> on my phone to track my runs to give myself an idea how far and how fast I'm running. It's a pretty nice little app and service using your phone's GPS to track how you're doing and overlaying your path over Google Maps. But as I've been running more and participating in some longer races, I've noticed that its accuracy was starting to become questionable.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Back with Wordpress]]></title>
+            <link>/posts/2014/04/12/back-with-wordpress</link>
+            <guid>/posts/2014/04/12/back-with-wordpress</guid>
+            <pubDate>Sat, 12 Apr 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the end of January I decided to make the switch to the Ghost blogging platform. I had heard good things about it and decided to move over to it. Well, this past week I decided I wanted to expand a bit more with how I blog and realized that Ghost really wasn't going to work for what I needed. Given that and my limited knowledge of node.js, I decided that I'd be better served moving back to WordPress as my platform since I am familiar with PHP and its inner workings.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Run Forest Run!]]></title>
+            <link>/posts/2014/04/01/run-forest-run</link>
+            <guid>/posts/2014/04/01/run-forest-run</guid>
+            <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Well, it's official, this November I will be running my first full marathon. On November 23, 2014 I will be running the Philadelphia Marathon.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Full Steam Ahead]]></title>
+            <link>/posts/2014/03/24/full-steam-ahead</link>
+            <guid>/posts/2014/03/24/full-steam-ahead</guid>
+            <pubDate>Mon, 24 Mar 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[A week or so ago I decided that I needed a new programming project to work on. I haven't really had something like this since I closed the book on OpenVoter.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Thoughts on Ghost so Far]]></title>
+            <link>/posts/2014/02/10/my-thoughts-on-ghost-so-far</link>
+            <guid>/posts/2014/02/10/my-thoughts-on-ghost-so-far</guid>
+            <pubDate>Mon, 10 Feb 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Two weeks ago, I decided to make the switch from WordPress to Ghost as my blogging platform. For me it was a figuratively big jump as I have been using WordPress for years and hadn't really thought of switching to any other platform.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Podcasts galore!]]></title>
+            <link>/posts/2014/02/05/podcasts-galore</link>
+            <guid>/posts/2014/02/05/podcasts-galore</guid>
+            <pubDate>Wed, 05 Feb 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Many times while I am working, I often listen to podcasts. I find that they're a great way to keep myself up to date with what's going on around the world, or just to learn something new.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Is the Bill Nye - Ken Ham Debate Worth It?]]></title>
+            <link>/posts/2014/02/02/is-the-bill-nye-ken-ham-debate-worth-it</link>
+            <guid>/posts/2014/02/02/is-the-bill-nye-ken-ham-debate-worth-it</guid>
+            <pubDate>Sun, 02 Feb 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tonight, Bill Nye (the Science Guy) is going to debate the founder of the Creation Museum, Ken Ham. The debate is going to center around the whole Evolution versus Creationism argument.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Now Running on Ghost]]></title>
+            <link>/posts/2014/01/27/now-running-on-ghost</link>
+            <guid>/posts/2014/01/27/now-running-on-ghost</guid>
+            <pubDate>Mon, 27 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Despite my initial skepticism about switching over to Ghost as my blogging platform, I still pushed ahead and made my blog theme for Ghost. As you can tell, the look isn't all that different from it's previous look, but the backend is completely different.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Making a Switch to Ghost?]]></title>
+            <link>/posts/2014/01/24/making-a-switch-to-ghost</link>
+            <guid>/posts/2014/01/24/making-a-switch-to-ghost</guid>
+            <pubDate>Fri, 24 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Several months ago, when Ghost was first released to the public, I took a look at it and made a note to give it a look-see. Over the past week, I finally got it running on my dev server playing nicely with my Apache setup. So far I've been playing around with it and am contemplating whether I want to switch my blog platform over to it from WordPress, which is what I currently use.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Delays, Delays...]]></title>
+            <link>/posts/2014/01/24/delays-delays</link>
+            <guid>/posts/2014/01/24/delays-delays</guid>
+            <pubDate>Fri, 24 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week, I was hoping to get back into my gym routine. I went so far as to do a double session on Monday in hockey (2.5 hours of drills) and was all ready to start on Tuesday after a few false starts over the last month.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Exploring New York City]]></title>
+            <link>/posts/2014/01/14/exploring-new-york-city</link>
+            <guid>/posts/2014/01/14/exploring-new-york-city</guid>
+            <pubDate>Tue, 14 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[This past weekend, Lauren and I went to New York City. It wasn't the best weather for the trip, but overall I feel we lucked out as we only needed umbrellas twice. Most of the time it was just gray or misting which isn't too bad in the grand scheme of things.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Setting Up Financial Goals]]></title>
+            <link>/posts/2014/01/02/setting-up-financial-goals</link>
+            <guid>/posts/2014/01/02/setting-up-financial-goals</guid>
+            <pubDate>Thu, 02 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[So as part of my goals for 2014, I want to buy a house.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[2014 Is Here!]]></title>
+            <link>/posts/2014/01/01/2014-is-here</link>
+            <guid>/posts/2014/01/01/2014-is-here</guid>
+            <pubDate>Wed, 01 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Happy New Year everyone! Hope you all had a good, safe, fun New Year's Eve. Lauren and I spent it bundled up watching the Flyers game and Netflix which is just what we wanted.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[What's on the Horizon for 2014?]]></title>
+            <link>/posts/2013/12/29/whats-on-the-horizon-for-2014</link>
+            <guid>/posts/2013/12/29/whats-on-the-horizon-for-2014</guid>
+            <pubDate>Sun, 29 Dec 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[I still can't believe that 2013 is almost over. It really seems like the year just flew by. I guess part of it was all the wedding preparation and the wedding itself. There are still some days where I can't believe I'm married, though I'm definitely happy I am…just seems so surreal.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hope Everyone Had a Good Christmas]]></title>
+            <link>/posts/2013/12/27/hope-everyone-had-a-good-christmas</link>
+            <guid>/posts/2013/12/27/hope-everyone-had-a-good-christmas</guid>
+            <pubDate>Fri, 27 Dec 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hope everyone had a good Christmas. Mine was definitely a good one. It was nice to be able to spend the day with my family. For a first Christmas (well, Married Christmas) with Lauren, I couldn’t have asked for a better Christmas.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ohhhh, the Holidays]]></title>
+            <link>/posts/2013/12/24/ohhhh-the-holidays</link>
+            <guid>/posts/2013/12/24/ohhhh-the-holidays</guid>
+            <pubDate>Tue, 24 Dec 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Every year, it seems the holidays come up on me faster and faster. It really feels like it was just Halloween yesterday. Maybe it's because I was so occupied with planning my wedding this year, but it really seems like the whole year has just flown by. I guess it doesn't help that I've just been so busy this December. With everything going on, this is the first year that Lauren and I ended up getting a fake tree. I've always been far more preferential to real trees because I love their look, and their smell. The fun is also going out and finding the tree and cutting it down. The weather never really cooperated for us going to cut one down, and we realized that we just didn't have the room. On the plus side, there's less of a worry that our cat Cookie will eat the Christmas tree and get sick.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Recipe - Tuna Marinated in an Orange Pepper Garlic Sauce]]></title>
+            <link>/posts/2013/12/18/recipe-tuna-marinated-orange-pepper-garlic-sauce</link>
+            <guid>/posts/2013/12/18/recipe-tuna-marinated-orange-pepper-garlic-sauce</guid>
+            <pubDate>Wed, 18 Dec 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[So this was my first attempt at making my own recipe. My first time taking basic ingredients and putting them together, hoping that it turns into something edible. Well, it was most definitely successful and the tuna was absolutely delicious. So, with my glee, I figured I'd share the recipe.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[I Did It! Half Marathon Complete!]]></title>
+            <link>/posts/2013/11/18/i-did-it-half-marathon-complete</link>
+            <guid>/posts/2013/11/18/i-did-it-half-marathon-complete</guid>
+            <pubDate>Mon, 18 Nov 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[I did it. After all the hard work and exercise, I ran a half marathon yesterday! From barely being able to run a mile three and a half years ago, to 13.1 miles…it's a journey I am incredibly proud of.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Geeking Out]]></title>
+            <link>/posts/2013/10/30/geeking-out</link>
+            <guid>/posts/2013/10/30/geeking-out</guid>
+            <pubDate>Wed, 30 Oct 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[So, almost 2 weeks ago, I got married to the most wonderful woman I know. It was amazing, but this is another story.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[A New Mini-Project is Brewing: Daily Shots]]></title>
+            <link>/posts/2013/10/03/a-new-mini-project-is-brewing-daily-shots</link>
+            <guid>/posts/2013/10/03/a-new-mini-project-is-brewing-daily-shots</guid>
+            <pubDate>Thu, 03 Oct 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[In November of 2011, after really getting into photography, I decided to finally take the plunge and get myself a DSLR camera. I chose the Canon EOS 60D because I liked what it offered, and my girlfriend (now my fiancee) also had it and recommended it to me. I should add that it also is nice since we'll be able to share lenses. Fast forward to now, I've gotten better with photography, but don't always have the time to go out with my Canon and find those awesome shots.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Uncluttered]]></title>
+            <link>/posts/2013/09/03/uncluttered</link>
+            <guid>/posts/2013/09/03/uncluttered</guid>
+            <pubDate>Tue, 03 Sep 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of the biggest things I try to do is keep my desk uncluttered. I find that it helps me stay organized. As an example, here's my desk at work.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Killing a Project is Never Easy]]></title>
+            <link>/posts/2013/08/29/killing-a-project-is-never-easy</link>
+            <guid>/posts/2013/08/29/killing-a-project-is-never-easy</guid>
+            <pubDate>Thu, 29 Aug 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[About 1-2 years ago, I decided to stop development work on OpenVoter. It's still there, you can still download and use it, but it just hasn't been updated. Kind of sad too, because some updates were actually pretty far along for the next version. That said, if I ever end up going back to work on it, it might very well take a fair amount of time to figure out where exactly I left off. But going back to the time that I decided to move on from OpenVoter, I remember debating what I wanted to do somewhat heavily. I really liked what I was able to accomplish with it, but at the same time, it wasn't really used by anyone that I knew of and didn't really see it moving anywhere else. In the end, I begrudgingly decided to shelve it and find something else to work on.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Never Enough Time in the Day]]></title>
+            <link>/posts/2013/08/18/never-enough-time-in-the-day</link>
+            <guid>/posts/2013/08/18/never-enough-time-in-the-day</guid>
+            <pubDate>Sun, 18 Aug 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[There never seems to be enough hours in the day to get everything I want to done. Part of that is me failing to motivate myself to focus, the other is just me being busy. Take today for example. I meant to spend a good portion of the afternoon working on teaching myself libGDX for the game idea I have. What did I do? Get myself distracted so much I only got through a very little bit of the one tutorial I was going through. That being said, I can proudly say that it wasn't Reddit, Twitter, Facebook, or the Internet that distracted me. It was really just my lack of being able to focus that led to me getting up to go sit out on the couch with Lauren, or just roam around aimlessly. Today was not going to be my day to focus.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[New Domain, New Look, More Posts (Hopefully)]]></title>
+            <link>/posts/2013/08/14/new-domain-new-look-more-posts</link>
+            <guid>/posts/2013/08/14/new-domain-new-look-more-posts</guid>
+            <pubDate>Wed, 14 Aug 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Over the last couple months, I've been seriously considering doing a rebranding. I felt that DarkNemesis and Darker Nemesis just didn't really feel like 'me' anymore. So I went about trying to find a new moniker. "Wags" has always been sort of a nickname for me given my last name being Wagner and "kpwags" was available so after some thought, I ended up liking it and now here we are.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+    </channel>
+</rss>

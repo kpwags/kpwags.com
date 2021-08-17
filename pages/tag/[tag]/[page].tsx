@@ -7,6 +7,7 @@ import { BlogPost } from '@models/blogPost';
 import PostListing from '@components/PostListing';
 import TagHeader from '@components/TagHeader';
 import ReactPaginate from 'react-paginate';
+import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllTagPages();
@@ -86,6 +87,7 @@ const TaggedPosts: FC<TaggedPostsProps> = ({
                     - Keith Wagner
                 </title>
             </Head>
+            <RssFeeds />
             <main>
                 <TagHeader name={tagName} />
 

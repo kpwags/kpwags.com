@@ -1,0 +1,1146 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Keith Wagner",
+    "home_page_url": "https://kpwags.com",
+    "feed_url": "https://kpwags.com/rss/feed.json",
+    "description": "I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.",
+    "author": {
+        "name": "Keith Wagner",
+        "url": "https://kpwags.com"
+    },
+    "items": [
+        {
+            "id": "/posts/2021/07/24/halfway-through-2021",
+            "url": "/posts/2021/07/24/halfway-through-2021",
+            "title": "Halfway Through 2021",
+            "summary": "I can't believe how fast we've gotten through the first half of 2021. It feels like despite the slow start, the year has just flown by. I figured I'd take a look back and see how I'm doing with what I've been doing this year, and how I've been faring with what I was hoping to focus on this year.",
+            "date_modified": "2021-07-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/06/03/slow-burn-the-road-to-the-iraq-war",
+            "url": "/posts/2021/06/03/slow-burn-the-road-to-the-iraq-war",
+            "title": "Slow Burn: The Road to the Iraq War",
+            "summary": "Recently, I’ve been listening to the latest season of <a href=\"https://slate.com/podcasts/slow-burn/s5/road-to-the-iraq-war\">Slow Burn</a> from Slate.",
+            "date_modified": "2021-06-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/06/02/refactoring-loops",
+            "url": "/posts/2021/06/02/refactoring-loops",
+            "title": "Refactoring Loops",
+            "summary": "Ever feel like you can never completely get started with a project? That's sometimes how it feels with the fitness tracking app I'm building.",
+            "date_modified": "2021-06-02T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/04/27/switching-platforms",
+            "url": "/posts/2021/04/27/switching-platforms",
+            "title": "Switching Platforms",
+            "summary": "I've been using Jekyll to run this blog for the better part of the last six years. But recently, I've been giving serious consideration to switching to Gatsby or Next.js.",
+            "date_modified": "2021-04-27T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/04/06/three-months-down-in-2021",
+            "url": "/posts/2021/04/06/three-months-down-in-2021",
+            "title": "Three Months Down in 2021",
+            "summary": "I still can't believe it's already April, it really seems like it was just New Year's yesterday. Alas, I figured I'd check in with how I'm doing with my goals.",
+            "date_modified": "2021-04-06T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/03/20/on-new-stadiums",
+            "url": "/posts/2021/03/20/on-new-stadiums",
+            "title": "On New Stadiums",
+            "summary": "I'm currently reading <a href=\"https://bookshop.org/books/field-of-schemes-how-the-great-stadium-swindle-turns-public-money-into-private-profit-revised/9780803260160\">Field of Schemes</a> by Neil Demause &amp; Joanna Cagan. It talks about how sports team owners manage to screw the public out of money to pay for their new stadiums and arenas. In one of the later chapters, I found a quote that I think sums up how absurd it is that we are the ones paying for their stadiums.",
+            "date_modified": "2021-03-21T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/03/01/two-months-down-in-2021",
+            "url": "/posts/2021/03/01/two-months-down-in-2021",
+            "title": "Two Months Down in 2021",
+            "summary": "I can't quite decide if this year is flying by...or dragging on...and on...and on.",
+            "date_modified": "2021-03-01T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/02/10/some-small-site-updates",
+            "url": "/posts/2021/02/10/some-small-site-updates",
+            "title": "Some Small Site Updates",
+            "summary": "Over the course of the last couple weeks, I've made some small improvements to my site. None of them are particularly huge, but I like the end result.",
+            "date_modified": "2021-02-10T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/02/03/unit-testing-with-msw",
+            "url": "/posts/2021/02/03/unit-testing-with-msw",
+            "title": "Unit Testing with MSW",
+            "summary": "A little while back, I started a new project. I have been using <a href=\"https://kpwags.com/2020/01/21/tracking-my-fitness-journey.html\">spreadsheets to track a lot of my fitness goals</a>. This approach generally works, but I thought it would be easier if I had an app for that. So I did what any self-respecting fitness enthusiast developer would do...make one myself! But with that, also come unit tests.",
+            "date_modified": "2021-02-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/01/28/tweaking-my-lifting-routine",
+            "url": "/posts/2021/01/28/tweaking-my-lifting-routine",
+            "title": "Tweaking My Lifting Routine",
+            "summary": "Looking back at the last two months, I've noticed I've done a pretty good job of hitting the weights 5-6 days a week. Because of this, I decided I'd tweak my routine a little bit to help jumpstart some gains.",
+            "date_modified": "2021-01-28T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/01/20/a-new-president",
+            "url": "/posts/2021/01/20/a-new-president",
+            "title": "A New President",
+            "summary": "Joseph R. Biden took the oath of office today at noon and became The United States of America's 46th President.",
+            "date_modified": "2021-01-20T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/01/14/my-typical-weekday",
+            "url": "/posts/2021/01/14/my-typical-weekday",
+            "title": "My Typical Weekday",
+            "summary": "I've seen posts like this going around so I figured I'd share what my typical weekday looks like.",
+            "date_modified": "2021-01-14T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/01/07/thoughts-on-trumps-failed-insurrection",
+            "url": "/posts/2021/01/07/thoughts-on-trumps-failed-insurrection",
+            "title": "Thoughts on Trump's Failed Insurrection",
+            "summary": "As I'm sure just about all are aware, yesterday January 6, 2021, A group of Trump supporters stormed and broke into the US Capitol Building. I followed what was going on and it left me angry, upset, and utterly speechless.",
+            "date_modified": "2021-01-07T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2021/01/02/ending-the-trainwreck-that-was-2020",
+            "url": "/posts/2021/01/02/ending-the-trainwreck-that-was-2020",
+            "title": "Ending the Trainwreck that was 2020",
+            "summary": "I think it's probably the world's biggest understatement to say that 2020 did not go the way I had envisioned it to go. And yet, the year has now come to a close.",
+            "date_modified": "2021-01-02T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/12/16/reflections-on-my-running-streak-coming-to-an-end",
+            "url": "/posts/2020/12/16/reflections-on-my-running-streak-coming-to-an-end",
+            "title": "Reflections on My Running Streak Coming to an End",
+            "summary": "This past Monday, December 14, my running streak came to an end. I managed to get it up to 175 days, almost half the year. In the end, I just felt it was time to let it go.",
+            "date_modified": "2020-12-16T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/12/14/starting-a-new-job",
+            "url": "/posts/2020/12/14/starting-a-new-job",
+            "title": "Starting a New Job",
+            "summary": "At the end of November, I ended up leaving my job at Maintenance Strategies, Inc. and made the decision to take on a new challenge working as a software developer at Webstaurant.",
+            "date_modified": "2020-12-14T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/11/03/a-little-tip-for-sticking-with-fitness-goals",
+            "url": "/posts/2020/11/03/a-little-tip-for-sticking-with-fitness-goals",
+            "title": "A Little Tip for Sticking with Fitness Goals",
+            "summary": "I'm sure many have experienced the problem of not being able to stick with one's fitness goals. It's a common problem. You decide I'm going to go to the gym a few days a week, you stick with it for a week or two, then get lazy. I've dealt with this and have found a way to \"trick\" myself into sticking with my goals.",
+            "date_modified": "2020-11-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/11/01/why-i-chose-the-apple-watch",
+            "url": "/posts/2020/11/01/why-i-chose-the-apple-watch",
+            "title": "Why I Chose the Apple Watch",
+            "summary": "I know the Apple Watch has been around for over 5 years, and I've had one for almost 4, but I thought I'd share my reasons for still wearing it and why I like it.",
+            "date_modified": "2020-11-01T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/09/24/handy-visual-studio-code-plugin-for-jest",
+            "url": "/posts/2020/09/24/handy-visual-studio-code-plugin-for-jest",
+            "title": "Handy Visual Studio Code Plugin for Jest",
+            "summary": "I ended up starting a new project recently which I'll get into later, but after my experience writing unit tests with <a href=\"https://kpwags.com/2020/05/06/delving-into-unit-testing.html\">Digital Family Cookbook</a>, I decided to write the tests as I code for this new project. I found a nifty little tool that makes things a little easier for me so I figured I'd share.",
+            "date_modified": "2020-09-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/08/23/two-month-running-streak",
+            "url": "/posts/2020/08/23/two-month-running-streak",
+            "title": "Two Month Running Streak",
+            "summary": "Two months ago, I decided to go for a run, something I've been doing during most of the pandemic. What I didn't know was that this run would be the start of what would become a 2+ month running streak.",
+            "date_modified": "2020-08-23T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/08/04/so-i-finally-built-a-home-gym",
+            "url": "/posts/2020/08/04/so-i-finally-built-a-home-gym",
+            "title": "So I Finally Just Built a Home Gym",
+            "summary": "Four months into the COVID-19 Pandemic, I finally broke down and built a gym in my basement.",
+            "date_modified": "2020-08-04T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/07/05/so-i-finally-finished-a-side-project",
+            "url": "/posts/2020/07/05/so-i-finally-finished-a-side-project",
+            "title": "So I Finally Finished A Side Project",
+            "summary": "I’ve often seen a joke going around dev circles talking about how developers have tons of half-finished side projects lying around. And as much as it pains me to say, I’m one of them. But now I can say that that pile has decreased by one.",
+            "date_modified": "2020-07-05T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/06/24/section-230-should-be-protected",
+            "url": "/posts/2020/06/24/section-230-should-be-protected",
+            "title": "Section 230 Should Be Protected",
+            "summary": "I’m going to preface this by saying that I am by no means an expert when it comes to all the nuances of Section 230 of the Communications Decency Act. I do however know that Section 230 serves as the underpinning of how the current Internet works and why all the sites that we all love can survive and exist.",
+            "date_modified": "2020-06-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/05/15/my-cat-cookie-is-now-11-years-old",
+            "url": "/posts/2020/05/15/my-cat-cookie-is-now-11-years-old",
+            "title": "My Cat Cookie is Now 11 Years Old",
+            "summary": "Meet Cookie, the cat that I’ve had now for almost 11 years.",
+            "date_modified": "2020-05-15T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/05/06/delving-into-unit-testing",
+            "url": "/posts/2020/05/06/delving-into-unit-testing",
+            "title": "Delving into Unit Testing",
+            "summary": "In all of my professional experience, I've never worked for a company that did any unit testing and because of that, I haven't really done any either. I knew what unit testing is and the general concepts behind it, but never got around to actually building or implementing any tests. I decided that for Digital Family Cookbook, that would change.",
+            "date_modified": "2020-05-06T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/04/08/im-now-a-react-hooks-convert",
+            "url": "/posts/2020/04/08/im-now-a-react-hooks-convert",
+            "title": "I'm Now a React Hooks Convert",
+            "summary": "I’ve often joked that the recipe project I’ve been working on is my “white whale”. I have in the past thrown everything out only to start over. I first built it in Ruby on Rails, but it was buggy and my limited knowledge of Rails made it a little hard to debug and figure out exactly what was wrong. I opted to rebuild it in PHP since I was quite familiar with PHP after building OpenVoter. I decided then that I wanted to start over to teach myself Node.js...well you get the idea.",
+            "date_modified": "2020-04-08T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/03/31/quarantine-update",
+            "url": "/posts/2020/03/31/quarantine-update",
+            "title": "Quarantine Update",
+            "summary": "Well, just like many others across the country and the world, I’m now practicing social distancing and staying home just about all the time. While I’m fortunate in that I have a job that allows me to work from home, I can’t help but to think of all those who aren’t as fortunate and have either lost their job or have to go to work and potentially put their health and life on the line. Doctors, nurses, first responders and others are braving this and they deserve nothing but praise and respect for working through these tough times.",
+            "date_modified": "2020-03-31T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/01/21/tracking-my-fitness-journey",
+            "url": "/posts/2020/01/21/tracking-my-fitness-journey",
+            "title": "Tracking My Fitness Journey",
+            "summary": "One of the things I’ve been trying to do while getting in shape is tracking my progress. Weight is obviously one of the metrics I track, but it’s not the only one.",
+            "date_modified": "2020-01-21T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2020/01/05/yearly-wrapup-and-retrospective-2019",
+            "url": "/posts/2020/01/05/yearly-wrapup-and-retrospective-2019",
+            "title": "Yearly Wrap-up and Retrospective: 2019",
+            "summary": "Another year has passed and it’s been a tradition of mine as of late to look back on the year that was to see what I hoped to have done, what I did, and where I might improve. I really wish I knew where 2019 went because it seemed to have just flown by. It seemed like it was just yesterday that I was writing about 2018, looking onward to 2019. Now 2019 is gone, the new decade has <a href=\"https://xkcd.com/2249/\">maybe?</a> begun, and I’m a year older.",
+            "date_modified": "2020-01-05T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/10/01/reading-list",
+            "url": "/posts/2019/10/01/reading-list",
+            "title": "Reading List 9/23 - 9/29",
+            "summary": "This week we look at a historical close call with our nuclear weapons, the OLPC laptop, the NSA going after ISIS, good CSS design tips, and ES2019.",
+            "date_modified": "2019-10-01T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/09/08/reading-list",
+            "url": "/posts/2019/09/08/reading-list",
+            "title": "Reading List 9/2 - 9/8",
+            "summary": "This week I read about Firefox improving users' privacy by default, why the GOP and conservatives are wrong about \"censorship\" on social media, nuclear energy, and a weird bit of tax policy.",
+            "date_modified": "2019-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/09/03/reading-list",
+            "url": "/posts/2019/09/03/reading-list",
+            "title": "Reading List 8/26 - 9/1",
+            "summary": "This week I read about a spouse's experience with the aftermath of an NFL career, Apple at least partially embracing the right-to-repair, and the benefits of code deletion.",
+            "date_modified": "2019-09-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/08/25/reading-list",
+            "url": "/posts/2019/08/25/reading-list",
+            "title": "Reading List 8/19 - 8/25",
+            "summary": "This week I read about Javascript, jQuery, terraforming Mars, baseball cards and more.",
+            "date_modified": "2019-08-25T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/08/18/reading-list",
+            "url": "/posts/2019/08/18/reading-list",
+            "title": "Reading List 8/12 - 8/18",
+            "summary": "This week I read about changes in the US Navy, another nuclear accident in Russia, a prank gone wrong, and more.",
+            "date_modified": "2019-08-18T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/08/15/continuing-my-side-project-and-learning-react",
+            "url": "/posts/2019/08/15/continuing-my-side-project-and-learning-react",
+            "title": "Continuing My Side Project & Learning React",
+            "summary": "Lately, I’ve been making steady progress on my side project, which I’m currently calling <em>Digital Family Cookbook</em>. I’m making it as a content management system for cooking recipes. As I’ve mentioned previously, I’m writing it using Node.js, React, &amp; GraphQL. It’s been quite a learning curve, but I’m definitely glad I’ve been working on it. The tools are pretty cool and easy-ish to use once you get used to the syntax and some of the idiosyncrasies of React and JSX.",
+            "date_modified": "2019-08-15T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/08/11/reading-list",
+            "url": "/posts/2019/08/11/reading-list",
+            "title": "Reading List 8/5 - 8/11",
+            "summary": "I've decided to start this back up. Some interesting thoughts about making the data social media has on us transferrable, DIY Phone Farms, and a new software development podcast I've found.",
+            "date_modified": "2019-08-11T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/07/30/getting-stronger",
+            "url": "/posts/2019/07/30/getting-stronger",
+            "title": "Getting Stronger",
+            "summary": "At the beginning of July, I decided to change up my gym routine. I had been running a variation of the <a href=\"https://www.muscleandstrength.com/workouts/phul-workout\">P.H.U.L. routine</a>, but decided I wanted to try something a little more intense since I felt like I was plateauing with both deadlifts and bench press.",
+            "date_modified": "2019-07-30T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/05/28/12-weeks-of-phul",
+            "url": "/posts/2019/05/28/12-weeks-of-phul",
+            "title": "12 Weeks of P.H.U.L.",
+            "summary": "Over the last 12 weeks, I’ve been running the <a href=\"https://www.muscleandstrength.com/workouts/phul-workout\">P.H.U.L. Workout Routine</a>.",
+            "date_modified": "2019-05-28T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/03/12/my-progress-so-far",
+            "url": "/posts/2019/03/12/my-progress-so-far",
+            "title": "My Progress So Far",
+            "summary": "Two and a half months in, I figured I’d reflect on where things stand with regards towards working towards the goals I set for myself.",
+            "date_modified": "2019-03-12T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/03/10/reading-list",
+            "url": "/posts/2019/03/10/reading-list",
+            "title": "Reading List 3/4 - 3/10",
+            "summary": "Not too long this week. We look at the anti-vaccine movement, a new drug treatment for depression, Facebook's \"supposed\" change, and a neat proof of concept for spying.",
+            "date_modified": "2019-03-10T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/03/03/reading-list",
+            "url": "/posts/2019/03/03/reading-list",
+            "title": "Reading List 2/18 - 3/3",
+            "summary": "2 weeks combined this time as I was in NYC last weekend. This week I read about loot boxes, whistle blowing, YouTube conspiracies and more.",
+            "date_modified": "2019-03-02T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/02/19/reading-list",
+            "url": "/posts/2019/02/19/reading-list",
+            "title": "Reading List 2/11 - 2/17",
+            "summary": "It's a little late, but here we go. This week we look at code, login forms, and the old Altavista search engine.",
+            "date_modified": "2019-02-19T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/02/10/reading-list",
+            "url": "/posts/2019/02/10/reading-list",
+            "title": "Reading List 2/4 - 2/10",
+            "summary": "This week looks at controversies at Instacart and DoorDash, possible changes in MLB rules, French battlefields in WWI and WWII, &amp; Google/Facebook lock-in.",
+            "date_modified": "2019-02-10T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/02/03/reading-list",
+            "url": "/posts/2019/02/03/reading-list",
+            "title": "Reading List 1/28 - 2/3",
+            "summary": "Another week, another set of articles ranging from Apple's row with Facebook to the future of American infrastructure.",
+            "date_modified": "2019-02-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/01/27/reading-list",
+            "url": "/posts/2019/01/27/reading-list",
+            "title": "Reading List 1/17 - 1/27",
+            "summary": "So I think for 2019, I'm going to try something new. I'm going to try to share a weekly list of various articles and podcasts I've read or listened to over the week that I've found interesting. So here we go.",
+            "date_modified": "2019-01-27T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/01/22/3-weeks-in",
+            "url": "/posts/2019/01/22/3-weeks-in",
+            "title": "3 Weeks In",
+            "summary": "Since we’re now about 3 weeks into 2019, I figured I’d quickly see where I’m at in terms of my goals for the year.",
+            "date_modified": "2019-01-22T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2019/01/03/a-new-year",
+            "url": "/posts/2019/01/03/a-new-year",
+            "title": "A New Year",
+            "summary": "A year later, let's see what happened in 2018 and what I'm looking at for 2019.",
+            "date_modified": "2019-01-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/12/21/goodbye-facebook-good-riddance",
+            "url": "/posts/2018/12/21/goodbye-facebook-good-riddance",
+            "title": "Goodbye Facebook & Good Riddance",
+            "summary": "This past week, I finally pulled the trigger and completely removed Facebook from my life. I deleted my Facebook account in June or July, I forget which month, but I had kept my Instagram account. That ended this week when I downloaded my archive and deleted my Instagram account.",
+            "date_modified": "2018-12-21T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/06/20/false-starts-my-side-project",
+            "url": "/posts/2018/06/20/false-starts-my-side-project",
+            "title": "False Starts & My Side Project",
+            "summary": "I think I mentioned it before, but I’ve been working on a new side project. I figured it was a good way to teach myself React and Node.js, much like OpenVoter taught me PHP. I’ve been wanting to familiarize myself with some more modern frameworks, and I feel like Node and React are good places to start.",
+            "date_modified": "2018-06-20T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/06/12/my-thoughts-on-microsoft-acquiring-github",
+            "url": "/posts/2018/06/12/my-thoughts-on-microsoft-acquiring-github",
+            "title": "My Thoughts on Microsoft Acquiring GitHub",
+            "summary": "Last Monday, <a href=\"https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal\">Microsoft bought GitHub for a whopping $7.5 billion</a>.",
+            "date_modified": "2018-06-12T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/05/15/another-redesign",
+            "url": "/posts/2018/05/15/another-redesign",
+            "title": "Another Redesign",
+            "summary": "As you can tell, I've decided to give my blog a little bit of a facelift.",
+            "date_modified": "2018-05-15T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/05/05/my-month-away-from-social-media",
+            "url": "/posts/2018/05/05/my-month-away-from-social-media",
+            "title": "My Month Away from Social Media",
+            "summary": "In my last post, I was saying that I was going to attempt an experiment in how I got my news. I decided to turn off Twitter, Facebook and Reddit. Instead of them, I opted for utilizing my subscriptions to the New York Times, Wall Street Journal and The Economist. I also ended up using RSS feeds as well.",
+            "date_modified": "2018-05-05T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/03/25/changing-how-i-get-the-news",
+            "url": "/posts/2018/03/25/changing-how-i-get-the-news",
+            "title": "Changing How I Get the News",
+            "summary": "A little while back, I read an article in the New York Times by Farhad Manjoo about how he switched to reading newspapers instead of getting his news from Social Media.",
+            "date_modified": "2018-03-25T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/01/29/outdoor-hockey",
+            "url": "/posts/2018/01/29/outdoor-hockey",
+            "title": "Outdoor Hockey",
+            "summary": "So last Friday night, I was able to do something that I've been dreaming of for a while. I was able to skate outdoors on an ice rink in Hershey, Pennsylvania.",
+            "date_modified": "2018-01-29T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2018/01/25/looking-back-at-2017-and-forward-into-2018",
+            "url": "/posts/2018/01/25/looking-back-at-2017-and-forward-into-2018",
+            "title": "Looking Back at 2017 and Forward into 2018",
+            "summary": "A year later, let's see what happened in 2017 and what I'm looking at for 2018.",
+            "date_modified": "2018-01-25T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2017/09/28/star-trek-discovery-and-the-future-of-streaming",
+            "url": "/posts/2017/09/28/star-trek-discovery-and-the-future-of-streaming",
+            "title": "Star Trek Discovery and the Future of Streaming",
+            "summary": "Sunday night, like many Star Trek fans sat down to watch the premiere of Star Trek: Discovery.",
+            "date_modified": "2017-09-28T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2017/08/13/adjusting-my-social-media-presence",
+            "url": "/posts/2017/08/13/adjusting-my-social-media-presence",
+            "title": "Adjusting My Social Media Presence",
+            "summary": "Recently, much has changed in regards to my presence on social media.",
+            "date_modified": "2017-08-13T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2017/08/01/wow-ive-fallen-behind",
+            "url": "/posts/2017/08/01/wow-ive-fallen-behind",
+            "title": "Wow, I've Fallen Behind",
+            "summary": "The last couple months have been really hectic for me and unfortunately I didn’t get much done on my recipe side project.",
+            "date_modified": "2017-08-01T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2017/05/16/starting-a-new-project",
+            "url": "/posts/2017/05/16/starting-a-new-project",
+            "title": "Starting a New Project",
+            "summary": "I've been having an itch lately to get working on a new side project.",
+            "date_modified": "2017-05-16T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2017/01/24/goals-for-2017",
+            "url": "/posts/2017/01/24/goals-for-2017",
+            "title": "Goals for 2017",
+            "summary": "2016 was super busy for me and I really am hoping that 2017 is not quite as busy.",
+            "date_modified": "2017-01-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2017/01/06/2016-in-review",
+            "url": "/posts/2017/01/06/2016-in-review",
+            "title": "2016 In Review",
+            "summary": "2016 was a super busy year for me, and in some cases, probably a little too busy.",
+            "date_modified": "2017-01-06T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/10/07/fitness-progress-september-2016",
+            "url": "/posts/2016/10/07/fitness-progress-september-2016",
+            "title": "Fitness Progress - September 2016",
+            "summary": "I guess the one thing I could say that went well this month is that I got my lifts to my previous bests and I got a lot of runs in.",
+            "date_modified": "2016-10-07T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/09/15/thoughts-on-the-iphone-7",
+            "url": "/posts/2016/09/15/thoughts-on-the-iphone-7",
+            "title": "Thoughts on the iPhone 7",
+            "summary": "This post is a follow-up on my previous post <a href=\"http://kpwags.com/technology/2016/08/23/about-the-iphone-7.html\">about the iPhone 7</a>.",
+            "date_modified": "2016-09-15T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/09/06/fitness-progress-august-2016",
+            "url": "/posts/2016/09/06/fitness-progress-august-2016",
+            "title": "Fitness Progress - August 2016",
+            "summary": "I feel like August was another wash for me. I could never really get into any kind of rhythm with trips to the gym or runs.",
+            "date_modified": "2016-09-06T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/08/23/about-the-iphone-7",
+            "url": "/posts/2016/08/23/about-the-iphone-7",
+            "title": "About the iPhone 7",
+            "summary": "There have been a lot of rumors swirling around about the iPhone 7 coming out in September.",
+            "date_modified": "2016-08-23T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/08/04/fitness-progress-july-2016",
+            "url": "/posts/2016/08/04/fitness-progress-july-2016",
+            "title": "Fitness Progress - July 2016",
+            "summary": "This month was pretty much a complete wash. I didn't really progress at all.",
+            "date_modified": "2016-08-04T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/07/11/fitness-progress-june-2016",
+            "url": "/posts/2016/07/11/fitness-progress-june-2016",
+            "title": "Fitness Progress - June 2016",
+            "summary": "June wasn't quite as much of a waste as the numbers seem to show. I want quite as active as previous months due to work on my dining room. In March I started gutting it and now I'm finally making some real progress...at the cost of trips to the gym. I've been playing a lot of hockey as well including 3 straight weeks of Sunday-Monday-Tuesday games back-to-back-to-back. It's been tiring as well given the late start times. As much as I love playing hockey, I think I'm looking forward to dropping down to 2 teams come fall.",
+            "date_modified": "2016-07-11T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/06/12/fitness-progress-may-2016",
+            "url": "/posts/2016/06/12/fitness-progress-may-2016",
+            "title": "Fitness Progress - May 2016",
+            "summary": "I really need to figure out the whole diet thing. Other than that, I feel good about how the month of May went. I was more active, between gym trips and hockey, I stayed busy.",
+            "date_modified": "2016-06-12T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/05/02/fitness-progress-april-2016",
+            "url": "/posts/2016/05/02/fitness-progress-april-2016",
+            "title": "Fitness Progress - April 2016",
+            "summary": "April was not a good month for me. I was far less active than I wanted to be and wasn’t able to make it to the gym as often as I planned and generally have this year so far.",
+            "date_modified": "2016-05-02T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/04/16/fitness-progress-march-2016",
+            "url": "/posts/2016/04/16/fitness-progress-march-2016",
+            "title": "Fitness Progress - March 2016",
+            "summary": "I feel like I had a 'meh' March.",
+            "date_modified": "2016-04-16T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/03/04/fitness-progress-february-2016",
+            "url": "/posts/2016/03/04/fitness-progress-february-2016",
+            "title": "Fitness Progress - February 2016",
+            "summary": "I feel like I had a good February.",
+            "date_modified": "2016-03-04T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/02/19/i-made-a-thing",
+            "url": "/posts/2016/02/19/i-made-a-thing",
+            "title": "I Made A Thing!",
+            "summary": "So I was in a \"I want to develop something mood\" recently, but didn't feel like digging into a big project, so I came up with an idea for a new project.",
+            "date_modified": "2016-02-19T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/02/11/fitness-progress-january-2016",
+            "url": "/posts/2016/02/11/fitness-progress-january-2016",
+            "title": "Fitness Progress - January 2016",
+            "summary": "I've decided this year that I really want to rid myself of my gut. I think it's shrunk over the last year or two and I have gone down in pants size, but I've always wanted to get rid of it in its entirety. I don't know if that will happen this year, but I definitely want to see the majority of it go away. To that end, I've been making a concerted effort to go to the gym more with what I feel is a good lifting plan, and to generally just stay active.",
+            "date_modified": "2016-02-11T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2016/02/07/podcasts-galore-part-ii",
+            "url": "/posts/2016/02/07/podcasts-galore-part-ii",
+            "title": "Podcasts Galore, Part II",
+            "summary": "If you've read my blog at all, you know that I'm a big fan of <a href=\"http://kpwags.com/2014/02/05/podcasts-galore.html\">podcasts</a>. They're a great way to learn about a whole variety of subjects to fit your tastes. I listen to so many podcasts I unfortunately have to pick and choose which episodes I listen to based on interest levels, which for me is fine. It'd be nice to be able to listen to everything, but there just isn't enough time in the day.",
+            "date_modified": "2016-02-07T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2015/12/17/i-finally-ran-a-marathon",
+            "url": "/posts/2015/12/17/i-finally-ran-a-marathon",
+            "title": "I Finally Ran a Marathon",
+            "summary": "I did it. I actually did it. Even almost a month later it sometimes dawns on me how amazing it is that I was able to run a full marathon (26.2 miles).",
+            "date_modified": "2015-12-17T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2015/12/11/redesigned-again",
+            "url": "/posts/2015/12/11/redesigned-again",
+            "title": "Redesigned Again",
+            "summary": "Over the course of the last several months, I’ve been busy building out my website utilizing <a href=\"https://jekyllrb.com/\" target=\"_blank\" rel=\"noopener\">Jekyll</a> instead of Wordpress. It’s not my first time moving away from Wordpress, but I think it will end up being permanent.",
+            "date_modified": "2015-12-12T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2015/11/1/the-computer-fraud-and-abuse-act",
+            "url": "/posts/2015/11/1/the-computer-fraud-and-abuse-act",
+            "title": "The Computer Fraud and Abuse Act",
+            "summary": "I was listening to the <a href=\"https://gimletmedia.com/show/reply-all/\" target=\"_blank\" rel=\"noopener\">Reply All</a> podcast today and they had an interesting <a href=\"https://gimletmedia.com/episode/43-the-law-that-sticks/\" target=\"_blank\" rel=\"noopener\">episode regarding the Computer Fraud and Abuse Act</a>. I knew some basics about it, but never knew how general and open-ended it really was. It really is disturbing to me that people could be charged for simply violating the terms of service on a site like Facebook. It’s highly unlikely that the government will go after you for it, but it's still scary to know that the potential is there.",
+            "date_modified": "2015-11-01T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2015/04/17/what-ive-been-up-to",
+            "url": "/posts/2015/04/17/what-ive-been-up-to",
+            "title": "What I've Been Up To",
+            "summary": "It's been a while since the last time I've posted anything on here so I figured I'd give a little bit of an update as to what I've been up to.",
+            "date_modified": "2015-04-17T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/11/14/the-redesign",
+            "url": "/posts/2014/11/14/the-redesign",
+            "title": "The Redesign",
+            "summary": "This has been in the works for some time now.",
+            "date_modified": "2014-11-14T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/05/27/tracking-my-runs",
+            "url": "/posts/2014/05/27/tracking-my-runs",
+            "title": "Tracking My Runs",
+            "summary": "This year, I'm really starting to do some longer races. I've already run Broad Street (10 miles), and have 2 more half-marathons and then a full marathon in November. Since I've started running back in 2010, I've been using <a href=\"http://www.runkeeper.com/\" target=\"_blank\" rel=\"noopener\">Runkeeper</a> on my phone to track my runs to give myself an idea how far and how fast I'm running. It's a pretty nice little app and service using your phone's GPS to track how you're doing and overlaying your path over Google Maps. But as I've been running more and participating in some longer races, I've noticed that its accuracy was starting to become questionable.",
+            "date_modified": "2014-05-27T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/04/12/back-with-wordpress",
+            "url": "/posts/2014/04/12/back-with-wordpress",
+            "title": "Back with Wordpress",
+            "summary": "At the end of January I decided to make the switch to the Ghost blogging platform. I had heard good things about it and decided to move over to it. Well, this past week I decided I wanted to expand a bit more with how I blog and realized that Ghost really wasn't going to work for what I needed. Given that and my limited knowledge of node.js, I decided that I'd be better served moving back to WordPress as my platform since I am familiar with PHP and its inner workings.",
+            "date_modified": "2014-04-12T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/04/01/run-forest-run",
+            "url": "/posts/2014/04/01/run-forest-run",
+            "title": "Run Forest Run!",
+            "summary": "Well, it's official, this November I will be running my first full marathon. On November 23, 2014 I will be running the Philadelphia Marathon.",
+            "date_modified": "2014-04-01T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/03/24/full-steam-ahead",
+            "url": "/posts/2014/03/24/full-steam-ahead",
+            "title": "Full Steam Ahead",
+            "summary": "A week or so ago I decided that I needed a new programming project to work on. I haven't really had something like this since I closed the book on OpenVoter.",
+            "date_modified": "2014-03-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/02/10/my-thoughts-on-ghost-so-far",
+            "url": "/posts/2014/02/10/my-thoughts-on-ghost-so-far",
+            "title": "My Thoughts on Ghost so Far",
+            "summary": "Two weeks ago, I decided to make the switch from WordPress to Ghost as my blogging platform. For me it was a figuratively big jump as I have been using WordPress for years and hadn't really thought of switching to any other platform.",
+            "date_modified": "2014-02-10T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/02/05/podcasts-galore",
+            "url": "/posts/2014/02/05/podcasts-galore",
+            "title": "Podcasts galore!",
+            "summary": "Many times while I am working, I often listen to podcasts. I find that they're a great way to keep myself up to date with what's going on around the world, or just to learn something new.",
+            "date_modified": "2014-02-05T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/02/02/is-the-bill-nye-ken-ham-debate-worth-it",
+            "url": "/posts/2014/02/02/is-the-bill-nye-ken-ham-debate-worth-it",
+            "title": "Is the Bill Nye - Ken Ham Debate Worth It?",
+            "summary": "Tonight, Bill Nye (the Science Guy) is going to debate the founder of the Creation Museum, Ken Ham. The debate is going to center around the whole Evolution versus Creationism argument.",
+            "date_modified": "2014-02-02T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/01/27/now-running-on-ghost",
+            "url": "/posts/2014/01/27/now-running-on-ghost",
+            "title": "Now Running on Ghost",
+            "summary": "Despite my initial skepticism about switching over to Ghost as my blogging platform, I still pushed ahead and made my blog theme for Ghost. As you can tell, the look isn't all that different from it's previous look, but the backend is completely different.",
+            "date_modified": "2014-01-27T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/01/24/making-a-switch-to-ghost",
+            "url": "/posts/2014/01/24/making-a-switch-to-ghost",
+            "title": "Making a Switch to Ghost?",
+            "summary": "Several months ago, when Ghost was first released to the public, I took a look at it and made a note to give it a look-see. Over the past week, I finally got it running on my dev server playing nicely with my Apache setup. So far I've been playing around with it and am contemplating whether I want to switch my blog platform over to it from WordPress, which is what I currently use.",
+            "date_modified": "2014-01-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/01/24/delays-delays",
+            "url": "/posts/2014/01/24/delays-delays",
+            "title": "Delays, Delays...",
+            "summary": "This week, I was hoping to get back into my gym routine. I went so far as to do a double session on Monday in hockey (2.5 hours of drills) and was all ready to start on Tuesday after a few false starts over the last month.",
+            "date_modified": "2014-01-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/01/14/exploring-new-york-city",
+            "url": "/posts/2014/01/14/exploring-new-york-city",
+            "title": "Exploring New York City",
+            "summary": "This past weekend, Lauren and I went to New York City. It wasn't the best weather for the trip, but overall I feel we lucked out as we only needed umbrellas twice. Most of the time it was just gray or misting which isn't too bad in the grand scheme of things.",
+            "date_modified": "2014-01-14T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/01/02/setting-up-financial-goals",
+            "url": "/posts/2014/01/02/setting-up-financial-goals",
+            "title": "Setting Up Financial Goals",
+            "summary": "So as part of my goals for 2014, I want to buy a house.",
+            "date_modified": "2014-01-02T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2014/01/01/2014-is-here",
+            "url": "/posts/2014/01/01/2014-is-here",
+            "title": "2014 Is Here!",
+            "summary": "Happy New Year everyone! Hope you all had a good, safe, fun New Year's Eve. Lauren and I spent it bundled up watching the Flyers game and Netflix which is just what we wanted.",
+            "date_modified": "2014-01-01T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/12/29/whats-on-the-horizon-for-2014",
+            "url": "/posts/2013/12/29/whats-on-the-horizon-for-2014",
+            "title": "What's on the Horizon for 2014?",
+            "summary": "I still can't believe that 2013 is almost over. It really seems like the year just flew by. I guess part of it was all the wedding preparation and the wedding itself. There are still some days where I can't believe I'm married, though I'm definitely happy I am…just seems so surreal.",
+            "date_modified": "2013-12-29T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/12/27/hope-everyone-had-a-good-christmas",
+            "url": "/posts/2013/12/27/hope-everyone-had-a-good-christmas",
+            "title": "Hope Everyone Had a Good Christmas",
+            "summary": "Hope everyone had a good Christmas. Mine was definitely a good one. It was nice to be able to spend the day with my family. For a first Christmas (well, Married Christmas) with Lauren, I couldn’t have asked for a better Christmas.",
+            "date_modified": "2013-12-27T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/12/24/ohhhh-the-holidays",
+            "url": "/posts/2013/12/24/ohhhh-the-holidays",
+            "title": "Ohhhh, the Holidays",
+            "summary": "Every year, it seems the holidays come up on me faster and faster. It really feels like it was just Halloween yesterday. Maybe it's because I was so occupied with planning my wedding this year, but it really seems like the whole year has just flown by. I guess it doesn't help that I've just been so busy this December. With everything going on, this is the first year that Lauren and I ended up getting a fake tree. I've always been far more preferential to real trees because I love their look, and their smell. The fun is also going out and finding the tree and cutting it down. The weather never really cooperated for us going to cut one down, and we realized that we just didn't have the room. On the plus side, there's less of a worry that our cat Cookie will eat the Christmas tree and get sick.",
+            "date_modified": "2013-12-24T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/12/18/recipe-tuna-marinated-orange-pepper-garlic-sauce",
+            "url": "/posts/2013/12/18/recipe-tuna-marinated-orange-pepper-garlic-sauce",
+            "title": "Recipe - Tuna Marinated in an Orange Pepper Garlic Sauce",
+            "summary": "So this was my first attempt at making my own recipe. My first time taking basic ingredients and putting them together, hoping that it turns into something edible. Well, it was most definitely successful and the tuna was absolutely delicious. So, with my glee, I figured I'd share the recipe.",
+            "date_modified": "2013-12-18T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/11/18/i-did-it-half-marathon-complete",
+            "url": "/posts/2013/11/18/i-did-it-half-marathon-complete",
+            "title": "I Did It! Half Marathon Complete!",
+            "summary": "I did it. After all the hard work and exercise, I ran a half marathon yesterday! From barely being able to run a mile three and a half years ago, to 13.1 miles…it's a journey I am incredibly proud of.",
+            "date_modified": "2013-11-18T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/10/30/geeking-out",
+            "url": "/posts/2013/10/30/geeking-out",
+            "title": "Geeking Out",
+            "summary": "So, almost 2 weeks ago, I got married to the most wonderful woman I know. It was amazing, but this is another story.",
+            "date_modified": "2013-10-30T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/10/03/a-new-mini-project-is-brewing-daily-shots",
+            "url": "/posts/2013/10/03/a-new-mini-project-is-brewing-daily-shots",
+            "title": "A New Mini-Project is Brewing: Daily Shots",
+            "summary": "In November of 2011, after really getting into photography, I decided to finally take the plunge and get myself a DSLR camera. I chose the Canon EOS 60D because I liked what it offered, and my girlfriend (now my fiancee) also had it and recommended it to me. I should add that it also is nice since we'll be able to share lenses. Fast forward to now, I've gotten better with photography, but don't always have the time to go out with my Canon and find those awesome shots.",
+            "date_modified": "2013-10-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/09/03/uncluttered",
+            "url": "/posts/2013/09/03/uncluttered",
+            "title": "Uncluttered",
+            "summary": "One of the biggest things I try to do is keep my desk uncluttered. I find that it helps me stay organized. As an example, here's my desk at work.",
+            "date_modified": "2013-09-03T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/08/29/killing-a-project-is-never-easy",
+            "url": "/posts/2013/08/29/killing-a-project-is-never-easy",
+            "title": "Killing a Project is Never Easy",
+            "summary": "About 1-2 years ago, I decided to stop development work on OpenVoter. It's still there, you can still download and use it, but it just hasn't been updated. Kind of sad too, because some updates were actually pretty far along for the next version. That said, if I ever end up going back to work on it, it might very well take a fair amount of time to figure out where exactly I left off. But going back to the time that I decided to move on from OpenVoter, I remember debating what I wanted to do somewhat heavily. I really liked what I was able to accomplish with it, but at the same time, it wasn't really used by anyone that I knew of and didn't really see it moving anywhere else. In the end, I begrudgingly decided to shelve it and find something else to work on.",
+            "date_modified": "2013-08-29T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/08/18/never-enough-time-in-the-day",
+            "url": "/posts/2013/08/18/never-enough-time-in-the-day",
+            "title": "Never Enough Time in the Day",
+            "summary": "There never seems to be enough hours in the day to get everything I want to done. Part of that is me failing to motivate myself to focus, the other is just me being busy. Take today for example. I meant to spend a good portion of the afternoon working on teaching myself libGDX for the game idea I have. What did I do? Get myself distracted so much I only got through a very little bit of the one tutorial I was going through. That being said, I can proudly say that it wasn't Reddit, Twitter, Facebook, or the Internet that distracted me. It was really just my lack of being able to focus that led to me getting up to go sit out on the couch with Lauren, or just roam around aimlessly. Today was not going to be my day to focus.",
+            "date_modified": "2013-08-18T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        },
+        {
+            "id": "/posts/2013/08/14/new-domain-new-look-more-posts",
+            "url": "/posts/2013/08/14/new-domain-new-look-more-posts",
+            "title": "New Domain, New Look, More Posts (Hopefully)",
+            "summary": "Over the last couple months, I've been seriously considering doing a rebranding. I felt that DarkNemesis and Darker Nemesis just didn't really feel like 'me' anymore. So I went about trying to find a new moniker. \"Wags\" has always been sort of a nickname for me given my last name being Wagner and \"kpwags\" was available so after some thought, I ended up liking it and now here we are.",
+            "date_modified": "2013-08-14T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com"
+            }
+        }
+    ]
+}
