@@ -4,6 +4,7 @@ import BlogEntry from '@components/BlogEntry';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllPostIds, getPostData } from '@lib/posts';
 import PageScrollIndicator from '@components/PageScrollIndicator';
+import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllPostIds();
@@ -35,6 +36,7 @@ interface PostProps {
 
 const Post: FC<PostProps> = ({ post }) => (
     <>
+        <RssFeeds />
         <PageScrollIndicator />
         <main className="wider">
             <BlogEntry post={post} />

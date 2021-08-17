@@ -3,6 +3,7 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllPostIds, getPostData } from '@lib/posts';
 import { BlogPost } from '@models/blogPost';
 import BlogEntry from '@components/BlogEntry';
+import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllPostIds(true);
@@ -33,9 +34,12 @@ interface PostProps {
 }
 
 const Post: FC<PostProps> = ({ post }) => (
-    <main className="wider">
-        <BlogEntry post={post} />
-    </main>
+    <>
+        <RssFeeds />
+        <main className="wider">
+            <BlogEntry post={post} />
+        </main>
+    </>
 );
 
 export default Post;

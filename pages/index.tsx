@@ -4,9 +4,13 @@ import { GetStaticProps } from 'next';
 import Welcome from '@components/Welcome';
 import LatestPosts from '@components/LatestPosts';
 import { BlogPost } from '@models/blogPost';
+import RssFeeds from '@components/RssFeeds';
+import generateRssFeed from '@lib/rss';
 
 export const getStaticProps: GetStaticProps = async () => {
     const blogPosts = getAllPosts();
+
+    generateRssFeed();
 
     return {
         props: {
@@ -20,10 +24,13 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ posts }) => (
-    <main>
-        <Welcome />
-        <LatestPosts mostRecentPosts={posts} />
-    </main>
+    <>
+        <RssFeeds />
+        <main>
+            <Welcome />
+            <LatestPosts mostRecentPosts={posts} />
+        </main>
+    </>
 );
 
 export default Home;

@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { getPostPages, getPaginatedPosts } from '@lib/posts';
 import PostListing from '@components/PostListing';
 import ReactPaginate from 'react-paginate';
+import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getPostPages();
@@ -66,6 +67,7 @@ const Post: FC<PostProps> = ({ posts, lastPage, currentPage }) => {
     return (
         <>
             <Head><title>Blog - Keith Wagner</title></Head>
+            <RssFeeds />
             <main>
                 {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
 
