@@ -7,6 +7,7 @@ import Prism from 'prismjs';
 import { BlogPost } from '@models/blogPost';
 import { formatDate } from '@lib/utilities';
 import { BlogTag } from '@models/BlogTag';
+import Utterances from '@components/Utterances';
 
 // Blog Components
 import PostImage from '@components/PostImage';
@@ -187,6 +188,12 @@ const BlogEntry: FC<BlogEntryProps> = ({ post }) => {
                 <div className="content">
                     <MDXRemote compiledSource={post.content} components={components} />
                 </div>
+
+                {post.commentIssueNumber !== null && (
+                    <div className="comments">
+                        <Utterances issueNumber={post.commentIssueNumber} />
+                    </div>
+                )}
             </Post>
         </>
     );
