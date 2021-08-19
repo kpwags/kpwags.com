@@ -155,6 +155,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         url: buildUrlFromId(postId),
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
         tags,
+        commentIssueNumber: data.commentIssueNumber || null,
     };
 };
 

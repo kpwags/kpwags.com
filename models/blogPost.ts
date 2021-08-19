@@ -13,4 +13,5 @@ export interface BlogPost {
     socialImageHeight?: number
     hasEmbeddedTweet: boolean
     tags: BlogTag[]
+    commentIssueNumber?: number
 }

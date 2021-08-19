@@ -170,4 +170,12 @@ export const GlobalStyles = createGlobalStyle`
     .twitter-tweet-rendered {
         margin: 30px auto !important;
     }
+
+    .utterances-frame {
+        position: relative;
+    }
+
+    .utterances {
+        max-width: 100%;
+    }
 `;
