@@ -138,7 +138,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2012-nyc-february.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2012-nyc-february',
                         description: 'Another trip to New York City',
                     },
                 ]}
@@ -151,7 +151,7 @@ const PhotographyHome = (): JSX.Element => (
                 height={533}
                 titlePosition="top"
                 photoSource="/photography/thumbnails/2012-nyc-january.jpg"
-                link="/"
+                link="/photography/2012-nyc-january"
             />
         </main>
     </>
