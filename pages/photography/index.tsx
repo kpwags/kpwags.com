@@ -129,7 +129,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2012-cape-may.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2012-cape-may',
                         description: 'Lauren & I spent a weekend in Cape May, New Jersey',
                     },
                     {
