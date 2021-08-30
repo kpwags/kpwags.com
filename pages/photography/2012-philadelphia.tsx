@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import PhotoRow from '@components/PhotosetRow';
-import photoset from '@data/photosets/2012-cape-may';
+import PhotosetRow from '@components/PhotosetRow';
+import photoset from '@data/photosets/2012-philadelphia';
 import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
 
-const CapeMayApril2012 = (): JSX.Element => {
+const Philadelphia2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState<boolean>(false);
 
@@ -17,29 +17,35 @@ const CapeMayApril2012 = (): JSX.Element => {
 
     return (
         <>
-            <Head><title>Cape May (2012) - Keith Wagner</title></Head>
+            <Head><title>Philadelphia (June 2012) - Keith Wagner</title></Head>
             <Photoset>
                 <BackToPhotoset />
 
-                <h1>Cape May</h1>
-                <div className="meta">April 16 - 17, 2012</div>
+                <h1>Philadelphia</h1>
+                <div className="meta">June 16, 2012</div>
 
                 <PhotosetDescription>
                     <p>
-                        Lauren and I went to our favorite beach spot in New Jersey. Cape May is a beautiful shore town on the Southern Tip of New Jersey.
+                        It was a beautiful day, so Lauren and I wandered into Philadelphia and walked around.
                     </p>
                 </PhotosetDescription>
 
-                <PhotoRow
+                <PhotosetRow
                     images={[
                         photoset[0],
+                    ]}
+                    onSelect={selectPhoto}
+                />
+
+                <PhotosetRow
+                    images={[
                         photoset[1],
                         photoset[2],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <PhotoRow
+                <PhotosetRow
                     images={[
                         photoset[3],
                         photoset[4],
@@ -47,14 +53,14 @@ const CapeMayApril2012 = (): JSX.Element => {
                     onSelect={selectPhoto}
                 />
 
-                <PhotoRow
+                <PhotosetRow
                     images={[
                         photoset[5],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <PhotoRow
+                <PhotosetRow
                     images={[
                         photoset[6],
                         photoset[7],
@@ -63,55 +69,9 @@ const CapeMayApril2012 = (): JSX.Element => {
                     onSelect={selectPhoto}
                 />
 
-                <PhotoRow
+                <PhotosetRow
                     images={[
                         photoset[9],
-                    ]}
-                    onSelect={selectPhoto}
-                />
-
-                <PhotoRow
-                    images={[
-                        photoset[10],
-                    ]}
-                    onSelect={selectPhoto}
-                />
-
-                <PhotoRow
-                    images={[
-                        photoset[11],
-                        photoset[12],
-                    ]}
-                    onSelect={selectPhoto}
-                />
-
-                <PhotoRow
-                    images={[
-                        photoset[13],
-                    ]}
-                    onSelect={selectPhoto}
-                />
-
-                <PhotoRow
-                    images={[
-                        photoset[14],
-                        photoset[15],
-                        photoset[16],
-                    ]}
-                    onSelect={selectPhoto}
-                />
-
-                <PhotoRow
-                    images={[
-                        photoset[17],
-                        photoset[18],
-                    ]}
-                    onSelect={selectPhoto}
-                />
-
-                <PhotoRow
-                    images={[
-                        photoset[19],
                     ]}
                     onSelect={selectPhoto}
                 />
@@ -127,4 +87,4 @@ const CapeMayApril2012 = (): JSX.Element => {
     );
 };
 
-export default CapeMayApril2012;
+export default Philadelphia2012;

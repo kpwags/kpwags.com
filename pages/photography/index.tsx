@@ -109,7 +109,7 @@ const PhotographyHome = (): JSX.Element => (
                 height={533}
                 titlePosition="top"
                 photoSource="/photography/thumbnails/2012-nyc-august.jpg"
-                link="/"
+                link="/photography/2012-nyc-august"
             />
 
             <PhotosetListLinks
@@ -120,7 +120,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2012-philadelphia.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2012-philadelphia',
                         description: 'Lauren & I walked around on a nice day in Philly.',
                     },
                     {

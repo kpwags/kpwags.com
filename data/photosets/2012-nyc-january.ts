@@ -1,6 +1,6 @@
 import { PhotosetPhoto } from '@models/PhotosetPhoto';
 
-export const NYCJanuary2012: PhotosetPhoto[] = [
+const NYCJanuary2012: PhotosetPhoto[] = [
     {
         index: 0,
         src: '/photography/2012-nyc-january/2012-nyc-january-01.jpg',
@@ -138,3 +138,5 @@ export const NYCJanuary2012: PhotosetPhoto[] = [
         height: 427,
     },
 ];
+
+export default NYCJanuary2012;

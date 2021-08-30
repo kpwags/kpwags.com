@@ -1,6 +1,6 @@
 import { PhotosetPhoto } from '@models/PhotosetPhoto';
 
-export const CapeMay2012: PhotosetPhoto[] = [
+const CapeMay2012: PhotosetPhoto[] = [
     {
         index: 0,
         src: '/photography/2012-cape-may/2012-cape-may-01.jpg',
@@ -162,3 +162,5 @@ export const CapeMay2012: PhotosetPhoto[] = [
         height: 853,
     },
 ];
+
+export default CapeMay2012;

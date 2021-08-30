@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import { SingleRow, DualRow, TripleRow } from '@components/PhotosetRow';
-import { NYCFebruary2012 } from '@data/photosets/2012-nyc-february';
+import PhotoRow from '@components/PhotosetRow';
+import photoset from '@data/photosets/2012-nyc-february';
 import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
@@ -31,108 +31,108 @@ const NewYorkCityJanuary2012 = (): JSX.Element => {
                     </p>
                 </PhotosetDescription>
 
-                <DualRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[0],
-                        NYCFebruary2012[1],
+                        photoset[0],
+                        photoset[1],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <DualRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[2],
-                        NYCFebruary2012[3],
+                        photoset[2],
+                        photoset[3],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <SingleRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[4],
+                        photoset[4],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <DualRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[5],
-                        NYCFebruary2012[6],
+                        photoset[5],
+                        photoset[6],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <SingleRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[7],
+                        photoset[7],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <DualRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[8],
-                        NYCFebruary2012[9],
+                        photoset[8],
+                        photoset[9],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <DualRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[10],
-                        NYCFebruary2012[11],
+                        photoset[10],
+                        photoset[11],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <DualRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[12],
-                        NYCFebruary2012[13],
+                        photoset[12],
+                        photoset[13],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <SingleRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[14],
+                        photoset[14],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <TripleRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[15],
-                        NYCFebruary2012[16],
-                        NYCFebruary2012[17],
+                        photoset[15],
+                        photoset[16],
+                        photoset[17],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <SingleRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[18],
+                        photoset[18],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <DualRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[19],
-                        NYCFebruary2012[20],
+                        photoset[19],
+                        photoset[20],
                     ]}
                     onSelect={selectPhoto}
                 />
 
-                <SingleRow
+                <PhotoRow
                     images={[
-                        NYCFebruary2012[21],
+                        photoset[21],
                     ]}
                     onSelect={selectPhoto}
                 />
             </Photoset>
             <PhotosetLightbox
-                photoset={NYCFebruary2012}
+                photoset={photoset}
                 index={photoIndex}
                 visible={isLightboxOpen}
                 setIndex={setPhotoIndex}
