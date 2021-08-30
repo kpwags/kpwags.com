@@ -78,7 +78,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2013-nyc-january.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2013-nyc-january',
                         description: 'A trip to New York City after a snowstorm.',
                     },
                 ]}
@@ -90,7 +90,7 @@ const PhotographyHome = (): JSX.Element => (
                 width={800}
                 height={533}
                 photoSource="/photography/thumbnails/2012-ricketts-glen.jpg"
-                link="/"
+                link="/photography/2012-ricketts-glen"
             />
 
             <LargePhotosetLink
