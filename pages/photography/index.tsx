@@ -99,7 +99,7 @@ const PhotographyHome = (): JSX.Element => (
                 width={800}
                 height={533}
                 photoSource="/photography/thumbnails/2012-washington-dc.jpg"
-                link="/"
+                link="/photography/2012-washington-dc"
             />
 
             <LargePhotosetLink
