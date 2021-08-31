@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import PhotosetRow from '@components/PhotosetRow';
-import photoset from '@data/photosets/2013-nyc-january';
+import photoset from '@data/photosets/2014-snow';
 import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
 
-const NewYorkCityJanuary2013 = (): JSX.Element => {
+const Snow2014 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState<boolean>(false);
 
@@ -17,17 +17,17 @@ const NewYorkCityJanuary2013 = (): JSX.Element => {
 
     return (
         <>
-            <Head><title>New York City (January 2013) - Keith Wagner</title></Head>
+            <Head><title>Snow (January 2014) - Keith Wagner</title></Head>
             <Photoset>
                 <BackToPhotoset />
 
-                <h1>New York City</h1>
-                <div className="meta">January 26, 2013</div>
+                <h1>Snow</h1>
+                <div className="meta">January 2, 2013</div>
 
                 <PhotosetDescription>
                     <p>
-                        Lauren and I started the year going to New York City just after a small snowstorm.
-                        Central Park was peaceful and beautiful with a light layer of snow on the ground.
+                        To start the year, we got a little snowfall.
+                        Looking outside, it was peaceful and quiet giving my apartment complex a serene and beautiful look.
                     </p>
                 </PhotosetDescription>
 
@@ -49,13 +49,13 @@ const NewYorkCityJanuary2013 = (): JSX.Element => {
                 <PhotosetRow
                     images={[
                         photoset[3],
-                        photoset[4],
                     ]}
                     onSelect={selectPhoto}
                 />
 
                 <PhotosetRow
                     images={[
+                        photoset[4],
                         photoset[5],
                     ]}
                     onSelect={selectPhoto}
@@ -72,4 +72,4 @@ const NewYorkCityJanuary2013 = (): JSX.Element => {
     );
 };
 
-export default NewYorkCityJanuary2013;
+export default Snow2014;

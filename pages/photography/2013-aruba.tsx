@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import PhotosetRow from '@components/PhotosetRow';
-import photoset from '@data/photosets/2013-nyc-january';
+import photoset from '@data/photosets/2013-aruba';
 import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
 
-const NewYorkCityJanuary2013 = (): JSX.Element => {
+const Aruba2013 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState<boolean>(false);
 
@@ -17,17 +17,16 @@ const NewYorkCityJanuary2013 = (): JSX.Element => {
 
     return (
         <>
-            <Head><title>New York City (January 2013) - Keith Wagner</title></Head>
+            <Head><title>Aruba (October 2013) - Keith Wagner</title></Head>
             <Photoset>
                 <BackToPhotoset />
 
-                <h1>New York City</h1>
-                <div className="meta">January 26, 2013</div>
+                <h1>Aruba</h1>
+                <div className="meta">October 21 - 28, 2013</div>
 
                 <PhotosetDescription>
                     <p>
-                        Lauren and I started the year going to New York City just after a small snowstorm.
-                        Central Park was peaceful and beautiful with a light layer of snow on the ground.
+                        Lauren and I went to Aruba for our honeymoon. We stayed in an all-inclusive resort with some great views and scenery.
                     </p>
                 </PhotosetDescription>
 
@@ -42,13 +41,13 @@ const NewYorkCityJanuary2013 = (): JSX.Element => {
                 <PhotosetRow
                     images={[
                         photoset[2],
+                        photoset[3],
                     ]}
                     onSelect={selectPhoto}
                 />
 
                 <PhotosetRow
                     images={[
-                        photoset[3],
                         photoset[4],
                     ]}
                     onSelect={selectPhoto}
@@ -57,6 +56,45 @@ const NewYorkCityJanuary2013 = (): JSX.Element => {
                 <PhotosetRow
                     images={[
                         photoset[5],
+                        photoset[6],
+                    ]}
+                    onSelect={selectPhoto}
+                />
+
+                <PhotosetRow
+                    images={[
+                        photoset[7],
+                    ]}
+                    onSelect={selectPhoto}
+                />
+
+                <PhotosetRow
+                    images={[
+                        photoset[8],
+                    ]}
+                    onSelect={selectPhoto}
+                />
+
+                <PhotosetRow
+                    images={[
+                        photoset[9],
+                        photoset[10],
+                    ]}
+                    onSelect={selectPhoto}
+                />
+
+                <PhotosetRow
+                    images={[
+                        photoset[11],
+                        photoset[12],
+                        photoset[13],
+                    ]}
+                    onSelect={selectPhoto}
+                />
+
+                <PhotosetRow
+                    images={[
+                        photoset[14],
                     ]}
                     onSelect={selectPhoto}
                 />
@@ -72,4 +110,4 @@ const NewYorkCityJanuary2013 = (): JSX.Element => {
     );
 };
 
-export default NewYorkCityJanuary2013;
+export default Aruba2013;

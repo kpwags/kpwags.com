@@ -42,7 +42,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2014-nyc-april.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2014-nyc',
                         description: 'I probably go to New York City too much.',
                     },
                     {
@@ -51,7 +51,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2014-snow.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2014-snow',
                         description: 'Enjoying a peaceful snowy night.',
                     },
                     {
@@ -60,7 +60,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2013-aruba.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2013-aruba',
                         description: 'Aruba was the perfect spot for my honeymoon.',
                     },
                     {
@@ -69,7 +69,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2013-nyc-april.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2013-nyc-april',
                         description: 'Another trip to New York City, this time in the spring.',
                     },
                     {

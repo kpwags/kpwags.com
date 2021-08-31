@@ -6,7 +6,7 @@ import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
 
-const Philadelphia2012 = (): JSX.Element => {
+const RickettsGlen2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState<boolean>(false);
 
@@ -126,4 +126,4 @@ const Philadelphia2012 = (): JSX.Element => {
     );
 };
 
-export default Philadelphia2012;
+export default RickettsGlen2012;
