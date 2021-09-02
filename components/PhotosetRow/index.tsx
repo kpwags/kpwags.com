@@ -18,6 +18,12 @@ const ImageRow = styled.div`
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    @media all and (max-width: 425px) {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+
     button {
         border: 0;
         background: transparent;

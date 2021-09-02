@@ -31,7 +31,7 @@ const PhotographyHome = (): JSX.Element => (
                 width={800}
                 height={533}
                 photoSource="/photography/thumbnails/2016-vermont.jpg"
-                link="/"
+                link="/photography/2016-vermont"
             />
 
             <PhotosetListLinks
