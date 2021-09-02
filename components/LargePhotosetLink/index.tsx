@@ -59,20 +59,24 @@ const LargePhotosetLink = ({
 
     return (
         <PhotoLink>
-            <Image
-                src={photoSource}
-                alt={altText}
-                width={width}
-                height={height}
-            />
-            <div className="overlay">
-                <div className="title" style={titlePosition === 'top' ? { top: 15 } : { bottom: 15 }}>
-                    <h2 style={{ color: titleColor }}>
-                        <Link href={link}><a style={{ color: titleColor }}>{name}</a></Link>
-                    </h2>
-                    <h3 style={{ color: titleColor }}>{date}</h3>
-                </div>
-            </div>
+            <Link href={link}>
+                <a>
+                    <Image
+                        src={photoSource}
+                        alt={altText}
+                        width={width}
+                        height={height}
+                    />
+                    <div className="overlay">
+                        <div className="title" style={titlePosition === 'top' ? { top: 15 } : { bottom: 15 }}>
+                            <h2 style={{ color: titleColor }}>
+                                <span style={{ color: titleColor }}>{name}</span>
+                            </h2>
+                            <h3 style={{ color: titleColor }}>{date}</h3>
+                        </div>
+                    </div>
+                </a>
+            </Link>
         </PhotoLink>
     );
 };

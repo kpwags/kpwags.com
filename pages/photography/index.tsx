@@ -31,7 +31,7 @@ const PhotographyHome = (): JSX.Element => (
                 width={800}
                 height={533}
                 photoSource="/photography/thumbnails/2016-vermont.jpg"
-                link="/"
+                link="/photography/2016-vermont"
             />
 
             <PhotosetListLinks
@@ -42,7 +42,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2014-nyc-april.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2014-nyc',
                         description: 'I probably go to New York City too much.',
                     },
                     {
@@ -51,7 +51,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2014-snow.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2014-snow',
                         description: 'Enjoying a peaceful snowy night.',
                     },
                     {
@@ -60,7 +60,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2013-aruba.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2013-aruba',
                         description: 'Aruba was the perfect spot for my honeymoon.',
                     },
                     {
@@ -69,7 +69,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2013-nyc-april.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2013-nyc-april',
                         description: 'Another trip to New York City, this time in the spring.',
                     },
                     {
@@ -78,7 +78,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2013-nyc-january.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2013-nyc-january',
                         description: 'A trip to New York City after a snowstorm.',
                     },
                 ]}
@@ -90,7 +90,7 @@ const PhotographyHome = (): JSX.Element => (
                 width={800}
                 height={533}
                 photoSource="/photography/thumbnails/2012-ricketts-glen.jpg"
-                link="/"
+                link="/photography/2012-ricketts-glen"
             />
 
             <LargePhotosetLink
@@ -99,7 +99,7 @@ const PhotographyHome = (): JSX.Element => (
                 width={800}
                 height={533}
                 photoSource="/photography/thumbnails/2012-washington-dc.jpg"
-                link="/"
+                link="/photography/2012-washington-dc"
             />
 
             <LargePhotosetLink
@@ -109,7 +109,7 @@ const PhotographyHome = (): JSX.Element => (
                 height={533}
                 titlePosition="top"
                 photoSource="/photography/thumbnails/2012-nyc-august.jpg"
-                link="/"
+                link="/photography/2012-nyc-august"
             />
 
             <PhotosetListLinks
@@ -120,7 +120,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2012-philadelphia.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2012-philadelphia',
                         description: 'Lauren & I walked around on a nice day in Philly.',
                     },
                     {
@@ -129,7 +129,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2012-cape-may.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2012-cape-may',
                         description: 'Lauren & I spent a weekend in Cape May, New Jersey',
                     },
                     {
@@ -138,7 +138,7 @@ const PhotographyHome = (): JSX.Element => (
                         thumbnailSrc: '/photography/thumbnails/2012-nyc-february.jpg',
                         width: 600,
                         height: 400,
-                        link: '/',
+                        link: '/photography/2012-nyc-february',
                         description: 'Another trip to New York City',
                     },
                 ]}
@@ -151,7 +151,7 @@ const PhotographyHome = (): JSX.Element => (
                 height={533}
                 titlePosition="top"
                 photoSource="/photography/thumbnails/2012-nyc-january.jpg"
-                link="/"
+                link="/photography/2012-nyc-january"
             />
         </main>
     </>
