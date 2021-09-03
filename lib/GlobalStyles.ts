@@ -62,6 +62,10 @@ export const GlobalStyles = createGlobalStyle`
         span {
             white-space: nowrap;
         }
+
+        a:hover {
+            text-decoration: none;
+        }
     }
 
     h3 {
@@ -73,6 +77,10 @@ export const GlobalStyles = createGlobalStyle`
 
         span {
             white-space: nowrap;
+        }
+
+        a:hover {
+            text-decoration: none;
         }
     }
 
@@ -108,7 +116,7 @@ export const GlobalStyles = createGlobalStyle`
 
     a:hover {
         color: ${({ theme }) => theme.colors.mediumBlue};
-        text-decoration: none;
+        text-decoration: underline;
     }
 
     a img {

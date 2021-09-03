@@ -7,8 +7,9 @@ import { BlogPost } from '@models/blogPost';
 const Latest = styled.div`
     margin: 40px 0;
 
-    h1 {
+    h2 {
         margin-bottom: 30px;
+        font-size: 2.2rem;
     }
 `;
 
@@ -26,6 +27,10 @@ const Post = styled.li`
         color: ${({ theme }) => theme.colors.blue};
         font-size: 1.4rem;
         font-weight: 500;
+
+        a:hover {
+            text-decoration: none;
+        }
     }
 
     .datetime {
@@ -39,7 +44,7 @@ interface LatestPostsProps {
 
 const LatestPosts: React.FC<LatestPostsProps> = ({ mostRecentPosts }) => (
     <Latest>
-        <h1>Latest Posts</h1>
+        <h2>Latest Posts</h2>
         <Posts>
             {mostRecentPosts.map(({
                 id, url, date, title,

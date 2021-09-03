@@ -20,6 +20,7 @@ const Photoset = styled.li`
 
         &:hover {
             background: #cdcdcd;
+            text-decoration: none;
         }
 
         &:last-child {
