@@ -6,11 +6,12 @@ import { BlogPost } from '@models/blogPost';
 
 const Post = styled.article`
     list-style-type: none;
+    font-family: ${({ theme }) => theme.fonts.primary};
     margin: 40px 0;
 
     h2 {
         color: ${({ theme }) => theme.colors.blue};
-        font-size: 1.7rem;
+        font-size: 2rem;
         font-weight: 500;
     }
 
@@ -18,6 +19,11 @@ const Post = styled.article`
         margin: 5px 0;
         font-style: italic;
         color: ${({ theme }) => theme.colors.darkGray};
+    }
+
+    p {
+        font-family: ${({ theme }) => theme.fonts.primary};
+        font-weight: 300;
     }
 `;
 

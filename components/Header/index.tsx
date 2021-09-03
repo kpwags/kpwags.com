@@ -26,6 +26,8 @@ const Hdr = styled.header`
         grid-column-start: 1;
         grid-column-end: 1;
         padding: 0 25px 0 10px;
+        font-family: ${({ theme }) => theme.fonts.secondary};
+        font-weight: 900;
 
         @media all and (max-width: 767px) {
             padding: 0;
@@ -98,6 +100,7 @@ const Hdr = styled.header`
         grid-column-start: 2;
         grid-column-end: 2;
         justify-self: end;
+        font-family: ${({ theme }) => theme.fonts.primary};
 
         @media all and (max-width: 1023px) {
             padding-right: 10px;
@@ -112,6 +115,7 @@ const Hdr = styled.header`
         a:visited {
             padding: 0 14px;
             font-size: 1.1rem;
+            font-weight: 300;
             color: ${({ theme }) => theme.colors.blue};
 
             @media all and (max-width: 1024px) {

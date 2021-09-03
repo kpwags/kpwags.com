@@ -22,9 +22,14 @@ const Post = styled.li`
     margin: 15px 0;
 
     .title {
+        font-family: ${({ theme }) => theme.fonts.secondary};
         color: ${({ theme }) => theme.colors.blue};
         font-size: 1.4rem;
         font-weight: 500;
+    }
+
+    .datetime {
+        font-family: ${({ theme }) => theme.fonts.primary};
     }
 `;
 

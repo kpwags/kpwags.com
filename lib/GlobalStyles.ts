@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background: ${({ theme }: { theme: Theme }) => theme.colors.background};
         color: ${({ theme }: { theme: Theme }) => theme.colors.text};
-        font-family: ${({ theme }: { theme: Theme }) => theme.font};
+        font-family: ${({ theme }: { theme: Theme }) => theme.fonts.primary};
         transition: all 0.50s linear;
         margin: 0;
         padding: 0;
@@ -41,9 +41,9 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     h1 {
-        font-weight: bold;
+        font-weight: 900;
         color: ${({ theme }: { theme: Theme }) => theme.colors.h1};
-        font-size: 2.1rem;
+        font-size: 3rem;
         margin: 0;
         padding: 0;
 
@@ -53,11 +53,23 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     h2 {
-        font-weight: bold;
+        font-weight: 700;
         color: ${({ theme }: { theme: Theme }) => theme.colors.h2};
         font-size: 1.75rem;
         margin: 0;
         padding: 0;
+
+        span {
+            white-space: nowrap;
+        }
+    }
+
+    h3 {
+        color: ${({ theme }) => theme.colors.mediumBlue};
+        font-family: ${({ theme }) => theme.fonts.secondary};
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0;
 
         span {
             white-space: nowrap;

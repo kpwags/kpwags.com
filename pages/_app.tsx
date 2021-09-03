@@ -8,7 +8,7 @@ import { GlobalStyles } from '@lib/GlobalStyles';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 
-import '../styles/mavenpro.css';
+import '../styles/fonts.css';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
     const { theme, themeLoaded } = useTheme();
@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
             {themeLoaded && (
                 <ThemeProvider theme={selectedTheme}>
                     <GlobalStyles />
-                    <div style={{ fontFamily: selectedTheme.font }}>
+                    <div style={{ fontFamily: selectedTheme.fonts.primary }}>
                         <Header />
                         <Component {...pageProps} />
                         <Footer />
