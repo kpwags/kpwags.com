@@ -29,6 +29,10 @@ const Hdr = styled.header`
         font-family: ${({ theme }) => theme.fonts.secondary};
         font-weight: 900;
 
+        a:hover {
+            text-decoration: none;
+        }
+
         @media all and (max-width: 767px) {
             padding: 0;
             line-height: 60px;
@@ -136,6 +140,7 @@ const Hdr = styled.header`
 
         a:hover {
             color: ${({ theme }) => theme.colors.mediumBlue};
+            text-decoration: none;
         }
 
         a.extra-right {
