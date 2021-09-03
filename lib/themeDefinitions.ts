@@ -16,7 +16,12 @@ export const themeDefinitions: ThemeData = {
                 lightBlue: 'hsl(215, 90%, 30%)',
                 darkGray: 'hsl(0, 0%, 40%)',
             },
-            font: 'Maven Pro',
+            fonts: {
+                primary: 'Roboto, Helvetica, Arial, sans-serif',
+                serif: 'Lora, Georgia, Times New Roman, serif',
+                webSafe: 'Georgia',
+                secondary: 'WorkSans, sans-serif',
+            },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
         },
         dark: {
@@ -33,7 +38,12 @@ export const themeDefinitions: ThemeData = {
                 lightBlue: 'hsl(199, 99%, 46%)',
                 darkGray: 'hsl(0, 0%, 40%)',
             },
-            font: 'Maven Pro',
+            fonts: {
+                primary: 'Roboto, Helvetica, Arial, sans-serif',
+                serif: 'Lora, Georgia, Times New Roman, serif',
+                webSafe: 'Georgia',
+                secondary: 'WorkSans, sans-serif',
+            },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
         },
     },

@@ -2,13 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Hello = styled.div`
-    @font-face {
-        font-family: 'Special Elite';
-        src: url('/fonts/special_elite/SpecialElite-Regular.ttf') format('truetype');
-        font-weight: 400;
-        font-display: swap;
-    }
-
     margin: 40px 0 50px;
 
     .content {
@@ -26,9 +19,9 @@ const Hello = styled.div`
         padding: 15px;
 
         .welcome-text {
-            font-family: 'Special Elite';
+            font-family: ${({ theme }) => theme.fonts.serif};
             font-size: 2rem;
-            line-height: 4rem;
+            line-height: 3.5rem;
             margin-top: 25px;
             color: ${({ theme }) => theme.colors.blue};
         }

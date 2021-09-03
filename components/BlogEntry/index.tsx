@@ -29,20 +29,23 @@ const components = { PostImage, EmbeddedTweet };
 const Post = styled.article`
     h1 {
         color: ${({ theme }) => theme.colors.blue};
-        font-size: 2.5rem;
-        font-weight: 700;
+        font-family: ${({ theme }) => theme.fonts.primary};
+        font-size: 3rem;
+        font-weight: 900;
     }
 
     h2 {
         color: ${({ theme }) => theme.colors.blue};
-        font-size: 1.7rem;
-        font-weight: 500;
+        font-family: ${({ theme }) => theme.fonts.primary};
+        font-size: 2rem;
+        font-weight: 700;
         margin: 20px 0;
     }
 
     h3 {
         color: ${({ theme }) => theme.colors.mediumBlue};
-        font-size: 1.35rem;
+        font-family: ${({ theme }) => theme.fonts.secondary};
+        font-size: 1.5rem;
         font-weight: 500;
         margin: 20px 0;
     }
@@ -50,7 +53,7 @@ const Post = styled.article`
     h4 {
         code {
             font-size: 1.1rem;
-            font-weight: 500;
+            font-weight: normal;
         }
     }
 
@@ -59,18 +62,28 @@ const Post = styled.article`
         font-style: italic;
         font-size: 1.2rem;
         color: ${({ theme }) => theme.colors.darkGray};
+        font-family: ${({ theme }) => theme.fonts.primary};
+        font-weight: 100;
     }
 
     blockquote {
         border-left: 4px solid ${({ theme }) => theme.colors.blue};
         padding-left: 40px;
-        font-size: 1.5rem;
-        font-style: italic;
         margin: 30px 0;
+
+        p {
+            font-family: ${({ theme }) => theme.fonts.serif};
+            font-size: 1.5rem;
+            font-style: italic;
+            color: ${({ theme }) => theme.colors.mediumBlue};
+        }
 
         @media all and (max-width: 800px) {
             padding-left: 20px;
-            font-size: 1.2rem;
+
+            p {
+                font-size: 1.2rem;
+            }
         }
     }
 
@@ -114,8 +127,12 @@ const Post = styled.article`
     }
 
     p {
+        font-family: ${({ theme }) => theme.fonts.primary};
+        font-size: 1.2rem;
+        font-weight: 300;
+
         a {
-            font-weight: 700;
+            font-weight: normal;
         }
     }
 
@@ -141,6 +158,8 @@ const Tag = styled.li`
     list-style-type: none;
     padding: 0 30px 0 0;
     text-transform: uppercase;
+    font-family: ${({ theme }) => theme.fonts.variable};
+
 `;
 
 interface PostTagsProps {

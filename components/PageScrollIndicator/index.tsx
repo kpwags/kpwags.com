@@ -23,8 +23,9 @@ const PageScrollIndicator = (): JSX.Element => {
         const scrolled = (scrollCalculate / height) * 100;
 
         const progressBar = document.querySelector('.progress-bar') as HTMLElement;
-
-        progressBar.style.width = `${scrolled}%`;
+        if (progressBar && progressBar.style) {
+            progressBar.style.width = `${scrolled}%`;
+        }
     };
 
     useEffect(() => {
