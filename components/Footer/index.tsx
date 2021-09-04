@@ -82,6 +82,11 @@ const Footer: React.FC = () => (
                 </Link>
             </li>
             <li>
+                <Link href="/search">
+                    <a title="Search">Search</a>
+                </Link>
+            </li>
+            <li>
                 <Link href="/bookshelf">
                     <a title="Bookshelf">Bookshelf</a>
                 </Link>

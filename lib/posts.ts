@@ -56,6 +56,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
             url,
             hasEmbeddedTweet: false,
             tags,
+            content: html,
         };
     });
 
@@ -261,4 +262,16 @@ export const getAllTagPages = () => {
     });
 
     return pages;
+};
+
+export const searchBlogPosts = (keywords: string, blogPosts: BlogPost[]): BlogPost[] => {
+    const posts: BlogPost[] = [];
+
+    blogPosts.forEach((p) => {
+        if (p.content.indexOf(keywords) !== -1) {
+            posts.push(p);
+        }
+    });
+
+    return posts;
 };
