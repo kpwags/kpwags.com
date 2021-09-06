@@ -1,5 +1,4 @@
 /* eslint-disable max-len */
-import React from 'react';
 import styled from 'styled-components';
 
 const Hdr = styled.header`
@@ -167,7 +166,7 @@ const Hdr = styled.header`
     }
 `;
 
-const Header: React.FC = () => (
+const Header = (): JSX.Element => (
     <>
         <Hdr>
             <div className="site-title">

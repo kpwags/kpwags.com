@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { BlogPost } from '@models/blogPost';
 import BlogEntry from '@components/BlogEntry';
 import { GetStaticProps, GetStaticPaths } from 'next';
@@ -34,7 +33,7 @@ interface PostProps {
     post: BlogPost
 }
 
-const Post: FC<PostProps> = ({ post }) => (
+const Post = ({ post }: PostProps): JSX.Element => (
     <>
         <RssFeeds />
         <PageScrollIndicator />

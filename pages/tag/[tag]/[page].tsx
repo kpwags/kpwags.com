@@ -1,4 +1,4 @@
-import { FC, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { getPaginatedPostsForTag, getAllTagPages } from '@lib/posts';
 import { GetStaticProps, GetStaticPaths } from 'next';
@@ -55,9 +55,9 @@ interface TaggedPostsProps {
     currentPage: number
 }
 
-const TaggedPosts: FC<TaggedPostsProps> = ({
+const TaggedPosts = ({
     tagName, posts, lastPage, currentPage,
-}) => {
+}: TaggedPostsProps): JSX.Element => {
     const [blogPosts, setBlogPosts] = useState(posts);
     const router = useRouter();
 

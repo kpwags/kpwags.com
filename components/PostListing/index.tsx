@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { formatDate } from '@lib/utilities';
@@ -31,9 +30,9 @@ interface PostListingProps {
     post: BlogPost
 }
 
-const PostListing: React.FC<PostListingProps> = ({
+const PostListing = ({
     post,
-}) => (
+}: PostListingProps): JSX.Element => (
     <Post key={post.id}>
         <h2><Link href={post.url}><a>{post.title}</a></Link></h2>
         <div className="datetime">{formatDate(post.date)}</div>

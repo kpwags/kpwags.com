@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
@@ -163,7 +163,7 @@ interface BlogEntryProps {
     post: BlogPost
 }
 
-const BlogEntry: FC<BlogEntryProps> = ({ post }) => {
+const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
     useEffect(() => {
         Prism.highlightAll();
     }, []);

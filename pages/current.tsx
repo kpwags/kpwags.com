@@ -1,5 +1,5 @@
+import Head from 'next/head';
 import styled from 'styled-components';
-import { FC } from 'react';
 import current from '@data/current';
 import { GetStaticProps } from 'next';
 import { CurrentlyDoing } from '@models/currentlyDoing';
@@ -69,42 +69,45 @@ type CurrentProps = {
     currentlyDoing: CurrentlyDoing;
 };
 
-const Current: FC<CurrentProps> = ({ currentlyDoing }) => (
-    <main>
-        <Container>
-            <h1>What I&apos;m Currently Up To</h1>
+const Current = ({ currentlyDoing }: CurrentProps): JSX.Element => (
+    <>
+        <Head><title>What I&apos;m Doing - Keith Wagner</title></Head>
+        <main>
+            <Container>
+                <h1>What I&apos;m Currently Up To</h1>
 
-            <p className="lastUpdate">
-                Last Updated:
-                {' '}
-                {currentlyDoing.lastUpdate}
-            </p>
+                <p className="lastUpdate">
+                    Last Updated:
+                    {' '}
+                    {currentlyDoing.lastUpdate}
+                </p>
 
-            <h2>Reading</h2>
+                <h2>Reading</h2>
 
-            <Grid>
-                {currentlyDoing.reading.map((book) => (
-                    <BookListing book={book} key={book.cover} />
-                ))}
-            </Grid>
+                <Grid>
+                    {currentlyDoing.reading.map((book) => (
+                        <BookListing book={book} key={book.cover} />
+                    ))}
+                </Grid>
 
-            <h2>Playing</h2>
+                <h2>Playing</h2>
 
-            <Grid>
-                {currentlyDoing.playing.map((game) => (
-                    <GameListing game={game} key={game.cover} />
-                ))}
-            </Grid>
+                <Grid>
+                    {currentlyDoing.playing.map((game) => (
+                        <GameListing game={game} key={game.cover} />
+                    ))}
+                </Grid>
 
-            <h2>Watching</h2>
+                <h2>Watching</h2>
 
-            <Grid>
-                {currentlyDoing.watching.map((tvShow) => (
-                    <TVListing tvShow={tvShow} key={tvShow.cover} />
-                ))}
-            </Grid>
-        </Container>
-    </main>
+                <Grid>
+                    {currentlyDoing.watching.map((tvShow) => (
+                        <TVListing tvShow={tvShow} key={tvShow.cover} />
+                    ))}
+                </Grid>
+            </Container>
+        </main>
+    </>
 );
 
 export default Current;

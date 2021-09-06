@@ -1,5 +1,3 @@
-import { FC } from 'react';
-
 interface EmbeddedTweetProps {
     text: string
     name: string
@@ -8,13 +6,13 @@ interface EmbeddedTweetProps {
     tweetDate: string
 }
 
-const EmbeddedTweet: FC<EmbeddedTweetProps> = ({
+const EmbeddedTweet = ({
     text,
     name,
     twitterUsername,
     tweetUrl,
     tweetDate,
-}) => (
+}: EmbeddedTweetProps): JSX.Element => (
     <>
         <blockquote className="twitter-tweet" style={{ marginTop: 20, marginBottom: 20 }}>
             <p lang="en" dir="ltr">{text}</p>

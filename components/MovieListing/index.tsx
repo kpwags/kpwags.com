@@ -1,6 +1,6 @@
 import StarRating from '@components/StarRating/StarRating';
 import { Movie } from '@models/movie';
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import styled from 'styled-components';
 
 type MovieListingProps = {
@@ -85,7 +85,7 @@ const Item = styled.div`
     }
 `;
 
-const MovieListing: FC<MovieListingProps> = ({ movie }) => {
+const MovieListing = ({ movie }: MovieListingProps): JSX.Element => {
     const [showThoughts, setShowThoughts] = useState(false);
 
     return (

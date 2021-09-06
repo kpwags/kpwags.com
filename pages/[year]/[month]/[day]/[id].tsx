@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllPostIds, getPostData } from '@lib/posts';
 import { BlogPost } from '@models/blogPost';
@@ -33,7 +32,7 @@ interface PostProps {
     post: BlogPost
 }
 
-const Post: FC<PostProps> = ({ post }) => (
+const Post = ({ post }: PostProps): JSX.Element => (
     <>
         <RssFeeds />
         <main>

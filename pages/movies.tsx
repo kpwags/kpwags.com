@@ -1,5 +1,5 @@
+import Head from 'next/head';
 import styled from 'styled-components';
-import { FC } from 'react';
 import MoviesWatched, { MovieList } from '@data/movies';
 import { GetStaticProps } from 'next';
 import MovieListing from '@components/MovieListing';
@@ -66,34 +66,37 @@ type MoviesProps = {
     movies: MovieList;
 };
 
-const Movies: FC<MoviesProps> = ({ movies }) => (
-    <main className="full-width">
-        <Container>
-            <h1>Movies I&apos;ve Watched</h1>
+const Movies = ({ movies }: MoviesProps): JSX.Element => (
+    <>
+        <Head><title>Movies - Keith Wagner</title></Head>
+        <main className="full-width">
+            <Container>
+                <h1>Movies I&apos;ve Watched</h1>
 
-            <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the movies I&apos;ve watched more recently.</p>
+                <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the movies I&apos;ve watched more recently.</p>
 
-            <p className="notes">Most recent at top.</p>
+                <p className="notes">Most recent at top.</p>
 
-            <p className="lastUpdate">
-                Last Updated:
-                {' '}
-                {movies.lastUpdate}
-            </p>
+                <p className="lastUpdate">
+                    Last Updated:
+                    {' '}
+                    {movies.lastUpdate}
+                </p>
 
-            {movies.years.map((year) => (
-                <div key={year.year}>
-                    <h2>{year.year}</h2>
+                {movies.years.map((year) => (
+                    <div key={year.year}>
+                        <h2>{year.year}</h2>
 
-                    <Grid>
-                        {year.movies.map((movie) => (
-                            <MovieListing movie={movie} key={movie.cover} />
-                        ))}
-                    </Grid>
-                </div>
-            ))}
-        </Container>
-    </main>
+                        <Grid>
+                            {year.movies.map((movie) => (
+                                <MovieListing movie={movie} key={movie.cover} />
+                            ))}
+                        </Grid>
+                    </div>
+                ))}
+            </Container>
+        </main>
+    </>
 );
 
 export default Movies;

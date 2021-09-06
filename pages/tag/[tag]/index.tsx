@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import Head from 'next/head';
 import { getPaginatedPostsForTag, getAllTagPages } from '@lib/posts';
 import { GetStaticProps, GetStaticPaths } from 'next';
@@ -48,9 +47,9 @@ interface TaggedPostProps {
     pageCount: number
 }
 
-const TaggedPosts: FC<TaggedPostProps> = ({
+const TaggedPosts = ({
     tagName, posts, tag, pageCount,
-}) => (
+}: TaggedPostProps): JSX.Element => (
     <>
         <Head>
             <title>

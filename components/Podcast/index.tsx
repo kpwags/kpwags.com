@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 type PodcastProps = {
@@ -59,7 +58,7 @@ const Item = styled.div`
     }
 `;
 
-const Podcast: React.FC<PodcastProps> = ({ podcastName, link, artwork }) => (
+const Podcast = ({ podcastName, link, artwork }: PodcastProps): JSX.Element => (
     <Item>
         <a href={link} title={podcastName} target="_blank" rel="noreferrer">
             <picture>

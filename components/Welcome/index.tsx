@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const Hello = styled.div`
@@ -28,7 +27,7 @@ const Hello = styled.div`
     }
 `;
 
-const Welcome: React.FC = () => (
+const Welcome = (): JSX.Element => (
     <Hello>
         <div className="content">
             <img src="/images/keith.png" alt="Keith Wagner" />
