@@ -123,7 +123,7 @@ const Hdr = styled.header`
             color: ${({ theme }) => theme.colors.blue};
 
             @media all and (max-width: 1024px) {
-                padding: 0 10px;
+                padding: 0 8px;
             }
 
             @media all and (max-width: 767px) {
