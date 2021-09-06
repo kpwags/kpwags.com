@@ -197,4 +197,8 @@ export const GlobalStyles = createGlobalStyle`
     .utterances {
         max-width: 100%;
     }
+
+    .centered {
+        text-align: center;
+    }
 `;
