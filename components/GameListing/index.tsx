@@ -1,5 +1,4 @@
 import { Game } from '@models/game';
-import { FC } from 'react';
 import styled from 'styled-components';
 
 type GameListingProps = {
@@ -53,7 +52,7 @@ const Item = styled.div`
     }
 `;
 
-const GameListing: FC<GameListingProps> = ({ game }) => (
+const GameListing = ({ game }: GameListingProps): JSX.Element => (
     <Item>
         <a href={game.link} target="_blank" rel="noreferrer">
             <picture>

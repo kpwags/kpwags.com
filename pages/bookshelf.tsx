@@ -1,5 +1,5 @@
+import Head from 'next/head';
 import styled from 'styled-components';
-import { FC } from 'react';
 import BooksRead, { BookList } from '@data/bookshelf';
 import { GetStaticProps } from 'next';
 import BookListing from '@components/BookListing';
@@ -66,36 +66,39 @@ type BookshelfProps = {
     books: BookList;
 };
 
-const Bookshelf: FC<BookshelfProps> = ({ books }) => (
-    <main className="full-width">
-        <Container>
-            <h1>My Bookshelf</h1>
+const Bookshelf = ({ books }: BookshelfProps): JSX.Element => (
+    <>
+        <Head><title>Bookshelf - Keith Wagner</title></Head>
+        <main className="full-width">
+            <Container>
+                <h1>My Bookshelf</h1>
 
-            <p className="notes">Most recent at top.</p>
+                <p className="notes">Most recent at top.</p>
 
-            <p className="lastUpdate">
-                Last Updated:
-                {' '}
-                {books.lastUpdate}
-            </p>
+                <p className="lastUpdate">
+                    Last Updated:
+                    {' '}
+                    {books.lastUpdate}
+                </p>
 
-            {books.years.map((year) => (
-                <div key={year.year}>
-                    <h2>{year.year}</h2>
+                {books.years.map((year) => (
+                    <div key={year.year}>
+                        <h2>{year.year}</h2>
 
-                    <Grid>
-                        {year.books.map((book) => (
-                            <BookListing
-                                book={book}
-                                key={book.cover}
-                                includeReview
-                            />
-                        ))}
-                    </Grid>
-                </div>
-            ))}
-        </Container>
-    </main>
+                        <Grid>
+                            {year.books.map((book) => (
+                                <BookListing
+                                    book={book}
+                                    key={book.cover}
+                                    includeReview
+                                />
+                            ))}
+                        </Grid>
+                    </div>
+                ))}
+            </Container>
+        </main>
+    </>
 );
 
 export default Bookshelf;

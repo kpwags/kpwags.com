@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styled from 'styled-components';
 
 const Star = styled.img`
@@ -10,7 +9,7 @@ type StarRatingProps = {
     rating: number
 };
 
-const StarRating: FC<StarRatingProps> = ({ rating }) => {
+const StarRating = ({ rating }: StarRatingProps): JSX.Element => {
     const getStars = () => {
         const starsHtml = [];
 

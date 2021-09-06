@@ -1,5 +1,4 @@
 import { TVShow } from '@models/tvShow';
-import { FC } from 'react';
 import styled from 'styled-components';
 
 type TVListingProps = {
@@ -54,7 +53,7 @@ const Item = styled.div`
     }
 `;
 
-const TVListing: FC<TVListingProps> = ({ tvShow }) => (
+const TVListing = ({ tvShow }: TVListingProps): JSX.Element => (
     <Item>
         <picture>
             <source srcSet={`/images/tv/${tvShow.cover}`} media="(min-width: 767px)" />

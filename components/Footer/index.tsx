@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
@@ -50,7 +49,7 @@ const Ftr = styled.footer`
     }
 `;
 
-const Footer: React.FC = () => (
+const Footer = (): JSX.Element => (
     <Ftr>
         <ul>
             <li>
@@ -119,7 +118,6 @@ const Footer: React.FC = () => (
         </ul>
         <ul>
             <li>
-                {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
                 <span className="copyright">&copy; {new Date().getFullYear()} Keith Wagner</span>
             </li>
             <li>

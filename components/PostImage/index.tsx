@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import Image from 'next/image';
 import styled from 'styled-components';
 
@@ -32,7 +31,7 @@ interface PostImageProps {
     credit?: JSX.Element
 }
 
-const PostImage: FC<PostImageProps> = ({
+const PostImage = ({
     src,
     alt,
     width,
@@ -40,7 +39,7 @@ const PostImage: FC<PostImageProps> = ({
     centered = true,
     shadowed = false,
     credit,
-}) => {
+}: PostImageProps): JSX.Element => {
     const cssClasses: string[] = [];
 
     if (centered) {

@@ -18,11 +18,11 @@ export const getStaticProps: GetStaticProps = async () => {
     };
 };
 
-interface HomeProps {
+interface BlogProps {
     posts: BlogPost[]
 }
 
-const Home: React.FC<HomeProps> = ({ posts }) => (
+const Blog = ({ posts }: BlogProps): JSX.Element => (
     <>
         <Head><title>Blog - Keith Wagner</title></Head>
         <RssFeeds />
@@ -40,4 +40,4 @@ const Home: React.FC<HomeProps> = ({ posts }) => (
     </>
 );
 
-export default Home;
+export default Blog;

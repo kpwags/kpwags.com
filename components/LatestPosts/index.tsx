@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { formatDate } from '@lib/utilities';
@@ -42,7 +41,7 @@ interface LatestPostsProps {
     mostRecentPosts: BlogPost[];
 }
 
-const LatestPosts: React.FC<LatestPostsProps> = ({ mostRecentPosts }) => (
+const LatestPosts = ({ mostRecentPosts }: LatestPostsProps): JSX.Element => (
     <Latest>
         <h2>Latest Posts</h2>
         <Posts>

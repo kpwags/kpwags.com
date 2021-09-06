@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { getAllPosts } from '@lib/posts';
 import { GetStaticProps } from 'next';
@@ -35,7 +34,7 @@ interface HomeProps {
     posts: BlogPost[];
 }
 
-const Home: React.FC<HomeProps> = ({ posts }) => (
+const Home = ({ posts }: HomeProps): JSX.Element => (
     <>
         <RssFeeds />
         <main>

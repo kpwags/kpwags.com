@@ -1,4 +1,4 @@
-import { FC, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { BlogPost } from '@models/blogPost';
 import { GetStaticProps, GetStaticPaths } from 'next';
@@ -43,7 +43,7 @@ interface PostProps {
     currentPage: number
 }
 
-const Post: FC<PostProps> = ({ posts, lastPage, currentPage }) => {
+const Post = ({ posts, lastPage, currentPage }: PostProps): JSX.Element => {
     const [blogPosts, setBlogPosts] = useState(posts);
     const router = useRouter();
 

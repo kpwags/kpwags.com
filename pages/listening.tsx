@@ -1,5 +1,6 @@
+import Head from 'next/head';
 import styled from 'styled-components';
-import React from 'react';
+import { Fragment } from 'react';
 import { GetStaticProps } from 'next';
 import Podcast from '@components/Podcast';
 import podcasts from '@data/podcasts';
@@ -73,30 +74,33 @@ type PodcastsProps = {
     listeningTo: PodcastCategory[];
 };
 
-const Podcasts: React.FC<PodcastsProps> = ({ listeningTo }) => (
-    <main>
-        <Container>
-            <h1>Podcasts I Listen To</h1>
+const Podcasts = ({ listeningTo }: PodcastsProps): JSX.Element => (
+    <>
+        <Head><title>Podcasts - Keith Wagner</title></Head>
+        <main>
+            <Container>
+                <h1>Podcasts I Listen To</h1>
 
-            <p>Yes, I subscribe to a lot of podcasts. No, I don&apos;t necessarily listen to every episode.</p>
+                <p>Yes, I subscribe to a lot of podcasts. No, I don&apos;t necessarily listen to every episode.</p>
 
-            <Categories>
-                {listeningTo.map(({ name: categoryName, podcasts: podcastsInCategory }) => (
-                    <React.Fragment key={categoryName}>
-                        <Category>{categoryName}</Category>
+                <Categories>
+                    {listeningTo.map(({ name: categoryName, podcasts: podcastsInCategory }) => (
+                        <Fragment key={categoryName}>
+                            <Category>{categoryName}</Category>
 
-                        <Grid>
-                            {podcastsInCategory
-                                .filter((p) => p.artwork !== undefined)
-                                .map(({ name: podcastName, link, artwork }) => (
-                                    <Podcast podcastName={podcastName} link={link} artwork={artwork} key={link} />
-                                ))}
-                        </Grid>
-                    </React.Fragment>
-                ))}
-            </Categories>
-        </Container>
-    </main>
+                            <Grid>
+                                {podcastsInCategory
+                                    .filter((p) => p.artwork !== undefined)
+                                    .map(({ name: podcastName, link, artwork }) => (
+                                        <Podcast podcastName={podcastName} link={link} artwork={artwork} key={link} />
+                                    ))}
+                            </Grid>
+                        </Fragment>
+                    ))}
+                </Categories>
+            </Container>
+        </main>
+    </>
 );
 
 export default Podcasts;

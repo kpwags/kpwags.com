@@ -1,6 +1,6 @@
 import StarRating from '@components/StarRating/StarRating';
 import { Book } from '@models/book';
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import styled from 'styled-components';
 
 type BookListingProps = {
@@ -79,7 +79,7 @@ const Item = styled.div`
     }
 `;
 
-const BookListing: FC<BookListingProps> = ({ book, includeReview = false }) => {
+const BookListing = ({ book, includeReview = false }: BookListingProps): JSX.Element => {
     const [showThoughts, setShowThoughts] = useState(false);
 
     return (
