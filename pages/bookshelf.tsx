@@ -46,7 +46,7 @@ const Grid = styled.div`
     margin: 0 0 40px;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 40px;
     justify-items: center;
@@ -67,7 +67,7 @@ type BookshelfProps = {
 };
 
 const Bookshelf: FC<BookshelfProps> = ({ books }) => (
-    <main className="wider">
+    <main className="full-width">
         <Container>
             <h1>My Bookshelf</h1>
 

@@ -74,7 +74,7 @@ type PodcastsProps = {
 };
 
 const Podcasts: React.FC<PodcastsProps> = ({ listeningTo }) => (
-    <main className="wider">
+    <main>
         <Container>
             <h1>Podcasts I Listen To</h1>
 

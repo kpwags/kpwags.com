@@ -9,7 +9,7 @@ type BookListingProps = {
 }
 
 const Item = styled.div`
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     text-align: center;
     vertical-align: top;
     line-height: 1.3;
@@ -20,15 +20,16 @@ const Item = styled.div`
 
     @media all and (max-width: 767px) {
         text-align: left;
+        font-size: 1.3rem;
         display: block;
-        margin: 20px 0 20px 0;
+        margin: 30px 0;
         width: 100%;
     }
 
     img.cover {
         border: 1px solid #bcbcbc;
         margin: 0 auto 5px;
-        max-height:200px;
+        max-height:300px;
         display: block;
 
         :hover {

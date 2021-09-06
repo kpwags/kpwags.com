@@ -50,12 +50,16 @@ export const GlobalStyles = createGlobalStyle`
         span {
             white-space: nowrap;
         }
+
+        @media all and (max-width: 500px) {
+            font-size: 2.5rem;
+        }
     }
 
     h2 {
         font-weight: 700;
         color: ${({ theme }: { theme: Theme }) => theme.colors.h2};
-        font-size: 1.75rem;
+        font-size: 2rem;
         margin: 0;
         padding: 0;
 
@@ -65,6 +69,10 @@ export const GlobalStyles = createGlobalStyle`
 
         a:hover {
             text-decoration: none;
+        }
+
+        @media all and (max-width: 500px) {
+            font-size: 1.75rem;
         }
     }
 
@@ -81,6 +89,10 @@ export const GlobalStyles = createGlobalStyle`
 
         a:hover {
             text-decoration: none;
+        }
+
+        @media all and (max-width: 500px) {
+            font-size: 1.4rem;
         }
     }
 
@@ -124,34 +136,21 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     main {
-        width: 800px;
+        width: min(100ch, 100vw - 2rem);
         margin: 0 auto;
         padding: 0 10px;
-
-        @media all and (max-width: 1280px) {
-            padding: 0;
-        }
-
-        @media all and (max-width: 1023px) {
-            width: 100%;
-            padding: 0 20px;
-            margin: 0;
-        }
     }
 
-    main.wider {
-        width: 1280px;
+    main.full-width {
+        width: 100%;
+        padding: 25px;
 
-        @media all and (max-width: 1280px) {
-            width: 1024px;
+        @media all and (max-width: 767px) {
+            padding: 15px;
         }
 
-        @media all and (max-width: 1060px) {
-            width: 960px;
-        }
-
-        @media all and (max-width: 1023px) {
-            width: 100%;
+        @media all and (max-width: 500px) {
+            padding: 10px;
         }
     }
 

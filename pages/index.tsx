@@ -25,6 +25,10 @@ const Latest = styled.div`
     display:grid;
     grid-column-gap: 10px;
     grid-template-columns: 2fr 1fr;
+
+    @media all and (max-width: 767px) {
+        display: block;
+    }
 `;
 
 interface HomeProps {

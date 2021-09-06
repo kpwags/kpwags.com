@@ -7,6 +7,12 @@ const Container = styled.div`
     h3 {
         margin: 15px 0;
     }
+
+    @media all and (max-width: 600px) {
+        ul {
+            margin: 0;
+        }
+    }
 `;
 
 const About: React.FC = () => (

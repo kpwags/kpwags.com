@@ -50,7 +50,7 @@ type LikeProps = {
 };
 
 const Podcasts: React.FC<LikeProps> = ({ likedItems }) => (
-    <main className="wider">
+    <main>
         <Container>
             <h1>
                 Articles, Podcasts &

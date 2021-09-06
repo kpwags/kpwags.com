@@ -70,7 +70,7 @@ type CurrentProps = {
 };
 
 const Current: FC<CurrentProps> = ({ currentlyDoing }) => (
-    <main className="wider">
+    <main>
         <Container>
             <h1>What I&apos;m Currently Up To</h1>
 

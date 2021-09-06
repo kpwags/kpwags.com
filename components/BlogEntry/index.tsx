@@ -27,26 +27,11 @@ import 'prism-themes/themes/prism-night-owl.css';
 const components = { PostImage, EmbeddedTweet };
 
 const Post = styled.article`
-    h1 {
-        color: ${({ theme }) => theme.colors.blue};
-        font-family: ${({ theme }) => theme.fonts.primary};
-        font-size: 3rem;
-        font-weight: 900;
-    }
-
     h2 {
-        color: ${({ theme }) => theme.colors.blue};
-        font-family: ${({ theme }) => theme.fonts.primary};
-        font-size: 2rem;
-        font-weight: 700;
         margin: 20px 0;
     }
 
     h3 {
-        color: ${({ theme }) => theme.colors.mediumBlue};
-        font-family: ${({ theme }) => theme.fonts.secondary};
-        font-size: 1.5rem;
-        font-weight: 500;
         margin: 20px 0;
     }
 

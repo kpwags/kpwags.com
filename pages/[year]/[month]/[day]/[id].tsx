@@ -36,7 +36,7 @@ interface PostProps {
 const Post: FC<PostProps> = ({ post }) => (
     <>
         <RssFeeds />
-        <main className="wider">
+        <main>
             <BlogEntry post={post} />
         </main>
     </>

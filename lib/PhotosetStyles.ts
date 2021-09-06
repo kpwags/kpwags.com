@@ -1,23 +1,9 @@
 import styled from 'styled-components';
 
 export const Photoset = styled.main`
-    width: 1280px;
-    margin: 0 auto;
-    padding: 0 10px;
-
-    @media all and (max-width: 1280px) {
-        width: 1024px;
-    }
-
-    @media all and (max-width: 1060px) {
-        width: 960px;
-    }
-
-    @media all and (max-width: 1023px) {
-        width: 100%;
-        padding: 0 20px;
-        margin: 0;
-    }
+    width: min(100ch, 100vw - 2rem);
+        margin: 0 auto;
+        padding: 0 10px;
 
     .meta {
         margin: 8px 0 25px;

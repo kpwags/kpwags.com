@@ -10,16 +10,30 @@ const Container = styled.div`
         grid-template-rows: 1fr;
         gap: 0px 75px;
         grid-template-areas: '. .';
+
+        @media all and (max-width: 767px) {
+            display: block;
+            text-align:center;
+        }
+
         img {
             transition: transform 1.2s ease-in-out;
             filter: drop-shadow(2px 4px 8px #585858);
+
+            @media all and (max-width: 767px) {
+                margin: 20px 0 30px 0;
+                width: 70%;
+            }
+
             :hover {
                 transform: rotate(360deg);
             }
         }
+
         p {
             margin-block-start: 0;
             font-size: 1.15rem;
+            text-align: left;
         }
     }
 `;
