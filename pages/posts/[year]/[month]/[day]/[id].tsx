@@ -38,7 +38,7 @@ const Post: FC<PostProps> = ({ post }) => (
     <>
         <RssFeeds />
         <PageScrollIndicator />
-        <main className="wider">
+        <main>
             <BlogEntry post={post} />
         </main>
     </>
