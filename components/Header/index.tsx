@@ -144,7 +144,7 @@ const Hdr = styled.header`
         }
 
         .hide-on-tablet {
-            @media all and (max-width: 768px) {
+            @media all and (max-width: 812px) {
                 display: none;
             }
         }
