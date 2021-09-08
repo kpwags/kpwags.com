@@ -5,7 +5,7 @@ import PhotosetListLinks from '@components/PhotosetListLinks';
 const PhotographyHome = (): JSX.Element => (
     <>
         <Head><title>Photography - Keith Wagner</title></Head>
-        <main>
+        <main className="photography">
             <h1>Photography</h1>
 
             <p>

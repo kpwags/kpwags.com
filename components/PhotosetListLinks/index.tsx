@@ -5,11 +5,12 @@ import Link from 'next/link';
 const PhotosetList = styled.ul`
     margin: 25px 0;
     padding: 15px;
-    background: #efefef;
+    background: ${({ theme }) => theme.colors.photoListBackground};
 `;
 
 const Photoset = styled.li`
     list-style-type: none;
+
     a {
         display: grid;
         grid-template-columns: 1fr 3fr;
@@ -19,7 +20,7 @@ const Photoset = styled.li`
         margin: 0 0 15px 0;
 
         &:hover {
-            background: #cdcdcd;
+            background: ${({ theme }) => theme.colors.photoListBackgroundHover};
             text-decoration: none;
         }
 

@@ -141,6 +141,10 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0 10px;
     }
 
+    main.photography {
+        width: min(80ch, 100vw - 2rem);
+    }
+
     main.full-width {
         width: 100%;
         padding: 25px;

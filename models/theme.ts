@@ -8,6 +8,8 @@ export interface ThemeColors {
     mediumBlue: string
     lightBlue: string
     darkGray: string
+    photoListBackground: string
+    photoListBackgroundHover: string
 }
 
 export interface Fonts {
