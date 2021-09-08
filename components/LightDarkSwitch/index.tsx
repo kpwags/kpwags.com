@@ -49,15 +49,17 @@ const Switch = styled.svg`
 
 interface LightDarkSwitchProps {
     onClick: () => void
+    className: string
 }
 
-const LightDarkSwitch = ({ onClick }: LightDarkSwitchProps): JSX.Element => (
+const LightDarkSwitch = ({ onClick, className }: LightDarkSwitchProps): JSX.Element => (
     <Switch
         width="64"
         height="64"
         id="toggle-button"
         viewBox="0 0 16.933333 8.466667"
         onClick={onClick}
+        className={className}
     >
         <g id="layer1">
             <rect
