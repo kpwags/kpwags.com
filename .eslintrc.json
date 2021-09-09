@@ -72,7 +72,8 @@
                     ["@lib", "./lib"],
                     ["@posts", "./posts"],
                     ["@models", "./models"],
-                    ["@data", "./data"]
+                    ["@data", "./data"],
+                    ["@contexts", "./contexts"]
                 ]
             }
         }

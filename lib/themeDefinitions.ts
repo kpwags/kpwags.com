@@ -15,6 +15,8 @@ export const themeDefinitions: ThemeData = {
                 mediumBlue: 'hsl(216, 100%, 20%)',
                 lightBlue: 'hsl(215, 90%, 30%)',
                 darkGray: 'hsl(0, 0%, 40%)',
+                photoListBackground: 'hsl(0, 0%, 94%)',
+                photoListBackgroundHover: 'hsl(0,0%,74%)',
             },
             fonts: {
                 primary: 'Roboto, Helvetica, Arial, sans-serif',
@@ -32,11 +34,14 @@ export const themeDefinitions: ThemeData = {
                 text: 'hsl(0, 0%, 94%)',
                 link: 'hsl(199, 99%, 46%)',
                 h1: 'hsl(199, 99%, 46%)',
-                h2: 'hsl(209, 79%, 44%)',
+                h2: 'hsl(189, 99%, 46%)',
                 blue: 'hsl(199, 99%, 46%)',
-                mediumBlue: 'hsl(209, 79%, 44%)',
-                lightBlue: 'hsl(199, 99%, 46%)',
-                darkGray: 'hsl(0, 0%, 40%)',
+                mediumBlue: 'hsl(194, 99%, 44%)',
+                lightBlue: 'hsl(189, 99%, 46%)',
+                darkGray: 'hsl(0, 0%, 94%)',
+                photoListBackground: 'hsl(0, 0%, 30%)',
+                photoListBackgroundHover: 'hsl(0, 0%, 20%)',
+
             },
             fonts: {
                 primary: 'Roboto, Helvetica, Arial, sans-serif',

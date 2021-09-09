@@ -83,26 +83,23 @@ const Uses = (): JSX.Element => (
                 <h2>Headphones</h2>
                 <p>
                     <strong>
-                        <a href="https://www.apple.com/airpods-pro/">Apple AirPods Pro</a>
-                        :
+                        <a href="https://www.apple.com/airpods-pro/">Apple AirPods Pro</a>:
                     </strong>
-                    It took a little bit of persuading and a sale, but I picked a pair of these up and the integration into the iPhone
+                    &nbsp;It took a little bit of persuading and a sale, but I picked a pair of these up and the integration into the iPhone
                     and iPad ecosystem is pretty awesome. The battery and sound quality is top notch.
                 </p>
                 <p>
                     <strong>
-                        <a href="https://www.anker.com/store/liberty-air-2/A3910011">Anker Liberty Air 2</a>
-                        :
+                        <a href="https://www.anker.com/store/liberty-air-2/A3910011">Anker Liberty Air 2</a>:
                     </strong>
-                    Originally, I couldn&apos;t justify the price for Apple&apos;s AirPods Pro, so I went with these and have not been disappointed. Good sound
+                    &nbsp;Originally, I couldn&apos;t justify the price for Apple&apos;s AirPods Pro, so I went with these and have not been disappointed. Good sound
                     quality and the pure wireless factor is nice.
                 </p>
                 <p>
                     <strong>
-                        <a href="https://www.sony.com/electronics/headband-headphones/wh-ch710n">Sony WH-CH710N</a>
-                        :
+                        <a href="https://www.sony.com/electronics/headband-headphones/wh-ch710n">Sony WH-CH710N</a>:
                     </strong>
-                    I got these for their noise cancelling and Bluetooth connectivity. The sound quality is good and the battery
+                    &nbsp;I got these for their noise cancelling and Bluetooth connectivity. The sound quality is good and the battery
                     life makes them perfect for full days in the office working.
                 </p>
                 <p>
