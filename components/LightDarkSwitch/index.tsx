@@ -79,6 +79,7 @@ const LightDarkSwitch = ({ onClick, className }: LightDarkSwitchProps): JSX.Elem
                 y="0.25323313"
                 rx="4.1069798"
             />
+
             <circle
                 id="togglebutton-circle-lightmode"
                 style={{
@@ -89,6 +90,7 @@ const LightDarkSwitch = ({ onClick, className }: LightDarkSwitchProps): JSX.Elem
                 cy="4.2373543"
                 r="3.175"
             />
+
             <circle
                 id="togglebutton-circle-darkmode"
                 style={{
@@ -99,6 +101,7 @@ const LightDarkSwitch = ({ onClick, className }: LightDarkSwitchProps): JSX.Elem
                 cy="4.2373543"
                 r="3.175"
             />
+
             <g
                 id="togglebutton-star"
                 transform="matrix(1.4921861,0,0,1.4921861,-2.1293234,-1.8964798)"
@@ -131,6 +134,7 @@ const LightDarkSwitch = ({ onClick, className }: LightDarkSwitchProps): JSX.Elem
                     d="m -19.447479,-8.6303994 -0.512213,-0.1090496 0.291397,0.435134 -0.431492,-0.2967641 0.102698,0.5135244 -0.28508,-0.4392991 -0.101637,0.5137353 -0.09527,-0.5149547 -0.290499,0.4357346 0.10905,-0.5122131 -0.435134,0.2913973 0.296764,-0.4314917 -0.513524,0.1026974 0.439299,-0.2850796 -0.513735,-0.1016373 0.514954,-0.095267 -0.435734,-0.2904986 0.512213,0.1090496 -0.291398,-0.4351341 0.431492,0.2967642 -0.102697,-0.5135244 0.285079,0.4392991 0.101638,-0.5137355 0.09527,0.5149548 0.290499,-0.4357345 -0.10905,0.512213 0.435134,-0.2913972 -0.296764,0.4314916 0.513525,-0.1026973 -0.439299,0.2850796 0.513735,0.1016373 -0.514955,0.095267 z"
                 />
             </g>
+
             <path
                 id="togglebutton-moon"
                 style={{
