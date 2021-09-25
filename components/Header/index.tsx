@@ -123,7 +123,7 @@ const Hdr = styled.header`
 
         @media all and (max-width: 767px) {
             display: block;
-            margin-top: 12px;
+            margin: 12px 0;
         }
 
         a,
