@@ -227,17 +227,17 @@ const Header = (): JSX.Element => {
                     </span>
                 </div>
                 <nav>
-                    <Link href="/blog"><a>Blog</a></Link>
-                    <Link href="/photography"><a>Photography</a></Link>
-                    <Link href="/about"><a>About</a></Link>
-                    <Link href="/work"><a>Work</a></Link>
-                    <Link href="/bookshelf">
+                    <Link aria-label="Blog" href="/blog"><a>Blog</a></Link>
+                    <Link aria-label="Photography" href="/photography"><a>Photography</a></Link>
+                    <Link aria-label="About" href="/about"><a>About</a></Link>
+                    <Link aria-label="Work" href="/work"><a>Work</a></Link>
+                    <Link aria-label="Bookshelf" href="/bookshelf">
                         <a className="hide-on-tablet">Bookshelf</a>
                     </Link>
-                    <Link href="/uses">
+                    <Link aria-label="Uses" href="/uses">
                         <a className="hide-on-tablet">Uses</a>
                     </Link>
-                    <Link href="/rss/feed.xml">
+                    <Link aria-label="RSS" href="/rss/feed.xml">
                         <a className="hide-on-tablet">
                             <svg width="64" height="64" id="rss-svg">
                                 <g id="layer1">
