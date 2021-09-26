@@ -59,9 +59,14 @@ const Headings = ({ headings, activeId }: { headings: HeadingsData[], activeId: 
     return (
         <ul>
             {headings.map((heading) => (
-                <li key={heading.id} className={heading.id === activeId ? 'active' : ''}>
+                <li
+                    key={heading.id}
+                    aria-label={heading.title}
+                    className={heading.id === activeId ? 'active' : ''}
+                >
                     <a
                         href={`#${heading.id}`}
+                        aria-label={heading.title}
                         onClick={(e) => {
                             e.preventDefault();
                             handleClick(heading.id);
@@ -72,9 +77,14 @@ const Headings = ({ headings, activeId }: { headings: HeadingsData[], activeId: 
                     {heading.items.length > 0 && (
                         <ul>
                             {heading.items.map((child) => (
-                                <li key={child.id} className={child.id === activeId ? 'active' : ''}>
+                                <li
+                                    key={child.id}
+                                    aria-label={child.title}
+                                    className={child.id === activeId ? 'active' : ''}
+                                >
                                     <a
                                         href={`#${child.id}`}
+                                        aria-label={child.title}
                                         onClick={(e) => {
                                             e.preventDefault();
                                             handleClick(child.id);
