@@ -19,13 +19,14 @@ const ToC = styled.nav`
         text-decoration: none;
     }
 
-    ul {
-        margin: 0;
+    ul.table-of-contents {
+        margin: 25px 0 0 0;
         padding-inline-start: 0;
 
         li {
             ul {
-                margin-left: 25px;
+                margin: 0 0 0 12px;
+                padding-inline-start: 0;
             }
         }
     }
@@ -57,7 +58,7 @@ const Headings = ({ headings, activeId }: { headings: HeadingsData[], activeId: 
     };
 
     return (
-        <ul>
+        <ul className="table-of-contents">
             {headings.map((heading) => (
                 <li
                     key={heading.id}
