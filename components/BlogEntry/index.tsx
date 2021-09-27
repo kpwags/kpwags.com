@@ -12,6 +12,8 @@ import Utterances from '@components/Utterances';
 // Blog Components
 import PostImage from '@components/PostImage';
 import EmbeddedTweet from '@components/EmbeddedTweet';
+import TableOfContents from '@components/TableOfContents';
+import TableOfContentsPage from '@components/TableOfContentsPage';
 
 // Prism
 import 'prismjs/components';
@@ -24,7 +26,12 @@ import 'prismjs/plugins/line-numbers/prism-line-numbers';
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 import 'prism-themes/themes/prism-night-owl.css';
 
-const components = { PostImage, EmbeddedTweet };
+const components = {
+    PostImage,
+    EmbeddedTweet,
+    TableOfContents,
+    TableOfContentsPage,
+};
 
 const Post = styled.article`
     h2 {
