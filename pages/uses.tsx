@@ -256,27 +256,27 @@ const Uses = (): JSX.Element => (
                     </p>
                     <p>
                         <strong>
-                            Tamron:
+                            Tamron AF 28-75mm:
                         </strong>
                         &nbsp;A former co-worker recommended this lens to me as a modest upgrade to the kit lens that came with my camera.
                         It&apos;s become my general go-to lens.
                     </p>
                     <p>
                         <strong>
-                            Canon Telphoto:
+                            Canon Telphoto EFS 55-250mm:
                         </strong>
                         &nbsp;When I bought the camera from Best Buy, it came with this lens. It&apos;s not a bad option for taking photos
                         of far away objects.
                     </p>
                     <p>
                         <strong>
-                            Canon Wide Angle:
+                            Canon Wide Angle EFS 10-18mm:
                         </strong>
                         &nbsp;Lauren got this for me for Christmas one year and it adds a nice way for me to get more in my shots.
                     </p>
                     <p>
                         <strong>
-                            Canon Kit Lens:
+                            Canon Kit Lens EFS 18-135mm:
                         </strong>
                         &nbsp;Just the standard lens that came with the 60D.
                     </p>
