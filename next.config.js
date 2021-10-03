@@ -12,18 +12,6 @@ module.exports = {
 
         return config;
     },
-};
-
-module.exports = {
-    target: 'node',
-    node: {
-        __dirname: false,
-    },
-    webpack(config) {
-        config.module.rules.push({ test: /\.node$/, use: 'node-loader' });
-
-        return config;
-    },
     externals: {
         canvas: 'commonjs canvas',
     },
