@@ -13,7 +13,7 @@ module.exports = {
         return config;
     },
     externals: {
-        canvas: 'commonjs canvas',
+        canvas: 'canvas',
     },
 };
 
