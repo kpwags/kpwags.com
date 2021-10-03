@@ -15,6 +15,7 @@
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^11.0.1",
     "@types/node": "^14.14.41",
+    "canvas": "^2.8.0",
     "dayjs": "^1.10.6",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.2",
