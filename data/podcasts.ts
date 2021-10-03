@@ -75,6 +75,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'money_with_friends.jpg',
             },
             {
+                name: 'The New Bazaar',
+                link: 'https://shows.acast.com/the-new-bazaar',
+                artwork: 'newbazaar.jpg',
+            },
+            {
                 name: 'Pitchfork Economics',
                 link: 'https://pitchforkeconomics.com/',
                 artwork: 'pitchfork_economics.jpg',
@@ -103,6 +108,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'Weathtrack',
                 link: 'https://wealthtrack.com/',
                 artwork: 'wealthtrack.jpg',
+            },
+            {
+                name: 'WSJ: Your Money Briefing',
+                link: 'https://www.wsj.com/podcasts/your-money-matters',
+                artwork: 'yourmoneybriefing.jpg',
             },
         ],
     },
@@ -150,6 +160,16 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'codepen_radio.jpg',
             },
             {
+                name: 'Coding Blocks',
+                link: 'https://www.codingblocks.net/',
+                artwork: 'codingblocks.jpg',
+            },
+            {
+                name: 'The CSS Podcast',
+                link: 'https://thecsspodcast.libsyn.com/',
+                artwork: 'csspodcast.jpg',
+            },
+            {
                 name: 'DevDiscuss',
                 link: 'https://dev.to/devdiscuss',
                 artwork: 'dev_discuss.jpg',
@@ -183,6 +203,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'Programming Throwdown',
                 link: 'https://www.programmingthrowdown.com/',
                 artwork: 'programming_throwdown.jpg',
+            },
+            {
+                name: 'The ReadME Podcast',
+                link: 'https://github.com/readme/podcast',
+                artwork: 'readmepodcast.jpg',
             },
             {
                 name: 'ShopTalk',
@@ -315,6 +340,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: '538.jpg',
             },
             {
+                name: "Ken Rudin's Political Junkie",
+                link: 'https://www.krpoliticaljunkie.com/',
+                artwork: 'kenrudin.jpg',
+            },
+            {
                 name: 'Left, Right & Center',
                 link: 'https://www.kcrw.com/news/shows/left-right-center',
                 artwork: 'left_right_center.jpg',
@@ -363,6 +393,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'Short Wave',
                 link: 'https://www.npr.org/podcasts/510351/short-wave',
                 artwork: 'shortwave.jpg',
+            },
+            {
+                name: 'Star Talk',
+                link: 'https://www.startalkradio.net/',
+                artwork: 'startalk.jpg',
             },
         ],
     },
@@ -417,7 +452,7 @@ const podcasts: PodcastCategory[] = [
             {
                 name: 'FanGraphs Baseball',
                 link: 'https://blogs.fangraphs.com/category/podcast/',
-                artwork: 'chin_music.jpg',
+                artwork: 'fangraphs.jpg',
             },
             {
                 name: 'The Good Phight',
@@ -455,6 +490,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'puck_soup.jpg',
             },
             {
+                name: 'R2C2',
+                link: 'https://www.theringer.com/r2c2-podcast-cc-sabathia-ryan-ruocco',
+                artwork: 'r2c2.jpg',
+            },
+            {
                 name: 'The Ringer NBA Show',
                 link: 'https://www.theringer.com/the-nba-show',
                 artwork: 'ringer_nba_show.jpg',
@@ -463,6 +503,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'The Ringer NFL Show',
                 link: 'https://www.theringer.com/the-nfl-show',
                 artwork: 'ringer_nfl_show.jpg',
+            },
+            {
+                name: 'The Ryen Russillo Padcast',
+                link: 'https://www.theringer.com/ryen-russillo-podcast',
+                artwork: 'ryenrussillo.jpg',
             },
             {
                 name: 'Sixers Beat',
@@ -525,6 +570,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'against_the_rules.jpg',
             },
             {
+                name: 'Blindspot',
+                link: 'https://www.wnycstudios.org/podcasts/blindspot',
+                artwork: 'blindspot.jpg',
+            },
+            {
                 name: 'Code Switch',
                 link: 'https://www.npr.org/sections/codeswitch/',
                 artwork: 'code_switch.jpg',
@@ -565,6 +615,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'fresh_air.jpg',
             },
             {
+                name: 'Gates McFadden Investigates',
+                link: 'https://podcasts.apple.com/us/podcast/gates-mcfadden-investigates-who-do-you-think-you-are/id1566636928',
+                artwork: 'gatesmcfaddeninvestigates.jpg',
+            },
+            {
                 name: 'How I Built This',
                 link: 'https://www.npr.org/podcasts/510313/how-i-built-this',
                 artwork: 'how_i_built_this.jpg',
@@ -585,6 +640,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'lifekit.jpg',
             },
             {
+                name: 'Longform',
+                link: 'https://longform.org/',
+                artwork: 'longform.jpg',
+            },
+            {
                 name: 'Make Me Smart',
                 link: 'https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly/',
                 artwork: 'make_me_smart.jpg',
@@ -598,6 +658,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'More Perfect',
                 link: 'https://www.wnycstudios.org/podcasts/radiolabmoreperfect',
                 artwork: 'more_perfect.jpg',
+            },
+            {
+                name: 'Nixon at War',
+                link: 'https://www.nixonatwar.org/',
+                artwork: 'nixonatwar.jpg',
             },
             {
                 name: 'On Point',
