@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2021-10-03T23:31:13.551Z</updated>
+    <updated>2021-10-03T23:49:34.246Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -1140,6 +1140,7 @@ return (
         <id>/posts/2020/03/31/quarantine-update</id>
         <link href="/posts/2020/03/31/quarantine-update"/>
         <updated>2020-03-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Well, just like many others across the country and the world, I’m now practicing social distancing and staying home just about all the time. While I’m fortunate in that I have a job that allows me to work from home, I can’t help but to think of all those who aren’t as fortunate and have either lost their job or have to go to work and potentially put their health and life on the line. Doctors, nurses, first responders and others are braving this and they deserve nothing but praise and respect for working through these tough times.]]></summary>
         <content type="html"><![CDATA[<p>Well, just like many others across the country and the world, I’m now practicing social distancing and staying home just about all the time. While I’m fortunate in that I have a job that allows me to work from home, I can’t help but to think of all those who aren’t as fortunate and have either lost their job or have to go to work and potentially put their health and life on the line. Doctors, nurses, first responders and others are braving this and they deserve nothing but praise and respect for working through these tough times.</p>
 <p>I’ve been spending my time trying to stay busy and not get too stir-crazy. I, like many others haven’t experienced anything like this before in my life. I’m not used to staying home all the time, not being able to really do anything outside of the home, not being able to go anywhere. It feels really weird to me.</p>
 <p>Here’s what I’ve been up to in an attempt to stay occupied.</p>
@@ -1627,6 +1628,7 @@ const directions = await Promise.all(directionCreations);
         <id>/posts/2019/02/19/reading-list</id>
         <link href="/posts/2019/02/19/reading-list"/>
         <updated>2019-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's a little late, but here we go. This week we look at code, login forms, and the old Altavista search engine.]]></summary>
         <content type="html"><![CDATA[<p>It&#39;s a little late, but here we go. This week we look at code, login forms, and the old Altavista search engine.</p>
 <h4 id="no-the-problem-isnt-bad-coders"><a href="https://medium.com/@sgrif/no-the-problem-isnt-bad-coders-ed4347810270">No the Problem isn’t Bad Coders</a></h4>
 <p>Insightful post about challenges to working with codebases and good, safe code.</p>
@@ -2959,6 +2961,7 @@ const directions = await Promise.all(directionCreations);
         <id>/posts/2014/04/01/run-forest-run</id>
         <link href="/posts/2014/04/01/run-forest-run"/>
         <updated>2014-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Well, it's official, this November I will be running my first full marathon. On November 23, 2014 I will be running the Philadelphia Marathon.]]></summary>
         <content type="html"><![CDATA[<p>Well, it&#39;s official, this November I will be running my first full marathon. On November 23, 2014 I will be running the Philadelphia Marathon.</p>
 <p>Last year I ran the Philadelphia Half-Marathon which was a huge accomplishment for me and I&#39;m looking forward to pushing myself to the next level. 4 years ago I could barely run a mile and last year I was able to hit 13.1 miles. Now I get to see if I can run 26.2 miles.</p>
 <p>The marathon will actually be the end of a big running year for me. I&#39;m going to be running the Broad Street Run in Philly (10 miles) and two half-marathons. I&#39;m looking forward to running all of these races and am really hoping to get in better shape.</p>
@@ -3396,6 +3399,7 @@ const directions = await Promise.all(directionCreations);
         <id>/posts/2013/10/03/a-new-mini-project-is-brewing-daily-shots</id>
         <link href="/posts/2013/10/03/a-new-mini-project-is-brewing-daily-shots"/>
         <updated>2013-10-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In November of 2011, after really getting into photography, I decided to finally take the plunge and get myself a DSLR camera. I chose the Canon EOS 60D because I liked what it offered, and my girlfriend (now my fiancee) also had it and recommended it to me. I should add that it also is nice since we'll be able to share lenses. Fast forward to now, I've gotten better with photography, but don't always have the time to go out with my Canon and find those awesome shots.]]></summary>
         <content type="html"><![CDATA[<p>In November of 2011, after really getting into photography, I decided to finally take the plunge and get myself a DSLR camera. I chose the Canon EOS 60D because I liked what it offered, and my girlfriend (now my fiancee) also had it and recommended it to me. I should add that it also is nice since we&#39;ll be able to share lenses. Fast forward to now, I&#39;ve gotten better with photography, but don&#39;t always have the time to go out with my Canon and find those awesome shots.</p>
 <p>About a week ago, I was thinking about this and have come up with an idea for helping fix this. I&#39;m going to design and build a new website off of this blog where I will post a photo every day. These photos might not necessarily be taken with my Canon, but I figure by training myself to take a photo everyday, I&#39;ll find some fun angles or even subjects that I wouldn&#39;t have thought to see otherwise.</p>
 <p>With my wedding coming up soon, I&#39;m not sure when this will come into fruition, but I&#39;ve already gotten some wires laid out as to how I want the site to look like. It will really just be a matter of designing it and figuring out the technology behind it. Should be fun!</p>

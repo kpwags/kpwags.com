@@ -50,7 +50,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
         return {
             id,
             title: data.title,
-            excerpt: data.excerpt,
+            excerpt: data.excerpt || null,
             date: data.date,
             url,
             hasEmbeddedTweet: false,
@@ -72,7 +72,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
     return allPostsData;
 };
 
-export function getAllPostIds(includeHtmlExtension = false) {
+export function getAllPostIds() {
     const fileNames = fs.readdirSync(postsDirectory);
 
     return fileNames.map((filename) => {
@@ -84,7 +84,7 @@ export function getAllPostIds(includeHtmlExtension = false) {
                 year: arr[0].toString(),
                 month: arr[1].toString(),
                 day: arr[2].toString(),
-                id: `${id}${includeHtmlExtension ? '.html' : ''}`,
+                id,
             },
         });
     });
@@ -144,7 +144,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Combine the data with the id
     return {
         id: postId,
-        excerpt: data.excerpt,
+        excerpt: data.excerpt || null,
         title: data.title,
         date: data.date,
         content: mdx.compiledSource,

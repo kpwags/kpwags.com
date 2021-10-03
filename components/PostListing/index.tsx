@@ -38,7 +38,7 @@ const PostListing = ({
         <div className="datetime">{formatDate(post.date)}</div>
 
         {/* eslint-disable-next-line react/no-danger */}
-        <p dangerouslySetInnerHTML={{ __html: post.excerpt || 'No content found' }} />
+        {post.excerpt !== null ? <p dangerouslySetInnerHTML={{ __html: post.excerpt || 'No content found' }} /> : null}
     </Post>
 );
 
