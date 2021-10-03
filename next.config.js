@@ -14,6 +14,18 @@ module.exports = {
     },
 };
 
+module.exports = {
+    target: 'node',
+    node: {
+        __dirname: false,
+    },
+    webpack(config) {
+        config.module.rules.push({ test: /\.node$/, use: 'node-loader' });
+
+        return config;
+    },
+};
+
 module.exports = withMDX({
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 });
