@@ -10,6 +10,9 @@ module.exports = {
         config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
         config.module.rules.push({ test: /\.node$/, use: 'node-loader' });
 
+        // eslint-disable-next-line no-param-reassign
+        config.resolve.extensions = ['', '.js', '.jsx', '.json', '.node', '.ts', '.tsx'];
+
         return config;
     },
     externals: {
