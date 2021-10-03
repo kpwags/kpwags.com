@@ -12,11 +12,19 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'June 2021',
+    lastUpdate: 'September 2021',
     years: [
         {
             year: '2021',
             movies: [
+                {
+                    title: 'War Machine',
+                    cover: 'warmachine.jpg',
+                    link: 'https://www.imdb.com/title/tt4758646/',
+                    dateWatched: 'August 28, 2021',
+                    rating: 3,
+                    thoughts: 'I decided to watch this after the fall of Kabul to the Taliban. Despite it being satire, it felt rather accurate to what happened in Afghanistan.',
+                },
                 {
                     title: 'The Hunt for Red October',
                     cover: 'huntforredoctober.jpg',

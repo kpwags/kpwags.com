@@ -12,11 +12,27 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'February 2021',
+    lastUpdate: 'September 2021',
     years: [
         {
             year: '2021',
             books: [
+                {
+                    title: 'Think Again',
+                    author: 'Adam Grant',
+                    cover: 'thinkagain.jpg',
+                    link: 'https://bookshop.org/books/think-again-the-power-of-knowing-what-you-don-t-know-9781984878106/9781984878106',
+                    rating: 4,
+                    thoughts: 'This book definitely made me think about how I view things and assumptions I might make.',
+                },
+                {
+                    title: 'The Premonition',
+                    author: 'Michael Lewis',
+                    cover: 'premonition.jpg',
+                    link: 'https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897/9780393881554',
+                    rating: 4,
+                    thoughts: 'Reading this book made me realize how screwed we were by the COVID-19 pandemic. While there were plenty of heroes doing their best to help solve the issues, Michael Lewis does a good job showing why the organizations we trusted let us down.',
+                },
                 {
                     title: 'Field of Schemes',
                     author: 'Neil Demause & Joanna Cagan',

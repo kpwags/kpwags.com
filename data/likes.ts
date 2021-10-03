@@ -2,6 +2,81 @@ import { Like } from '@models/like';
 
 const likes: Like[] = [
     {
+        title: 'The Toxic Supplement Hunter',
+        url: 'https://www.menshealth.com/health/a36945827/toxic-supplement-hunter-pieter-cohen-md/',
+        source: 'menshealth.com',
+    },
+    {
+        title: 'What I Wish I Knew About CSS When Starting Out As A Frontender',
+        url: 'https://engineering.kablamo.com.au/posts/2021/my-first-css',
+        source: 'kablamo.com.au',
+    },
+    {
+        title: 'In Quest of Search',
+        url: 'https://www.sarasoueidan.com/blog/in-quest-of-search/',
+        source: 'sarasoueidan.com',
+    },
+    {
+        title: 'Biased Algorithms, Biased World',
+        url: 'https://www.wnycstudios.org/podcasts/otm/episodes/biased-algorithms-biased-world-on-the-media',
+        source: 'wnycstudios.org',
+    },
+    {
+        title: 'Exploring Deno Land',
+        url: 'https://changelog.com/podcast/443',
+        source: 'changelog.com',
+    },
+    {
+        title: "Michael Lewis' 2012 Princeton Commencement Speech",
+        url: 'https://www.youtube.com/watch?v=CiQ_T5C3hIM',
+        source: 'youtube.com',
+    },
+    {
+        title: "You're Wrong About: Cancel Culture",
+        url: 'https://www.buzzsprout.com/1112270/8656464-cancel-culture',
+        source: 'yourewrongabout.com',
+    },
+    {
+        title: "If we're gonna criticize utility-class frameworks, let's be fair about it",
+        url: 'https://css-tricks.com/if-were-gonna-criticize-utility-class-frameworks-lets-be-fair-about-it/',
+        source: 'css-tricks.com',
+    },
+    {
+        title: 'Whistleblower on the 28th Floor [Podcast]',
+        url: 'https://timharford.com/2021/04/cautionary-tales-whistleblower-on-the-28th-floor/',
+        source: 'timharford.com',
+    },
+    {
+        title: '5 New Features in C# 10',
+        url: 'https://medium.com/young-coder/a-closer-look-at-5-new-features-in-c-10-f99738b0158e',
+        source: 'medium.com',
+    },
+    {
+        title: 'Why Printers are the Worst [Podcast]',
+        url: 'https://www.npr.org/2021/02/17/968704526/why-printers-are-the-worst',
+        source: 'npr.org',
+    },
+    {
+        title: 'Doing Open Source with Brian Douglas [Podcast]',
+        url: 'https://www.hanselminutes.com/784/doing-open-source-with-brian-douglas',
+        source: 'hanselminutes.com',
+    },
+    {
+        title: "The Pillow Dude's 'Free Speech' Social Media Website Will Moderate 'Swear Words' Because Of Course It Will",
+        url: 'https://www.techdirt.com/articles/20210414/15593446615/pillow-dudes-free-speech-social-media-website-will-moderate-swear-words-because-course-it-will.shtml',
+        source: 'techdirt.com',
+    },
+    {
+        title: 'Targeting Overseas Tax Shelters [Podcast]',
+        url: 'https://www.nytimes.com/2021/04/07/podcasts/the-daily/tax-scheme-bristol-myers-irs-janet-yellen.html',
+        source: 'nytimes.com',
+    },
+    {
+        title: '40 years later, is this the end of Reaganomics? [Podcast]',
+        url: 'https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly/40-years-later-is-this-the-end-of-reaganomics/',
+        source: 'marketplace.org',
+    },
+    {
         title: 'What’s the tax gap, and how do we close it? [Podcast]',
         url: 'https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly/whats-the-tax-gap-and-how-do-we-close-it/',
         source: 'marketplace.org',
