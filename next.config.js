@@ -5,21 +5,11 @@ const withMDX = require('@next/mdx')({
 
 module.exports = {
     target: 'serverless',
-    node: {
-        __dirname: false,
-    },
     webpack(config) {
         config.module.rules.push({ test: /\.mdx$/, use: 'raw-loader' });
         config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
-        config.module.rules.push({ test: /\.node$/, use: 'node-loader' });
-
-        // eslint-disable-next-line no-param-reassign
-        config.resolve.extensions = ['', '.js', '.jsx', '.json', '.node', '.ts', '.tsx'];
 
         return config;
-    },
-    externals: {
-        canvas: 'canvas',
     },
 };
 
