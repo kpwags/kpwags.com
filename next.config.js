@@ -24,6 +24,9 @@ module.exports = {
 
         return config;
     },
+    externals: {
+        canvas: 'commonjs canvas',
+    },
 };
 
 module.exports = withMDX({
