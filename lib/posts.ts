@@ -3,7 +3,6 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
-import { JSDOM } from 'jsdom';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { BlogTag } from '@models/BlogTag';
@@ -14,17 +13,18 @@ const postsDirectory = path.join(process.cwd(), 'posts');
 
 export const getUrlTag = (tag: string): string => tag.toString().toLowerCase().replace(/\./g, '').replace(/-/g, '');
 
-export const getPostExcerpt = (html: string): string => {
-    const dom = new JSDOM(html);
+// TODO: See about eventually auto-generating the excerpt in a way that works on Netlify
+// export const getPostExcerpt = (html: string): string => {
+//     const dom = new JSDOM(html);
 
-    const paragraphs = dom.window.document.getElementsByTagName('p');
+//     const paragraphs = dom.window.document.getElementsByTagName('p');
 
-    if (paragraphs.length === 0) {
-        return html;
-    }
+//     if (paragraphs.length === 0) {
+//         return html;
+//     }
 
-    return paragraphs[0].innerHTML;
-};
+//     return paragraphs[0].innerHTML;
+// };
 
 export const getAllPosts = (sorted = true) : BlogPost[] => {
     // Get file names under /posts
@@ -42,7 +42,6 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
         const { content, data } = matter(fileContents);
 
         const html = marked(content);
-        const excerpt = getPostExcerpt(html);
         const url = buildUrlFromId(id);
 
         const tags = data.tags || [] as BlogTag[];
@@ -51,7 +50,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
         return {
             id,
             title: data.title,
-            excerpt,
+            excerpt: data.excerpt || null,
             date: data.date,
             url,
             hasEmbeddedTweet: false,
@@ -73,7 +72,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
     return allPostsData;
 };
 
-export function getAllPostIds(includeHtmlExtension = false) {
+export function getAllPostIds() {
     const fileNames = fs.readdirSync(postsDirectory);
 
     return fileNames.map((filename) => {
@@ -85,7 +84,7 @@ export function getAllPostIds(includeHtmlExtension = false) {
                 year: arr[0].toString(),
                 month: arr[1].toString(),
                 day: arr[2].toString(),
-                id: `${id}${includeHtmlExtension ? '.html' : ''}`,
+                id,
             },
         });
     });
@@ -138,9 +137,6 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Use gray-matter to parse the post metadata section
     const { content, data } = matter(fileContents);
 
-    const html = marked(content);
-    const excerpt = getPostExcerpt(html);
-
     const mdx = await serialize(content, { scope: data });
 
     const tags = data.tags || [] as BlogTag[];
@@ -148,7 +144,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Combine the data with the id
     return {
         id: postId,
-        excerpt,
+        excerpt: data.excerpt || null,
         title: data.title,
         date: data.date,
         content: mdx.compiledSource,

@@ -5,7 +5,7 @@ import BlogEntry from '@components/BlogEntry';
 import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = getAllPostIds(true);
+    const paths = getAllPostIds();
 
     return {
         paths,

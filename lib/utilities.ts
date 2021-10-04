@@ -1,8 +1,24 @@
 import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
 
-export const formatDate = (value: string|Date): string => dayjs(new Date(value)).format('MMMM D, YYYY');
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
-export const formatDateTime = (dateVal: string|Date): string => `${dayjs(dateVal).format('MMMM D, YYYY')} at ${dayjs(dateVal).format('h:mm A')}`;
+export const formatDate = (value: string|Date): string => {
+    const date = dayjs(value);
+    const timeZone = dayjs.tz.guess();
+    date.tz(timeZone);
+    return date.format('MMMM D, YYYY');
+};
+
+export const formatDateTime = (value: string|Date): string => {
+    const date = dayjs(value);
+    const timeZone = dayjs.tz.guess();
+    date.tz(timeZone);
+
+    return `${dayjs(date).format('MMMM D, YYYY')} at ${dayjs(date).format('h:mm A')}`;
+};
 
 export const buildUrlFromId = (id: string): string => {
     const arr = id.split('-');
