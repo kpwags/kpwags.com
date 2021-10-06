@@ -186,7 +186,7 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
                 <meta property="og:url" content={`https://kpwags.com${post.url}`} />
                 {post.socialImageUrl && <meta property="og:image" content={`https://kpwags.com${post.socialImageUrl}`} />}
                 {post.socialImageWidth && <meta property="og:image:width" content={post.socialImageWidth.toString()} />}
-                {post.socialImageUrl && <meta property="og:image:height" content={post.socialImageHeight.toString()} />}
+                {post.socialImageHeight && <meta property="og:image:height" content={post.socialImageHeight.toString()} />}
                 {post.socialImageUrl && <meta property="twitter:image" content={`https://kpwags.com${post.socialImageUrl}`} />}
                 {post.hasEmbeddedTweet && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
             </Head>
