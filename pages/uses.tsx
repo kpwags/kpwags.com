@@ -87,7 +87,7 @@ const Uses = (): JSX.Element => (
                     />
 
                     <p>
-                        In my basement, I have a desk for working my day job. There I use a
+                        In my basement, I have a desk for working my day job. There I use a&nbsp;
                         <a href="https://www.amazon.com/gp/product/B07FBS36W2" target="_blank" rel="noreferrer nofollow">Samsung 34&quot; Ultrawide Monitor</a> with two ASUS
                         21&quot; monitors my job provided me. I consistently go back and forth with whether I like an ultrawide or dual
                         monitors as both have their advantages &amp; disadvantages. Either way, the ultrawide is really nice for viewing

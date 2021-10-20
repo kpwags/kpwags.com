@@ -12,11 +12,19 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'September 2021',
+    lastUpdate: 'October 2021',
     years: [
         {
             year: '2021',
             books: [
+                {
+                    title: 'The Cult of We: Wework, Adam Neumann, and the Great Startup Delusion',
+                    author: 'Eliot Brown & Maureen Farrell',
+                    cover: 'cult-of-we.jpg',
+                    link: 'https://bookshop.org/books/the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion/9780593237113',
+                    rating: 4,
+                    thoughts: "I had heard all the stories about WeWork and its collapse. I didn't realize how crazy it actually was. The authors do a great job going into what was happening when and why things happened the way they did. I left amazed at how all the red flags Adam & WeWork had raised were ignored for so long.",
+                },
                 {
                     title: 'Think Again',
                     author: 'Adam Grant',

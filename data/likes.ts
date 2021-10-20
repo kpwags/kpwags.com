@@ -2,6 +2,26 @@ import { Like } from '@models/like';
 
 const likes: Like[] = [
     {
+        title: 'Say Hello To CSS Container Queries',
+        url: 'https://ishadeed.com/article/say-hello-to-css-container-queries/',
+        source: 'ishadeed.com',
+    },
+    {
+        title: 'Worst Case',
+        url: 'https://www.tbray.org/ongoing/When/202x/2021/10/08/The-WOrst-Case',
+        source: 'tbray.org',
+    },
+    {
+        title: '3 TypeScript Tricks I wish I knew when I learned TypeScript',
+        url: 'https://www.cstrnt.dev/blog/three-typescript-tricks',
+        source: 'cstrnt.dev',
+    },
+    {
+        title: 'What I Learned by Relearning HTML',
+        url: 'https://dannyguo.com/blog/what-i-learned-by-relearning-html',
+        source: 'dannyguo.com',
+    },
+    {
         title: 'The Toxic Supplement Hunter',
         url: 'https://www.menshealth.com/health/a36945827/toxic-supplement-hunter-pieter-cohen-md/',
         source: 'menshealth.com',

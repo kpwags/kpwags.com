@@ -35,6 +35,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'freakonomics.jpg',
             },
             {
+                name: 'How We Survive',
+                link: 'https://www.marketplace.org/shows/how-we-survive/',
+                artwork: 'how_we_survive.jpg',
+            },
+            {
                 name: 'The Indicator',
                 link: 'https://www.npr.org/podcasts/510325/the-indicator-from-planet-money',
                 artwork: 'indicator.jpg',
@@ -359,6 +364,11 @@ const podcasts: PodcastCategory[] = [
                 link: 'https://crooked.com/podcast-series/pod-save-america/',
                 artwork: 'pod_save_america.jpg',
             },
+            {
+                name: 'This Land',
+                link: 'https://crooked.com/podcast-series/this-land/',
+                artwork: 'this_land.jpg',
+            },
         ],
     },
     {
@@ -428,6 +438,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'The Athletic NBA Show',
                 link: 'https://theathletic.com/podcast/8-the-nba-show/',
                 artwork: 'athletic_nba_show.jpg',
+            },
+            {
+                name: 'Badlands: Sportsland',
+                link: 'https://art19.com/shows/badlands',
+                artwork: 'sportsland.jpg',
             },
             {
                 name: 'Beyond the Scrum',
