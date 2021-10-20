@@ -1,29 +1,25 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'September 2021',
+    lastUpdate: 'October 2021',
     reading: [
         {
-            title: 'The Cult of We: Wework, Adam Neumann, and the Great Startup Delusion',
-            author: 'Eliot Brown & Maureen Farrell',
-            cover: 'cult-of-we.jpg',
-            link: 'https://bookshop.org/books/the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion/9780593237113',
+            title: 'The Buyout of America: How Private Equity is Destroying Jobs and Killing the American Economy',
+            author: 'Josh Kosman',
+            cover: 'buyoutofamerica.jpg',
+            link: 'https://bookshop.org/books/the-buyout-of-america-how-private-equity-is-destroying-jobs-and-killing-the-american-economy/9781591843696',
             rating: null,
             thoughts: null,
         },
     ],
     watching: [
         {
-            title: 'The Mandalorian',
-            cover: 'mandalorian.jpg',
+            title: 'WandaVision',
+            cover: 'wandavision.jpg',
         },
         {
-            title: 'Cosmos',
-            cover: 'cosmos.jpg',
-        },
-        {
-            title: '30 Rock',
-            cover: '30rock.jpg',
+            title: 'Ted Lasso',
+            cover: 'tedlasso.jpg',
         },
         {
             title: 'Star Trek: Lower Decks',
