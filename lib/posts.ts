@@ -153,6 +153,9 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
         tags,
         commentIssueNumber: data.commentIssueNumber || null,
+        socialImageUrl: data.socialImageUrl || null,
+        socialImageWidth: data.socialImageWidth || null,
+        socialImageHeight: data.socialImageHeight || null,
     };
 };
 

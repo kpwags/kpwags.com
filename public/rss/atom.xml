@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2021-10-06T23:05:28.591Z</updated>
+    <updated>2021-10-27T23:20:03.561Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,36 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2021 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Think Again Review]]></title>
+        <id>/posts/2021/10/27/think-again-review</id>
+        <link href="/posts/2021/10/27/think-again-review"/>
+        <updated>2021-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Back in September, I finished readying Think Again by Adam Grant. It's a fantastic book that made me think about how I form my thoughts and opinions, and how I go about possibly re-forming them as evidence changes.]]></summary>
+        <content type="html"><![CDATA[<p>Back in September, I finished readying <em>Think Again</em> by Adam Grant. It&#39;s a fantastic book that made me think about how I form my thoughts and opinions, and how I go about possibly re-forming them as evidence changes.</p>
+<p><PostImage
+    src="/images/posts/2021-10-27-think-again-review/think-again-cover.png"
+    alt="The cover of Adam Grant's book, Think Again"
+    width={1324}
+    height={2000}
+    centered
+    shadowed
+/></p>
+<p>I had first heard about this book listening to the <a href="%5Bhttps://www.pushkin.fm/show/cautionary-tales/%5D(https://www.pushkin.fm/show/cautionary-tales/)"><em>Cautionary Tales</em></a> podcast by Tim Hartford. I’ve always appreciated Tim’s take on a multitude of topics so his recommendation had my interest piqued.</p>
+<p>The book’s primary focus is to make the reader think about their opinions and consider how they form their opinions and what it might take to reconsider them. For plenty of people, including myself, what we think we know may or may not be as much as we think we know.</p>
+<p>Being able to re-consider one’s viewpoints is a definitively good mindset to be in. All too often we form our opinions, get set in our filter bubbles, and refuse to change our minds. I know I can be guilty of this myself. I like to think the world works a certain way, and will sometimes need some extra prodding to revisit where I stand.</p>
+<p>I think all too often we have our minds set on why people are the way they are, or that a certain group of people are <em>[insert adjective here]</em>. I know it’s grown even harder over the last 6 years given the current political climate. Democrats hate Republicans, Republicans hate Democrats. The polarization has become seemingly extreme as of late. The pandemic certainly hasn’t helped matters any either. I know I sometimes have to take a step back and think about those who have chosen not to get vaccinated. I know there are those who are fervently anti-vaxx, thinking it’s some kind of liberal conspiracy or whatever the hell they’re believing these days. But then I take a step back, read some more, and see that there are others who are unsure for a multitude of reasons. Some understandable, some questionable, but not at the level of the QAnon folks. It’s kind of ironic that I read this while the pandemic is going on as one part of the book talks about doctors trying to figure out how to best handle those not wanting to have their children get the childhood vaccines (think MMR, Polio, etc.). As the book mentions, sometimes it’s just doing your best to listen to the other rather than talking down to them. Sure, there are plenty you won’t be able to reason with, but maybe, just maybe there are others you can help re-think their views.</p>
+<p>The other thing that I often think about is how it&#39;s often seen as a weakness to change your mind on viewpoints. In politics, politicians who change their views are so often called flip-flippers. It doesn’t matter why they changed their view, or how long it took them. They changed their view, so they can’t be trusted. It’s a shame too, because there are countless reasons one changes their view.</p>
+<p>Looking back at my life, I think the biggest “shock” for me was going to college. I grew up in the suburbs of Allentown, Pennsylvania. I was raised in a decidedly middle-class household. I was fortunate and never had to worry about how life’s necessities were going to be taken care of. The people I met in high school were very much the same. Going to college, and given Drexel&#39;s location in Philadelphia, all of a sudden I was introduced to people from wildly different backgrounds. Some who came from more money than I’d know what to do with, others who had to scratch and claw for everything. It opened my eyes to what others had to deal with and made me re-think about how lucky I was and that maybe I should reconsider my thoughts about others who may not have had the benefits I had growing up.</p>
+<p>It falls back to science as well. I mean think about the scientific method. The way scientists work is they come up with a hypothesis, test it, and adjust their hypothesis accordingly. It might be a little bit more complicated than that, but it’s ultimately the gist of it. Scientists follow the science and will generally adjust their views based on the results of their scientific inquiry. I forget where I read it, but I remember reading somewhere that good scientists are willing to recognize where they are wrong just as fervently as when they are right. Changing your mind or re-thinking something as the situation changes shouldn’t be considered a weakness, but rather a strength. There&#39;s a maturity to be able to say you were wrong.</p>
+<p>At the end of the day, I really believe that this is generally a good mindset to have. We all obviously have our convictions and views we strongly believe in, but to be willing to hear and listen to the other side or other alternate viewpoints will hopefully make us better people.</p>
+]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[September Check-In]]></title>
         <id>/posts/2021/10/06/september-check-in</id>
