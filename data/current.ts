@@ -1,33 +1,21 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'October 2021',
+    lastUpdate: 'November 2021',
     reading: [
         {
-            title: 'The Buyout of America: How Private Equity is Destroying Jobs and Killing the American Economy',
-            author: 'Josh Kosman',
-            cover: 'buyoutofamerica.jpg',
-            link: 'https://bookshop.org/books/the-buyout-of-america-how-private-equity-is-destroying-jobs-and-killing-the-american-economy/9781591843696',
+            title: 'The Righteous Mind: Why Good People Are Divided by Politics and Religion',
+            author: 'Jonathan Haidt',
+            cover: 'righteousmind.jpg',
+            link: 'https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772',
             rating: null,
             thoughts: null,
         },
     ],
     watching: [
         {
-            title: 'WandaVision',
-            cover: 'wandavision.jpg',
-        },
-        {
             title: 'Ted Lasso',
             cover: 'tedlasso.jpg',
-        },
-        {
-            title: 'Star Trek: Lower Decks',
-            cover: 'lowerdecks.jpg',
-        },
-        {
-            title: 'The Problem with Jon Stewart',
-            cover: 'problemjonstewart.jpg',
         },
         {
             title: 'Star Trek: Deep Space Nine',
@@ -35,6 +23,12 @@ const current: CurrentlyDoing = {
         },
     ],
     playing: [
+        {
+            title: 'Halo Infinite Multiplayer Beta',
+            system: 'Xbox Series X',
+            cover: 'halo-infinite-mp.jpg',
+            link: 'https://www.xbox.com/en-US/games/halo-infinite',
+        },
         {
             title: 'Destiny 2',
             system: 'Xbox Series X & PC',

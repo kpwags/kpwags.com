@@ -12,11 +12,19 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'September 2021',
+    lastUpdate: 'November 2021',
     years: [
         {
             year: '2021',
             movies: [
+                {
+                    title: 'Spectre',
+                    cover: 'spectre.jpg',
+                    link: 'https://www.imdb.com/title/tt2379713/',
+                    dateWatched: 'October 28, 2021',
+                    rating: 4,
+                    thoughts: "Not one of Craig's best Bond films, but still a good Bond film nonetheless.",
+                },
                 {
                     title: 'War Machine',
                     cover: 'warmachine.jpg',
