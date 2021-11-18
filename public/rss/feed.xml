@@ -4,11 +4,55 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Thu, 28 Oct 2021 00:12:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Nov 2021 02:03:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2021 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[October Check-In]]></title>
+            <link>/posts/2021/11/17/october-check-in</link>
+            <guid>/posts/2021/11/17/october-check-in</guid>
+            <pubDate>Wed, 17 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[September seemed to fly by pretty quickly, but it was definitely a good month. I enjoyed a week away on vacation and felt like I got a lot accomplished.]]></description>
+            <content:encoded><![CDATA[<p>October felt like it was a busy month. It seemed that we had plans every weekend and were always on the move. It wasn&#39;t necessarily a <em>bad</em> busy, but it probably foreshadows the upcoming holiday season.</p>
+<p>I&#39;ve decided to stick with using Notion as a platform and have moved a bunch of my notes and organizing into it. I&#39;ve been sticking with my daily journaling on it keeping track of what I want to do and what I&#39;ve done each day. Life gets busy and sometimes it&#39;s a nice way to look back and remember what happened when life&#39;s happenings start to blur together.</p>
+<p>The month started out with us celebrating my Mom&#39;s birthday with a Lehigh Football Game and dinner at my sister&#39;s. The football game wasn&#39;t all that much fun to watch as it ended up being a 34-0 blowout, but the weather was beautiful and we had good company.</p>
+<p><PostImage
+    src="/images/posts/2021-11-17-october-check-in/lehighgame.jpeg"
+    alt="The Lehigh Football team taking the snap deep in their own zone"
+    width={1920}
+    height={1440}
+    centered
+    shadowed={false}
+/></p>
+<p>In mid-October, after attending my cousin&#39;s wedding, Lauren and I went to Cape May, NJ again, this time celebrating our 8th anniversary. We stayed at Congress Hall and enjoyed sitting out on the veranda reading most mornings and evenings. We again went out and visited some of the local wineries and breweries. The weather was beautiful and it was a great way to celebrate 8 years.</p>
+<p><PostImage
+    src="/images/posts/2021-11-17-october-check-in/windowview.jpeg"
+    alt="The view of Cape May from our hotel room at Congress Hall"
+    width={1920}
+    height={1290}
+    centered
+    shadowed={false}
+/></p>
+<p>We finished out the month with our annual tradition of bringing the fire pit out onto the driveway and handing out candy to the local trick-or-treaters. Unfortunately, my pumpkin carving of Grumpy Cat lost the eye during transport to its driveway location.</p>
+<p><PostImage
+    src="/images/posts/2021-11-17-october-check-in/grumpypumpkin.jpeg"
+    alt="My pumpkin carving of grumpy cat, but missing an eye"
+    width={1920}
+    height={1665}
+    centered
+    shadowed={false}
+/></p>
+<p>I also started using a new app to track my diet. I found the app <a href="https://www.strongerbyscience.com/macrofactor/" target="_blank" rel="noreferrer nofollow">MacroFactor</a> and have been having some success in keeping my diet a little more in check.</p>
+<h3 id="summary">Summary</h3>
+<p><strong>Staying Active:</strong> I got in plenty of hockey this month across the teams I play on. For lifting, I&#39;ve deloaded and have tweaked my workout again splitting up the 5/3/1 sets with the 5x10 sets on different days. It&#39;s been going well.</p>
+<p><strong>Development:</strong> Haven&#39;t done a large amount of work on my fitness tracker, but am making some small process here and there as well as some refactoring work.</p>
+<p><strong>Reading:</strong> I finished <em>The Cult of We</em> while in Cape May, and hoo boy! When <a href="https://twitter.com/mollywood" target="_blank" rel="noreferrer nofollow">Molly Wood</a> on <a href="https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly/" target="_blank" rel="noreferrer nofollow">Make Me Smart</a> was talking about it being absolutely crazy...or &quot;bananapants&quot;, she wasn&#39;t kidding. I have no idea how people were so blind to all the obvious red flags.</p>
+<p><strong>Write More:</strong> I wrote about my thoughts on <em><a href="https://kpwags.com/posts/2021/10/27/think-again-review">Think Again</a></em>.</p>
+]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Think Again Review]]></title>
             <link>/posts/2021/10/27/think-again-review</link>

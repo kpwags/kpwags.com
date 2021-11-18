@@ -12,11 +12,19 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'October 2021',
+    lastUpdate: 'November 2021',
     years: [
         {
             year: '2021',
             books: [
+                {
+                    title: 'The Buyout of America: How Private Equity is Destroying Jobs and Killing the American Economy',
+                    author: 'Josh Kosman',
+                    cover: 'buyoutofamerica.jpg',
+                    link: 'https://bookshop.org/books/the-buyout-of-america-how-private-equity-is-destroying-jobs-and-killing-the-american-economy/9781591843696',
+                    rating: 3,
+                    thoughts: 'This book made me angry. It made me angry at how private equity firms have taken advantage of tax loopholes to make money at the cost of the little guys.',
+                },
                 {
                     title: 'The Cult of We: Wework, Adam Neumann, and the Great Startup Delusion',
                     author: 'Eliot Brown & Maureen Farrell',
