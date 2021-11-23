@@ -14,8 +14,12 @@ const current: CurrentlyDoing = {
     ],
     watching: [
         {
-            title: 'Ted Lasso',
-            cover: 'tedlasso.jpg',
+            title: 'Star Trek: Discovery',
+            cover: 'discovery.jpg',
+        },
+        {
+            title: 'For All Mankind',
+            cover: 'forallmankind.jpg',
         },
         {
             title: 'Star Trek: Deep Space Nine',
