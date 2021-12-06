@@ -1,7 +1,7 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'November 2021',
+    lastUpdate: 'December 2021',
     reading: [
         {
             title: 'The Righteous Mind: Why Good People Are Divided by Politics and Religion',
@@ -16,10 +16,6 @@ const current: CurrentlyDoing = {
         {
             title: 'Star Trek: Discovery',
             cover: 'discovery.jpg',
-        },
-        {
-            title: 'For All Mankind',
-            cover: 'forallmankind.jpg',
         },
         {
             title: 'Star Trek: Deep Space Nine',
