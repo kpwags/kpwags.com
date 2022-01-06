@@ -12,11 +12,56 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'November 2021',
+    lastUpdate: 'January 2022',
     years: [
+        {
+            year: '2022',
+            movies: [
+                {
+                    title: 'No Time to Die',
+                    cover: 'notimetodie.jpg',
+                    link: 'https://www.imdb.com/title/tt2382320/',
+                    dateWatched: 'January 1, 2022',
+                    rating: 3,
+                    thoughts: "Some good action scenes, but the main villain didn't make much sense to me which definitely put the movie on a down note.",
+                },
+            ],
+        },
         {
             year: '2021',
             movies: [
+                {
+                    title: 'Scrooged',
+                    cover: 'scrooged.jpg',
+                    link: 'https://www.imdb.com/title/tt0096061/',
+                    dateWatched: 'December 18, 2021',
+                    rating: 4,
+                    thoughts: "Was an enjoyable twist on Charles Dickens' A Christmas Carol. Bill Murray was his normal self.",
+                },
+                {
+                    title: 'Ghostbusters: Afterlife',
+                    cover: 'ghostbustersafterlife.jpg',
+                    link: 'https://www.imdb.com/title/tt4513678/',
+                    dateWatched: 'November 28, 2021',
+                    rating: 4,
+                    thoughts: 'I really enjoyed this. I thought they did a good job of telling a new story while still paying homage to the past.',
+                },
+                {
+                    title: 'Mars Attacks!',
+                    cover: 'marsattacks.jpg',
+                    link: 'https://www.imdb.com/title/tt0116996/',
+                    dateWatched: 'November 25, 2021',
+                    rating: 4,
+                    thoughts: 'A dumb but funny movie with a great cast.',
+                },
+                {
+                    title: 'Muppets Haunted Mansion',
+                    cover: 'muppetshauntedmansion.jpg',
+                    link: 'https://www.imdb.com/title/tt14602326/',
+                    dateWatched: 'October 29, 2021',
+                    rating: 3,
+                    thoughts: 'This was basically what I expected.',
+                },
                 {
                     title: 'Spectre',
                     cover: 'spectre.jpg',

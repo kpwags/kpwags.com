@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'December 2021',
+    lastUpdate: 'January 2022',
     reading: [
         {
-            title: 'The Righteous Mind: Why Good People Are Divided by Politics and Religion',
-            author: 'Jonathan Haidt',
-            cover: 'righteousmind.jpg',
-            link: 'https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772',
+            title: 'Leviathan Falls',
+            author: 'James S.A. Corey',
+            cover: 'leviathanfalls.jpg',
+            link: 'https://bookshop.org/books/leviathan-falls-9781705024997/9780316332910',
             rating: null,
             thoughts: null,
         },
@@ -18,8 +18,16 @@ const current: CurrentlyDoing = {
             cover: 'discovery.jpg',
         },
         {
-            title: 'Star Trek: Deep Space Nine',
-            cover: 'ds9.jpg',
+            title: 'Star Trek: Enterprise',
+            cover: 'startrekenterprise.jpg',
+        },
+        {
+            title: 'The Middle',
+            cover: 'themiddle.jpg',
+        },
+        {
+            title: 'Challenger: Final Flight',
+            cover: 'challengerfinalflight.jpg',
         },
     ],
     playing: [
@@ -30,16 +38,10 @@ const current: CurrentlyDoing = {
             link: 'https://www.xbox.com/en-US/games/halo-infinite',
         },
         {
-            title: 'Destiny 2',
-            system: 'Xbox Series X & PC',
-            cover: 'destiny2.jpg',
-            link: 'https://www.bungie.net/7/en/Destiny/NewLight',
-        },
-        {
-            title: 'MLB The Show 21',
+            title: 'Halo 2',
             system: 'Xbox Series X',
-            cover: 'mlb21.jpg',
-            link: 'https://www.microsoft.com/en-us/p/mlb-the-show-21-xbox-series-x-s/9nsdl005mbtg',
+            cover: 'halo2.jpg',
+            link: 'https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx',
         },
         {
             title: 'Mass Effect',

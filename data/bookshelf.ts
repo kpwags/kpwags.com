@@ -12,11 +12,19 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'November 2021',
+    lastUpdate: 'January 2022',
     years: [
         {
             year: '2021',
             books: [
+                {
+                    title: 'The Righteous Mind: Why Good People Are Divided by Politics and Religion',
+                    author: 'Jonathan Haidt',
+                    cover: 'righteousmind.jpg',
+                    link: 'https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772',
+                    rating: 3,
+                    thoughts: "This was a dense read. While I'm not sure I understood everything, Jonathan Haidt's explanation for why people act the way they do was thoughtful and interesting.",
+                },
                 {
                     title: 'The Buyout of America: How Private Equity is Destroying Jobs and Killing the American Economy',
                     author: 'Josh Kosman',

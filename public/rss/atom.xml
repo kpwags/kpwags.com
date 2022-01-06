@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2021-12-06T23:07:19.577Z</updated>
+    <updated>2022-01-06T00:34:24.528Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -13,7 +13,46 @@
     <link rel="self" href="https://kpwags.com/rss/atom.xml"/>
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
-    <rights>2021 Keith Wagner</rights>
+    <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[December Check-In]]></title>
+        <id>/posts/2022/01/05/december-check-in</id>
+        <link href="/posts/2022/01/05/december-check-in"/>
+        <updated>2022-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[December was a rough month.]]></summary>
+        <content type="html"><![CDATA[<p>December was a rough month.</p>
+<h2 id="mr-otto">Mr. Otto</h2>
+<p>Despite the good start for December, the month was a rough one. A week before Christmas, Otto had a relapse. The fluid had built up around his heart again and his vitals took a pretty bad turn. They could&#39;ve drained the fluid again, but it would have been hard on Otto and was only a band-aid for the larger issue of the (now certain) tumor on his heart. There wasn&#39;t much more we could do for him and still give him a good quality of life, so Lauren and I made the incredibly difficult decision to say goodbye to him. Needless to say, it put a huge damper on the holidays. Even now after 3 weeks the house still feels empty. It still hurts and it fucking sucks.</p>
+<p><PostImage
+    src="/images/posts/2022-01-05-december-check-in/otto.jpg"
+    alt="Otto in the hallway smiling"
+    width={1920}
+    height={1280}
+    centered
+    shadowed={false}
+/></p>
+<h2 id="busy-with-work">Busy with Work</h2>
+<p>The project I was working on since I started my job at Webstaurant a year ago went live the week leading up to Christmas. Needless to say it was all hands on deck to work out the various kinks and bugs that we weren&#39;t able to catch in QA or didn&#39;t have the right data to find in QA. There were a bunch of late evenings working, but things are going well with it now. Despite the seemingly weird time to do a product launch, there were good reasons to do it then and things ended up working out.</p>
+<h2 id="the-holidays">The Holidays</h2>
+<p>With Otto weighing heavily on our minds, we did our best to still celebrate the holidays. Lauren and I were able to do our Christmas Eve Seafood Dinner this year and hosted her side of the family Christmas Day. We were able to enjoy ourselves which a week earlier I wouldn&#39;t have thought as possible.</p>
+<p>We were supposed to go up to see my family Sunday, but unfortunately my brother tested positive for COVID, so we opted to stay home instead. We&#39;re hoping to see them this weekend.</p>
+<h2 id="starting-over-with-halo">Starting Over with Halo</h2>
+<p>Halo Infinite came out December 8th, but instead of jumping right in, I&#39;ve opted to re-play through the series in story order. I&#39;m currently on Halo 2 after playing through Reach and Combat Evolved. I&#39;m planning on playing right through until I get to Infinite while trying to avoid spoilers.</p>
+<h3 id="summary">Summary</h3>
+<p><strong>Staying Active:</strong> Had plenty of hockey this month, one team made it to the finals and lost in the shootout. Lifting, I set a new PR on deadlifts at 360 lbs. I also ran more miles this month than I had in any month this year and was able to break my goal of 300 miles for 2021!</p>
+<p><strong>Development:</strong> Have made some progress in the next phase of my fitness tracker project. Also spent some time laying out a .NET Core re-write of Digital Family Cookbook.</p>
+<p><strong>Reading:</strong></p>
+<ul>
+<li>  Finished <em><a href="https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772">The Righteous Mind: Why Good People are Divided by Politics and Religion</a></em> by Jonathan Haidt*.* It was a dense read, but was interesting.</li>
+</ul>
+<p><strong>Write More:</strong> Other than my November Recap, nada.</p>
+]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[November Check-In]]></title>
         <id>/posts/2021/12/06/november-check-in</id>
@@ -21,7 +60,7 @@
         <updated>2021-12-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[November was a rather quiet month all things considered.]]></summary>
         <content type="html"><![CDATA[<p>November was a rather quiet month all things considered.</p>
-<p>The month started out a lot quieter than September or October. A few hockey games here and there, but otherwise it was just my normal <a href="https://kpwags.com/posts/2021/01/14/my-typical-weekday">nothing-out-of-the-ordinary</a> days.</p>
+<p>The month started out a lot quieter than September or October. A few hockey games here and there, but otherwise it was just my normal <a href="/posts/2021/01/14/my-typical-weekday">nothing-out-of-the-ordinary</a> days.</p>
 <h2 id="new-york-city">New York City</h2>
 <p>Mid-November that changed with a long weekend visiting New York City. Lauren and I love going to New York, but haven&#39;t been there since right before the pandemic locked things down.</p>
 <p><PostImage
@@ -37,7 +76,7 @@
 <p>After getting back, I was greeted by being able to download the Halo: Infinite multiplayer beta. It definitely brought me back to my late college and early post-college days of playing Halo 3 online with friends. The game has been a lot of fun. I&#39;m still getting back into it, but I&#39;m definitely enjoying it. If you&#39;re playing, let me know and maybe we can hop on and play a few rounds. I&#39;m annoyed at how 343 is handling the customizations in terms of having to pay for just about everything, but it&#39;s not pay-to-win, so it&#39;s not an absolutely huge deal to me. The gameplay is fun. I&#39;m looking forward to playing the campaign, but am kind of bummed that co-op doesn&#39;t come out until May(ish) 2022.</p>
 <h2 id="mr-otto">Mr. Otto</h2>
 <p>Sadly, the month ended on a little bit of a down note. The Wednesday before Thanksgiving we had to take our dog Otto to the emergency vet and found out (surprisingly) that there was fluid build-up around his heart which was preventing his heart from beating properly. Thankfully they were able to drain it and he&#39;s back to his old self, but we now need to find out what caused the build-up. Hemangiosarcoma seemed to be the worst-case scenario, but thankfully that&#39;s pretty much now ruled out. There still could be a tumor, so we&#39;re going to have to bring him back in for more tests. It was just tough leaving him in the hospital overnight and then having to wait throughout the day Thanksgiving for updates. He&#39;s home now and happy as ever so if you&#39;ll excuse me, I&#39;m gonna go give him some lovin&#39;.</p>
-<h3 id="summary">Summary</h3>
+<h2 id="summary">Summary</h2>
 <p><strong>Staying Active:</strong> Wasn&#39;t too much hockey this month. 2 of my teams are now down to 2 games a month. Was able to get a bunch of runs in and have continued progressing with my lifts.</p>
 <p><strong>Development:</strong> Have made some progress in the next phase of my fitness tracker project. Hoping to devote some time over the month to get this next feature set in place.</p>
 <p><strong>Reading:</strong></p>
