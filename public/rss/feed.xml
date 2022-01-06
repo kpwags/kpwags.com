@@ -4,11 +4,11 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 06 Dec 2021 23:07:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Jan 2022 23:55:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
-        <copyright>2021 Keith Wagner</copyright>
+        <copyright>2022 Keith Wagner</copyright>
         <item>
             <title><![CDATA[November Check-In]]></title>
             <link>/posts/2021/12/06/november-check-in</link>
@@ -16,7 +16,7 @@
             <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[November was a rather quiet month all things considered.]]></description>
             <content:encoded><![CDATA[<p>November was a rather quiet month all things considered.</p>
-<p>The month started out a lot quieter than September or October. A few hockey games here and there, but otherwise it was just my normal <a href="https://kpwags.com/posts/2021/01/14/my-typical-weekday">nothing-out-of-the-ordinary</a> days.</p>
+<p>The month started out a lot quieter than September or October. A few hockey games here and there, but otherwise it was just my normal <a href="/posts/2021/01/14/my-typical-weekday">nothing-out-of-the-ordinary</a> days.</p>
 <h2 id="new-york-city">New York City</h2>
 <p>Mid-November that changed with a long weekend visiting New York City. Lauren and I love going to New York, but haven&#39;t been there since right before the pandemic locked things down.</p>
 <p><PostImage
@@ -32,7 +32,7 @@
 <p>After getting back, I was greeted by being able to download the Halo: Infinite multiplayer beta. It definitely brought me back to my late college and early post-college days of playing Halo 3 online with friends. The game has been a lot of fun. I&#39;m still getting back into it, but I&#39;m definitely enjoying it. If you&#39;re playing, let me know and maybe we can hop on and play a few rounds. I&#39;m annoyed at how 343 is handling the customizations in terms of having to pay for just about everything, but it&#39;s not pay-to-win, so it&#39;s not an absolutely huge deal to me. The gameplay is fun. I&#39;m looking forward to playing the campaign, but am kind of bummed that co-op doesn&#39;t come out until May(ish) 2022.</p>
 <h2 id="mr-otto">Mr. Otto</h2>
 <p>Sadly, the month ended on a little bit of a down note. The Wednesday before Thanksgiving we had to take our dog Otto to the emergency vet and found out (surprisingly) that there was fluid build-up around his heart which was preventing his heart from beating properly. Thankfully they were able to drain it and he&#39;s back to his old self, but we now need to find out what caused the build-up. Hemangiosarcoma seemed to be the worst-case scenario, but thankfully that&#39;s pretty much now ruled out. There still could be a tumor, so we&#39;re going to have to bring him back in for more tests. It was just tough leaving him in the hospital overnight and then having to wait throughout the day Thanksgiving for updates. He&#39;s home now and happy as ever so if you&#39;ll excuse me, I&#39;m gonna go give him some lovin&#39;.</p>
-<h3 id="summary">Summary</h3>
+<h2 id="summary">Summary</h2>
 <p><strong>Staying Active:</strong> Wasn&#39;t too much hockey this month. 2 of my teams are now down to 2 games a month. Was able to get a bunch of runs in and have continued progressing with my lifts.</p>
 <p><strong>Development:</strong> Have made some progress in the next phase of my fitness tracker project. Hoping to devote some time over the month to get this next feature set in place.</p>
 <p><strong>Reading:</strong></p>
