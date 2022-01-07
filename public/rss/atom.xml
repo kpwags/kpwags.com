@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-01-06T00:34:24.528Z</updated>
+    <updated>2022-01-07T23:13:59.028Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,51 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[2021 Retrospective]]></title>
+        <id>/posts/2022/01/07/2022-retrospective</id>
+        <link href="/posts/2022/01/07/2022-retrospective"/>
+        <updated>2022-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Well 2021 was quite the year...it started with a failed coup by the GOP, a wide rollout of a life-saving COVID-19 vaccine that almost half the country doesn't want to take because they're being lied to by their (vaccinated) political leaders and news channels, and we're back in another COVID-19 wave entering the third year of the pandemic...so all in all...just peachy.]]></summary>
+        <content type="html"><![CDATA[<p>Well 2021 was quite the year...it started with a failed coup by the GOP, a wide rollout of a life-saving COVID-19 vaccine that almost half the country doesn&#39;t want to take because they&#39;re being lied to by their (vaccinated) political leaders and news channels, and we&#39;re back in another COVID-19 wave entering the third year of the pandemic...so all in all...just peachy.</p>
+<p>Now that that part is over with, my 2021 wasn&#39;t awful. I ended up getting my vaccination in March &amp; April, so that by the beginning of May I was ready to cautiously re-enter the world to at least a certain degree. I still wear my mask while out and about, even before Omicron entered the equation, but it&#39;s nice to feel comfortable visiting family and having the occasional dinner out. It also means I&#39;m back at the ice rink playing hockey. So to make a long story short, a small bit of normalcy has returned.</p>
+<h3 id="general-overview-of-2021">General Overview of 2021</h3>
+<p>At the end of last year, I started a new job at Webstaurant and a year in I&#39;m still enjoying working there. I feel like I&#39;m learning a great deal and am able to work with new technologies to keep my development chops growing and fresh.</p>
+<p>I ended up redesigning and rebuilding my blog using React &amp; Next.js which was fun. I&#39;d been toying with the idea of moving away from Jekyll for a little while and when I was starting to have problems getting it to play nicely with my new M1 MacBook Pro, I decided to take the plunge. I still want to write about my experience porting it over and re-writing it so hopefully I&#39;ll get to that soon.</p>
+<p>With regards to vacations, I ended up taking three trips this year. I spent a week in September in Cape May for our yearly vacation. We were able to check out some breweries and wineries and just relax. In October we went back to Cape May for a long weekend for our anniversary, and in November we visited New York City so Lauren could see Hamilton and we could have some fun.</p>
+<p>In December, we unfortunately had to say goodbye to the bestest boy, Otto. It was an unfortunate way to enter the holidays and end the year, and it still fucking sucks.</p>
+<h2 id="looking-back-at-2021">Looking Back at 2021</h2>
+<p>Last year I didn&#39;t really set any tangible goals, I just wanted to focus on certain things.</p>
+<h3 id="staying-active">Staying Active</h3>
+<p>This one I felt I did pretty well with. I was able to focus primarily on my lifting while getting in plenty of runs and some walks as well. Starting in May I was able to get back into hockey so I had another outlet to keep active. My diet got better towards the end of the year as well so I&#39;m starting to see a downward trend that I hope I can continue.</p>
+<h3 id="improving-my-development-knowledge">Improving My Development Knowledge</h3>
+<p>I&#39;ve ended up making tremendous progress on my fitness tracking app. There&#39;s still a lot to go and a lot to smooth out, but I feel like I have a good framework in place. This is one area where what I&#39;m learning to do at work has been helping me improve at home.</p>
+<p>My blog re-write and the setup I&#39;m starting to look at for a .NET re-write of Digital Family Cookbook is challenging me as well.</p>
+<h3 id="continuing-to-read">Continuing to Read</h3>
+<p>This didn&#39;t go as well as I had hoped. I only ended up reading 9 books this year.</p>
+<h3 id="write-more">Write More</h3>
+<p>I&#39;m not sure this went badly, but I&#39;m not sure it went great either. I ended up writing 21 posts this year which was more than 2020, but am not sure that they were as substantive as I would have liked.</p>
+<h2 id="setting-goals-for-2022">Setting Goals for 2022</h2>
+<p>Since I&#39;m hoping that 2022 will continue our trek towards normalcy and hopefully a better headspace, I want to set some actual goals for myself.</p>
+<h3 id="goal-1-run-more--start-biking-more">Goal #1: Run More &amp; Start Biking More</h3>
+<p>In 2020, I ended up running over 800 miles. That was spurred by a 175 day running streak and a good period of time where running was the only exercise I felt comfortable doing given the pandemic. In 2021 I started out biking on my bike trainer and getting some runs in. A month or two in, the biking stopped and the runs weren&#39;t as consistent as I would have liked while I focused on lifting. I did end up hitting 325 miles on the year which still isn&#39;t too shabby. I&#39;m going to target running 400 miles and biking 500 miles this year. I&#39;ve been toying with running the Philadelphia Marathon this year to hopefully break the 5-hour mark, so if I end up attempting that, the 400 miles might be easy to hit. The 500 miles on the bike could potentially be a challenge to fit in with everything else, but also feel it&#39;s doable.</p>
+<h3 id="goal-2-bench-press-squat--deadlift-prs">Goal #2: Bench Press, Squat &amp; Deadlift PRs</h3>
+<p>This year I&#39;m hoping to set more PRs on the 3 of the 4 big lifts. I want to break a 400 lbs. deadlift, a 350 lbs. squat, and a 250 lbs. bench press. I&#39;m at 360, 310 &amp; 215 respectively so while it&#39;s a stretch, I&#39;m not sure it&#39;s outside the realm of possibilities.</p>
+<h3 id="goal-3-max-out-my-retirement-accounts">Goal #3: Max Out My Retirement Accounts</h3>
+<p>Over the last several years, I&#39;ve been really focusing on improving where I stand with regards to retirement. Last year I was able to max out my Roth IRA and I&#39;m hoping to do that again this year while also hopefully maxing out my 401k at work as well.</p>
+<h3 id="goal-4-read-30-books">Goal #4: Read 30 Books</h3>
+<p>My goal this year is to read at least 30 books, with at least 15 of them being non-fiction. Not to knock fiction and novels, but I want to have a good balance.</p>
+<h3 id="goal-5-write-10-technical-blog-posts">Goal #5: Write 10 Technical Blog Posts</h3>
+<p>Writing monthly wraps and other posts are fine, but I want at least 10 posts in 2022 to be focused on software development and have some substance to them. I&#39;m hoping by just getting started it will spur the writing to continue.</p>
+<p>So that&#39;s what I&#39;m hoping to accomplish this year. I think all 5 of them are doable. Some could certainly pose a real challenge, but I guess that&#39;s part of the point.</p>
+<p>Here&#39;s to a good 2022!</p>
+]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[December Check-In]]></title>
         <id>/posts/2022/01/05/december-check-in</id>
