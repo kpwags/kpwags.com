@@ -26,13 +26,31 @@ export const useTheme = (): UseThemeReturn => {
         return allFonts;
     };
 
+    const getPreferredColorMode = (): 'light' | 'dark' => {
+        if (typeof window !== 'undefined') {
+            const prefferredMode = window.matchMedia('(prefers-color-scheme: dark)');
+
+            if (prefferredMode.matches) {
+                return 'dark';
+            }
+        }
+
+        return 'light';
+    };
+
     useEffect(() => {
         const localTheme = retrieveFromLocalStorage('theme', true) as Theme;
 
         if (localTheme) {
             setTheme(localTheme);
         } else {
-            setTheme(themeDefinitions.data.light);
+            const preferredColorMode = getPreferredColorMode();
+
+            if (preferredColorMode === 'dark') {
+                setTheme(themeDefinitions.data.dark);
+            } else {
+                setTheme(themeDefinitions.data.light);
+            }
         }
 
         setThemeLoaded(true);
