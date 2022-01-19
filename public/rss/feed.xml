@@ -4,11 +4,152 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 07 Jan 2022 23:13:59 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jan 2022 00:57:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Books I Read in 2021]]></title>
+            <link>/posts/2022/01/18/books-i-read-in-2022</link>
+            <guid>/posts/2022/01/18/books-i-read-in-2022</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[I didn't read as much as I wanted to in 2021, managing a measly nine books.]]></description>
+            <content:encoded><![CDATA[<p>I didn&#39;t read as much as I wanted to in 2021, managing a measly nine books.</p>
+<p>&lt;BookRead
+    title=&quot;Franchise: The Golden Arches in Black America&quot;
+    author=&quot;Marcia Chatelain&quot;
+    coverImageSrc=&quot;/images/books/franchise_golden_arches.jpg&quot;
+    width={199}
+    height={300}
+    thoughts={
+        &lt;&gt;
+            I had heard about this book on{&#39; &#39;}
+            <a href="https://www.marketplace.org/2020/07/06/the-complicated-history-of-mcdonalds-and-black-america/" target="_blank" rel="noreferrer">
+                Marketplace
+            </a>{&#39; &#39;}
+            and given the tumultuous 2020, felt like this would be an interesting read to maybe give myself some insight.
+        &lt;/&gt;
+    }
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;The MVP Machine: How Baseball&#39;s New Nonconformists Are Using Data to Build Better Players&quot;
+    author=&quot;Ben Lindbergh &amp; Travis Sawchik&quot;
+    coverImageSrc=&quot;/images/books/mvpmachine.jpg&quot;
+    width={193}
+    height={300}
+    thoughts={
+        &lt;&gt;
+            I&#39;ve been a big fan of Ben&#39;s{&#39; &#39;}
+            <a href="https://blogs.fangraphs.com/category/effectively-wild/" target="_blank" rel="noreferrer">
+                Effectively Wild Podcast
+            </a>{&#39; &#39;}
+            and his previous book{&#39; &#39;}
+            <a
+                href="https://bookshop.org/books/the-only-rule-is-it-has-to-work-our-wild-experiment-building-a-new-kind-of-baseball-team-includes-a-new-afterword/9781250130907"
+                target="_blank"
+                rel="noreferrer"
+            >
+                The Only Rule Is It Has to Work
+            </a>{&#39; &#39;}
+            so I decided to pick this up and wasn&#39;t disappointed.
+        &lt;/&gt;
+    }
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;Money: The True Story of a Made-Up Thing&quot;
+    author=&quot;Jacob Goldstein&quot;
+    coverImageSrc=&quot;/images/books/money-goldstein.jpg&quot;
+    width={200}
+    height={300}
+    thoughts={&lt;&gt;Having listened to Jacob on NPR&#39;s Planet Money podcast, I had heard about this book and thought it had an interesting premise.&lt;/&gt;}
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;Field of Schemes: How the Great Stadium Swindle Turns Public Money Into Private Profit&quot;
+    author=&quot;Neil Demause &amp; Joanna Cagan&quot;
+    coverImageSrc=&quot;/images/books/fieldofschemes.jpg&quot;
+    width={202}
+    height={300}
+    thoughts={
+        &lt;&gt;
+            I had figured out a while ago that publicly funded sports stadiums were a raw deal. This book didn’t tell me anything I didn’t know other
+            than how bad they were and how owners were able to swindle us all.
+        &lt;/&gt;
+    }
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;The Premonition&quot;
+    author=&quot;Michael Lewis&quot;
+    coverImageSrc=&quot;/images/books/premonition.jpg&quot;
+    width={197}
+    height={300}
+    thoughts={
+        &lt;&gt;
+            Having lived through 2020, I understood that the US Government royally screwed up its handling of the COVID-19 pandemic. Reading this book
+            gave me a better idea of why the different departments struggled to get a handle on it.
+        &lt;/&gt;
+    }
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;Think Again: The Power of Knowing What You Don&#39;t Know&quot;
+    author=&quot;Adam Grant&quot;
+    coverImageSrc=&quot;/images/books/thinkagain.jpg&quot;
+    width={199}
+    height={300}
+    thoughts={
+        &lt;&gt;
+            I wrote a{&#39; &#39;}
+            <a href="https://kpwags.com/posts/2021/10/27/think-again-review" target="_blank" rel="noreferrer">
+                whole post
+            </a>{&#39; &#39;}
+            on this. It was a good read looking at trying to get us to change our thinking and recognizing when we might not know as much as we think
+            we do.
+        &lt;/&gt;
+    }
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion&quot;
+    author=&quot;Eliot Brown &amp; Maureen Farrell&quot;
+    coverImageSrc=&quot;/images/books/cult-of-we.jpg&quot;
+    width={199}
+    height={300}
+    thoughts={&lt;&gt;It still amazes me reading about the WeWork saga that it got as far as it did.&lt;/&gt;}
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;The Buyout of America: How Private Equity Is Destroying Jobs and Killing the American Economy&quot;
+    author=&quot;Josh Kosman&quot;
+    coverImageSrc=&quot;/images/books/buyoutofamerica.jpg&quot;
+    width={196}
+    height={300}
+    thoughts={&lt;&gt;This book just made me angry seeing Wall Street &amp; Hedge Funds come in and destroy companies and jobs for a quick buck.&lt;/&gt;}
+/&gt;</p>
+<hr />
+
+<p>&lt;BookRead
+    title=&quot;The Righteous Mind: Why Good People Are Divided by Politics and Religion&quot;
+    author=&quot;Jonathan Haidt&quot;
+    coverImageSrc=&quot;/images/books/righteousmind.jpg&quot;
+    width={196}
+    height={300}
+    thoughts={&lt;&gt;Was a long read.&lt;/&gt;}
+/&gt;</p>
+]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[2021 Retrospective]]></title>
             <link>/posts/2022/01/07/2022-retrospective</link>
@@ -45,6 +186,7 @@
 <p>My goal this year is to read at least 30 books, with at least 15 of them being non-fiction. Not to knock fiction and novels, but I want to have a good balance.</p>
 <h3 id="goal-5-write-10-technical-blog-posts">Goal #5: Write 10 Technical Blog Posts</h3>
 <p>Writing monthly wraps and other posts are fine, but I want at least 10 posts in 2022 to be focused on software development and have some substance to them. I&#39;m hoping by just getting started it will spur the writing to continue.</p>
+<hr>
 <p>So that&#39;s what I&#39;m hoping to accomplish this year. I think all 5 of them are doable. Some could certainly pose a real challenge, but I guess that&#39;s part of the point.</p>
 <p>Here&#39;s to a good 2022!</p>
 ]]></content:encoded>

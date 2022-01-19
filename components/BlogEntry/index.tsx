@@ -13,6 +13,7 @@ import PostImage from '@components/PostImage';
 import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
+import BookRead from '@components/BookRead';
 
 // Prism
 import 'prismjs/components';
@@ -30,6 +31,7 @@ const components = {
     EmbeddedTweet,
     TableOfContents,
     TableOfContentsPage,
+    BookRead,
 };
 
 const Post = styled.article`
