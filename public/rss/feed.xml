@@ -4,16 +4,16 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Wed, 19 Jan 2022 00:57:14 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Jan 2022 00:31:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
         <item>
             <title><![CDATA[Books I Read in 2021]]></title>
-            <link>/posts/2022/01/18/books-i-read-in-2022</link>
-            <guid>/posts/2022/01/18/books-i-read-in-2022</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+            <link>/posts/2022/01/19/books-i-read-in-2021</link>
+            <guid>/posts/2022/01/19/books-i-read-in-2021</guid>
+            <pubDate>Wed, 19 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[I didn't read as much as I wanted to in 2021, managing a measly nine books.]]></description>
             <content:encoded><![CDATA[<p>I didn&#39;t read as much as I wanted to in 2021, managing a measly nine books.</p>
 <p>&lt;BookRead
@@ -22,13 +22,15 @@
     coverImageSrc=&quot;/images/books/franchise_golden_arches.jpg&quot;
     width={199}
     height={300}
+    link=&quot;<a href="https://bookshop.org/books/franchise-the-golden-arches-in-black-america-9781684577019/9781631498701&quot;">https://bookshop.org/books/franchise-the-golden-arches-in-black-america-9781684577019/9781631498701&quot;</a>
     thoughts={
         &lt;&gt;
             I had heard about this book on{&#39; &#39;}
             <a href="https://www.marketplace.org/2020/07/06/the-complicated-history-of-mcdonalds-and-black-america/" target="_blank" rel="noreferrer">
                 Marketplace
             </a>{&#39; &#39;}
-            and given the tumultuous 2020, felt like this would be an interesting read to maybe give myself some insight.
+            and given the tumultuous 2020, felt like this would be an interesting read to maybe give myself some insight. It was an interesting read
+            going into areas where McDonald&#39;s did well and where it fell short.
         &lt;/&gt;
     }
 /&gt;</p>
@@ -40,6 +42,7 @@
     coverImageSrc=&quot;/images/books/mvpmachine.jpg&quot;
     width={193}
     height={300}
+    link=&quot;<a href="https://bookshop.org/books/the-mvp-machine-how-baseball-s-new-nonconformists-are-using-data-to-build-better-players/9781541698925&quot;">https://bookshop.org/books/the-mvp-machine-how-baseball-s-new-nonconformists-are-using-data-to-build-better-players/9781541698925&quot;</a>
     thoughts={
         &lt;&gt;
             I&#39;ve been a big fan of Ben&#39;s{&#39; &#39;}
@@ -54,7 +57,8 @@
             >
                 The Only Rule Is It Has to Work
             </a>{&#39; &#39;}
-            so I decided to pick this up and wasn&#39;t disappointed.
+            so I decided to pick this up and wasn&#39;t disappointed. It was a great look into how teams and players are trying new things to get a leg up
+            in the game.
         &lt;/&gt;
     }
 /&gt;</p>
@@ -66,6 +70,7 @@
     coverImageSrc=&quot;/images/books/money-goldstein.jpg&quot;
     width={200}
     height={300}
+    link=&quot;<a href="https://bookshop.org/books/money-the-true-story-of-a-made-up-thing/9780316417198&quot;">https://bookshop.org/books/money-the-true-story-of-a-made-up-thing/9780316417198&quot;</a>
     thoughts={&lt;&gt;Having listened to Jacob on NPR&#39;s Planet Money podcast, I had heard about this book and thought it had an interesting premise.&lt;/&gt;}
 /&gt;</p>
 <hr />
@@ -76,21 +81,24 @@
     coverImageSrc=&quot;/images/books/fieldofschemes.jpg&quot;
     width={202}
     height={300}
+    link=&quot;<a href="https://bookshop.org/books/field-of-schemes-how-the-great-stadium-swindle-turns-public-money-into-private-profit-revised/9780803260160&quot;">https://bookshop.org/books/field-of-schemes-how-the-great-stadium-swindle-turns-public-money-into-private-profit-revised/9780803260160&quot;</a>
     thoughts={
         &lt;&gt;
-            I had figured out a while ago that publicly funded sports stadiums were a raw deal. This book didn’t tell me anything I didn’t know other
-            than how bad they were and how owners were able to swindle us all.
+            I had figured out a while ago that publicly funded sports stadiums were a raw deal. This book only enforced my opinion on why these are
+            raw deals. I learned more details on how they&#39;ve been able to pull it off. The book goes into detail on how bad these deals are how owners
+            were able to swindle us all.
         &lt;/&gt;
     }
 /&gt;</p>
 <hr />
 
 <p>&lt;BookRead
-    title=&quot;The Premonition&quot;
+    title=&quot;The Premonition: A Pandemic Story&quot;
     author=&quot;Michael Lewis&quot;
     coverImageSrc=&quot;/images/books/premonition.jpg&quot;
     width={197}
     height={300}
+    link=&quot;<a href="https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897/9780393881554&quot;">https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897/9780393881554&quot;</a>
     thoughts={
         &lt;&gt;
             Having lived through 2020, I understood that the US Government royally screwed up its handling of the COVID-19 pandemic. Reading this book
@@ -106,6 +114,7 @@
     coverImageSrc=&quot;/images/books/thinkagain.jpg&quot;
     width={199}
     height={300}
+    link=&quot;<a href="https://bookshop.org/books/think-again-the-power-of-knowing-what-you-don-t-know-9781984878106/9781984878106&quot;">https://bookshop.org/books/think-again-the-power-of-knowing-what-you-don-t-know-9781984878106/9781984878106&quot;</a>
     thoughts={
         &lt;&gt;
             I wrote a{&#39; &#39;}
@@ -125,7 +134,21 @@
     coverImageSrc=&quot;/images/books/cult-of-we.jpg&quot;
     width={199}
     height={300}
-    thoughts={&lt;&gt;It still amazes me reading about the WeWork saga that it got as far as it did.&lt;/&gt;}
+    link=&quot;<a href="https://bookshop.org/books/the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion/9780593237113&quot;">https://bookshop.org/books/the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion/9780593237113&quot;</a>
+    thoughts={
+        &lt;&gt;
+            It still amazes me reading about the WeWork saga that it got as far as it did. I had heard some of the craziness that was going on thanks
+            to{&#39; &#39;}
+            <a
+                href="https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly/weworks-whole-bananapants-story/"
+                target="_blank"
+                rel="noreferrer"
+            >
+                Make Me Smart
+            </a>
+            , but until I read this book...let&#39;s just say...wow!
+        &lt;/&gt;
+    }
 /&gt;</p>
 <hr />
 
@@ -135,7 +158,14 @@
     coverImageSrc=&quot;/images/books/buyoutofamerica.jpg&quot;
     width={196}
     height={300}
-    thoughts={&lt;&gt;This book just made me angry seeing Wall Street &amp; Hedge Funds come in and destroy companies and jobs for a quick buck.&lt;/&gt;}
+    link=&quot;<a href="https://bookshop.org/books/the-buyout-of-america-how-private-equity-is-destroying-jobs-and-killing-the-american-economy/9781591843696&quot;">https://bookshop.org/books/the-buyout-of-america-how-private-equity-is-destroying-jobs-and-killing-the-american-economy/9781591843696&quot;</a>
+    thoughts={
+        &lt;&gt;
+            This book just made me angry seeing Wall Street &amp; Hedge Funds come in and destroy companies and jobs for a quick buck. But as angry as I
+            might be over what happened, I feel that it&#39;s important to know what and how it happened. This book does a good job of giving examples and
+            talking about the history of it all.
+        &lt;/&gt;
+    }
 /&gt;</p>
 <hr />
 
@@ -145,7 +175,13 @@
     coverImageSrc=&quot;/images/books/righteousmind.jpg&quot;
     width={196}
     height={300}
-    thoughts={&lt;&gt;Was a long read.&lt;/&gt;}
+    link=&quot;<a href="https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772&quot;">https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772&quot;</a>
+    thoughts={
+        &lt;&gt;
+            This was my second attempt at reading this book. I finished this time. It wasn&#39;t a bad read, but it was felt like a dense read. The
+            explanation Jonathan gives does seem to fit some of the things we see going on in politics today.
+        &lt;/&gt;
+    }
 /&gt;</p>
 ]]></content:encoded>
             <author>blog@kpwags.com (Keith Wagner)</author>
