@@ -35,12 +35,15 @@ const Container = styled.div`
     }
 `;
 
-/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
 const ProgressFor2022 = (): JSX.Element => (
     <>
         <Head><title>2022 Goal Progress - Keith Wagner</title></Head>
         <Container>
             <h1>2022 Goal Progress</h1>
+
+            <p>I figured it would be a nice idea to create a page to show my progress on my goals for 2022.</p>
+
+            <p><em>Last Updated: January 22, 2022</em></p>
 
             <h2>Goal #1: Running and Biking More</h2>
             <p>My goal for 2022 is 400 miles running and 500 miles biking.</p>
@@ -49,12 +52,12 @@ const ProgressFor2022 = (): JSX.Element => (
             <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={24.56} />
 
             <h3>Biking</h3>
-            <ProgressBar color="hsl(202, 100%, 37%)" fullValue={500} currentValue={0} />
+            <ProgressBar color="hsl(167, 100%, 37%)" fullValue={500} currentValue={0} />
 
             <hr />
 
             <h2>Goal #2: Bench Press, Squat & Deadlift PRs</h2>
-            <p>My goal for 2022 is to hit a 400 lbs. Deadlift, 350 lbs. Squat, & 250 lbs. Bench Press. Despite how close I am, it still feels pretty far...</p>
+            <p>My goal for 2022 is to hit a 400 lbs. Deadlift, 350 lbs. Squat, &amp; 250 lbs. Bench Press. Despite how close I am, it still feels pretty far...</p>
 
             <h3>Deadlift Max</h3>
             <ProgressBar color="hsl(150, 96%, 29%)" fullValue={400} currentValue={365} />
@@ -64,6 +67,17 @@ const ProgressFor2022 = (): JSX.Element => (
 
             <h3>Bench Press Max</h3>
             <ProgressBar color="hsl(229, 81%, 35%)" fullValue={250} currentValue={220} />
+
+            <hr />
+
+            <h2>Goal #3: Max Out Retirement Contributions</h2>
+            <p>My goal for 2022 is to max out both my IRA &amp; my 401k.</p>
+
+            <h3>IRA Contributions</h3>
+            <ProgressBar color="hsl(194, 88%, 51%)" fullValue={6000} currentValue={1000} format="money" />
+
+            <h3>401k Contributions</h3>
+            <ProgressBar color="hsl(64, 85%, 35%)" fullValue={20500} currentValue={934} format="money" />
 
             <hr />
 

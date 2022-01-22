@@ -115,6 +115,11 @@ const Footer = (): JSX.Element => (
                     <a title="Podcasts">Podcasts</a>
                 </Link>
             </li>
+            <li>
+                <Link href="/progress/2022">
+                    <a title="2022 Goals Progress">2022 Goals Progress</a>
+                </Link>
+            </li>
         </ul>
         <ul>
             <li>
