@@ -49,7 +49,7 @@ const ProgressFor2022 = (): JSX.Element => (
             <p>My goal for 2022 is 400 miles running and 500 miles biking.</p>
 
             <h3>Running</h3>
-            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={24.56} />
+            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={36.8} />
 
             <h3>Biking</h3>
             <ProgressBar color="hsl(167, 100%, 37%)" fullValue={500} currentValue={0} />
@@ -72,6 +72,9 @@ const ProgressFor2022 = (): JSX.Element => (
 
             <h2>Goal #3: Max Out Retirement Contributions</h2>
             <p>My goal for 2022 is to max out both my IRA &amp; my 401k.</p>
+
+            <h3>Total Contributions</h3>
+            <ProgressBar color="hsl(315, 88%, 51%)" fullValue={26500} currentValue={1934} format="money" />
 
             <h3>IRA Contributions</h3>
             <ProgressBar color="hsl(194, 88%, 51%)" fullValue={6000} currentValue={1000} format="money" />
