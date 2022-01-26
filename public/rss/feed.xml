@@ -4,11 +4,22 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Thu, 20 Jan 2022 00:31:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jan 2022 00:32:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Tracking My 2022 Goals]]></title>
+            <link>/posts/2022/01/25/tracking-my-2022-goals</link>
+            <guid>/posts/2022/01/25/tracking-my-2022-goals</guid>
+            <pubDate>Tue, 25 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Goals can be a funny thing. We all set them, and what happens next can be all over the spectrum. I figured I'd build a little something to help keep me accountable.]]></description>
+            <content:encoded><![CDATA[<p>Goals can be a funny thing. We all set them, and what happens next can be all over the spectrum. I figured I’d build a little something to help keep me accountable.</p>
+<p>You can view this <a href="https://kpwags.com/progress/2022">new page</a> where you can see the goals I’ve set and the progress I’m currently at. The lifting goals are a little weird as it looks like I’m already almost there. I can say with absolute certainty though that getting that little bit more will be harder than it may seem.</p>
+]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Books I Read in 2021]]></title>
             <link>/posts/2022/01/19/books-i-read-in-2021</link>
