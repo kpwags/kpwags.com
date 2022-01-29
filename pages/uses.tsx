@@ -33,7 +33,7 @@ const Uses = (): JSX.Element => (
             <h1>What I Use</h1>
             <Container>
                 <TableOfContentsPage>
-                    <p><em>Last Updated: September 2021</em></p>
+                    <p><em>Last Updated: January 2022</em></p>
                     <h2 id="computers">Computers</h2>
 
                     <h3 id="desktop">Desktop</h3>
@@ -218,6 +218,13 @@ const Uses = (): JSX.Element => (
                             :
                         </strong>
                         I got these a long while ago and still use them while working at my desk quite a bit.
+                    </p>
+                    <p>
+                        <strong>
+                            <a href="https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b">Sony WH-1000XM4</a>
+                            :
+                        </strong>
+                        &nbsp;I got these just before Christmas 2021 on a Woot refurbished deal and they are fantastic.
                     </p>
 
                     <h2 id="cameras">Cameras</h2>
@@ -586,9 +593,9 @@ const Uses = (): JSX.Element => (
                         backwards compatability is awesome and Microsoft&apos;s GamePass is an amazing deal.
                     </p>
 
-                    <h3 id="playstation-4">PlayStation 4</h3>
+                    <h3 id="playstation-5">PlayStation 5</h3>
                     <p>
-                        I still keep my PS4 around to play online with friends and play some of the PS4-exclusive titles.
+                        I recently managed to get my hands on the PlayStation 5.
                     </p>
 
                     <h3 id="other-gaming">Other Systems</h3>

@@ -2,6 +2,11 @@ import { Like } from '@models/like';
 
 const likes: Like[] = [
     {
+        title: 'Nap Time for Everyone!',
+        url: 'https://freakonomics.com/podcast/nap-time-for-everyone-ep-468/',
+        source: 'freakonomics.com',
+    },
+    {
         title: 'Sustaining Maintaining',
         url: 'https://daverupert.com/2021/12/sustaining-maintaining/',
         source: 'daverupert.com',
@@ -112,7 +117,7 @@ const likes: Like[] = [
         source: 'freakonomics.com',
     },
     {
-        title: "Baseball's Lost \"NBA JAM\" Revealed",
+        title: 'Baseball\'s Lost "NBA JAM" Revealed',
         url: 'https://gamehistory.org/powerupbaseball/',
         source: 'gamehistory.org',
     },
@@ -182,7 +187,7 @@ const likes: Like[] = [
         source: 'arstechnica.com',
     },
     {
-        title: "There's No Such Thing As The \"Rays Model\"",
+        title: 'There\'s No Such Thing As The "Rays Model"',
         url: 'https://defector.com/theres-no-such-thing-as-the-rays-model/',
         source: 'defector.com',
     },
