@@ -85,6 +85,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'newbazaar.jpg',
             },
             {
+                name: 'Ones and Tooze',
+                link: 'https://foreignpolicy.com/podcasts/ones-and-tooze/',
+                artwork: 'onesandtooze.jpg',
+            },
+            {
                 name: 'Pitchfork Economics',
                 link: 'https://pitchforkeconomics.com/',
                 artwork: 'pitchfork_economics.jpg',
@@ -103,6 +108,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'The Stacking Benjamins Show',
                 link: 'https://www.stackingbenjamins.com/',
                 artwork: 'stacking_benjamins.jpg',
+            },
+            {
+                name: 'This Week in Startups',
+                link: 'https://thisweekinstartups.com/',
+                artwork: 'thisweekinstartups.jpg',
             },
             {
                 name: 'Trillions',
@@ -160,11 +170,6 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'code_newbie.jpg',
             },
             {
-                name: 'CodePen Radio',
-                link: 'https://blog.codepen.io/radio/',
-                artwork: 'codepen_radio.jpg',
-            },
-            {
                 name: 'Coding Blocks',
                 link: 'https://www.codingblocks.net/',
                 artwork: 'codingblocks.jpg',
@@ -200,9 +205,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'js_party.jpg',
             },
             {
-                name: 'Ladybug Podcast',
-                link: 'https://www.ladybug.dev/',
-                artwork: 'ladybug_podcast.jpg',
+                name: 'No Dogma',
+                link: 'https://nodogmapodcast.bryanhogan.net/',
+                artwork: 'nodogma.jpg',
             },
             {
                 name: 'Programming Throwdown',
@@ -234,6 +239,11 @@ const podcasts: PodcastCategory[] = [
                 link: 'https://syntax.fm/',
                 artwork: 'syntaxfm.jpg',
             },
+            {
+                name: 'Working Code',
+                link: 'https://redcircle.com/shows/workingcode',
+                artwork: 'workingcode.jpg',
+            },
         ],
     },
     {
@@ -243,11 +253,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'Iron Radio',
                 link: 'http://www.ironradio.org/',
                 artwork: 'iron_radio.jpg',
-            },
-            {
-                name: 'Muscle for Life',
-                link: 'https://legionathletics.com/podcast/',
-                artwork: 'muscle_for_life.jpg',
             },
             {
                 name: 'Stronger By Science',
@@ -318,6 +323,11 @@ const podcasts: PodcastCategory[] = [
                 name: "Wait Wait...Don't Tell Me!",
                 link: 'https://www.npr.org/programs/wait-wait-dont-tell-me/',
                 artwork: 'wait_wait.jpg',
+            },
+            {
+                name: 'Very Serious',
+                link: 'https://podcasts.apple.com/us/podcast/very-serious-with-josh-barro/id1601727251',
+                artwork: 'veryserious.jpg',
             },
         ],
     },
@@ -615,11 +625,6 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'distraction.jpg',
             },
             {
-                name: 'The Dream',
-                link: 'https://www.stitcher.com/show/the-dream',
-                artwork: 'the_dream.jpg',
-            },
-            {
                 name: 'The Ezra Klein Show',
                 link: 'https://www.nytimes.com/column/ezra-klein-podcast',
                 artwork: 'ezra_klein_show.jpg',
@@ -695,6 +700,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'people_i_mostly_admire.jpg',
             },
             {
+                name: 'Pessimists Aloud',
+                link: 'https://anchor.fm/pessimistsaloud',
+                artwork: 'pessimistsaloud.jpg',
+            },
+            {
                 name: 'Pivot',
                 link: 'https://podcasts.voxmedia.com/show/pivot',
                 artwork: 'pivot.jpg',
@@ -703,6 +713,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'Radio Times',
                 link: 'https://whyy.org/programs/radio-times/',
                 artwork: 'radio_times.jpg',
+            },
+            {
+                name: 'Rationally Speaking',
+                link: 'http://rationallyspeakingpodcast.org/',
+                artwork: 'rationallyspeaking.jpg',
             },
             {
                 name: 'Reply All',
@@ -723,6 +738,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'Serial',
                 link: 'https://serialpodcast.org/',
                 artwork: 'serial.jpg',
+            },
+            {
+                name: 'Sideways',
+                link: 'https://www.bbc.co.uk/programmes/m000s2kt',
+                artwork: 'sideways.jpg',
             },
             {
                 name: 'Slow Burn',

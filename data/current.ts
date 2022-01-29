@@ -38,9 +38,9 @@ const current: CurrentlyDoing = {
             link: 'https://www.xbox.com/en-US/games/halo-infinite',
         },
         {
-            title: 'Halo 2',
+            title: 'Halo 3',
             system: 'Xbox Series X',
-            cover: 'halo2.jpg',
+            cover: 'halo3.jpg',
             link: 'https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx',
         },
         {
