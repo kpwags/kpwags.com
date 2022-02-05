@@ -1,22 +1,18 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'January 2022',
+    lastUpdate: 'February 2022',
     reading: [
         {
-            title: 'Leviathan Falls',
-            author: 'James S.A. Corey',
-            cover: 'leviathanfalls.jpg',
-            link: 'https://bookshop.org/books/leviathan-falls-9781705024997/9780316332910',
+            title: 'The Apollo Murders',
+            author: 'Chris Hadfield',
+            cover: 'apollomurders.jpg',
+            link: 'https://bookshop.org/books/the-apollo-murders-9781668601075/9780316264532',
             rating: null,
             thoughts: null,
         },
     ],
     watching: [
-        {
-            title: 'Star Trek: Discovery',
-            cover: 'discovery.jpg',
-        },
         {
             title: 'Star Trek: Enterprise',
             cover: 'startrekenterprise.jpg',
@@ -32,7 +28,7 @@ const current: CurrentlyDoing = {
     ],
     playing: [
         {
-            title: 'Halo Infinite Multiplayer Beta',
+            title: 'Halo Infinite',
             system: 'Xbox Series X',
             cover: 'halo-infinite-mp.jpg',
             link: 'https://www.xbox.com/en-US/games/halo-infinite',

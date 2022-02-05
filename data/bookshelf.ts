@@ -12,8 +12,22 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'January 2022',
+    lastUpdate: 'February 2022',
     years: [
+        {
+            year: '2022',
+            books: [
+                {
+                    title: 'Leviathan Falls',
+                    author: 'James S.A. Corey',
+                    cover: 'leviathanfalls.jpg',
+                    link: 'https://bookshop.org/books/leviathan-falls-9781705024997/9780316332910',
+                    rating: 4,
+                    thoughts:
+                        "I did enjoy this as the final book in the series. Given that this is the end of a long series, I still haven't come to a complete decision on how I feel about how the story was ended.",
+                },
+            ],
+        },
         {
             year: '2021',
             books: [
@@ -23,7 +37,8 @@ const BooksRead: BookList = {
                     cover: 'righteousmind.jpg',
                     link: 'https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772',
                     rating: 3,
-                    thoughts: "This was a dense read. While I'm not sure I understood everything, Jonathan Haidt's explanation for why people act the way they do was thoughtful and interesting.",
+                    thoughts:
+                        "This was a dense read. While I'm not sure I understood everything, Jonathan Haidt's explanation for why people act the way they do was thoughtful and interesting.",
                 },
                 {
                     title: 'The Buyout of America: How Private Equity is Destroying Jobs and Killing the American Economy',
@@ -31,7 +46,8 @@ const BooksRead: BookList = {
                     cover: 'buyoutofamerica.jpg',
                     link: 'https://bookshop.org/books/the-buyout-of-america-how-private-equity-is-destroying-jobs-and-killing-the-american-economy/9781591843696',
                     rating: 3,
-                    thoughts: 'This book made me angry. It made me angry at how private equity firms have taken advantage of tax loopholes to make money at the cost of the little guys.',
+                    thoughts:
+                        'This book made me angry. It made me angry at how private equity firms have taken advantage of tax loopholes to make money at the cost of the little guys.',
                 },
                 {
                     title: 'The Cult of We: Wework, Adam Neumann, and the Great Startup Delusion',
@@ -39,7 +55,8 @@ const BooksRead: BookList = {
                     cover: 'cult-of-we.jpg',
                     link: 'https://bookshop.org/books/the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion/9780593237113',
                     rating: 4,
-                    thoughts: "I had heard all the stories about WeWork and its collapse. I didn't realize how crazy it actually was. The authors do a great job going into what was happening when and why things happened the way they did. I left amazed at how all the red flags Adam & WeWork had raised were ignored for so long.",
+                    thoughts:
+                        "I had heard all the stories about WeWork and its collapse. I didn't realize how crazy it actually was. The authors do a great job going into what was happening when and why things happened the way they did. I left amazed at how all the red flags Adam & WeWork had raised were ignored for so long.",
                 },
                 {
                     title: 'Think Again',
@@ -55,7 +72,8 @@ const BooksRead: BookList = {
                     cover: 'premonition.jpg',
                     link: 'https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897/9780393881554',
                     rating: 4,
-                    thoughts: 'Reading this book made me realize how screwed we were by the COVID-19 pandemic. While there were plenty of heroes doing their best to help solve the issues, Michael Lewis does a good job showing why the organizations we trusted let us down.',
+                    thoughts:
+                        'Reading this book made me realize how screwed we were by the COVID-19 pandemic. While there were plenty of heroes doing their best to help solve the issues, Michael Lewis does a good job showing why the organizations we trusted let us down.',
                 },
                 {
                     title: 'Field of Schemes',
@@ -63,7 +81,8 @@ const BooksRead: BookList = {
                     cover: 'fieldofschemes.jpg',
                     link: 'https://bookshop.org/books/field-of-schemes-how-the-great-stadium-swindle-turns-public-money-into-private-profit-revised/9780803260160',
                     rating: 4,
-                    thoughts: 'I always knew that the public funding of sports stadiums was a raw deal. This book did a great job explaining how bad it is and how we got there.',
+                    thoughts:
+                        'I always knew that the public funding of sports stadiums was a raw deal. This book did a great job explaining how bad it is and how we got there.',
                 },
                 {
                     title: 'Money: The True Story of a Made-Up Thing',
@@ -71,7 +90,8 @@ const BooksRead: BookList = {
                     cover: 'money-goldstein.jpg',
                     link: 'https://bookshop.org/books/money-the-true-story-of-a-made-up-thing/9780316417198',
                     rating: 4,
-                    thoughts: "As an avid listener of Planet Money and someone who's interested in economics, this was a fantastic read. It went into some interesting history in an easy to understand and light-hearted manner.",
+                    thoughts:
+                        "As an avid listener of Planet Money and someone who's interested in economics, this was a fantastic read. It went into some interesting history in an easy to understand and light-hearted manner.",
                 },
                 {
                     title: 'The MVP Machine',
@@ -79,7 +99,8 @@ const BooksRead: BookList = {
                     cover: 'mvpmachine.jpg',
                     link: 'https://bookshop.org/books/the-mvp-machine-how-baseball-s-new-nonconformists-are-using-data-to-build-better-players/9781541698925',
                     rating: 4,
-                    thoughts: "Being a fan of baseball, this was a great read going into some of the details of how the game is changing away from 'Moneyball' and delving deep into player development.",
+                    thoughts:
+                        "Being a fan of baseball, this was a great read going into some of the details of how the game is changing away from 'Moneyball' and delving deep into player development.",
                 },
                 {
                     title: 'Franchise: The Golden Arches in Black America',
@@ -87,7 +108,8 @@ const BooksRead: BookList = {
                     cover: 'franchise_golden_arches.jpg',
                     link: 'https://bookshop.org/books/franchise-the-golden-arches-in-black-america/9781631493942',
                     rating: 4,
-                    thoughts: 'I heard about this book on a podcast (Marketplace I believe) and learned a lot about the relationship between McDonalds and Black America that has been filled with ups and downs.',
+                    thoughts:
+                        'I heard about this book on a podcast (Marketplace I believe) and learned a lot about the relationship between McDonalds and Black America that has been filled with ups and downs.',
                 },
             ],
         },
@@ -100,7 +122,8 @@ const BooksRead: BookList = {
                     cover: '99invisiblecity.jpg',
                     link: 'https://bookshop.org/books/the-99-invisible-city-a-field-guide-to-the-hidden-world-of-everyday-design-9780358396383/9780358126607',
                     rating: 4,
-                    thoughts: 'Having been listening to the 99% Invisible podcast for a long while, it was nice to read about more of the hidden designs in cities and towns.',
+                    thoughts:
+                        'Having been listening to the 99% Invisible podcast for a long while, it was nice to read about more of the hidden designs in cities and towns.',
                 },
                 {
                     title: 'The End is Always Near',
@@ -108,7 +131,8 @@ const BooksRead: BookList = {
                     cover: 'endisalwaysnear.jpg',
                     link: 'https://bookshop.org/books/the-end-is-always-near-apocalyptic-moments-from-the-bronze-age-collapse-to-nuclear-near-misses/9780062868046',
                     rating: 4,
-                    thoughts: 'As a Hardcore History fan, Dan Carlin does a great job writing about close calls to having humanity being wiped out or the population dramatically reduced.',
+                    thoughts:
+                        'As a Hardcore History fan, Dan Carlin does a great job writing about close calls to having humanity being wiped out or the population dramatically reduced.',
                 },
                 {
                     title: 'Head On',
@@ -140,7 +164,8 @@ const BooksRead: BookList = {
                     cover: 'collapsingempire.jpg',
                     link: 'https://bookshop.org/books/the-collapsing-empire/9780765388902',
                     rating: 4,
-                    thoughts: "This was a good start to a good science fiction trilogy. I'll have to finish it to be able to say more, but it definitely kept me hooked and wanting to continue.",
+                    thoughts:
+                        "This was a good start to a good science fiction trilogy. I'll have to finish it to be able to say more, but it definitely kept me hooked and wanting to continue.",
                 },
                 {
                     title: 'The Age of Surveillance Capitalism',
@@ -148,7 +173,8 @@ const BooksRead: BookList = {
                     cover: 'surveillancecapitalism.jpg',
                     link: 'https://bookshop.org/books/the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power/9781610395694',
                     rating: 4,
-                    thoughts: 'This was a long read, but thoughtful and complicated. It goes into how services like Google & Facebook take as much of our data as they possibly can even when it will disturb the general population. It also confirmed my reasons for deleting my Facebook and Instagram accounts as well as moving away from Google.',
+                    thoughts:
+                        'This was a long read, but thoughtful and complicated. It goes into how services like Google & Facebook take as much of our data as they possibly can even when it will disturb the general population. It also confirmed my reasons for deleting my Facebook and Instagram accounts as well as moving away from Google.',
                 },
                 {
                     title: 'The Big Short',
@@ -156,7 +182,8 @@ const BooksRead: BookList = {
                     cover: 'thebigshort.jpg',
                     link: 'https://bookshop.org/books/the-big-short-inside-the-doomsday-machine/9780393338829',
                     rating: 5,
-                    thoughts: 'This was a fantastic read talking about people looking into the real-estate market prior to the 2008 financial collapse. Michael Lewis did a great job of keeping the story interesting while also using language and terms that make the story understandable to anyone.',
+                    thoughts:
+                        'This was a fantastic read talking about people looking into the real-estate market prior to the 2008 financial collapse. Michael Lewis did a great job of keeping the story interesting while also using language and terms that make the story understandable to anyone.',
                 },
                 {
                     title: 'The Outsider',
@@ -164,7 +191,8 @@ const BooksRead: BookList = {
                     cover: 'theoutsider.jpg',
                     link: 'https://bookshop.org/books/the-outsider-9781501181009/9781501181009',
                     rating: 4,
-                    thoughts: "I read this to get myself ready for the HBO series. I enjoyed the story and thought it provided a bit of supernatural mixed with just the right amount of suspense. If you're a Stephen King fan, you'll definitely enjoy this.",
+                    thoughts:
+                        "I read this to get myself ready for the HBO series. I enjoyed the story and thought it provided a bit of supernatural mixed with just the right amount of suspense. If you're a Stephen King fan, you'll definitely enjoy this.",
                 },
                 {
                     title: 'Open Borders',
@@ -172,7 +200,8 @@ const BooksRead: BookList = {
                     cover: 'openborders.jpg',
                     link: 'https://bookshop.org/books/open-borders-the-science-and-ethics-of-immigration/9781250316967',
                     rating: 4,
-                    thoughts: "I don't think I would of expected something like this to have been done with a graphic novel, but it was anyway, and done well. It was an interesting read about the economics and some of the misunderstandings of immigration.",
+                    thoughts:
+                        "I don't think I would of expected something like this to have been done with a graphic novel, but it was anyway, and done well. It was an interesting read about the economics and some of the misunderstandings of immigration.",
                 },
                 {
                     title: 'How To',
@@ -180,7 +209,8 @@ const BooksRead: BookList = {
                     cover: 'howto.jpg',
                     link: 'https://bookshop.org/books/how-to-absurd-scientific-advice-for-common-real-world-problems/9780525537090',
                     rating: 5,
-                    thoughts: "As a fan of XKCD and of Randall's humor, this book was informative and funny. Randall has a fantastic way of bringing science, humor, and the absurd together in an interesting and easy-to-read-and-understand way.",
+                    thoughts:
+                        "As a fan of XKCD and of Randall's humor, this book was informative and funny. Randall has a fantastic way of bringing science, humor, and the absurd together in an interesting and easy-to-read-and-understand way.",
                 },
                 {
                     title: 'The Fifth Risk',
@@ -188,7 +218,8 @@ const BooksRead: BookList = {
                     cover: 'fifthrisk.jpg',
                     link: 'https://bookshop.org/books/the-fifth-risk-undoing-democracy/9780393357455',
                     rating: 5,
-                    thoughts: "This book made me go back and forth between \"wow, that's interesting!\" and anger. I learned a lot about little (but actually big) things different departments within the U.S. Government does and the risks now in place due to the cronyism and general lack of knowledge the Trump Administration has introduced.",
+                    thoughts:
+                        'This book made me go back and forth between "wow, that\'s interesting!" and anger. I learned a lot about little (but actually big) things different departments within the U.S. Government does and the risks now in place due to the cronyism and general lack of knowledge the Trump Administration has introduced.',
                 },
                 {
                     title: 'Auberon',
@@ -204,7 +235,8 @@ const BooksRead: BookList = {
                     cover: 'soulofamerica.jpg',
                     link: 'https://www.amazon.com/gp/product/0399589813',
                     rating: 3,
-                    thoughts: "Reading this during Trump's presidency gave me some hope for the country being able to move forward. It reminded me of Martin Luther King's Quote \"The arc of the moral universe is long, but it bends toward justice.\" It took a look back at previous tumultuous times in America and showed that while progress hasn't always been as fast as I would like, we as a nation have progressed.",
+                    thoughts:
+                        "Reading this during Trump's presidency gave me some hope for the country being able to move forward. It reminded me of Martin Luther King's Quote \"The arc of the moral universe is long, but it bends toward justice.\" It took a look back at previous tumultuous times in America and showed that while progress hasn't always been as fast as I would like, we as a nation have progressed.",
                 },
                 {
                     title: 'Flash Boys: A Wall Street Revolt',
@@ -212,7 +244,8 @@ const BooksRead: BookList = {
                     cover: 'flashboys.jpg',
                     link: 'https://www.amazon.com/gp/product/B00HVJB4VM',
                     rating: 5,
-                    thoughts: "I've been getting more interested in how the financial world works. This was a fantastic read about High-Frequency Trading and how it often screws over common investors like you and me. Michael Lewis then goes on to tell how one guy went about figuring this out to then trying to even the playing field.",
+                    thoughts:
+                        "I've been getting more interested in how the financial world works. This was a fantastic read about High-Frequency Trading and how it often screws over common investors like you and me. Michael Lewis then goes on to tell how one guy went about figuring this out to then trying to even the playing field.",
                 },
                 {
                     title: 'The Incomplete Book of Running',
@@ -220,7 +253,8 @@ const BooksRead: BookList = {
                     cover: 'incompletebookofrunning.jpg',
                     link: 'https://www.amazon.com/gp/product/B07CMXZC7L',
                     rating: 5,
-                    thoughts: "I've been a big fan of Peter Sagal ever since I started listening to Wait, Wait...Don't Tell Me! I'm also a fan of running. This is a fantastic read that is inspiring whether you're a runner or not. The book contains Sagal's wit and humor as well as some good life lessons.",
+                    thoughts:
+                        "I've been a big fan of Peter Sagal ever since I started listening to Wait, Wait...Don't Tell Me! I'm also a fan of running. This is a fantastic read that is inspiring whether you're a runner or not. The book contains Sagal's wit and humor as well as some good life lessons.",
                 },
                 {
                     title: 'Congo',
@@ -228,7 +262,8 @@ const BooksRead: BookList = {
                     cover: 'congo.jpg',
                     link: 'https://www.amazon.com/gp/product/B007UH4FK2',
                     rating: 4,
-                    thoughts: "I enjoyed this one. Wasn't my favorite Crichton novel, but it was an interesting story with a plotline that had the right number of twists.",
+                    thoughts:
+                        "I enjoyed this one. Wasn't my favorite Crichton novel, but it was an interesting story with a plotline that had the right number of twists.",
                 },
                 {
                     title: 'Sphere',
@@ -236,7 +271,8 @@ const BooksRead: BookList = {
                     cover: 'sphere.jpg',
                     link: 'https://www.amazon.com/gp/product/B007UH4G9C',
                     rating: 3,
-                    thoughts: "Continuing going through my Michael Crichton backlog, I wasn't super impressed with this one. It was a decent science fiction story with a bit of a horror element, but it didn't draw me in like some of his other novels.",
+                    thoughts:
+                        "Continuing going through my Michael Crichton backlog, I wasn't super impressed with this one. It was a decent science fiction story with a bit of a horror element, but it didn't draw me in like some of his other novels.",
                 },
                 {
                     title: 'Prey',
@@ -268,7 +304,8 @@ const BooksRead: BookList = {
                     cover: 'workingfutures.jpg',
                     link: 'http://workingfutur.es/',
                     rating: 5,
-                    thoughts: 'I enjoyed just about all the stories in this collection. Many of them rang true to what we could see come to fruition in the future.',
+                    thoughts:
+                        'I enjoyed just about all the stories in this collection. Many of them rang true to what we could see come to fruition in the future.',
                 },
                 {
                     title: 'Vietnam: An Epic Tragedy, 1945-1975',
@@ -276,7 +313,8 @@ const BooksRead: BookList = {
                     cover: 'vietnamepictragedy.jpg',
                     link: 'https://www.amazon.com/gp/product/0062405667',
                     rating: 5,
-                    thoughts: "This was a very long read, but gave me a much better understanding of the Vietnam War. It provided me a lot more background as to what went on in Vietnam even before the US got involved. It's a deep read, but if you like history, I'd highly recommend it.",
+                    thoughts:
+                        "This was a very long read, but gave me a much better understanding of the Vietnam War. It provided me a lot more background as to what went on in Vietnam even before the US got involved. It's a deep read, but if you like history, I'd highly recommend it.",
                 },
             ],
         },
