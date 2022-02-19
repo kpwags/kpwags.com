@@ -4,11 +4,19 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 04 Feb 2022 23:14:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Feb 2022 17:56:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Setting Up GitHub Actions on .NET Projects]]></title>
+            <link>/posts/2022/02/19/setting-up-github-actions-on-net-projects</link>
+            <guid>/posts/2022/02/19/setting-up-github-actions-on-net-projects</guid>
+            <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[After seeing Git Actions at work at my job, I decided that I wanted to see what I could do for my personal projects with GitHub Actions.]]></description>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[January Check-In]]></title>
             <link>/posts/2022/02/04/january-check-in</link>
@@ -20,8 +28,7 @@
 <p>Other than that, not much to really report so far.</p>
 <h3 id="monthly-roundup"><strong>Monthly Roundup</strong></h3>
 <p><strong>Running &amp; Biking:</strong> Ran 43 miles and biked 9 in January. Braved the cold quite a bit.</p>
-<p><strong>Reading:</strong></p>
-<p><strong>Leviathan Falls</strong>: Finished <em>The Expanse</em> series.</p>
+<p><strong>Reading:</strong> Finished <strong><em>Leviathan Falls</em></strong>, and with it, <em>The Expanse</em> series.</p>
 <p><strong>Writing:</strong> Wrote about the <a href="https://kpwags.com/posts/2022/01/19/books-i-read-in-2021">books I read in 2021</a> and my new <a href="https://kpwags.com/posts/2022/01/25/tracking-my-2022-goals">2022 goals page</a>.</p>
 <p><strong>Gaming:</strong> Continued my play-through of the Halo series. Beat Halo 2 and started Halo 3. Also picked up a PS5.</p>
 ]]></content:encoded>

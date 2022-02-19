@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'The Apollo Murders',
+                    author: 'Chris Hadfield',
+                    cover: 'apollomurders.jpg',
+                    link: 'https://bookshop.org/books/the-apollo-murders-9781668601075/9780316264532',
+                    rating: 4,
+                    thoughts:
+                        'I enjoyed this book. It had a good story that pulled you in. As a space fan, I definitely enjoyed the tie-ins with the Apollo program. The ending wasn’t my favorite part, but it did tidy up the story arcs. Would still recommend it to anyone.',
+                },
+                {
                     title: 'Leviathan Falls',
                     author: 'James S.A. Corey',
                     cover: 'leviathanfalls.jpg',

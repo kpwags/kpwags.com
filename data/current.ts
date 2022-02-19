@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'February 2022',
     reading: [
         {
-            title: 'The Apollo Murders',
-            author: 'Chris Hadfield',
-            cover: 'apollomurders.jpg',
-            link: 'https://bookshop.org/books/the-apollo-murders-9781668601075/9780316264532',
+            title: 'Nudge: The Final Edition',
+            author: 'Richard Thaler & Cass Sunstein',
+            cover: 'nudge.jpg',
+            link: 'https://bookshop.org/books/nudge-the-final-edition/9780143137009',
             rating: null,
             thoughts: null,
         },
@@ -34,9 +34,9 @@ const current: CurrentlyDoing = {
             link: 'https://www.xbox.com/en-US/games/halo-infinite',
         },
         {
-            title: 'Halo 3',
+            title: 'Halo 3 ODST',
             system: 'Xbox Series X',
-            cover: 'halo3.jpg',
+            cover: 'odst.jpg',
             link: 'https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx',
         },
         {
