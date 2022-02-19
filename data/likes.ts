@@ -2,6 +2,11 @@ import { Like } from '@models/like';
 
 const likes: Like[] = [
     {
+        title: 'Why Safari Does Not Need Any Protection From Chromium',
+        url: 'https://nielsleenheer.com/articles/2022/why-safari-does-not-need-any-protection-from-chromium/',
+        source: 'nielsleenheer.com',
+    },
+    {
         title: 'Nap Time for Everyone!',
         url: 'https://freakonomics.com/podcast/nap-time-for-everyone-ep-468/',
         source: 'freakonomics.com',

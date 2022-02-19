@@ -9,7 +9,7 @@ type ProgressBarProps = {
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 9fr 2fr;
+  grid-template-columns: 9fr 3fr;
   grid-column-gap: 12px;
 
   @media all and (max-width: 500px) {
@@ -24,6 +24,7 @@ const Bar = styled.div`
     border-color: #666;
     position: relative;
     margin: 0 0 25px 0;
+
     @media all and (max-width: 500px) {
         margin: 0 0 10px 0;
     }

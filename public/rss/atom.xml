@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-02-04T23:14:13.017Z</updated>
+    <updated>2022-02-19T17:56:04.126Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -15,6 +15,18 @@
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
     <entry>
+        <title type="html"><![CDATA[Setting Up GitHub Actions on .NET Projects]]></title>
+        <id>/posts/2022/02/19/setting-up-github-actions-on-net-projects</id>
+        <link href="/posts/2022/02/19/setting-up-github-actions-on-net-projects"/>
+        <updated>2022-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After seeing Git Actions at work at my job, I decided that I wanted to see what I could do for my personal projects with GitHub Actions.]]></summary>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[January Check-In]]></title>
         <id>/posts/2022/02/04/january-check-in</id>
         <link href="/posts/2022/02/04/january-check-in"/>
@@ -25,8 +37,7 @@
 <p>Other than that, not much to really report so far.</p>
 <h3 id="monthly-roundup"><strong>Monthly Roundup</strong></h3>
 <p><strong>Running &amp; Biking:</strong> Ran 43 miles and biked 9 in January. Braved the cold quite a bit.</p>
-<p><strong>Reading:</strong></p>
-<p><strong>Leviathan Falls</strong>: Finished <em>The Expanse</em> series.</p>
+<p><strong>Reading:</strong> Finished <strong><em>Leviathan Falls</em></strong>, and with it, <em>The Expanse</em> series.</p>
 <p><strong>Writing:</strong> Wrote about the <a href="https://kpwags.com/posts/2022/01/19/books-i-read-in-2021">books I read in 2021</a> and my new <a href="https://kpwags.com/posts/2022/01/25/tracking-my-2022-goals">2022 goals page</a>.</p>
 <p><strong>Gaming:</strong> Continued my play-through of the Halo series. Beat Halo 2 and started Halo 3. Also picked up a PS5.</p>
 ]]></content>
