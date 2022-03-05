@@ -255,6 +255,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'iron_radio.jpg',
             },
             {
+                name: 'Maintenance Phase',
+                link: 'https://www.maintenancephase.com/',
+                artwork: 'maintenancephase.jpg',
+            },
+            {
                 name: 'Stronger By Science',
                 link: 'https://www.strongerbyscience.com/',
                 artwork: 'stronger_by_science.jpg',
@@ -288,11 +293,6 @@ const podcasts: PodcastCategory[] = [
                 name: '1A',
                 link: 'https://the1a.org/',
                 artwork: '1a.jpg',
-            },
-            {
-                name: 'Axios Today',
-                link: 'https://www.axios.com/podcasts/today',
-                artwork: 'axios_today.jpg',
             },
             {
                 name: 'Business Matters',
@@ -448,11 +448,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'The Athletic NBA Show',
                 link: 'https://theathletic.com/podcast/8-the-nba-show/',
                 artwork: 'athletic_nba_show.jpg',
-            },
-            {
-                name: 'Badlands: Sportsland',
-                link: 'https://art19.com/shows/badlands',
-                artwork: 'sportsland.jpg',
             },
             {
                 name: 'Beyond the Scrum',
@@ -640,6 +635,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'gatesmcfaddeninvestigates.jpg',
             },
             {
+                name: 'Getting Things Done',
+                link: 'https://gettingthingsdone.com/category/podcast-2/',
+                artwork: 'gtd.jpg',
+            },
+            {
                 name: 'How I Built This',
                 link: 'https://www.npr.org/podcasts/510313/how-i-built-this',
                 artwork: 'how_i_built_this.jpg',
@@ -730,6 +730,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'revisionist_history.jpg',
             },
             {
+                name: 'Ridiculous Crime',
+                link: 'https://www.audible.com/pd/Podcast/B08JJPKL1S',
+                artwork: 'ridiculouscrime.jpg',
+            },
+            {
                 name: 'Rough Translation',
                 link: 'https://www.npr.org/podcasts/510324/rough-translation',
                 artwork: 'rough_translation.jpg',
@@ -798,11 +803,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'Vox Conversations',
                 link: 'https://www.vox.com/vox-conversations-podcast',
                 artwork: 'vox_conversations.jpg',
-            },
-            {
-                name: 'What Happened To...?',
-                link: 'https://curiouscast.ca/podcast/822/whatever-happened-to/',
-                artwork: 'what_happened_to.jpg',
             },
             {
                 name: "You're Wrong About",

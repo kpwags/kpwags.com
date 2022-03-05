@@ -1,7 +1,7 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'February 2022',
+    lastUpdate: 'March 2022',
     reading: [
         {
             title: 'Nudge: The Final Edition',
@@ -16,6 +16,14 @@ const current: CurrentlyDoing = {
         {
             title: 'Star Trek: Enterprise',
             cover: 'startrekenterprise.jpg',
+        },
+        {
+            title: 'Star Trek: Discovery',
+            cover: 'discovery.jpg',
+        },
+        {
+            title: 'Star Trek: Picard',
+            cover: 'picard.jpg',
         },
         {
             title: 'The Middle',
@@ -34,16 +42,16 @@ const current: CurrentlyDoing = {
             link: 'https://www.xbox.com/en-US/games/halo-infinite',
         },
         {
-            title: 'Halo 3 ODST',
+            title: 'Halo 5',
             system: 'Xbox Series X',
-            cover: 'odst.jpg',
-            link: 'https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx',
+            cover: 'halo5.jpg',
+            link: 'https://www.xbox.com/en-us/games/store/halo-5-guardians/brrc2bp0g9p0',
         },
         {
-            title: 'Mass Effect',
-            system: 'Xbox Series X',
-            cover: 'masseffect.jpg',
-            link: 'https://www.ea.com/games/mass-effect/mass-effect-legendary-edition',
+            title: 'Elden Ring',
+            system: 'PS5',
+            cover: 'eldenring.jpg',
+            link: 'https://www.playstation.com/en-us/games/elden-ring/',
         },
     ],
 };
