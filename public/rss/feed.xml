@@ -4,17 +4,188 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sat, 19 Feb 2022 17:56:04 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 05 Mar 2022 01:17:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[February Check-In]]></title>
+            <link>/posts/2022/03/04/february-check-in</link>
+            <guid>/posts/2022/03/04/february-check-in</guid>
+            <pubDate>Fri, 04 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[February felt like a busy month, it seemed like every weekend we had something going on keeping us moving about.]]></description>
+            <content:encoded><![CDATA[<p>February felt like a busy month, it seemed like every weekend we had something going on keeping us moving about.</p>
+<p>As I mentioned in my <a href="https://kpwags.com/posts/2022/02/04/january-check-in">January Check-In</a>, I ended up brewing not just the one beer, but ended up brewing a second beer, an all-grain beer as well. The first beer was an extract brew, a Belgian Blonde, which is currently bottled and waiting for it to be ready to crack open. The second was an all-grain brew, my first attempt at an all-grain batch which I decided to go with a Red Ale. I was hoping to have it ready for St. Patrick&#39;s Day, but it&#39;s still fermenting so it will likely be a few days late...oh well. The hardest part is waiting to find out how they turned out. They could be fantastic...or they could be ruined. I won&#39;t know until I crack open the first bottle.</p>
+<p>I also started a bullet journal. I had been using Notion to keep track of things, but I decided I liked the idea of going more analog and using a Moleskine notebook.</p>
+<p>I&#39;m also trying to find a nice balance for myself with keeping up with the news. At the end of the month, Putin decided to invade Ukraine so the firehose of all the horrors going on has left me trying to stay informed while not feeling all gloom and doom all of the time.</p>
+<p>I ended up really just spending a lot of evenings on the couch with my wife watching our TV shows. It really is the perfect way to wind down.</p>
+<h2 id="monthly-roundup">Monthly Roundup</h2>
+<p><strong>Running &amp; Biking</strong>: Still cold out which limited me to some extent</p>
+<ul>
+<li>  Ran another 43 miles this month</li>
+<li>  Didn&#39;t end up biking any...the stationary trainer I have is kind of boring to me so I have to be in the mood</li>
+</ul>
+<p><strong>Lifting</strong>: I ended up setting two new PRs...I&#39;m now 92.5% of the way to the 1,000 lbs. club!</p>
+<ul>
+<li>  deadlifts (375 lbs.)</li>
+<li>  squats (325 lbs.)</li>
+</ul>
+<p><strong>Reading</strong>:</p>
+<ul>
+<li><a href="https://bookshop.org/books/the-apollo-murders-9781668601075/9780316264532" target="_blank" rel="noreferrer nofollow">
+      The Apollo Murders
+  </a> - I enjoyed this book. It had a good story that pulled you in. As a space fan, I definitely enjoyed the tie-ins with the Apollo program. The ending
+  wasn't my favorite part, but it did tidy up the story arcs. Would still recommend it to anyone.</li>
+</ul>
+<p><strong>Writing</strong>: Wrote my first technical post of the year.</p>
+<ul>
+<li>  Wrote about <a href="https://kpwags.com/posts/2022/02/19/setting-up-github-actions-on-net-projects">setting up GitHub Actions for a .NET project</a>.</li>
+</ul>
+<p><strong>Gaming</strong> - Continued my Halo series play-through.</p>
+<ul>
+<li><a href="https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx" target="_blank" rel="noreferrer nofollow">
+      Halo 3
+  </a> - I have obviously already played the heck out of this game, but played through it again for my Halo series play-through.</li>
+<li><a href="https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx" target="_blank" rel="noreferrer nofollow">
+      Halo 3: ODST
+  </a> - This is the only Halo shooter I never beat. I got bored with it when it first came out, but wasn't gonna let that stop me this time. Finally
+  beat it and it does provide a nice little side-story to go along with the Master Chief Saga</li>
+<li><a href="https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx" target="_blank" rel="noreferrer nofollow">
+      Halo 4
+  </a> - Played through this, again for my Halo series play-through. It was the first game done by 343 Studios and as I remembered, the story didn't
+  quite feel the same as the original trilogy.</li>
+</ul>
+]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Setting Up GitHub Actions on .NET Projects]]></title>
             <link>/posts/2022/02/19/setting-up-github-actions-on-net-projects</link>
             <guid>/posts/2022/02/19/setting-up-github-actions-on-net-projects</guid>
             <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[After seeing Git Actions at work at my job, I decided that I wanted to see what I could do for my personal projects with GitHub Actions.]]></description>
+            <content:encoded><![CDATA[<p>After seeing Git Actions at work at my job, I decided that I wanted to see what I could do for my personal projects with GitHub Actions.</p>
+<p>At work in order for our PRs to be completed, our code needs to match our ESLint guidelines and our unit tests need to pass. I like those rules so I wanted to apply them to my personal projects on GitHub. I knew GitHub had the ability to do the same thing so I sat down and taught myself how to set them up. A little while later, I was able to get them up and running and am quite happy with the results so I figured I’d share how I did it.</p>
+<h2 id="some-background">Some Background</h2>
+<p>I set this up for my re-write of <a href="https://github.com/kpwags/digital-family-cookbook" target="_blank" rel="noreferrer">Digital Family Cookbook in .NET</a>. I have my backend broken up into 3 projects.</p>
+<ol>
+<li>The Web API (DigitalFamilyCookbook)</li>
+<li>A “Core” Class Library (DigitalFamilyCookbook.Core)</li>
+<li>A “Data” Class Library (Digital Family Cookbook.Data)</li>
+</ol>
+<p>I have a separate .NET Unit Test project for the Web API and the core class library. One for the data class library will be added soon. Because of this, I ended up creating two actions, one to run the API unit tests, and a second to run the core library unit tests.</p>
+<h3 id="step-1-create-the-workflows-folder">Step 1: Create the Workflows Folder</h3>
+<p>In your root directory create a folder named <code>.github</code> and inside that folder create a folder named <code>workflows</code>.</p>
+<h3 id="step-2-create-an-action">Step 2: Create an Action</h3>
+<p>Create a file called <code>unittests.yml</code></p>
+<h3 id="step-3-build-the-action">Step 3: Build the Action</h3>
+<p>Start by giving the action a name</p>
+<pre><code class="language-yaml">name: DigitalFamilyCookbook Unit Tests
+</code></pre>
+<p>This is pretty self-explanatory. We want each action to have a name that is descriptive of what the action does.</p>
+<p>Next, we want to define when we want the action to be run.</p>
+<pre><code class="language-yaml">on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+</code></pre>
+<p>This tells GitHub that we want these actions run when we push code to the main branch (I don&#39;t really do this, but put it here anyway), or when a pull request is submitted against the main branch.</p>
+<p>Finally, we want to set up the action itself.</p>
+<pre><code class="language-yaml">jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Setup .NET
+              uses: actions/setup-dotnet@v1
+              with:
+                  dotnet-version: 6.0.x
+            - name: Restore dependencies
+              run: dotnet restore
+              working-directory: ./backend/tests/DigitalFamilyCookbook.Tests
+            - name: Build
+              run: dotnet build --no-restore
+              working-directory: ./backend/tests/DigitalFamilyCookbook.Tests
+            - name: Test
+              run: dotnet test --no-build --verbosity normal
+              working-directory: ./backend/tests/DigitalFamilyCookbook.Tests
+</code></pre>
+<p>Let&#39;s look at how this is structured.</p>
+<ol>
+<li>We tell GitHub to run this on the latest version of Ubuntu.</li>
+<li>Next, we define the steps to take to run the action. Each bullet point is basically a step in the process<ol>
+<li><code>uses: actions/checkout@v2</code> is the official GitHub action that will checkout the code in order to run the actions we define</li>
+<li><code>name: Setup .NET</code> is the name of this step which we use the official GitHub action to setup .NET for the action, specifying we want to use .NET 6. This is important as I am taking advantage of some of the new .NET 6 functionality that will break on previous versions.</li>
+<li><code>name: Restore dependencies</code> is where we tell the action to install the project&#39;s dependencies. you can see the next line defines the actual command. Just like we&#39;d do in the terminal on our own machine. We tell the action to run <code>dotnet restore</code> The final part is to specify the directory to run this command in. Since I&#39;m running the tests for the API project, we specify it as <code>./backend/tests/DigitalFamilyCookbook.Tests</code> which is the path from the root of the repository to where the <code>.csproj</code> defining the unit test project lies.</li>
+<li><code>name: Build</code> is where we tell the action to build the project, again just like we&#39;d do in our terminal. Again, we need to specify the working folder.</li>
+<li><code>name: Test</code> is where the butter is at. This tells us to run the test command to execute our unit tests. Like the <code>restore</code> and <code>build</code> steps, we also need to specify the working folder here as well.</li>
+</ol>
+</li>
+</ol>
+<h3 id="final-result">Final Result</h3>
+<pre><code class="language-yaml">name: DigitalFamilyCookbook Unit Tests
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Setup .NET
+              uses: actions/setup-dotnet@v1
+              with:
+                  dotnet-version: 6.0.x
+            - name: Restore dependencies
+              run: dotnet restore
+              working-directory: ./backend/tests/DigitalFamilyCookbook.Tests
+            - name: Build
+              run: dotnet build --no-restore
+              working-directory: ./backend/tests/DigitalFamilyCookbook.Tests
+            - name: Test
+              run: dotnet test --no-build --verbosity normal
+              working-directory: ./backend/tests/DigitalFamilyCookbook.Tests
+</code></pre>
+<p>That&#39;s it. It was not nearly as difficult to setup as I initially thought. Now whenever I open a pull request, it will run the unit tests and make sure they pass before I can complete it and merge it with the main branch. I ended up creating a second action file and run the same steps, only with the <code>DigitalFamilyCookbook.Core.Tests</code> project.</p>
+<h2 id="bonus-run-the-react-unit-tests-too">Bonus: Run the React Unit Tests Too!</h2>
+<p>As an added bonus, I&#39;ll add how I set up the action to run Jest for the frontend unit tests.</p>
+<pre><code class="language-yaml">name: Front End Unit Tests
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node-version: [15.x]
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v1
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - run: npm install
+              working-directory: ./frontend
+            - run: npm run test
+              working-directory: ./frontend
+</code></pre>
+<p>It&#39;s very similar to the .NET actions, only in this case we specify the node version instead of .NET, and run the npm commands in the frontend directory.</p>
+]]></content:encoded>
             <author>blog@kpwags.com (Keith Wagner)</author>
         </item>
         <item>
