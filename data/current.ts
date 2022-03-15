@@ -38,14 +38,8 @@ const current: CurrentlyDoing = {
         {
             title: 'Halo Infinite',
             system: 'Xbox Series X',
-            cover: 'halo-infinite-mp.jpg',
+            cover: 'halo-infinite.jpg',
             link: 'https://www.xbox.com/en-US/games/halo-infinite',
-        },
-        {
-            title: 'Halo 5',
-            system: 'Xbox Series X',
-            cover: 'halo5.jpg',
-            link: 'https://www.xbox.com/en-us/games/store/halo-5-guardians/brrc2bp0g9p0',
         },
         {
             title: 'Elden Ring',

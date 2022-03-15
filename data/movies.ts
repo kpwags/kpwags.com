@@ -18,12 +18,22 @@ const MoviesWatched: MovieList = {
             year: '2022',
             movies: [
                 {
+                    title: "Don't Look Up",
+                    cover: 'dontlookup.jpg',
+                    link: 'https://www.imdb.com/title/tt11286314/',
+                    dateWatched: 'March 12, 2022',
+                    rating: 3,
+                    thoughts:
+                        'I think the scariest part of this movie was how much I could totally see this happen today given the state of politics in America.',
+                },
+                {
                     title: 'No Time to Die',
                     cover: 'notimetodie.jpg',
                     link: 'https://www.imdb.com/title/tt2382320/',
                     dateWatched: 'January 1, 2022',
                     rating: 3,
-                    thoughts: "Some good action scenes, but the main villain didn't make much sense to me which definitely put the movie on a down note.",
+                    thoughts:
+                        "Some good action scenes, but the main villain didn't make much sense to me which definitely put the movie on a down note.",
                 },
             ],
         },
@@ -76,7 +86,8 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt4758646/',
                     dateWatched: 'August 28, 2021',
                     rating: 3,
-                    thoughts: 'I decided to watch this after the fall of Kabul to the Taliban. Despite it being satire, it felt rather accurate to what happened in Afghanistan.',
+                    thoughts:
+                        'I decided to watch this after the fall of Kabul to the Taliban. Despite it being satire, it felt rather accurate to what happened in Afghanistan.',
                 },
                 {
                     title: 'The Hunt for Red October',
@@ -246,7 +257,8 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt7455754/',
                     dateWatched: 'January 4, 2021',
                     rating: 4,
-                    thoughts: 'This was an interesting documentary about plant based diets. Part of me felt it was trying to sell me on the idea of going more plant based, but it does follow other things I’ve read. Worth a watch.',
+                    thoughts:
+                        'This was an interesting documentary about plant based diets. Part of me felt it was trying to sell me on the idea of going more plant based, but it does follow other things I’ve read. Worth a watch.',
                 },
                 {
                     title: 'The Prestige',
