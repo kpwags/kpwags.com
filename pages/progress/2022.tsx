@@ -43,13 +43,13 @@ const ProgressFor2022 = (): JSX.Element => (
 
             <p>I figured it would be a nice idea to create a page to show my progress on my goals for 2022.</p>
 
-            <p><em>Last Updated: February 19, 2022</em></p>
+            <p><em>Last Updated: March 15, 2022</em></p>
 
             <h2>Goal #1: Running and Biking More</h2>
             <p>My goal for 2022 is 400 miles running and 500 miles biking.</p>
 
             <h3>Running</h3>
-            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={73.27} />
+            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={91.83} />
 
             <h3>Biking</h3>
             <ProgressBar color="hsl(167, 100%, 37%)" fullValue={500} currentValue={8.9} />
@@ -66,7 +66,7 @@ const ProgressFor2022 = (): JSX.Element => (
             <ProgressBar color="hsl(19, 100%, 37%)" fullValue={350} currentValue={325} />
 
             <h3>Bench Press Max</h3>
-            <ProgressBar color="hsl(229, 81%, 35%)" fullValue={250} currentValue={225} />
+            <ProgressBar color="hsl(229, 81%, 35%)" fullValue={250} currentValue={230} />
 
             <hr />
 
@@ -74,13 +74,13 @@ const ProgressFor2022 = (): JSX.Element => (
             <p>My goal for 2022 is to max out both my IRA &amp; my 401k.</p>
 
             <h3>Total Contributions</h3>
-            <ProgressBar color="hsl(315, 88%, 51%)" fullValue={26500} currentValue={4802} format="money" />
+            <ProgressBar color="hsl(315, 88%, 51%)" fullValue={26500} currentValue={6502} format="money" />
 
             <h3>IRA Contributions</h3>
-            <ProgressBar color="hsl(194, 88%, 51%)" fullValue={6000} currentValue={2000} format="money" />
+            <ProgressBar color="hsl(194, 88%, 51%)" fullValue={6000} currentValue={3000} format="money" />
 
             <h3>401k Contributions</h3>
-            <ProgressBar color="hsl(64, 85%, 35%)" fullValue={20500} currentValue={2802} format="money" />
+            <ProgressBar color="hsl(64, 85%, 35%)" fullValue={20500} currentValue={3502} format="money" />
 
             <hr />
 
