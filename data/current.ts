@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'March 2022',
+    lastUpdate: 'April 2022',
     reading: [
         {
-            title: 'Nudge: The Final Edition',
-            author: 'Richard Thaler & Cass Sunstein',
-            cover: 'nudge.jpg',
-            link: 'https://bookshop.org/books/nudge-the-final-edition/9780143137009',
+            title: 'Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market',
+            author: 'Scott Patterson',
+            cover: 'darkpools.jpg',
+            link: 'https://bookshop.org/books/dark-pools-the-rise-of-the-machine-traders-and-the-rigging-of-the-u-s-stock-market/9780307887184',
             rating: null,
             thoughts: null,
         },
@@ -18,16 +18,12 @@ const current: CurrentlyDoing = {
             cover: 'startrekenterprise.jpg',
         },
         {
-            title: 'Star Trek: Discovery',
-            cover: 'discovery.jpg',
+            title: 'Halo',
+            cover: 'halo.jpg',
         },
         {
             title: 'Star Trek: Picard',
             cover: 'picard.jpg',
-        },
-        {
-            title: 'The Middle',
-            cover: 'themiddle.jpg',
         },
         {
             title: 'Challenger: Final Flight',
@@ -36,16 +32,16 @@ const current: CurrentlyDoing = {
     ],
     playing: [
         {
-            title: 'Halo Infinite',
-            system: 'Xbox Series X',
-            cover: 'halo-infinite.jpg',
-            link: 'https://www.xbox.com/en-US/games/halo-infinite',
-        },
-        {
             title: 'Elden Ring',
             system: 'PS5',
             cover: 'eldenring.jpg',
             link: 'https://www.playstation.com/en-us/games/elden-ring/',
+        },
+        {
+            title: 'Mass Effect',
+            system: 'Xbox Series X',
+            cover: 'masseffect.jpg',
+            link: 'https://www.ea.com/games/mass-effect/mass-effect-legendary-edition',
         },
     ],
 };
