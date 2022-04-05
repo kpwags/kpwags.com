@@ -5,14 +5,14 @@ import { themeDefinitions } from '@lib/themeDefinitions';
 import { saveToLocalStorage, retrieveFromLocalStorage } from './storage';
 
 interface UseThemeReturn {
-    theme: Theme,
-    themeLoaded: boolean,
-    setMode: (mode: Theme) => void,
-    getFonts: () => string[]
+    theme: Theme;
+    themeLoaded: boolean;
+    setMode: (mode: Theme) => void;
+    getFonts: () => string[];
 }
 
 export const useTheme = (): UseThemeReturn => {
-    const [theme, setTheme] = useState<Theme>(themeDefinitions.data.light);
+    const [theme, setTheme] = useState<Theme>(themeDefinitions.data.lightSerif);
     const [themeLoaded, setThemeLoaded] = useState(false);
 
     const setMode = (mode: Theme) => {
@@ -47,9 +47,9 @@ export const useTheme = (): UseThemeReturn => {
             const preferredColorMode = getPreferredColorMode();
 
             if (preferredColorMode === 'dark') {
-                setTheme(themeDefinitions.data.dark);
+                setTheme(themeDefinitions.data.darkSerif);
             } else {
-                setTheme(themeDefinitions.data.light);
+                setTheme(themeDefinitions.data.lightSerif);
             }
         }
 

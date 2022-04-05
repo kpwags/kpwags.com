@@ -65,7 +65,7 @@ const Post = styled.article`
         margin: 30px 0;
 
         p {
-            font-family: ${({ theme }) => theme.fonts.serif};
+            font-family: ${({ theme }) => theme.fonts.alternate};
             font-size: 1.5rem;
             font-style: italic;
             color: ${({ theme }) => theme.colors.mediumBlue};
