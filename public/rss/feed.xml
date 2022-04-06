@@ -4,11 +4,71 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sat, 05 Mar 2022 01:17:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Apr 2022 00:11:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[March Check-In]]></title>
+            <link>/posts/2022/04/05/march-2022-check-in</link>
+            <guid>/posts/2022/04/05/march-2022-check-in</guid>
+            <pubDate>Tue, 05 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[March did't particularly feel like that busy of a month. About the only eventful thing that happened was a week-long vacation to Cape May, New Jersey at the end of the month.]]></description>
+            <content:encoded><![CDATA[<p>March did&#39;t particularly feel like that busy of a month. About the only eventful thing that happened was a week-long vacation to Cape May, New Jersey at the end of the month.</p>
+<h2 id="homebrew-results">Homebrew Results</h2>
+<p>I can proudly say that both the Belgian Blonde and the Red Ale I brewed both turned out fantasic. The red ale has a great malt taste to it and the blonde has a nice sweetness to it. I was worried about both since it can be too easy to contaminate a brew, but both ended up delicious.</p>
+<h2 id="morning-brew">Morning Brew</h2>
+<p>This month, I started grinding my own coffee right before brewing it. I picked up an <a href="https://smile.amazon.com/dp/B07CSKGLMM?psc=1&ref=ppx_yo2ov_dt_b_product_details" rel="noreferrer nofollow">OXO Brew Conical Burr Coffee Grinder</a> that we keep right next to the coffee pot. I figure it will allow my wife and I to try new beans and flavors.</p>
+<h2 id="continued-work-on-digital-family-cookbook">Continued Work on Digital Family Cookbook</h2>
+<p>I put my fitness tracking app on the back burner for the time being and have moved onto re-writing Digital Family Cookbook in .NET and a brand new React/TypeScript frontend. My big win this month was getting integration tests running succesfully. I ended up using Entity Framework for it, so I can use an In-Memory database to run the tests. It&#39;s pretty neat...at least to me.</p>
+<h2 id="monthly-roundup">Monthly Roundup</h2>
+<p><strong>Running &amp; Biking</strong>: Still cold out which limited me to some extent</p>
+<ul>
+<li>  Between sore legs and rain, I only ended up running 25 miles</li>
+<li>  Didn&#39;t end up biking any...the stationary trainer I have is kind of boring to me so I have to be in the mood</li>
+</ul>
+<p><strong>Lifting</strong>: I ended up setting a new PR for squats, but my deadlift is stalling a bit.</p>
+<ul>
+<li>  squats (335 lbs.)</li>
+</ul>
+<p><strong>Reading</strong>:</p>
+<ul>
+<li><a href="https://bookshop.org/books/nudge-the-final-edition/9780143137009" target="_blank" rel="noreferrer nofollow">
+      Nudge
+  </a> - This was a fantastic read into how we as humans can be persuaded into doing things in ways we don't always recognize. The authors do a good
+  job going into the good and bad of it.</li>
+<li><a href="https://bookshop.org/books/the-storyteller-tales-of-life-and-music/9780063076099" target="_blank" rel="noreferrer nofollow">
+      The Storyteller: Tales of Life and Music
+  </a> - Dave Grohl has always seemed to be an interesting and unique person. This was an interesting memoir talking about his growth from High School
+  punk musician, through Nirvana and eventually Foo Fighters. If you're a fan of any of his work, I'd highly recommend this.</li>
+<li>&lt;a<pre><code>  href=&quot;https://bookshop.org/books/it-s-better-to-be-feared-the-new-england-patriots-dynasty-and-the-pursuit-of-greatness/9781631498237&quot;
+  target=&quot;_blank&quot;
+  rel=&quot;noreferrer nofollow&quot;
+</code></pre>
+<blockquote>
+</blockquote>
+<pre><code>  It&#39;s Better to Be Feared: The New England Patriots Dynasty and the Pursuit of Greatness
+</code></pre>
+  </a> - I&#39;m by no means a Patriots fan, but I found this to be an interesting look into the 2 decades long dynasty of Brady-Belichick and the Patriots.</li>
+</ul>
+<p><strong>Writing</strong>: Wrote my first technical post of the year.</p>
+<ul>
+<li>  Nada</li>
+</ul>
+<p><strong>Gaming</strong> - Continued my Halo series play-through.</p>
+<ul>
+<li><a href="https://www.xbox.com/en-us/games/store/Halo-5-Guardians/BRRC2BP0G9P0" target="_blank" rel="noreferrer nofollow">
+      Halo 5: Guardians
+  </a> - I beat this before and the story is probably the worst of all the Halo games. The battles are fun though.</li>
+<li><a href="https://www.xbox.com/en-us/games/store/halo-the-master-chief-collection/9ntm9hxnlszx" target="_blank" rel="noreferrer nofollow">
+      Halo: Infinite
+  </a> - Finally got to start the new Halo campaign. The open world aspect of it is a branch from the other games. At some points it has almost become
+  like Skyrim for me...putting off the main story to do all the side quests. The battles so far have been fun, Hunters are the bain of my existence.</li>
+</ul>
+]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[February Check-In]]></title>
             <link>/posts/2022/03/04/february-check-in</link>
