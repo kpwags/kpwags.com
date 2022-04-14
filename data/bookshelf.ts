@@ -12,11 +12,35 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'February 2022',
+    lastUpdate: 'April 2022',
     years: [
         {
             year: '2022',
             books: [
+                {
+                    title: "It's Better to Be Feared: The New England Patriots Dynasty and the Pursuit of Greatness",
+                    author: 'Seth Wickersham',
+                    cover: 'bettertobefeared.jpg',
+                    link: 'https://bookshop.org/books/it-s-better-to-be-feared-the-new-england-patriots-dynasty-and-the-pursuit-of-greatness/9781631498237',
+                    rating: 3,
+                    thoughts: "I'm by no means a Patriots fan, but I found this to be an interesting look into the 2 decades long dynasty of Brady-Belichick and the Patriots.",
+                },
+                {
+                    title: 'The Storyteller: Tales of Life and Music',
+                    author: 'Dave Grohl',
+                    cover: 'storyteller.jpg',
+                    link: 'https://bookshop.org/books/the-storyteller-tales-of-life-and-music/9780063076099',
+                    rating: 4,
+                    thoughts: "Dave Grohl has always seemed to be an interesting and unique person. This was an interesting memoir talking about his growth from High School punk musician, through Nirvana and eventually Foo Fighters. If you're a fan of any of his work, I'd highly recommend this.",
+                },
+                {
+                    title: 'Nudge: The Final Edition',
+                    author: 'Richard Thaler & Cass Sunstein',
+                    cover: 'nudge.jpg',
+                    link: 'https://bookshop.org/books/nudge-the-final-edition/9780143137009',
+                    rating: 4,
+                    thoughts: "This was a fantastic read into how we as humans can be persuaded into doing things in ways we don't always recognize. The authors do a good job going into the good and bad of it.",
+                },
                 {
                     title: 'The Apollo Murders',
                     author: 'Chris Hadfield',
