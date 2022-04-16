@@ -41,7 +41,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     h1 {
-        font-weight: 900;
+        font-weight: ${({ theme }: { theme: Theme }) => theme.h1Weight};
         color: ${({ theme }: { theme: Theme }) => theme.colors.h1};
         font-size: 3rem;
         margin: 0;
