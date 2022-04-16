@@ -15,8 +15,6 @@ export interface ThemeColors {
 export interface Fonts {
     primary: string
     alternate: string
-    secondary: string
-    webSafe: string
     header: string
 }
 
@@ -26,7 +24,6 @@ export interface Theme {
     colors: ThemeColors
     fonts: Fonts
     boxShadow: string
-    h1Weight: number
 }
 
 export interface ThemeDefinition {

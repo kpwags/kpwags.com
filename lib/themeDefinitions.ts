@@ -19,14 +19,11 @@ export const themeDefinitions: ThemeData = {
                 photoListBackgroundHover: 'hsl(0,0%,74%)',
             },
             fonts: {
-                primary: 'Roboto, Helvetica, Arial, sans-serif',
-                alternate: 'Lora, Georgia, Times New Roman, serif',
-                webSafe: 'Arial',
-                secondary: 'WorkSans, sans-serif',
-                header: 'Roboto, Helvetica, Arial, sans-serif',
+                primary: 'WorkSans, Helvetica, Arial, sans-serif',
+                alternate: 'Petrona, Georgia, Times New Roman, serif',
+                header: 'WorkSans, Helvetica, Arial, sans-serif',
             },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
-            h1Weight: 900,
         },
         dark: {
             id: 'dark_theme',
@@ -45,14 +42,11 @@ export const themeDefinitions: ThemeData = {
                 photoListBackgroundHover: 'hsl(0, 0%, 20%)',
             },
             fonts: {
-                primary: 'Roboto, Helvetica, Arial, sans-serif',
-                alternate: 'Lora, Georgia, Times New Roman, serif',
-                webSafe: 'Arial',
-                secondary: 'WorkSans, sans-serif',
-                header: 'Roboto, Helvetica, Arial, sans-serif',
+                primary: 'WorkSans, Helvetica, Arial, sans-serif',
+                alternate: 'Petrona, Georgia, Times New Roman, serif',
+                header: 'WorkSans, Helvetica, Arial, sans-serif',
             },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
-            h1Weight: 900,
         },
         lightSerif: {
             id: 'light_serif_theme',
@@ -72,13 +66,10 @@ export const themeDefinitions: ThemeData = {
             },
             fonts: {
                 primary: 'Petrona, Georgia, Times New Roman, serif',
-                alternate: 'Roboto, Helvetica, Arial, sans-serif',
-                webSafe: 'Georgia',
-                secondary: 'Petrona, sans-serif',
-                header: 'Roboto, Helvetica, Arial, sans-serif',
+                alternate: 'WorkSans, Helvetica, Arial, sans-serif',
+                header: 'WorkSans, Helvetica, Arial, sans-serif',
             },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
-            h1Weight: 700,
         },
         darkSerif: {
             id: 'dark_serif_theme',
@@ -98,13 +89,10 @@ export const themeDefinitions: ThemeData = {
             },
             fonts: {
                 primary: 'Petrona, Georgia, Times New Roman, serif',
-                alternate: 'Roboto, Helvetica, Arial, sans-serif',
-                webSafe: 'Georgia',
-                secondary: 'Petrona, sans-serif',
-                header: 'Roboto, Helvetica, Arial, sans-serif',
+                alternate: 'WorkSans, Helvetica, Arial, sans-serif',
+                header: 'WorkSans, Helvetica, Arial, sans-serif',
             },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
-            h1Weight: 700,
         },
         lightMono: {
             id: 'light_mono_theme',
@@ -125,12 +113,9 @@ export const themeDefinitions: ThemeData = {
             fonts: {
                 primary: 'SourceCodePro, Courier New',
                 alternate: 'SourceCodePro, Courier New',
-                webSafe: 'Courier New',
-                secondary: 'SourceCodePro, Courier New',
                 header: 'SourceCodePro, Courier New',
             },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
-            h1Weight: 900,
         },
         darkMono: {
             id: 'dark_mono_theme',
@@ -151,12 +136,9 @@ export const themeDefinitions: ThemeData = {
             fonts: {
                 primary: 'SourceCodePro, Courier New',
                 alternate: 'SourceCodePro, Courier New',
-                webSafe: 'Courier New',
-                secondary: 'SourceCodePro, Courier New',
                 header: 'SourceCodePro, Courier New',
             },
             boxShadow: '0 12px 24px 0 hsla(0, 0%, 0%, 0.2)',
-            h1Weight: 900,
         },
     },
 };

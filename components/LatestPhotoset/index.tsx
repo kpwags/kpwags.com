@@ -11,7 +11,6 @@ const Photoset = styled.div`
     }
 
     h3 {
-        font-family: ${({ theme }) => theme.fonts.secondary};
         color: ${({ theme }) => theme.colors.blue};
         font-size: 1.6rem;
         font-weight: 500;
