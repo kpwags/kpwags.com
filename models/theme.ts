@@ -14,9 +14,8 @@ export interface ThemeColors {
 
 export interface Fonts {
     primary: string
-    serif: string
-    secondary: string
-    webSafe: string
+    alternate: string
+    header: string
 }
 
 export interface Theme {
@@ -28,8 +27,12 @@ export interface Theme {
 }
 
 export interface ThemeDefinition {
-    light: Theme,
+    light: Theme
     dark: Theme
+    lightSerif: Theme
+    darkSerif: Theme
+    lightMono: Theme
+    darkMono: Theme
 }
 
 export interface ThemeData {

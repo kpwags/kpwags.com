@@ -25,15 +25,15 @@ const Switch = styled.svg`
 
     #togglebutton-circle-lightmode {
         /* display: var(--svg-display-lightmode); */
-        display: ${({ theme }) => (theme.id === 'light_theme' ? 'inline' : 'none')};
+        display: ${({ theme }) => (theme.id.includes('light') ? 'inline' : 'none')};
     }
 
     #togglebutton-circle-darkmode {
-        display: ${({ theme }) => (theme.id === 'light_theme' ? 'none' : 'inline')};
+        display: ${({ theme }) => (theme.id.includes('light') ? 'none' : 'inline')};
     }
 
     #togglebutton-star {
-        display: ${({ theme }) => (theme.id === 'light_theme' ? 'inline' : 'none')};
+        display: ${({ theme }) => (theme.id.includes('light') ? 'inline' : 'none')};
     }
 
     #togglebutton-sun-ellipse,
@@ -43,7 +43,7 @@ const Switch = styled.svg`
 
     #togglebutton-moon {
         fill: #363636;
-        display: ${({ theme }) => (theme.id === 'light_theme' ? 'none' : 'inline')};
+        display: ${({ theme }) => (theme.id.includes('light') ? 'none' : 'inline')};
     }
 `;
 

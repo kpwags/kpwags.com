@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import Link from 'next/link';
 import LightDarkSwitch from '@components/LightDarkSwitch';
 import { useTheme } from '@lib/useTheme';
-import { themeDefinitions } from '@lib/themeDefinitions';
 import styled from 'styled-components';
 import { BlogContext } from '@contexts/BlogContext';
 
@@ -31,7 +30,7 @@ const Hdr = styled.header`
         grid-column-start: 1;
         grid-column-end: 1;
         padding: 0 25px 0 10px;
-        font-family: ${({ theme }) => theme.fonts.secondary};
+        font-family: ${({ theme }) => theme.fonts.header};
         font-weight: 900;
 
         a:hover {
@@ -115,7 +114,7 @@ const Hdr = styled.header`
         grid-column-start: 2;
         grid-column-end: 2;
         justify-self: end;
-        font-family: ${({ theme }) => theme.fonts.primary};
+        font-family: ${({ theme }) => theme.fonts.header};
 
         @media all and (max-width: 1023px) {
             padding-right: 10px;
@@ -196,17 +195,15 @@ const StickyToggle = styled.div`
 `;
 
 const Header = (): JSX.Element => {
-    const { theme, setMode } = useTheme();
+    const { getCurrentTheme } = useTheme();
 
-    const { changeTheme } = useContext(BlogContext);
+    const { changeThemeMode } = useContext(BlogContext);
 
     const changeMode = () => {
-        if (theme.id === 'light_theme') {
-            setMode(themeDefinitions.data.dark);
-            changeTheme(themeDefinitions.data.dark);
+        if (getCurrentTheme().id.includes('light')) {
+            changeThemeMode('dark');
         } else {
-            setMode(themeDefinitions.data.light);
-            changeTheme(themeDefinitions.data.light);
+            changeThemeMode('light');
         }
     };
 

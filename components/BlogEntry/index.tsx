@@ -65,7 +65,7 @@ const Post = styled.article`
         margin: 30px 0;
 
         p {
-            font-family: ${({ theme }) => theme.fonts.serif};
+            font-family: ${({ theme }) => theme.fonts.alternate};
             font-size: 1.5rem;
             font-style: italic;
             color: ${({ theme }) => theme.colors.mediumBlue};
@@ -121,7 +121,7 @@ const Post = styled.article`
 
     p {
         font-family: ${({ theme }) => theme.fonts.primary};
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 300;
 
         a {
@@ -132,7 +132,7 @@ const Post = styled.article`
     .content {
         ul,
         ol {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             margin: 0 25px 40px 25px;
 
             li {

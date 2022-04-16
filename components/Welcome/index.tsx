@@ -18,7 +18,7 @@ const Hello = styled.div`
         padding: 15px;
 
         .welcome-text {
-            font-family: ${({ theme }) => theme.fonts.serif};
+            font-family: ${({ theme }) => theme.fonts.primary};
             font-size: 2rem;
             line-height: 3.5rem;
             margin-top: 25px;

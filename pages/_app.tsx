@@ -4,8 +4,7 @@ import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
 import { AppProps } from 'next/app';
 import { BlogContext } from '@contexts/BlogContext';
-import { useTheme } from '@lib/useTheme';
-import { Theme } from '@models/theme';
+import { useTheme, ThemeMode, FontOptions } from '@lib/useTheme';
 import { GlobalStyles } from '@lib/GlobalStyles';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
@@ -13,16 +12,26 @@ import Footer from '@components/Footer';
 import '../styles/fonts.css';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
-    const { theme, themeLoaded, setMode } = useTheme();
+    const {
+        theme,
+        themeLoaded,
+        setMode,
+        setFont,
+    } = useTheme();
     const [selectedTheme, setSelectedTheme] = useState(theme);
 
     useEffect(() => {
         setSelectedTheme(theme);
     }, [themeLoaded]);
 
-    const changeTheme = (t: Theme) => {
-        setSelectedTheme(t);
-        setMode(t);
+    const changeThemeMode = (t: ThemeMode) => {
+        const newTheme = setMode(t);
+        setSelectedTheme(newTheme);
+    };
+
+    const changeFont = (f: FontOptions) => {
+        const newTheme = setFont(f);
+        setSelectedTheme(newTheme);
     };
 
     return (
@@ -61,7 +70,8 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                 <BlogContext.Provider
                     value={{
                         currentTheme: selectedTheme,
-                        changeTheme,
+                        changeThemeMode,
+                        changeFont,
                     }}
                 >
                     <ThemeProvider theme={selectedTheme}>

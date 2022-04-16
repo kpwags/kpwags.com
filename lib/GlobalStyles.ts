@@ -41,7 +41,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     h1 {
-        font-weight: 900;
+        font-weight: 700;
         color: ${({ theme }: { theme: Theme }) => theme.colors.h1};
         font-size: 3rem;
         margin: 0;
@@ -59,7 +59,7 @@ export const GlobalStyles = createGlobalStyle`
     h2 {
         font-weight: 700;
         color: ${({ theme }: { theme: Theme }) => theme.colors.h2};
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin: 0;
         padding: 0;
 
@@ -78,7 +78,6 @@ export const GlobalStyles = createGlobalStyle`
 
     h3 {
         color: ${({ theme }) => theme.colors.mediumBlue};
-        font-family: ${({ theme }) => theme.fonts.secondary};
         font-size: 1.5rem;
         font-weight: 500;
         margin: 0;
