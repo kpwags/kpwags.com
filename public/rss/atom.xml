@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-04-06T00:11:32.368Z</updated>
+    <updated>2022-04-24T23:10:35.609Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -16,9 +16,9 @@
     <rights>2022 Keith Wagner</rights>
     <entry>
         <title type="html"><![CDATA[March Check-In]]></title>
-        <id>/posts/2022/04/05/march-2022-check-in</id>
-        <link href="/posts/2022/04/05/march-2022-check-in"/>
-        <updated>2022-04-05T00:00:00.000Z</updated>
+        <id>/posts/2022/04/06/march-check-in</id>
+        <link href="/posts/2022/04/06/march-check-in"/>
+        <updated>2022-04-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[March did't particularly feel like that busy of a month. About the only eventful thing that happened was a week-long vacation to Cape May, New Jersey at the end of the month.]]></summary>
         <content type="html"><![CDATA[<p>March did&#39;t particularly feel like that busy of a month. About the only eventful thing that happened was a week-long vacation to Cape May, New Jersey at the end of the month.</p>
 <h2 id="homebrew-results">Homebrew Results</h2>
@@ -57,10 +57,7 @@
 </code></pre>
   </a> - I&#39;m by no means a Patriots fan, but I found this to be an interesting look into the 2 decades long dynasty of Brady-Belichick and the Patriots.</li>
 </ul>
-<p><strong>Writing</strong>: Wrote my first technical post of the year.</p>
-<ul>
-<li>  Nada</li>
-</ul>
+<p><strong>Writing</strong>: Nada</p>
 <p><strong>Gaming</strong> - Continued my Halo series play-through.</p>
 <ul>
 <li><a href="https://www.xbox.com/en-us/games/store/Halo-5-Guardians/BRRC2BP0G9P0" target="_blank" rel="noreferrer nofollow">
