@@ -15,5 +15,13 @@
         "source.fixAll.eslint": true
     },
     "eslint.format.enable": true,
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "[markdown]": {
+        "editor.formatOnSave": false,
+        "editor.wordWrap": "off"
+    },
+    "[mdx]": {
+        "editor.formatOnSave": false,
+        "editor.wordWrap": "off"
+    }
 }
