@@ -11,7 +11,7 @@ import generateRssFeed from '@lib/rss';
 export const getStaticProps: GetStaticProps = async () => {
     const blogPosts = getAllPosts();
 
-    generateRssFeed();
+    await generateRssFeed();
 
     return {
         props: {

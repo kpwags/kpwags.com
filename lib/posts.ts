@@ -274,3 +274,44 @@ export const searchBlogPosts = (keywords: string, blogPosts: BlogPost[]): BlogPo
 
     return posts;
 };
+
+export const getPostsForRssFeed = async () : Promise<BlogPost[]> => {
+    // Get file names under /posts
+    const fileNames = fs.readdirSync(postsDirectory);
+
+    const posts = await Promise.all(fileNames.map(async (fileName) => {
+        // Remove ".md" from file name to get id
+        const id = fileName.replace(/\.mdx$/, '');
+
+        // Read markdown file as string
+        const fullPath = path.join(postsDirectory, fileName);
+        const fileContents = fs.readFileSync(fullPath, 'utf8');
+
+        // Use gray-matter to parse the post metadata section
+        const { content, data } = matter(fileContents);
+
+        const mdx = await serialize(content, { scope: data });
+        const url = buildUrlFromId(id);
+
+        const tags = data.tags || [] as BlogTag[];
+
+        // Combine the data with the id
+        return {
+            id,
+            title: data.title,
+            excerpt: data.excerpt || null,
+            date: data.date,
+            url,
+            hasEmbeddedTweet: false,
+            tags,
+            content: mdx.compiledSource,
+        };
+    }));
+
+    return posts.sort((a: BlogPost, b: BlogPost) => {
+        if (a.date < b.date) {
+            return 1;
+        }
+        return -1;
+    });
+};
