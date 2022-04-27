@@ -4,10 +4,18 @@ const current: CurrentlyDoing = {
     lastUpdate: 'April 2022',
     reading: [
         {
-            title: 'Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market',
-            author: 'Scott Patterson',
-            cover: 'darkpools.jpg',
-            link: 'https://bookshop.org/books/dark-pools-the-rise-of-the-machine-traders-and-the-rigging-of-the-u-s-stock-market/9780307887184',
+            title: 'The Passion Economy: The New Rules for Thriving in the Twenty-First Century',
+            author: 'Adam Davidson',
+            cover: 'passioneconomy.jpg',
+            link: 'https://bookshop.org/books/the-passion-economy-the-new-rules-for-thriving-in-the-twenty-first-century/9780804172776',
+            rating: null,
+            thoughts: null,
+        },
+        {
+            title: 'Unit Testing Principles, Practices, and Patterns',
+            author: 'Vladimir Khorikov',
+            cover: 'unittesting.jpg',
+            link: 'https://www.manning.com/books/unit-testing',
             rating: null,
             thoughts: null,
         },
@@ -32,10 +40,10 @@ const current: CurrentlyDoing = {
     ],
     playing: [
         {
-            title: 'Elden Ring',
-            system: 'PS5',
-            cover: 'eldenring.jpg',
-            link: 'https://www.playstation.com/en-us/games/elden-ring/',
+            title: 'Destiny 2',
+            system: 'Xbox Series X',
+            cover: 'destiny2.jpg',
+            link: 'https://www.bungie.net/7/en/Destiny/WitchQueen',
         },
         {
             title: 'Mass Effect',

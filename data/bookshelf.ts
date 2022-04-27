@@ -18,6 +18,14 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market',
+                    author: 'Scott Patterson',
+                    cover: 'darkpools.jpg',
+                    link: 'https://bookshop.org/books/dark-pools-the-rise-of-the-machine-traders-and-the-rigging-of-the-u-s-stock-market/9780307887184',
+                    rating: 4,
+                    thoughts: 'The stock market & computerized trading has become a fascination to me. This book does a great job talking about the rise of high-frequency trading and how it has caused some of the problems we see in the stock market today.',
+                },
+                {
                     title: "It's Better to Be Feared: The New England Patriots Dynasty and the Pursuit of Greatness",
                     author: 'Seth Wickersham',
                     cover: 'bettertobefeared.jpg',
