@@ -2,6 +2,16 @@ import { Like } from '@models/like';
 
 const likes: Like[] = [
     {
+        title: 'Spacesuits are Showing Their Age',
+        url: 'https://www.economist.com/science-and-technology/spacesuits-are-showing-their-age/21808842',
+        source: 'economist.com',
+    },
+    {
+        title: 'A Stock is Not an Index',
+        url: 'https://ofdollarsanddata.com/a-stock-is-not-an-index/',
+        source: 'ofdollarsanddata.com',
+    },
+    {
         title: 'Why Safari Does Not Need Any Protection From Chromium',
         url: 'https://nielsleenheer.com/articles/2022/why-safari-does-not-need-any-protection-from-chromium/',
         source: 'nielsleenheer.com',
