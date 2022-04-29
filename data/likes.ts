@@ -2,6 +2,16 @@ import { Like } from '@models/like';
 
 const likes: Like[] = [
     {
+        title: "The Stock Market's Future Ain't What It Used to Be",
+        url: 'https://www.wsj.com/articles/the-stock-markets-future-aint-what-it-used-to-be-11650037777',
+        source: 'wsj.com',
+    },
+    {
+        title: 'Suspicion',
+        url: 'https://adactio.com/journal/19029',
+        source: 'adactio.com',
+    },
+    {
         title: 'Spacesuits are Showing Their Age',
         url: 'https://www.economist.com/science-and-technology/spacesuits-are-showing-their-age/21808842',
         source: 'economist.com',
