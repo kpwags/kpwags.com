@@ -26,6 +26,7 @@ const Contact = (): JSX.Element => (
             <ContactList>
                 <li><a href="mailto:blog@kpwags.com">blog@kpwags.com</a></li>
                 <li><a href="https://twitter.com/kpwags" target="_blank" rel="nofollow noreferrer">Twitter</a></li>
+                <li><a href="https://mastodon.social/web/@kpwags" target="_blank" rel="nofollow noreferrer">Mastodon</a></li>
                 <li><a href="https://github.com/kpwags" target="_blank" rel="nofollow noreferrer">GitHub</a></li>
             </ContactList>
         </main>
