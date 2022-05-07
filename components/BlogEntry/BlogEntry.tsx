@@ -129,6 +129,11 @@ const Post = styled.article`
         }
     }
 
+    .domain-name {
+        font-style: italic;
+        color: hsl(0, 1%, 40%);
+    }
+
     .content {
         ul,
         ol {
