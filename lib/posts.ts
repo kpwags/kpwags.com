@@ -8,23 +8,18 @@ import { BlogPost } from '@models/blogPost';
 import { BlogTag } from '@models/BlogTag';
 import { postsPerPage } from './config';
 import { buildUrlFromId } from './utilities';
+import decodeHtmlEntities from './decodeHtmlEntities';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
 export const getUrlTag = (tag: string): string => tag.toString().toLowerCase().replace(/\./g, '').replace(/-/g, '');
 
-// TODO: See about eventually auto-generating the excerpt in a way that works on Netlify
-// export const getPostExcerpt = (html: string): string => {
-//     const dom = new JSDOM(html);
+export const getPostExcerpt = (html: string): string => {
+    const endParagraphIndex = html.indexOf('</p>');
+    const snippet = html.substring(0, endParagraphIndex);
 
-//     const paragraphs = dom.window.document.getElementsByTagName('p');
-
-//     if (paragraphs.length === 0) {
-//         return html;
-//     }
-
-//     return paragraphs[0].innerHTML;
-// };
+    return snippet.replace('<p>', '');
+};
 
 export const getAllPosts = (sorted = true) : BlogPost[] => {
     // Get file names under /posts
@@ -43,6 +38,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
 
         const html = marked(content);
         const url = buildUrlFromId(id);
+        const excerpt = getPostExcerpt(html);
 
         const tags = data.tags || [] as BlogTag[];
 
@@ -50,7 +46,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
         return {
             id,
             title: data.title,
-            excerpt: data.excerpt || null,
+            excerpt: excerpt || null,
             date: data.date,
             url,
             hasEmbeddedTweet: false,
@@ -137,6 +133,9 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Use gray-matter to parse the post metadata section
     const { content, data } = matter(fileContents);
 
+    const html = marked(content);
+    const excerpt = getPostExcerpt(html);
+
     const mdx = await serialize(content, { scope: data });
 
     const tags = data.tags || [] as BlogTag[];
@@ -144,11 +143,11 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Combine the data with the id
     return {
         id: postId,
-        excerpt: data.excerpt || null,
+        excerpt: excerpt || data.excerpt || null,
         title: data.title,
         date: data.date,
         content: mdx.compiledSource,
-        description: data.description || null,
+        description: decodeHtmlEntities(excerpt) || data.description || null,
         url: buildUrlFromId(postId),
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
         tags,
@@ -289,6 +288,8 @@ export const getPostsForRssFeed = async () : Promise<BlogPost[]> => {
 
         // Use gray-matter to parse the post metadata section
         const { content, data } = matter(fileContents);
+        const html = marked(content);
+        const excerpt = getPostExcerpt(html);
 
         const mdx = await serialize(content, { scope: data });
         const url = buildUrlFromId(id);
@@ -299,7 +300,7 @@ export const getPostsForRssFeed = async () : Promise<BlogPost[]> => {
         return {
             id,
             title: data.title,
-            excerpt: data.excerpt || null,
+            excerpt: excerpt || data.excerpt || null,
             date: data.date,
             url,
             hasEmbeddedTweet: false,
