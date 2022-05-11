@@ -103,6 +103,11 @@ const Footer = (): JSX.Element => {
                     </Link>
                 </li>
                 <li>
+                    <Link href="/photoblog">
+                        <a title="Photo Blog">Photo Blog</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/photography">
                         <a title="Photography">Photography</a>
                     </Link>

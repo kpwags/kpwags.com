@@ -132,7 +132,7 @@ const Hdr = styled.header`
             font-weight: 300;
             color: ${({ theme }) => theme.colors.blue};
 
-            @media all and (max-width: 1024px) {
+            @media all and (max-width: 1025px) {
                 padding: 0 8px;
             }
 
@@ -225,9 +225,9 @@ const Header = (): JSX.Element => {
                 </div>
                 <nav>
                     <Link aria-label="Blog" href="/blog"><a>Blog</a></Link>
+                    <Link aria-label="Photo Blog" href="/photoblog"><a>Photo Blog</a></Link>
                     <Link aria-label="Photography" href="/photography"><a>Photography</a></Link>
                     <Link aria-label="About" href="/about"><a>About</a></Link>
-                    <Link aria-label="Work" href="/work"><a>Work</a></Link>
                     <Link aria-label="Bookshelf" href="/bookshelf">
                         <a className="hide-on-tablet">Bookshelf</a>
                     </Link>
