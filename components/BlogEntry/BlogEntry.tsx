@@ -131,10 +131,10 @@ const Post = styled.article`
 
     .domain-name {
         font-style: italic;
-        color: hsl(0, 1%, 40%);
+        color: hsl(0, 1%, 60%);
 
         @media (prefers-color-scheme: light) {
-            color: hsl(0, 0%, 70%);
+            color: hsl(0, 0%, 50%);
         }
     }
 
