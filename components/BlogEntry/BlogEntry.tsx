@@ -10,6 +10,7 @@ import Utterances from '@components/Utterances';
 
 // Blog Components
 import PostImage from '@components/PostImage';
+import PostVideo from '@components/PostVideo';
 import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
@@ -28,6 +29,7 @@ import 'prism-themes/themes/prism-night-owl.css';
 
 const components = {
     PostImage,
+    PostVideo,
     EmbeddedTweet,
     TableOfContents,
     TableOfContentsPage,

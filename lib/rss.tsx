@@ -9,6 +9,7 @@ import { themeDefinitions } from '@lib/themeDefinitions';
 
 // Blog Components
 import PostImage from '@components/PostImage';
+import PostVideo from '@components/PostVideo';
 import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
@@ -16,6 +17,7 @@ import BookRead from '@components/BookRead';
 
 const components = {
     PostImage,
+    PostVideo,
     EmbeddedTweet,
     TableOfContents,
     TableOfContentsPage,
