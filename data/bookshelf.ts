@@ -18,6 +18,14 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'The Passion Economy: The New Rules for Thriving in the Twenty-First Century',
+                    author: 'Adam Davidson',
+                    cover: 'passioneconomy.jpg',
+                    link: 'https://bookshop.org/books/the-passion-economy-the-new-rules-for-thriving-in-the-twenty-first-century/9780804172776',
+                    rating: 3,
+                    thoughts: "This book wasn't quite what I expected it to be, though looking back at it, I'm not entirely sure what I was expecting. It was still an interesting take on succeeding as a smaller business in the present day economy.",
+                },
+                {
                     title: 'Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market',
                     author: 'Scott Patterson',
                     cover: 'darkpools.jpg',
