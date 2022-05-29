@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'April 2022',
     reading: [
         {
-            title: 'The Passion Economy: The New Rules for Thriving in the Twenty-First Century',
-            author: 'Adam Davidson',
-            cover: 'passioneconomy.jpg',
-            link: 'https://bookshop.org/books/the-passion-economy-the-new-rules-for-thriving-in-the-twenty-first-century/9780804172776',
+            title: 'Project Hail Mary',
+            author: 'Andy Weir',
+            cover: 'projecthailmary.jpg',
+            link: 'https://bookshop.org/books/project-hail-mary/9780593135204',
             rating: null,
             thoughts: null,
         },
@@ -22,20 +22,20 @@ const current: CurrentlyDoing = {
     ],
     watching: [
         {
-            title: 'Star Trek: Enterprise',
-            cover: 'startrekenterprise.jpg',
+            title: 'The Expanse',
+            cover: 'expanse.jpg',
         },
         {
-            title: 'Halo',
-            cover: 'halo.jpg',
+            title: 'Obi-Wan Kenobi',
+            cover: 'kenobi.jpg',
         },
         {
-            title: 'Star Trek: Picard',
-            cover: 'picard.jpg',
+            title: 'Star Trek: Strange New Worlds',
+            cover: 'strangenewworlds.jpg',
         },
         {
-            title: 'Challenger: Final Flight',
-            cover: 'challengerfinalflight.jpg',
+            title: 'Designated Survivor',
+            cover: 'designatedsurvivor.jpg',
         },
     ],
     playing: [
@@ -46,10 +46,16 @@ const current: CurrentlyDoing = {
             link: 'https://www.bungie.net/7/en/Destiny/WitchQueen',
         },
         {
-            title: 'Mass Effect',
-            system: 'Xbox Series X',
-            cover: 'masseffect.jpg',
-            link: 'https://www.ea.com/games/mass-effect/mass-effect-legendary-edition',
+            title: 'Lego Star Wars: The Skywalker Saga',
+            system: 'PS5',
+            cover: 'legostarwars.jpg',
+            link: 'https://www.playstation.com/en-us/games/lego-star-wars-the-skywalker-saga/',
+        },
+        {
+            title: 'Super Mario Odyssey',
+            system: 'Nintendo Switch',
+            cover: 'marioodyssey.jpg',
+            link: 'https://www.nintendo.com/store/products/super-mario-odyssey-switch/',
         },
     ],
 };
