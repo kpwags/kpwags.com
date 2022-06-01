@@ -1,15 +1,14 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import { ThemeProvider } from 'styled-components';
 import { AppProps } from 'next/app';
 import { BlogContext } from '@contexts/BlogContext';
 import { useTheme, ThemeMode, FontOptions } from '@lib/useTheme';
-import { GlobalStyles } from '@lib/GlobalStyles';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 
 import '../styles/fonts.css';
+import '../styles/kpwags.css';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
     const {
@@ -66,24 +65,19 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                     </>
                 ) : null}
             </Head>
-            {themeLoaded && (
-                <BlogContext.Provider
-                    value={{
-                        currentTheme: selectedTheme,
-                        changeThemeMode,
-                        changeFont,
-                    }}
-                >
-                    <ThemeProvider theme={selectedTheme}>
-                        <GlobalStyles />
-                        <div style={{ fontFamily: selectedTheme.fonts.primary }}>
-                            <Header />
-                            <Component {...pageProps} />
-                            <Footer />
-                        </div>
-                    </ThemeProvider>
-                </BlogContext.Provider>
-            )}
+            <BlogContext.Provider
+                value={{
+                    currentTheme: selectedTheme,
+                    changeThemeMode,
+                    changeFont,
+                }}
+            >
+                <main>
+                    <Header />
+                    <Component {...pageProps} />
+                    <Footer />
+                </main>
+            </BlogContext.Provider>
         </>
     );
 }

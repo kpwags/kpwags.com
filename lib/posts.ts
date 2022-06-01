@@ -52,6 +52,7 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
             hasEmbeddedTweet: false,
             tags,
             content: html,
+            contentImage: data.contentImage,
         };
     });
 
