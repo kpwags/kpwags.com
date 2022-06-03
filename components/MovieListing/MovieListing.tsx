@@ -53,11 +53,15 @@ const Item = styled.div`
         }
     }
 
+    a {
+        font-size: 1.4rem;
+    }
+
     .dateWatched {
         font-style: italic;
         margin: 5px 0;
         font-size: 1.05rem;
-        color: ${({ theme }) => theme.colors.darkGray};
+        color: var(--grey-2);
     }
 
     .viewThoughts {
@@ -71,13 +75,13 @@ const Item = styled.div`
             padding: 0 !important;
             font: inherit;
             cursor: pointer;
-            color: ${({ theme }) => theme.colors.blue};
+            color: var(--green-1);
         }
 
         .thoughts {
             line-height: 1.5;
             margin: 10px 0;
-            border: 1px solid ${({ theme }) => theme.colors.mediumBlue};
+            border: 1px solid var(--green-2);
             padding: 10px;
             border-radius: 6px;
             background: rgba(200, 200, 200, 0.2);

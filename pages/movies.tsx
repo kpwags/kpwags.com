@@ -67,36 +67,33 @@ type MoviesProps = {
 };
 
 const Movies = ({ movies }: MoviesProps): JSX.Element => (
-    <>
+    <Container>
         <Head><title>Movies - Keith Wagner</title></Head>
-        <main className="full-width">
-            <Container>
-                <h1>Movies I&apos;ve Watched</h1>
 
-                <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the movies I&apos;ve watched more recently.</p>
+        <h1>Movies I&apos;ve Watched</h1>
 
-                <p className="notes">Most recent at top.</p>
+        <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the movies I&apos;ve watched more recently.</p>
 
-                <p className="lastUpdate">
-                    Last Updated:
-                    {' '}
-                    {movies.lastUpdate}
-                </p>
+        <p className="notes">Most recent at top.</p>
 
-                {movies.years.map((year) => (
-                    <div key={year.year}>
-                        <h2>{year.year}</h2>
+        <p className="lastUpdate">
+            Last Updated:
+            {' '}
+            {movies.lastUpdate}
+        </p>
 
-                        <Grid>
-                            {year.movies.map((movie) => (
-                                <MovieListing movie={movie} key={movie.cover} />
-                            ))}
-                        </Grid>
-                    </div>
-                ))}
-            </Container>
-        </main>
-    </>
+        {movies.years.map((year) => (
+            <div key={year.year}>
+                <h2>{year.year}</h2>
+
+                <Grid>
+                    {year.movies.map((movie) => (
+                        <MovieListing movie={movie} key={movie.cover} />
+                    ))}
+                </Grid>
+            </div>
+        ))}
+    </Container>
 );
 
 export default Movies;

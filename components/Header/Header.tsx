@@ -1,8 +1,102 @@
 /* eslint-disable max-len */
+import styled from 'styled-components';
 import Link from 'next/link';
 
+const Hdr = styled.header`
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    @media all and (max-width: 809px) {
+        line-height: 1.5;
+        padding: 10px 0;
+        height: auto;
+        text-align: center;
+        margin-bottom: 0;
+        display: block;
+    }
+
+    div.site-title {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        padding: 0 25px 0 10px;
+        font-weight: 900;
+
+        @media all and (max-width: 809px) {
+            margin-bottom: 15px;
+            padding: 0 10px;
+        }
+
+        a {
+            color: var(--black-2);
+            font-weight: 400;
+            font-size: 1.7rem;
+            letter-spacing: 0.08rem;
+            white-space: nowrap;
+
+            &:hover {
+                color: var(--green-2);
+                text-decoration: none;
+            }
+        }
+    }
+
+    nav {
+        display: block;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        justify-self: end;
+
+        a {
+            padding: 0 14px;
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: var(--black-2);
+            white-space: nowrap;
+
+            @media all and (max-width: 809px) {
+                padding: 0 10px;
+            }
+
+            &:visited {
+                padding: 0 14px;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: var(--black-2);
+                white-space: nowrap;
+            }
+
+            &:hover {
+                color: var(--green-2);
+                text-decoration: none;
+
+                svg path {
+                    fill: var(--green-2)
+                }
+            }
+
+            svg#rss-svg {
+                max-height: 1.2rem;
+                max-width: 1.2rem;
+                vertical-align: middle;
+                display: inline;
+
+                path {
+                    fill: var(--black-2);
+                }
+            }
+        }
+    }
+`;
+
 const Header = (): JSX.Element => (
-    <header>
+    <Hdr>
         <div className="site-title">
             <Link aria-label="Home" href="/"><a>Keith Wagner</a></Link>
         </div>
@@ -20,13 +114,7 @@ const Header = (): JSX.Element => (
                     </svg>
                 </a>
             </Link>
-            {/* <LightDarkSwitch
-                className="hide-on-mobile"
-                onClick={() => {
-                    changeMode();
-                }}
-            /> */}
         </nav>
-    </header>
+    </Hdr>
 );
 export default Header;

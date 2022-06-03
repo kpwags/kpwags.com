@@ -68,7 +68,7 @@ const BooksRead: BookList = {
                 },
                 {
                     title: 'Leviathan Falls',
-                    author: 'James S.A. Corey',
+                    author: 'James S. A. Corey',
                     cover: 'leviathanfalls.jpg',
                     link: 'https://bookshop.org/books/leviathan-falls-9781705024997/9780316332910',
                     rating: 4,

@@ -12,11 +12,20 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'January 2022',
+    lastUpdate: 'May 2022',
     years: [
         {
             year: '2022',
             movies: [
+                {
+                    title: '42',
+                    cover: '42.jpg',
+                    link: 'https://www.imdb.com/title/tt0453562/',
+                    dateWatched: 'May 24, 2022',
+                    rating: 4,
+                    thoughts:
+                        'I had been meaning to watch this for a long time. I enjoyed it tremendously. Chadwick Boseman does a fantastic job as Jackie Robinson',
+                },
                 {
                     title: "Don't Look Up",
                     cover: 'dontlookup.jpg',

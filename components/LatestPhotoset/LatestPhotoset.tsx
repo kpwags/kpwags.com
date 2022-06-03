@@ -1,7 +1,105 @@
 import Link from 'next/link';
+import styled from 'styled-components';
+
+const LatestPhotosetSection = styled.section`
+    margin: 5rem 0;
+
+    div.heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        div.link {
+            text-align: right;
+
+            @media all and (max-width: 450px) {
+                display: none;
+            }
+        }
+
+        @media all and (max-width: 450px) {
+            display: block;
+        }
+    }
+
+    div.mobile-link {
+        text-align: center;
+        display: none;
+        font-size: 1.2rem;
+        margin: 15px 0 0;
+
+        @media all and (max-width: 450px) {
+            display: block;
+        }
+    }
+
+    h2 {
+        margin-bottom: 12px;
+    }
+
+    div.photoset {
+        border-radius: 10px;
+        background-image: linear-gradient(
+            145deg,
+            hsl(0deg 0% 91%) 0%,
+            hsl(344deg 0% 91%) 11%,
+            hsl(344deg 0% 90%) 22%,
+            hsl(344deg 0% 89%) 33%,
+            hsl(344deg 0% 88%) 44%,
+            hsl(344deg 0% 88%) 56%,
+            hsl(344deg 0% 87%) 67%,
+            hsl(344deg 0% 86%) 78%,
+            hsl(344deg 0% 86%) 89%,
+            hsl(0deg 0% 85%) 100%
+        );
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 25px;
+        grid-row-gap: 0px;
+
+        @media all and (max-width: 450px) {
+            display: block;
+        }
+
+        div.image {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            background-position: 50% 50%;
+
+            @media all and (max-width: 450px) {
+                min-height: 300px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 0;
+            }
+        }
+
+        div.content {
+            padding: 20px 20px 20px 0;
+
+            @media all and (max-width: 450px) {
+                padding: 12px;
+            }
+
+            h3 {
+                font-size: 1.6rem;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+`;
 
 const LatestPhotoset = (): JSX.Element => (
-    <section className="latest-photoset">
+    <LatestPhotosetSection>
         <div className="heading">
             <h2>Latest Photoset</h2>
             <div className="link">
@@ -28,7 +126,7 @@ const LatestPhotoset = (): JSX.Element => (
         <div className="mobile-link">
             <Link href="/photography"><a>View More</a></Link>
         </div>
-    </section>
+    </LatestPhotosetSection>
 );
 
 export default LatestPhotoset;

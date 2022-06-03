@@ -5,27 +5,8 @@ import { GetStaticProps } from 'next';
 import BookListing from '@components/BookListing';
 
 const Container = styled.div`
-    margin: 50px auto 30px auto;
-
-    @media all and (max-width: 900px) {
-        width: 600px;
-    }
-
-    @media all and (max-width: 767px) {
-        width: 100%;
-        margin: 25px 0;
-    }
-
-    h1 {
-        @media all and (max-width: 767px) {
-            font-size: 1.8rem;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    }
-
     h2 {
-        margin: 25px 0 20px;
+        margin: 3rem 0 2rem 0;
     }
 
     p {
@@ -67,38 +48,33 @@ type BookshelfProps = {
 };
 
 const Bookshelf = ({ books }: BookshelfProps): JSX.Element => (
-    <>
+    <Container>
         <Head><title>Bookshelf - Keith Wagner</title></Head>
-        <main className="full-width">
-            <Container>
-                <h1>My Bookshelf</h1>
 
-                <p className="notes">Most recent at top.</p>
+        <h1>My Bookshelf</h1>
 
-                <p className="lastUpdate">
-                    Last Updated:
-                    {' '}
-                    {books.lastUpdate}
-                </p>
+        <p className="lastUpdate">
+            Last Updated:
+            {' '}
+            {books.lastUpdate}
+        </p>
 
-                {books.years.map((year) => (
-                    <div key={year.year}>
-                        <h2>{year.year}</h2>
+        {books.years.map((year) => (
+            <div key={year.year}>
+                <h2>{year.year}</h2>
 
-                        <Grid>
-                            {year.books.map((book) => (
-                                <BookListing
-                                    book={book}
-                                    key={book.cover}
-                                    includeReview
-                                />
-                            ))}
-                        </Grid>
-                    </div>
-                ))}
-            </Container>
-        </main>
-    </>
+                <Grid>
+                    {year.books.map((book) => (
+                        <BookListing
+                            book={book}
+                            key={book.cover}
+                            includeReview
+                        />
+                    ))}
+                </Grid>
+            </div>
+        ))}
+    </Container>
 );
 
 export default Bookshelf;

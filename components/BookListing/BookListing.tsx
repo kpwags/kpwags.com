@@ -14,10 +14,6 @@ const Item = styled.div`
     vertical-align: top;
     line-height: 1.3;
 
-    @media all and (max-width: 1023px) {
-        width: 150px;
-    }
-
     @media all and (max-width: 767px) {
         text-align: left;
         font-size: 1.3rem;
@@ -28,16 +24,12 @@ const Item = styled.div`
 
     img.cover {
         border: 1px solid #bcbcbc;
-        margin: 0 auto 5px;
-        max-height:300px;
+        margin: 0 auto 1rem;
         display: block;
+        height: 300px;
 
         :hover {
             animation: pulse-animation 2s infinite;
-        }
-
-        @media all and (max-width: 1023px) {
-            max-height: 100px;
         }
 
         @media all and (max-width: 767px) {
@@ -54,6 +46,16 @@ const Item = styled.div`
         }
     }
 
+    a {
+        font-size: 1.25rem;
+    }
+
+    .author {
+        margin: 0.6rem 0;
+        color: var(--grey-2);
+        font-style: italic;
+    }
+
     .viewThoughts {
         margin: 8px 0;
         font-size: 1.05rem;
@@ -65,13 +67,13 @@ const Item = styled.div`
             padding: 0 !important;
             font: inherit;
             cursor: pointer;
-            color: ${({ theme }) => theme.colors.blue};
+            color: var(--green-1);
         }
 
         .thoughts {
             line-height: 1.5;
             margin: 10px 0;
-            border: 1px solid ${({ theme }) => theme.colors.mediumBlue};
+            border: 1px solid var(--green-2);
             padding: 10px;
             border-radius: 6px;
             background: rgba(200, 200, 200, 0.2);
@@ -94,6 +96,8 @@ const BookListing = ({ book, includeReview = false }: BookListingProps): JSX.Ele
             <a href={book.link} target="_blank" rel="noreferrer">
                 {book.title}
             </a>
+
+            <div className="author">{book.author}</div>
 
             {includeReview && book.rating !== null && (
                 <>
