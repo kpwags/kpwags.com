@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
 import styled from 'styled-components';
 import Prism from 'prismjs';
-import { BlogPost } from '@models/blogPost';
+import { BlogPost } from '@models/BlogPost';
 import { formatDate } from '@lib/utilities';
 import { BlogTag } from '@models/BlogTag';
 import Utterances from '@components/Utterances';
@@ -25,9 +25,7 @@ import 'prismjs/components/prism-sql';
 import 'prismjs/components/prism-tsx';
 import 'prismjs/components/prism-typescript';
 import 'prismjs/components/prism-yaml';
-import 'prismjs/plugins/line-numbers/prism-line-numbers';
-import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
-import 'prism-themes/themes/prism-night-owl.css';
+import 'prism-themes/themes/prism-material-dark.css';
 
 const components = {
     PostImage,
@@ -58,28 +56,27 @@ const Post = styled.article`
         margin: 5px 0;
         font-style: italic;
         font-size: 1.2rem;
-        color: ${({ theme }) => theme.colors.darkGray};
-        font-family: ${({ theme }) => theme.fonts.primary};
-        font-weight: 100;
+        color: var(--black-3);
+        font-weight: 300;
     }
 
     blockquote {
-        border-left: 4px solid ${({ theme }) => theme.colors.blue};
+        border-left: 8px solid var(--green-1);
         padding-left: 40px;
         margin: 30px 0;
 
         p {
-            font-family: ${({ theme }) => theme.fonts.alternate};
-            font-size: 1.5rem;
+            font-family: var(--alternate-font);
+            font-size: 2rem;
             font-style: italic;
-            color: ${({ theme }) => theme.colors.mediumBlue};
+            color: var(--green-2);
         }
 
         @media all and (max-width: 800px) {
             padding-left: 20px;
 
             p {
-                font-size: 1.2rem;
+                font-size: 1.5rem;
             }
         }
     }
@@ -100,18 +97,18 @@ const Post = styled.article`
         }
 
         img.shadowed {
-            box-shadow: ${({ theme }) => theme.boxShadow};
+            box-shadow: var(--box-shadow);
         }
 
         .credit {
             margin: 10px 0;
-            color: hsl(0, 0%, 60%);
+            color: var(--grey-1);
         }
 
         .caption {
             margin: 15px 0 10px 0;
             font-style: italic;
-            color: hsl(0, 0%, 51%);
+            color: var(--grey-1);
         }
     }
 
@@ -124,22 +121,21 @@ const Post = styled.article`
     }
 
     p {
-        font-family: ${({ theme }) => theme.fonts.primary};
         font-size: 1.5rem;
         font-weight: 300;
 
         a {
             font-weight: normal;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 
     .domain-name {
         font-style: italic;
-        color: hsl(0, 1%, 60%);
-
-        @media (prefers-color-scheme: light) {
-            color: hsl(0, 0%, 50%);
-        }
+        color: var(--meta);
     }
 
     .content {
@@ -158,15 +154,19 @@ const Post = styled.article`
 const TagList = styled.ul`
     margin: 36px 0 20px;
     padding: 0;
+    width: 100%;
 `;
 
 const Tag = styled.li`
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     padding: 0 30px 0 0;
+    line-height: 2;
     text-transform: uppercase;
-    font-family: ${({ theme }) => theme.fonts.variable};
 
+    a {
+        white-space: nowrap;
+    }
 `;
 
 interface PostTagsProps {

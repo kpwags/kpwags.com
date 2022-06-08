@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styled from 'styled-components';
 import BooksRead, { BookList } from '@data/bookshelf';
 import { GetStaticProps } from 'next';
-import BookListing from '@components/BookListing';
+import MediaListing from '@components/MediaListing';
 
 const Container = styled.div`
     h2 {
@@ -65,8 +65,8 @@ const Bookshelf = ({ books }: BookshelfProps): JSX.Element => (
 
                 <Grid>
                     {year.books.map((book) => (
-                        <BookListing
-                            book={book}
+                        <MediaListing
+                            media={book}
                             key={book.cover}
                             includeReview
                         />

@@ -3,9 +3,11 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { BlogContext } from '@contexts/BlogContext';
-import { useTheme, ThemeMode, FontOptions } from '@lib/useTheme';
+import { useTheme } from '@hooks/useTheme';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
+import Theme from '@models/theme';
 
 import '../styles/fonts.css';
 import '../styles/kpwags.css';
@@ -14,23 +16,18 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     const {
         theme,
         themeLoaded,
-        setMode,
-        setFont,
+        changeTheme,
     } = useTheme();
-    const [selectedTheme, setSelectedTheme] = useState(theme);
+
+    const [selectedTheme, setSelectedTheme] = useState<Theme>(theme);
 
     useEffect(() => {
         setSelectedTheme(theme);
     }, [themeLoaded]);
 
-    const changeThemeMode = (t: ThemeMode) => {
-        const newTheme = setMode(t);
-        setSelectedTheme(newTheme);
-    };
-
-    const changeFont = (f: FontOptions) => {
-        const newTheme = setFont(f);
-        setSelectedTheme(newTheme);
+    const toggleTheme = (t: Theme) => {
+        changeTheme(t);
+        setSelectedTheme(t);
     };
 
     return (
@@ -68,8 +65,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
             <BlogContext.Provider
                 value={{
                     currentTheme: selectedTheme,
-                    changeThemeMode,
-                    changeFont,
+                    changeTheme: toggleTheme,
                 }}
             >
                 <main>

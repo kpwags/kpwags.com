@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styled from 'styled-components';
 import MoviesWatched, { MovieList } from '@data/movies';
 import { GetStaticProps } from 'next';
-import MovieListing from '@components/MovieListing';
+import MediaListing from '@components/MediaListing';
 
 const Container = styled.div`
     margin: 50px auto 30px auto;
@@ -88,7 +88,11 @@ const Movies = ({ movies }: MoviesProps): JSX.Element => (
 
                 <Grid>
                     {year.movies.map((movie) => (
-                        <MovieListing movie={movie} key={movie.cover} />
+                        <MediaListing
+                            media={movie}
+                            key={movie.cover}
+                            includeReview
+                        />
                     ))}
                 </Grid>
             </div>

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { Feed, Item } from 'feed';
-import { getPostsForRssFeed } from '@lib/posts';
+import Posts from '@lib/Posts';
 import { MDXRemote } from 'next-mdx-remote';
 import { ThemeProvider } from 'styled-components';
 import ReactDOMServer from 'react-dom/server';
@@ -25,7 +25,7 @@ const components = {
 };
 
 const getPosts = async (): Promise<Item[]> => {
-    const posts = await getPostsForRssFeed();
+    const posts = await Posts.GetPostsForRssFeed();
 
     const items: Item[] = [];
 

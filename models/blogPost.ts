@@ -4,6 +4,7 @@ export interface BlogPost {
     id: string
     title: string
     date: Date
+    isRssOnly?: boolean
     excerpt?: string
     url?: string
     content?: string

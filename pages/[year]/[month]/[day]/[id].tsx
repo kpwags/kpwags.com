@@ -1,11 +1,11 @@
 import { GetStaticProps, GetStaticPaths } from 'next';
-import { getAllPostIds, getPostData } from '@lib/posts';
-import { BlogPost } from '@models/blogPost';
+import Posts from '@lib/Posts';
+import { BlogPost } from '@models/BlogPost';
 import BlogEntry from '@components/BlogEntry';
 import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = getAllPostIds();
+    const paths = Posts.GetAllPostIds();
 
     return {
         paths,
@@ -14,7 +14,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-    const blogPost = await getPostData({
+    const blogPost = await Posts.GetPostData({
         year: params.year.toString(),
         month: params.month.toString(),
         day: params.day.toString(),

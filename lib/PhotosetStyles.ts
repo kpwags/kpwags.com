@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 export const Photoset = styled.main`
-    width: min(100ch, 100vw - 2rem);
-        margin: 0 auto;
-        padding: 0 10px;
+    padding: 0 10px;
 
     .meta {
         margin: 8px 0 25px;

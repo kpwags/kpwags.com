@@ -39,19 +39,7 @@ const LatestPhotosetSection = styled.section`
 
     div.photoset {
         border-radius: 10px;
-        background-image: linear-gradient(
-            145deg,
-            hsl(0deg 0% 91%) 0%,
-            hsl(344deg 0% 91%) 11%,
-            hsl(344deg 0% 90%) 22%,
-            hsl(344deg 0% 89%) 33%,
-            hsl(344deg 0% 88%) 44%,
-            hsl(344deg 0% 88%) 56%,
-            hsl(344deg 0% 87%) 67%,
-            hsl(344deg 0% 86%) 78%,
-            hsl(344deg 0% 86%) 89%,
-            hsl(0deg 0% 85%) 100%
-        );
+        background-image: var(--grey-gradient);
         display: grid;
         grid-template-columns: 2fr 3fr;
         grid-template-rows: 1fr;

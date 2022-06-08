@@ -1,5 +1,6 @@
 :root {
     --background: hsl(0, 0%, 100%);
+    --text: hsl(0, 0%, 15%);
     --white-1: hsl(0, 0%, 100%);
     --white-2: hsl(0, 0%, 90%);
     --black-1: hsl(0, 0%, 9%);
@@ -8,9 +9,167 @@
     --grey-1: hsl(0, 0%, 69%);
     --grey-2: hsl(0, 0%, 39%);
     --font: WorkSans, Helvetica, Arial, sans-serif;
+    --alternate-font: Petrona, Georgia, Times New Roman, serif;
     --green-1: hsl(144, 100%, 15%);
     --green-2: rgb(24, 124, 61);
     --green-3: hsl(124, 95%, 32%);
+    --box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+    --meta: hsl(0, 0%, 20%);
+    --green-gradient: linear-gradient(
+        45deg,
+        hsl(124deg 95% 32%) 0%,
+        hsl(128deg 100% 29%) 11%,
+        hsl(131deg 100% 27%) 22%,
+        hsl(133deg 100% 26%) 33%,
+        hsl(135deg 100% 24%) 44%,
+        hsl(137deg 100% 22%) 56%,
+        hsl(139deg 100% 20%) 67%,
+        hsl(141deg 100% 19%) 78%,
+        hsl(142deg 100% 17%) 89%,
+        hsl(144deg 100% 15%) 100%
+    );
+    --grey-gradient: linear-gradient(
+        145deg,
+        hsl(0deg 0% 91%) 0%,
+        hsl(344deg 0% 91%) 11%,
+        hsl(344deg 0% 90%) 22%,
+        hsl(344deg 0% 89%) 33%,
+        hsl(344deg 0% 88%) 44%,
+        hsl(344deg 0% 88%) 56%,
+        hsl(344deg 0% 87%) 67%,
+        hsl(344deg 0% 86%) 78%,
+        hsl(344deg 0% 86%) 89%,
+        hsl(0deg 0% 85%) 100%
+    );
+    --welcome-button-bg: var(--white-2);
+    --welcome-button-text: var(--green-1);
+    --welcome-button-border: var(--white-2);
+    --welcome-button-hover-bg: var(--green-3);
+    --welcome-button-hover-text: var(--white-2);
+    --welcome-button-hover-border: var(--green-1);
+    --photoset-list-bg: var(--white-2);
+    --photoset-list-hover-bg: var(--grey-1);
+    --display-light-mode: inline;
+    --display-dark-mode: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: rgb(52, 52, 52);
+        --text: hsl(0, 0%, 94%);
+        --green-1: hsl(124, 95%, 32%);
+        --green-2: hsl(124, 95%, 32%);
+        --meta: hsl(0, 0%, 69%);
+        --grey-gradient: linear-gradient(
+            145deg,
+            hsl(0deg 0% 11%) 0%,
+            hsl(344deg 0% 14%) 11%,
+            hsl(344deg 0% 17%) 22%,
+            hsl(344deg 0% 19%) 33%,
+            hsl(344deg 0% 22%) 44%,
+            hsl(344deg 0% 25%) 56%,
+            hsl(344deg 0% 28%) 67%,
+            hsl(344deg 0% 31%) 78%,
+            hsl(344deg 0% 34%) 89%,
+            hsl(0deg 0% 37%) 100%
+        );
+        --welcome-button-bg: hsl(0, 0%, 15%);
+        --welcome-button-text: hsl(0, 0%, 94%);
+        --welcome-button-border: hsl(0, 0%, 15%);
+        --welcome-button-hover-bg: hsl(124, 95%, 32%);
+        --welcome-button-hover-text: hsl(0, 0%, 15%);
+        --welcome-button-hover-border: hsl(144, 100%, 15%);
+        --photoset-list-bg: hsl(0, 0%, 36%);
+        --photoset-list-hover-bg: hsl(0, 0%, 15%);
+        --display-light-mode: none;
+        --display-dark-mode: inline;
+    }
+}
+
+[data-theme='dark'] {
+    --background: rgb(52, 52, 52);
+    --text: hsl(0, 0%, 94%);
+    --green-1: hsl(124, 95%, 32%);
+    --green-2: hsl(124, 95%, 32%);
+    --meta: hsl(0, 0%, 69%);
+    --grey-gradient: linear-gradient(
+        145deg,
+        hsl(0deg 0% 11%) 0%,
+        hsl(344deg 0% 14%) 11%,
+        hsl(344deg 0% 17%) 22%,
+        hsl(344deg 0% 19%) 33%,
+        hsl(344deg 0% 22%) 44%,
+        hsl(344deg 0% 25%) 56%,
+        hsl(344deg 0% 28%) 67%,
+        hsl(344deg 0% 31%) 78%,
+        hsl(344deg 0% 34%) 89%,
+        hsl(0deg 0% 37%) 100%
+    );
+    --welcome-button-bg: hsl(0, 0%, 15%);
+    --welcome-button-text: hsl(0, 0%, 94%);
+    --welcome-button-border: hsl(0, 0%, 15%);
+    --welcome-button-hover-bg: hsl(124, 95%, 32%);
+    --welcome-button-hover-text: hsl(0, 0%, 15%);
+    --welcome-button-hover-border: hsl(144, 100%, 15%);
+    --photoset-list-bg: hsl(0, 0%, 36%);
+    --photoset-list-hover-bg: hsl(0, 0%, 15%);
+    --display-light-mode: none;
+    --display-dark-mode: inline;
+}
+
+[data-theme='light'] {
+    --background: hsl(0, 0%, 100%);
+    --text: hsl(0, 0%, 15%);
+    --white-1: hsl(0, 0%, 100%);
+    --white-2: hsl(0, 0%, 90%);
+    --black-1: hsl(0, 0%, 9%);
+    --black-2: hsl(0, 0%, 15%);
+    --black-3: hsl(0, 0%, 20%);
+    --grey-1: hsl(0, 0%, 69%);
+    --grey-2: hsl(0, 0%, 39%);
+    --font: WorkSans, Helvetica, Arial, sans-serif;
+    --alternate-font: Petrona, Georgia, Times New Roman, serif;
+    --green-1: hsl(144, 100%, 15%);
+    --green-2: rgb(24, 124, 61);
+    --green-3: hsl(124, 95%, 32%);
+    --box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+    --meta: hsl(0, 0%, 20%);
+    --green-gradient: linear-gradient(
+        45deg,
+        hsl(124deg 95% 32%) 0%,
+        hsl(128deg 100% 29%) 11%,
+        hsl(131deg 100% 27%) 22%,
+        hsl(133deg 100% 26%) 33%,
+        hsl(135deg 100% 24%) 44%,
+        hsl(137deg 100% 22%) 56%,
+        hsl(139deg 100% 20%) 67%,
+        hsl(141deg 100% 19%) 78%,
+        hsl(142deg 100% 17%) 89%,
+        hsl(144deg 100% 15%) 100%
+    );
+    --grey-gradient: linear-gradient(
+        145deg,
+        hsl(0deg 0% 91%) 0%,
+        hsl(344deg 0% 91%) 11%,
+        hsl(344deg 0% 90%) 22%,
+        hsl(344deg 0% 89%) 33%,
+        hsl(344deg 0% 88%) 44%,
+        hsl(344deg 0% 88%) 56%,
+        hsl(344deg 0% 87%) 67%,
+        hsl(344deg 0% 86%) 78%,
+        hsl(344deg 0% 86%) 89%,
+        hsl(0deg 0% 85%) 100%
+    );
+    --welcome-button-bg: var(--white-2);
+    --welcome-button-text: var(--green-1);
+    --welcome-button-border: var(--white-2);
+    --welcome-button-hover-bg: var(--green-3);
+    --welcome-button-hover-text: var(--white-2);
+    --welcome-button-hover-border: var(--green-1);
+    --photoset-list-bg: var(--white-2);
+    --photoset-list-hover-bg: var(--grey-1);
+    --display-light-mode: inline;
+    --display-dark-mode: none;
 }
 
 /* --- CSS Reset --- */
@@ -79,7 +238,7 @@ ul {
 html,
 body {
     background-color: var(--background);
-    color: var(--black-2);
+    color: var(--text);
     font-size: 100%;
     font-family: var(--font);
     padding: 0;
@@ -90,6 +249,7 @@ main {
     width: min(100ch, 100vw - 2rem);
     margin: 0 auto;
     padding: 0 10px;
+    max-width: 100%;
 }
 
 h1 {
@@ -158,13 +318,66 @@ div.cover.about {
     margin: 0.75rem 0 1.5rem;
 }
 
-@media all and (max-width: 809px) {
+.twitter-tweet-rendered {
+    margin: 30px auto !important;
+}
+
+.utterances-frame {
+    position: relative;
+}
+
+.utterances {
+    max-width: 100%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.pagination {
+    text-align: center;
+    list-style: none;
+}
+
+.pagination li {
+    display: inline;
+    padding: 0 25px;
+}
+
+.pagination .paginate-next-a,
+.pagination .paginate-prev-a {
+    color: var(--green-1);
+    margin: 0 0.3rem;
+}
+
+.pagination .paginate-next-a:hover,
+.pagination .paginate-prev-a:hover {
+    color: var(--green-2);
+}
+
+.pagination .break {
+    display: none;
+}
+
+.pagination .paginate-active {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media all and (max-width: 810px) {
     h2 {
         font-size: 1.75rem;
     }
 
     div.cover {
         min-height: 300px
+    }
+
+    .hide-on-tablet {
+        display: none;
     }
 }
 

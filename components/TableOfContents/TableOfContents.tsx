@@ -15,7 +15,7 @@ const ToC = styled.nav`
     width: 220px;
 
     a {
-        color: ${({ theme }) => theme.colors.text};
+        color: var(--text);
         text-decoration: none;
     }
 
@@ -38,11 +38,11 @@ const ToC = styled.nav`
     }
 
     li.active > a {
-        color: ${({ theme }) => theme.colors.blue};
+        color: var(--green-1);
     }
 
     li > a:hover {
-        color: ${({ theme }) => theme.colors.blue};
+        color: var(--green-2);
     }
 
     @media all and (max-width: 600px) {

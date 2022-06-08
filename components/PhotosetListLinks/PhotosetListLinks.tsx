@@ -1,15 +1,19 @@
 import styled from 'styled-components';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const PhotosetList = styled.ul`
     margin: 25px 0;
     padding: 15px;
-    background: ${({ theme }) => theme.colors.photoListBackground};
+    background: var(--photoset-list-bg);
 `;
 
 const Photoset = styled.li`
     list-style-type: none;
+    margin: 0 0 15px 0;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 
     a {
         display: grid;
@@ -17,10 +21,9 @@ const Photoset = styled.li`
         grid-column-gap: 20px;
         grid-row-gap: 0px;
         line-height: 1;
-        margin: 0 0 15px 0;
 
         &:hover {
-            background: ${({ theme }) => theme.colors.photoListBackgroundHover};
+            background: var(--photoset-list-hover-bg);
             text-decoration: none;
         }
 
@@ -33,7 +36,7 @@ const Photoset = styled.li`
 
             h2 {
                 margin-bottom: 8px;
-                color: ${({ theme }) => theme.colors.blue};
+                color: var(--green-1);
 
                 @media all and (max-width: 1023px) {
                     font-size: 1.3rem;
@@ -42,12 +45,12 @@ const Photoset = styled.li`
 
             .date {
                 margin-bottom: 8px;
-                color: ${({ theme }) => theme.colors.text};
+                color: var(--text);
             }
 
             p {
                 margin: 0;
-                color: ${({ theme }) => theme.colors.text};
+                color: var(--text);
             }
         }
     }
@@ -72,11 +75,10 @@ const PhotosetListLinks = ({ photosets }: PhotosetListLinksProps): JSX.Element =
                 <Link href={p.link}>
                     <a>
                         <div className="photoset-thumbnail">
-                            <Image
+                            <img
                                 src={p.thumbnailSrc}
                                 alt={`${p.name} (${p.date})`}
-                                width={p.width}
-                                height={p.height}
+                                width="100%"
                             />
                         </div>
                         <div className="photoset-info">

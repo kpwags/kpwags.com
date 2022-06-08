@@ -4,19 +4,7 @@ import styled from 'styled-components';
 const WelcomeSection = styled.section`
     width: 100%;
     border-radius: 10px;
-    background-image: linear-gradient(
-        45deg,
-        hsl(124deg 95% 32%) 0%,
-        hsl(128deg 100% 29%) 11%,
-        hsl(131deg 100% 27%) 22%,
-        hsl(133deg 100% 26%) 33%,
-        hsl(135deg 100% 24%) 44%,
-        hsl(137deg 100% 22%) 56%,
-        hsl(139deg 100% 20%) 67%,
-        hsl(141deg 100% 19%) 78%,
-        hsl(142deg 100% 17%) 89%,
-        hsl(144deg 100% 15%) 100%
-    );
+    background-image: var(--green-gradient);
     padding: 40px 25px;
     margin: 3rem 0;
     color: var(--white-1);
@@ -57,14 +45,14 @@ const WelcomeSection = styled.section`
 
         a {
             display:block;
-            background-color: var(--white-2);
-            color: var(--green-1);
+            background-color: var(--welcome-button-bg);
+            color: var(--welcome-button-text);
             padding: 12px;
             align-items: center;
             text-align: center;
             border-radius: 10px;
             font-size: 1.4rem;
-            border: 1px solid var(--white-2);
+            border: 1px solid var(--welcome-button-border);
 
             @media all and (max-width: 450px) {
                 padding: 8px;
@@ -72,9 +60,9 @@ const WelcomeSection = styled.section`
             }
 
             &:hover {
-                background-color: var(--green-3);
-                color: var(--white-2);
-                border-color: var(--green-1);
+                background-color: var(--welcome-button-hover-bg);
+                color: var(--welcome-button-hover-text);
+                border-color: var(--welcome-button-hover-border);
                 text-decoration: none;
             }
         }

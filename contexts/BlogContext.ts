@@ -1,19 +1,15 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { themeDefinitions } from '@lib/themeDefinitions';
-import { FontOptions, ThemeMode } from '@lib/useTheme';
-import { Theme } from '@models/theme';
+import Theme from '@models/theme';
 import React from 'react';
 
 type BlogContextProps = {
-    currentTheme: Theme
-    changeThemeMode: (mode: ThemeMode) => void
-    changeFont: (fontStyle: FontOptions) => void
+    currentTheme: Theme;
+    changeTheme: (theme: Theme) => void
 }
 
 const BlogContext = React.createContext<BlogContextProps>({
-    currentTheme: themeDefinitions.data.light,
-    changeThemeMode: () => { },
-    changeFont: () => { },
+    currentTheme: 'light',
+    changeTheme: () => { },
 });
 
 export { BlogContext };

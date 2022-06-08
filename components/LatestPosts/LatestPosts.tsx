@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 import { formatDate } from '@lib/utilities';
-import { BlogPost } from '@models/blogPost';
+import { BlogPost } from '@models/BlogPost';
 
 const LatestPostsSection = styled.section`
     margin: 5rem 0;
@@ -46,19 +46,7 @@ const LatestPostsSection = styled.section`
 
         div.post {
             border-radius: 10px;
-            background-image: linear-gradient(
-                145deg,
-                hsl(0deg 0% 91%) 0%,
-                hsl(344deg 0% 91%) 11%,
-                hsl(344deg 0% 90%) 22%,
-                hsl(344deg 0% 89%) 33%,
-                hsl(344deg 0% 88%) 44%,
-                hsl(344deg 0% 88%) 56%,
-                hsl(344deg 0% 87%) 67%,
-                hsl(344deg 0% 86%) 78%,
-                hsl(344deg 0% 86%) 89%,
-                hsl(0deg 0% 85%) 100%
-            );
+            background-image: var(--grey-gradient);
 
             img {
                 border-top-left-radius: 10px;
@@ -83,7 +71,7 @@ const LatestPostsSection = styled.section`
             }
 
             div.datetime {
-                color: var(--black-3);
+                color: var(--text);
                 padding: 0 16px 12px;
             }
         }

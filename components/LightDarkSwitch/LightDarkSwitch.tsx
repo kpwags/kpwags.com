@@ -1,39 +1,49 @@
 /* eslint-disable max-len */
 import styled from 'styled-components';
 
+interface LightDarkSwitchProps {
+    onClick: () => void
+    className: string
+}
+
 const Switch = styled.svg`
     max-height: 1.2rem;
     vertical-align: middle;
+    cursor: pointer;
 
-    rect#togglebutton-rect {
-        stroke: ${({ theme }) => theme.colors.blue};;
+    @media all and (min-width: 450px) {
+        display: inline-block;
     }
 
     rect#togglebutton-rect {
-        stroke: ${({ theme }) => theme.colors.mediumBlue};
+        stroke: var(--green-1);
+    }
+
+    rect#togglebutton-rect {
+        stroke: var(--green-2);
     }
 
     circle#togglebutton-circle-lightmode,
     circle#togglebutton-circle-darkmode {
-        fill: ${({ theme }) => theme.colors.blue};
+        fill: var(--green-1);
     }
 
     &:hover circle#togglebutton-circle-lightmode,
     &:hover circle#togglebutton-circle-darkmode {
-        fill: ${({ theme }) => theme.colors.mediumBlue};
+        fill: var(--green-2);
     }
 
     #togglebutton-circle-lightmode {
         /* display: var(--svg-display-lightmode); */
-        display: ${({ theme }) => (theme.id.includes('light') ? 'inline' : 'none')};
+        display: var(--display-light-mode);
     }
 
     #togglebutton-circle-darkmode {
-        display: ${({ theme }) => (theme.id.includes('light') ? 'none' : 'inline')};
+        display: var(--display-dark-mode);
     }
 
     #togglebutton-star {
-        display: ${({ theme }) => (theme.id.includes('light') ? 'inline' : 'none')};
+        display: var(--display-light-mode);
     }
 
     #togglebutton-sun-ellipse,
@@ -43,14 +53,9 @@ const Switch = styled.svg`
 
     #togglebutton-moon {
         fill: #363636;
-        display: ${({ theme }) => (theme.id.includes('light') ? 'none' : 'inline')};
+        display:var(--display-dark-mode);
     }
 `;
-
-interface LightDarkSwitchProps {
-    onClick: () => void
-    className: string
-}
 
 const LightDarkSwitch = ({ onClick, className }: LightDarkSwitchProps): JSX.Element => (
     <Switch

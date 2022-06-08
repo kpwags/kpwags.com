@@ -5,17 +5,7 @@ import likes from '@data/likes';
 import { Like } from '@models/like';
 
 const Container = styled.div`
-    width: 800px;
-    margin: 50px auto 30px auto;
 
-    @media all and (max-width: 900px) {
-        width: 600px;
-    }
-
-    @media all and (max-width: 767px) {
-        width: 100%;
-        margin: 25px 0;
-    }
 `;
 
 const LikedItemsList = styled.ul`
@@ -33,7 +23,7 @@ const LikedItemsList = styled.ul`
         }
 
         div.source {
-            color: ${({ theme }) => theme.colors.darkGray};
+            color: var(--meta);
         }
     }
 `;
@@ -52,35 +42,34 @@ type LikeProps = {
 const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
     <>
         <Head><title>Likes - Keith Wagner</title></Head>
-        <main>
-            <Container>
-                <h1>
-                    Articles, Podcasts &
-                    {' '}
-                    <span>Other Likes</span>
-                </h1>
 
-                <p>
-                    I stumble into a lot of podcasts, articles, blog posts and other content around the internet.
-                    Here, I&apos;ll share the stuff that really piqued my interest.
-                </p>
+        <Container>
+            <h1>
+                Articles, Podcasts &
+                {' '}
+                <span>Other Likes</span>
+            </h1>
 
-                <LikedItemsList>
-                    {likedItems.map((item) => (
-                        <li key={item.url}>
-                            <div className="title">
-                                <a href={item.url} target="_blank" rel="noopener noreferrer">
-                                    {item.title}
-                                </a>
-                            </div>
-                            <div className="source">
-                                {item.source}
-                            </div>
-                        </li>
-                    ))}
-                </LikedItemsList>
-            </Container>
-        </main>
+            <p>
+                I stumble into a lot of podcasts, articles, blog posts and other content around the internet.
+                Here, I&apos;ll share the stuff that really piqued my interest.
+            </p>
+
+            <LikedItemsList>
+                {likedItems.map((item) => (
+                    <li key={item.url}>
+                        <div className="title">
+                            <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                {item.title}
+                            </a>
+                        </div>
+                        <div className="source">
+                            {item.source}
+                        </div>
+                    </li>
+                ))}
+            </LikedItemsList>
+        </Container>
     </>
 );
 
