@@ -1,9 +1,9 @@
-import { getAllPosts } from '@lib/Posts';
+import { getAllPosts } from '@lib/posts';
 import { GetStaticProps } from 'next';
 import Welcome from '@components/Welcome';
 import LatestPosts from '@components/LatestPosts';
 import LatestPhotoset from '@components/LatestPhotoset';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import RssFeeds from '@components/RssFeeds';
 import generateRssFeed from '@lib/rss';
 

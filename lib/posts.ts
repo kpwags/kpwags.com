@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import { BlogTag } from '@models/BlogTag';
 import { buildUrlFromId } from './utilities';
 import { postsPerPage } from './config';

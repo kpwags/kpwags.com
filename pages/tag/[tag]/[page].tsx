@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import { getPaginatedPostsForTag, getAllTagPages } from '@lib/Posts';
+import { getPaginatedPostsForTag, getAllTagPages } from '@lib/posts';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import PostListing from '@components/PostListing';
 import TagHeader from '@components/TagHeader';
 import ReactPaginate from 'react-paginate';

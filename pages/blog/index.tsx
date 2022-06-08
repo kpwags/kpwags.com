@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import { getPaginatedPosts } from '@lib/Posts';
+import { getPaginatedPosts } from '@lib/posts';
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import PostListing from '@components/PostListing';
 import RssFeeds from '@components/RssFeeds';
 

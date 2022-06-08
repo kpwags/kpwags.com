@@ -1,7 +1,7 @@
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import BlogEntry from '@components/BlogEntry';
 import { GetStaticProps, GetStaticPaths } from 'next';
-import { getAllPostIds, getPostData } from '@lib/Posts';
+import { getAllPostIds, getPostData } from '@lib/posts';
 import PageScrollIndicator from '@components/PageScrollIndicator';
 import RssFeeds from '@components/RssFeeds';
 

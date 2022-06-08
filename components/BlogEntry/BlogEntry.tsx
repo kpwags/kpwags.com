@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
 import styled from 'styled-components';
 import Prism from 'prismjs';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import { formatDate } from '@lib/utilities';
 import { BlogTag } from '@models/BlogTag';
 import Utterances from '@components/Utterances';

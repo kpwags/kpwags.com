@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import { useEffect, useState } from 'react';
-import { getAllPosts } from '@lib/Posts';
+import { getAllPosts } from '@lib/posts';
 import PostListing from '@components/PostListing';
 import { GetStaticProps } from 'next';
 import SearchForm from '@components/SearchForm';

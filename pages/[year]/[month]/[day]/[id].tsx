@@ -1,6 +1,6 @@
 import { GetStaticProps, GetStaticPaths } from 'next';
-import { getAllPostIds, getPostData } from '@lib/Posts';
-import { BlogPost } from '@models/BlogPost';
+import { getAllPostIds, getPostData } from '@lib/posts';
+import { BlogPost } from '@models/blogPost';
 import BlogEntry from '@components/BlogEntry';
 import RssFeeds from '@components/RssFeeds';
 

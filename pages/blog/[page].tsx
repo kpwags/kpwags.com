@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
-import { getPaginatedPosts, getPostPages } from '@lib/Posts';
+import { getPaginatedPosts, getPostPages } from '@lib/posts';
 import PostListing from '@components/PostListing';
 import ReactPaginate from 'react-paginate';
 import RssFeeds from '@components/RssFeeds';

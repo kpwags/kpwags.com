@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 import { formatDate } from '@lib/utilities';
-import { BlogPost } from '@models/BlogPost';
+import { BlogPost } from '@models/blogPost';
 
 const LatestPostsSection = styled.section`
     margin: 5rem 0;

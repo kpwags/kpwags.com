@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { Feed, Item } from 'feed';
-import { getPostsForRssFeed } from '@lib/Posts';
+import { getPostsForRssFeed } from '@lib/posts';
 import { MDXRemote } from 'next-mdx-remote';
 import ReactDOMServer from 'react-dom/server';
 
