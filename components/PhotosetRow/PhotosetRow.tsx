@@ -45,6 +45,7 @@ const PhotosetRow = ({ images, onSelect }: PhotosetRowProps): JSX.Element => {
                         <Image
                             src={images[0].thumbnail}
                             alt={images[0].alt}
+                            loading="lazy"
                             width={images[0].width}
                             height={images[0].height}
                         />
@@ -61,6 +62,7 @@ const PhotosetRow = ({ images, onSelect }: PhotosetRowProps): JSX.Element => {
                             <Image
                                 src={i.thumbnail}
                                 alt={i.alt}
+                                loading="lazy"
                                 width={i.width}
                                 height={i.height}
                             />

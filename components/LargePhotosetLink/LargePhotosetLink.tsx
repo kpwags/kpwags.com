@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const PhotoLink = styled.div`
@@ -38,8 +37,8 @@ interface PhotosetLinkProps {
     name: string
     date: string
     photoSource: string
-    width: number
-    height: number
+    width?: number | string
+    height?: number | string
     link: string
     titleColor?: string
     titlePosition?: 'top' | 'bottom'
@@ -61,7 +60,7 @@ const LargePhotosetLink = ({
         <PhotoLink>
             <Link href={link}>
                 <a>
-                    <Image
+                    <img
                         src={photoSource}
                         alt={altText}
                         width={width}

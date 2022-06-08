@@ -3,36 +3,78 @@ import Link from 'next/link';
 import { formatDate } from '@lib/utilities';
 import { BlogPost } from '@models/blogPost';
 
-const Latest = styled.div`
-    margin: 40px 0;
+const LatestPostsSection = styled.section`
+    margin: 5rem 0;
 
-    h2 {
-        margin-bottom: 30px;
-        font-size: 2.2rem;
-    }
-`;
+    div.heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
 
-const Posts = styled.ul`
-    margin: 0;
-    padding: 0;
-`;
+        @media all and (max-width: 450px) {
+            display: block;
+        }
 
-const Post = styled.li`
-    list-style-type: none;
-    margin: 15px 0;
+        div.link {
+            text-align: right;
 
-    .title {
-        color: ${({ theme }) => theme.colors.blue};
-        font-size: 1.4rem;
-        font-weight: 500;
-
-        a:hover {
-            text-decoration: none;
+            @media all and (max-width: 450px) {
+                display: none;
+            }
         }
     }
 
-    .datetime {
-        font-family: ${({ theme }) => theme.fonts.primary};
+    div.mobile-link{
+        text-align: center;
+        display: none;
+        font-size: 1.2rem;
+
+        @media all and (max-width: 450px) {
+            display: block;
+        }
+    }
+
+    h2 {
+        margin-bottom: 12px;
+    }
+
+    div.content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+
+        div.post {
+            border-radius: 10px;
+            background-image: var(--grey-gradient);
+
+            img {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+
+            div.title {
+                font-size: 1.6rem;
+                padding: 16px;
+
+                @media all and (max-width: 809px) {
+                    font-size: 1.4rem
+                }
+
+                a {
+                    color: var(--green-1);
+
+                    &:hover {
+                        color: var(--green-2);
+                    }
+                }
+            }
+
+            div.datetime {
+                color: var(--text);
+                padding: 0 16px 12px;
+            }
+        }
     }
 `;
 
@@ -41,21 +83,36 @@ interface LatestPostsProps {
 }
 
 const LatestPosts = ({ mostRecentPosts }: LatestPostsProps): JSX.Element => (
-    <Latest>
-        <h2>Latest Posts</h2>
-        <Posts>
+    <LatestPostsSection>
+        <div className="heading">
+            <h2>Latest Posts</h2>
+            <div className="link">
+                <Link href="/blog"><a>View More</a></Link>
+            </div>
+        </div>
+        <div className="content">
             {mostRecentPosts.map(({
-                id, url, date, title,
+                id,
+                url,
+                date,
+                title,
+                contentImage,
             }) => (
-                <Post key={id}>
+                <div className="post" key={id}>
+                    <div className="image">
+                        <img src={`/images/posts/${contentImage}`} alt={title} />
+                    </div>
                     <div className="title">
                         <Link href={url}><a>{title}</a></Link>
                     </div>
                     <div className="datetime">{formatDate(date)}</div>
-                </Post>
+                </div>
             ))}
-        </Posts>
-    </Latest>
+            <div className="mobile-link">
+                <Link href="/blog"><a>View More</a></Link>
+            </div>
+        </div>
+    </LatestPostsSection>
 );
 
 export default LatestPosts;

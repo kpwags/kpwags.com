@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -6,13 +5,41 @@ import marked from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { BlogTag } from '@models/BlogTag';
-import { postsPerPage } from './config';
 import { buildUrlFromId } from './utilities';
+import { postsPerPage } from './config';
 import decodeHtmlEntities from './decodeHtmlEntities';
+
+type PostId = {
+    params: {
+        year: string
+        month: string
+        day: string
+        id: string
+    }
+}
+
+type TagPage = {
+    params: {
+        tag?: string
+        page: string
+    }
+}
+
+type PostQuery = {
+    year: string
+    month: string
+    day: string
+    id: string
+}
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
-export const getUrlTag = (tag: string): string => tag.toString().toLowerCase().replace(/\./g, '').replace(/-/g, '');
+export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogPost, b: BlogPost) => {
+    if (a.date < b.date) {
+        return 1;
+    }
+    return -1;
+});
 
 export const getPostExcerpt = (html: string): string => {
     const endParagraphIndex = html.indexOf('</p>');
@@ -21,8 +48,7 @@ export const getPostExcerpt = (html: string): string => {
     return snippet.replace('<p>', '');
 };
 
-export const getAllPosts = (sorted = true) : BlogPost[] => {
-    // Get file names under /posts
+export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
     const fileNames = fs.readdirSync(postsDirectory);
 
     const allPostsData = fileNames.map((fileName) => {
@@ -52,23 +78,26 @@ export const getAllPosts = (sorted = true) : BlogPost[] => {
             hasEmbeddedTweet: false,
             tags,
             content: html,
+            isRssOnly: data.isRssOnly || false,
+            contentImage: data.contentImage || null,
         };
     });
 
-    if (sorted) {
-    // Sort posts by date
-        return allPostsData.sort((a: BlogPost, b: BlogPost) => {
-            if (a.date < b.date) {
-                return 1;
-            }
-            return -1;
-        });
+    const sortedPosts = sortPosts(allPostsData);
+
+    if (includeRssOnly) {
+        return sortedPosts;
     }
 
-    return allPostsData;
+    return sortedPosts.filter((p) => !p.isRssOnly);
 };
 
-export function getAllPostIds() {
+export const getPostCount = (): number => {
+    const posts = getAllPosts();
+    return posts.length;
+};
+
+export const getAllPostIds = (): PostId[] => {
     const fileNames = fs.readdirSync(postsDirectory);
 
     return fileNames.map((filename) => {
@@ -84,14 +113,9 @@ export function getAllPostIds() {
             },
         });
     });
-}
-
-export const getPostCount = (): number => {
-    const fileNames = fs.readdirSync(postsDirectory);
-    return fileNames.length;
 };
 
-export const getPostPages = () => {
+export const getPostPages = (): TagPage[] => {
     const postCount = getPostCount();
 
     const maxPage = Math.ceil(postCount / postsPerPage);
@@ -108,13 +132,6 @@ export const getPostPages = () => {
         },
     }));
 };
-
-interface PostQuery {
-    year: string
-    month: string
-    day: string
-    id: string
-}
 
 export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     const {
@@ -147,6 +164,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         title: data.title,
         date: data.date,
         content: mdx.compiledSource,
+        isRssOnly: data.isRssOnly || false,
         description: decodeHtmlEntities(excerpt) || data.description || null,
         url: buildUrlFromId(postId),
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
@@ -158,17 +176,17 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     };
 };
 
-export const getPaginatedPosts = (page: number, count = postsPerPage) => {
-    const sortedPosts = getAllPosts();
+export const getPaginatedPosts = (page: number, count = postsPerPage): { totalPages: number, posts: BlogPost[]} => {
+    const posts = getAllPosts();
 
     const start = (page - 1) * 10;
     const end = start + count;
 
-    const maxPage = Math.ceil(sortedPosts.length / postsPerPage);
+    const maxPage = Math.ceil(posts.length / postsPerPage);
 
     return {
         totalPages: maxPage,
-        posts: sortedPosts.slice(start, end),
+        posts: posts.slice(start, end),
     };
 };
 
@@ -181,7 +199,7 @@ export const getAllPostsForTag = (tag: string): BlogPost[] => {
     return filteredPosts;
 };
 
-export const getPaginatedPostsForTag = (tag: string, page: number, count = postsPerPage) => {
+export const getPaginatedPostsForTag = (tag: string, page: number, count = postsPerPage): { totalPages: number, posts: BlogPost[]} => {
     const sortedPosts = getAllPostsForTag(tag);
 
     const start = (page - 1) * 10;
@@ -195,7 +213,7 @@ export const getPaginatedPostsForTag = (tag: string, page: number, count = posts
     };
 };
 
-export const getTaggedPostPages = (tag: string) => {
+export const getTaggedPostPages = (tag: string): TagPage[] => {
     const taggedPosts = getAllPostsForTag(tag);
 
     const postCount = taggedPosts.length;
@@ -215,7 +233,7 @@ export const getTaggedPostPages = (tag: string) => {
     }));
 };
 
-export const getPageCountForTag = (tag: string) => {
+export const getPageCountForTag = (tag: string): number => {
     const taggedPosts = getAllPostsForTag(tag);
 
     const postCount = taggedPosts.length;
@@ -223,7 +241,7 @@ export const getPageCountForTag = (tag: string) => {
     return Math.ceil(postCount / postsPerPage);
 };
 
-export const getAllTagPages = () => {
+export const getAllTagPages = (): TagPage[] => {
     const allPosts = getAllPosts();
 
     const tags: { name: string, pageCount: number}[] = [];
@@ -236,8 +254,7 @@ export const getAllTagPages = () => {
         });
     });
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const pages: any[] = [];
+    const pages: TagPage[] = [];
 
     tags.forEach((tag) => {
         if (tag.pageCount === 1) {
@@ -262,7 +279,9 @@ export const getAllTagPages = () => {
     return pages;
 };
 
-export const searchBlogPosts = (keywords: string, blogPosts: BlogPost[]): BlogPost[] => {
+export const getUrlTag = (tag: string): string => tag.toString().toLowerCase().replace(/\./g, '').replace(/-/g, '');
+
+export const searchPosts = (keywords: string, blogPosts: BlogPost[]): BlogPost[] => {
     const posts: BlogPost[] = [];
 
     blogPosts.forEach((p) => {
@@ -309,10 +328,5 @@ export const getPostsForRssFeed = async () : Promise<BlogPost[]> => {
         };
     }));
 
-    return posts.sort((a: BlogPost, b: BlogPost) => {
-        if (a.date < b.date) {
-            return 1;
-        }
-        return -1;
-    });
+    return sortPosts(posts);
 };

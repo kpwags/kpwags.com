@@ -3,9 +3,7 @@ import path from 'path';
 import { Feed, Item } from 'feed';
 import { getPostsForRssFeed } from '@lib/posts';
 import { MDXRemote } from 'next-mdx-remote';
-import { ThemeProvider } from 'styled-components';
 import ReactDOMServer from 'react-dom/server';
-import { themeDefinitions } from '@lib/themeDefinitions';
 
 // Blog Components
 import PostImage from '@components/PostImage';
@@ -31,9 +29,7 @@ const getPosts = async (): Promise<Item[]> => {
 
     posts.forEach((post) => {
         const mdx = (
-            <ThemeProvider theme={themeDefinitions.data.light}>
-                <MDXRemote compiledSource={post.content} components={components} />
-            </ThemeProvider>
+            <MDXRemote compiledSource={post.content} components={components} />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);

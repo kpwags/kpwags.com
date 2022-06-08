@@ -30,9 +30,9 @@ const LoadMore = styled.div`
     margin: 40px 0;
 
     button {
-        border: ${({ theme }) => theme.colors.mediumBlue};
-        background: ${({ theme }) => theme.colors.blue};
-        color: ${({ theme }) => theme.colors.background};
+        border: var(--green-2);
+        background: var(--green-1);
+        color: var(--background);
         padding: 8px 16px;
         cursor: pointer;
     }
@@ -82,6 +82,7 @@ const PhotoBlog = (): JSX.Element => {
                         <Image
                             src={`/images/photoblog/${p.thumbnail}`}
                             alt={p.altText}
+                            loading="lazy"
                             width={512}
                             height={512}
                         />

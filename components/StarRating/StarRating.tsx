@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
+const Rating = styled.div`
+    margin: 0.6rem 0;
+`;
+
 const Star = styled.img`
     padding: 0 4px;
-    margin: 6px 0;
+    display: inline;
 `;
 
 type StarRatingProps = {
@@ -20,7 +24,7 @@ const StarRating = ({ rating }: StarRatingProps): JSX.Element => {
         return starsHtml;
     };
 
-    return (<div>{getStars()}</div>);
+    return (<Rating>{getStars()}</Rating>);
 };
 
 export default StarRating;

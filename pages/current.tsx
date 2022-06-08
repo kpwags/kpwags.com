@@ -3,22 +3,9 @@ import styled from 'styled-components';
 import current from '@data/current';
 import { GetStaticProps } from 'next';
 import { CurrentlyDoing } from '@models/currentlyDoing';
-import GameListing from '@components/GameListing';
-import BookListing from '@components/BookListing';
-import TVListing from '@components/TVListing';
+import MediaListing from '@components/MediaListing';
 
 const Container = styled.div`
-    margin: 50px auto 30px auto;
-
-    @media all and (max-width: 900px) {
-        width: 600px;
-    }
-
-    @media all and (max-width: 767px) {
-        width: 100%;
-        margin: 25px 0;
-    }
-
     h1 {
         @media all and (max-width: 767px) {
             font-size: 1.8rem;
@@ -86,7 +73,7 @@ const Current = ({ currentlyDoing }: CurrentProps): JSX.Element => (
 
                 <Grid>
                     {currentlyDoing.reading.map((book) => (
-                        <BookListing book={book} key={book.cover} />
+                        <MediaListing media={book} key={book.cover} />
                     ))}
                 </Grid>
 
@@ -94,7 +81,7 @@ const Current = ({ currentlyDoing }: CurrentProps): JSX.Element => (
 
                 <Grid>
                     {currentlyDoing.playing.map((game) => (
-                        <GameListing game={game} key={game.cover} />
+                        <MediaListing media={game} key={game.cover} />
                     ))}
                 </Grid>
 
@@ -102,7 +89,7 @@ const Current = ({ currentlyDoing }: CurrentProps): JSX.Element => (
 
                 <Grid>
                     {currentlyDoing.watching.map((tvShow) => (
-                        <TVListing tvShow={tvShow} key={tvShow.cover} />
+                        <MediaListing media={tvShow} key={tvShow.cover} />
                     ))}
                 </Grid>
             </Container>

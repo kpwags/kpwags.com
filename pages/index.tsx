@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import { getAllPosts } from '@lib/posts';
 import { GetStaticProps } from 'next';
 import Welcome from '@components/Welcome';
@@ -15,21 +14,10 @@ export const getStaticProps: GetStaticProps = async () => {
 
     return {
         props: {
-            posts: blogPosts.length <= 5 ? blogPosts : blogPosts.slice(0, 5),
+            posts: blogPosts.length <= 6 ? blogPosts : blogPosts.slice(0, 6),
         },
     };
 };
-
-const Latest = styled.div`
-    display:grid;
-    grid-column-gap: 10px;
-    grid-template-columns: 2fr 1fr;
-
-    @media all and (max-width: 767px) {
-        display: block;
-    }
-`;
-
 interface HomeProps {
     posts: BlogPost[];
 }
@@ -37,13 +25,9 @@ interface HomeProps {
 const Home = ({ posts }: HomeProps): JSX.Element => (
     <>
         <RssFeeds />
-        <main>
-            <Welcome />
-            <Latest>
-                <LatestPosts mostRecentPosts={posts} />
-                <LatestPhotoset />
-            </Latest>
-        </main>
+        <Welcome />
+        <LatestPosts mostRecentPosts={posts} />
+        <LatestPhotoset />
     </>
 );
 

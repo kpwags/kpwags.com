@@ -1,9 +1,9 @@
 /* eslint-disable max-len */
-import { Book } from '@models/book';
+import { Media } from '@models/media';
 
 type BookYear = {
     year: string;
-    books: Book[];
+    books: Media[];
 };
 
 export type BookList = {
@@ -24,6 +24,7 @@ const BooksRead: BookList = {
                     link: 'https://bookshop.org/books/the-passion-economy-the-new-rules-for-thriving-in-the-twenty-first-century/9780804172776',
                     rating: 3,
                     thoughts: "This book wasn't quite what I expected it to be, though looking back at it, I'm not entirely sure what I was expecting. It was still an interesting take on succeeding as a smaller business in the present day economy.",
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market',
@@ -32,6 +33,7 @@ const BooksRead: BookList = {
                     link: 'https://bookshop.org/books/dark-pools-the-rise-of-the-machine-traders-and-the-rigging-of-the-u-s-stock-market/9780307887184',
                     rating: 4,
                     thoughts: 'The stock market & computerized trading has become a fascination to me. This book does a great job talking about the rise of high-frequency trading and how it has caused some of the problems we see in the stock market today.',
+                    imageFolder: 'books',
                 },
                 {
                     title: "It's Better to Be Feared: The New England Patriots Dynasty and the Pursuit of Greatness",
@@ -40,6 +42,7 @@ const BooksRead: BookList = {
                     link: 'https://bookshop.org/books/it-s-better-to-be-feared-the-new-england-patriots-dynasty-and-the-pursuit-of-greatness/9781631498237',
                     rating: 3,
                     thoughts: "I'm by no means a Patriots fan, but I found this to be an interesting look into the 2 decades long dynasty of Brady-Belichick and the Patriots.",
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Storyteller: Tales of Life and Music',
@@ -48,6 +51,7 @@ const BooksRead: BookList = {
                     link: 'https://bookshop.org/books/the-storyteller-tales-of-life-and-music/9780063076099',
                     rating: 4,
                     thoughts: "Dave Grohl has always seemed to be an interesting and unique person. This was an interesting memoir talking about his growth from High School punk musician, through Nirvana and eventually Foo Fighters. If you're a fan of any of his work, I'd highly recommend this.",
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Nudge: The Final Edition',
@@ -55,6 +59,7 @@ const BooksRead: BookList = {
                     cover: 'nudge.jpg',
                     link: 'https://bookshop.org/books/nudge-the-final-edition/9780143137009',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: "This was a fantastic read into how we as humans can be persuaded into doing things in ways we don't always recognize. The authors do a good job going into the good and bad of it.",
                 },
                 {
@@ -63,15 +68,17 @@ const BooksRead: BookList = {
                     cover: 'apollomurders.jpg',
                     link: 'https://bookshop.org/books/the-apollo-murders-9781668601075/9780316264532',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         'I enjoyed this book. It had a good story that pulled you in. As a space fan, I definitely enjoyed the tie-ins with the Apollo program. The ending wasn’t my favorite part, but it did tidy up the story arcs. Would still recommend it to anyone.',
                 },
                 {
                     title: 'Leviathan Falls',
-                    author: 'James S.A. Corey',
+                    author: 'James S. A. Corey',
                     cover: 'leviathanfalls.jpg',
                     link: 'https://bookshop.org/books/leviathan-falls-9781705024997/9780316332910',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "I did enjoy this as the final book in the series. Given that this is the end of a long series, I still haven't come to a complete decision on how I feel about how the story was ended.",
                 },
@@ -86,6 +93,7 @@ const BooksRead: BookList = {
                     cover: 'righteousmind.jpg',
                     link: 'https://bookshop.org/books/the-righteous-mind-why-good-people-are-divided-by-politics-and-religion-9798200560639/9780307455772',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts:
                         "This was a dense read. While I'm not sure I understood everything, Jonathan Haidt's explanation for why people act the way they do was thoughtful and interesting.",
                 },
@@ -95,6 +103,7 @@ const BooksRead: BookList = {
                     cover: 'buyoutofamerica.jpg',
                     link: 'https://bookshop.org/books/the-buyout-of-america-how-private-equity-is-destroying-jobs-and-killing-the-american-economy/9781591843696',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts:
                         'This book made me angry. It made me angry at how private equity firms have taken advantage of tax loopholes to make money at the cost of the little guys.',
                 },
@@ -104,6 +113,7 @@ const BooksRead: BookList = {
                     cover: 'cult-of-we.jpg',
                     link: 'https://bookshop.org/books/the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion/9780593237113',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "I had heard all the stories about WeWork and its collapse. I didn't realize how crazy it actually was. The authors do a great job going into what was happening when and why things happened the way they did. I left amazed at how all the red flags Adam & WeWork had raised were ignored for so long.",
                 },
@@ -113,6 +123,7 @@ const BooksRead: BookList = {
                     cover: 'thinkagain.jpg',
                     link: 'https://bookshop.org/books/think-again-the-power-of-knowing-what-you-don-t-know-9781984878106/9781984878106',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: 'This book definitely made me think about how I view things and assumptions I might make.',
                 },
                 {
@@ -121,6 +132,7 @@ const BooksRead: BookList = {
                     cover: 'premonition.jpg',
                     link: 'https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897/9780393881554',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         'Reading this book made me realize how screwed we were by the COVID-19 pandemic. While there were plenty of heroes doing their best to help solve the issues, Michael Lewis does a good job showing why the organizations we trusted let us down.',
                 },
@@ -130,6 +142,7 @@ const BooksRead: BookList = {
                     cover: 'fieldofschemes.jpg',
                     link: 'https://bookshop.org/books/field-of-schemes-how-the-great-stadium-swindle-turns-public-money-into-private-profit-revised/9780803260160',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         'I always knew that the public funding of sports stadiums was a raw deal. This book did a great job explaining how bad it is and how we got there.',
                 },
@@ -139,6 +152,7 @@ const BooksRead: BookList = {
                     cover: 'money-goldstein.jpg',
                     link: 'https://bookshop.org/books/money-the-true-story-of-a-made-up-thing/9780316417198',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "As an avid listener of Planet Money and someone who's interested in economics, this was a fantastic read. It went into some interesting history in an easy to understand and light-hearted manner.",
                 },
@@ -148,6 +162,7 @@ const BooksRead: BookList = {
                     cover: 'mvpmachine.jpg',
                     link: 'https://bookshop.org/books/the-mvp-machine-how-baseball-s-new-nonconformists-are-using-data-to-build-better-players/9781541698925',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "Being a fan of baseball, this was a great read going into some of the details of how the game is changing away from 'Moneyball' and delving deep into player development.",
                 },
@@ -157,6 +172,7 @@ const BooksRead: BookList = {
                     cover: 'franchise_golden_arches.jpg',
                     link: 'https://bookshop.org/books/franchise-the-golden-arches-in-black-america/9781631493942',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         'I heard about this book on a podcast (Marketplace I believe) and learned a lot about the relationship between McDonalds and Black America that has been filled with ups and downs.',
                 },
@@ -171,6 +187,7 @@ const BooksRead: BookList = {
                     cover: '99invisiblecity.jpg',
                     link: 'https://bookshop.org/books/the-99-invisible-city-a-field-guide-to-the-hidden-world-of-everyday-design-9780358396383/9780358126607',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         'Having been listening to the 99% Invisible podcast for a long while, it was nice to read about more of the hidden designs in cities and towns.',
                 },
@@ -180,6 +197,7 @@ const BooksRead: BookList = {
                     cover: 'endisalwaysnear.jpg',
                     link: 'https://bookshop.org/books/the-end-is-always-near-apocalyptic-moments-from-the-bronze-age-collapse-to-nuclear-near-misses/9780062868046',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         'As a Hardcore History fan, Dan Carlin does a great job writing about close calls to having humanity being wiped out or the population dramatically reduced.',
                 },
@@ -187,6 +205,7 @@ const BooksRead: BookList = {
                     title: 'Head On',
                     author: 'John Scalzi',
                     cover: 'headon.jpg',
+                    imageFolder: 'books',
                     link: 'https://bookshop.org/books/head-on-a-novel-of-the-near-future/9780765388933',
                     rating: 4,
                     thoughts: 'Solid detective novel and a good follow-up to Lock In.',
@@ -197,6 +216,7 @@ const BooksRead: BookList = {
                     cover: 'lastemperox.jpg',
                     link: 'https://bookshop.org/books/the-last-emperox/9780765389169',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: 'Great novel to finish the trilogy. A great ending and worth the read.',
                 },
                 {
@@ -205,6 +225,7 @@ const BooksRead: BookList = {
                     cover: 'consumingfire.jpg',
                     link: 'https://bookshop.org/books/the-consuming-fire/9780765388995',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: 'Solid continuation of the Interdependency Series by John Scalzi. Definitely made me want to continue reading.',
                 },
                 {
@@ -213,6 +234,7 @@ const BooksRead: BookList = {
                     cover: 'collapsingempire.jpg',
                     link: 'https://bookshop.org/books/the-collapsing-empire/9780765388902',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "This was a good start to a good science fiction trilogy. I'll have to finish it to be able to say more, but it definitely kept me hooked and wanting to continue.",
                 },
@@ -222,6 +244,7 @@ const BooksRead: BookList = {
                     cover: 'surveillancecapitalism.jpg',
                     link: 'https://bookshop.org/books/the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power/9781610395694',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         'This was a long read, but thoughtful and complicated. It goes into how services like Google & Facebook take as much of our data as they possibly can even when it will disturb the general population. It also confirmed my reasons for deleting my Facebook and Instagram accounts as well as moving away from Google.',
                 },
@@ -231,6 +254,7 @@ const BooksRead: BookList = {
                     cover: 'thebigshort.jpg',
                     link: 'https://bookshop.org/books/the-big-short-inside-the-doomsday-machine/9780393338829',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts:
                         'This was a fantastic read talking about people looking into the real-estate market prior to the 2008 financial collapse. Michael Lewis did a great job of keeping the story interesting while also using language and terms that make the story understandable to anyone.',
                 },
@@ -240,6 +264,7 @@ const BooksRead: BookList = {
                     cover: 'theoutsider.jpg',
                     link: 'https://bookshop.org/books/the-outsider-9781501181009/9781501181009',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "I read this to get myself ready for the HBO series. I enjoyed the story and thought it provided a bit of supernatural mixed with just the right amount of suspense. If you're a Stephen King fan, you'll definitely enjoy this.",
                 },
@@ -249,6 +274,7 @@ const BooksRead: BookList = {
                     cover: 'openborders.jpg',
                     link: 'https://bookshop.org/books/open-borders-the-science-and-ethics-of-immigration/9781250316967',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "I don't think I would of expected something like this to have been done with a graphic novel, but it was anyway, and done well. It was an interesting read about the economics and some of the misunderstandings of immigration.",
                 },
@@ -258,6 +284,7 @@ const BooksRead: BookList = {
                     cover: 'howto.jpg',
                     link: 'https://bookshop.org/books/how-to-absurd-scientific-advice-for-common-real-world-problems/9780525537090',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts:
                         "As a fan of XKCD and of Randall's humor, this book was informative and funny. Randall has a fantastic way of bringing science, humor, and the absurd together in an interesting and easy-to-read-and-understand way.",
                 },
@@ -267,6 +294,7 @@ const BooksRead: BookList = {
                     cover: 'fifthrisk.jpg',
                     link: 'https://bookshop.org/books/the-fifth-risk-undoing-democracy/9780393357455',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts:
                         'This book made me go back and forth between "wow, that\'s interesting!" and anger. I learned a lot about little (but actually big) things different departments within the U.S. Government does and the risks now in place due to the cronyism and general lack of knowledge the Trump Administration has introduced.',
                 },
@@ -276,6 +304,7 @@ const BooksRead: BookList = {
                     cover: 'auberon.jpg',
                     link: 'https://www.amazon.com/gp/product/B07YKR19FN',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: 'Another solid novella set in the universe of The Expanse.',
                 },
                 {
@@ -284,6 +313,7 @@ const BooksRead: BookList = {
                     cover: 'soulofamerica.jpg',
                     link: 'https://www.amazon.com/gp/product/0399589813',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts:
                         "Reading this during Trump's presidency gave me some hope for the country being able to move forward. It reminded me of Martin Luther King's Quote \"The arc of the moral universe is long, but it bends toward justice.\" It took a look back at previous tumultuous times in America and showed that while progress hasn't always been as fast as I would like, we as a nation have progressed.",
                 },
@@ -293,6 +323,7 @@ const BooksRead: BookList = {
                     cover: 'flashboys.jpg',
                     link: 'https://www.amazon.com/gp/product/B00HVJB4VM',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts:
                         "I've been getting more interested in how the financial world works. This was a fantastic read about High-Frequency Trading and how it often screws over common investors like you and me. Michael Lewis then goes on to tell how one guy went about figuring this out to then trying to even the playing field.",
                 },
@@ -302,6 +333,7 @@ const BooksRead: BookList = {
                     cover: 'incompletebookofrunning.jpg',
                     link: 'https://www.amazon.com/gp/product/B07CMXZC7L',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts:
                         "I've been a big fan of Peter Sagal ever since I started listening to Wait, Wait...Don't Tell Me! I'm also a fan of running. This is a fantastic read that is inspiring whether you're a runner or not. The book contains Sagal's wit and humor as well as some good life lessons.",
                 },
@@ -311,6 +343,7 @@ const BooksRead: BookList = {
                     cover: 'congo.jpg',
                     link: 'https://www.amazon.com/gp/product/B007UH4FK2',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts:
                         "I enjoyed this one. Wasn't my favorite Crichton novel, but it was an interesting story with a plotline that had the right number of twists.",
                 },
@@ -320,6 +353,7 @@ const BooksRead: BookList = {
                     cover: 'sphere.jpg',
                     link: 'https://www.amazon.com/gp/product/B007UH4G9C',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts:
                         "Continuing going through my Michael Crichton backlog, I wasn't super impressed with this one. It was a decent science fiction story with a bit of a horror element, but it didn't draw me in like some of his other novels.",
                 },
@@ -329,6 +363,7 @@ const BooksRead: BookList = {
                     cover: 'prey.jpg',
                     link: 'https://www.amazon.com/gp/product/B000FC13E0',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: 'I really enjoyed this. The horror element mixed with the idea of nanotechnology provided for an excellent read.',
                 },
                 {
@@ -337,6 +372,7 @@ const BooksRead: BookList = {
                     cover: 'andromedastrain.jpg',
                     link: 'https://www.amazon.com/gp/product/B007UH4EPS',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: 'I enjoyed the story, and with me reading it during the lead up to the outbreak of COVID-19, it rang a little scary.',
                 },
                 {
@@ -345,6 +381,7 @@ const BooksRead: BookList = {
                     cover: 'usvsthem.jpg',
                     link: 'https://www.amazon.com/gp/product/B074DG6K8K',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -353,6 +390,7 @@ const BooksRead: BookList = {
                     cover: 'workingfutures.jpg',
                     link: 'http://workingfutur.es/',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts:
                         'I enjoyed just about all the stories in this collection. Many of them rang true to what we could see come to fruition in the future.',
                 },
@@ -362,6 +400,7 @@ const BooksRead: BookList = {
                     cover: 'vietnamepictragedy.jpg',
                     link: 'https://www.amazon.com/gp/product/0062405667',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts:
                         "This was a very long read, but gave me a much better understanding of the Vietnam War. It provided me a lot more background as to what went on in Vietnam even before the US got involved. It's a deep read, but if you like history, I'd highly recommend it.",
                 },
@@ -376,6 +415,7 @@ const BooksRead: BookList = {
                     cover: 'dumbthingsmoney.jpg',
                     link: 'https://www.amazon.com/gp/product/B07CWG1RYZ',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -384,6 +424,7 @@ const BooksRead: BookList = {
                     cover: 'midnightinchernobyl.jpg',
                     link: 'https://www.amazon.com/gp/product/B07GNV7PNH',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -392,6 +433,7 @@ const BooksRead: BookList = {
                     cover: 'tiamatswrath.jpg',
                     link: 'https://www.amazon.com/gp/product/B07BVNVWL6',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -400,6 +442,7 @@ const BooksRead: BookList = {
                     cover: 'imagineersofwar.jpg',
                     link: 'https://www.amazon.com/gp/product/B01HA4JUEA',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -408,6 +451,7 @@ const BooksRead: BookList = {
                     cover: 'foreverwar.jpg',
                     link: 'https://www.amazon.com/gp/product/B0018QSO0S',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -416,6 +460,7 @@ const BooksRead: BookList = {
                     cover: 'whywallstreetmatters.jpg',
                     link: 'https://www.amazon.com/gp/product/B01JWDWP12',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
             ],
@@ -429,6 +474,7 @@ const BooksRead: BookList = {
                     cover: 'judassolution.jpg',
                     link: 'https://www.amazon.com/gp/product/B00AP9D1Y8',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -437,6 +483,7 @@ const BooksRead: BookList = {
                     cover: 'backlashmission.jpg',
                     link: 'https://www.amazon.com/gp/product/B0094ANS2E',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -445,6 +492,7 @@ const BooksRead: BookList = {
                     cover: 'blackcollar.jpg',
                     link: 'https://www.amazon.com/gp/product/B0094ANSJ2',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -453,6 +501,7 @@ const BooksRead: BookList = {
                     cover: 'kitchenconfidential.jpg',
                     link: 'https://www.amazon.com/gp/product/B002UM5BXW',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -461,6 +510,7 @@ const BooksRead: BookList = {
                     cover: 'aisleshaveeyes.jpg',
                     link: 'https://www.amazon.com/gp/product/B01MS0B68T',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -469,6 +519,7 @@ const BooksRead: BookList = {
                     cover: '2020commission.jpg',
                     link: 'https://www.amazon.com/gp/product/B079VDR6HM',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -477,6 +528,7 @@ const BooksRead: BookList = {
                     cover: 'ratfucked.jpg',
                     link: 'https://www.amazon.com/gp/product/B016APOCRU',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -485,6 +537,7 @@ const BooksRead: BookList = {
                     cover: 'vacationland.jpg',
                     link: 'https://www.amazon.com/gp/product/B06VTV2899',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -493,6 +546,7 @@ const BooksRead: BookList = {
                     cover: 'failurenotanoption.jpg',
                     link: 'https://www.amazon.com/gp/product/B000FC0O7M',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -501,6 +555,7 @@ const BooksRead: BookList = {
                     cover: 'hitrefresh.jpg',
                     link: 'https://www.amazon.com/gp/product/B01HOT5SQA',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -509,6 +564,7 @@ const BooksRead: BookList = {
                     cover: 'perseopolisrising.jpg',
                     link: 'https://www.amazon.com/gp/product/B06XKN9G27',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -517,6 +573,7 @@ const BooksRead: BookList = {
                     cover: 'strangedogs.jpg',
                     link: 'https://www.amazon.com/gp/product/B06ZZ1MKW8',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -525,6 +582,7 @@ const BooksRead: BookList = {
                     cover: 'shootingghosts.jpg',
                     link: 'https://www.amazon.com/gp/product/B01N1RRDMH',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
             ],
@@ -538,6 +596,7 @@ const BooksRead: BookList = {
                     cover: 'peddlingprotectionism.jpg',
                     link: 'https://www.amazon.com/gp/product/B072HJJ73M',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -546,6 +605,7 @@ const BooksRead: BookList = {
                     cover: 'soonish.jpg',
                     link: 'https://www.amazon.com/gp/product/0399563822',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -554,6 +614,7 @@ const BooksRead: BookList = {
                     cover: 'astronautsguide.jpg',
                     link: 'https://www.amazon.com/gp/product/B00DTUHIDA',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -562,6 +623,7 @@ const BooksRead: BookList = {
                     cover: 'thearm.jpg',
                     link: 'https://www.amazon.com/gp/product/B011ISW5C8',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -570,6 +632,7 @@ const BooksRead: BookList = {
                     cover: 'lockin.jpg',
                     link: 'https://www.amazon.com/gp/product/B00IHCBE1C',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -578,6 +641,7 @@ const BooksRead: BookList = {
                     cover: 'redshirts.jpg',
                     link: 'https://www.amazon.com/gp/product/B0079XPUOW',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -586,6 +650,7 @@ const BooksRead: BookList = {
                     cover: 'troublewithreality.jpg',
                     link: 'https://www.amazon.com/gp/product/B06XHGZ9B2',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -594,6 +659,7 @@ const BooksRead: BookList = {
                     cover: 'babylonsashes.jpg',
                     link: 'https://www.amazon.com/gp/product/B018S2773Y',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -602,6 +668,7 @@ const BooksRead: BookList = {
                     cover: 'vitalabyss.jpg',
                     link: 'https://www.amazon.com/gp/product/B015NRKNS8',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -610,6 +677,7 @@ const BooksRead: BookList = {
                     cover: 'nemesisgames.jpg',
                     link: 'https://www.amazon.com/gp/product/B00O7X626W',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -618,6 +686,7 @@ const BooksRead: BookList = {
                     cover: 'cibolaburn.jpg',
                     link: 'https://www.amazon.com/gp/product/B00FPQA4F0',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -626,6 +695,7 @@ const BooksRead: BookList = {
                     cover: 'thechurn.jpg',
                     link: 'https://www.amazon.com/gp/product/B00I82884W',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -634,6 +704,7 @@ const BooksRead: BookList = {
                     cover: 'abaddonsgate.jpg',
                     link: 'https://www.amazon.com/gp/product/B00A2DZMYE',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
             ],
@@ -647,6 +718,7 @@ const BooksRead: BookList = {
                     cover: 'godsofrisk.jpg',
                     link: 'https://www.amazon.com/gp/product/B008CJ241O',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -655,6 +727,7 @@ const BooksRead: BookList = {
                     cover: 'calibanswar.jpg',
                     link: 'https://www.amazon.com/gp/product/B005SCRR1A',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -663,6 +736,7 @@ const BooksRead: BookList = {
                     cover: 'butcherandersonstation.jpg',
                     link: 'https://www.amazon.com/gp/product/B0052AHUYM',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -671,6 +745,7 @@ const BooksRead: BookList = {
                     cover: 'leviathanwakes.jpg',
                     link: 'https://www.amazon.com/gp/product/B0047Y171G',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -679,6 +754,7 @@ const BooksRead: BookList = {
                     cover: 'onlyrule.jpg',
                     link: 'https://www.amazon.com/gp/product/B016IBVN6Y',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -687,6 +763,7 @@ const BooksRead: BookList = {
                     cover: 'disillusioned.jpg',
                     link: 'https://www.amazon.com/gp/product/B013TCYZK6',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -695,6 +772,7 @@ const BooksRead: BookList = {
                     cover: 'distopia.jpg',
                     link: 'https://www.amazon.com/gp/product/B00ZGITR4Q',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -703,6 +781,7 @@ const BooksRead: BookList = {
                     cover: 'martian.jpg',
                     link: 'https://www.amazon.com/gp/product/B00EMXBDMA',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
             ],
@@ -716,6 +795,7 @@ const BooksRead: BookList = {
                     cover: 'lostworld.jpg',
                     link: 'https://www.amazon.com/gp/product/B000FC1J76',
                     rating: 4,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -724,6 +804,7 @@ const BooksRead: BookList = {
                     cover: 'jurassicpark.jpg',
                     link: 'https://www.amazon.com/gp/product/B007UH4D3G',
                     rating: 5,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -732,6 +813,7 @@ const BooksRead: BookList = {
                     cover: 'bonoboathiest.jpg',
                     link: 'https://www.amazon.com/gp/product/B007Q6XKEY',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -740,6 +822,7 @@ const BooksRead: BookList = {
                     cover: 'godsthemselves.jpg',
                     link: 'https://www.amazon.com/gp/product/B004JHYRP4',
                     rating: 3,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
             ],
@@ -753,6 +836,7 @@ const BooksRead: BookList = {
                     cover: 'palebluedot.jpg',
                     link: 'https://www.amazon.com/gp/product/B004W0I3LW',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -761,6 +845,7 @@ const BooksRead: BookList = {
                     cover: 'starshipgrifters.jpg',
                     link: 'https://www.amazon.com/gp/product/B00I5X8OYS',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -769,6 +854,7 @@ const BooksRead: BookList = {
                     cover: 'thinklikeafreak.jpg',
                     link: 'https://www.amazon.com/gp/product/B00BATINVS',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -777,6 +863,7 @@ const BooksRead: BookList = {
                     cover: 'superfreakonomics.jpg',
                     link: 'https://www.amazon.com/gp/product/B002R2OFGY',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -785,6 +872,7 @@ const BooksRead: BookList = {
                     cover: 'freakonomics.jpg',
                     link: 'https://www.amazon.com/gp/product/B000MAH66Y',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -793,6 +881,7 @@ const BooksRead: BookList = {
                     cover: 'letterchristiannation.jpg',
                     link: 'https://www.amazon.com/gp/product/B000JMKTNM',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -801,6 +890,7 @@ const BooksRead: BookList = {
                     cover: 'becauseisaidso.jpg',
                     link: 'https://www.amazon.com/gp/product/B007EE5852',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -809,6 +899,7 @@ const BooksRead: BookList = {
                     cover: 'strangerthingshappen.jpg',
                     link: 'https://www.amazon.com/gp/product/B07123Q8XD',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -817,6 +908,7 @@ const BooksRead: BookList = {
                     cover: 'zoocity.jpg',
                     link: 'https://www.amazon.com/gp/product/B01922I1FM',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -825,6 +917,7 @@ const BooksRead: BookList = {
                     cover: 'pebbleinthesky.jpg',
                     link: 'https://www.amazon.com/gp/product/B00FO70Y0A',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -833,6 +926,7 @@ const BooksRead: BookList = {
                     cover: 'currentsofspace.jpg',
                     link: 'https://www.amazon.com/gp/product/B0028MK7QK',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -841,6 +935,7 @@ const BooksRead: BookList = {
                     cover: 'starslikedust.jpg',
                     link: 'https://www.amazon.com/gp/product/B001MUU0ZW',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -849,6 +944,7 @@ const BooksRead: BookList = {
                     cover: 'robotsandempire.jpg',
                     link: 'https://www.amazon.com/gp/product/B01B98EV4M',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -857,6 +953,7 @@ const BooksRead: BookList = {
                     cover: 'irobot.jpg',
                     link: 'https://www.amazon.com/gp/product/B000FC1PW0',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -865,6 +962,7 @@ const BooksRead: BookList = {
                     cover: 'homeland.jpg',
                     link: 'https://www.amazon.com/gp/product/B00AEC8O2K',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -873,6 +971,7 @@ const BooksRead: BookList = {
                     cover: 'littlebrother.jpg',
                     link: 'https://www.amazon.com/gp/product/B003X27L7M',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -881,6 +980,7 @@ const BooksRead: BookList = {
                     cover: 'infernalgames.jpg',
                     link: 'https://www.amazon.com/gp/product/B00B9FKGCW',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -889,6 +989,7 @@ const BooksRead: BookList = {
                     cover: 'tearinthesky.jpg',
                     link: 'https://www.amazon.com/gp/product/B003DA4302',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -897,6 +998,7 @@ const BooksRead: BookList = {
                     cover: 'screamofangels.jpg',
                     link: 'https://www.amazon.com/gp/product/B003C1R4R6',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -905,6 +1007,7 @@ const BooksRead: BookList = {
                     cover: 'cooked.jpg',
                     link: 'https://www.amazon.com/gp/product/B008EKOIN8',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -913,6 +1016,7 @@ const BooksRead: BookList = {
                     cover: 'mercuryrevolts.jpg',
                     link: 'https://www.amazon.com/gp/product/B00JOIMJTE',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -921,6 +1025,7 @@ const BooksRead: BookList = {
                     cover: 'schrodingersgat.jpg',
                     link: 'https://www.amazon.com/gp/product/B00EHKWRZ0',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -929,6 +1034,7 @@ const BooksRead: BookList = {
                     cover: 'disenchanted.jpg',
                     link: 'https://www.amazon.com/gp/product/B009KP9VJ2',
                     rating: null,
+                    imageFolder: 'books',
                     thoughts: null,
                 },
                 {
@@ -938,6 +1044,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B005HN2080',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Mortality',
@@ -946,6 +1053,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B007HGPBRC',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Dark Tower',
@@ -954,6 +1062,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B007HGPBRC',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Song of Susannah',
@@ -962,6 +1071,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FC1QM4',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Wolves of the Calla',
@@ -970,6 +1080,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FC0VEI',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
             ],
         },
@@ -983,6 +1094,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B005GG0MTC',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Wizard and the Glass',
@@ -991,6 +1103,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B018ER7IMS',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Waste Lands',
@@ -999,6 +1112,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B018ER7IR8',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Drawing of the Three',
@@ -1007,6 +1121,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B018ER7IRI',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Gunslinger',
@@ -1015,6 +1130,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B018ER7JRC',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Human Division',
@@ -1023,6 +1139,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B00C2RSA9C',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: "Zoe's Tale",
@@ -1031,6 +1148,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B002ENBLM2',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Last Colony',
@@ -1039,6 +1157,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000YJ85BI',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Ghost Brigades',
@@ -1047,6 +1166,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B001QS9TSE',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: "Old Man's War",
@@ -1055,6 +1175,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000SEIK2S',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Just a Geek',
@@ -1063,6 +1184,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/0596806310',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Ready Player One',
@@ -1071,6 +1193,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B004J4WKUQ',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Heretic',
@@ -1079,6 +1202,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003CT39PE',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'World War Z',
@@ -1087,6 +1211,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000JMKQX0',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Rise and Fall of the Third Reich',
@@ -1095,6 +1220,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B07XD76H41',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Company Men',
@@ -1103,6 +1229,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B006PV2KNS',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Missing Signals',
@@ -1111,6 +1238,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B006PKOUNW',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'John Gone',
@@ -1119,6 +1247,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B006PKIGAU',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Unstable Prototypes',
@@ -1127,6 +1256,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/1505791820',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Lying',
@@ -1135,6 +1265,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B00G1SRB6Q',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
             ],
         },
@@ -1148,6 +1279,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/1505786169',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Undersea',
@@ -1156,6 +1288,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B0062PXGW6',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Mercury Rests',
@@ -1164,6 +1297,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B0089NUCBC',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Robots of Dawn',
@@ -1172,6 +1306,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B0024NP57Y',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Naked Sun',
@@ -1180,6 +1315,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B004JHYRDQ',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Caves of Steel',
@@ -1188,6 +1324,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B004JHYRAO',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: "Journey to Hart's Halo",
@@ -1196,6 +1333,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B0070YHQCE',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Silmarillion',
@@ -1204,6 +1342,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B007978PGI',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Hobbit',
@@ -1212,6 +1351,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B0079KT81G',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Lost Moon',
@@ -1220,6 +1360,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/0618619585',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Farneheit 451',
@@ -1228,6 +1369,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B0064CPN7I',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Foundation and Earth',
@@ -1236,6 +1378,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003EY7IHM',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: "Foundation's Edge",
@@ -1244,6 +1387,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003EY7JC6',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Forward the Foundation',
@@ -1252,6 +1396,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003EY7ICW',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Prelude to Foundation',
@@ -1260,6 +1405,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003EY7JH6',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Second Foundation',
@@ -1268,6 +1414,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FC1PWU',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Foundation and Empire',
@@ -1276,6 +1423,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FC1PWK',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Foundation',
@@ -1284,6 +1432,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FC1PWA',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Dune',
@@ -1292,6 +1441,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B00B7NPRY8',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Drift',
@@ -1300,6 +1450,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B005BUG6T8',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'A Dance with Dragons',
@@ -1308,6 +1459,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003YL4LYI',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'A Feast for Crows',
@@ -1316,6 +1468,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FCKGPC',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'A Storm of Swords',
@@ -1324,6 +1477,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FBFN1U',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'A Clash of Kings',
@@ -1332,6 +1486,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000FC1HBY',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
             ],
         },
@@ -1345,6 +1500,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000QCS8TW',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'God is Not Great',
@@ -1353,6 +1509,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B00287KD4Q',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Moral Landscape',
@@ -1361,6 +1518,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003V1WT72',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Mostly Harmless',
@@ -1369,6 +1527,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B002SME1J4',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'So Long, and Thanks for All the Fish',
@@ -1377,6 +1536,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B001OF5F1E',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Life, the Universe and Everything',
@@ -1385,6 +1545,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B001ODEQ7A',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Restaurant at the End of the Universe',
@@ -1393,6 +1554,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B001ODEQCU',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: "The Hitchhiker's Guide to the Galaxy",
@@ -1401,6 +1563,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B000XUBC2C',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: '1984',
@@ -1409,6 +1572,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003JTHWKU',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Return of the King',
@@ -1417,6 +1581,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B007978P18',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Two Towers',
@@ -1425,6 +1590,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B007978PKY',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'The Fellowship of the Ring',
@@ -1433,6 +1599,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B007978NPG',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Mercury Rises',
@@ -1441,6 +1608,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B005DXOMPS',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Mercury Swings',
@@ -1449,6 +1617,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B005JTNDEM',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
                 {
                     title: 'Mercury Falls',
@@ -1457,6 +1626,7 @@ const BooksRead: BookList = {
                     link: 'https://www.amazon.com/gp/product/B003HHQ12Y',
                     rating: null,
                     thoughts: null,
+                    imageFolder: 'books',
                 },
             ],
         },

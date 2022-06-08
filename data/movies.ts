@@ -1,9 +1,9 @@
 /* eslint-disable max-len */
-import { Movie } from '@models/movie';
+import { Media } from '@models/media';
 
 type MovieYear = {
     year: string;
-    movies: Movie[];
+    movies: Media[];
 };
 
 export type MovieList = {
@@ -12,17 +12,28 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'January 2022',
+    lastUpdate: 'May 2022',
     years: [
         {
             year: '2022',
             movies: [
+                {
+                    title: '42',
+                    cover: '42.jpg',
+                    link: 'https://www.imdb.com/title/tt0453562/',
+                    dateWatched: 'May 24, 2022',
+                    rating: 4,
+                    imageFolder: 'movies',
+                    thoughts:
+                        'I had been meaning to watch this for a long time. I enjoyed it tremendously. Chadwick Boseman does a fantastic job as Jackie Robinson',
+                },
                 {
                     title: "Don't Look Up",
                     cover: 'dontlookup.jpg',
                     link: 'https://www.imdb.com/title/tt11286314/',
                     dateWatched: 'March 12, 2022',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts:
                         'I think the scariest part of this movie was how much I could totally see this happen today given the state of politics in America.',
                 },
@@ -32,6 +43,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt2382320/',
                     dateWatched: 'January 1, 2022',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts:
                         "Some good action scenes, but the main villain didn't make much sense to me which definitely put the movie on a down note.",
                 },
@@ -46,6 +58,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0096061/',
                     dateWatched: 'December 18, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: "Was an enjoyable twist on Charles Dickens' A Christmas Carol. Bill Murray was his normal self.",
                 },
                 {
@@ -54,6 +67,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt4513678/',
                     dateWatched: 'November 28, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'I really enjoyed this. I thought they did a good job of telling a new story while still paying homage to the past.',
                 },
                 {
@@ -62,6 +76,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0116996/',
                     dateWatched: 'November 25, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'A dumb but funny movie with a great cast.',
                 },
                 {
@@ -70,6 +85,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt14602326/',
                     dateWatched: 'October 29, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'This was basically what I expected.',
                 },
                 {
@@ -78,6 +94,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt2379713/',
                     dateWatched: 'October 28, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: "Not one of Craig's best Bond films, but still a good Bond film nonetheless.",
                 },
                 {
@@ -86,6 +103,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt4758646/',
                     dateWatched: 'August 28, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts:
                         'I decided to watch this after the fall of Kabul to the Taliban. Despite it being satire, it felt rather accurate to what happened in Afghanistan.',
                 },
@@ -95,6 +113,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0099810/',
                     dateWatched: 'April 3, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: "I've generally enjoyed Tom Clancy novels, and this movie was done well. Connery & Baldwin do a great job.",
                 },
                 {
@@ -103,6 +122,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0401997/',
                     dateWatched: 'March 28, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts:
                         'I had only heard of Robert Hanssen, while dramatized, this did fill in some of the gaps. Great acting by Cooper and Ryan Phillipe.',
                 },
@@ -112,6 +132,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt1860242/',
                     dateWatched: 'March 21, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'I enjoyed this telling of the end of Bonnie & Clyde. Costner & Harrelson did a fantastic job.',
                 },
                 {
@@ -120,6 +141,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0407887/',
                     dateWatched: 'March 20, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts:
                         "This had been on my list to watch for a while. It was a good movie, but I guess I didn't feel like the ending was as satisfying as I hoped it would be.",
                 },
@@ -129,6 +151,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt10237902/',
                     dateWatched: 'March 18, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts:
                         "My Dad often listened to Gordon Lightfoot while I was growing up, so needless to say, I've grown an appreciation for his music. This was an interesting documentary about his life and history with folk music.",
                 },
@@ -138,6 +161,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt1210166/',
                     dateWatched: 'February 28, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts:
                         "As a baseball fan, and a fan of Michael Lewis' writing, I loved the story of how baseball has probably seen its biggest change in the last 50 years with how teams are built and players evaluated.",
                 },
@@ -147,6 +171,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt11753730/',
                     dateWatched: 'February 21, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts:
                         "I always knew that women have had it tough in the workplace. This documentary gave me a much better understanding of the fight they've undertaken.",
                 },
@@ -156,6 +181,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt2140507/',
                     dateWatched: 'February 20, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts:
                         'I went into this thinking this was an Edison vs. Tesla movie and was pleasantly surprised that it was far more than that.',
                 },
@@ -165,6 +191,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0988045/',
                     dateWatched: 'February 14, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'Wasn’t a horrible adaptation of Sherlock Holmes, but I still prefer Sherlock & Elementary.',
                 },
                 {
@@ -173,6 +200,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt5834262/',
                     dateWatched: 'February 13, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: "I'm still not sure how I feel about the movie, but it has a fantastic cast.",
                 },
                 {
@@ -181,6 +209,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0102975/',
                     dateWatched: 'February 6, 2021',
                     rating: 5,
+                    imageFolder: 'movies',
                     thoughts:
                         'This is my second favorite original Trek movie. Coming out right around the end of the Cold War, this does a good job relating to that time in history.',
                 },
@@ -190,6 +219,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt1074638/',
                     dateWatched: 'January 31, 2021',
                     rating: 5,
+                    imageFolder: 'movies',
                     thoughts:
                         "Definitely my favorite Daniel Craig Bond film. The interaction between Judi Dench as 'M' and Craig really shines here.",
                 },
@@ -199,6 +229,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0098382/',
                     dateWatched: 'January 30, 2021',
                     rating: 2,
+                    imageFolder: 'movies',
                     thoughts:
                         'As much as I love Star Trek, the only redeeming part of this movie is probably Kirk\'s "What does God need with a starship?" line',
                 },
@@ -208,6 +239,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt5723056/',
                     dateWatched: 'January 25, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts:
                         'Informative and disheartening at the same time. This documentary does a good job of looking back at what led to the current economic inequality and the rigged system.',
                 },
@@ -217,6 +249,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0092007/',
                     dateWatched: 'January 24, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'Star Trek & time travel...often a fun mix.',
                 },
                 {
@@ -225,6 +258,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0088170/',
                     dateWatched: 'January 23, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'Being an odd-numbered Trek film, this one often gets overlooked. It’s still one of my favorites.',
                 },
                 {
@@ -233,6 +267,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0084726/',
                     dateWatched: 'January 17, 2021',
                     rating: 5,
+                    imageFolder: 'movies',
                     thoughts: 'The quintessential Star Trek film. Definitely one of the best, if not the best Trek film.',
                 },
                 {
@@ -241,6 +276,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0079945/',
                     dateWatched: 'January 16, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'Better than I remember it, but awfully slow.',
                 },
                 {
@@ -249,6 +285,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0830515/',
                     dateWatched: 'January 10, 2021',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'Not one of the better Bond films. Still a decent action flick.',
                 },
                 {
@@ -257,6 +294,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt7455754/',
                     dateWatched: 'January 4, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts:
                         'This was an interesting documentary about plant based diets. Part of me felt it was trying to sell me on the idea of going more plant based, but it does follow other things I’ve read. Worth a watch.',
                 },
@@ -266,6 +304,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0482571/',
                     dateWatched: 'January 2, 2021',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'The twists and turns of this movie were enjoyable. Christian Bale and Hugh Jackman did phenomenal jobs.',
                 },
             ],
@@ -279,6 +318,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0381061/',
                     dateWatched: 'December 31, 2020',
                     rating: 5,
+                    imageFolder: 'movies',
                     thoughts: 'Daniel Craig does a fantastic job stepping into the role of 007 in this. The casting all around is fantastic.',
                 },
                 {
@@ -287,6 +327,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0246460/',
                     dateWatched: 'December 27, 2020',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: "Brosnan's final film as Bond is another good one.",
                 },
                 {
@@ -295,6 +336,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt1340800/',
                     dateWatched: 'December 6, 2020',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'I really enjoyed the intrigue in this one. It did take me a little to pick out the characters though.',
                 },
                 {
@@ -303,6 +345,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0475290/',
                     dateWatched: 'November 29, 2020',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'This was definitely a Coen Brothers film. It was solid, not as funny as I expected, but still good.',
                 },
                 {
@@ -311,6 +354,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt3799694/',
                     dateWatched: 'November 26, 2020',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'I enjoyed this one. Russell Crowe and Ryan Gosling play well off each other.',
                 },
                 {
@@ -319,6 +363,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt4686844/',
                     dateWatched: 'November 22, 2020',
                     rating: 2,
+                    imageFolder: 'movies',
                     thoughts: "Can't say I really understood this one.",
                 },
                 {
@@ -327,6 +372,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0143145/',
                     dateWatched: 'November 20, 2020',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'Definitely better than I remembered it.',
                 },
                 {
@@ -335,6 +381,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0265666/',
                     dateWatched: 'November 15, 2020',
                     rating: 2,
+                    imageFolder: 'movies',
                     thoughts: "I wasn't a huge fan of this one. It had a few moments here and there, but overall I didn't really get it.",
                 },
                 {
@@ -343,6 +390,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0120347/',
                     dateWatched: 'November 8, 2020',
                     rating: 4,
+                    imageFolder: 'movies',
                     thoughts: 'Another good Bond film.',
                 },
                 {
@@ -351,6 +399,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0483726/',
                     dateWatched: 'November 7, 2020',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: 'I seem to remember liking this movie a lot more when I first saw it. Still not bad.',
                 },
                 {
@@ -359,6 +408,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0128445/',
                     dateWatched: 'November 1, 2020',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: null,
                 },
                 {
@@ -367,6 +417,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0113189/',
                     dateWatched: 'October 25, 2020',
                     rating: 5,
+                    imageFolder: 'movies',
                     thoughts: 'Still one of the best Bond films out there. A great intro to Pierce Brosnan as 007.',
                 },
                 {
@@ -375,6 +426,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt0116282/',
                     dateWatched: 'October 11, 2020',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: null,
                 },
                 {
@@ -383,6 +435,7 @@ const MoviesWatched: MovieList = {
                     link: 'https://www.imdb.com/title/tt8244784/',
                     dateWatched: 'August 1, 2020',
                     rating: 3,
+                    imageFolder: 'movies',
                     thoughts: null,
                 },
             ],

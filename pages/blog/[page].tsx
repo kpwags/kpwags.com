@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { BlogPost } from '@models/blogPost';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
-import { getPostPages, getPaginatedPosts } from '@lib/posts';
+import { getPaginatedPosts, getPostPages } from '@lib/posts';
 import PostListing from '@components/PostListing';
 import ReactPaginate from 'react-paginate';
 import RssFeeds from '@components/RssFeeds';
@@ -68,23 +68,24 @@ const Post = ({ posts, lastPage, currentPage }: PostProps): JSX.Element => {
         <>
             <Head><title>Blog - Keith Wagner</title></Head>
             <RssFeeds />
-            <main>
-                {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
 
-                <ReactPaginate
-                    marginPagesDisplayed={0}
-                    pageRangeDisplayed={0}
-                    previousLabel="&larr; Newer Posts"
-                    nextLabel="Older Posts &rarr;"
-                    initialPage={currentPage - 1}
-                    pageCount={lastPage}
-                    onPageChange={handlePagination}
-                    containerClassName="pagination"
-                    activeClassName="paginate-active"
-                    nextLinkClassName="paginate-next-a"
-                    previousLinkClassName="paginate-prev-a"
-                />
-            </main>
+            <h1>Blog</h1>
+
+            {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
+
+            <ReactPaginate
+                marginPagesDisplayed={0}
+                pageRangeDisplayed={0}
+                previousLabel="&larr; Newer Posts"
+                nextLabel="Older Posts &rarr;"
+                initialPage={currentPage - 1}
+                pageCount={lastPage}
+                onPageChange={handlePagination}
+                containerClassName="pagination"
+                activeClassName="paginate-active"
+                nextLinkClassName="paginate-next-a"
+                previousLinkClassName={currentPage === 1 ? 'hidden' : 'paginate-prev-a'}
+            />
         </>
     );
 };

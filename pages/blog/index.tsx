@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { BlogPost } from '@models/blogPost';
 import PostListing from '@components/PostListing';
 import RssFeeds from '@components/RssFeeds';
-import SearchLink from '@components/SearchLink';
 
 export const getStaticProps: GetStaticProps = async () => {
     const posts = getPaginatedPosts(1);
@@ -26,17 +25,16 @@ const Blog = ({ posts }: BlogProps): JSX.Element => (
     <>
         <Head><title>Blog - Keith Wagner</title></Head>
         <RssFeeds />
-        <main>
-            <SearchLink />
 
-            {posts.map((p) => (<PostListing key={p.id} post={p} />))}
+        <h1>Blog</h1>
 
-            <ul className="pagination">
-                <li className="next">
-                    <Link href="/blog/2"><a className="paginate-next-a">Older Posts &rarr;</a></Link>
-                </li>
-            </ul>
-        </main>
+        {posts.map((p) => (<PostListing key={p.id} post={p} />))}
+
+        <ul className="pagination">
+            <li className="next">
+                <Link href="/blog/2"><a className="paginate-next-a">Older Posts &rarr;</a></Link>
+            </li>
+        </ul>
     </>
 );
 
