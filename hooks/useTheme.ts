@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import _ from 'lodash';
 import Theme from '@models/theme';
-import { themeDefinitions } from '@lib/themeDefinitions';
 import { saveToLocalStorage, retrieveFromLocalStorage } from '../lib/storage';
 
 interface UseThemeReturn {
@@ -12,7 +11,7 @@ interface UseThemeReturn {
 }
 
 export const useTheme = (): UseThemeReturn => {
-    const [theme, setTheme] = useState<Theme>(themeDefinitions.data.light);
+    const [theme, setTheme] = useState<Theme>('light');
     const [themeLoaded, setThemeLoaded] = useState(false);
 
     const getPreferredColorMode = (): Theme => {

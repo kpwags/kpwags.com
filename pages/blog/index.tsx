@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Posts from '@lib/Posts';
+import { getPaginatedPosts } from '@lib/Posts';
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
 import { BlogPost } from '@models/BlogPost';
@@ -8,7 +8,7 @@ import PostListing from '@components/PostListing';
 import RssFeeds from '@components/RssFeeds';
 
 export const getStaticProps: GetStaticProps = async () => {
-    const posts = Posts.GetPaginatedPosts(1);
+    const posts = getPaginatedPosts(1);
 
     return {
         props: {

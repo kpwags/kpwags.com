@@ -1,11 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import { Feed, Item } from 'feed';
-import Posts from '@lib/Posts';
+import { getPostsForRssFeed } from '@lib/Posts';
 import { MDXRemote } from 'next-mdx-remote';
-import { ThemeProvider } from 'styled-components';
 import ReactDOMServer from 'react-dom/server';
-import { themeDefinitions } from '@lib/themeDefinitions';
 
 // Blog Components
 import PostImage from '@components/PostImage';
@@ -25,15 +23,13 @@ const components = {
 };
 
 const getPosts = async (): Promise<Item[]> => {
-    const posts = await Posts.GetPostsForRssFeed();
+    const posts = await getPostsForRssFeed();
 
     const items: Item[] = [];
 
     posts.forEach((post) => {
         const mdx = (
-            <ThemeProvider theme={themeDefinitions.data.light}>
-                <MDXRemote compiledSource={post.content} components={components} />
-            </ThemeProvider>
+            <MDXRemote compiledSource={post.content} components={components} />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);

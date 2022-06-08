@@ -1,4 +1,4 @@
-import Posts from '@lib/Posts';
+import { getAllPosts } from '@lib/Posts';
 import { GetStaticProps } from 'next';
 import Welcome from '@components/Welcome';
 import LatestPosts from '@components/LatestPosts';
@@ -8,7 +8,7 @@ import RssFeeds from '@components/RssFeeds';
 import generateRssFeed from '@lib/rss';
 
 export const getStaticProps: GetStaticProps = async () => {
-    const blogPosts = Posts.GetAllPosts();
+    const blogPosts = getAllPosts();
 
     await generateRssFeed();
 

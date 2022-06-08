@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Posts from '@lib/Posts';
+import { getPaginatedPostsForTag, getAllTagPages } from '@lib/Posts';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { BlogPost } from '@models/BlogPost';
 import PostListing from '@components/PostListing';
@@ -8,7 +8,7 @@ import Link from 'next/link';
 import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = Posts.GetAllTagPages();
+    const paths = getAllTagPages();
 
     return {
         paths,
@@ -19,7 +19,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     const { tag } = params;
 
-    const posts = Posts.GetPaginatedPostsForTag(tag.toString(), 1);
+    const posts = getPaginatedPostsForTag(tag.toString(), 1);
 
     let tagName = tag;
 

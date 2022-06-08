@@ -3,13 +3,13 @@ import Head from 'next/head';
 import { BlogPost } from '@models/BlogPost';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
-import Posts from '@lib/Posts';
+import { getPaginatedPosts, getPostPages } from '@lib/Posts';
 import PostListing from '@components/PostListing';
 import ReactPaginate from 'react-paginate';
 import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = Posts.GetPostPages();
+    const paths = getPostPages();
 
     return {
         paths,
@@ -26,7 +26,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         pageNumber = parseInt(page, 10);
     }
 
-    const posts = Posts.GetPaginatedPosts(pageNumber);
+    const posts = getPaginatedPosts(pageNumber);
 
     return {
         props: {

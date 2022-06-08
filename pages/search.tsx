@@ -3,13 +3,13 @@ import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import { BlogPost } from '@models/BlogPost';
 import { useEffect, useState } from 'react';
-import Posts from '@lib/Posts';
+import { getAllPosts } from '@lib/Posts';
 import PostListing from '@components/PostListing';
 import { GetStaticProps } from 'next';
 import SearchForm from '@components/SearchForm';
 
 export const getStaticProps: GetStaticProps = async () => {
-    const blogPosts = Posts.GetAllPosts();
+    const blogPosts = getAllPosts();
 
     return {
         props: {

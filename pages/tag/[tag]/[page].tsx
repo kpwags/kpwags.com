@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Posts from '@lib/Posts';
+import { getPaginatedPostsForTag, getAllTagPages } from '@lib/Posts';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
 import { BlogPost } from '@models/BlogPost';
@@ -10,7 +10,7 @@ import ReactPaginate from 'react-paginate';
 import RssFeeds from '@components/RssFeeds';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = Posts.GetAllTagPages();
+    const paths = getAllTagPages();
 
     return {
         paths,
@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         pageNumber = parseInt(page, 10);
     }
 
-    const posts = Posts.GetPaginatedPostsForTag(tag.toString(), pageNumber);
+    const posts = getPaginatedPostsForTag(tag.toString(), pageNumber);
 
     let tagName = tag;
 
