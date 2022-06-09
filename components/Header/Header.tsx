@@ -18,13 +18,21 @@ const Hdr = styled.header`
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
-    @media all and (max-width: 809px) {
+    @media all and (max-width: 850px) {
         line-height: 1.5;
         padding: 10px 0;
         height: auto;
         text-align: center;
         margin-bottom: 0;
         display: block;
+
+        #normal-switch {
+            display: none;
+        }
+
+        .hide-on-tablet {
+            display: none;
+        }
     }
 
     div.site-title {
@@ -52,7 +60,12 @@ const Hdr = styled.header`
 
     nav {
         display: block;
-        justify-self: end;
+        width: 100%;
+        text-align: right;
+
+        @media all and (max-width: 850px) {
+            text-align: center;
+        }
 
         a {
             padding: 0 14px;
@@ -102,7 +115,7 @@ const StickyToggle = styled.div`
     top: 10px;
     right: 0px;
 
-    @media all and (max-width: 450px) {
+    @media all and (max-width: 850px) {
         display: block;
     }
 `;
@@ -126,7 +139,7 @@ const Header = (): JSX.Element => {
         <>
             <StickyToggle>
                 <LightDarkSwitch
-                    className=""
+                    id="mobile-switch"
                     onClick={() => {
                         changeMode();
                     }}
@@ -152,7 +165,7 @@ const Header = (): JSX.Element => {
                         </a>
                     </Link>
                     <LightDarkSwitch
-                        className="hide-on-mobile"
+                        id="normal-switch"
                         onClick={() => changeMode()}
                     />
                 </nav>
