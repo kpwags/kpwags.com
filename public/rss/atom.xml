@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-06-08T01:28:45.776Z</updated>
+    <updated>2022-06-10T21:40:15.908Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,19 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading List: June 4 - June 10]]></title>
+        <id>https://kpwags.com/posts/2022/06/10/reading-list</id>
+        <link href="https://kpwags.com/posts/2022/06/10/reading-list"/>
+        <updated>2022-06-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A little bit of everything this week from new features coming to .NET and Next.js, to working from home, and prediting the future.]]></summary>
+        <content type="html"><![CDATA[<p>A little bit of everything this week from new features coming to .NET and Next.js, to working from home, and prediting the future.</p><p>🧑🏼‍💻 <a href="https://www.telerik.com/blogs/build-2022-updates-aspnet-core-developers"><strong>Build 2022 Updates for ASP.NET Core Developers</strong></a> - As a .NET developer, always keeping up with all the awesome features they&#x27;re adding. <span class="domain-name">(telerik.com)</span></p><p>🧑🏼‍💻 <a href="https://nextjs.org/blog/layouts-rfc"><strong>NEXT.js Layouts RFC</strong></a> - I&#x27;m excited to try this out when they release it. This blog is built on Next.js! <span class="domain-name">(nextjs.org)</span></p><p>🕵🏻‍♂️ <a href="https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08"><strong>Employee surveillance software is managerial bankruptcy</strong></a> - I&#x27;m a firm believer in trusting your employees to do their work. It&#x27;s pretty obvious when they aren&#x27;t, you don&#x27;t need spyware to do it. <span class="domain-name">(hey.com)</span></p><p>🔮 <a href="https://www.techdirt.com/2022/04/05/techdirt-podcast-episode-316-predicting-the-future/"><strong>Techdirt Podcast #316: Predicting the Future</strong></a> - Interesting discussion on making predictions about the future and getting better at it. <span class="domain-name">(techdirt.com)</span></p>]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading List: May 28 - June 3]]></title>
         <id>https://kpwags.com/posts/2022/06/03/reading-list</id>
