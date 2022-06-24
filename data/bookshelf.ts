@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'Project Hail Mary',
+                    author: 'Andy Weir',
+                    cover: 'projecthailmary.jpg',
+                    link: 'https://bookshop.org/books/project-hail-mary/9780593135204',
+                    rating: 4,
+                    thoughts: 'I enjoyed this. It definitely had the same style as The Martian. The story had a good pace and was interesting.',
+                    imageFolder: 'books',
+                },
+                {
                     title: 'The Passion Economy: The New Rules for Thriving in the Twenty-First Century',
                     author: 'Adam Davidson',
                     cover: 'passioneconomy.jpg',

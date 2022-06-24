@@ -2,6 +2,46 @@ import { PhotoBlogItem } from '@models/PhotoBlogItem';
 
 const photoBlog: PhotoBlogItem[] = [
     {
+        key: '20220618_01',
+        src: '20220618_01.jpg',
+        thumbnail: '20220618_01_sm.jpg',
+        altText: 'The New York City skyline from Long Island City in Queens',
+        description: 'The New York City skyline from Long Island City in Queens',
+        location: 'New York, NY',
+    },
+    {
+        key: '20220616_03',
+        src: '20220616_03.jpg',
+        thumbnail: '20220616_03_sm.jpg',
+        altText: 'Empire State Building in red, white and blue',
+        description: 'The Empire State Building at night lit up red, white and blue',
+        location: 'New York, NY',
+    },
+    {
+        key: '20220616_02',
+        src: '20220616_02.jpg',
+        thumbnail: '20220616_02_sm.jpg',
+        altText: 'The Gutenberg Bible',
+        description: 'The Morgan Library had multiple copies of a Gutenberg Bible, this is one of them.',
+        location: 'New York, NY',
+    },
+    {
+        key: '20220616_01',
+        src: '20220616_01.jpg',
+        thumbnail: '20220616_01_sm.jpg',
+        altText: 'An old multi-floored classic library',
+        description: 'The library at the Morgan Library and Museum was amazing. So many old books and intricate architecture and art.',
+        location: 'New York, NY',
+    },
+    {
+        key: '20220615_01',
+        src: '20220615_01.jpg',
+        thumbnail: '20220615_01_sm.jpg',
+        altText: 'The Arch in Washington Square Park',
+        description: 'Walking through Washington Square Park in NYC seeing the arch appear.',
+        location: 'New York, NY',
+    },
+    {
         key: '20220505_01',
         src: '20220505_01.jpg',
         thumbnail: '20220505_01_sm.jpg',

@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'April 2022',
     reading: [
         {
-            title: 'Project Hail Mary',
-            author: 'Andy Weir',
-            cover: 'projecthailmary.jpg',
-            link: 'https://bookshop.org/books/project-hail-mary/9780593135204',
+            title: 'Born a Crime',
+            author: 'Trevor Noah',
+            cover: 'bornacrime.jpg',
+            link: 'https://bookshop.org/books/born-a-crime-stories-from-a-south-african-childhood/9780399588198',
             rating: null,
             thoughts: null,
             imageFolder: 'books',

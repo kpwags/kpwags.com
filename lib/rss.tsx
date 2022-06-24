@@ -12,6 +12,7 @@ import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
+import YouTubeEmbed from '@components/YouTubeEmbed';
 
 const components = {
     PostImage,
@@ -20,6 +21,7 @@ const components = {
     TableOfContents,
     TableOfContentsPage,
     BookRead,
+    YouTubeEmbed,
 };
 
 const getPosts = async (): Promise<Item[]> => {
