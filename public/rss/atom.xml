@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-07-01T13:54:42.662Z</updated>
+    <updated>2022-07-01T23:31:21.061Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -15,9 +15,22 @@
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
     <entry>
+        <title type="html"><![CDATA[Reading List: June 25 - July 1]]></title>
+        <id>https://kpwags.com/posts/2022/07/01/reading-list</id>
+        <link href="https://kpwags.com/posts/2022/07/01/reading-list"/>
+        <updated>2022-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Didn&#39;t get to much reading this week, but a little bit on CSS, Apple&#39;s issues with WebKit and iOS, and women and grunge.]]></summary>
+        <content type="html"><![CDATA[<p>Didn&#x27;t get to much reading this week, but a little bit on CSS, Apple&#x27;s issues with WebKit and iOS, and women and grunge.</p><h2>👨🏼‍💻Software Development</h2><p><a href="https://swyx.io/the-end-of-localhost">The End of Localhost</a> - Developing on our local machines might not be as common as it is now <span class="domain-name">(swyx.io)</span></p><p><a href="https://sprucecss.com/blog/writing-better-css">Writing Better CSS</a> - There is no &quot;one size fits all&quot; method for dealing with CSS, but any ideas to improve is welcome. <span class="domain-name">(sprucecss.com)</span></p><h2>🖥 Technology</h2><p><a href="https://infrequently.org/2022/06/apple-is-not-defending-browser-engine-choice/">Apple Is Not Defending Browser Engine Choice</a> - I am an iOS user and even I agree Apple should open up iOS to different browser engines. <span class="domain-name">(infrequently.org)</span></p><h2>🎒 Miscellaneous</h2><p><a href="https://longreads.com/2022/06/29/the-women-who-built-grunge/">The Women Who Built Grunge</a> - They&#x27;ve been sadly long buried beneath men. <span class="domain-name">(longreads.com)</span></p><h2>🎵 A Song to Leave You With</h2>]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Mocking React Router and useParams]]></title>
-        <id>https://kpwags.com/posts/2022/06/30/mocking-react-router-and-useparams</id>
-        <link href="https://kpwags.com/posts/2022/06/30/mocking-react-router-and-useparams"/>
+        <id>https://kpwags.com/posts/2022/07/01/mocking-react-router-and-useparams</id>
+        <link href="https://kpwags.com/posts/2022/07/01/mocking-react-router-and-useparams"/>
         <updated>2022-07-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[One of the things I needed to do recently was write unit tests for one of the pages of Digital Family Cookbook where I pull a value from a query parameter in the URL. I ended up having some trouble with it so I figured I&#39;d share what I did to get it working.]]></summary>
         <content type="html"><![CDATA[<p>One of the things I needed to do recently was write unit tests for one of the pages of Digital Family Cookbook where I pull a value from a query parameter in the URL. I ended up having some trouble with it so I figured I&#x27;d share what I did to get it working.</p><p>First, let&#x27;s look at the component. In the component, I&#x27;m looking to get the recipe&#x27;s ID from the URL and then query the API to get the recipe data. The URL is formatted like <code>/recipes/view/:id</code> where <code>:id</code> indicates the recipe&#x27;s ID. An actual URL would be <code>/recipes/view/25</code>.</p><pre><code class="language-typescript">import { useParams } from &#x27;react-router&#x27;;
