@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'April 2022',
     reading: [
         {
-            title: 'Born a Crime',
-            author: 'Trevor Noah',
-            cover: 'bornacrime.jpg',
-            link: 'https://bookshop.org/books/born-a-crime-stories-from-a-south-african-childhood/9780399588198',
+            title: 'The End of Everything (Astrophysically Speaking)',
+            author: 'Katie Mack',
+            cover: 'endofeverything.jpg',
+            link: 'https://bookshop.org/books/the-end-of-everything-astrophysically-speaking/9781982103552',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
@@ -23,13 +23,6 @@ const current: CurrentlyDoing = {
         },
     ],
     watching: [
-        {
-            title: 'Obi-Wan Kenobi',
-            cover: 'kenobi.jpg',
-            imageFolder: 'tv',
-            rating: null,
-            thoughts: null,
-        },
         {
             title: 'Star Trek: Strange New Worlds',
             cover: 'strangenewworlds.jpg',

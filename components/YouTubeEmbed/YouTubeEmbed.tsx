@@ -1,25 +1,27 @@
+import useWindowDimensions from '@hooks/useWindowDimensions';
+
 type YouTubeEmbedProps = {
     id: string
     title: string
-    width?: number
-    height?: number
 }
 
 const YouTubeEmbed = ({
     id,
     title,
-    width = 560,
-    height = 315,
-}: YouTubeEmbedProps): JSX.Element => (
-    <iframe
-        width={width}
-        height={height}
-        src={`https://www.youtube.com/embed/${id}`}
-        title={title}
-        frameBorder={0}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-    />
-);
+}: YouTubeEmbedProps): JSX.Element => {
+    const { width: windowWidth } = useWindowDimensions();
+
+    return (
+        <iframe
+            width={windowWidth > 600 ? 560 : 300}
+            height={windowWidth > 600 ? 315 : 169}
+            src={`https://www.youtube.com/embed/${id}`}
+            title={title}
+            frameBorder={0}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+        />
+    );
+};
 
 export default YouTubeEmbed;

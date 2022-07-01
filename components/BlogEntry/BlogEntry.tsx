@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { MDXRemote } from 'next-mdx-remote';
 import styled from 'styled-components';
 import Prism from 'prismjs';
@@ -15,7 +16,6 @@ import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
-import YouTubeEmbed from '@components/YouTubeEmbed';
 
 // Prism
 import 'prismjs/components';
@@ -27,6 +27,11 @@ import 'prismjs/components/prism-tsx';
 import 'prismjs/components/prism-typescript';
 import 'prismjs/components/prism-yaml';
 import 'prism-themes/themes/prism-material-dark.css';
+// import YouTubeEmbed from '@components/YouTubeEmbed';
+
+const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
+    ssr: false,
+});
 
 const components = {
     PostImage,
@@ -125,6 +130,10 @@ const Post = styled.article`
     p {
         font-size: 1.5rem;
         font-weight: 300;
+
+        code {
+            font-size: 1.5rem;
+        }
 
         a {
             font-weight: normal;

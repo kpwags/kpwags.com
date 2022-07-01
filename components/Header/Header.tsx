@@ -71,7 +71,7 @@ const Hdr = styled.header`
             padding: 0 14px;
             font-size: 1.1rem;
             font-weight: 400;
-            color: var(--black-2);
+            color: var(--green-1);
             white-space: nowrap;
 
             @media all and (max-width: 809px) {
