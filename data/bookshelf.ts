@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'Born a Crime',
+                    author: 'Trevor Noah',
+                    cover: 'bornacrime.jpg',
+                    link: 'https://bookshop.org/books/born-a-crime-stories-from-a-south-african-childhood/9780399588198',
+                    rating: 3,
+                    thoughts: "I appreciate Trevor's comedy and the way he hosts The Daily Show. It was interesting reading about all he and his family had to deal with growing up in South Africa.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'Project Hail Mary',
                     author: 'Andy Weir',
                     cover: 'projecthailmary.jpg',
