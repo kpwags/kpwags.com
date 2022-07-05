@@ -12,7 +12,7 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'April 2022',
+    lastUpdate: 'July 2022',
     years: [
         {
             year: '2022',

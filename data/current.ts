@@ -1,7 +1,7 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'April 2022',
+    lastUpdate: 'July 2022',
     reading: [
         {
             title: 'The End of Everything (Astrophysically Speaking)',
@@ -23,13 +23,6 @@ const current: CurrentlyDoing = {
         },
     ],
     watching: [
-        {
-            title: 'Star Trek: Strange New Worlds',
-            cover: 'strangenewworlds.jpg',
-            imageFolder: 'tv',
-            rating: null,
-            thoughts: null,
-        },
         {
             title: 'Designated Survivor',
             cover: 'designatedsurvivor.jpg',
@@ -63,10 +56,19 @@ const current: CurrentlyDoing = {
             thoughts: null,
         },
         {
-            title: 'Lego Star Wars: The Skywalker Saga',
+            title: 'WoW Burning Crusade Classic',
+            system: 'PC',
+            cover: 'wow_tbc_classic.jpg',
+            link: 'https://worldofwarcraft.com/en-us/wowclassic',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+        },
+        {
+            title: 'Star Wars: Battlefront II',
             system: 'PS5',
-            cover: 'legostarwars.jpg',
-            link: 'https://www.playstation.com/en-us/games/lego-star-wars-the-skywalker-saga/',
+            cover: 'battlefront2.jpg',
+            link: 'https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2',
             imageFolder: 'games',
             rating: null,
             thoughts: null,
