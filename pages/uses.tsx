@@ -32,16 +32,12 @@ const Uses = (): JSX.Element => (
         <Head><title>Uses - Keith Wagner</title></Head>
         <h1>What I Use</h1>
         <Container>
-            <p><em>Last Updated: January 2022</em></p>
+            <p><em>Last Updated: July 2022</em></p>
             <h2 id="computers">Computers</h2>
 
             <h3 id="desktop">Desktop</h3>
             <p>
-                I have an older custom build desktop that I use for development and gaming. It&apos;s starting to show
-                its age though with some of the newer games. I haven&apos;t decided how much PC gaming I&apos;m going
-                to be doing, so I&apos;m not certain if I&apos;ll end up rebuilding it or getting rid of it. It still
-                does run well though, so its got some life left to it. It runs an older Core i7, 16GB RAM & a
-                GTX 1060 graphics card.
+                I have a custom build PC. It runs an AMD Ryzen 7 5800X 8-Core 3.8GHz Processor with 32 GB of RAM and an older, but still decent nVidia GTX 1060 graphics card.
             </p>
 
             <h3 id="laptop">Laptop</h3>

@@ -12,7 +12,7 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'May 2022',
+    lastUpdate: 'June 2022',
     years: [
         {
             year: '2022',
