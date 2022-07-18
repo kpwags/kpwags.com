@@ -55,11 +55,11 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: rgb(52, 52, 52);
+        --background: hsl(0, 0%, 14%);
         --text: hsl(0, 0%, 94%);
-        --green-1: hsl(124, 95%, 32%);
-        --green-2: hsl(124, 95%, 32%);
-        --meta: hsl(0, 0%, 69%);
+        --green-1: hsl(124, 95%, 38%);
+        --green-2: hsl(124, 100%, 40%);
+        --meta: hsl(0, 0%, 89%);
         --grey-gradient: linear-gradient(
             145deg,
             hsl(0deg 0% 11%) 0%,
@@ -76,7 +76,7 @@
         --welcome-button-bg: hsl(0, 0%, 15%);
         --welcome-button-text: hsl(0, 0%, 94%);
         --welcome-button-border: hsl(0, 0%, 15%);
-        --welcome-button-hover-bg: hsl(124, 95%, 32%);
+        --welcome-button-hover-bg: hsl(124, 95%, 38%);
         --welcome-button-hover-text: hsl(0, 0%, 15%);
         --welcome-button-hover-border: hsl(144, 100%, 15%);
         --photoset-list-bg: hsl(0, 0%, 36%);
@@ -87,11 +87,11 @@
 }
 
 [data-theme='dark'] {
-    --background: rgb(52, 52, 52);
+    --background: hsl(0, 0%, 14%);
     --text: hsl(0, 0%, 94%);
-    --green-1: hsl(124, 95%, 32%);
-    --green-2: hsl(124, 95%, 32%);
-    --meta: hsl(0, 0%, 69%);
+    --green-1: hsl(124, 95%, 38%);
+    --green-2: hsl(124, 100%, 40%);
+    --meta: hsl(0, 0%, 89%);
     --grey-gradient: linear-gradient(
         145deg,
         hsl(0deg 0% 11%) 0%,
@@ -108,7 +108,7 @@
     --welcome-button-bg: hsl(0, 0%, 15%);
     --welcome-button-text: hsl(0, 0%, 94%);
     --welcome-button-border: hsl(0, 0%, 15%);
-    --welcome-button-hover-bg: hsl(124, 95%, 32%);
+    --welcome-button-hover-bg: hsl(124, 95%, 38%);
     --welcome-button-hover-text: hsl(0, 0%, 15%);
     --welcome-button-hover-border: hsl(144, 100%, 15%);
     --photoset-list-bg: hsl(0, 0%, 36%);
@@ -342,13 +342,13 @@ div.cover.about {
 
 .pagination li {
     display: inline;
-    padding: 0 25px;
+    padding: 0 20px;
 }
 
 .pagination .paginate-next-a,
 .pagination .paginate-prev-a {
     color: var(--green-1);
-    margin: 0 0.3rem;
+    margin: 0 0.1rem;
 }
 
 .pagination .paginate-next-a:hover,
