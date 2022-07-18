@@ -45,6 +45,7 @@ const LatestPhotosetSection = styled.section`
         grid-template-rows: 1fr;
         grid-column-gap: 25px;
         grid-row-gap: 0px;
+        box-shadow: var(--box-shadow);
 
         @media all and (max-width: 450px) {
             display: block;

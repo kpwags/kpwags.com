@@ -9,7 +9,6 @@ export interface BlogPost {
     url?: string
     content?: string
     description?: string
-    contentImage?: string
     socialImageUrl?: string
     socialImageWidth?: number
     socialImageHeight?: number

@@ -60,10 +60,10 @@ const Post = styled.article`
     }
 
     .datetime {
-        margin: 5px 0;
+        margin: 0.2rem 0 1.25rem 0;
         font-style: italic;
         font-size: 1.2rem;
-        color: var(--black-3);
+        color: var(--meta);
         font-weight: 300;
     }
 

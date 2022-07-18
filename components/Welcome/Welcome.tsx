@@ -9,6 +9,7 @@ const WelcomeSection = styled.section`
     margin: 3rem 0;
     color: var(--white-1);
     font-size: 2rem;
+    box-shadow: var(--box-shadow);
 
     div.content {
         display: grid;

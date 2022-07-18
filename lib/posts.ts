@@ -79,7 +79,6 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             tags,
             content: html,
             isRssOnly: data.isRssOnly || false,
-            contentImage: data.contentImage || null,
         };
     });
 
