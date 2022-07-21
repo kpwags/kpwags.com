@@ -38,22 +38,20 @@ const LatestPhotosetSection = styled.section`
     }
 
     div.photoset {
-        border-radius: 10px;
-        background-image: var(--grey-gradient);
+        border: 1px solid var(--meta);
+        padding: 1rem;
+        box-shadow: var(--box-shadow);
         display: grid;
         grid-template-columns: 2fr 3fr;
         grid-template-rows: 1fr;
         grid-column-gap: 25px;
         grid-row-gap: 0px;
-        box-shadow: var(--box-shadow);
 
         @media all and (max-width: 450px) {
             display: block;
         }
 
         div.image {
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
             min-width: 100%;
             min-height: 100%;
             object-fit: cover;
@@ -61,9 +59,6 @@ const LatestPhotosetSection = styled.section`
 
             @media all and (max-width: 450px) {
                 min-height: 300px;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-                border-bottom-left-radius: 0;
             }
         }
 
