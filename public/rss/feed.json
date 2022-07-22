@@ -10,6 +10,18 @@
     },
     "items": [
         {
+            "id": "https://kpwags.com/posts/2022/07/22/reading-list",
+            "content_html": "<p>Some articles about C#, SQL and looking at local newspapers.</p><h2>👨🏼‍💻Software Development</h2><p><a href=\"https://jeremybytes.blogspot.com/2022/07/nullability-in-c-what-it-is-and-what-it.html\">Nullability in C# - What It Is and What It Is Not</a> - <em>jeremybytes.blogspot.com</em></p><p><a href=\"https://blog.plover.com/prog/git/tips-2.html\">Things I wish everyone knew about Git (Part II)</a> - <em>blog.plover.com</em></p><p><a href=\"https://brandur.org/soft-deletion\">Soft Deletion Probably Isn&#x27;t Worth It</a> - <em>brandur.org</em></p><p><a href=\"https://steven-giesel.com/blogPost/3992a289-4cc9-460c-b484-0cc137cccafa\">Abstract Class vs Interface</a> - <em>steven-giesel.com</em></p><p><a href=\"https://jvns.ca/blog/2022/07/20/pseudoterminals/\">What happens when you press a key in your terminal?</a> - <em>jvns.ca</em></p><p><a href=\"https://una.im/style-queries/\">Style Queries</a> - <em>una.im</em></p><h2>🖥 Technology</h2><p><a href=\"https://www.ctrl.blog/entry/teamviewer-font-privacy.html\">TeamViewer installs suspicious font only useful for web fingerprinting</a> - <em>ctrl.blog</em></p><h2>📈 Business and Finance</h2><p><a href=\"https://www.marketplace.org/2022/07/19/supermarket-design-emotions-impulse-buys/\">It&#x27;s hard to keep costs down at the supermarket, thanks to store design and our emotions</a> - <em>marketplace.org</em></p><h2>🎧 Podcasts</h2><p><a href=\"https://www.dotnetrocks.com/default.aspx?ShowNum=1759\">.NET Rocks #1759: Code That Fits in Your Head</a></p><h2>🎒 Miscellaneous</h2><p><a href=\"https://defector.com/this-is-not-the-way-to-help-local-news/\">This is Not the Way to Help Local News</a> - 💰 - <em>defector.com</em></p><h2>🎵 A Song to Leave You With</h2><h3>Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave</h3>",
+            "url": "https://kpwags.com/posts/2022/07/22/reading-list",
+            "title": "Reading List: July 16 - July 22",
+            "summary": "Some articles about C#, SQL and looking at local newspapers.",
+            "date_modified": "2022-07-22T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com/"
+            }
+        },
+        {
             "id": "https://kpwags.com/posts/2022/07/18/chats-with-kent",
             "content_html": "<p>I&#x27;ve been finally catching up on my (all-too-massive) podcast backlog and figured I&#x27;d place a shout-out to the podcast Chats with Kent.</p><p>For fellow devs out there, I&#x27;d recommend subscribing to and listening to it. I&#x27;m currently on the 4th season and he has some great chats with various developers with a wide variety of backgrounds.</p><p>Go <a href=\"https://kentcdodds.com/chats/04\">give it a listen</a></p>",
             "url": "https://kpwags.com/posts/2022/07/18/chats-with-kent",
