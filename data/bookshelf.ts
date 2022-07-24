@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'The End of Everything (Astrophysically Speaking)',
+                    author: 'Katie Mack',
+                    cover: 'endofeverything.jpg',
+                    link: 'https://bookshop.org/books/the-end-of-everything-astrophysically-speaking/9781982103552',
+                    rating: 5,
+                    thoughts: 'Being a space nut, this was a fun read learning about the various different ways the universe might end. Katie Mack did a fantastic job describing it with a good mix of humor and not-too-complicated language.',
+                    imageFolder: 'books',
+                },
+                {
                     title: 'Born a Crime',
                     author: 'Trevor Noah',
                     cover: 'bornacrime.jpg',

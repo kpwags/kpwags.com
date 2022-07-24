@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'July 2022',
     reading: [
         {
-            title: 'The End of Everything (Astrophysically Speaking)',
-            author: 'Katie Mack',
-            cover: 'endofeverything.jpg',
-            link: 'https://bookshop.org/books/the-end-of-everything-astrophysically-speaking/9781982103552',
+            title: "Moonshot: Inside Pfizer's Nine-Month Race to Make the Impossible Possible",
+            author: 'Albert Bourla',
+            cover: 'moonshot.jpg',
+            link: 'https://bookshop.org/books/moonshot-inside-pfizer-s-nine-month-race-to-make-the-impossible-possible-9798200746163/9780063210790',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
