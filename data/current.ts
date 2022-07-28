@@ -4,15 +4,6 @@ const current: CurrentlyDoing = {
     lastUpdate: 'July 2022',
     reading: [
         {
-            title: "Moonshot: Inside Pfizer's Nine-Month Race to Make the Impossible Possible",
-            author: 'Albert Bourla',
-            cover: 'moonshot.jpg',
-            link: 'https://bookshop.org/books/moonshot-inside-pfizer-s-nine-month-race-to-make-the-impossible-possible-9798200746163/9780063210790',
-            rating: null,
-            thoughts: null,
-            imageFolder: 'books',
-        },
-        {
             title: 'Unit Testing Principles, Practices, and Patterns',
             author: 'Vladimir Khorikov',
             cover: 'unittesting.jpg',
