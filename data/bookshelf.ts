@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: "Moonshot: Inside Pfizer's Nine-Month Race to Make the Impossible Possible",
+                    author: 'Albert Bourla',
+                    cover: 'moonshot.jpg',
+                    link: 'https://bookshop.org/books/moonshot-inside-pfizer-s-nine-month-race-to-make-the-impossible-possible-9798200746163/9780063210790',
+                    rating: 2,
+                    thoughts: "The book had a little too much of a “Rah Rah” feel to me which I guess isn't surprising since it was written by Pfizer's CEO. When I picked it up at the library I was hoping there'd be a little more meat to it.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'The End of Everything (Astrophysically Speaking)',
                     author: 'Katie Mack',
                     cover: 'endofeverything.jpg',
