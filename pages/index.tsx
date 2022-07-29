@@ -5,12 +5,14 @@ import LatestPosts from '@components/LatestPosts';
 import LatestPhotoset from '@components/LatestPhotoset';
 import { BlogPost } from '@models/blogPost';
 import RssFeeds from '@components/RssFeeds';
-import generateRssFeed from '@lib/rss';
+import { generateRssFeed, generatePhotoBlogRssFeed } from '@lib/rss';
+import PhotoBlogRssFeeds from '@components/PhotoBlogRssFeeds';
 
 export const getStaticProps: GetStaticProps = async () => {
     const blogPosts = getAllPosts();
 
     await generateRssFeed();
+    generatePhotoBlogRssFeed();
 
     return {
         props: {
@@ -25,6 +27,7 @@ interface HomeProps {
 const Home = ({ posts }: HomeProps): JSX.Element => (
     <>
         <RssFeeds />
+        <PhotoBlogRssFeeds />
         <Welcome />
         <LatestPosts mostRecentPosts={posts} />
         <LatestPhotoset />

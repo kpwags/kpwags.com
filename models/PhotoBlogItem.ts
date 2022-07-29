@@ -5,4 +5,5 @@ export interface PhotoBlogItem {
     altText: string
     description: string
     location?: string
+    date: string
 }
