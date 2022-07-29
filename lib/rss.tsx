@@ -7,6 +7,7 @@ import { MDXRemote } from 'next-mdx-remote';
 import ReactDOMServer from 'react-dom/server';
 import dynamic from 'next/dynamic';
 import photoBlog from '@data/photoBlog';
+import { PhotoBlogItem } from '@models/PhotoBlogItem';
 
 // Blog Components
 import PostImage from '@components/PostImage';
@@ -15,7 +16,7 @@ import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
-import { PhotoBlogItem } from '@models/PhotoBlogItem';
+import ExternalLink from '@components/ExternalLink';
 
 const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
     ssr: false,
@@ -29,6 +30,7 @@ const components = {
     TableOfContentsPage,
     BookRead,
     YouTubeEmbed,
+    ExternalLink,
 };
 
 const getPosts = async (): Promise<Item[]> => {
