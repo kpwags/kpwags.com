@@ -8,6 +8,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The New York City skyline from Long Island City in Queens',
         description: 'The New York City skyline from Long Island City in Queens',
         location: 'New York, NY',
+        date: '2022-06-18',
     },
     {
         key: '20220616_03',
@@ -16,6 +17,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Empire State Building in red, white and blue',
         description: 'The Empire State Building at night lit up red, white and blue',
         location: 'New York, NY',
+        date: '2022-06-16',
     },
     {
         key: '20220616_02',
@@ -24,6 +26,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The Gutenberg Bible',
         description: 'The Morgan Library had multiple copies of a Gutenberg Bible, this is one of them.',
         location: 'New York, NY',
+        date: '2022-06-16',
     },
     {
         key: '20220616_01',
@@ -32,6 +35,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'An old multi-floored classic library',
         description: 'The library at the Morgan Library and Museum was amazing. So many old books and intricate architecture and art.',
         location: 'New York, NY',
+        date: '2022-06-16',
     },
     {
         key: '20220615_01',
@@ -40,6 +44,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The Arch in Washington Square Park',
         description: 'Walking through Washington Square Park in NYC seeing the arch appear.',
         location: 'New York, NY',
+        date: '2022-06-15',
     },
     {
         key: '20220505_01',
@@ -48,6 +53,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Tacos and a margarita',
         description: 'Celebrating Cinco de Mayo with tacos and a margarita',
         location: 'Audubon, PA',
+        date: '2022-05-05',
     },
     {
         key: '20220430_01',
@@ -56,6 +62,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Faceoff at the PPL Center at a hockey game between the Lehigh Valley Phantoms and Scranton Penguins',
         description: 'Enjoying an early lead at the 2021-22 AHL season finale for the Phantoms',
         location: 'Allentown, PA',
+        date: '2022-04-30',
     },
     {
         key: '20220410_01',
@@ -64,6 +71,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'My cat Cookie sleeping on the couch',
         description: 'My cat Cookie is enjoying a catnap on our couch',
         location: 'Audubon, PA',
+        date: '2022-04-10',
     },
     {
         key: '20220409_02',
@@ -72,6 +80,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Dave Hause playing live at Union Transfer in Philadelphia',
         description: 'Dave Hause playing a live show at Union Transfer in Philadelphia',
         location: 'Philadelphia, PA',
+        date: '2022-04-09',
     },
     {
         key: '20220409_01',
@@ -80,6 +89,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Tim Barry playing live at Union Transfer in Philadelphia',
         description: 'Tim Barry playing a live show at Union Transfer in Philadelphia',
         location: 'Philadelphia, PA',
+        date: '2022-04-09',
     },
     {
         key: '20220330_02',
@@ -88,6 +98,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'A green beer in a glass sitting on a table',
         description: "Enjoying a beer called 'Nucky Charms' by COHO Brewing in Cape May Courthouse, NJ. It's brewed with Lucky Charms for St. Patrick's Day.",
         location: 'Cape May Courthouse, NJ',
+        date: '2022-03-30',
     },
     {
         key: '20220330_01',
@@ -96,6 +107,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Beer flight sitting on a table with the Slacktide Brewing logo behind',
         description: 'Enjoying a beer flight at Slacktide Brewing outside Wildwood, NJ',
         location: 'Wildwood, NJ',
+        date: '2022-03-30',
     },
     {
         key: '20220327_01',
@@ -104,6 +116,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Ocean view from hotel window',
         description: 'Enjoying a nice ocean view from our hotel window at Congress Hall in Cape May',
         location: 'Cape May, NJ',
+        date: '2022-03-27',
     },
     {
         key: '20220227_01',
@@ -112,6 +125,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Brian Fallon playing a live concert',
         description: 'Brian Fallon playing a live show at Union Transfer in Philadelphia',
         location: 'Philadelphia, PA',
+        date: '2022-02-27',
     },
     {
         key: '20220213_01',
@@ -120,6 +134,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Snowy landscape from a window',
         description: 'My backyard in the snow from my kitchen window',
         location: 'Audubon, PA',
+        date: '2022-02-13',
     },
     {
         key: '20220212_01',
@@ -128,6 +143,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Beer being brewed in a steaming pot',
         description: 'Brewing some beer in my garage',
         location: 'Audubon, PA',
+        date: '2022-02-12',
     },
     {
         key: '20211230_01',
@@ -136,6 +152,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'A picture of my dog Otto highlights his urn',
         description: "We found a nice place to put Otto's ashes",
         location: 'Audubon, PA',
+        date: '2021-12-30',
     },
     {
         key: '20211212_01',
@@ -144,6 +161,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The sun over the beach and ocean',
         description: 'The sun reflecting on the ocean in Ocean City, NJ',
         location: 'Ocean City, NJ',
+        date: '2021-12-12',
     },
     {
         key: '20211130_01',
@@ -152,6 +170,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'My cat Cookie and my dog Otto laying in their beds',
         description: 'My cat Cookie and dog Otto laying in their beds in my office',
         location: 'Audubon, PA',
+        date: '2021-11-30',
     },
     {
         key: '20211111_01',
@@ -160,6 +179,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The arch in Washington Square Park in New York City at night',
         description: 'Walking around New York City and visiting Washington Square Park and its infamous arch.',
         location: 'New York, NY',
+        date: '2021-11-11',
     },
     {
         key: '20211022_01',
@@ -168,6 +188,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Flames shooting up from a firepit',
         description: 'Enjoying a fire in our backyard firepit',
         location: 'Audubon, PA',
+        date: '2021-10-22',
     },
     {
         key: '20211018_01',
@@ -176,6 +197,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The view from a window at a shore town resort',
         description: 'Looking out at the Atlantic Ocean from a window at Congress Hall',
         location: 'Cape May, NJ',
+        date: '2021-10-18',
     },
     {
         key: '20211017_01',
@@ -184,6 +206,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The beach and the Atlantic Ocean',
         description: 'A walkway to the shore and the ocean',
         location: 'Cape May, NJ',
+        date: '2021-10-17',
     },
     {
         key: '20211010_01',
@@ -192,6 +215,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The Menzingers playing live in Ardmore',
         description: 'The Menzingers playing a concert at the Ardmore Music Hall',
         location: 'Ardmore, PA',
+        date: '2021-10-10',
     },
     {
         key: '20210927_01',
@@ -200,6 +224,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'Sunset in suburbia',
         description: 'A beautiful sunset from my front porch.',
         location: 'Audubon, PA',
+        date: '2021-09-27',
     },
     {
         key: '20210827_01',
@@ -208,6 +233,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The Philadelphia Phillies playing a night game at Citizens Bank Park',
         description: 'Enjoying a Phillies baseball game ',
         location: 'Philadelphia, PA',
+        date: '2021-08-27',
     },
     {
         key: '20210805_01',
@@ -216,6 +242,7 @@ const photoBlog: PhotoBlogItem[] = [
         altText: 'The Philadelphia Skyline',
         description: 'The Philadelphia Skyline taken from the Mann Center in Fairmount Park',
         location: 'Philadelphia, PA',
+        date: '2021-08-05',
     },
 ];
 

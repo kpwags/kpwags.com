@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://kpwags.com</id>
+    <title>Keith Wagner - Photo Blog</title>
+    <updated>2022-07-29T14:00:20.340Z</updated>
+    <generator>Next.js using Feed for Node.js</generator>
+    <author>
+        <name>Keith Wagner</name>
+        <email>blog@kpwags.com</email>
+        <uri>https://kpwags.com/</uri>
+    </author>
+    <link rel="alternate" href="https://kpwags.com"/>
+    <link rel="self" href="https://kpwags.com/rss/photoblog_atom.xml"/>
+    <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more. This is my photo blog.</subtitle>
+    <icon>https://kpwags.com/favicon.ico</icon>
+    <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[The New York City skyline from Long Island City in Queens]]></title>
+        <id>20220618_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220618_01"/>
+        <updated>2022-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The New York City skyline from Long Island City in Queens]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220618_01.jpg" alt="The New York City skyline from Long Island City in Queens" /></div>
+            <p>The New York City skyline from Long Island City in Queens (New York, NY)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Empire State Building at night lit up red, white and blue]]></title>
+        <id>20220616_03.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220616_03"/>
+        <updated>2022-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Empire State Building at night lit up red, white and blue]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220616_03.jpg" alt="Empire State Building in red, white and blue" /></div>
+            <p>The Empire State Building at night lit up red, white and blue (New York, NY)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Morgan Library had multiple copies of a Gutenberg Bible, this is one of them.]]></title>
+        <id>20220616_02.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220616_02"/>
+        <updated>2022-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Morgan Library had multiple copies of a Gutenberg Bible, this is one of them.]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220616_02.jpg" alt="The Gutenberg Bible" /></div>
+            <p>The Morgan Library had multiple copies of a Gutenberg Bible, this is one of them. (New York, NY)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The library at the Morgan Library and Museum was amazing. So many old books and intricate architecture and art.]]></title>
+        <id>20220616_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220616_01"/>
+        <updated>2022-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The library at the Morgan Library and Museum was amazing. So many old books and intricate architecture and art.]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220616_01.jpg" alt="An old multi-floored classic library" /></div>
+            <p>The library at the Morgan Library and Museum was amazing. So many old books and intricate architecture and art. (New York, NY)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Walking through Washington Square Park in NYC seeing the arch appear.]]></title>
+        <id>20220615_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220615_01"/>
+        <updated>2022-06-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Walking through Washington Square Park in NYC seeing the arch appear.]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220615_01.jpg" alt="The Arch in Washington Square Park" /></div>
+            <p>Walking through Washington Square Park in NYC seeing the arch appear. (New York, NY)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Celebrating Cinco de Mayo with tacos and a margarita]]></title>
+        <id>20220505_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220505_01"/>
+        <updated>2022-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Celebrating Cinco de Mayo with tacos and a margarita]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220505_01.jpg" alt="Tacos and a margarita" /></div>
+            <p>Celebrating Cinco de Mayo with tacos and a margarita (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enjoying an early lead at the 2021-22 AHL season finale for the Phantoms]]></title>
+        <id>20220430_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220430_01"/>
+        <updated>2022-04-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enjoying an early lead at the 2021-22 AHL season finale for the Phantoms]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220430_01.jpg" alt="Faceoff at the PPL Center at a hockey game between the Lehigh Valley Phantoms and Scranton Penguins" /></div>
+            <p>Enjoying an early lead at the 2021-22 AHL season finale for the Phantoms (Allentown, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My cat Cookie is enjoying a catnap on our couch]]></title>
+        <id>20220410_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220410_01"/>
+        <updated>2022-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My cat Cookie is enjoying a catnap on our couch]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220410_01.jpg" alt="My cat Cookie sleeping on the couch" /></div>
+            <p>My cat Cookie is enjoying a catnap on our couch (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dave Hause playing a live show at Union Transfer in Philadelphia]]></title>
+        <id>20220409_02.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220409_02"/>
+        <updated>2022-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dave Hause playing a live show at Union Transfer in Philadelphia]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220409_02.jpg" alt="Dave Hause playing live at Union Transfer in Philadelphia" /></div>
+            <p>Dave Hause playing a live show at Union Transfer in Philadelphia (Philadelphia, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Barry playing a live show at Union Transfer in Philadelphia]]></title>
+        <id>20220409_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220409_01"/>
+        <updated>2022-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tim Barry playing a live show at Union Transfer in Philadelphia]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220409_01.jpg" alt="Tim Barry playing live at Union Transfer in Philadelphia" /></div>
+            <p>Tim Barry playing a live show at Union Transfer in Philadelphia (Philadelphia, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enjoying a beer called 'Nucky Charms' by COHO Brewing in Cape May Courthouse, NJ. It's brewed with Lucky Charms for St. Patrick's Day.]]></title>
+        <id>20220330_02.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220330_02"/>
+        <updated>2022-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enjoying a beer called 'Nucky Charms' by COHO Brewing in Cape May Courthouse, NJ. It's brewed with Lucky Charms for St. Patrick's Day.]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220330_02.jpg" alt="A green beer in a glass sitting on a table" /></div>
+            <p>Enjoying a beer called 'Nucky Charms' by COHO Brewing in Cape May Courthouse, NJ. It's brewed with Lucky Charms for St. Patrick's Day. (Cape May Courthouse, NJ)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enjoying a beer flight at Slacktide Brewing outside Wildwood, NJ]]></title>
+        <id>20220330_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220330_01"/>
+        <updated>2022-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enjoying a beer flight at Slacktide Brewing outside Wildwood, NJ]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220330_01.jpg" alt="Beer flight sitting on a table with the Slacktide Brewing logo behind" /></div>
+            <p>Enjoying a beer flight at Slacktide Brewing outside Wildwood, NJ (Wildwood, NJ)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enjoying a nice ocean view from our hotel window at Congress Hall in Cape May]]></title>
+        <id>20220327_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220327_01"/>
+        <updated>2022-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enjoying a nice ocean view from our hotel window at Congress Hall in Cape May]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220327_01.jpg" alt="Ocean view from hotel window" /></div>
+            <p>Enjoying a nice ocean view from our hotel window at Congress Hall in Cape May (Cape May, NJ)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brian Fallon playing a live show at Union Transfer in Philadelphia]]></title>
+        <id>20220227_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220227_01"/>
+        <updated>2022-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Brian Fallon playing a live show at Union Transfer in Philadelphia]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220227_01.jpg" alt="Brian Fallon playing a live concert" /></div>
+            <p>Brian Fallon playing a live show at Union Transfer in Philadelphia (Philadelphia, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My backyard in the snow from my kitchen window]]></title>
+        <id>20220213_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220213_01"/>
+        <updated>2022-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My backyard in the snow from my kitchen window]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220213_01.jpg" alt="Snowy landscape from a window" /></div>
+            <p>My backyard in the snow from my kitchen window (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brewing some beer in my garage]]></title>
+        <id>20220212_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20220212_01"/>
+        <updated>2022-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Brewing some beer in my garage]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20220212_01.jpg" alt="Beer being brewed in a steaming pot" /></div>
+            <p>Brewing some beer in my garage (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We found a nice place to put Otto's ashes]]></title>
+        <id>20211230_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211230_01"/>
+        <updated>2021-12-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We found a nice place to put Otto's ashes]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211230_01.jpg" alt="A picture of my dog Otto highlights his urn" /></div>
+            <p>We found a nice place to put Otto's ashes (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The sun reflecting on the ocean in Ocean City, NJ]]></title>
+        <id>20211212_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211212_01"/>
+        <updated>2021-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The sun reflecting on the ocean in Ocean City, NJ]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211212_01.jpg" alt="The sun over the beach and ocean" /></div>
+            <p>The sun reflecting on the ocean in Ocean City, NJ (Ocean City, NJ)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My cat Cookie and dog Otto laying in their beds in my office]]></title>
+        <id>20211130_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211130_01"/>
+        <updated>2021-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My cat Cookie and dog Otto laying in their beds in my office]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211130_01.jpg" alt="My cat Cookie and my dog Otto laying in their beds" /></div>
+            <p>My cat Cookie and dog Otto laying in their beds in my office (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Walking around New York City and visiting Washington Square Park and its infamous arch.]]></title>
+        <id>20211111_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211111_01"/>
+        <updated>2021-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Walking around New York City and visiting Washington Square Park and its infamous arch.]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211111_01.jpg" alt="The arch in Washington Square Park in New York City at night" /></div>
+            <p>Walking around New York City and visiting Washington Square Park and its infamous arch. (New York, NY)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enjoying a fire in our backyard firepit]]></title>
+        <id>20211022_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211022_01"/>
+        <updated>2021-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enjoying a fire in our backyard firepit]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211022_01.jpg" alt="Flames shooting up from a firepit" /></div>
+            <p>Enjoying a fire in our backyard firepit (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking out at the Atlantic Ocean from a window at Congress Hall]]></title>
+        <id>20211018_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211018_01"/>
+        <updated>2021-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Looking out at the Atlantic Ocean from a window at Congress Hall]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211018_01.jpg" alt="The view from a window at a shore town resort" /></div>
+            <p>Looking out at the Atlantic Ocean from a window at Congress Hall (Cape May, NJ)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A walkway to the shore and the ocean]]></title>
+        <id>20211017_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211017_01"/>
+        <updated>2021-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A walkway to the shore and the ocean]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211017_01.jpg" alt="The beach and the Atlantic Ocean" /></div>
+            <p>A walkway to the shore and the ocean (Cape May, NJ)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Menzingers playing a concert at the Ardmore Music Hall]]></title>
+        <id>20211010_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20211010_01"/>
+        <updated>2021-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Menzingers playing a concert at the Ardmore Music Hall]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20211010_01.jpg" alt="The Menzingers playing live in Ardmore" /></div>
+            <p>The Menzingers playing a concert at the Ardmore Music Hall (Ardmore, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A beautiful sunset from my front porch.]]></title>
+        <id>20210927_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20210927_01"/>
+        <updated>2021-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A beautiful sunset from my front porch.]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20210927_01.jpg" alt="Sunset in suburbia" /></div>
+            <p>A beautiful sunset from my front porch. (Audubon, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enjoying a Phillies baseball game ]]></title>
+        <id>20210827_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20210827_01"/>
+        <updated>2021-08-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enjoying a Phillies baseball game ]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20210827_01.jpg" alt="The Philadelphia Phillies playing a night game at Citizens Bank Park" /></div>
+            <p>Enjoying a Phillies baseball game  (Philadelphia, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Philadelphia Skyline taken from the Mann Center in Fairmount Park]]></title>
+        <id>20210805_01.jpg</id>
+        <link href="https://kpwags.com/photoblog/20210805_01"/>
+        <updated>2021-08-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Philadelphia Skyline taken from the Mann Center in Fairmount Park]]></summary>
+        <content type="html"><![CDATA[
+        <article>
+            <div><img src="https://kpwags.com/images/photoblog/20210805_01.jpg" alt="The Philadelphia Skyline" /></div>
+            <p>The Philadelphia Skyline taken from the Mann Center in Fairmount Park (Philadelphia, PA)</p>
+        </article>
+    ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+</feed>
