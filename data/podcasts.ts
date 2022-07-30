@@ -5,21 +5,6 @@ const podcasts: PodcastCategory[] = [
         name: 'Business & Economics',
         podcasts: [
             {
-                name: 'Business Movers',
-                link: 'https://wondery.com/shows/business-movers/',
-                artwork: 'business_movers.jpg',
-            },
-            {
-                name: "Capitalisn't",
-                link: 'https://www.capitalisnt.com/',
-                artwork: 'capitalisnt.jpg',
-            },
-            {
-                name: 'Chat with Traders',
-                link: 'https://chatwithtraders.com/',
-                artwork: 'chat_with_traders.jpg',
-            },
-            {
                 name: 'Corner Office',
                 link: 'https://www.marketplace.org/shows/corner-office-from-marketplace/',
                 artwork: 'corner_office.jpg',
@@ -45,11 +30,6 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'indicator.jpg',
             },
             {
-                name: 'Land of the Giants',
-                link: 'https://podcasts.voxmedia.com/show/land-of-the-giants',
-                artwork: 'land_of_the_giants.jpg',
-            },
-            {
                 name: 'Marketplace',
                 link: 'https://www.marketplace.org',
                 artwork: 'marketplace.jpg',
@@ -60,24 +40,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'marketplace_morning_report.jpg',
             },
             {
-                name: 'Masters in Business',
-                link: 'https://www.bloomberg.com/podcasts/masters_in_business',
-                artwork: 'masters_in_business.jpg',
-            },
-            {
-                name: 'The Meb Faber Show',
-                link: 'https://themebfabershow.com/',
-                artwork: 'meb_faber_show.jpg',
-            },
-            {
                 name: 'Money Talks',
                 link: 'https://podcasts.apple.com/us/podcast/money-talks-from-economist-radio/id420929545',
                 artwork: 'money_talks.jpg',
-            },
-            {
-                name: 'Money With Friends',
-                link: 'https://www.moneywithfriendspodcast.com/',
-                artwork: 'money_with_friends.jpg',
             },
             {
                 name: 'The New Bazaar',
@@ -105,9 +70,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'spectacular_failures.jpg',
             },
             {
-                name: 'The Stacking Benjamins Show',
-                link: 'https://www.stackingbenjamins.com/',
-                artwork: 'stacking_benjamins.jpg',
+                name: 'Think Like an Economist',
+                link: 'https://art19.com/shows/think-like-an-economist',
+                artwork: 'think_like_an_economist.jpg',
             },
             {
                 name: 'This Week in Startups',
@@ -115,14 +80,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'thisweekinstartups.jpg',
             },
             {
-                name: 'Trillions',
-                link: 'https://www.bloomberg.com/podcasts/decrypted1',
-                artwork: 'trillions.jpg',
-            },
-            {
-                name: 'Weathtrack',
-                link: 'https://wealthtrack.com/',
-                artwork: 'wealthtrack.jpg',
+                name: "What's Your Problem",
+                link: 'https://www.pushkin.fm/podcasts/whats-your-problem',
+                artwork: 'whats_your_problem.jpg',
             },
             {
                 name: 'WSJ: Your Money Briefing',
@@ -153,6 +113,11 @@ const podcasts: PodcastCategory[] = [
                 name: '.NET Rocks!',
                 link: 'https://www.dotnetrocks.com/',
                 artwork: 'dotnet_rocks.jpg',
+            },
+            {
+                name: 'Call Kent Podcast',
+                link: 'https://kentcdodds.com/calls',
+                artwork: 'call_kent.jpg',
             },
             {
                 name: 'The Changelog',
@@ -240,6 +205,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'syntaxfm.jpg',
             },
             {
+                name: 'The Unhandled Exception',
+                link: 'https://unhandledexceptionpodcast.com/',
+                artwork: 'unhandled_exception.jpg',
+            },
+            {
                 name: 'Working Code',
                 link: 'https://redcircle.com/shows/workingcode',
                 artwork: 'workingcode.jpg',
@@ -287,22 +257,37 @@ const podcasts: PodcastCategory[] = [
         ],
     },
     {
-        name: 'News',
+        name: 'Gaming',
         podcasts: [
             {
-                name: '1A',
-                link: 'https://the1a.org/',
-                artwork: '1a.jpg',
+                name: '(ASIDE) Quest',
+                link: 'https://asidequest.simplecast.com/',
+                artwork: 'asidequest.jpg',
             },
             {
-                name: 'Business Matters',
-                link: 'https://www.bbc.co.uk/programmes/p016tl04',
-                artwork: 'business_matters.jpg',
+                name: 'Official Xbox Podcast',
+                link: 'https://podcasts.apple.com/us/podcast/the-official-xbox-podcast/id74848525',
+                artwork: 'xbox_podcast.jpg',
             },
+            {
+                name: 'Spawn on Me',
+                link: 'https://campsite.bio/spawnonme',
+                artwork: 'spawn_on_me.jpg',
+            },
+        ],
+    },
+    {
+        name: 'News',
+        podcasts: [
             {
                 name: 'The Daily',
                 link: 'https://www.nytimes.com/column/the-daily',
                 artwork: 'the_daily.jpg',
+            },
+            {
+                name: 'The Daily Show',
+                link: 'http://podcasts.iheartradio.com/EeKGpInf?c=oXbyyOn0egSrXjbcrsMlYw&h=a5f19499eb85de530',
+                artwork: 'daily_show.jpg',
             },
             {
                 name: 'The Intelligence',
@@ -332,13 +317,53 @@ const podcasts: PodcastCategory[] = [
         ],
     },
     {
-        name: 'Politics',
+        name: 'Personal Finance & Investing',
         podcasts: [
             {
-                name: "All the Presidents' Lawyers",
-                link: 'https://www.npr.org/podcasts/615846125/k-c-r-w-s-l-r-c-presents-all-the-presidents-lawyers',
-                artwork: 'all_the_presidents_lawyers.jpg',
+                name: 'Afford Anything',
+                link: 'https://affordanything.com/podcast/',
+                artwork: 'afford_anything.jpg',
             },
+            {
+                name: 'Bad with Money',
+                link: 'https://podcasts.apple.com/us/podcast/bad-with-money-with-gaby-dunn/id1144712710',
+                artwork: 'bad_with_money.jpg',
+            },
+            {
+                name: 'Chat with Traders',
+                link: 'https://chatwithtraders.com/',
+                artwork: 'chat_with_traders.jpg',
+            },
+            {
+                name: 'Masters in Business',
+                link: 'https://www.bloomberg.com/podcasts/masters_in_business',
+                artwork: 'masters_in_business.jpg',
+            },
+            {
+                name: 'The Meb Faber Show',
+                link: 'https://themebfabershow.com/',
+                artwork: 'meb_faber_show.jpg',
+            },
+            {
+                name: 'Motley Fool Money',
+                link: 'https://www.fool.com/podcasts/motley-fool-money/',
+                artwork: 'motley_fool_money.jpg',
+            },
+            {
+                name: 'The Stacking Benjamins Show',
+                link: 'https://www.stackingbenjamins.com/',
+                artwork: 'stacking_benjamins.jpg',
+            },
+            {
+                name: 'Trillions',
+                link: 'https://www.bloomberg.com/podcasts/decrypted1',
+                artwork: 'trillions.jpg',
+            },
+        ],
+    },
+    {
+        name: 'Politics',
+        podcasts: [
             {
                 name: 'Checks and Balance',
                 link: 'https://www.economist.com/checks-and-balance-our-weekly-podcast-on-american-politics',
@@ -373,11 +398,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'Pod Save America',
                 link: 'https://crooked.com/podcast-series/pod-save-america/',
                 artwork: 'pod_save_america.jpg',
-            },
-            {
-                name: 'This Land',
-                link: 'https://crooked.com/podcast-series/this-land/',
-                artwork: 'this_land.jpg',
             },
         ],
     },
@@ -450,19 +470,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'athletic_nba_show.jpg',
             },
             {
-                name: 'Beyond the Scrum',
-                link: 'https://theathletic.com/podcast/169-beyond-the-scrum/',
-                artwork: 'beyond_the_scrum.jpg',
-            },
-            {
                 name: 'Birds with Friends',
                 link: 'https://theathletic.com/podcast/62-birds-with-friends/',
                 artwork: 'birds_with_friends.jpg',
-            },
-            {
-                name: 'Chin Music',
-                link: 'https://blogs.fangraphs.com/category/chin-music/',
-                artwork: 'chin_music.jpg',
             },
             {
                 name: 'Effectively Wild',
@@ -483,6 +493,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'High Hopes',
                 link: 'https://podcasts.apple.com/us/podcast/high-hopes-a-phillies-podcast/id1304311183',
                 artwork: 'high_hopes.jpg',
+            },
+            {
+                name: 'Infinite Inning',
+                link: 'https://www.baseballprospectus.com/show/the-infinite-inning/',
+                artwork: 'infinite_inning.jpg',
             },
             {
                 name: 'The Lead',
@@ -555,11 +570,6 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'darknet_diaries.jpg',
             },
             {
-                name: 'Decoder',
-                link: 'https://www.theverge.com/decoder-podcast-with-nilay-patel',
-                artwork: 'decoder.jpg',
-            },
-            {
                 name: 'Marketplace Tech',
                 link: 'https://www.marketplace.org/shows/marketplace-tech/',
                 artwork: 'marketplace_tech.jpg',
@@ -590,9 +600,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'against_the_rules.jpg',
             },
             {
-                name: 'Blindspot',
-                link: 'https://www.wnycstudios.org/podcasts/blindspot',
-                artwork: 'blindspot.jpg',
+                name: 'Cautionary Tales',
+                link: 'https://timharford.com/articles/cautionarytales/',
+                artwork: 'cautionary_tales.jpg',
             },
             {
                 name: 'Code Switch',
@@ -630,11 +640,6 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'fresh_air.jpg',
             },
             {
-                name: 'Gates McFadden Investigates',
-                link: 'https://podcasts.apple.com/us/podcast/gates-mcfadden-investigates-who-do-you-think-you-are/id1566636928',
-                artwork: 'gatesmcfaddeninvestigates.jpg',
-            },
-            {
                 name: 'Getting Things Done',
                 link: 'https://gettingthingsdone.com/category/podcast-2/',
                 artwork: 'gtd.jpg',
@@ -645,19 +650,14 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'how_i_built_this.jpg',
             },
             {
-                name: "It's Been a Minute",
-                link: 'https://www.npr.org/podcasts/510317/its-been-a-minute-with-sam-sanders',
-                artwork: 'its_been_a_minute.jpg',
+                name: 'Into It',
+                link: 'https://podcasts.apple.com/us/podcast/id1634687152',
+                artwork: 'into_it.jpg',
             },
             {
                 name: 'The Jordan Harbinger Show',
                 link: 'https://www.jordanharbinger.com/',
                 artwork: 'jordan_harbinger_show.jpg',
-            },
-            {
-                name: 'Lifekit',
-                link: 'https://www.npr.org/lifekit',
-                artwork: 'lifekit.jpg',
             },
             {
                 name: 'Longform',
@@ -678,11 +678,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'More Perfect',
                 link: 'https://www.wnycstudios.org/podcasts/radiolabmoreperfect',
                 artwork: 'more_perfect.jpg',
-            },
-            {
-                name: 'Nixon at War',
-                link: 'https://www.nixonatwar.org/',
-                artwork: 'nixonatwar.jpg',
             },
             {
                 name: 'On Point',
@@ -710,6 +705,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'pivot.jpg',
             },
             {
+                name: 'The Prof G Pod',
+                link: 'https://podcasts.voxmedia.com/show/the-prof-g-pod-with-scott-galloway',
+                artwork: 'prof_g_pod.jpg',
+            },
+            {
                 name: 'Radio Times',
                 link: 'https://whyy.org/programs/radio-times/',
                 artwork: 'radio_times.jpg',
@@ -728,11 +728,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'Revisionist History',
                 link: 'http://revisionisthistory.com/',
                 artwork: 'revisionist_history.jpg',
-            },
-            {
-                name: 'Ridiculous Crime',
-                link: 'https://www.audible.com/pd/Podcast/B08JJPKL1S',
-                artwork: 'ridiculouscrime.jpg',
             },
             {
                 name: 'Rough Translation',
@@ -760,11 +755,6 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'snap_judgement.jpg',
             },
             {
-                name: 'Sway',
-                link: 'https://www.nytimes.com/column/sway',
-                artwork: 'sway.jpg',
-            },
-            {
                 name: 'Swindled',
                 link: 'https://swindledpodcast.com/',
                 artwork: 'swindled.jpg',
@@ -773,6 +763,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'TED Radio Hour',
                 link: 'https://www.npr.org/podcasts/510298/ted-radio-hour',
                 artwork: 'ted_radio_hour.jpg',
+            },
+            {
+                name: 'The Tim Ferriss Show',
+                link: 'https://tim.blog/podcast/',
+                artwork: 'tim_ferriss_show.jpg',
             },
             {
                 name: 'This American Life',
@@ -795,14 +790,19 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'uncertain_hour.jpg',
             },
             {
-                name: 'The Upgrade',
-                link: 'https://lifehacker.com/c/the-upgrade',
-                artwork: 'the_upgrade.jpg',
-            },
-            {
                 name: 'Vox Conversations',
                 link: 'https://www.vox.com/vox-conversations-podcast',
                 artwork: 'vox_conversations.jpg',
+            },
+            {
+                name: 'WorkLife with Adam Grant',
+                link: 'https://www.ted.com/podcasts/worklife',
+                artwork: 'worklife_adam_grant.jpg',
+            },
+            {
+                name: 'WTF with Marc Maron',
+                link: 'http://www.wtfpod.com/',
+                artwork: 'wtf_podcast.jpg',
             },
             {
                 name: "You're Wrong About",

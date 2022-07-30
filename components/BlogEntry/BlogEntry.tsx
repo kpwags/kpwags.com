@@ -16,6 +16,7 @@ import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
+import ExternalLink from '@components/ExternalLink';
 
 // Prism
 import 'prismjs/components';
@@ -41,6 +42,7 @@ const components = {
     TableOfContentsPage,
     BookRead,
     YouTubeEmbed,
+    ExternalLink,
 };
 
 const Post = styled.article`
