@@ -13,7 +13,7 @@ const Post = styled.article`
         font-weight: 500;
     }
 
-    .datetime {
+    .metadata {
         margin: 5px 0;
         font-style: italic;
         color: var(--meta);
@@ -62,7 +62,10 @@ const PostListing = ({
 }: PostListingProps): JSX.Element => (
     <Post key={post.id} className={showBorder ? 'boxed' : ''}>
         <h2><Link href={post.url}><a>{post.title}</a></Link></h2>
-        <div className="datetime">{formatDate(post.date)}</div>
+        <div className="metadata">
+            {formatDate(post.date)}
+            {post.readTime ? <> &mdash; {post.readTime} min read</> : null}
+        </div>
 
         {showTags ? (
             <Tags>

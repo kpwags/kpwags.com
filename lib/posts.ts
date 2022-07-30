@@ -62,6 +62,18 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
         // Use gray-matter to parse the post metadata section
         const { content, data } = matter(fileContents);
 
+        let wordCount = null;
+        let readingTime = null;
+
+        if (!data.ignoreWordCount) {
+            wordCount = content.split(' ').length - 1;
+            readingTime = Math.round(wordCount / 200);
+
+            if (readingTime === 0) {
+                readingTime = 1;
+            }
+        }
+
         const html = marked(content);
         const url = buildUrlFromId(id);
         const excerpt = getPostExcerpt(html);
@@ -79,6 +91,8 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             tags,
             content: html,
             isRssOnly: data.isRssOnly || false,
+            wordCount,
+            readTime: readingTime,
         };
     });
 
@@ -149,6 +163,18 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Use gray-matter to parse the post metadata section
     const { content, data } = matter(fileContents);
 
+    let wordCount = null;
+    let readingTime = null;
+
+    if (!data.ignoreWordCount) {
+        wordCount = content.split(' ').length - 1;
+        readingTime = Math.round(wordCount / 200);
+
+        if (readingTime === 0) {
+            readingTime = 1;
+        }
+    }
+
     const html = marked(content);
     const excerpt = getPostExcerpt(html);
 
@@ -172,6 +198,8 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         socialImageUrl: data.socialImageUrl || null,
         socialImageWidth: data.socialImageWidth || null,
         socialImageHeight: data.socialImageHeight || null,
+        wordCount,
+        readTime: readingTime,
     };
 };
 

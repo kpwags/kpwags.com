@@ -8,6 +8,7 @@ import { BlogPost } from '@models/blogPost';
 import { formatDate } from '@lib/utilities';
 import { BlogTag } from '@models/BlogTag';
 import Utterances from '@components/Utterances';
+import { ReadOutlined, ClockCircleOutlined } from '@ant-design/icons';
 
 // Blog Components
 import PostImage from '@components/PostImage';
@@ -61,12 +62,18 @@ const Post = styled.article`
         }
     }
 
-    .datetime {
+    .metadata {
         margin: 0.2rem 0 1.25rem 0;
         font-style: italic;
         font-size: 1.2rem;
         color: var(--meta);
         font-weight: 300;
+
+        svg {
+            path {
+                fill: var(--meta);
+            }
+        }
     }
 
     blockquote {
@@ -209,7 +216,12 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
                 {post.tags.length > 0 && <PostTags tags={post.tags} />}
 
                 <h1>{post.title}</h1>
-                <div className="datetime"><em>{formatDate(post.date)}</em></div>
+                <div className="metadata">
+                    <ClockCircleOutlined /> {formatDate(post.date)}
+                    {post.readTime ? (
+                        <> &mdash; <ReadOutlined /> {post.readTime} min read</>
+                    ) : null}
+                </div>
 
                 <div className="content">
                     <MDXRemote compiledSource={post.content} components={components} />
