@@ -15,4 +15,6 @@ export interface BlogPost {
     hasEmbeddedTweet: boolean
     tags: BlogTag[]
     commentIssueNumber?: number
+    wordCount?: number
+    readTime?: number
 }
