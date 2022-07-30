@@ -372,6 +372,24 @@ div.cover.about {
     white-space: nowrap;
 }
 
+.search-icon {
+    vertical-align: middle;
+    display: inline;
+    padding: 0 14px;
+}
+
+.search-icon svg {
+    height: 1.2rem;
+    width: 1.2rem;
+    vertical-align: middle;
+    display: inline;
+}
+
+.search-icon svg path {
+    fill: var(--green-1);
+}
+
+
 @media all and (max-width: 810px) {
     h2 {
         font-size: 1.75rem;
