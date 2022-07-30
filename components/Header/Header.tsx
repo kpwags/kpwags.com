@@ -59,12 +59,19 @@ const Hdr = styled.header`
     }
 
     nav {
-        display: block;
+        display: flex;
         width: 100%;
-        text-align: right;
+        justify-content: flex-end;
+        align-items: center;
 
         @media all and (max-width: 850px) {
-            text-align: center;
+            justify-content: center;
+        }
+
+        @media all and (max-width: 450px) {
+            .search-icon {
+                display: none;
+            }
         }
 
         a {
