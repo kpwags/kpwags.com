@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styled from 'styled-components';
 import { GetStaticProps } from 'next';
-import likes from '@data/likes';
-import { Like } from '@models/like';
+import { getFeedbinItems } from '@lib/feedbin';
+import { FeedbinItem } from '@models/FeedbinItem';
 
 const Container = styled.div`
 
@@ -28,15 +28,19 @@ const LikedItemsList = styled.ul`
     }
 `;
 
-export const getStaticProps: GetStaticProps = async () => ({
-    props: {
-        // only return most recent 25
-        likedItems: likes.slice(0, 25),
-    },
-});
+export const getServerSideProps: GetStaticProps = async () => {
+    const data = await getFeedbinItems();
+
+    return {
+        props: {
+            // only return most recent 25
+            likedItems: data.slice(0, 25),
+        },
+    };
+};
 
 type LikeProps = {
-    likedItems: Like[];
+    likedItems: FeedbinItem[];
 };
 
 const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
@@ -45,26 +49,24 @@ const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
 
         <Container>
             <h1>
-                Articles, Podcasts &
-                {' '}
-                <span>Other Likes</span>
+                Articles, Podcasts & <span>Other Likes</span>
             </h1>
 
             <p>
-                I stumble into a lot of podcasts, articles, blog posts and other content around the internet.
-                Here, I&apos;ll share the stuff that really piqued my interest.
+                One of my biggest sources of finding interesting articles is through my RSS feeds. Feedbin allows me to star items and gives
+                me the starred items in a feed. These are my starred items.
             </p>
 
             <LikedItemsList>
                 {likedItems.map((item) => (
-                    <li key={item.url}>
+                    <li key={item.link}>
                         <div className="title">
-                            <a href={item.url} target="_blank" rel="noopener noreferrer">
+                            <a href={item.link} target="_blank" rel="noopener noreferrer">
                                 {item.title}
                             </a>
                         </div>
                         <div className="source">
-                            {item.source}
+                            {item.domain}
                         </div>
                     </li>
                 ))}
