@@ -65,7 +65,7 @@ The first thing I do in the code is to declare the array of items to return. I t
 const res = await fetch('https://feedbin.com/starred/starred-items.xml');
 ```
 
-Assuming the call was successfully create the parser and have it parse the XML into a JSON object.
+Assuming the call was successful, I create the parser and have it parse the XML into a JSON object.
 
 ```ts
 const parser = new XMLParser();
@@ -119,3 +119,5 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element => {
 It's pretty simple. When the page is to be rendered, it loads the starred items from my custom RSS feed, and passes the items into the React component.
 
 So there you have it. It's a pretty simple thing to setup, and it provides me a way to keep my likes page a little more up-to-date without having to manually add items. Of course it means that the items I star have to be part of an RSS feed, but that's why everyone should have a blog of their own WITH an RSS feed.
+
+*Edited 8/3/2022 - Typo/Grammar Edit*
