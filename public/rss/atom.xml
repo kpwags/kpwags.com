@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-08-03T22:55:10.880Z</updated>
+    <updated>2022-08-05T22:43:56.434Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,19 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading List: July 30 - August 5]]></title>
+        <id>https://kpwags.com/posts/2022/08/05/reading-list</id>
+        <link href="https://kpwags.com/posts/2022/08/05/reading-list"/>
+        <updated>2022-08-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon now has Alexa on wheels!]]></summary>
+        <content type="html"><![CDATA[<p>Amazon now has Alexa on wheels!</p><h2>👨🏼‍💻Software Development</h2><p><a href="https://developers.redhat.com/articles/2022/08/01/containerize-net-applications-without-writing-dockerfiles">Containerize .NET applications without writing Dockerfiles</a> - <em>developers.redhat.com</em></p><p><a href="http://humbletoolsmith.com/2022/08/01/customizing-typescript-string-types-with-template-literal-types-and-utility-types/">Customizing TypeScript String Types with Template Literal Types and Utility Types</a> - <em>humbletoolsmith.com</em></p><h2>🖥 Technology</h2><p><a href="https://www.aboutamazon.com/news/company-news/amazon-and-irobot-sign-an-agreement-for-amazon-to-acquire-irobot">Amazon Acquires iRobot</a> - <em>aboutamazon.com</em></p><h2>🎧 Podcasts</h2><p><a href="https://www.curbed.com/2021/11/nice-try-interior-weights-home-exercise.html">Nice Try - The Weight</a></p><p><a href="https://99percentinvisible.org/episode/cute-little-monstrosities-of-nature/">99% Invisible - Cute Little Monstrosities of Nature</a></p><p><a href="https://www.dotnetrocks.com/?show=1767">.NET Rocks #1767 - Cross-Platform .NET Testing with Kendra Havens</a></p><p><a href="https://www.hanselminutes.com/816/web-assemblys-hidden-talent-with-wasmclouds-kevin-hoffman">Web Assembly&#x27;s hidden talent with WasmCloud&#x27;s Kevin Hoffman</a></p><h2>🎒 Miscellaneous</h2><p><a href="https://marcoheine.com/blog/just-hit-publish/">Just Hit Publish</a> - <em>marcoheine.com</em></p><p><a href="https://blog.jim-nielsen.com/2022/other-peoples-websites/">The OG Social Network: Other People&#x27;s Websites</a> - <em>blog.jim-nielsen.com</em></p><h2>🎵 A Song to Leave You With</h2>]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Marathon Training]]></title>
         <id>https://kpwags.com/posts/2022/08/03/marathon-training</id>
@@ -82,7 +95,7 @@ export const getFeedbinItems = async (): Promise&lt;FeedbinItem[]&gt; =&gt; {
     return items;
 };
 </code></pre><p>The first thing I do in the code is to declare the array of items to return. I then make a fetch call to Feedbin to retrieve my starred items.</p><pre><code class="language-ts">const res = await fetch(&#x27;https://feedbin.com/starred/starred-items.xml&#x27;);
-</code></pre><p>Assuming the call was successfully create the parser and have it parse the XML into a JSON object.</p><pre><code class="language-ts">const parser = new XMLParser();
+</code></pre><p>Assuming the call was successful, I create the parser and have it parse the XML into a JSON object.</p><pre><code class="language-ts">const parser = new XMLParser();
 const data = parser.parse(response);
 </code></pre><p>After that, it&#x27;s simply parsing the returned items and adding them to the items array.</p><pre><code class="language-ts">data.rss.channel.item.forEach((i: any) =&gt; {
     const domain = (new URL(i.link));
@@ -114,7 +127,7 @@ type LikeProps = {
 const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
     // the render code
 }
-</code></pre><p>It&#x27;s pretty simple. When the page is to be rendered, it loads the starred items from my custom RSS feed, and passes the items into the React component.</p><p>So there you have it. It&#x27;s a pretty simple thing to setup, and it provides me a way to keep my likes page a little more up-to-date without having to manually add items. Of course it means that the items I star have to be part of an RSS feed, but that&#x27;s why everyone should have a blog of their own WITH an RSS feed.</p>]]></content>
+</code></pre><p>It&#x27;s pretty simple. When the page is to be rendered, it loads the starred items from my custom RSS feed, and passes the items into the React component.</p><p>So there you have it. It&#x27;s a pretty simple thing to setup, and it provides me a way to keep my likes page a little more up-to-date without having to manually add items. Of course it means that the items I star have to be part of an RSS feed, but that&#x27;s why everyone should have a blog of their own WITH an RSS feed.</p><p><em>Edited 8/3/2022 - Typo/Grammar Edit</em></p>]]></content>
         <author>
             <name>Keith Wagner</name>
             <email>blog@kpwags.com</email>
