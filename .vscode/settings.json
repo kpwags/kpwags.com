@@ -1,9 +1,17 @@
 {
     "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#101085",
-        "titleBar.inactiveBackground": "#101085"
+        "titleBar.activeBackground": "#5050ff",
+        "titleBar.inactiveBackground": "#5050ff",
+        "activityBar.activeBackground": "#101085",
+        "activityBarBadge.background": "#5050ff",
+        "activityBar.inactiveForeground": "#ffffff",
+        "activityBar.background": "#5050ff",
+        "activityBar.foreground": "#ffffff",
+        "statusBar.background": "#5050ff",
+        "statusBar.border": "#5050ff",
+        "statusBar.foreground": "#ffffff"
     },
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Cobalt2",
     "editor.tabSize": 4,
     "search.exclude": {
         "**/node_modules": true,
