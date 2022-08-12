@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-08-05T22:43:56.434Z</updated>
+    <updated>2022-08-12T21:03:17.561Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,20 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading List: August 6 - August 12]]></title>
+        <id>https://kpwags.com/posts/2022/08/12/reading-list</id>
+        <link href="https://kpwags.com/posts/2022/08/12/reading-list"/>
+        <updated>2022-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="👨🏼💻software-development">👨🏼‍💻Software Development</h2>
+<a href="https://css-tricks.com/designing-for-long-form-articles/">Designing for Long-Form Articles</a> - <em>css-tricks.com</em>]]></summary>
+        <content type="html"><![CDATA[<h2>👨🏼‍💻Software Development</h2><p><a href="https://css-tricks.com/designing-for-long-form-articles/">Designing for Long-Form Articles</a> - <em>css-tricks.com</em></p><p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-7/">Announcing .NET 7 Preview 7</a> - <em>devblogs.microsoft.com</em></p><p><a href="https://devblogs.microsoft.com/visualstudio/differentiating-visual-studio-instances/">Differentiating Visual Studio Instances</a> - <em>devblogs.microsoft.com</em></p><h2>🖥 Technology</h2><p><a href="https://www.engadget.com/gm-is-doubling-the-size-of-its-super-cruise-network-in-the-us-and-canada-123034974.html">GM is doubling the size of its Super Cruise network in the US and Canada</a> - <em>engadget.com</em></p><p><a href="https://arstechnica.com/tech-policy/2022/08/man-who-built-isp-instead-of-paying-comcast-50k-expands-to-hundreds-of-homes/">Man who built ISP instead of paying Comcast $50K expands to hundreds of homes</a></p><h2>📈 Business and Finance</h2><p><a href="https://www.wsj.com/articles/why-cryptos-market-cap-never-booms-or-busts-as-much-as-you-think-11659691802">Why Crypto&#x27;s Market Cap Never Booms, or Busts, as Much as You Think</a> - 💰 - <em>wsj.com</em></p><h2>🎒 Miscellaneous</h2><p><a href="https://www.julian.com/blog/craftspeople">Becoming an expert</a> - <em>julian.com</em></p><h2>🎵 A Song to Leave You With</h2><h3>Tim Barry - Prosser&#x27;s Gabriel</h3>]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading List: July 30 - August 5]]></title>
         <id>https://kpwags.com/posts/2022/08/05/reading-list</id>
