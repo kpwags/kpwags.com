@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-08-16T00:32:27.590Z</updated>
+    <updated>2022-08-16T22:35:43.908Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,32 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[The Quirks of JavaScript]]></title>
+        <id>https://kpwags.com/posts/2022/08/16/the-quirks-of-javascript</id>
+        <link href="https://kpwags.com/posts/2022/08/16/the-quirks-of-javascript"/>
+        <updated>2022-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Let me preface this by saying that I definitively enjoy programming with JavaScript. It does have its quirks though!]]></summary>
+        <content type="html"><![CDATA[<p>Let me preface this by saying that I definitively enjoy programming with JavaScript. It does have its quirks though!</p><p>I found this through Reddit earlier today and couldn&#x27;t help but laugh.</p><blockquote class="twitter-tweet" style="margin-top:20px;margin-bottom:20px"><p lang="en" dir="ltr">JavaScript.</p>— den (@DennisCode) <a href="https://twitter.com/DennisCode/status/1559383962299944960" target="_blank" rel="noopener noreferrer">August 15, 2022</a></blockquote>]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the RSS Club]]></title>
+        <id>https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club</id>
+        <link href="https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club"/>
+        <updated>2022-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you&#39;re reading this, you&#39;re part of the RSS club!]]></summary>
+        <content type="html"><![CDATA[<p>If you&#x27;re reading this, you&#x27;re part of the RSS club!</p><p>This means that you&#x27;ve subscribed to the RSS feed for my blog. Every once in a while I&#x27;ll write a post that is only available via my RSS feed. Consider it your semi-exclusive content.</p><p>Remember, there are 3 simple rules for the RSS Club</p><ol><li>1st rule of RSS Club is <em>&quot;Don&#x27;t Talk About RSS Club&quot;</em>.</li><li>2nd rule of RSS Club is <em>&quot;Don&#x27;t Share on Social Media&quot;</em>.</li><li>3rd rule of RSS Club is <em>&quot;Provide Value&quot;</em>.</li></ol><p>More to come!</p>]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading List: August 6 - August 12]]></title>
         <id>https://kpwags.com/posts/2022/08/12/reading-list</id>

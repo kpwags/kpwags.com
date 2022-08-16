@@ -10,6 +10,30 @@
     },
     "items": [
         {
+            "id": "https://kpwags.com/posts/2022/08/16/the-quirks-of-javascript",
+            "content_html": "<p>Let me preface this by saying that I definitively enjoy programming with JavaScript. It does have its quirks though!</p><p>I found this through Reddit earlier today and couldn&#x27;t help but laugh.</p><blockquote class=\"twitter-tweet\" style=\"margin-top:20px;margin-bottom:20px\"><p lang=\"en\" dir=\"ltr\">JavaScript.</p>— den (@DennisCode) <a href=\"https://twitter.com/DennisCode/status/1559383962299944960\" target=\"_blank\" rel=\"noopener noreferrer\">August 15, 2022</a></blockquote>",
+            "url": "https://kpwags.com/posts/2022/08/16/the-quirks-of-javascript",
+            "title": "The Quirks of JavaScript",
+            "summary": "Let me preface this by saying that I definitively enjoy programming with JavaScript. It does have its quirks though!",
+            "date_modified": "2022-08-16T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com/"
+            }
+        },
+        {
+            "id": "https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club",
+            "content_html": "<p>If you&#x27;re reading this, you&#x27;re part of the RSS club!</p><p>This means that you&#x27;ve subscribed to the RSS feed for my blog. Every once in a while I&#x27;ll write a post that is only available via my RSS feed. Consider it your semi-exclusive content.</p><p>Remember, there are 3 simple rules for the RSS Club</p><ol><li>1st rule of RSS Club is <em>&quot;Don&#x27;t Talk About RSS Club&quot;</em>.</li><li>2nd rule of RSS Club is <em>&quot;Don&#x27;t Share on Social Media&quot;</em>.</li><li>3rd rule of RSS Club is <em>&quot;Provide Value&quot;</em>.</li></ol><p>More to come!</p>",
+            "url": "https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club",
+            "title": "Welcome to the RSS Club",
+            "summary": "If you&#39;re reading this, you&#39;re part of the RSS club!",
+            "date_modified": "2022-08-15T00:00:00.000Z",
+            "author": {
+                "name": "Keith Wagner",
+                "url": "https://kpwags.com/"
+            }
+        },
+        {
             "id": "https://kpwags.com/posts/2022/08/12/reading-list",
             "content_html": "<p>Looking forward to .NET 7 and a man in Michigan hitting back against Comcast.</p><h2>👨🏼‍💻Software Development</h2><p><a href=\"https://css-tricks.com/designing-for-long-form-articles/\">Designing for Long-Form Articles</a> - <em>css-tricks.com</em></p><p><a href=\"https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-7/\">Announcing .NET 7 Preview 7</a> - <em>devblogs.microsoft.com</em></p><p><a href=\"https://devblogs.microsoft.com/visualstudio/differentiating-visual-studio-instances/\">Differentiating Visual Studio Instances</a> - <em>devblogs.microsoft.com</em></p><h2>🖥 Technology</h2><p><a href=\"https://www.engadget.com/gm-is-doubling-the-size-of-its-super-cruise-network-in-the-us-and-canada-123034974.html\">GM is doubling the size of its Super Cruise network in the US and Canada</a> - <em>engadget.com</em></p><p><a href=\"https://arstechnica.com/tech-policy/2022/08/man-who-built-isp-instead-of-paying-comcast-50k-expands-to-hundreds-of-homes/\">Man who built ISP instead of paying Comcast $50K expands to hundreds of homes</a> - <em>arstechnica.com</em></p><h2>📈 Business and Finance</h2><p><a href=\"https://www.wsj.com/articles/why-cryptos-market-cap-never-booms-or-busts-as-much-as-you-think-11659691802\">Why Crypto&#x27;s Market Cap Never Booms, or Busts, as Much as You Think</a> - 💰 - <em>wsj.com</em></p><h2>🎒 Miscellaneous</h2><p><a href=\"https://www.julian.com/blog/craftspeople\">Becoming an expert</a> - <em>julian.com</em></p><h2>🎵 A Song to Leave You With</h2><h3>Tim Barry - Prosser&#x27;s Gabriel</h3>",
             "url": "https://kpwags.com/posts/2022/08/12/reading-list",

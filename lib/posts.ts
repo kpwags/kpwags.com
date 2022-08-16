@@ -100,10 +100,10 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
     const sortedPosts = sortPosts(allPostsData);
 
     if (includeRssOnly) {
-        return sortedPosts;
+        return sortedPosts.filter((p) => new Date(p.date) <= new Date());
     }
 
-    return sortedPosts.filter((p) => !p.isRssOnly);
+    return sortedPosts.filter((p) => !p.isRssOnly && new Date(p.date) <= new Date());
 };
 
 export const getPostCount = (): number => {
