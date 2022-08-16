@@ -12,11 +12,20 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'June 2022',
+    lastUpdate: 'August 2022',
     years: [
         {
             year: '2022',
             movies: [
+                {
+                    title: "The Bob's Burgers Movie",
+                    cover: 'bobsburgers.jpg',
+                    link: 'https://www.imdb.com/title/tt7466442/',
+                    dateWatched: 'August 13, 2022',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: "It was your typical Bob's Burgers episode...only movie length. I did enjoy it.",
+                },
                 {
                     title: '42',
                     cover: '42.jpg',

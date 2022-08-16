@@ -50,8 +50,6 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                         <meta property="og:description" content={pageProps.post.description || ''} />
                         <meta property="og:url" content={`https://kpwags.com${pageProps.post.url}`} />
                         {pageProps.post.socialImageUrl && <meta property="og:image" content={`https://kpwags.com/images/posts/${pageProps.post.socialImageUrl}`} />}
-                        {pageProps.post.socialImageWidth && <meta property="og:image:width" content={pageProps.post.socialImageWidth.toString()} />}
-                        {pageProps.post.socialImageHeight && <meta property="og:image:height" content={pageProps.post.socialImageHeight.toString()} />}
                         {pageProps.post.socialImageUrl && (
                             <>
                                 <meta name="twitter:card" content="summary" />
