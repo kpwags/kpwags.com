@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import styled from 'styled-components';
 import TableOfContents from '@components/TableOfContents';
 
@@ -26,7 +25,11 @@ const Container = styled.div`
     }
 `;
 
-const TableOfContentsPage: FC = ({ children }) => (
+type TableOfContentsPageProps = {
+    children: React.ReactNode
+}
+
+const TableOfContentsPage = ({ children }: TableOfContentsPageProps): JSX.Element => (
     <Container>
         <TableOfContents />
         <div className="main-content">
