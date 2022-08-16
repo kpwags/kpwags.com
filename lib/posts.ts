@@ -33,6 +33,7 @@ type PostQuery = {
 }
 
 const postsDirectory = path.join(process.cwd(), 'posts');
+const postImagesDirectory = path.join(process.cwd(), 'public', 'images', 'posts');
 
 export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogPost, b: BlogPost) => {
     if (a.date < b.date) {
@@ -99,10 +100,10 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
     const sortedPosts = sortPosts(allPostsData);
 
     if (includeRssOnly) {
-        return sortedPosts;
+        return sortedPosts.filter((p) => new Date(p.date) <= new Date());
     }
 
-    return sortedPosts.filter((p) => !p.isRssOnly);
+    return sortedPosts.filter((p) => !p.isRssOnly && new Date(p.date) <= new Date());
 };
 
 export const getPostCount = (): number => {
@@ -182,6 +183,11 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
 
     const tags = data.tags || [] as BlogTag[];
 
+    let socialImage = null;
+    if (fs.existsSync(path.join(postImagesDirectory, postId, 'social-image.jpg'))) {
+        socialImage = `${postId}/social-image.jpg`;
+    }
+
     // Combine the data with the id
     return {
         id: postId,
@@ -195,7 +201,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
         tags,
         commentIssueNumber: data.commentIssueNumber || null,
-        socialImageUrl: data.socialImageUrl || null,
+        socialImageUrl: socialImage,
         socialImageWidth: data.socialImageWidth || null,
         socialImageHeight: data.socialImageHeight || null,
         wordCount,

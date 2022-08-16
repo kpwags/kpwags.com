@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'Unit Testing Principles, Practices, and Patterns',
+                    author: 'Vladimir Khorikov',
+                    cover: 'unittesting.jpg',
+                    link: 'https://www.manning.com/books/unit-testing',
+                    rating: 5,
+                    thoughts: "I've been doing a lot more unit tests over the last year or two. This book did a good job going over how to write better tests and ways to improve the code to make tests better and easier to write. A good read for developers. The code examples are in C#, but the principals could be applied to other languages.",
+                    imageFolder: 'books',
+                },
+                {
                     title: "Moonshot: Inside Pfizer's Nine-Month Race to Make the Impossible Possible",
                     author: 'Albert Bourla',
                     cover: 'moonshot.jpg',
