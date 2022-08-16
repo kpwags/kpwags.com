@@ -15,13 +15,6 @@ const current: CurrentlyDoing = {
     ],
     watching: [
         {
-            title: 'Designated Survivor',
-            cover: 'designatedsurvivor.jpg',
-            imageFolder: 'tv',
-            rating: null,
-            thoughts: null,
-        },
-        {
             title: 'Yellowstone',
             cover: 'yellowstone.jpg',
             imageFolder: 'tv',
@@ -37,15 +30,6 @@ const current: CurrentlyDoing = {
         },
     ],
     playing: [
-        {
-            title: 'Destiny 2',
-            system: 'Xbox',
-            cover: 'destiny2.jpg',
-            link: 'https://www.bungie.net/7/en/Destiny/WitchQueen',
-            imageFolder: 'games',
-            rating: null,
-            thoughts: null,
-        },
         {
             title: 'WoW Burning Crusade Classic',
             system: 'PC',

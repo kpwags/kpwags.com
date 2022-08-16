@@ -162,6 +162,7 @@ const Post = styled.article`
         ul,
         ol {
             font-size: 1.5rem;
+            font-weight: 300;
             margin: 0 25px 40px 25px;
 
             li {
