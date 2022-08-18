@@ -18,6 +18,15 @@ const MoviesWatched: MovieList = {
             year: '2022',
             movies: [
                 {
+                    title: 'Star Trek: First Contact',
+                    cover: 'firstcontact.jpg',
+                    link: 'https://www.imdb.com/title/tt0117731/',
+                    dateWatched: 'August 18, 2022',
+                    rating: 5,
+                    imageFolder: 'movies',
+                    thoughts: 'Arguably the best Star Trek TNG movie. Brings in philosophy with a nice mix of horror and action. Patrick Stewart was fantastic.',
+                },
+                {
                     title: "The Bob's Burgers Movie",
                     cover: 'bobsburgers.jpg',
                     link: 'https://www.imdb.com/title/tt7466442/',
