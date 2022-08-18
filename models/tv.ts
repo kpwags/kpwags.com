@@ -1,12 +1,9 @@
-export type TV = {
-    couldNotFinish: Show[]
-    continuing: Show[]
-    completed: Show[]
-}
+import { Media } from './media';
 
-export type Show = {
-    title: string
-    image: string
-    rating: number | null
-    thoughts: string | null
+export type TV = {
+    lastUpdate: string
+    couldNotFinish: Media[]
+    continuing: Media[]
+    current: Media[]
+    completed: Media[]
 }
