@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-08-18T23:12:56.724Z</updated>
+    <updated>2022-08-19T20:27:51.841Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,47 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading List: August 13 - 19]]></title>
+        <id>https://kpwags.com/posts/2022/08/19/reading-list</id>
+        <link href="https://kpwags.com/posts/2022/08/19/reading-list"/>
+        <updated>2022-08-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Quite a lot this week.]]></summary>
+        <content type="html"><![CDATA[<p>Quite a lot this week.</p>
+<h2>👨🏼‍💻Software Development</h2>
+<p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-4-8-rc/">Announcing TypeScript 4.8 RC</a> - <em>devblogs.microsoft.com</em></p>
+<p><a href="https://jeremydmiller.com/2022/08/09/what-is-good-code/">What is Good Code</a> - <em>jeremydmiller.com</em></p>
+<p><a href="https://deno.com/blog/changes">Big Changes Ahead for Deno</a> - <em>deno.com</em></p>
+<p><a href="https://coderethinked.com/what-are-guard-clauses-in-net/">What are Guard Clauses in .NET</a> - <em>coderethinked.com</em></p>
+<p><a href="https://medium.com/young-coder/no-c-is-not-dying-but-no-language-lives-forever-3f841aeeaf55">No, C# Is Not Dying. But No Language Lives Forever</a> - <em>medium.com/young-coder</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/">.NET 6 is now in Ubuntu 22.04</a> - <em>devblogs.microsoft.com</em></p>
+<p><a href="https://daverupert.com/2022/08/github-copilot/">Thoughts on Copilot</a> - <em>daverupert.com</em></p>
+<p><a href="https://dateo-software.de/blog/best-practices-async-await/">10 Best Practices in Async-Await Code in C# in 2022</a> - <em>dateo-software.de</em></p>
+<p><a href="https://www.architect.io/blog/2022-08-16/react-environment-variables-developers-guide/">React environment variables: A developer&#x27;s guide</a> - <em>architect.io</em></p>
+<p><a href="https://daverupert.com/2022/08/web-is-a-harsh-manager/">The web is a harsh manager</a> - <em>daverupert.com</em></p>
+<h2>🖥 Technology</h2>
+<p><a href="https://www.marketplace.org/2022/08/17/will-deprinting-reduce-the-paper-industrys-carbon-footprint/">Will &quot;deprinting&quot; reduce the paper industry&#x27;s carbon footprint?</a> - <em>marketplace.org</em></p>
+<h2>🎮 Gaming</h2>
+<p><a href="https://arstechnica.com/gaming/2022/08/nfl-blitz-arcade-games-will-relaunch-as-arcade1up-cabinet-exclusive/">NFL Blitz arcade games will relaunch as Arcade1Up cabinet exclusive</a> - <em>arstechnica.com</em></p>
+<h2>📈 Business and Finance</h2>
+<p><a href="https://www.theverge.com/2022/8/16/23308514/american-airlines-boom-supersonic-jet-order">American Airlines places order for 20 supersonic jets from Boom Supersonic</a> - <em>theverge.com</em></p>
+<h2>🔬 Science</h2>
+<p><a href="https://arstechnica.com/science/2022/08/nasa-declares-that-its-space-launch-system-rocket-is-now-ready-to-fly/">No, seriously, NASA&#x27;s Space Launch System is ready to take flight</a> - <em>arstechnica.com</em></p>
+<p><a href="https://www.economist.com/science-and-technology/2022/08/11/how-thinking-hard-makes-the-brain-tired">How thinking hard makes the brain tired</a> - 💰 - <em>economist.com</em></p>
+<h2>🎧 Podcasts</h2>
+<p><a href="https://shows.acast.com/the-new-bazaar/episodes/mma-and-the-business-of-america">The New Bazaar S1 E17 - MMA and the business of America</a></p>
+<p><a href="https://podcasts.apple.com/us/podcast/star-trek-first-contact-a-meta-movie-about-star/id1562785021?i=1000543045178">Galaxy Brains S1 E33 - Star Trek: First Contact | A meta movie about Star Trek&#x27;s creation with John Hodgman</a></p>
+<h2>🎒 Miscellaneous</h2>
+<p><a href="https://ofdollarsanddata.com/when-data-fails/">When Data Fails</a> - <em>ofdollarsanddata.com</em></p>
+<h2>🎵 A Song to Leave You With</h2>
+<h3>VNV Nation - Testament</h3>
+]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Upping Our Coffee Game]]></title>
         <id>https://kpwags.com/posts/2022/08/18/upping-our-coffee-game</id>

@@ -18,10 +18,18 @@ const MoviesWatched: MovieList = {
             year: '2022',
             movies: [
                 {
+                    title: 'Star Trek: Insurrection',
+                    cover: 'startrek_insurrection.jpg',
+                    dateWatched: 'August 19, 2022',
+                    rating: 5,
+                    imageFolder: 'movies',
+                    thoughts: "I know this isn't one of the favorites of most Trekkies, but I actually really enjoyed it. It does feel a bit like a 2 part episode but that's certainly not a bad thing.",
+                },
+                {
                     title: 'Star Trek: First Contact',
                     cover: 'firstcontact.jpg',
                     link: 'https://www.imdb.com/title/tt0117731/',
-                    dateWatched: 'August 18, 2022',
+                    dateWatched: 'August 17, 2022',
                     rating: 5,
                     imageFolder: 'movies',
                     thoughts: 'Arguably the best Star Trek TNG movie. Brings in philosophy with a nice mix of horror and action. Patrick Stewart was fantastic.',
