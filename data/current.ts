@@ -1,7 +1,7 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'July 2022',
+    lastUpdate: 'August 2022',
     reading: [
         {
             title: 'Walkaway',

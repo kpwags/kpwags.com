@@ -25,6 +25,11 @@ module.exports = {
                 destination: '/rss/feed.xml',
                 permanent: true,
             },
+            {
+                source: '/current',
+                destination: '/now',
+                permanent: true,
+            },
         ];
     },
 };

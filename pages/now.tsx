@@ -58,7 +58,7 @@ type CurrentProps = {
 
 const Current = ({ currentlyDoing }: CurrentProps): JSX.Element => (
     <>
-        <Head><title>What I&apos;m Doing - Keith Wagner</title></Head>
+        <Head><title>Now - Keith Wagner</title></Head>
         <main>
             <Container>
                 <h1>What I&apos;m Currently Up To</h1>

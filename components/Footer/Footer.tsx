@@ -75,8 +75,8 @@ const Footer = (): JSX.Element => (
                 </Link>
             </li>
             <li>
-                <Link href="/current">
-                    <a title="What I&apos;m Doing">What I&apos;m Doing</a>
+                <Link href="/now">
+                    <a title="Now">Now</a>
                 </Link>
             </li>
             <li>
