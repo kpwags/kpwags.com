@@ -12,11 +12,19 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'August 2022',
+    lastUpdate: 'September 2022',
     years: [
         {
             year: '2022',
             movies: [
+                {
+                    title: 'Vengeance',
+                    cover: 'vengeance.jpg',
+                    dateWatched: 'August 20, 2022',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: "Some of it was predictable, other parts weren't. Didn't draw me in as much as I'd hoped but was still worth watching.",
+                },
                 {
                     title: 'Star Trek: Insurrection',
                     cover: 'startrek_insurrection.jpg',
