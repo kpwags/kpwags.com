@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-09-02T23:45:55.718Z</updated>
+    <updated>2022-09-08T00:59:40.713Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,56 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[August Check-In]]></title>
+        <id>https://kpwags.com/posts/2022/09/07/august-2022-check-in</id>
+        <link href="https://kpwags.com/posts/2022/09/07/august-2022-check-in"/>
+        <updated>2022-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I can&#39;t believe the summer is basically over. August was spent running. So...much...running.]]></summary>
+        <content type="html"><![CDATA[<p>I can&#x27;t believe the summer is basically over. August was spent running. So...much...running.</p>
+<p>At the beginning of August my training for the 2022 Philadelphia Marathon began. I went from running regularly, if not intermittently, to running 4 days a week. My legs were yelling at me all month with having to run longer and longer distances. Thankfully my body is finally catching up and the runs have gotten a bit of easier. The long runs every Saturday are still tough, but this whole thing is a challenge so as far as I&#x27;m concerned, it&#x27;ll be worth it! 5 weeks in, 11 to go!</p>
+<h2>Various Events</h2>
+<p>I started the month going to a Lehigh Valley Iron Pigs (Phillies AAA affiliate) baseball game with my family. It was a fun time, but not for the Iron Pigs as they got smoked. Later in the month I went to a Phillies game that went far better for the home team. I also ended up going to a whiskey tasting dinner later in the month that has gotten me to start trying some new whiskeys and bourbons. That could be dangerous.</p>
+<h2>New Project at Work</h2>
+<p>I ended up getting (temporarily?) put on a new team at work. I&#x27;m now working with <a href="https://identityserver4.readthedocs.io/en/latest/">Identity Server</a> and it&#x27;s a nice change of pace and a new thing to explore which is exciting.</p>
+<h2>Changing How I Journal</h2>
+<p>Over the last 6 months or so, I&#x27;ve been trying to journal what I do every day and whatnot. I started out using a Moleskine notebook and pen, then I moved to Notion, then to my local Dropbox folder full of markdown files, then back to pen and paper...well, needless to say I&#x27;ve had a hard time deciding how I want to do it. I&#x27;ve started using Goodnotes on my iPad with the Apple Pencil and feel like I&#x27;m getting the best of both worlds with regards to physically writing with the ease of technology and &quot;undo&quot; the iPad provides. The only thing I don&#x27;t like, which is no better than paper and pencil, is that there&#x27;s no real way to journal from my iPhone. I can view the notes, but since there isn&#x27;t Apple Pencil support (if I even had it), I can&#x27;t do much more. I definitely enjoy keeping track of what I&#x27;ve done, just need to find a good way to make it easy for myself.</p>
+<h2>New Dining Room Piece</h2>
+<p>When my wife and I bought our house in 2015, our dining room was outdated, but it had an &quot;okay&quot; set of built-ins next to the fireplace. They weren&#x27;t anything to write home about, but they were functional. When we found the wood paneling under the wallpaper and decided to gut the room, we ended up losing those built-ins. Since then, that area has been kind of useless. We&#x27;ve also needed a pantry and some more storage, so we decided to hire a local woodworking company to build us a new set of built-ins. Only this one came with beautiful black walnut sliding doors. Needless to say, they turned out awesome and am so happy that we have a nice piece that is also functional.</p>
+<div class="PostImage__ImageContainer-sc-1y69a4k-0 cAvydH centered"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271080%27%20height=%271440%27/%3e"/></span><img alt="beautiful black walnut sliding doors next to my fireplace" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/><noscript><img alt="beautiful black walnut sliding doors next to my fireplace" srcSet="/_next/image?url=%2Fimages%2Fposts%2F2022-09-07-august-2022-check-in%2Fcloset.jpg&amp;w=1080&amp;q=75 1x, /_next/image?url=%2Fimages%2Fposts%2F2022-09-07-august-2022-check-in%2Fcloset.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fposts%2F2022-09-07-august-2022-check-in%2Fcloset.jpg&amp;w=3840&amp;q=75" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/></noscript></span></div>
+<h2>Monthly Roundup</h2>
+<p><strong>🏃🏼‍♂️ Running &amp; Biking</strong></p>
+<ul>
+<li><strong>Running:</strong> Marathon training had me hit 86 miles in August.</li>
+<li><strong>Biking:</strong> Nope</li>
+</ul>
+<p><strong>🏋🏼‍♂️ Lifting:</strong></p>
+<p>Lifting 1-2 times a week, not really going for any PRs at this point, though I am trying to inch my way back towards a 400 lbs. deadlift.</p>
+<p><strong>📚 Reading:</strong></p>
+<ul>
+<li>
+<a href="https://bookshop.org/books/walkaway/9780765392770" title="Walkway by Cory Doctorow" target="_blank" rel="noreferrer nofollow">Cory Doctorow - Walkaway</a>
+</li>
+</ul>
+<p><strong>✍🏻 Writing</strong></p>
+<ul>
+<li>Continued with my <a href="/posts/2022/08/05/reading-list">weekly</a> <a href="/posts/2022/08/12/reading-list">reading</a> <a href="/posts/2022/08/19/reading-list">posts</a> every <a href="/posts/2022/09/02/reading-list">Friday</a>.</li>
+<li>Wrote about my <a href="/posts/2022/08/03/marathon-training">marathon</a> <a href="/posts/2022/08/29/marathon-training-update">training</a></li>
+<li>Wrote about <a href="/posts/2022/08/18/upping-our-coffee-game">Coffee</a></li>
+</ul>
+<p><strong>🎮 Gaming</strong></p>
+<p>Been playing WoW a bunch. Trying to get ready for Wrath of the Lich King in September.</p>
+<ul>
+<li>
+<a href="https://worldofwarcraft.com/en-us/wowclassic" target="_blank" rel="noreferrer nofollow">WoW: Burning Crusade Classic</a>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading List for August 20 - September 2]]></title>
         <id>https://kpwags.com/posts/2022/09/02/reading-list</id>
