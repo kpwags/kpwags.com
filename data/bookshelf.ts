@@ -12,11 +12,20 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'July 2022',
+    lastUpdate: 'September 2022',
     years: [
         {
             year: '2022',
             books: [
+                {
+                    title: 'Walkaway',
+                    author: 'Cory Doctorow',
+                    cover: 'walkaway.jpg',
+                    link: 'https://bookshop.org/books/walkaway/9780765392770',
+                    rating: 3,
+                    thoughts: "I've generally enjoyed Cory Doctorow's writing style. The story had an interesting premise even going so far as to touch on some of today's economic issues. Without giving too much away, some of the jumps in time were a little rough, but easy enough to follow. I enjoyed it, but it was not my favorite Doctorow novel.",
+                    imageFolder: 'books',
+                },
                 {
                     title: 'Unit Testing Principles, Practices, and Patterns',
                     author: 'Vladimir Khorikov',
