@@ -45,12 +45,19 @@ const getPosts = async (): Promise<Item[]> => {
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);
 
+        const htmlContent = `
+            <div>
+                ${post.isRssOnly ? '<p><em>This post is for the <a href="https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>' : ''}
+                ${html}
+            </div>
+        `;
+
         items.push({
             title: post.title,
             id: `https://kpwags.com${post.url}`,
             link: `https://kpwags.com${post.url}`,
             description: post.excerpt,
-            content: html,
+            content: htmlContent,
             author: [{
                 name: 'Keith Wagner',
                 email: 'blog@kpwags.com',

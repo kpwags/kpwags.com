@@ -357,6 +357,7 @@ export const getPostsForRssFeed = async () : Promise<BlogPost[]> => {
             url,
             hasEmbeddedTweet: false,
             tags,
+            isRssOnly: data.isRssOnly || false,
             content: mdx.compiledSource,
         };
     }));

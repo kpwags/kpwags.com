@@ -225,6 +225,9 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
                 </div>
 
                 <div className="content">
+                    {post.isRssOnly ? (
+                        <p><em>This post is for the <a href="/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
+                    ) : null}
                     <MDXRemote compiledSource={post.content} components={components} />
                 </div>
 
