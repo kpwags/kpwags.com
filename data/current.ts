@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'August 2022',
+    lastUpdate: 'September 2022',
     reading: [
         {
-            title: 'Walkaway',
-            author: 'Cory Doctorow',
-            cover: 'walkaway.jpg',
-            link: 'https://bookshop.org/books/walkaway/9780765392770',
+            title: 'The Night the Lights Went Out',
+            author: 'Drew Magary',
+            cover: 'nightthelightswentout.jpg',
+            link: 'https://bookshop.org/books/the-night-the-lights-went-out-a-memoir-of-life-after-brain-damage/9780593232712',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
