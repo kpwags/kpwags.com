@@ -15,32 +15,28 @@
     --green-3: hsl(124, 95%, 32%);
     --box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
     --meta: hsl(0, 0%, 20%);
-    --green-gradient: linear-gradient(
-        45deg,
-        hsl(124deg 95% 32%) 0%,
-        hsl(128deg 100% 29%) 11%,
-        hsl(131deg 100% 27%) 22%,
-        hsl(133deg 100% 26%) 33%,
-        hsl(135deg 100% 24%) 44%,
-        hsl(137deg 100% 22%) 56%,
-        hsl(139deg 100% 20%) 67%,
-        hsl(141deg 100% 19%) 78%,
-        hsl(142deg 100% 17%) 89%,
-        hsl(144deg 100% 15%) 100%
-    );
-    --grey-gradient: linear-gradient(
-        145deg,
-        hsl(0deg 0% 91%) 0%,
-        hsl(344deg 0% 91%) 11%,
-        hsl(344deg 0% 90%) 22%,
-        hsl(344deg 0% 89%) 33%,
-        hsl(344deg 0% 88%) 44%,
-        hsl(344deg 0% 88%) 56%,
-        hsl(344deg 0% 87%) 67%,
-        hsl(344deg 0% 86%) 78%,
-        hsl(344deg 0% 86%) 89%,
-        hsl(0deg 0% 85%) 100%
-    );
+    --green-gradient: linear-gradient(45deg,
+            hsl(124deg 95% 32%) 0%,
+            hsl(128deg 100% 29%) 11%,
+            hsl(131deg 100% 27%) 22%,
+            hsl(133deg 100% 26%) 33%,
+            hsl(135deg 100% 24%) 44%,
+            hsl(137deg 100% 22%) 56%,
+            hsl(139deg 100% 20%) 67%,
+            hsl(141deg 100% 19%) 78%,
+            hsl(142deg 100% 17%) 89%,
+            hsl(144deg 100% 15%) 100%);
+    --grey-gradient: linear-gradient(145deg,
+            hsl(0deg 0% 91%) 0%,
+            hsl(344deg 0% 91%) 11%,
+            hsl(344deg 0% 90%) 22%,
+            hsl(344deg 0% 89%) 33%,
+            hsl(344deg 0% 88%) 44%,
+            hsl(344deg 0% 88%) 56%,
+            hsl(344deg 0% 87%) 67%,
+            hsl(344deg 0% 86%) 78%,
+            hsl(344deg 0% 86%) 89%,
+            hsl(0deg 0% 85%) 100%);
     --welcome-button-bg: var(--white-2);
     --welcome-button-text: var(--green-1);
     --welcome-button-border: var(--white-2);
@@ -60,19 +56,17 @@
         --green-1: hsl(124, 95%, 38%);
         --green-2: hsl(124, 100%, 40%);
         --meta: hsl(0, 0%, 89%);
-        --grey-gradient: linear-gradient(
-            145deg,
-            hsl(0deg 0% 11%) 0%,
-            hsl(344deg 0% 14%) 11%,
-            hsl(344deg 0% 17%) 22%,
-            hsl(344deg 0% 19%) 33%,
-            hsl(344deg 0% 22%) 44%,
-            hsl(344deg 0% 25%) 56%,
-            hsl(344deg 0% 28%) 67%,
-            hsl(344deg 0% 31%) 78%,
-            hsl(344deg 0% 34%) 89%,
-            hsl(0deg 0% 37%) 100%
-        );
+        --grey-gradient: linear-gradient(145deg,
+                hsl(0deg 0% 11%) 0%,
+                hsl(344deg 0% 14%) 11%,
+                hsl(344deg 0% 17%) 22%,
+                hsl(344deg 0% 19%) 33%,
+                hsl(344deg 0% 22%) 44%,
+                hsl(344deg 0% 25%) 56%,
+                hsl(344deg 0% 28%) 67%,
+                hsl(344deg 0% 31%) 78%,
+                hsl(344deg 0% 34%) 89%,
+                hsl(0deg 0% 37%) 100%);
         --welcome-button-bg: hsl(0, 0%, 15%);
         --welcome-button-text: hsl(0, 0%, 94%);
         --welcome-button-border: hsl(0, 0%, 15%);
@@ -92,19 +86,17 @@
     --green-1: hsl(124, 95%, 38%);
     --green-2: hsl(124, 100%, 40%);
     --meta: hsl(0, 0%, 89%);
-    --grey-gradient: linear-gradient(
-        145deg,
-        hsl(0deg 0% 11%) 0%,
-        hsl(344deg 0% 14%) 11%,
-        hsl(344deg 0% 17%) 22%,
-        hsl(344deg 0% 19%) 33%,
-        hsl(344deg 0% 22%) 44%,
-        hsl(344deg 0% 25%) 56%,
-        hsl(344deg 0% 28%) 67%,
-        hsl(344deg 0% 31%) 78%,
-        hsl(344deg 0% 34%) 89%,
-        hsl(0deg 0% 37%) 100%
-    );
+    --grey-gradient: linear-gradient(145deg,
+            hsl(0deg 0% 11%) 0%,
+            hsl(344deg 0% 14%) 11%,
+            hsl(344deg 0% 17%) 22%,
+            hsl(344deg 0% 19%) 33%,
+            hsl(344deg 0% 22%) 44%,
+            hsl(344deg 0% 25%) 56%,
+            hsl(344deg 0% 28%) 67%,
+            hsl(344deg 0% 31%) 78%,
+            hsl(344deg 0% 34%) 89%,
+            hsl(0deg 0% 37%) 100%);
     --welcome-button-bg: hsl(0, 0%, 15%);
     --welcome-button-text: hsl(0, 0%, 94%);
     --welcome-button-border: hsl(0, 0%, 15%);
@@ -134,32 +126,28 @@
     --green-3: hsl(124, 95%, 32%);
     --box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
     --meta: hsl(0, 0%, 20%);
-    --green-gradient: linear-gradient(
-        45deg,
-        hsl(124deg 95% 32%) 0%,
-        hsl(128deg 100% 29%) 11%,
-        hsl(131deg 100% 27%) 22%,
-        hsl(133deg 100% 26%) 33%,
-        hsl(135deg 100% 24%) 44%,
-        hsl(137deg 100% 22%) 56%,
-        hsl(139deg 100% 20%) 67%,
-        hsl(141deg 100% 19%) 78%,
-        hsl(142deg 100% 17%) 89%,
-        hsl(144deg 100% 15%) 100%
-    );
-    --grey-gradient: linear-gradient(
-        145deg,
-        hsl(0deg 0% 91%) 0%,
-        hsl(344deg 0% 91%) 11%,
-        hsl(344deg 0% 90%) 22%,
-        hsl(344deg 0% 89%) 33%,
-        hsl(344deg 0% 88%) 44%,
-        hsl(344deg 0% 88%) 56%,
-        hsl(344deg 0% 87%) 67%,
-        hsl(344deg 0% 86%) 78%,
-        hsl(344deg 0% 86%) 89%,
-        hsl(0deg 0% 85%) 100%
-    );
+    --green-gradient: linear-gradient(45deg,
+            hsl(124deg 95% 32%) 0%,
+            hsl(128deg 100% 29%) 11%,
+            hsl(131deg 100% 27%) 22%,
+            hsl(133deg 100% 26%) 33%,
+            hsl(135deg 100% 24%) 44%,
+            hsl(137deg 100% 22%) 56%,
+            hsl(139deg 100% 20%) 67%,
+            hsl(141deg 100% 19%) 78%,
+            hsl(142deg 100% 17%) 89%,
+            hsl(144deg 100% 15%) 100%);
+    --grey-gradient: linear-gradient(145deg,
+            hsl(0deg 0% 91%) 0%,
+            hsl(344deg 0% 91%) 11%,
+            hsl(344deg 0% 90%) 22%,
+            hsl(344deg 0% 89%) 33%,
+            hsl(344deg 0% 88%) 44%,
+            hsl(344deg 0% 88%) 56%,
+            hsl(344deg 0% 87%) 67%,
+            hsl(344deg 0% 86%) 78%,
+            hsl(344deg 0% 86%) 89%,
+            hsl(0deg 0% 85%) 100%);
     --welcome-button-bg: var(--white-2);
     --welcome-button-text: var(--green-1);
     --welcome-button-border: var(--white-2);
@@ -176,24 +164,24 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 * {
-  margin: 0;
+    margin: 0;
 }
 
 html,
 body {
-  height: 100%;
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
+    height: 100%;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 }
 
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -201,15 +189,15 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
 p,
@@ -219,18 +207,18 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 ul {
     margin-block-start: 0;
     margin-block-end: 0;
-    padding:0;
+    padding: 0;
 }
 
 #root,
 #__next {
-  isolation: isolate;
+    isolation: isolate;
 }
 
 /* --- End Reset --- */
@@ -281,6 +269,12 @@ h3 span {
     white-space: nowrap;
 }
 
+h1.text,
+h2.text,
+h3.text {
+    color: var(--text);
+}
+
 p {
     line-height: 1.8;
     margin-bottom: 25px;
@@ -314,6 +308,7 @@ div.cover.about {
     background-image: url('/images/covers/about.jpg');
     background-position: 50% 35%;
 }
+
 .about h1 {
     margin: 0.75rem 0 1.5rem;
 }

@@ -18,6 +18,7 @@ import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
+import InDepthNotes from '@components/InDepthNotes';
 
 // Prism
 import 'prismjs/components';
@@ -29,7 +30,6 @@ import 'prismjs/components/prism-tsx';
 import 'prismjs/components/prism-typescript';
 import 'prismjs/components/prism-yaml';
 import 'prism-themes/themes/prism-material-dark.css';
-// import YouTubeEmbed from '@components/YouTubeEmbed';
 
 const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
     ssr: false,
@@ -44,6 +44,7 @@ const components = {
     BookRead,
     YouTubeEmbed,
     ExternalLink,
+    InDepthNotes,
 };
 
 const Post = styled.article`
@@ -56,6 +57,8 @@ const Post = styled.article`
     }
 
     h4 {
+        margin-bottom: 8px;
+
         code {
             font-size: 1.1rem;
             font-weight: normal;
@@ -95,6 +98,18 @@ const Post = styled.article`
                 font-size: 1.5rem;
             }
         }
+    }
+
+    blockquote.small {
+        border-left: none;
+        padding-left: 20px;
+        margin: 15px 0;
+        font-size: 1.7rem;
+        line-height: 1.75;
+        font-family: var(--alternate-font);
+        font-style: italic;
+        color: var(--green-2);
+        margin-bottom: 25px;
     }
 
     hr {
