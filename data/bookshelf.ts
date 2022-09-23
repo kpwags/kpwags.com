@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'The Night the Lights Went Out',
+                    author: 'Drew Magary',
+                    cover: 'nightthelightswentout.jpg',
+                    link: 'https://bookshop.org/books/the-night-the-lights-went-out-a-memoir-of-life-after-brain-damage/9780593232712',
+                    rating: 4,
+                    thoughts: "I've always enjoyed Drew Magary's writing on Defector and heard about his brush with death. This was an interesting memoir talking about his road back. Would recommend.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'Walkaway',
                     author: 'Cory Doctorow',
                     cover: 'walkaway.jpg',

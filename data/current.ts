@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'September 2022',
     reading: [
         {
-            title: 'The Night the Lights Went Out',
-            author: 'Drew Magary',
-            cover: 'nightthelightswentout.jpg',
-            link: 'https://bookshop.org/books/the-night-the-lights-went-out-a-memoir-of-life-after-brain-damage/9780593232712',
+            title: 'Responsible Javascript',
+            author: 'Jeremy Wagner',
+            cover: 'responsible_javascript.jpg',
+            link: 'https://abookapart.com/products/responsible-javascript',
             rating: null,
             thoughts: null,
             imageFolder: 'books',

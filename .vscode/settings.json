@@ -11,7 +11,7 @@
         "statusBar.border": "#5050ff",
         "statusBar.foreground": "#ffffff"
     },
-    "workbench.colorTheme": "Cobalt2",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "editor.tabSize": 4,
     "search.exclude": {
         "**/node_modules": true,

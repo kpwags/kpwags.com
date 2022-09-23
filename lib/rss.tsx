@@ -17,6 +17,7 @@ import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
+import InDepthNotes from '@components/InDepthNotes';
 
 const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
     ssr: false,
@@ -31,6 +32,7 @@ const components = {
     BookRead,
     YouTubeEmbed,
     ExternalLink,
+    InDepthNotes,
 };
 
 const getPosts = async (): Promise<Item[]> => {
