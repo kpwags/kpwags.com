@@ -1,6 +1,7 @@
-export interface Game {
-    title: string,
-    system: string,
-    cover: string,
-    link: string,
+import { Media } from './media';
+
+interface Game extends Media {
+    finished: 'yes' | 'no' | 'n/a';
 }
+
+export default Game;
