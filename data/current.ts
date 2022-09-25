@@ -63,6 +63,15 @@ const current: CurrentlyDoing = {
             rating: null,
             thoughts: null,
         },
+        {
+            title: 'Jedi: Fallen Order',
+            system: 'Xbox',
+            cover: 'jedifallenorder.jpg',
+            link: 'https://www.ea.com/games/starwars/jedi/jedi-fallen-order',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+        },
     ],
 };
 

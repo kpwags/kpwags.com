@@ -25,6 +25,16 @@ const games: VideoGames = {
             thoughts: "I still come back to this from time to time. It's a fun multiplayer game.",
             finished: 'n/a',
         },
+        {
+            title: 'Jedi: Fallen Order',
+            system: 'Xbox',
+            cover: 'jedifallenorder.jpg',
+            link: 'https://www.ea.com/games/starwars/jedi/jedi-fallen-order',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+            finished: 'n/a',
+        },
     ],
     played: [
         {
@@ -116,16 +126,6 @@ const games: VideoGames = {
             rating: 5,
             thoughts: 'The final Bungie Halo game was phenomenal. Brought back a lot of the magic of the first Halo game.',
             finished: 'yes',
-        },
-        {
-            title: 'Jedi: Fallen Order',
-            system: 'Xbox',
-            cover: 'jedifallenorder.jpg',
-            link: 'https://www.ea.com/games/starwars/jedi/jedi-fallen-order',
-            imageFolder: 'games',
-            rating: null,
-            thoughts: 'I lost interest in this game. I will probably try it again.',
-            finished: 'no',
         },
         {
             title: 'The Last of Us',
