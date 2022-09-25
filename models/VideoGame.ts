@@ -1,5 +1,5 @@
 import { Media } from './media';
 
-export interface Game extends Media {
+export interface VideoGame extends Media {
     finished: 'yes' | 'no' | 'n/a';
 }

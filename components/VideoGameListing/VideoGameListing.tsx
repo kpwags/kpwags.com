@@ -1,10 +1,10 @@
 import StarRating from '@components/StarRating';
-import { Game } from '@models/Game';
+import { VideoGame } from '@models/VideoGame';
 import { useState } from 'react';
 import styled from 'styled-components';
 
 type VideoGameListingProps = {
-    game: Game;
+    game: VideoGame;
 }
 
 const Item = styled.div`
@@ -86,7 +86,7 @@ const Item = styled.div`
 const VideoGameListing = ({ game }: VideoGameListingProps): JSX.Element => {
     const [showThoughts, setShowThoughts] = useState(false);
 
-    const getPlayedIcon = (g: Game): string | null => {
+    const getPlayedIcon = (g: VideoGame): string | null => {
         switch (g.finished) {
             case 'yes':
                 return ' ✅';

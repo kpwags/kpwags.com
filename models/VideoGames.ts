@@ -1,9 +1,9 @@
-import { Game } from './Game';
+import { VideoGame } from './VideoGame';
 
-interface VideoGames {
+type VideoGames = {
     lastUpdate: string;
-    current: Game[];
-    played: Game[];
+    current: VideoGame[];
+    played: VideoGame[];
 }
 
 export default VideoGames;
