@@ -1,6 +1,5 @@
 import StarRating from '@components/StarRating';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
-import Game from '@models/Game';
+import { Game } from '@models/Game';
 import { useState } from 'react';
 import styled from 'styled-components';
 
