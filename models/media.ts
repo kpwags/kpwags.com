@@ -3,7 +3,7 @@ export interface Media {
     author?: string,
     cover: string,
     link?: string,
-    system?: 'PC' | 'PS5' | 'Xbox' | 'Nintendo Switch'
+    system?: 'PC' | 'PS5' | 'PS4' | 'Xbox' | 'Nintendo Switch'
     dateWatched?: string,
     rating: number | null,
     thoughts: string | null,
