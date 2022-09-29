@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'Responsible Javascript',
+                    author: 'Jeremy Wagner',
+                    cover: 'responsible_javascript.jpg',
+                    link: 'https://abookapart.com/products/responsible-javascript',
+                    rating: 4,
+                    thoughts: "I know that I'm a little weak on making my websites more performant. This book did a good job talking about how to improve both JavaScript performance and examples of some things you can do to make your sites more user-friendly.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'The Night the Lights Went Out',
                     author: 'Drew Magary',
                     cover: 'nightthelightswentout.jpg',
