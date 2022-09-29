@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'September 2022',
     reading: [
         {
-            title: 'Responsible Javascript',
-            author: 'Jeremy Wagner',
-            cover: 'responsible_javascript.jpg',
-            link: 'https://abookapart.com/products/responsible-javascript',
+            title: 'The Data Detective: Ten Easy Rules to Make Sense of Statistics',
+            author: 'Tim Harford',
+            cover: 'datadetective.jpg',
+            link: 'https://bookshop.org/books/the-data-detective-ten-easy-rules-to-make-sense-of-statistics/9780593084663',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
