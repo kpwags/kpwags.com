@@ -38,7 +38,7 @@ const Grid = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 20px;
-    align-items: center;
+    align-items: start;
     justify-items: center;
 
     @media all and (max-width: 767px) {
