@@ -4,11 +4,61 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 10 Oct 2022 22:39:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Oct 2022 21:17:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - October 14 (#1)]]></title>
+            <link>https://kpwags.com/posts/2022/10/14/reading-log-october-14-1</link>
+            <guid>https://kpwags.com/posts/2022/10/14/reading-log-october-14-1</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[It&#39;s been a little bit since I&#39;ve posted one of these. Been busy working on other projects and playing Wrath of the Lich King. Anyway, here&#39;s the newest list.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>It&#x27;s been a little bit since I&#x27;ve posted one of these. Been busy working on other projects and playing Wrath of the Lich King. Anyway, here&#x27;s the newest list.</p>
+<h2>In-Depth</h2>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Mike Crittenden:</span> <a href="https://critter.blog/2022/03/15/my-list-of-my-lists/">My list of my lists</a></h3><p>I found this in one of the newsletters I subscribe to. I&#x27;m going to give it a try as I appreciate some of the ideas.</p><ul>
+<li><strong>Gratitude</strong>: It&#x27;s important to remember all the people &amp; things you&#x27;re thankful for. All too ofthen it&#x27;s easy to forget in the hustle and bustle of everyday life.</li>
+<li><strong>Stress &amp; Suck</strong>: No one likes stress, but I think writing down some of the things that stress you out could help alleviate some of them.</li>
+<li><strong>Goals</strong>: Keeping track of goals, even long-term can help keep myself accountable.</li>
+</ul></article>
+<h2>Link Blast</h2>
+<h3 class="text">👨🏼‍💻 Software Development</h3>
+<p><a href="https://csswizardry.com/2022/09/critical-css-not-so-fast/">Critical CSS? Not So Fast!</a> <em>(Harry Roberts)</em></p>
+<p><a href="https://www.code4it.dev/cleancodetips/exceptions-instead-of-null">Clean Code Tip: throw exceptions instead of returning null when there is no fallback</a> <em>(Davide Bellone)</em></p>
+<p><a href="https://steven-giesel.com/blogPost/b925c8c1-03ba-4eb6-9b81-f09df56e0158">ASP.NET Core - Why async await is useful</a> <em>(Steven Giesel)</em></p>
+<p><a href="https://raygun.com/blog/javascript-unit-testing-frameworks/">JavaScript unit testing frameworks in 2022: A comparison</a> <em>(Mohsen Taleb)</em></p>
+<p><a href="https://whitep4nth3r.com/blog/write-a-new-javascript-framework/">I changed my mind about writing new JavaScript frameworks</a> <em>(Salma Alam-Naylor)</em></p>
+<h3 class="text">🖥 Technology</h3>
+<p><a href="https://deadline.com/2022/09/authors-open-letter-publishers-lawsuit-internet-archive-1235129802/">Neil Gaiman, Cory Doctorow And Other Authors Publish Open Letter Protesting Publishers&#x27; Lawsuit Against Internet Archive Library</a> <em>(Deadline)</em></p>
+<p><a href="https://www.techdirt.com/2022/10/03/publishers-lose-their-shit-after-authors-push-back-on-their-attack-on-libraries/">Publishers Lose Their Shit After Authors Push Back On Their Attack On Libraries</a> <em>(Techdirt)</em></p>
+<p><a href="https://www.theguardian.com/technology/2022/oct/11/iphones-calling-911-from-owners-pockets-on-rollercoasters">iPhones calling 911 from owners&#x27; pockets on rollercoasters</a> <em>(The Guardian)</em></p>
+<h3 class="text">🎮 Gaming</h3>
+<p><a href="https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023">Google is shutting down Stadia</a> <em>(The Verge)</em></p>
+<h3 class="text">📈 Business and Finance</h3>
+<p><a href="https://www.marketplace.org/2022/09/28/pay-transparency-laws-are-changing-the-rules-for-salary-negotiations/">Pay transparency laws are changing the rules for salary negotiations</a> <em>(Marketplace)</em></p>
+<p><a href="https://www.theverge.com/2022/10/11/23391433/gm-energy-ev-battery-solar-panel-charger-grid-utility">GM created a new energy business to sell batteries and solar panels in bid to dethrone Tesla</a> <em>(The Verge)</em></p>
+<p><a href="https://www.reuters.com/markets/deals/cameco-corp-brookfield-renewable-partners-buy-westinghouse-79-bln-deal-2022-10-11/">Westinghouse to be sold in $7.9-bln deal as interest in nuclear power grows</a> <em>(Reuters)</em></p>
+<h3 class="text">🎧 Podcasts</h3>
+<p><a href="https://www.smashingsecurity.com/291-deepfake-dangers-ai-image-opt-out-and-controlling-your-urges/">Smashing Security #291: Deepfake dangers, AI image opt out, and controlling your urges</a></p>
+<p><a href="https://www.stitcher.com/show/dan-carlins-hardcore-history-addendum/episode/ep19-asymmetrical-perspectives-90260274">Hardcore History Addendum #19: Asymmetrical Perspectives</a></p>
+<p><a href="https://99percentinvisible.org/episode/reaction-offices-and-the-future-of-work/">99% Invisible #476: Reaction Offices and the Future of Work</a></p>
+<p><a href="https://freakonomics.com/podcast/why-does-the-most-monotonous-job-in-the-world-pay-1-million/">Freakonomics #493: Why Does the Most Monotonous Job in the World Pay $1 Million?</a></p>
+<p><a href="https://www.dotnetrocks.com/details/1780">.NET Rocks #1780: Twenty Years of C# with Anders Hejlsberg</a></p>
+<p><a href="https://shows.acast.com/the-new-bazaar/episodes/a-wall-street-casino-heist">The New Bazaar: A Wall Street casino heist</a></p>
+<p><a href="https://www.dotnetrocks.com/details/1782">.NET Rocks #1782: Twenty Years of ASP.NET with Scott Guthrie</a></p>
+<h3 class="text">🎒 Everything Else</h3>
+<p><a href="https://www.economist.com/theprincepod">The Prince (Economist&#x27;s Podcast on the rise of Xi Jinping)</a></p>
+<h3 class="text">🎵 A Song to Leave You With</h3>
+<h4>The Wonder Years - Wyatt&#x27;s Song (Your Name)</h4>
+
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[September Check-In]]></title>
             <link>https://kpwags.com/posts/2022/10/10/september-check-in</link>
