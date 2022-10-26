@@ -11,7 +11,7 @@ const Utterances = ({ issueNumber }: UtterancesProps): JSX.Element => {
         script.setAttribute('src', 'https://utteranc.es/client.js');
         script.setAttribute('crossorigin', 'anonymous');
         script.setAttribute('async', 'true');
-        script.setAttribute('repo', 'kpwags/kpwags.com');
+        script.setAttribute('repo', 'kpwags/kpwags.com-comments');
         script.setAttribute('issue-number', issueNumber.toString());
         script.setAttribute('theme', 'preferred-color-scheme');
         anchor.appendChild(script);
