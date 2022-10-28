@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-10-21T15:03:17.485Z</updated>
+    <updated>2022-10-28T20:45:21.804Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,60 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - October 28 (#3)]]></title>
+        <id>https://kpwags.com/posts/2022/10/28/reading-log-october-28-3</id>
+        <link href="https://kpwags.com/posts/2022/10/28/reading-log-october-28-3"/>
+        <updated>2022-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Too much Musk this week.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Too much Musk this week.</p>
+<h2>In-Depth</h2>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Nilay Patel:</span> <a href="https://www.theverge.com/2022/10/28/23428132/elon-musk-twitter-acquisition-problems-speech-moderation">Welcome to Hell, Elon</a></h3><p>Twitter is now in Elon Musk&#x27;s hands and I suspect he&#x27;s in well over his head. I myself am probably leaving Twitter and am already more active on <a href="https://mastodon.social/@kpwags">Mastodon</a>. Free speech is what makes this country great but time and time again this has proven to turn online platforms into cesspools. Assuming Musk treats Twitter the same way as Gab, Parler and the like, I would imagine that Twitter would probably head down that route too, though probably to a lesser extent.</p></article>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Vercel:</span> <a href="https://nextjs.org/blog/next-13">Next.js 13</a></h3><p>My blog runs on Next.js and I&#x27;m curious as to the new improvements, especially with regards to <a href="https://nextjs.org/blog/next-13#introducing-turbopack-alpha">Turbopack</a></p></article>
+<h2>Link Blast</h2>
+<h3 class="text">👨🏼‍💻 Software Development</h3>
+<p><a href="https://www.stefanjudis.com/snippets/a-centered-css-grid-with-full-width-components/">A centered CSS grid with full-width components</a> <em>(Stefan Judis)</em></p>
+<p><a href="https://steven-giesel.com/blogPost/bc82fda9-eb47-47bd-850b-9d115a59a571">Throwing exceptions - Why is my stack trace lost?</a> <em>(Steven Giesel)</em></p>
+<p><a href="https://bradfrost.com/blog/post/lets-talk-about-web-components/">Let&#x27;s talk about web components</a> <em>(Brad Frost)</em></p>
+<p><a href="https://dev.to/elliot_brenyasarfo_18749/its-ok-to-write-garbage-code-once-in-a-while-3bjp">It&#x27;s OK to write garbage code once in a while.</a> <em>(Elliot Brenya sarfo)</em></p>
+<p><a href="https://cloudfour.com/thinks/highly-customizable-background-gradients/">Highly Customizable Background Gradients</a> <em>(Scott Vandehey)</em></p>
+<p><a href="https://enterprisecraftsmanship.com/posts/generic-types-arguments-specific-types-return-values/">Generic types are for arguments, specific types are for return values</a> <em>(Vladimir Khorikov)</em></p>
+<p><a href="https://blog.ndepend.com/c-11-file-scoped-types/">C# 11 File Scoped Types</a> <em>(Patrick Smacchia)</em></p>
+<p><a href="https://dev.to/integerman/differences-between-net-collection-interfaces-g3i">Differences between .NET Collection Interfaces</a> <em>(Matt Eland)</em></p>
+<h3 class="text">🖥 Technology</h3>
+<p><a href="https://arstechnica.com/gadgets/2022/10/lego-to-discontinue-mindstorms-robot-line-after-a-24-year-run/">Lego to discontinue Mindstorms robot line after a 24-year run</a> <em>(Benj Edwards)</em></p>
+<p><a href="https://arstechnica.com/gadgets/2022/10/linux-kernel-needs-your-help-testing-backlight-drivers-on-old-weird-laptops/">&quot;Old/weird laptops&quot; sought to help test Linux kernel backlight drivers</a> <em>(Kevin Purdy)</em></p>
+<h3 class="text">🎮 Gaming</h3>
+<p><a href="https://www.polygon.com/23423466/age-of-empires-definitive-edition-xbox-console-release-date">Age of Empires is coming for your Xbox</a> <em>(Ana Diaz)</em></p>
+<p><a href="https://www.polygon.com/23423009/call-of-duty-modern-warfare-2-de-escalation-trailer-park-press-f">Modern Warfare 2 teaches players the worst way to ‘de-escalate’ a risky situation</a> <em>(Owen S. Good)</em></p>
+<h3 class="text">📈 Business and Finance</h3>
+<p><a href="https://www.economist.com/business/2022/10/24/the-end-of-apples-affair-with-china">The end of Apple&#x27;s affair with China</a> <em>(💰 The Economist)</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2022/10/elon-musk-completes-twitter-purchase-immediately-fires-ceo-and-other-execs/">Elon Musk completes Twitter purchase, immediately fires CEO and other execs</a> <em>(Jon Brodkin)</em></p>
+<h3 class="text">🔬 Science</h3>
+<p><a href="https://arstechnica.com/science/2022/10/top-covid-symptoms-shift-from-fever-cough-to-sore-throat-stuffy-nose/">With shots and infections, the most common COVID symptoms have shifted</a> <em>(Beth Mole)</em></p>
+<h3 class="text">⚾ Sports</h3>
+<p><a href="https://blogs.fangraphs.com/bryce-harpers-game-5-home-run-was-a-master-class-in-hitting/">Bryce Harper&#x27;s Game 5 Home Run Was a Master Class in Hitting</a> <em>(Esteban Rivera)</em></p>
+<h3 class="text">🎧 Podcasts</h3>
+<p><a href="https://www.npr.org/2022/10/20/1130379581/the-uks-productivity-problem">The Indicator: The UK&#x27;s productivity problem</a></p>
+<p><a href="https://radiolab.org/episodes/helen-keller-exorcism">Radiolab: The Helen Keller Exorcism</a></p>
+<p><a href="https://changelog.com/jsparty/216">JS Party #216: Enabling performance-centric engineering orgs</a></p>
+<p><a href="https://www.marketplace.org/shows/marketplace-tech/cryptocurrency-has-a-trust-problem/">Marketplace Tech: Cryptocurrency has a trust problem</a></p>
+<h3 class="text">🎒 Everything Else</h3>
+<p><a href="https://www.gq.com/story/wrexham-fc-ryan-reynolds-rob-mcelhenney">Inside Ryan Reynolds and Rob McElhenney’s Great Wrexham Gambit</a> <em>(Tom Lamont)</em></p>
+<h3 class="text">🎵 A Song to Leave You With</h3>
+<h4>The Scandals - Lucky Sevens</h4>
+
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - October 21 (#2)]]></title>
         <id>https://kpwags.com/posts/2022/10/21/reading-log-october-21-2</id>
