@@ -33,8 +33,8 @@ const LoadMore = styled.div`
     margin: 40px 0;
 
     button {
-        border: var(--green-2);
-        background: var(--green-1);
+        border: var(--primary-color-2);
+        background: var(--primary-color-1);
         color: var(--background);
         padding: 8px 16px;
         cursor: pointer;

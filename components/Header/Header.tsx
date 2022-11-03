@@ -7,6 +7,8 @@ import { useContext, useState } from 'react';
 import { BlogContext } from '@contexts/BlogContext';
 import SearchHeaderButton from '@components/SearchHeaderButton';
 import SearchBar from '@components/SearchBar';
+import ThemeSwitchButton from '@components/ThemeSwitchButton';
+import ThemeSwitcher from '@components/ThemeSwitcher';
 
 const Hdr = styled.header`
     height: 60px;
@@ -45,14 +47,14 @@ const Hdr = styled.header`
         }
 
         a {
-            color: var(--green-1);
+            color: var(--primary-color-1);
             font-weight: 400;
             font-size: 1.7rem;
             letter-spacing: 0.08rem;
             white-space: nowrap;
 
             &:hover {
-                color: var(--green-2);
+                color: var(--primary-color-2);
                 text-decoration: none;
             }
         }
@@ -78,7 +80,7 @@ const Hdr = styled.header`
             padding: 0 14px;
             font-size: 1.1rem;
             font-weight: 400;
-            color: var(--green-1);
+            color: var(--primary-color-1);
             white-space: nowrap;
 
             @media all and (max-width: 809px) {
@@ -89,16 +91,16 @@ const Hdr = styled.header`
                 padding: 0 14px;
                 font-size: 1.1rem;
                 font-weight: 400;
-                color: var(--green-1);
+                color: var(--primary-color-1);
                 white-space: nowrap;
             }
 
             &:hover {
-                color: var(--green-2);
+                color: var(--primary-color-2);
                 text-decoration: none;
 
                 svg path {
-                    fill: var(--green-2)
+                    fill: var(--primary-color-2)
                 }
             }
 
@@ -109,7 +111,7 @@ const Hdr = styled.header`
                 display: inline;
 
                 path {
-                    fill: var(--green-1);
+                    fill: var(--primary-color-1);
                 }
             }
         }
@@ -131,6 +133,7 @@ const Header = (): JSX.Element => {
     const { getCurrentTheme } = useTheme();
 
     const [searchBarVisible, setSearchBarVisible] = useState<boolean>(false);
+    const [themeSwitcherVisible, setThemeSwitcherVisible] = useState<boolean>(false);
 
     const { changeTheme } = useContext(BlogContext);
 
@@ -161,6 +164,7 @@ const Header = (): JSX.Element => {
                     <Link aria-label="Photo Blog" href="/photoblog"><a>Photo Blog</a></Link>
                     <Link aria-label="Photography" href="/photography"><a>Photography</a></Link>
                     <Link aria-label="About" href="/about"><a className="hide-on-tablet">About</a></Link>
+                    <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />
                     <SearchHeaderButton onClick={() => setSearchBarVisible(!searchBarVisible)} />
                     <Link aria-label="RSS" href="/rss/feed.xml">
                         <a className="hide-on-mobile">
@@ -177,6 +181,10 @@ const Header = (): JSX.Element => {
                     />
                 </nav>
             </Hdr>
+            <ThemeSwitcher
+                visible={themeSwitcherVisible}
+                toggleBar={() => setThemeSwitcherVisible(!themeSwitcherVisible)}
+            />
             <SearchBar
                 visible={searchBarVisible}
                 toggleBar={() => setSearchBarVisible(!searchBarVisible)}

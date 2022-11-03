@@ -11,7 +11,7 @@ const SearchFormComponent = styled.form`
     }
 
     button {
-        background: var(--green-1);
+        background: var(--primary-color-1);
         color: #fefefe;
         border:none;
         padding: 10px 15px;
@@ -19,7 +19,7 @@ const SearchFormComponent = styled.form`
         cursor: pointer;
 
         &:hover {
-            background: var(--green-3);
+            background: var(--primary-color-3);
         }
     }
 `;

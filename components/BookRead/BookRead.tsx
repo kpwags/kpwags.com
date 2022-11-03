@@ -24,10 +24,10 @@ const BookBlock = styled.div`
             padding-top: 0;
 
             a {
-                color: var(--green-2);
+                color: var(--primary-color-2);
 
                 &:hover {
-                    color: var(--green-1);
+                    color: var(--primary-color-1);
                 }
             }
         }

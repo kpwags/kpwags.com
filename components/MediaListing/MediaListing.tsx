@@ -70,13 +70,13 @@ const Item = styled.div`
             padding: 0 !important;
             font: inherit;
             cursor: pointer;
-            color: var(--green-1);
+            color: var(--primary-color-1);
         }
 
         .thoughts {
             line-height: 1.5;
             margin: 10px 0;
-            border: 1px solid var(--green-2);
+            border: 1px solid var(--primary-color-2);
             padding: 10px;
             border-radius: 6px;
             background: rgba(200, 200, 200, 0.2);

@@ -38,11 +38,11 @@ const ToC = styled.nav`
     }
 
     li.active > a {
-        color: var(--green-1);
+        color: var(--primary-color-1);
     }
 
     li > a:hover {
-        color: var(--green-2);
+        color: var(--primary-color-2);
     }
 
     @media all and (max-width: 600px) {

@@ -8,7 +8,7 @@ const Post = styled.article`
     margin: 40px 0;
 
     h2 {
-        color: var(--green-1);
+        color: var(--primary-color-1);
         font-size: 2rem;
         font-weight: 500;
     }
