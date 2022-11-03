@@ -32,12 +32,12 @@ const current: CurrentlyDoing = {
             thoughts: null,
         },
         {
-            title: 'The Office',
-            cover: 'theoffice.jpg',
-            imageFolder: 'tv',
-            link: 'https://www.imdb.com/title/tt0386676/',
+            title: "It's Always Sunny in Philadelphia",
+            cover: 'always_sunny.jpg',
             rating: null,
             thoughts: null,
+            link: 'https://www.imdb.com/title/tt0472954/',
+            imageFolder: 'tv',
         },
         {
             title: 'Star Trek: Lower Decks',

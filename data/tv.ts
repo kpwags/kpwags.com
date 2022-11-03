@@ -71,11 +71,11 @@ const tv: TV = {
     ],
     current: [
         {
-            title: 'The Office',
-            cover: 'theoffice.jpg',
-            rating: 5,
-            thoughts: 'The first seasons were definitely the best, but it was a fantastic series with a great mix of humor.',
-            link: 'https://www.imdb.com/title/tt0386676/',
+            title: "It's Always Sunny in Philadelphia",
+            cover: 'always_sunny.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt0472954/',
             imageFolder: 'tv',
         },
         {
@@ -104,6 +104,14 @@ const tv: TV = {
         },
     ],
     completed: [
+        {
+            title: 'The Office',
+            cover: 'theoffice.jpg',
+            rating: 5,
+            thoughts: 'The first seasons were definitely the best, but it was a fantastic series with a great mix of humor.',
+            link: 'https://www.imdb.com/title/tt0386676/',
+            imageFolder: 'tv',
+        },
         {
             title: 'Obi-Wan Kenobi',
             cover: 'kenobi.jpg',
