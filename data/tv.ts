@@ -256,14 +256,6 @@ const tv: TV = {
             link: 'https://www.imdb.com/title/tt0060028/',
             imageFolder: 'tv',
         },
-        {
-            title: 'The Office',
-            cover: 'theoffice.jpg',
-            rating: 5,
-            thoughts: 'The first seasons were definitely the best, but it was a fantastic series with a great mix of humor.',
-            link: 'https://www.imdb.com/title/tt0386676/',
-            imageFolder: 'tv',
-        },
     ],
     couldNotFinish: [],
 };
