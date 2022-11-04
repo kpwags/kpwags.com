@@ -71,11 +71,11 @@ const tv: TV = {
     ],
     current: [
         {
-            title: 'The Office',
-            cover: 'theoffice.jpg',
-            rating: 5,
-            thoughts: 'The first seasons were definitely the best, but it was a fantastic series with a great mix of humor.',
-            link: 'https://www.imdb.com/title/tt0386676/',
+            title: "It's Always Sunny in Philadelphia",
+            cover: 'always_sunny.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt0472954/',
             imageFolder: 'tv',
         },
         {
@@ -104,6 +104,14 @@ const tv: TV = {
         },
     ],
     completed: [
+        {
+            title: 'The Office',
+            cover: 'theoffice.jpg',
+            rating: 5,
+            thoughts: 'The first seasons were definitely the best, but it was a fantastic series with a great mix of humor.',
+            link: 'https://www.imdb.com/title/tt0386676/',
+            imageFolder: 'tv',
+        },
         {
             title: 'Obi-Wan Kenobi',
             cover: 'kenobi.jpg',
@@ -246,14 +254,6 @@ const tv: TV = {
             rating: 5,
             thoughts: "The series where it all began and what got me into Star Trek. Some of the effects are corny for today's standards, but the series still holds up",
             link: 'https://www.imdb.com/title/tt0060028/',
-            imageFolder: 'tv',
-        },
-        {
-            title: 'The Office',
-            cover: 'theoffice.jpg',
-            rating: 5,
-            thoughts: 'The first seasons were definitely the best, but it was a fantastic series with a great mix of humor.',
-            link: 'https://www.imdb.com/title/tt0386676/',
             imageFolder: 'tv',
         },
     ],
