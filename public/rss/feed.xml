@@ -4,11 +4,63 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Thu, 03 Nov 2022 23:43:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Nov 2022 14:04:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - November 4 (#4)]]></title>
+            <link>https://kpwags.com/posts/2022/11/04/reading-log-november-4-4</link>
+            <guid>https://kpwags.com/posts/2022/11/04/reading-log-november-4-4</guid>
+            <pubDate>Fri, 04 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Elon Musk&#39;s takeover of Twitter has made for an interesting news week.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>Elon Musk&#x27;s takeover of Twitter has made for an interesting news week.</p>
+<h2>In-Depth</h2>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Daniel Rosenwasser:</span> <a href="https://devblogs.microsoft.com/typescript/ten-years-of-typescript/">Ten Years of TypeScript</a></h3><p>I was late to the TypeScript train, but now that I&#x27;ve been using it both at work and on my side projects, I miss it when I don&#x27;t have it.</p><blockquote class="small">TypeScript had to be free and open source, and done in a truly out-in-the-open manner. It also had to interoperate seamlessly with existing JavaScript, co-evolve with JavaScript, and <em>feel</em> like JavaScript.</blockquote><p>Given my experience working with TypeScript, I&#x27;d say they&#x27;ve done a good job allowing developers to integrate TypeScript into the development process with minimal impact.</p></article>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Amy Scott:</span> <a href="https://www.marketplace.org/shows/how-we-survive/">How We Survive</a></h3><p>This podcast has been doing a great job talking about the struggles Miami is having to deal with given the changing climate. I&#x27;d highly recommend a listen as climate change is a real threat and is something that will extend well beyond just Miami.</p></article>
+<h2>Link Blast</h2>
+<h3 class="text">👨🏼‍💻 Development and Design</h3>
+<p><a href="https://css-tricks.com/is-there-too-much-css-now">Is There Too Much CSS Now?</a> <em>(Sacha Greif)</em></p>
+<p><a href="https://simonwillison.net/2022/Oct/29/the-perfect-commit/">The Perfect Commit</a> <em>(Simon Willison)</em></p>
+<p><a href="https://stackoverflow.blog/2022/07/04/how-stack-overflow-is-leveling-up-its-unit-testing-game/">How Stack Overflow is leveling up its unit testing game</a> <em>(Wouter de Kort)</em></p>
+<p><a href="https://bradfrost.com/blog/post/the-many-faces-of-themeable-design-systems/">The many faces of themeable design systems</a> <em>(Brad Frost)</em></p>
+<p><a href="https://wapplegate.com/asynchronous-programming/">Asynchronous Programming in .NET - Introduction, Misconceptions, and Problems</a> <em>(William Applegate)</em></p>
+<p><a href="https://www.abeautifulsite.net/posts/a-web-component-story/">A Web Component Story</a> <em>(Cory LaViska)</em></p>
+<p><a href="https://benfrain.com/a-css-class-naming-convention-might-still-be-your-best-choice/">A CSS class-naming convention might still be your best choice</a> <em>(Ben Frain)</em></p>
+<p><a href="https://www.smashingmagazine.com/2022/07/look-remix-differences-next/">A Look At Remix And The Differences With Next.js</a> <em>(Facundo Giuliani)</em></p>
+<p><a href="https://www.robinwieruch.de/typescript-type-guard/">TypeScript: Type Guards</a> <em>(Robin Wieruch)</em></p>
+<p><a href="https://khalidabuhakmeh.com/more-efficient-deletes-with-entity-framework-core">More Efficient Deletes With Entity Framework Core</a> <em>(Khalid Abuhakmeh)</em></p>
+<p><a href="https://dateo-software.de/blog/improve-your-asp-net-core-controllers">Learn how to improve your ASP.NET Core controllers with these principles</a> <em>(Dennis Frühauff)</em></p>
+<p><a href="https://css-tricks.com/the-new-css-media-query-range-syntax/">The New CSS Media Query Range Syntax</a> <em>(Preethi Selvam)</em></p>
+<h3 class="text">🖥 Technology and the Internet</h3>
+<p><a href="https://www.techdirt.com/2022/10/25/if-github-copilot-is-a-copyright-problem-perhaps-the-problem-is-copyright">If GitHub Copilot Is A Copyright Problem, Perhaps The Problem Is Copyright</a> <em>(Michael Weinberg)</em></p>
+<p><a href="https://www.techdirt.com/2022/10/28/elon-musks-first-move-is-to-fire-the-person-most-responsible-for-twitters-strong-free-speech-stance/">Elon Musk&#x27;s First Move Is To Fire The Person Most Responsible For Twitter&#x27;s Strong Free Speech Stance</a> <em>(Mike Masnick)</em></p>
+<p><a href="https://www.techdirt.com/2022/10/28/yes-chances-are-elon-musk-will-make-twitter-way-worse-but-he-could-make-it-better/">Yes, Chances Are Elon Musk Will Make Twitter Way Worse, But He Could Make It Better</a> <em>(Mike Masnick)</em></p>
+<p><a href="https://www.techdirt.com/2022/11/02/hey-elon-let-me-help-you-speed-run-the-content-moderation-learning-curve/">Hey Elon: Let Me Help You Speed Run The Content Moderation Learning Curve </a> <em>(Mike Masnick)</em></p>
+<h3 class="text">🎮 Gaming</h3>
+<p><a href="https://www.polygon.com/23433295/call-of-duty-playstation-phil-spencer-xbox-interview">Call of Duty for PlayStation isn&#x27;t going anywhere, Phil Spencer says</a> <em>(Ana Diaz)</em></p>
+<h3 class="text">📈 Business and Finance</h3>
+<p><a href="https://www.economist.com/finance-and-economics/2022/10/26/can-gary-gensler-solve-every-problem-in-american-finance">Can Gary Gensler solve every problem in American finance?</a> <em>(💰 The Economist)</em></p>
+<h3 class="text">⚾ Sports</h3>
+<p><a href="https://theathletic.com/3744061/2022/10/31/mlb-abs-pitch-challenge-system/">&#x27;My eye over yours&#x27;: Ball-and-strike challenges, possibly coming to an MLB game near you</a> <em>(💰 Zach Buchanan)</em></p>
+<h3 class="text">🎧 Podcasts</h3>
+<p><a href="https://www.nytimes.com/interactive/2022/podcasts/trojan-horse-affair.html">The Trojan Horse Affair</a></p>
+<p><a href="https://99percentinvisible.org/episode/grid-locked/">99% Invisible #483: Grid Locked</a></p>
+<p><a href="https://www.bazaaraudio.com/the-new-bazaar/moneys-strange-past-and-unsettled-future">The New Bazaar: Money&#x27;s strange past and unsettled future</a></p>
+<h3 class="text">🎒 Everything Else</h3>
+<p><a href="https://nolanlawson.com/2022/02/02/five-years-of-quitting-twitter/">Five years of quitting Twitter</a> <em>(Nolan Lawson)</em></p>
+<p><a href="https://2ality.com/2022/10/mastodon-getting-started.html">Getting started with Mastodon</a> <em>(Axel Rauschmayer)</em></p>
+<h3 class="text">🎵 A Song to Leave You With</h3>
+<h4>The Gaslight Anthem - Have Mercy</h4>
+
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Building a Social Image Generator Console Application]]></title>
             <link>https://kpwags.com/posts/2022/11/03/building-a-social-image-generator-console-app</link>
