@@ -64,6 +64,8 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
         id={id}
         viewBox="0 0 16.933333 8.466667"
         onClick={onClick}
+        role="button"
+        aria-label="Toggle Light/Dark Mode"
     >
         <g id="layer1">
             <rect

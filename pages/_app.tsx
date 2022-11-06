@@ -7,7 +7,7 @@ import { useTheme } from '@hooks/useTheme';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
-import Theme from '@models/theme';
+import Theme, { ColorTheme, FontTheme } from '@models/theme';
 
 import '../styles/fonts.css';
 import '../styles/kpwags.css';
@@ -15,11 +15,17 @@ import '../styles/kpwags.css';
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
     const {
         theme,
+        color,
+        font,
         themeLoaded,
         changeTheme,
+        changeColor,
+        changeFont,
     } = useTheme();
 
     const [selectedTheme, setSelectedTheme] = useState<Theme>(theme);
+    const [selectedColor, setSelectedColor] = useState<ColorTheme>(color);
+    const [selectedFont, setSelectedFont] = useState<FontTheme>(font);
 
     useEffect(() => {
         setSelectedTheme(theme);
@@ -28,6 +34,16 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     const toggleTheme = (t: Theme) => {
         changeTheme(t);
         setSelectedTheme(t);
+    };
+
+    const toggleColor = (c: ColorTheme) => {
+        changeColor(c);
+        setSelectedColor(c);
+    };
+
+    const toggleFont = (f: FontTheme) => {
+        changeFont(f);
+        setSelectedFont(f);
     };
 
     return (
@@ -67,6 +83,10 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                 value={{
                     currentTheme: selectedTheme,
                     changeTheme: toggleTheme,
+                    currentColor: selectedColor,
+                    changeColorTheme: toggleColor,
+                    currentFont: selectedFont,
+                    changeFontTheme: toggleFont,
                 }}
             >
                 <main>

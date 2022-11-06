@@ -9,6 +9,7 @@ const ThemeSwitchButton = ({
 }: ThemeSwitchButtonProps): JSX.Element => (
     <SettingOutlined
         className="search-icon"
+        title="Change Theme Settings"
         onClick={onClick}
     />
 );
