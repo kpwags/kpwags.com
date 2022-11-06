@@ -1,7 +1,7 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'September 2022',
+    lastUpdate: 'November 2022',
     reading: [
         {
             title: 'The Data Detective: Ten Easy Rules to Make Sense of Statistics',
@@ -40,19 +40,19 @@ const current: CurrentlyDoing = {
             imageFolder: 'tv',
         },
         {
-            title: 'Star Trek: Lower Decks',
-            cover: 'lowerdecks.jpg',
-            imageFolder: 'tv',
-            link: 'https://www.imdb.com/title/tt9184820/',
-            rating: null,
-            thoughts: null,
-        },
-        {
             title: 'Star Trek: Voyager',
             cover: 'voyager.jpg',
             rating: null,
             thoughts: null,
             link: 'https://www.imdb.com/title/tt0112178/',
+            imageFolder: 'tv',
+        },
+        {
+            title: 'Daria',
+            cover: 'daria.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt0118298/',
             imageFolder: 'tv',
         },
     ],
