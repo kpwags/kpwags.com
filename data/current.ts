@@ -47,6 +47,14 @@ const current: CurrentlyDoing = {
             link: 'https://www.imdb.com/title/tt0112178/',
             imageFolder: 'tv',
         },
+        {
+            title: 'Daria',
+            cover: 'daria.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt0118298/',
+            imageFolder: 'tv',
+        },
     ],
     playing: [
         {
