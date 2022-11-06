@@ -16,21 +16,21 @@ const Switch = styled.svg`
     }
 
     rect#togglebutton-rect {
-        stroke: var(--green-1);
+        stroke: var(--primary-color-1);
     }
 
     rect#togglebutton-rect {
-        stroke: var(--green-2);
+        stroke: var(--primary-color-2);
     }
 
     circle#togglebutton-circle-lightmode,
     circle#togglebutton-circle-darkmode {
-        fill: var(--green-1);
+        fill: var(--primary-color-1);
     }
 
     &:hover circle#togglebutton-circle-lightmode,
     &:hover circle#togglebutton-circle-darkmode {
-        fill: var(--green-2);
+        fill: var(--primary-color-2);
     }
 
     #togglebutton-circle-lightmode {
@@ -64,6 +64,8 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
         id={id}
         viewBox="0 0 16.933333 8.466667"
         onClick={onClick}
+        role="button"
+        aria-label="Toggle Light/Dark Mode"
     >
         <g id="layer1">
             <rect

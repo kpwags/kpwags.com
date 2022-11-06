@@ -12,7 +12,7 @@ const ScrollIndicator = styled.div`
 
     div {
         height: 5px;
-        background: var(--green-3);
+        background: var(--primary-color-3);
         width: 0%;
     }
 `;

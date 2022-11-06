@@ -9,6 +9,7 @@ const SearchHeaderButton = ({
 }: SearchHeaderButtonProps): JSX.Element => (
     <SearchOutlined
         className="search-icon"
+        title="Open Search Bar"
         onClick={onClick}
     />
 );

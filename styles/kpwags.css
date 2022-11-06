@@ -8,108 +8,63 @@
     --black-3: hsl(0, 0%, 20%);
     --grey-1: hsl(0, 0%, 69%);
     --grey-2: hsl(0, 0%, 39%);
-    --font: WorkSans, Helvetica, Arial, sans-serif;
-    --alternate-font: Petrona, Georgia, Times New Roman, serif;
-    --green-1: hsl(144, 100%, 15%);
-    --green-2: rgb(24, 124, 61);
-    --green-3: hsl(124, 95%, 32%);
+    --sans-serif: WorkSans, Helvetica, Arial, sans-serif;
+    --serif: Petrona, Georgia, 'Times New Roman', serif;
+    --monospaced: SourceCodePro, 'Courier New';
+    --font: var(--sans-serif);
+    --primary-color-1: hsl(144, 100%, 15%);
+    --primary-color-2: rgb(24, 124, 61);
+    --primary-color-3: hsl(124, 95%, 32%);
     --box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
     --meta: hsl(0, 0%, 20%);
-    --green-gradient: linear-gradient(45deg,
-            hsl(124deg 95% 32%) 0%,
-            hsl(128deg 100% 29%) 11%,
-            hsl(131deg 100% 27%) 22%,
-            hsl(133deg 100% 26%) 33%,
-            hsl(135deg 100% 24%) 44%,
-            hsl(137deg 100% 22%) 56%,
-            hsl(139deg 100% 20%) 67%,
-            hsl(141deg 100% 19%) 78%,
-            hsl(142deg 100% 17%) 89%,
-            hsl(144deg 100% 15%) 100%);
-    --grey-gradient: linear-gradient(145deg,
-            hsl(0deg 0% 91%) 0%,
-            hsl(344deg 0% 91%) 11%,
-            hsl(344deg 0% 90%) 22%,
-            hsl(344deg 0% 89%) 33%,
-            hsl(344deg 0% 88%) 44%,
-            hsl(344deg 0% 88%) 56%,
-            hsl(344deg 0% 87%) 67%,
-            hsl(344deg 0% 86%) 78%,
-            hsl(344deg 0% 86%) 89%,
-            hsl(0deg 0% 85%) 100%);
-    --welcome-button-bg: var(--white-2);
-    --welcome-button-text: var(--green-1);
-    --welcome-button-border: var(--white-2);
-    --welcome-button-hover-bg: var(--green-3);
-    --welcome-button-hover-text: var(--white-2);
-    --welcome-button-hover-border: var(--green-1);
     --photoset-list-bg: var(--white-2);
     --photoset-list-hover-bg: var(--grey-1);
     --display-light-mode: inline;
     --display-dark-mode: none;
+    --primary-color-red: rgb(212, 34, 34);
+    --primary-color-orange: hsl(30, 100%, 33%);
+    --primary-color-green: hsl(144, 100%, 15%);
+    --primary-color-blue: rgb(28, 55, 189);
+    --primary-color-purple: hsl(301, 91%, 40%);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --background: hsl(0, 0%, 14%);
         --text: hsl(0, 0%, 94%);
-        --green-1: hsl(124, 95%, 38%);
-        --green-2: hsl(124, 100%, 40%);
+        --primary-color-1: hsl(124, 95%, 38%);
+        --primary-color-2: hsl(124, 100%, 40%);
         --meta: hsl(0, 0%, 89%);
-        --grey-gradient: linear-gradient(145deg,
-                hsl(0deg 0% 11%) 0%,
-                hsl(344deg 0% 14%) 11%,
-                hsl(344deg 0% 17%) 22%,
-                hsl(344deg 0% 19%) 33%,
-                hsl(344deg 0% 22%) 44%,
-                hsl(344deg 0% 25%) 56%,
-                hsl(344deg 0% 28%) 67%,
-                hsl(344deg 0% 31%) 78%,
-                hsl(344deg 0% 34%) 89%,
-                hsl(0deg 0% 37%) 100%);
-        --welcome-button-bg: hsl(0, 0%, 15%);
-        --welcome-button-text: hsl(0, 0%, 94%);
-        --welcome-button-border: hsl(0, 0%, 15%);
-        --welcome-button-hover-bg: hsl(124, 95%, 38%);
-        --welcome-button-hover-text: hsl(0, 0%, 15%);
-        --welcome-button-hover-border: hsl(144, 100%, 15%);
         --photoset-list-bg: hsl(0, 0%, 36%);
         --photoset-list-hover-bg: hsl(0, 0%, 15%);
         --display-light-mode: none;
         --display-dark-mode: inline;
+        --primary-color-red: hsl(0 100% 67%);
+        --primary-color-orange: hsl(30, 100%, 33%);
+        --primary-color-green: hsl(144, 100%, 15%);
+        --primary-color-blue: rgb(28, 55, 189);
+        --primary-color-purple: hsl(301, 91%, 40%);
     }
 }
 
-[data-theme='dark'] {
+[data-theme*='dark'] {
     --background: hsl(0, 0%, 14%);
     --text: hsl(0, 0%, 94%);
-    --green-1: hsl(124, 95%, 38%);
-    --green-2: hsl(124, 100%, 40%);
+    --primary-color-1: hsl(124, 95%, 38%);
+    --primary-color-2: hsl(124, 100%, 40%);
     --meta: hsl(0, 0%, 89%);
-    --grey-gradient: linear-gradient(145deg,
-            hsl(0deg 0% 11%) 0%,
-            hsl(344deg 0% 14%) 11%,
-            hsl(344deg 0% 17%) 22%,
-            hsl(344deg 0% 19%) 33%,
-            hsl(344deg 0% 22%) 44%,
-            hsl(344deg 0% 25%) 56%,
-            hsl(344deg 0% 28%) 67%,
-            hsl(344deg 0% 31%) 78%,
-            hsl(344deg 0% 34%) 89%,
-            hsl(0deg 0% 37%) 100%);
-    --welcome-button-bg: hsl(0, 0%, 15%);
-    --welcome-button-text: hsl(0, 0%, 94%);
-    --welcome-button-border: hsl(0, 0%, 15%);
-    --welcome-button-hover-bg: hsl(124, 95%, 38%);
-    --welcome-button-hover-text: hsl(0, 0%, 15%);
-    --welcome-button-hover-border: hsl(144, 100%, 15%);
     --photoset-list-bg: hsl(0, 0%, 36%);
     --photoset-list-hover-bg: hsl(0, 0%, 15%);
     --display-light-mode: none;
     --display-dark-mode: inline;
+    --primary-color-red: rgb(212, 34, 34);
+    --primary-color-orange: hsl(30, 79%, 46%);
+    --primary-color-green: hsl(124, 95%, 38%);
+    --primary-color-blue: hsl(213 100% 66%);
+    --primary-color-purple: hsl(301, 99%, 65%);
 }
 
-[data-theme='light'] {
+[data-theme*='light'] {
     --background: hsl(0, 0%, 100%);
     --text: hsl(0, 0%, 15%);
     --white-1: hsl(0, 0%, 100%);
@@ -119,45 +74,92 @@
     --black-3: hsl(0, 0%, 20%);
     --grey-1: hsl(0, 0%, 69%);
     --grey-2: hsl(0, 0%, 39%);
-    --font: WorkSans, Helvetica, Arial, sans-serif;
-    --alternate-font: Petrona, Georgia, Times New Roman, serif;
-    --green-1: hsl(144, 100%, 15%);
-    --green-2: rgb(24, 124, 61);
-    --green-3: hsl(124, 95%, 32%);
+    --primary-color-1: hsl(144, 100%, 15%);
+    --primary-color-2: rgb(24, 124, 61);
+    --primary-color-3: hsl(124, 95%, 32%);
     --box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
     --meta: hsl(0, 0%, 20%);
-    --green-gradient: linear-gradient(45deg,
-            hsl(124deg 95% 32%) 0%,
-            hsl(128deg 100% 29%) 11%,
-            hsl(131deg 100% 27%) 22%,
-            hsl(133deg 100% 26%) 33%,
-            hsl(135deg 100% 24%) 44%,
-            hsl(137deg 100% 22%) 56%,
-            hsl(139deg 100% 20%) 67%,
-            hsl(141deg 100% 19%) 78%,
-            hsl(142deg 100% 17%) 89%,
-            hsl(144deg 100% 15%) 100%);
-    --grey-gradient: linear-gradient(145deg,
-            hsl(0deg 0% 91%) 0%,
-            hsl(344deg 0% 91%) 11%,
-            hsl(344deg 0% 90%) 22%,
-            hsl(344deg 0% 89%) 33%,
-            hsl(344deg 0% 88%) 44%,
-            hsl(344deg 0% 88%) 56%,
-            hsl(344deg 0% 87%) 67%,
-            hsl(344deg 0% 86%) 78%,
-            hsl(344deg 0% 86%) 89%,
-            hsl(0deg 0% 85%) 100%);
-    --welcome-button-bg: var(--white-2);
-    --welcome-button-text: var(--green-1);
-    --welcome-button-border: var(--white-2);
-    --welcome-button-hover-bg: var(--green-3);
-    --welcome-button-hover-text: var(--white-2);
-    --welcome-button-hover-border: var(--green-1);
     --photoset-list-bg: var(--white-2);
     --photoset-list-hover-bg: var(--grey-1);
     --display-light-mode: inline;
     --display-dark-mode: none;
+    --primary-color-red: hsl(0 100% 67%);
+    --primary-color-orange: hsl(30, 100%, 33%);
+    --primary-color-green: hsl(144, 100%, 15%);
+    --primary-color-blue: rgb(28, 55, 189);
+    --primary-color-purple: hsl(301, 91%, 40%);
+}
+
+[data-theme*='dark'][data-color-theme*='green'] {
+    --primary-color-1: hsl(124, 95%, 38%);
+    --primary-color-2: hsl(124, 100%, 40%);
+    --primary-color-3: hsl(124, 95%, 32%);
+}
+
+[data-color-theme*='green'] {
+    --primary-color-1: hsl(144, 100%, 15%);
+    --primary-color-2: hsl(142, 68%, 29%);
+    --primary-color-3: hsl(124, 95%, 32%);
+}
+
+[data-color-theme*='purple'] {
+    --primary-color-1: hsl(301, 91%, 40%);
+    --primary-color-2: rgb(208, 27, 205);
+    --primary-color-3: rgb(178, 0, 184);
+}
+
+[data-theme*='dark'][data-color-theme*='purple'] {
+    --primary-color-1: hsl(301, 99%, 65%);
+    --primary-color-2: hsl(301 72% 61%);
+    --primary-color-3: hsl(298 100% 79%);
+}
+
+[data-color-theme*='blue'] {
+    --primary-color-1: rgb(28, 55, 189);
+    --primary-color-2: rgb(42, 69, 205);
+    --primary-color-3: hsl(223, 69%, 43%);
+}
+
+[data-theme*='dark'][data-color-theme*='blue'] {
+    --primary-color-1: hsl(213 100% 66%);
+    --primary-color-2: hsl(230 100% 67%);
+    --primary-color-3: hsl(223, 79%, 57%);
+}
+
+[data-color-theme*='orange'] {
+    --primary-color-1: hsl(30, 100%, 33%);
+    --primary-color-2: hsl(33, 89%, 40%);
+    --primary-color-3: hsl(17, 95%, 60%);
+}
+
+[data-theme*='dark'][data-color-theme*='orange'] {
+    --primary-color-1: hsl(30, 79%, 46%);
+    --primary-color-2: hsl(33, 67%, 50%);
+    --primary-color-3: hsl(17, 95%, 60%);
+}
+
+[data-color-theme*='red'] {
+    --primary-color-1: rgb(212, 34, 34);
+    --primary-color-2: hsl(0, 77%, 51%);
+    --primary-color-3: hsl(0, 65%, 24%);
+}
+
+[data-theme*='dark'][data-color-theme*='red'] {
+    --primary-color-1: hsl(0 100% 67%);
+    --primary-color-2: hsl(0, 64%, 55%);
+    --primary-color-3: hsl(0, 82%, 71%);
+}
+
+[data-color-theme*='sansserif'] {
+    --font: var(--sans-serif);
+}
+
+[data-font-theme*='serif'] {
+    --font: var(--serif);
+}
+
+[data-font-theme*='mono'] {
+    --font: var(--monospaced);
 }
 
 /* --- CSS Reset --- */
@@ -242,7 +244,7 @@ main {
 
 h1 {
     font-weight: 500;
-    color: var(--green-1);
+    color: var(--primary-color-1);
     font-size: 2.6rem;
     margin: 2rem 0 0 0;
     padding: 0;
@@ -250,14 +252,14 @@ h1 {
 
 h2 {
     font-weight: 400;
-    color: var(--green-2);
+    color: var(--primary-color-2);
     font-size: 2.2rem;
     margin: 0;
     padding: 0;
 }
 
 h3 {
-    color: var(--green-2);
+    color: var(--primary-color-2);
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0;
@@ -283,13 +285,13 @@ p {
 
 a,
 a:visited {
-    color: var(--green-1);
+    color: var(--primary-color-1);
     cursor: pointer;
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--green-2);
+    color: var(--primary-color-2);
     text-decoration: underline;
 }
 
@@ -342,13 +344,13 @@ div.cover.about {
 
 .pagination .paginate-next-a,
 .pagination .paginate-prev-a {
-    color: var(--green-1);
+    color: var(--primary-color-1);
     margin: 0 0.1rem;
 }
 
 .pagination .paginate-next-a:hover,
 .pagination .paginate-prev-a:hover {
-    color: var(--green-2);
+    color: var(--primary-color-2);
 }
 
 .pagination .break {
@@ -381,7 +383,7 @@ div.cover.about {
 }
 
 .search-icon svg path {
-    fill: var(--green-1);
+    fill: var(--primary-color-1);
 }
 
 

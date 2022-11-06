@@ -30,7 +30,6 @@ const Contact = (): JSX.Element => (
         </p>
 
         <ContactList>
-            <li><a href="https://twitter.com/kpwags" target="_blank" rel="nofollow noreferrer">Twitter</a></li>
             <li><a href="https://mastodon.social/web/@kpwags" target="_blank" rel="nofollow noreferrer">Mastodon</a></li>
             <li><a href="https://github.com/kpwags" target="_blank" rel="nofollow noreferrer">GitHub</a></li>
         </ContactList>

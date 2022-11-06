@@ -36,7 +36,7 @@ const Photoset = styled.li`
 
             h2 {
                 margin-bottom: 8px;
-                color: var(--green-1);
+                color: var(--primary-color-1);
 
                 @media all and (max-width: 1023px) {
                     font-size: 1.3rem;
