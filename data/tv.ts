@@ -2,7 +2,7 @@
 import { TV } from '@models/tv';
 
 const tv: TV = {
-    lastUpdate: 'August 2022',
+    lastUpdate: 'November 2022',
     continuing: [
         {
             title: 'For All Mankind',
@@ -68,6 +68,14 @@ const tv: TV = {
             link: 'https://www.imdb.com/title/tt2934286/',
             imageFolder: 'tv',
         },
+        {
+            title: 'Star Trek: Lower Decks',
+            cover: 'lowerdecks.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt9184820/',
+            imageFolder: 'tv',
+        },
     ],
     current: [
         {
@@ -87,19 +95,19 @@ const tv: TV = {
             imageFolder: 'tv',
         },
         {
-            title: 'Star Trek: Lower Decks',
-            cover: 'lowerdecks.jpg',
-            rating: null,
-            thoughts: null,
-            link: 'https://www.imdb.com/title/tt9184820/',
-            imageFolder: 'tv',
-        },
-        {
             title: 'Yellowstone',
             cover: 'yellowstone.jpg',
             rating: null,
             thoughts: null,
             link: 'https://www.imdb.com/title/tt4236770/',
+            imageFolder: 'tv',
+        },
+        {
+            title: 'Daria',
+            cover: 'daria.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt0118298/',
             imageFolder: 'tv',
         },
     ],
