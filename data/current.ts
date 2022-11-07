@@ -4,15 +4,6 @@ const current: CurrentlyDoing = {
     lastUpdate: 'November 2022',
     reading: [
         {
-            title: 'The Data Detective: Ten Easy Rules to Make Sense of Statistics',
-            author: 'Tim Harford',
-            cover: 'datadetective.jpg',
-            link: 'https://bookshop.org/books/the-data-detective-ten-easy-rules-to-make-sense-of-statistics/9780593084663',
-            rating: null,
-            thoughts: null,
-            imageFolder: 'books',
-        },
-        {
             title: 'Chokepoint Capitalism',
             author: 'Rebecca Giblin & Cory Doctorow',
             cover: 'chokepoint_capitalism.jpg',

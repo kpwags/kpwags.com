@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'The Data Detective: Ten Easy Rules to Make Sense of Statistics',
+                    author: 'Tim Harford',
+                    cover: 'datadetective.jpg',
+                    link: 'https://bookshop.org/books/the-data-detective-ten-easy-rules-to-make-sense-of-statistics/9780593084663',
+                    rating: 4,
+                    thoughts: "I've been a fan of Tim's writing. This book is no different. It's an interesting read helping give you some rules of thumb when reading about statistics and data. I know I've been guilty from time to time of some of the things one should avoid when being presented with data.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'Responsible Javascript',
                     author: 'Jeremy Wagner',
                     cover: 'responsible_javascript.jpg',

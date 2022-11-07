@@ -88,10 +88,10 @@ const ProgressFor2022 = (): JSX.Element => (
             <p>My goal for 2022 is to read 30 books, with at least 15 being some form of non-fiction.</p>
 
             <h3>Total Books Read</h3>
-            <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={15} />
+            <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={16} />
 
             <h3>Non-Fiction Books Read</h3>
-            <ProgressBar color="hsl(93, 87%, 39%)" fullValue={15} currentValue={11} />
+            <ProgressBar color="hsl(93, 87%, 39%)" fullValue={15} currentValue={12} />
 
             <hr />
 
