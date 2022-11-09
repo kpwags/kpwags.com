@@ -4,11 +4,214 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sun, 06 Nov 2022 21:59:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Nov 2022 23:59:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Adding Themes]]></title>
+            <link>https://kpwags.com/posts/2022/11/08/adding-themes</link>
+            <guid>https://kpwags.com/posts/2022/11/08/adding-themes</guid>
+            <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In case you haven&#39;t noticed, I decided to add some color and font themes to my blog.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>In case you haven&#x27;t noticed, I decided to add some color and font themes to my blog.</p>
+<p>If you click the little gear icon in the header, a bar will drop down where you&#x27;ll be given the choice to choose the accent color and the font to use. I decided to add this to be a little whimsical as well as to play around with my site because it&#x27;s my site and I can.</p>
+<p>To accomplish this, I take advantage of CSS variables and local storage. By default when you first come to my site it sets the light/dark theme based on your system/browser light dark preference. I think it&#x27;s important for the user to be able to decide whether they want light or dark outside just their system settings, so I also offer the ability to override it by saving the value in local storage to retrieve the next time they visit. Local storage will always override system settings. I did the same thing for colors and fonts except I default them to green and a sans-serif font.</p>
+<p>I have 2 helper functions to help me to do this.</p>
+<pre><code class="language-ts">export const saveToLocalStorage = (key: string, value: string): void =&gt; {
+    if (typeof window !== &#x27;undefined&#x27;) {
+        window.localStorage.setItem(key, value);
+    }
+};
+
+export const retrieveFromLocalStorage = (key: string, isJson = false): string|unknown =&gt; {
+    if (typeof window !== &#x27;undefined&#x27;) {
+        const value = window.localStorage.getItem(key);
+
+        if (value) {
+            return isJson ? JSON.parse(value) : value;
+        }
+    }
+
+    return null;
+};
+</code></pre>
+<p>Since my blog runs on Next.js, server side rendering does not contain the <code>window</code> object so I have to first check to make sure the <code>window</code> object exists. Other than that, the functions are simply wrappers for the localStorage object. The only slight enhancement is the ability to tell the retriever to parse the return as JSON if the expected value is JSON.</p>
+<p>When you click one of the color or font buttons, the code will save the value chosen to local storage for retrieval the next time you visit the site.</p>
+<p>In terms of the CSS, I take advantage of CSS variables</p>
+<pre><code class="language-css">:root {
+    --primary-color-1: hsl(144, 100%, 15%);
+    --primary-color-2: hsl(142, 68%, 29%);
+    --primary-color-3: hsl(124, 95%, 32%);
+    --sans-serif: WorkSans, Helvetica, Arial, sans-serif;
+    --serif: Petrona, Georgia, &#x27;Times New Roman&#x27;, serif;
+    --monospaced: SourceCodePro, &#x27;Courier New&#x27;;
+    --font: var(--sans-serif);
+}
+</code></pre>
+<p>This sets the 3 primary colors to the greens for the default view as well as the default font. To go along with saving to local storage, I also add a custom data attribute <code>data-color-theme</code> and <code>data-font-theme</code> to the <code>html</code> element on the page. That allows me to override the root CSS variables based on what the attributes are</p>
+<pre><code class="language-css">[data-color-theme*=&#x27;purple&#x27;] {
+    --primary-color-1: hsl(301, 91%, 40%);
+    --primary-color-2: hsl(301, 77%, 46%);
+    --primary-color-3: hsl(298, 100%, 36%);
+}
+
+[data-font-theme*=&#x27;serif&#x27;] {
+    --font: var(--serif);
+}
+</code></pre>
+<p>The above CSS sets the primary colors to purple when the <code>data-color-theme</code> attribute is set to purple and sets the font to use the serif font if the <code>data-font-theme</code> attribute is set to serif.</p>
+<p>Now the one thing I ran into with the colors is contrast. Colors that contrast well on a light background don&#x27;t always look good on a dark background. So I also take into account the color theme attribute as well.</p>
+<pre><code class="language-css">[data-color-theme*=&#x27;purple&#x27;] {
+    --primary-color-1: hsl(301, 91%, 40%);
+    --primary-color-2: hsl(301, 77%, 46%);
+    --primary-color-3: hsl(298, 100%, 36%);
+}
+
+[data-theme*=&#x27;dark&#x27;][data-color-theme*=&#x27;purple&#x27;] {
+    --primary-color-1: hsl(301, 99%, 65%);
+    --primary-color-2: hsl(301 72% 61%);
+    --primary-color-3: hsl(298 100% 79%);
+}
+</code></pre>
+<p>The top block is exactly the same as the previous CSS block, but the bottom is different. The bottom will also look to see if the <code>data-theme</code> attribute is set to <code>dark</code>, then it should override the top block in favor of the colors that will contrast better on a black background. Accessibility is important!</p>
+<p>You can view the full CSS file <a href="https://github.com/kpwags/kpwags.com/blob/main/styles/kpwags.css">here</a>.</p>
+<p>The final piece tying it all together is my <code>useTheme</code> hook.</p>
+<pre><code class="language-ts">interface UseThemeReturn {
+    theme: Theme;
+    color: ColorTheme;
+    font: FontTheme;
+    themeLoaded: boolean;
+    getCurrentTheme: () =&gt; Theme;
+    getCurrentColor: () =&gt; ColorTheme;
+    getCurrentFont: () =&gt; FontTheme;
+    changeTheme: (t: Theme) =&gt; void;
+    changeColor: (c: ColorTheme) =&gt; void;
+    changeFont: (f: FontTheme) =&gt; void;
+}
+
+export const useTheme = (): UseThemeReturn =&gt; {
+    const [theme, setTheme] = useState&lt;Theme&gt;(&#x27;light&#x27;);
+    const [color, setColor] = useState&lt;ColorTheme&gt;(&#x27;green&#x27;);
+    const [font, setFont] = useState&lt;FontTheme&gt;(&#x27;sans&#x27;);
+    const [themeLoaded, setThemeLoaded] = useState(false);
+
+    const getPreferredColorMode = (): Theme =&gt; {
+        if (typeof window !== &#x27;undefined&#x27;) {
+            const prefferredMode = window.matchMedia(&#x27;(prefers-color-scheme: dark)&#x27;);
+
+            if (prefferredMode.matches) {
+                return &#x27;dark&#x27;;
+            }
+        }
+
+        return &#x27;light&#x27;;
+    };
+
+    const changeTheme = (t: Theme) =&gt; {
+        saveToLocalStorage(&#x27;theme&#x27;, t);
+        document.documentElement.setAttribute(&#x27;data-theme&#x27;, t);
+        setTheme(t);
+    };
+
+    const changeColor = (c: ColorTheme) =&gt; {
+        saveToLocalStorage(&#x27;color&#x27;, c);
+        document.documentElement.setAttribute(&#x27;data-color-theme&#x27;, c);
+        setColor(c);
+    };
+
+    const changeFont = (f: FontTheme) =&gt; {
+        saveToLocalStorage(&#x27;font&#x27;, f);
+        document.documentElement.setAttribute(&#x27;data-font-theme&#x27;, f);
+        setFont(f);
+    };
+
+    const getCurrentTheme = (): Theme =&gt; {
+        const localTheme = retrieveFromLocalStorage(&#x27;theme&#x27;) as Theme;
+
+        if (localTheme) {
+            return localTheme;
+        }
+
+        return getPreferredColorMode();
+    };
+
+    const getCurrentColor = (): ColorTheme =&gt; {
+        const localStorageColor = retrieveFromLocalStorage(&#x27;color&#x27;) as ColorTheme;
+
+        if (localStorageColor) {
+            return localStorageColor;
+        }
+
+        return color;
+    };
+
+    const getCurrentFont = (): FontTheme =&gt; {
+        const localStorageFont = retrieveFromLocalStorage(&#x27;font&#x27;) as FontTheme;
+
+        if (localStorageFont) {
+            return localStorageFont;
+        }
+
+        return font;
+    };
+
+    useEffect(() =&gt; {
+        const localTheme = retrieveFromLocalStorage(&#x27;theme&#x27;) as Theme;
+        const selectedColor = retrieveFromLocalStorage(&#x27;color&#x27;) as ColorTheme;
+        const selectedFont = retrieveFromLocalStorage(&#x27;font&#x27;) as FontTheme;
+
+        if (localTheme) {
+            setTheme(localTheme);
+            document.documentElement.setAttribute(&#x27;data-theme&#x27;, localTheme);
+        } else {
+            setTheme(getPreferredColorMode());
+            document.documentElement.setAttribute(&#x27;data-theme&#x27;, getPreferredColorMode());
+        }
+
+        if (selectedColor) {
+            setColor(selectedColor);
+            document.documentElement.setAttribute(&#x27;data-color-theme&#x27;, selectedColor);
+        } else {
+            setColor(&#x27;green&#x27;);
+            document.documentElement.setAttribute(&#x27;data-color-theme&#x27;, &#x27;green&#x27;);
+        }
+
+        if (selectedFont) {
+            setFont(selectedFont);
+            document.documentElement.setAttribute(&#x27;data-font-theme&#x27;, selectedFont);
+        } else {
+            setFont(&#x27;sans&#x27;);
+            document.documentElement.setAttribute(&#x27;data-font-theme&#x27;, &#x27;sans&#x27;);
+        }
+
+        setThemeLoaded(true);
+    }, []);
+
+    return {
+        theme,
+        color,
+        font,
+        themeLoaded,
+        getCurrentTheme,
+        getCurrentColor,
+        getCurrentFont,
+        changeTheme,
+        changeColor,
+        changeFont,
+    };
+};
+</code></pre>
+<p>Don&#x27;t let all the code scare you. This code is run when the site is loaded and will look at local storage and apply the appropriate themes. You can view the full source code for the <code>useTheme</code> Hook <a href="https://github.com/kpwags/kpwags.com/blob/main/hooks/useTheme.ts">here</a></p>
+<p>So that&#x27;s basically how I went about adding themes. It wasn&#x27;t super difficult and I&#x27;m happy with the results.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[October Check-In]]></title>
             <link>https://kpwags.com/posts/2022/11/06/october-check-in</link>
@@ -45,7 +248,6 @@
 <p><em>Continuing</em></p>
 <ul>
 <li><a href="https://bookshop.org/books/the-data-detective-ten-easy-rules-to-make-sense-of-statistics/9780593084663">The Data Detective: Ten Easy Rules to Make Sense of Statistics</a> by Tim Harford</li>
-<li></li>
 </ul>
 <p><em>Started</em></p>
 <ul>
