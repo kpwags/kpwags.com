@@ -6,7 +6,7 @@ export const saveToLocalStorage = (key: string, value: string): void => {
 
 export const retrieveFromLocalStorage = (key: string, isJson = false): string|unknown => {
     if (typeof window !== 'undefined') {
-        const value = localStorage.getItem(key);
+        const value = window.localStorage.getItem(key);
 
         if (value) {
             return isJson ? JSON.parse(value) : value;

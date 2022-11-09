@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import _ from 'lodash';
 import Theme, { ColorTheme, FontTheme } from '@models/theme';
 import { saveToLocalStorage, retrieveFromLocalStorage } from '../lib/storage';
 

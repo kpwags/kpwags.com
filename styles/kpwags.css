@@ -13,7 +13,7 @@
     --monospaced: SourceCodePro, 'Courier New';
     --font: var(--sans-serif);
     --primary-color-1: hsl(144, 100%, 15%);
-    --primary-color-2: rgb(24, 124, 61);
+    --primary-color-2: hsl(142, 68%, 29%);
     --primary-color-3: hsl(124, 95%, 32%);
     --box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
     --meta: hsl(0, 0%, 20%);
@@ -28,30 +28,12 @@
     --primary-color-purple: hsl(301, 91%, 40%);
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: hsl(0, 0%, 14%);
-        --text: hsl(0, 0%, 94%);
-        --primary-color-1: hsl(124, 95%, 38%);
-        --primary-color-2: hsl(124, 100%, 40%);
-        --meta: hsl(0, 0%, 89%);
-        --photoset-list-bg: hsl(0, 0%, 36%);
-        --photoset-list-hover-bg: hsl(0, 0%, 15%);
-        --display-light-mode: none;
-        --display-dark-mode: inline;
-        --primary-color-red: hsl(0 100% 67%);
-        --primary-color-orange: hsl(30, 100%, 33%);
-        --primary-color-green: hsl(144, 100%, 15%);
-        --primary-color-blue: rgb(28, 55, 189);
-        --primary-color-purple: hsl(301, 91%, 40%);
-    }
-}
-
 [data-theme*='dark'] {
     --background: hsl(0, 0%, 14%);
     --text: hsl(0, 0%, 94%);
     --primary-color-1: hsl(124, 95%, 38%);
     --primary-color-2: hsl(124, 100%, 40%);
+    --primary-color-3: hsl(124, 95%, 32%);
     --meta: hsl(0, 0%, 89%);
     --photoset-list-bg: hsl(0, 0%, 36%);
     --photoset-list-hover-bg: hsl(0, 0%, 15%);
@@ -104,8 +86,8 @@
 
 [data-color-theme*='purple'] {
     --primary-color-1: hsl(301, 91%, 40%);
-    --primary-color-2: rgb(208, 27, 205);
-    --primary-color-3: rgb(178, 0, 184);
+    --primary-color-2: hsl(301, 77%, 46%);
+    --primary-color-3: hsl(298, 100%, 36%);
 }
 
 [data-theme*='dark'][data-color-theme*='purple'] {
@@ -115,8 +97,8 @@
 }
 
 [data-color-theme*='blue'] {
-    --primary-color-1: rgb(28, 55, 189);
-    --primary-color-2: rgb(42, 69, 205);
+    --primary-color-1: hsl(230, 74%, 43%);
+    --primary-color-2: hsl(230, 66%, 48%);
     --primary-color-3: hsl(223, 69%, 43%);
 }
 
@@ -139,7 +121,7 @@
 }
 
 [data-color-theme*='red'] {
-    --primary-color-1: rgb(212, 34, 34);
+    --primary-color-1: hsl(0, 72%, 48%);
     --primary-color-2: hsl(0, 77%, 51%);
     --primary-color-3: hsl(0, 65%, 24%);
 }
@@ -150,7 +132,7 @@
     --primary-color-3: hsl(0, 82%, 71%);
 }
 
-[data-color-theme*='sansserif'] {
+[data-font-theme*='sansserif'] {
     --font: var(--sans-serif);
 }
 
