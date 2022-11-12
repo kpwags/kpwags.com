@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-11-08T23:59:46.861Z</updated>
+    <updated>2022-11-12T00:49:11.186Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,59 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - November 11 (#5)]]></title>
+        <id>https://kpwags.com/posts/2022/11/11/reading-log-november-11-5</id>
+        <link href="https://kpwags.com/posts/2022/11/11/reading-log-november-11-5"/>
+        <updated>2022-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Twitter drama is never ending. Microsoft has also released .NET 7 and C# 11!]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>The Twitter drama is never ending. Microsoft has also released .NET 7 and C# 11!</p>
+<h2>In-Depth</h2>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Sean Hollister:</span> <a href="https://www.theverge.com/2022/11/9/23450289/twitter-impersonators-official-mario-musk-jesus-valve">Mario flipped off Twitter for nearly two hours with the blessing of Musk&#x27;s &#x27;verification&#x27;</a></h3><p>All this Twitter drama is like a train wreck in slow motion. I just can&#x27;t look away. So many of the mistakes Elon as made since he took over were predicted by just about everyone. This feels so much like them shooting themselves in the foot. It&#x27;s definitely only solidified my decision to leave Twitter. I&#x27;m keeping my Twitter account active to keep my username. I&#x27;m alsp not going to say that I&#x27;ll never go back, but it would have to change ownership and have a competent CEO for me re-consider.</p></article>
+<h2>Link Blast</h2>
+<h3 class="text">👨🏼‍💻 Software Development</h3>
+<p><a href="https://newdevsguide.com/2022/11/06/exception-anti-patterns-in-csharp/">Top 10 Dotnet Exception Anti-Patterns in C#</a> <em>(Matt Eland)</em></p>
+<p><a href="https://stackoverflow.blog/2022/11/03/multiple-assertions-per-test-are-fine/">Stop requiring only one assertion per unit test: Multiple assertions are fine</a> <em>(Mark Seeman)</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/">.NET 7 Is Available Today</a> <em>(.NET Blog)</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/">Welcome to C# 11</a> <em>(Mads Torgersen)</em></p>
+<p><a href="https://blog.jim-nielsen.com/2022/browsers-json-formdata/">Browsers, JSON, and FormData</a> <em>(Jim Nielsen)</em></p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-rollback/">Introducing Visual Studio Rollback!</a> <em>(Sayyeda Mussa)</em></p>
+<p><a href="https://blog.okyrylchuk.dev/twelve-csharp-11-features">Twelve C# 11 Features</a> <em>(Oleg Kyrylchuk)</em></p>
+<h3 class="text">🖥 Technology and the Internet</h3>
+<p><a href="https://www.theverge.com/2022/11/11/23451931/elon-musk-twitter-bankrupt-verification-ftc">Elon Musk learns the hard way that being a Twitter troll is way more fun than being a mod</a> <em>(Elizabeth Lopatto)</em></p>
+<h3 class="text">🎮 Gaming</h3>
+<h3 class="text">📈 Business and Finance</h3>
+<p><a href="https://techcrunch.com/2022/11/08/binance-signs-letter-of-intent-to-acquire-ftx/">Crypto giant Binance agrees to buy rival FTX amid &#x27;liquidity crunch&#x27;</a> <em>(Manish Singh)</em></p>
+<p><em>and then...</em></p>
+<p><a href="https://newsletter.mollywhite.net/p/ftx-explainer">The Sam Bankman-Fried empire crumbled. What happened? (part one)</a> <em>(Molly White)</em></p>
+<p><a href="https://newsletter.mollywhite.net/p/ftx-analysis">The Sam Bankman-Fried empire crumbled. What happened? (part two)</a> <em>(Molly White)</em></p>
+<p><em>and then...</em></p>
+<p><a href="https://www.reuters.com/technology/ftx-says-will-file-us-bankruptcy-latest-blow-crypto-2022-11-11/">FTX to file for U.S. bankruptcy protection, CEO Bankman-Fried resigns</a> <em>(Reuters)</em></p>
+<h3 class="text">🔬 Science</h3>
+<p><a href="https://www.bbc.com/news/health-63513330">Lab-grown blood given to people in world-first clinical trial</a> <em>(James Gallagher)</em></p>
+<p><a href="https://arstechnica.com/science/2022/11/nasas-artemis-i-rocket-just-endured-hours-of-hurricane-like-wind-gusts/">NASA leaves its Artemis I rocket exposed to winds above design limits</a> <em>(Eric Berger)</em></p>
+<p><a href="https://www.cbc.ca/news/world/debris-space-shuttle-challenger-atlantic-1.6648027">Debris from destroyed Space Shuttle Challenger found on ocean floor 36 years on</a> <em>(AP)</em></p>
+<h3 class="text">🎧 Podcasts</h3>
+<p><a href="https://www.economist.com/podcasts/2022/11/09/is-pay-transparency-good">The Economist - Money Talks: Is pay transparency good?</a></p>
+<p><a href="https://freakonomics.com/podcast/in-the-1890s-the-best-selling-car-was-electric/">Freakonomics #498: In the 1890s, the Best-Selling Car Was...Electric</a></p>
+<h3 class="text">🎒 Everything Else</h3>
+<p><a href="https://www.musicradar.com/news/how-aphex-twin-made-saw-85-92">How Aphex Twin made Selected Ambient Works 85-92</a> <em>(Dan Carr)</em></p>
+<p><a href="https://www.swyx.io/no-smarter">The World Is Run By People No Smarter Than You</a> <em>(swyx)</em></p>
+<p><a href="https://www.theatlantic.com/ideas/archive/2022/11/veterans-day-us-military-iraq/672081/">My Decision to Serve</a> <em>(David French)</em></p>
+<h3 class="text">🎵 A Song to Leave You With</h3>
+<h4>Margot and the Nuclear So &amp; So&#x27;s - Broadripple is Burning</h4>
+
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Adding Themes]]></title>
         <id>https://kpwags.com/posts/2022/11/08/adding-themes</id>
@@ -211,7 +264,7 @@ export const useTheme = (): UseThemeReturn =&gt; {
     };
 };
 </code></pre>
-<p>Don&#x27;t let all the code scare you. This code is run when the site is loaded and will look at local storage and apply the appropriate themes. You can view the full source code for the <code>useTheme</code> Hook <a href="https://github.com/kpwags/kpwags.com/blob/main/hooks/useTheme.ts">here</a></p>
+<p>Don&#x27;t let all the code scare you. This code is run when the site is loaded and will look at local storage for light and dark, color, and font and then apply the appropriate themes. You can view the full source code for the <code>useTheme</code> Hook <a href="https://github.com/kpwags/kpwags.com/blob/main/hooks/useTheme.ts">here</a></p>
 <p>So that&#x27;s basically how I went about adding themes. It wasn&#x27;t super difficult and I&#x27;m happy with the results.</p>
             </div>
         ]]></content>
