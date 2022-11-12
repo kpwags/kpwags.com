@@ -4,7 +4,7 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sat, 12 Nov 2022 00:49:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Nov 2022 01:16:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
@@ -20,7 +20,7 @@
                 
                 <p>The Twitter drama is never ending. Microsoft has also released .NET 7 and C# 11!</p>
 <h2>In-Depth</h2>
-<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Sean Hollister:</span> <a href="https://www.theverge.com/2022/11/9/23450289/twitter-impersonators-official-mario-musk-jesus-valve">Mario flipped off Twitter for nearly two hours with the blessing of Musk&#x27;s &#x27;verification&#x27;</a></h3><p>All this Twitter drama is like a train wreck in slow motion. I just can&#x27;t look away. So many of the mistakes Elon as made since he took over were predicted by just about everyone. This feels so much like them shooting themselves in the foot. It&#x27;s definitely only solidified my decision to leave Twitter. I&#x27;m keeping my Twitter account active to keep my username. I&#x27;m alsp not going to say that I&#x27;ll never go back, but it would have to change ownership and have a competent CEO for me re-consider.</p></article>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Sean Hollister:</span> <a href="https://www.theverge.com/2022/11/9/23450289/twitter-impersonators-official-mario-musk-jesus-valve">Mario flipped off Twitter for nearly two hours with the blessing of Musk&#x27;s &#x27;verification&#x27;</a></h3><p>All this Twitter drama is like a train wreck in slow motion. I just can&#x27;t look away. So many of the mistakes Elon as made since he took over were predicted by just about everyone. This feels so much like them shooting themselves in the foot. It&#x27;s definitely only solidified my decision to leave Twitter. I&#x27;m keeping my Twitter account active to keep my username. I&#x27;m also not going to say that I&#x27;ll never go back, but it would have to change ownership and have a competent CEO for me re-consider.</p></article>
 <h2>Link Blast</h2>
 <h3 class="text">👨🏼‍💻 Software Development</h3>
 <p><a href="https://newdevsguide.com/2022/11/06/exception-anti-patterns-in-csharp/">Top 10 Dotnet Exception Anti-Patterns in C#</a> <em>(Matt Eland)</em></p>
@@ -32,7 +32,6 @@
 <p><a href="https://blog.okyrylchuk.dev/twelve-csharp-11-features">Twelve C# 11 Features</a> <em>(Oleg Kyrylchuk)</em></p>
 <h3 class="text">🖥 Technology and the Internet</h3>
 <p><a href="https://www.theverge.com/2022/11/11/23451931/elon-musk-twitter-bankrupt-verification-ftc">Elon Musk learns the hard way that being a Twitter troll is way more fun than being a mod</a> <em>(Elizabeth Lopatto)</em></p>
-<h3 class="text">🎮 Gaming</h3>
 <h3 class="text">📈 Business and Finance</h3>
 <p><a href="https://techcrunch.com/2022/11/08/binance-signs-letter-of-intent-to-acquire-ftx/">Crypto giant Binance agrees to buy rival FTX amid &#x27;liquidity crunch&#x27;</a> <em>(Manish Singh)</em></p>
 <p><em>and then...</em></p>
@@ -54,6 +53,8 @@
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>Margot and the Nuclear So &amp; So&#x27;s - Broadripple is Burning</h4>
 
+<hr/>
+<p><em>Edited 11/11/22: Typo &amp; Removed Empty Gaming Section</em></p>
             </div>
         ]]></content:encoded>
             <author>blog@kpwags.com (Keith Wagner)</author>
