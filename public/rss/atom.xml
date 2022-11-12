@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-11-12T01:14:03.120Z</updated>
+    <updated>2022-11-12T01:16:57.296Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -37,7 +37,6 @@
 <p><a href="https://blog.okyrylchuk.dev/twelve-csharp-11-features">Twelve C# 11 Features</a> <em>(Oleg Kyrylchuk)</em></p>
 <h3 class="text">🖥 Technology and the Internet</h3>
 <p><a href="https://www.theverge.com/2022/11/11/23451931/elon-musk-twitter-bankrupt-verification-ftc">Elon Musk learns the hard way that being a Twitter troll is way more fun than being a mod</a> <em>(Elizabeth Lopatto)</em></p>
-<h3 class="text">🎮 Gaming</h3>
 <h3 class="text">📈 Business and Finance</h3>
 <p><a href="https://techcrunch.com/2022/11/08/binance-signs-letter-of-intent-to-acquire-ftx/">Crypto giant Binance agrees to buy rival FTX amid &#x27;liquidity crunch&#x27;</a> <em>(Manish Singh)</em></p>
 <p><em>and then...</em></p>
@@ -59,6 +58,8 @@
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>Margot and the Nuclear So &amp; So&#x27;s - Broadripple is Burning</h4>
 
+<hr/>
+<p><em>Edited 11/11/22: Typo &amp; Removed Empty Gaming Section</em></p>
             </div>
         ]]></content>
         <author>
