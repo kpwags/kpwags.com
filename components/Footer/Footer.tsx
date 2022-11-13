@@ -118,7 +118,7 @@ const Footer = (): JSX.Element => (
                 <a href="https://www.github.com/kpwags">GitHub</a>
             </li>
             <li>
-                <a rel="me" href="https://mastodon.social/@kpwags">Mastodon</a>
+                <a rel="me" href="https://hachyderm.io/@kpwags">Mastodon</a>
             </li>
             <li>
                 <Link href="/feed.xml">
