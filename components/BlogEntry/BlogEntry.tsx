@@ -58,6 +58,8 @@ const Post = styled.article`
 
     h4 {
         margin-bottom: 8px;
+        font-size: 1.3rem;
+        font-weight: 400;
 
         code {
             font-size: 1.1rem;
@@ -182,6 +184,23 @@ const Post = styled.article`
                 padding-left: 12px;
             }
         }
+
+        &.reading-log {
+            blockquote {
+                border-left: none;
+                padding-left: 20px;
+                margin: 15px 0;
+                font-size: 1.7rem;
+                line-height: 1.75;
+                font-style: italic;
+                color: var(--primary-color-2);
+                margin-bottom: 25px;
+            }
+
+            h3 {
+                color: var(--text);
+            }
+        }
     }
 `;
 
@@ -224,6 +243,15 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
         Prism.highlightAll();
     }, []);
 
+    // my reading log posts have a few extra CSS rules
+    const getPostContentCssClass = (): string => {
+        if (post.tags.find((t) => t.url === 'reading-log')) {
+            return 'content reading-log';
+        }
+
+        return 'content';
+    };
+
     return (
         <>
             <Post className="line-numbers">
@@ -237,7 +265,7 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
                     ) : null}
                 </div>
 
-                <div className="content">
+                <div className={getPostContentCssClass()}>
                     {post.isRssOnly ? (
                         <p><em>This post is for the <a href="/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
                     ) : null}
