@@ -82,14 +82,14 @@ const Post = styled.article`
     }
 
     blockquote {
-        border-left: 8px solid var(--primary-color-1);
+        border-left: 8px solid var(--primary-color-2);
         padding-left: 40px;
         margin: 30px 0;
 
         p {
             font-size: 2rem;
             font-style: italic;
-            color: var(--primary-color-2);
+            color: var(--primary-color-1);
         }
 
         @media all and (max-width: 800px) {
@@ -108,7 +108,7 @@ const Post = styled.article`
         font-size: 1.7rem;
         line-height: 1.75;
         font-style: italic;
-        color: var(--primary-color-2);
+        color: var(--primary-color-1);
         margin-bottom: 25px;
     }
 

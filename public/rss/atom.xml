@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-11-18T15:04:48.832Z</updated>
+    <updated>2022-11-18T22:13:59.989Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -15,15 +15,44 @@
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
     <entry>
-        <title type="html"><![CDATA[Reading Log - November 18 (#6)]]></title>
-        <id>https://kpwags.com/posts/2022/11/18/reading-log-november-18-6</id>
-        <link href="https://kpwags.com/posts/2022/11/18/reading-log-november-18-6"/>
-        <updated>2022-11-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS has come a long way, and NASA has finally launched Artemis I to the moon.]]></summary>
+        <title type="html"><![CDATA[On FTX and Crypto in General]]></title>
+        <id>https://kpwags.com/posts/2022/11/18/on-ftx-and-crypto-in-general</id>
+        <link href="https://kpwags.com/posts/2022/11/18/on-ftx-and-crypto-in-general"/>
+        <updated>2022-11-18T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Over the last 2 weeks, we&#39;ve seen one of the most popular and biggest crypto exchanges go from top of the world to declaring bankruptcy. I try not to dump on stuff I don&#39;t fully understand, but at this point, I&#39;m kind of glad I haven&#39;t gotten into the whole crypto craze.]]></summary>
         <content type="html"><![CDATA[
             <div>
                 
-                <p>CSS has come a long way, and NASA has finally launched Artemis I to the moon.</p>
+                <p>Over the last 2 weeks, we&#x27;ve seen one of the most popular and biggest crypto exchanges go from top of the world to declaring bankruptcy. I try not to dump on stuff I don&#x27;t fully understand, but at this point, I&#x27;m kind of glad I haven&#x27;t gotten into the whole crypto craze.</p>
+<p>I remember seeing all this hype over FTX. It was supposed to be respectable. Major League Baseball umpires wore their logo on their uniforms. The Miami Heat played in an arena where FTX had naming rights. FTX was supposed to be trustworthy and not riddled with the scams crypto is so often associated with.</p>
+<p>I&#x27;ve been reading articles and listening to podcasts talking about what&#x27;s been going on and...just wow. John Ray III, FTX&#x27;s new CEO, who was also responsible for handling the aftermath at Enron had the following quote while <a href="https://apnews.com/article/ftx-trading-former-ceo-d2c2b881dc0eb0ec37b454674f446b52">going through the mess at FTX</a>.</p>
+<blockquote>
+<p>Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here. From compromised systems integrity and faulty regulatory oversight abroad, to the concentration of control in the hands of a very small group of inexperienced, unsophisticated and potentially compromised individuals, this situation is unprecedented.</p>
+</blockquote>
+<p>A lot of people are obviously going to lose money over this. I&#x27;m not gonna be too broken up about the VC firms or the institutional investors. But still, I&#x27;m wondering how many people who decided to dabble in cryptocurrency used the exchange. People who might not have all this money to lose. Obviously, people should have a diversified portfolio, but too many people have seen Bitcoin rise to incredible highs and they want in. If they decided to use FTX, they will likely not even have the chance to sell low, they&#x27;ll be lucky to get anything.</p>
+<p><em>The Economist</em> had a good quote from their article <a href="https://www.economist.com/leaders/2022/11/17/is-this-the-end-of-crypto"><em>Is This the End of Crypto?</em></a>:</p>
+<blockquote>
+<p>Whether crypto survives, or becomes a financial curiosity like the tulip bulb, will not ultimately depend on regulation. The more scandals ensue, the more the whole enterprise and its aspirations become tainted. The lure of innovation means nothing if investors and users fear their money will disappear into thin air. For crypto to rise again, it must find a valid use that leaves the dodginess behind.</p>
+</blockquote>
+<p>All too often, crypto seems to be tied to scams and other schemes that leave people hung out to dry. The technology as I understand it is certainly interesting, but the Wild West nature of it all is only strengthening my “just stay away” position.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - November 18 (#6)]]></title>
+        <id>https://kpwags.com/posts/2022/11/18/reading-log-november-18-6</id>
+        <link href="https://kpwags.com/posts/2022/11/18/reading-log-november-18-6"/>
+        <updated>2022-11-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS has come a long way, and NASA has finally launched <em>Artemis I</em> to the moon.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>CSS has come a long way, and NASA has finally launched <em>Artemis I</em> to the moon.</p>
 <h2>In Depth</h2>
 <article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Frontend Mastery:</span> <a href="https://frontendmastery.com/posts/the-evolution-of-scalable-css/">The evolution of scalable CSS</a></h3><p>It still amazes me sometimes with how far we&#x27;ve come in web development. I remember back around 2000(ish) playing around with building websites in Geocities and Front Page. Going from the clunky, old-school direct properties on the DOM elements to now using CSS stylesheets is such an improvement.</p><p>There are now so many new CSS properties, functions and selectors that I&#x27;m still trying to wrap my head around all of them. Making them scale in a large web application is no easy task.</p><blockquote>
 <p>No tool is perfect, and every project and team is different. Whatever approach is taken, establishing foundations that bridge the design gap is a key element to scaling CSS.</p>
@@ -69,7 +98,8 @@
 <p><a href="https://matthiasott.com/notes/converting-your-twitter-archive-to-markdown">Converting Your Twitter Archive to Markdown</a> <em>(Matthias Ott)</em></p>
 <p><a href="https://www.loudersound.com/features/rage-against-the-machine-debut-album-story">“It was like holding a f**king live wire”: how Rage Against The Machine&#x27;s explosive debut album changed everything</a></p>
 <h3>🎵 A Song to Leave You With</h3>
-<h4>Breaking Benjamin - Forget It</h4>
+<h4>Rage Against the Machine - Killing in the Name</h4>
+
             </div>
         ]]></content>
         <author>
