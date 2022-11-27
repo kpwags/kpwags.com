@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-11-25T23:37:59.421Z</updated>
+    <updated>2022-11-27T18:44:25.330Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,29 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Apollo Remastered]]></title>
+        <id>https://kpwags.com/posts/2022/11/27/apollo-remastered</id>
+        <link href="https://kpwags.com/posts/2022/11/27/apollo-remastered"/>
+        <updated>2022-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At the recommendation of <a href="https://mastodon.world/@kairyssdal">Kai Ryssdal</a> from <a href="https://www.marketplace.org/">Marketplace</a>, I ended up purchasing a new coffee table book called <em>Apollo Remastered</em>. And oh man was it worth the purchase.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>At the recommendation of <a href="https://mastodon.world/@kairyssdal">Kai Ryssdal</a> from <a href="https://www.marketplace.org/">Marketplace</a>, I ended up purchasing a new coffee table book called <em>Apollo Remastered</em>. And oh man was it worth the purchase.</p>
+<p>All the film taken during NASA&#x27;s Apollo Program have been placed in cold storage to protect and preserve them. Andy Saunders has been taking the film and digitizing it and then enhancing the photos taken by the Apollo astronauts for this book. Needless to say, the photos are amazing. I haven&#x27;t gotten through a quarter of them and I&#x27;m blown away.</p>
+<div class="PostImage__ImageContainer-sc-1y69a4k-0 cAvydH centered"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271080%27%20height=%271366%27/%3e"/></span><img alt="A view of the cover of Andy Saunder&#x27;s book Apollo Remastered" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/><noscript><img alt="A view of the cover of Andy Saunder&#x27;s book Apollo Remastered" srcSet="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-front.jpg&amp;w=1080&amp;q=75 1x, /_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-front.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-front.jpg&amp;w=3840&amp;q=75" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/></noscript></span></div>
+<div class="PostImage__ImageContainer-sc-1y69a4k-0 cAvydH centered"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271080%27%20height=%27663%27/%3e"/></span><img alt="A side view of Andy Saunder&#x27;s book Apollo Remastered showing how thick it is" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/><noscript><img alt="A side view of Andy Saunder&#x27;s book Apollo Remastered showing how thick it is" srcSet="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-side.jpg&amp;w=1080&amp;q=75 1x, /_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-side.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-side.jpg&amp;w=3840&amp;q=75" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/></noscript></span></div>
+<p>If you&#x27;re a fan of NASA, interested in the history of the moon landings, I would highly recommend buying this book.</p>
+<p><a href="https://bookshop.org/p/books/apollo-remastered-the-ultimate-photographic-record-andy-saunders/17299956?ean=9780762480241">Buy on Bookshop.org</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - November 25 (#7)]]></title>
         <id>https://kpwags.com/posts/2022/11/25/reading-log-november-25-7</id>
