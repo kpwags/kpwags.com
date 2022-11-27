@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'November 2022',
     reading: [
         {
-            title: 'Chokepoint Capitalism',
-            author: 'Rebecca Giblin & Cory Doctorow',
-            cover: 'chokepoint_capitalism.jpg',
-            link: 'https://bookshop.org/books/chokepoint-capitalism-how-big-tech-and-big-content-captured-creative-labor-markets-and-how-we-ll-win-them-back/9780807007068',
+            title: 'What If? 2',
+            author: 'Randall Munroe',
+            cover: 'whatif2.jpg',
+            link: 'https://bookshop.org/p/books/what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-randall-munroe/18153615',
             rating: null,
             thoughts: null,
             imageFolder: 'books',

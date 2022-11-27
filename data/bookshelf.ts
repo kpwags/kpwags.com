@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'Chokepoint Capitalism',
+                    author: 'Rebecca Giblin & Cory Doctorow',
+                    cover: 'chokepoint_capitalism.jpg',
+                    link: 'https://bookshop.org/books/chokepoint-capitalism-how-big-tech-and-big-content-captured-creative-labor-markets-and-how-we-ll-win-them-back/9780807007068',
+                    rating: 5,
+                    thoughts: 'This was a fantastic read looking at how some of the tech and media giants have used the lack of competition to squeeze musicians, writers, developers and the rest of the creative industry. While this book only focuses on the creative industries, there are a lot of similarities all over. Cory and Rebecca do a good job explaining the problems, how we arrived at them, and what we can potentially do to even the playing field.',
+                    imageFolder: 'books',
+                },
+                {
                     title: 'The Data Detective: Ten Easy Rules to Make Sense of Statistics',
                     author: 'Tim Harford',
                     cover: 'datadetective.jpg',
