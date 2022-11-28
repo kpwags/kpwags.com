@@ -12,11 +12,20 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'September 2022',
+    lastUpdate: 'November 2022',
     years: [
         {
             year: '2022',
             books: [
+                {
+                    title: 'What If? 2',
+                    author: 'Randall Munroe',
+                    cover: 'whatif2.jpg',
+                    link: 'https://bookshop.org/p/books/what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-randall-munroe/18153615',
+                    rating: 5,
+                    thoughts: 'Randall Munroe does it again. He brings his scientific curiosity to the answer some pretty absurd questions. He does it with a good sense of humor and easy to understand language.',
+                    imageFolder: 'books',
+                },
                 {
                     title: 'Chokepoint Capitalism',
                     author: 'Rebecca Giblin & Cory Doctorow',

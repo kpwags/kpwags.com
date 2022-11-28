@@ -4,10 +4,10 @@ const current: CurrentlyDoing = {
     lastUpdate: 'November 2022',
     reading: [
         {
-            title: 'What If? 2',
-            author: 'Randall Munroe',
-            cover: 'whatif2.jpg',
-            link: 'https://bookshop.org/p/books/what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-randall-munroe/18153615',
+            title: 'Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy',
+            author: "Cathy O'Neil",
+            cover: 'weapons_of_math_destruction.jpg',
+            link: 'https://bookshop.org/p/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-cathy-o-neil/11438502',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
