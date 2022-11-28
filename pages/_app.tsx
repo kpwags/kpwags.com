@@ -29,6 +29,8 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 
     useEffect(() => {
         setSelectedTheme(theme);
+        setSelectedColor(color);
+        setSelectedFont(font);
     }, [themeLoaded]);
 
     const toggleTheme = (t: Theme) => {
