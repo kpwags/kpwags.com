@@ -12,11 +12,20 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'November 2022',
+    lastUpdate: 'December 2022',
     years: [
         {
             year: '2022',
             books: [
+                {
+                    title: 'Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy',
+                    author: "Cathy O'Neil",
+                    cover: 'weapons_of_math_destruction.jpg',
+                    link: 'https://bookshop.org/p/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-cathy-o-neil/11438502',
+                    rating: 4,
+                    thoughts: 'Most of what I read I was already aware of. Still, Cathy did a good job talking about what the issues with algorithms are, and why they can be problematic',
+                    imageFolder: 'books',
+                },
                 {
                     title: 'What If? 2',
                     author: 'Randall Munroe',
