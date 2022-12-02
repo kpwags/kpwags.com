@@ -4,11 +4,44 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sun, 27 Nov 2022 18:44:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Dec 2022 21:32:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - December 2 (#8)]]></title>
+            <link>https://kpwags.com/posts/2022/12/02/reading-log-december-2-8</link>
+            <guid>https://kpwags.com/posts/2022/12/02/reading-log-december-2-8</guid>
+            <pubDate>Fri, 02 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Another quiet week. Artemis I is continuing to send back amazing pictures. LastPass had a bad week. And there&#39;s some cool CSS stuff.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>Another quiet week. Artemis I is continuing to send back amazing pictures. LastPass had a bad week. And there&#x27;s some cool CSS stuff.</p>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://web.dev/viewport-units/">The large, small, and dynamic viewport units</a> <em>(Bramus)</em></p>
+<p><a href="https://jakelazaroff.com/words/tailwind-is-a-leaky-abstraction/">Tailwind is a Leaky Abstraction</a> <em>Jake Lazaroff</em></p>
+<p><a href="https://css-tricks.com/digging-deeper-into-container-style-queries/">Digging Deeper Into Container Style Queries</a> <em>(Geoff Graham)</em></p>
+<p><a href="https://css-tricks.com/css-only-infinite-and-circular-image-slider/">CSS Infinite and Circular Rotating Image Slider</a> <em>(Temani Afif)</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.npr.org/2022/12/01/1140076375/major-password-manager-lastpass-suffered-a-breach-again">Major password manager LastPass suffered a breach — again</a> <em>(Ashley Ahn)</em></p>
+<h3>🎮 Gaming</h3>
+<p><a href="https://kotaku.com/halo-infinite-forge-classic-maps-blood-gulch-1849838429">24 Halo Infinite Forge Maps Inspired By The Classic Games</a> <em>(Claire Jackson)</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.npr.org/2022/11/25/1139180002/twitter-loses-50-top-advertisers-elon-musk">Twitter has lost 50 of its top 100 advertisers since Elon Musk took over, report says</a> <em>(Halisia Hubbard)</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/science/2022/11/orion-flies-far-beyond-the-moon-returns-an-instantly-iconic-photo/">Orion flies far beyond the Moon, returns an instantly iconic photo</a> <em>(Eric Berger)</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.techdirt.com/2022/11/23/techdirt-podcast-episode-337-will-elon-kill-twitter/">Techdirt Podcast #337: Will Elon Kill Twitter</a></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Lucero - One Last F.U.</h4>
+
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Apollo Remastered]]></title>
             <link>https://kpwags.com/posts/2022/11/27/apollo-remastered</link>
@@ -19,10 +52,10 @@
             <div>
                 
                 <p>At the recommendation of <a href="https://mastodon.world/@kairyssdal">Kai Ryssdal</a> from <a href="https://www.marketplace.org/">Marketplace</a>, I ended up purchasing a new coffee table book called <em>Apollo Remastered</em>. And oh man was it worth the purchase.</p>
-<p>All the film taken during NASA&#x27;s Apollo Program have been placed in cold storage to protect and preserve them. Andy Saunders has been taking the film and digitizing it and then enhancing the photos taken by the Apollo astronauts for this book. Needless to say, the photos are amazing. I haven&#x27;t gotten through a quarter of them and I&#x27;m blown away.</p>
+<p>All the film taken during NASA&#x27;s Apollo Program has been placed in cold storage to protect and preserve them. Andy Saunders has been taking the film and digitizing it and then enhancing the photos taken by the Apollo astronauts for this book. Needless to say, the photos are amazing. I haven&#x27;t gotten through a quarter of them and I&#x27;m blown away.</p>
 <div class="PostImage__ImageContainer-sc-1y69a4k-0 cAvydH centered"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271080%27%20height=%271366%27/%3e"/></span><img alt="A view of the cover of Andy Saunder&#x27;s book Apollo Remastered" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/><noscript><img alt="A view of the cover of Andy Saunder&#x27;s book Apollo Remastered" srcSet="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-front.jpg&amp;w=1080&amp;q=75 1x, /_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-front.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-front.jpg&amp;w=3840&amp;q=75" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/></noscript></span></div>
 <div class="PostImage__ImageContainer-sc-1y69a4k-0 cAvydH centered"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271080%27%20height=%27663%27/%3e"/></span><img alt="A side view of Andy Saunder&#x27;s book Apollo Remastered showing how thick it is" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/><noscript><img alt="A side view of Andy Saunder&#x27;s book Apollo Remastered showing how thick it is" srcSet="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-side.jpg&amp;w=1080&amp;q=75 1x, /_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-side.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fposts%2F2022-11-27-apollo-remastered%2Fapollo-remastered-side.jpg&amp;w=3840&amp;q=75" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/></noscript></span></div>
-<p>If you&#x27;re a fan of NASA, interested in the history of the moon landings, I would highly recommend buying this book.</p>
+<p>If you&#x27;re a fan of NASA, space, or are interested in the history of the moon landings, I would highly recommend buying this book.</p>
 <p><a href="https://bookshop.org/p/books/apollo-remastered-the-ultimate-photographic-record-andy-saunders/17299956?ean=9780762480241">Buy on Bookshop.org</a></p>
             </div>
         ]]></content:encoded>
