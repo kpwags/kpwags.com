@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const current: CurrentlyDoing = {
-    lastUpdate: 'November 2022',
+    lastUpdate: 'December 2022',
     reading: [
         {
-            title: 'Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy',
-            author: "Cathy O'Neil",
-            cover: 'weapons_of_math_destruction.jpg',
-            link: 'https://bookshop.org/p/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-cathy-o-neil/11438502',
+            title: 'Four Lost Cities: A Secret History of the Urban Age',
+            author: 'Annalee Newitz',
+            cover: 'fourlostcities.jpg',
+            link: 'https://bookshop.org/p/books/four-lost-cities-a-secret-history-of-the-urban-age-annalee-newitz/16712885',
             rating: null,
             thoughts: null,
             imageFolder: 'books',

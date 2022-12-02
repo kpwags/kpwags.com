@@ -43,7 +43,7 @@ const ProgressFor2022 = (): JSX.Element => (
 
             <p>I figured it would be a nice idea to create a page to show my progress on my goals for 2022.</p>
 
-            <p><em>Last Updated: November 27, 2022</em></p>
+            <p><em>Last Updated: December 1, 2022</em></p>
 
             <h2>Goal #1: Running and Biking More</h2>
             <p>My goal for 2022 is 400 miles running and 500 miles biking.</p>
@@ -74,13 +74,13 @@ const ProgressFor2022 = (): JSX.Element => (
             <p>My goal for 2022 is to max out both my IRA &amp; my 401k.</p>
 
             <h3>Total Contributions</h3>
-            <ProgressBar color="hsl(315, 88%, 51%)" fullValue={26500} currentValue={22155} format="money" />
+            <ProgressBar color="hsl(315, 88%, 51%)" fullValue={26500} currentValue={22949} format="money" />
 
             <h3>IRA Contributions</h3>
             <ProgressBar color="hsl(194, 88%, 51%)" fullValue={6000} currentValue={6000} format="money" />
 
             <h3>401k Contributions</h3>
-            <ProgressBar color="hsl(64, 85%, 35%)" fullValue={20500} currentValue={16155} format="money" />
+            <ProgressBar color="hsl(64, 85%, 35%)" fullValue={20500} currentValue={16949} format="money" />
 
             <hr />
 
@@ -88,10 +88,10 @@ const ProgressFor2022 = (): JSX.Element => (
             <p>My goal for 2022 is to read 30 books, with at least 15 being some form of non-fiction.</p>
 
             <h3>Total Books Read</h3>
-            <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={18} />
+            <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={19} />
 
             <h3>Non-Fiction Books Read</h3>
-            <ProgressBar color="hsl(93, 87%, 39%)" fullValue={15} currentValue={14} />
+            <ProgressBar color="hsl(93, 87%, 39%)" fullValue={15} currentValue={15} />
 
             <hr />
 
