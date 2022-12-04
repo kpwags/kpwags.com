@@ -12,11 +12,35 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'September 2022',
+    lastUpdate: 'December 2022',
     years: [
         {
             year: '2022',
             movies: [
+                {
+                    title: 'Uncharted',
+                    cover: 'uncharted.jpg',
+                    dateWatched: 'December 3, 2022',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: "I didn't hate this. I don't want to give much away, but they didn't do a horrible job of adapting the characters. ",
+                },
+                {
+                    title: 'The Munsters (2022)',
+                    cover: 'the_munsters.jpg',
+                    dateWatched: 'November 27, 2022',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'Was dumb...but not necessarily in a bad way',
+                },
+                {
+                    title: 'Clear and Present Danger',
+                    cover: 'clearandpresentdanger.jpg',
+                    dateWatched: 'November 12, 2022',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: "It's been a while since I had seen this, and even longer since I had read the book. It wasn't bad, but I'm not sure how well it's held up.",
+                },
                 {
                     title: 'Vengeance',
                     cover: 'vengeance.jpg',
