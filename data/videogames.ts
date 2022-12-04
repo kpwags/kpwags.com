@@ -16,13 +16,13 @@ const games: VideoGames = {
             finished: 'n/a',
         },
         {
-            title: 'Star Wars: Battlefront II',
-            system: 'PS5',
-            cover: 'battlefront2.jpg',
-            link: 'https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2',
+            title: 'Pokemon: Violet',
+            system: 'Nintendo Switch',
+            cover: 'pokemonviolet.jpg',
+            link: 'https://scarletviolet.pokemon.com/en-us/',
             imageFolder: 'games',
-            rating: 4,
-            thoughts: "I still come back to this from time to time. It's a fun multiplayer game.",
+            rating: null,
+            thoughts: null,
             finished: 'n/a',
         },
         {
@@ -37,6 +37,16 @@ const games: VideoGames = {
         },
     ],
     played: [
+        {
+            title: 'Star Wars: Battlefront II',
+            system: 'PS5',
+            cover: 'battlefront2.jpg',
+            link: 'https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2',
+            imageFolder: 'games',
+            rating: 4,
+            thoughts: "I still come back to this from time to time. It's a fun multiplayer game.",
+            finished: 'n/a',
+        },
         {
             title: 'Elden Ring',
             system: 'PS5',
