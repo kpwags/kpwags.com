@@ -18,8 +18,18 @@ const MoviesWatched: MovieList = {
             year: '2022',
             movies: [
                 {
+                    title: "Don't Worry Darling",
+                    cover: 'dontworrydarling.jpg',
+                    link: 'https://www.imdb.com/title/tt10731256/',
+                    dateWatched: 'December 4, 2022',
+                    rating: 2,
+                    imageFolder: 'movies',
+                    thoughts: 'This movie was creepy, not entirely sure what I think about it.',
+                },
+                {
                     title: 'Uncharted',
                     cover: 'uncharted.jpg',
+                    link: 'https://www.imdb.com/title/tt1464335/',
                     dateWatched: 'December 3, 2022',
                     rating: 3,
                     imageFolder: 'movies',
@@ -28,6 +38,7 @@ const MoviesWatched: MovieList = {
                 {
                     title: 'The Munsters (2022)',
                     cover: 'the_munsters.jpg',
+                    link: 'https://www.imdb.com/title/tt14813212/',
                     dateWatched: 'November 27, 2022',
                     rating: 3,
                     imageFolder: 'movies',
@@ -36,6 +47,7 @@ const MoviesWatched: MovieList = {
                 {
                     title: 'Clear and Present Danger',
                     cover: 'clearandpresentdanger.jpg',
+                    link: 'https://www.imdb.com/title/tt0109444/',
                     dateWatched: 'November 12, 2022',
                     rating: 3,
                     imageFolder: 'movies',
@@ -44,6 +56,7 @@ const MoviesWatched: MovieList = {
                 {
                     title: 'Vengeance',
                     cover: 'vengeance.jpg',
+                    link: 'https://www.imdb.com/title/tt0120844/',
                     dateWatched: 'August 20, 2022',
                     rating: 3,
                     imageFolder: 'movies',

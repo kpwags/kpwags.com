@@ -4,11 +4,86 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 02 Dec 2022 21:32:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Dec 2022 00:58:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2022 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[November Check-In]]></title>
+            <link>https://kpwags.com/posts/2022/12/05/november-check-in</link>
+            <guid>https://kpwags.com/posts/2022/12/05/november-check-in</guid>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Thanksgiving has come and gone, so that means November has also come and gone. It was not a bad month by any means as I got to spend time with my family for both my niece&#39;s baptism as well as Thanksgiving.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>Thanksgiving has come and gone, so that means November has also come and gone. It was not a bad month by any means as I got to spend time with my family for both my niece&#x27;s baptism as well as Thanksgiving.</p>
+<h2>Hockey Injuries are No Fun</h2>
+<p>In mid-November, I ended up getting run into while playing goalie in the upper leagues at the ice rink I play at. Banged up my groin and hip pretty badly which kept me off the ice and away from legs days at the gym for 2 weeks. It could&#x27;ve obviously been way worse, so thankfully it wasn&#x27;t a long-term thing. Just frustrating because the players are better and should have better control over their skating. I expect this more in the lower leagues where players are still learning how to skate.</p>
+<h2>Thanksgiving</h2>
+<p>I ended up spending Thanksgiving at my Aunt&#x27;s house. It was nice to see most of my Dad&#x27;s side of the family. Caught up since it had been a while since I&#x27;ve seen any of them. Turned out to be a nice day too after a seemingly early cold spell.</p>
+<h2>Fitness Tracker</h2>
+<p>I had put this project aside to work on Digital Family Cookbook. I decided to re-start this project from the ground up as I realized the original foundation, while definitely useable, could&#x27;ve been better constructed. Like most of my side projects, I learn more and want to build on what I&#x27;ve learned to build better systems. I have a few more tasks on Digital Family Cookbook, but I should be able to knock them out pretty easily when I&#x27;m in the mood. The restart of Fitness Tracker is also giving me the chance to start from scratch with <a href="https://vitejs.dev/">Vite</a> and <a href="https://vitest.dev/">Vitest</a>. I&#x27;ll probably write up some quick thoughts on them sometime in December.</p>
+<h2>Monthly Round-Up</h2>
+<p><strong>🏃🏼‍♂️ Running &amp; Biking</strong></p>
+<ul>
+<li><strong>Running:</strong> I only ended up running 9.34 miles in November. That hockey injury ended up curtailing my physical activities.</li>
+<li><strong>Biking:</strong> Nope</li>
+</ul>
+<p><strong>🏋🏼‍♂️ Lifting</strong></p>
+<ul>
+<li>I haven&#x27;t done much lower body, again because of the injury, but have continued to press on with upper body exercises.</li>
+</ul>
+<p><strong>📚 Reading</strong></p>
+<p><em>Finished</em></p>
+<ul>
+<li><a href="https://bookshop.org/books/the-data-detective-ten-easy-rules-to-make-sense-of-statistics/9780593084663">The Data Detective: Ten Easy Rules to Make Sense of Statistics</a> by Tim Harford</li>
+<li><a href="https://bookshop.org/books/chokepoint-capitalism-how-big-tech-and-big-content-captured-creative-labor-markets-and-how-we-ll-win-them-back/9780807007068">Chokepoint Capitalism</a> by Rebecca Giblin &amp; Cory Doctorow</li>
+<li><a href="https://bookshop.org/p/books/what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-randall-munroe/18153615?ean=9780525537113">What If? 2</a> by Randall Munroe</li>
+<li><a href="https://bookshop.org/p/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-cathy-o-neil/11438502?ean=9780553418835">Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</a> by Cathy O&#x27;Neil</li>
+</ul>
+<p><em>Started</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/four-lost-cities-a-secret-history-of-the-urban-age-annalee-newitz/16712885?ean=9780393882452">Four Lost Cities: A Secret History of the Urban Age</a> by Annalee Newitz</li>
+</ul>
+<p><strong>✍🏻 Writing</strong></p>
+<ul>
+<li>Continued my reading logs
+<ul>
+<li><a href="https://kpwags.com/posts/2022/11/04/reading-log-november-4-4">November 4 (#4)</a></li>
+<li><a href="https://kpwags.com/posts/2022/11/11/reading-log-november-11-5">November 11 (#5)</a></li>
+<li><a href="https://kpwags.com/posts/2022/11/18/reading-log-november-18-6">November 18 (#6)</a></li>
+<li><a href="https://kpwags.com/posts/2022/11/25/reading-log-november-25-7">November 25 (#7)</a></li>
+</ul>
+</li>
+<li>Wrote about <a href="https://kpwags.com/posts/2022/11/08/adding-themes">adding themes to my site</a></li>
+<li>Wrote about my <a href="https://kpwags.com/posts/2022/11/18/on-ftx-and-crypto-in-general">thoughts on FTX &amp; Crypto</a></li>
+<li>Wrote about my <a href="https://kpwags.com/posts/2022/11/23/artemis-i">excitement and mixed thoughts on Artemis I</a></li>
+<li>Shared my new <a href="https://kpwags.com/posts/2022/11/27/apollo-remastered">coffee table book</a></li>
+</ul>
+<p><strong>🎮 Gaming</strong></p>
+<ul>
+<li>Haven&#x27;t played much <a href="https://worldofwarcraft.com/en-us/wowclassic">World of Warcraft</a>, might end up cancelling my subscription</li>
+<li>Continued <a href="https://www.ea.com/games/starwars/jedi/jedi-fallen-order">Jedi: Fallen Order</a></li>
+<li>Picked up and started <a href="https://scarletviolet.pokemon.com/en-us/">Pokemon Violet</a></li>
+</ul>
+<p><strong>📺 Watched</strong></p>
+<ul>
+<li>Continuing <a href="https://www.imdb.com/title/tt0472954/">Yellowstone</a>, now up to date and on Season 5</li>
+<li>Continuing <a href="https://www.imdb.com/title/tt0118298/">Daria</a></li>
+<li>Continuing <a href="https://www.imdb.com/title/tt0472954/">It&#x27;s Always Sunny in Philadelphia</a></li>
+</ul>
+<p><strong>🎬 Movies</strong></p>
+<p>My wife and I have started back up watching movies on the weekend.</p>
+<ul>
+<li><a href="https://www.imdb.com/title/tt0109444/">Clear and Present Danger</a></li>
+<li><a href="https://www.imdb.com/title/tt14813212/">The Munsters (2022)</a></li>
+</ul>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - December 2 (#8)]]></title>
             <link>https://kpwags.com/posts/2022/12/02/reading-log-december-2-8</link>
