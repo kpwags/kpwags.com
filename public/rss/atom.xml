@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-12-06T00:58:52.587Z</updated>
+    <updated>2022-12-08T00:11:43.615Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,50 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Chokepoint Capitalism: A Review]]></title>
+        <id>https://kpwags.com/posts/2022/12/07/chokepoint-capitalism-a-review</id>
+        <link href="https://kpwags.com/posts/2022/12/07/chokepoint-capitalism-a-review"/>
+        <updated>2022-12-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year I backed a Kickstarter campaign by Cory Doctorow &amp; Rebecca Giblin for their new book <em>Chokepoint Capitalism</em>. I had read several of Cory&#39;s books and consider him someone who is knowledgeable about the creative industry, so when the Kickstarter campaign popped up in my feeds I decided it was worth my investment, and a read.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Earlier this year I backed a Kickstarter campaign by Cory Doctorow &amp; Rebecca Giblin for their new book <em>Chokepoint Capitalism</em>. I had read several of Cory&#x27;s books and consider him someone who is knowledgeable about the creative industry, so when the Kickstarter campaign popped up in my feeds I decided it was worth my investment, and a read.</p>
+<div class="PostImage__ImageContainer-sc-1y69a4k-0 cAvydH centered"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27295%27%20height=%27450%27/%3e"/></span><img alt="The cover of Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#x27;ll Win them Back by Rebecca Giblin &amp; Cory Doctorow" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/><noscript><img alt="The cover of Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#x27;ll Win them Back by Rebecca Giblin &amp; Cory Doctorow" srcSet="/_next/image?url=%2Fimages%2Fposts%2F2022-12-07-chokepoint-capitalism-a-review%2Fbook_cover.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fposts%2F2022-12-07-chokepoint-capitalism-a-review%2Fbook_cover.jpg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fposts%2F2022-12-07-chokepoint-capitalism-a-review%2Fbook_cover.jpg&amp;w=640&amp;q=75" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/></noscript></span></div>
+<p><em>Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#x27;ll Win them Back</em> is at it&#x27;s core a book about how companies like Amazon, Google, Apple, TicketMaster, and others are hurting the creative labor industry. We&#x27;re talking authors, musicians, TV &amp; movie writers, app developers and more are being squeezed by big tech and other big companies to the point where it can be hard to make a real living.</p>
+<p>I can&#x27;t begin to do as good of a job explaining all of this as Cory and Rebecca can, so I will encourage you to buy the book at your local bookstore. But I did want to make a few points and share some of my takeaways.</p>
+<h2>My Thoughts</h2>
+<p>First off, copyright law in America, and in many countries for that matter is broken. Amazon dominates the eBook and audiobook market. Part of the reason for that is that they were able to lock people into their systems, myself included. All the audiobooks you get through Audible and the overwhelming majority of eBooks you buy from Amazon have DRM attached to them. This means that you can only read and listen to them through Amazon. If you decide you want to switch to a different service or device, all your purchased content gets left behind. You can&#x27;t take it with you, at least not without breaking the law and risking fines and possible jail time. That shouldn&#x27;t be allowed to happen. If you buy an eBook from Amazon, you should be able to transfer it to a Nook if you switch devices, and vice versa. This shouldn&#x27;t be controversial and the law can fix this. Being able to switch platforms would weaken Amazon&#x27;s hold and could help authors and publishers get better deals.</p>
+<p>Second, antitrust laws need to be updated and enforced. Too often antitrust is looking at consumer harm in the here and now, and not considering what will happen down the line when the big companies can corner the market. Cory and Rebecca had this apt quote:</p>
+<blockquote>
+<p>However, the Chicago School had a unique remedy for the problem of monopolists being able to pervert their regulators: eliminate regulation altogether! No regulation, no regulators, no regulatory capture, no problem (somehow, preventing monopolies from forming in the first place didn&#x27;t seem to cross their minds).</p>
+</blockquote>
+<p>There hasn&#x27;t been much enforcement of it late and companies like Ticketmaster have been able to grow bigger and bigger, swallowing up everyone, and then using that size to corner the market. Looking at Ticketmaster, if you&#x27;re a small venue, good luck getting any major acts to come if you refuse to do business with them.</p>
+<blockquote>
+<p>US antitrust law is actually pretty great (and new bills in the pipeline as we write this would strengthen it further), but the US political consensus has been that antitrust is mostly a dead letter, a quirk of history that can be ignored the same way we ignore laws that require you to hire a boy to run ahead of your auto-car with a lantern and a bell to warn horse-riders that you&#x27;re coming.</p>
+</blockquote>
+<p>Stop monopolies from forming and fostering true competition would certainly help  the creative industry get better deals.</p>
+<p>There&#x27;s a lot more that Rebecca and Cory cover, but you&#x27;d do better hearing it from them rather than me.</p>
+<h2>My Takeaways</h2>
+<p>Reading the book has left me thinking about how I consume media.</p>
+<p>I&#x27;ve been on a physical book kick at the moment, but I still do appreciate the portability of being able to use my Kindle. I have no reason to upgrade at the moment, but I will probably give serious consideration to moving to Kobo or another device when the time comes. I&#x27;m also going to start branching out with where I buy my eBooks. I&#x27;ve generally just bought them from Amazon...because duh, it&#x27;s easy! Now, I&#x27;m probably going to see where else I can buy them, ideally DRM-free.</p>
+<p>One of the other things mentioned in the book is how much the auto-generated playlists from the likes of Spotify can make or break artists, especially those just starting out. While I certainly enjoy some of the playlists that Spotify generates for me, I think I&#x27;m gonna try to look at other websites and services that might help recommend me new artists to listen to. And of course I will continue to purchase the actual records of some of my favorite musicians.</p>
+<h2>One Last Word</h2>
+<p>Again, I would highly recommend everyone go read this book, it&#x27;s fascinating looking at how these companies have put the squeeze on the creative industry. But while I&#x27;ve focused here on some of the issues, Rebecca and Cory do a much better job diving into them, and more importantly, digging into possible solutions. I&#x27;ll leave you with this quote from the book:</p>
+<blockquote>
+<p>The increasing financial precarity that has accompanied these forty years of antitrust neglect is one reason why so many people are desperate and angry, and perhaps also helps explain why they are willing to listen to demagogues promising to blow the system up.</p>
+</blockquote>
+<p>Because while this book focuses on the creative industry, you can see parallels across all industries and the general population within in.</p>
+<p><a href="https://www.penguinrandomhouse.com/books/710957/chokepoint-capitalism-by-cory-doctorow-and-rebecca-giblin/9780807007068">Buy <em>Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We&#x27;ll Win them Back</em></a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[November Check-In]]></title>
         <id>https://kpwags.com/posts/2022/12/05/november-check-in</id>
