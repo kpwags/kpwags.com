@@ -28,6 +28,7 @@ interface PostImageProps {
     height: number
     centered?: boolean
     shadowed?: boolean
+    priority?: boolean
     credit?: JSX.Element
 }
 
@@ -38,6 +39,7 @@ const PostImage = ({
     height,
     centered = true,
     shadowed = false,
+    priority = false,
     credit,
 }: PostImageProps): JSX.Element => {
     const cssClasses: string[] = [];
@@ -56,6 +58,7 @@ const PostImage = ({
                 alt={alt}
                 width={width}
                 height={height}
+                priority={priority}
             />
             {credit && <ImageCaptionCredit>{credit}</ImageCaptionCredit>}
         </ImageContainer>

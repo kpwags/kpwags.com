@@ -99,7 +99,7 @@ const ProgressFor2022 = (): JSX.Element => (
             <p>My goal for 2022 is to write 10 technical blog posts.</p>
 
             <h3>Technical Blog Posts Written</h3>
-            <ProgressBar color="hsl(24, 69%, 59%)" fullValue={10} currentValue={6} />
+            <ProgressBar color="hsl(24, 69%, 59%)" fullValue={10} currentValue={7} />
         </Container>
     </>
 );
