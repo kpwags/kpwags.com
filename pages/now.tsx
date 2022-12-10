@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styled from 'styled-components';
-import current from '@data/current';
+import now from '@data/now';
 import { GetStaticProps } from 'next';
 import { CurrentlyDoing } from '@models/currentlyDoing';
 import MediaListing from '@components/MediaListing';
@@ -48,15 +48,15 @@ const Grid = styled.div`
 
 export const getStaticProps: GetStaticProps = async () => ({
     props: {
-        currentlyDoing: current,
+        currentlyDoing: now,
     },
 });
 
-type CurrentProps = {
+type NowProps = {
     currentlyDoing: CurrentlyDoing;
 };
 
-const Current = ({ currentlyDoing }: CurrentProps): JSX.Element => (
+const Now = ({ currentlyDoing }: NowProps): JSX.Element => (
     <>
         <Head><title>Now - Keith Wagner</title></Head>
         <main>
@@ -97,4 +97,4 @@ const Current = ({ currentlyDoing }: CurrentProps): JSX.Element => (
     </>
 );
 
-export default Current;
+export default Now;
