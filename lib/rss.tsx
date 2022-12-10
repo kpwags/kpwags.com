@@ -10,7 +10,7 @@ import photoBlog from '@data/photoBlog';
 import { PhotoBlogItem } from '@models/PhotoBlogItem';
 
 // Blog Components
-import PostImage from '@components/PostImage';
+import PostImage from '@components/RssPostImage';
 import PostVideo from '@components/PostVideo';
 import EmbeddedTweet from '@components/EmbeddedTweet';
 import TableOfContents from '@components/TableOfContents';
