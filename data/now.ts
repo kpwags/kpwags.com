@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
-const current: CurrentlyDoing = {
+const now: CurrentlyDoing = {
     lastUpdate: 'December 2022',
     reading: [
         {
-            title: 'Four Lost Cities: A Secret History of the Urban Age',
-            author: 'Annalee Newitz',
-            cover: 'fourlostcities.jpg',
-            link: 'https://bookshop.org/p/books/four-lost-cities-a-secret-history-of-the-urban-age-annalee-newitz/16712885',
+            title: 'Snow Crash',
+            author: 'Neal Stephenson',
+            cover: 'snow_crash.jpg',
+            link: 'https://bookshop.org/p/books/snow-crash-neal-stephenson/7327954?ean=9780553380958',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
@@ -78,4 +78,4 @@ const current: CurrentlyDoing = {
     ],
 };
 
-export default current;
+export default now;

@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2022',
             books: [
                 {
+                    title: 'Four Lost Cities: A Secret History of the Urban Age',
+                    author: 'Annalee Newitz',
+                    cover: 'fourlostcities.jpg',
+                    link: 'https://bookshop.org/p/books/four-lost-cities-a-secret-history-of-the-urban-age-annalee-newitz/16712885',
+                    rating: 3,
+                    thoughts: 'This was an interesting read on ancient cities. I had never even heard of two of the cities prior to reading this. It was an interesting look into the history of urban living, how it began and developed, and how these cities faded into history.',
+                    imageFolder: 'books',
+                },
+                {
                     title: 'Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy',
                     author: "Cathy O'Neil",
                     cover: 'weapons_of_math_destruction.jpg',
