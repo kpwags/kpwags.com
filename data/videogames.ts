@@ -3,16 +3,16 @@
 import VideoGames from '@models/VideoGames';
 
 const games: VideoGames = {
-    lastUpdate: 'September 2022',
+    lastUpdate: 'December 2022',
     current: [
         {
-            title: 'WoW Classic',
-            system: 'PC',
-            cover: 'wow_classic.jpg',
-            link: 'https://worldofwarcraft.com/en-us/wowclassic',
+            title: 'Horizon Zero Dawn',
+            system: 'PS5',
+            cover: 'horizonzerodawn.jpg',
+            link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn/',
             imageFolder: 'games',
-            rating: 4,
-            thoughts: "I spent so much time on this in my mid 20s, and now in my late 30s, I'm definitely enjoying it again",
+            rating: null,
+            thoughts: null,
             finished: 'n/a',
         },
         {
@@ -25,18 +25,28 @@ const games: VideoGames = {
             thoughts: null,
             finished: 'n/a',
         },
+    ],
+    played: [
         {
             title: 'Jedi: Fallen Order',
             system: 'Xbox',
             cover: 'jedifallenorder.jpg',
             link: 'https://www.ea.com/games/starwars/jedi/jedi-fallen-order',
             imageFolder: 'games',
-            rating: null,
-            thoughts: null,
+            rating: 4,
+            thoughts: 'I had given up on this a while back, but I came back and am glad I did. The game was fun and had a good story. I wish it was more Jedi Knight than Dark Souls, but alas I guess those days are past.',
+            finished: 'yes',
+        },
+        {
+            title: 'WoW Classic',
+            system: 'PC',
+            cover: 'wow_classic.jpg',
+            link: 'https://worldofwarcraft.com/en-us/wowclassic',
+            imageFolder: 'games',
+            rating: 4,
+            thoughts: "I spent so much time on this in my mid 20s, and now in my late 30s, I'm definitely enjoying it again",
             finished: 'n/a',
         },
-    ],
-    played: [
         {
             title: 'Star Wars: Battlefront II',
             system: 'PS5',
