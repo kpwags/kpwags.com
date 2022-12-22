@@ -48,6 +48,12 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         setSelectedFont(f);
     };
 
+    let className = '';
+
+    if (['bookshelf', 'movies', 'games', 'podcasts'].includes(Component.name.toLowerCase())) {
+        className = 'wide';
+    }
+
     return (
         <>
             <Head>
@@ -91,7 +97,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                     changeFontTheme: toggleFont,
                 }}
             >
-                <main>
+                <main className={className}>
                     <Header />
                     <Component {...pageProps} />
                     <Footer />
