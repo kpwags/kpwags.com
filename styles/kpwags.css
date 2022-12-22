@@ -224,6 +224,10 @@ main {
     max-width: 100%;
 }
 
+main.wide {
+    width: min(150ch, 100vw - 2rem);
+}
+
 h1 {
     font-weight: 500;
     color: var(--primary-color-1);
