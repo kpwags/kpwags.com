@@ -5,7 +5,6 @@ import { Feed, Item } from 'feed';
 import { getPostsForRssFeed } from '@lib/posts';
 import { MDXRemote } from 'next-mdx-remote';
 import ReactDOMServer from 'react-dom/server';
-import dynamic from 'next/dynamic';
 import photoBlog from '@data/photoBlog';
 import { PhotoBlogItem } from '@models/PhotoBlogItem';
 
@@ -18,10 +17,7 @@ import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
 import InDepthNotes from '@components/InDepthNotes';
-
-const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
-    ssr: false,
-});
+import YouTubeEmbed from '@components/RssYouTubeEmbed';
 
 const components = {
     PostImage,
