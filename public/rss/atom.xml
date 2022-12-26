@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-12-24T00:18:54.966Z</updated>
+    <updated>2022-12-26T20:54:52.376Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,30 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[The Importance of Compatibility]]></title>
+        <id>https://kpwags.com/posts/2022/12/26/the-importance-of-compatibility</id>
+        <link href="https://kpwags.com/posts/2022/12/26/the-importance-of-compatibility"/>
+        <updated>2022-12-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I was recently listening to the <a href="https://nodogmapodcast.bryanhogan.net/">No Dogma Podcast</a> and they had Jared Parsons, the C# Compiler Lead at Microsoft  on. He said something that got stuck in my head.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>I was recently listening to the <a href="https://nodogmapodcast.bryanhogan.net/">No Dogma Podcast</a> and they had Jared Parsons, the C# Compiler Lead at Microsoft  on. He said something that got stuck in my head.</p>
+<p>They were talking about potentially deprecating parts of the C# language and Parsons responded with:</p>
+<blockquote>
+<p>People underestimate the value compatibility has to customers</p>
+</blockquote>
+<p>He&#x27;s right, developers rely on the core functionality of languages remaining the same. It makes updating libraries and language versions much easier to do. Companies rely on being able to maintain and update their software. It gets very difficult to modify, update and maintain software if upgrade paths require massive rewrites.</p>
+<p>It was an interesting interview and you can listen to the <a href="https://nodogmapodcast.bryanhogan.net/163-jared-parsons-the-c-compiler-part-1/">Episode 1</a> and <a href="https://nodogmapodcast.bryanhogan.net/164-jared-parsons-the-c-compiler-part-2/">Episode 2</a> here.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - December 23 (#11)]]></title>
         <id>https://kpwags.com/posts/2022/12/23/reading-log-december-23-11</id>
@@ -54,7 +78,7 @@
 <p><a href="https://timharford.com/2022/12/quitting-is-underrated/">Quitting is Underrated</a> <em>(Tim Harford)</em></p>
 <h3>🎵 A Song to Leave You With</h3>
 <h4>Brand New - Can&#x27;t Get It Out</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/\_esbL0or930" title="Brand New - Can&#x27;t Get It Out" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=\_esbL0or930" title="Brand New - Can&#x27;t Get It Out">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -105,7 +129,7 @@
 <p><a href="https://kotaku.com/escape-rooms-drunk-horror-stories-solutions-popular-1849897414">When Things Go Wrong With Players Solving Escape Rooms</a> <em>(Kenneth Seward Jr.)</em></p>
 <h3>🎵 A Song to Leave You With</h3>
 <h4>Rocky Votolato - Evergreen</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/YAl90hJ42qo" title="Rocky Votolato - Evergreen" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=YAl90hJ42qo" title="Rocky Votolato - Evergreen">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -149,7 +173,7 @@
 <p><a href="https://www.theverge.com/2022/12/8/23500305/the-dark-tower-tv-series-mike-flanagan-stephen-king-amazon">Mike Flanagan is creating a TV series for The Dark Tower</a> <em>(Jess Weatherbed)</em></p>
 <h3>🎵 A Song to Leave You With</h3>
 <h4>Frank Turner - Perfect Score</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/xtkK9izzJGo" title="Frank Turner - Perfect Score" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=xtkK9izzJGo" title="Frank Turner - Perfect Score">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -335,7 +359,7 @@
 <p><a href="https://www.techdirt.com/2022/11/23/techdirt-podcast-episode-337-will-elon-kill-twitter/">Techdirt Podcast #337: Will Elon Kill Twitter</a></p>
 <h3>🎵 A Song to Leave You With</h3>
 <h4>Lucero - One Last F.U.</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/0TwVOs8erh0" title="Lucero - One Last F.U." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=0TwVOs8erh0" title="Lucero - One Last F.U.">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -394,7 +418,7 @@
 <p><a href="https://stackoverflow.blog/2022/11/23/why-writing-by-hand-is-still-the-best-way-to-retain-information/">Why writing by hand is still the best way to retain information</a> <em>(Corissa E Haury)</em></p>
 <h3>🎵 A Song to Leave You With</h3>
 <h4>Billy the Kid - This Sure as Hell Ain&#x27;t My Life</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/NforjFwQpOQ" title="Billy the Kid - This Sure as Hell Ain&#x27;t My Life" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=NforjFwQpOQ" title="Billy the Kid - This Sure as Hell Ain&#x27;t My Life">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -523,7 +547,7 @@
 <p><a href="https://www.loudersound.com/features/rage-against-the-machine-debut-album-story">“It was like holding a f**king live wire”: how Rage Against The Machine&#x27;s explosive debut album changed everything</a></p>
 <h3>🎵 A Song to Leave You With</h3>
 <h4>Rage Against the Machine - Killing in the Name</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/bWXazVhlyxQ" title="Rage Against the Machine - Killing in the Name" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=bWXazVhlyxQ" title="Rage Against the Machine - Killing in the Name">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -575,7 +599,7 @@
 <p><a href="https://www.theatlantic.com/ideas/archive/2022/11/veterans-day-us-military-iraq/672081/">My Decision to Serve</a> <em>(David French)</em></p>
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>Margot and the Nuclear So &amp; So&#x27;s - Broadripple is Burning</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/WXTVDUYIZs8" title="Margot and the Nuclear So &amp; So&#x27;s - Broadripple is Burning" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=WXTVDUYIZs8" title="Margot and the Nuclear So &amp; So&#x27;s - Broadripple is Burning">View on YouTube</a></p>
 <hr/>
 <p><em>Edited 11/11/22: Typo &amp; Removed Empty Gaming Section</em></p>
             </div>
@@ -906,7 +930,7 @@ export const useTheme = (): UseThemeReturn =&gt; {
 <p><a href="https://2ality.com/2022/10/mastodon-getting-started.html">Getting started with Mastodon</a> <em>(Axel Rauschmayer)</em></p>
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>The Gaslight Anthem - Have Mercy</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/monCFQJNBWI" title="The Gaslight Anthem - Have Mercy" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=monCFQJNBWI" title="The Gaslight Anthem - Have Mercy">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1365,7 +1389,7 @@ internal class Program
 <p><a href="https://www.gq.com/story/wrexham-fc-ryan-reynolds-rob-mcelhenney">Inside Ryan Reynolds and Rob McElhenney’s Great Wrexham Gambit</a> <em>(Tom Lamont)</em></p>
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>The Scandals - Lucky Sevens</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/6eBfX_a9_o4" title="The Scandals - Lucky Sevens" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=6eBfX_a9_o4" title="The Scandals - Lucky Sevens">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1423,7 +1447,7 @@ internal class Program
 <p><a href="https://shows.acast.com/the-new-bazaar/episodes/understanding-crypto">The New Bazaar: Understanding Crypto</a></p>
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>The Menzingers - I Don&#x27;t Wanna Be An Asshole Anymore</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/TQBG7wAVWAA" title="The Menzingers - I Don&#x27;t Wanna Be An Asshole Anymore" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=TQBG7wAVWAA" title="The Menzingers - I Don&#x27;t Wanna Be An Asshole Anymore">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1477,7 +1501,7 @@ internal class Program
 <p><a href="https://www.economist.com/theprincepod">The Prince (Economist&#x27;s Podcast on the rise of Xi Jinping)</a></p>
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>The Wonder Years - Wyatt&#x27;s Song (Your Name)</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/GJrEecdSLik" title="The Wonder Years - Wyatt&#x27;s Song (Your Name)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=GJrEecdSLik" title="The Wonder Years - Wyatt&#x27;s Song (Your Name)">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1581,7 +1605,7 @@ internal class Program
 <p><a href="https://www.techdirt.com/2022/09/06/techdirt-podcast-episode-328-the-problems-with-the-california-kids-code/">Techdirt Podcast Episode 328: The Problems With The California Kids&#x27; Code</a></p>
 <h3 class="text">🎵 A Song to Leave You With</h3>
 <h4>TIM - High Hopes</h4>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/pw0kJMh9SfM" title="TIM - High Hopes" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=pw0kJMh9SfM" title="TIM - High Hopes">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1698,7 +1722,7 @@ internal class Program
 <p><a href="https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/">Cool Things People Do With Their Blogs</a> - <em>brainbaking.com</em></p>
 <h2>🎵 A Song to Leave You With</h2>
 <h3>The Wonder Years - I Just Want to Sell Out My Funeral</h3>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/rwrsrsauHfI" title="The Wonder Years - I Just Want to Sell Out My Funeral" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=rwrsrsauHfI" title="The Wonder Years - I Just Want to Sell Out My Funeral">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1765,7 +1789,7 @@ internal class Program
 <p><a href="https://ofdollarsanddata.com/when-data-fails/">When Data Fails</a> - <em>ofdollarsanddata.com</em></p>
 <h2>🎵 A Song to Leave You With</h2>
 <h3>VNV Nation - Testament</h3>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/9kf0BiM6Unc" title="VNV Nation - Testament" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=9kf0BiM6Unc" title="VNV Nation - Testament">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1865,7 +1889,7 @@ internal class Program
 <p><a href="https://www.julian.com/blog/craftspeople">Becoming an expert</a> - <em>julian.com</em></p>
 <h2>🎵 A Song to Leave You With</h2>
 <h3>Tim Barry - Prosser&#x27;s Gabriel</h3>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/sSuh44wDbmM" title="Tim Barry - Prosser&#x27;s Gabriel" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=sSuh44wDbmM" title="Tim Barry - Prosser&#x27;s Gabriel">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -1898,7 +1922,7 @@ internal class Program
 <p><a href="https://marcoheine.com/blog/just-hit-publish/">Just Hit Publish</a> - <em>marcoheine.com</em></p>
 <p><a href="https://blog.jim-nielsen.com/2022/other-peoples-websites/">The OG Social Network: Other People&#x27;s Websites</a> - <em>blog.jim-nielsen.com</em></p>
 <h2>🎵 A Song to Leave You With</h2>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/HRqSg2PrJpY" title="Rise Against - People Live Here" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=HRqSg2PrJpY" title="Rise Against - People Live Here">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -2128,7 +2152,7 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
 <p><a href="https://thenextweb.com/news/imposter-syndrome-as-a-developer">How I dealt with imposter syndrome as a newbie developer</a> - <em>thenextweb.com</em></p>
 <h2>🎵 A Song to Leave You With</h2>
 <h3>The Gaslight Anthem - Handwritten</h3>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/Lf-rEslupnY" title="The Gaslight Anthem - Handwritten" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=Lf-rEslupnY" title="The Gaslight Anthem - Handwritten">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -2164,7 +2188,7 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
 <p><a href="https://defector.com/this-is-not-the-way-to-help-local-news/">This is Not the Way to Help Local News</a> - 💰 - <em>defector.com</em></p>
 <h2>🎵 A Song to Leave You With</h2>
 <h3>Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave</h3>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/liHH9TIY-Ik" title="Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=liHH9TIY-Ik" title="Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -2221,7 +2245,7 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
 <p><a href="https://www.economist.com/international/2022/07/07/covid-learning-loss-has-been-a-global-disaster">Millions of Wasted Minds</a> - 💰 - <em>economist.com</em></p>
 <h2>🎵 A Song to Leave You With</h2>
 <h3>Dave Hause - Sandy Sheets</h3>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/nFTpnWUl_WY" title="Dave Hause - Sandy Sheets" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=nFTpnWUl_WY" title="Dave Hause - Sandy Sheets">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -2262,7 +2286,7 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
 <p><a href="https://world.hey.com/rjs/21-prototyping-to-learn-726e2d3e">Prototyping to Learn</a> - world.hey.com</p>
 <p><a href="https://annehelen.substack.com/p/so-youve-decided-to-bungle-your-companys">So You&#x27;ve Decided to Bungle Your Company&#x27;s Flexible Work Plan</a> - annehelen.substack.com</p>
 <h2>🎵 A Song to Leave You With</h2>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/eujM5uoo-l0" title="Orchestral Suite from The Inner Light" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=eujM5uoo-l0" title="Orchestral Suite from The Inner Light">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -2351,7 +2375,7 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
 <h2>🎒 Miscellaneous</h2>
 <p><a href="https://longreads.com/2022/06/29/the-women-who-built-grunge/">The Women Who Built Grunge</a> - They&#x27;ve been sadly long buried beneath men. <span class="domain-name">(longreads.com)</span></p>
 <h2>🎵 A Song to Leave You With</h2>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/vfGZZJnoJ0U" title="Deaf Havana - Boston Square" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=vfGZZJnoJ0U" title="Deaf Havana - Boston Square">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -2470,7 +2494,7 @@ describe(&#x27;&lt;ViewRecipe /&gt;&#x27;, () =&gt; {
 <p><a href="https://matthiasott.com/notes/just-put-stuff-out-there"><strong>Just Put Stuff Out There</strong></a> - I agree with Matthias here, not everything has to be perfect...just click <em><strong>publish</strong></em>! <em>(matthiasott.com)</em></p>
 <h2>🎵 A Song to Leave You With</h2>
 <h3>Will Varley - Weddings &amp; Wars</h3>
-<iframe width="300" height="169" src="https://www.youtube.com/embed/jlAm40MvlcA" title="Will Varley - Weddings &amp; Wars" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://www.youtube.com/watch?v=jlAm40MvlcA" title="Will Varley - Weddings &amp; Wars">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>

@@ -7,15 +7,7 @@ const RssYouTubeEmbed = ({
     id,
     title,
 }: YouTubeEmbedProps): JSX.Element => (
-    <iframe
-        width={300}
-        height={169}
-        src={`https://www.youtube.com/embed/${id}`}
-        title={title}
-        frameBorder={0}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-    />
+    <p><a href={`https://www.youtube.com/watch?v=${id}`} title={title}>View on YouTube</a></p>
 );
 
 export default RssYouTubeEmbed;
