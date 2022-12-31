@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2022-12-28T00:03:23.162Z</updated>
+    <updated>2022-12-31T02:27:40.331Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,47 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2022 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - December 30 (#12)]]></title>
+        <id>https://kpwags.com/posts/2022/12/30/reading-log-december-30-12</id>
+        <link href="https://kpwags.com/posts/2022/12/30/reading-log-december-30-12"/>
+        <updated>2022-12-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mastodon is making some in-roads, Apple is considering opening up a bit on iOS and LastPass is in some trouble.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Mastodon is making some in-roads, Apple is considering opening up a bit on iOS and LastPass is in some trouble.</p>
+<h2>In Depth</h2>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Joe Rossignol:</span> <a href="https://www.macrumors.com/2022/12/14/apple-considering-non-webkit-iphone-browsers/">Apple Considering Dropping Requirement for iPhone Web Browsers to Use WebKit</a></h3><p>If Apple does indeed do this, it will make things very interesting. It&#x27;ll be nice to have better browser diversity on iOS.</p></article>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://css-tricks.com/does-www-still-belong-in-urls/">Does WWW still belong in URLs?</a> <em>(Pieter De Decker)</em></p>
+<p><a href="https://raygun.com/blog/what-are-microservices/">What are microservices? The pros, cons, and how they work</a> <em>(Anna Monus)</em></p>
+<p><a href="https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/">An Interactive Guide to Flexbox</a> <em>(Josh W. Comeau)</em></p>
+<p><a href="https://www.johansmarius.dev/2022/12/better-assertions-for-your-unit-tests.html">Better Assertions for your Unit Tests</a> <em>(Johan Smarius)</em></p>
+<p><a href="https://medium.com/microsoft-design/designing-a-new-outlook-experience-a3d93a925509">Designing a New Outlook Experience</a> <em>(Tasha Lutfi)</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://arstechnica.com/information-technology/2022/12/lastpass-says-hackers-have-obtained-vault-data-and-a-wealth-of-customer-info/">LastPass users: Your info and password vault data are now in hackers’ hands</a> <em>(Dan Goodin)</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2022/12/twitter-rival-mastodon-rejects-funding-to-preserve-nonprofit-status/">Twitter rival Mastodon rejects funding to preserve nonprofit status</a> <em>(Ian Johnston)</em></p>
+<p><a href="https://arstechnica.com/gadgets/2022/12/mastodon-highlights-pros-and-cons-of-moving-beyond-big-tech-gatekeepers/">Mastodon—and the pros and cons of moving beyond Big Tech gatekeepers</a> <em>(Ben Clemens)</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.economist.com/finance-and-economics/2022/12/21/five-financial-trends-that-2022-killed?etear=nl_today_1">Five financial trends that 2022 killed</a> <em>(The Economist)</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/science/2022/12/2022s-us-climate-disasters-from-storms-and-floods-to-heat-waves-and-droughts/">2022&#x27;s US climate disasters, from storms and floods to heat waves and droughts</a> <em>(Shuang-Ye Wu)</em></p>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://humbledollar.com/2022/12/same-old-same-old/">Same Old, Same Old</a> <em>(Adam M. Grossman)</em></p>
+<p><a href="https://brandur.org/fragments/unpursuit-of-clout">The unpursuit of clout</a> <em>(Brandur Leach)</em></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Will Farley - Send My Love to the System</h4>
+<p><a href="https://www.youtube.com/watch?v=q2y-huO1RlA" title="Will Farley - Send My Love to the System">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Star Trek Generations is Underrated]]></title>
         <id>https://kpwags.com/posts/2022/12/27/star-trek-generations-is-underrated</id>
@@ -79,7 +120,7 @@
                 
                 <p>NASA&#x27;s InSight probe has seemingly sent its last signal back to Earth. Some questionable security from iRobot, and a little bit of Twitter drama makes up some of this week&#x27;s reading.</p>
 <h2>In Depth</h2>
-<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Luke Plunkett:</span> <a href="The Best Star Wars Video Game](https://kotaku.com/the-best-star-wars-video-game-1701922268">The Best Star Wars Video Game</a></h3><p>I loved this game when it came out. I loved all the games that came out after this too. I wish that Disney would get a game developer to make a good sequel to the Dark Forces / Jedi Knight series.</p></article>
+<article class="InDepthNotes__InDepthArticle-sc-1gdls0b-0 oZhOk"><h3><span class="source">Luke Plunkett:</span> <a href="https://kotaku.com/the-best-star-wars-video-game-1701922268">The Best Star Wars Video Game</a></h3><p>I loved this game when it came out. I loved all the games that came out after this too. I wish that Disney would get a game developer to make a good sequel to the Dark Forces / Jedi Knight series.</p></article>
 <h2>Link Blast</h2>
 <h3>👨🏼‍💻 Software Development &amp; Design</h3>
 <p><a href="https://www.jamesmichaelhickey.com/how-to-structure-your-dot-net-solutions-design-and-trade-offs/">How To Structure Your .NET Solutions: Architecture And Trade-Offs</a> <em>(James Hickey)</em></p>
