@@ -12,8 +12,22 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'December 2022',
+    lastUpdate: 'January 2023',
     years: [
+        {
+            year: '2023',
+            books: [
+                {
+                    title: 'Snow Crash',
+                    author: 'Neal Stephenson',
+                    cover: 'snow_crash.jpg',
+                    link: 'https://bookshop.org/p/books/snow-crash-neal-stephenson/7327954?ean=9780553380958',
+                    rating: 3,
+                    thoughts: 'The “ultra-capitalist” future felt kind of weird. The story itself started off slow but picked up nicely. The ending was a little confusing and befuddling though.',
+                    imageFolder: 'books',
+                },
+            ],
+        },
         {
             year: '2022',
             books: [
