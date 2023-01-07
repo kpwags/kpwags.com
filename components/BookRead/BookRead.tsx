@@ -32,8 +32,9 @@ const BookBlock = styled.div`
             }
         }
 
-        em {
-            display: block;
+        p.meta {
+            font-weight: 500;
+            margin-bottom: 0.5rem;
         }
     }
 
@@ -66,7 +67,7 @@ const BookRead = ({
         </div>
         <div className="book-description">
             <h2>{link ? <a href={link} target="_blank" rel="noreferrer" title="Buy on bookshop.org">{title}</a> : <>{title}</>}</h2>
-            <em>by {author}</em>
+            <p className="meta">by {author}</p>
             <p className="thoughts">{thoughts}</p>
         </div>
     </BookBlock>
