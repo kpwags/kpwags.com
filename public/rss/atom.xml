@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-01-02T22:21:05.075Z</updated>
+    <updated>2023-01-07T00:55:47.592Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,56 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - January 6 (#13)]]></title>
+        <id>https://kpwags.com/posts/2023/01/06/reading-log-january-6-13</id>
+        <link href="https://kpwags.com/posts/2023/01/06/reading-log-january-6-13"/>
+        <updated>2023-01-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A scary moment in the NFL Monday night. Also lots of podcasts this week.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>A scary moment in the NFL Monday night. Also lots of podcasts this week.</p>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://matthiasott.com/notes/transient-frameworks">Transient Frameworks</a> <em>(Matthias Ott)</em></p>
+<p><a href="https://www.jamesmichaelhickey.com/how-to-structure-your-dot-net-solutions-design-and-trade-offs/?utm_source=csharpdigest&amp;utm_medium&amp;utm_campaign=1462">How To Structure Your .NET Solutions: Architecture And Trade-Offs</a> <em>(James Hickey)</em></p>
+<p><a href="https://chriscoyier.net/2023/01/04/what-does-it-look-like-for-the-web-to-lose/">What does it look like for the web to lose?</a> <em>(Chris Coyier)</em></p>
+<p><a href="https://stackdiary.com/css-media-queries/">A Practical Guide to CSS Media Queries</a> <em>(Alex Ivanovs)</em></p>
+<p><a href="https://davidwalsh.name/get-promise-status">How to Determine a JavaScript Promise&#x27;s Status</a> <em>(David Walsh)</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.techdirt.com/2022/12/21/anker-highlights-what-not-to-do-when-your-crappy-security-standards-are-exposed/">Anker Highlights What Not To Do When Your Crappy Security Standards Are Exposed</a> <em>(Karl Bode)</em></p>
+<p><a href="https://www.techdirt.com/2022/12/28/lastpass-tries-to-bury-the-full-scope-of-its-disastrous-privacy-breach-behind-the-christmas-holiday/">LastPass Tries To Bury The Full Scope Of Its Disastrous Privacy Breach Behind The Christmas Holiday</a> <em>(Karl Bode)</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://nymag.com/intelligencer/2022/12/remote-work-is-poised-to-devastate-americas-cities.html">Remote Work Is Poised to Devastate America&#x27;s Cities</a> <em>(Eric Levitz)</em></p>
+<p><a href="https://www.theatlantic.com/newsletters/archive/2022/12/homeownership-real-estate-investment-renting/672511/">The Homeownership Society Was a Mistake</a> <em>(Jerusalem Demsas)</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/science/2023/01/headed-to-space-today-test-hardware-for-a-solar-power-plant/">Space-based solar power hardware ready for actual testing in space</a> <em>(John Timmer)</em></p>
+<h3>⚾ Sports</h3>
+<p><a href="https://theathletic.com/4055531/2023/01/04/damar-hamlin-nfl-emergency-plan/">For Damar Hamlin, NFL activated Emergency Action Plan. How does it work?</a> <em>(Jourdan Rodrigue)</em></p>
+<p><a href="https://theathletic.com/4062586/2023/01/06/damar-hamlin-nfl-contracts-benefits/">Damar Hamlin situation rekindles questions over NFL player contracts</a> <em>(Daniel Kaplan)</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://changelog.com/podcast/489">The Changelog #489: Run your home on a Raspberry Pi</a></p>
+<p><a href="https://changelog.com/podcast/491">The Changelog #491: Stacked diffs for fast-moving code review</a></p>
+<p><a href="https://changelog.com/jsparty/227">JS Party #227: JS logging &amp; error handling</a></p>
+<p><a href="https://www.dotnetrocks.com/details/1793">.NET Rocks #1793: Secure Open Source Practices with Jillian Ratliff</a></p>
+<p><a href="https://softwareengineeringdaily.com/2022/05/18/technical-debt-with-lee-atchison/">Software Engineering Daily: Technical Debt With Lee Atchison</a></p>
+<p><a href="https://www.dotnetrocks.com/details/1794">.NET Rocks #1794: Using Web Components with Jemima Abu</a></p>
+<p><a href="https://shows.acast.com/the-new-bazaar/episodes/finance-portrayed-in-arts-and-culture">The New Bazaar S1 Ep 39: Finance portrayed in arts and culture</a></p>
+<p><a href="https://timharford.com/2023/01/cautionary-tales-double-header-when-a-plague-struck-world-of-warcraft-and-blood-on-the-tracks/">Cautionary Tales: When a Plague Struck World of Warcraft, and Blood on the Tracks</a></p>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://brooker.co.za/blog/2022/11/08/writing.html">Writing Is Magic</a> <em>(Marc Brooker)</em></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>The Menzingers - America (You&#x27;re Freaking Me Out) - From Exile</h4>
+<p><a href="https://www.youtube.com/watch?v=Xn8p_18vN9g" title="The Menzingers - America (You&#x27;re Freaking Me Out) - From Exile">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2022 Retrospective]]></title>
         <id>https://kpwags.com/posts/2023/01/02/2022-retrospective</id>
