@@ -55,7 +55,7 @@ const BooksRead: BookList = {
                     cover: 'whatif2.jpg',
                     link: 'https://bookshop.org/p/books/what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-randall-munroe/18153615',
                     rating: 5,
-                    thoughts: 'Randall Munroe does it again. He brings his scientific curiosity to the answer some pretty absurd questions. He does it with a good sense of humor and easy to understand language.',
+                    thoughts: 'Randall Munroe does it again. He brings his scientific curiosity to answer some pretty absurd questions. He does it with a good sense of humor and easy to understand language.',
                     imageFolder: 'books',
                 },
                 {
