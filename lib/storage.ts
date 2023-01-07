@@ -1,17 +1,23 @@
 export const saveToLocalStorage = (key: string, value: string): void => {
-    if (typeof window !== 'undefined') {
-        window.localStorage.setItem(key, value);
-    }
+    try {
+        if (typeof window !== 'undefined') {
+            window.localStorage.setItem(key, value);
+        }
+    } catch { /* don't really care */ }
 };
 
 export const retrieveFromLocalStorage = (key: string, isJson = false): string|unknown => {
-    if (typeof window !== 'undefined') {
-        const value = window.localStorage.getItem(key);
+    try {
+        if (typeof window !== 'undefined') {
+            const value = window.localStorage.getItem(key);
 
-        if (value) {
-            return isJson ? JSON.parse(value) : value;
+            if (value) {
+                return isJson ? JSON.parse(value) : value;
+            }
         }
-    }
 
-    return null;
+        return null;
+    } catch {
+        return null;
+    }
 };
