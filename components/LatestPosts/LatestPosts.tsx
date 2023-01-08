@@ -1,60 +1,29 @@
-import styled from 'styled-components';
 import Link from 'next/link';
 import { BlogPost } from '@models/blogPost';
 import PostListing from '@components/PostListing';
 
-const LatestPostsSection = styled.section`
-    margin: 5rem 0;
-
-    div.heading {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-
-        @media all and (max-width: 450px) {
-            display: block;
-        }
-
-        div.link {
-            text-align: right;
-
-            @media all and (max-width: 450px) {
-                display: none;
-            }
-        }
-    }
-
-    div.mobile-link{
-        text-align: center;
-        display: none;
-        font-size: 1.2rem;
-
-        @media all and (max-width: 450px) {
-            display: block;
-        }
-    }
-`;
+import styles from './LatestPosts.module.css';
 
 interface LatestPostsProps {
     mostRecentPosts: BlogPost[];
 }
 
 const LatestPosts = ({ mostRecentPosts }: LatestPostsProps): JSX.Element => (
-    <LatestPostsSection>
-        <div className="heading">
+    <section className={styles.mostRecentPosts}>
+        <div className={styles.heading}>
             <h2>Latest Posts</h2>
-            <div className="link">
+            <div className={styles.link}>
                 <Link href="/blog"><a>View More</a></Link>
             </div>
         </div>
-        <div className="content">
+        <div>
             {mostRecentPosts.map((p) => (<PostListing key={p.id} post={p} showBorder showTags />))}
 
-            <div className="mobile-link">
+            <div className={styles.mobileLink}>
                 <Link href="/blog"><a>View More</a></Link>
             </div>
         </div>
-    </LatestPostsSection>
+    </section>
 );
 
 export default LatestPosts;
