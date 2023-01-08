@@ -1,5 +1,4 @@
 /* eslint-disable max-len */
-import styled from 'styled-components';
 import Link from 'next/link';
 import LightDarkSwitch from '@components/LightDarkSwitch';
 import { useTheme } from '@hooks/useTheme';
@@ -10,125 +9,6 @@ import SearchBar from '@components/SearchBar';
 import ThemeSwitchButton from '@components/ThemeSwitchButton';
 import ThemeSwitcher from '@components/ThemeSwitcher';
 import { ColorTheme, FontTheme } from '@models/theme';
-
-const Hdr = styled.header`
-    height: 60px;
-    line-height: 60px;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-
-    @media all and (max-width: 850px) {
-        line-height: 1.5;
-        padding: 10px 0;
-        height: auto;
-        text-align: center;
-        margin-bottom: 0;
-        display: block;
-
-        #normal-switch {
-            display: none;
-        }
-
-        .hide-on-tablet {
-            display: none;
-        }
-    }
-
-    div.site-title {
-        padding: 0 25px 0 10px;
-        font-weight: 900;
-
-        @media all and (max-width: 809px) {
-            margin-bottom: 15px;
-            padding: 0 10px;
-        }
-
-        a {
-            color: var(--primary-color-1);
-            font-weight: 400;
-            font-size: 1.7rem;
-            letter-spacing: 0.08rem;
-            white-space: nowrap;
-
-            &:hover {
-                color: var(--primary-color-2);
-                text-decoration: none;
-            }
-        }
-    }
-
-    nav {
-        display: flex;
-        width: 100%;
-        justify-content: flex-end;
-        align-items: center;
-
-        @media all and (max-width: 850px) {
-            justify-content: center;
-        }
-
-        @media all and (max-width: 450px) {
-            .search-icon {
-                display: none;
-            }
-        }
-
-        a {
-            padding: 0 14px;
-            font-size: 1.1rem;
-            font-weight: 400;
-            color: var(--primary-color-1);
-            white-space: nowrap;
-
-            @media all and (max-width: 809px) {
-                padding: 0 10px;
-            }
-
-            &:visited {
-                padding: 0 14px;
-                font-size: 1.1rem;
-                font-weight: 400;
-                color: var(--primary-color-1);
-                white-space: nowrap;
-            }
-
-            &:hover {
-                color: var(--primary-color-2);
-                text-decoration: none;
-
-                svg path {
-                    fill: var(--primary-color-2)
-                }
-            }
-
-            svg#rss-svg {
-                max-height: 1.2rem;
-                max-width: 1.2rem;
-                vertical-align: middle;
-                display: inline;
-
-                path {
-                    fill: var(--primary-color-1);
-                }
-            }
-        }
-    }
-`;
-
-const StickyToggle = styled.div`
-    display:none;
-    position: absolute;
-    top: 10px;
-    right: 0px;
-
-    @media all and (max-width: 850px) {
-        display: block;
-    }
-`;
 
 const Header = (): JSX.Element => {
     const { getCurrentTheme } = useTheme();
@@ -156,15 +36,15 @@ const Header = (): JSX.Element => {
 
     return (
         <>
-            <StickyToggle>
+            <div className="sticky-toggle">
                 <LightDarkSwitch
                     id="mobile-switch"
                     onClick={() => {
                         changeMode();
                     }}
                 />
-            </StickyToggle>
-            <Hdr>
+            </div>
+            <header>
                 <div className="site-title">
                     <Link aria-label="Home" href="/"><a>Keith Wagner</a></Link>
                 </div>
@@ -189,7 +69,7 @@ const Header = (): JSX.Element => {
                         onClick={() => changeMode()}
                     />
                 </nav>
-            </Hdr>
+            </header>
             <ThemeSwitcher
                 visible={themeSwitcherVisible}
                 onChangeColor={(color) => changeColor(color)}
