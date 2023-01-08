@@ -1,30 +1,7 @@
-import styled from 'styled-components';
 import Link from 'next/link';
 
-const Ftr = styled.footer`
-    margin: 6rem 0 3rem;
-    padding-top: 1.4rem;
-    text-align: center;
-    border-top: 1px solid var(--grey-1);
-
-    ul {
-        margin-bottom: 1rem;
-
-        li {
-            list-style-type: none;
-            display: inline-block;
-            padding: 0.25rem 1rem;
-        }
-    }
-
-    span.copyright {
-        font-size: 1rem;
-        font-style: italic;
-    }
-`;
-
 const Footer = (): JSX.Element => (
-    <Ftr>
+    <footer>
         <ul className="links">
             <li>
                 <a href="/">Home</a>
@@ -126,7 +103,7 @@ const Footer = (): JSX.Element => (
                 </Link>
             </li>
         </ul>
-    </Ftr>
+    </footer>
 );
 
 export default Footer;
