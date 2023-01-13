@@ -1,0 +1,36 @@
+.container h2 {
+    margin: 25px 0 20px;
+}
+
+.lastUpdate {
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.itemGrid {
+    margin: 0 0 40px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    align-items: start;
+    justify-items: center;
+}
+
+@media all and (max-width: 767px) {
+    .container h1 {
+        font-size: 1.8rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .itemGrid {
+        display: block;
+    }
+}

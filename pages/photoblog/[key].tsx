@@ -1,27 +1,10 @@
-import styled from 'styled-components';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { PhotoBlogItem } from '@models/PhotoBlogItem';
 import photoBlog from '@data/photoBlog';
 import { formatDate } from '@lib/utilities';
 import { getPhotoBlogPages } from '@lib/photoblog';
 
-const PhotoBlogArticle = styled.article`
-    margin: 2rem 0;
-
-    .caption {
-        text-align: center;
-        margin: 1rem 0;
-        padding: 0;
-    }
-
-    .date {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        font-style: italic;
-        color: var(--meta);
-    }
-`;
+import styles from '@css/PhotoBlog.module.css';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getPhotoBlogPages();
@@ -49,15 +32,15 @@ interface PhotoProps {
 }
 
 const Photo = ({ photo }: PhotoProps): JSX.Element => (
-    <PhotoBlogArticle>
+    <article className={styles.photo}>
         <img
             src={`/images/photoblog/${photo.src}`}
             width="100%"
             alt={photo.altText}
         />
-        <p className="caption">{photo.description} ({photo.location})</p>
-        <p className="date">{formatDate(photo.date)}</p>
-    </PhotoBlogArticle>
+        <p className={styles.caption}>{photo.description} ({photo.location})</p>
+        <p className={styles.date}>{formatDate(photo.date)}</p>
+    </article>
 );
 
 export default Photo;

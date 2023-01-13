@@ -1,54 +1,9 @@
 import { useState } from 'react';
 import { HeadingsData } from '@models/HeadingsData';
 import { useHeadingsData } from '@hooks/useHeadingsData';
-import styled from 'styled-components';
 import { useIntersectionObserver } from '@hooks/useIntersectionObserver';
 
-const ToC = styled.nav`
-    position: sticky;
-    position: -webkit-sticky; /* For Safari */
-    top: 24px; /* How far down the page you want your ToC to live */
-
-    /* Give table of contents a scrollbar */
-    max-height: calc(100vh - 40px);
-    overflow: auto;
-    width: 220px;
-
-    a {
-        color: var(--text);
-        text-decoration: none;
-    }
-
-    ul.table-of-contents {
-        margin: 25px 0 0 0;
-        padding-inline-start: 0;
-
-        li {
-            ul {
-                margin: 0 0 0 12px;
-                padding-inline-start: 0;
-            }
-        }
-    }
-
-    li {
-        margin: 8px 0;
-        padding: 0;
-        list-style-type: none;
-    }
-
-    li.active > a {
-        color: var(--primary-color-1);
-    }
-
-    li > a:hover {
-        color: var(--primary-color-2);
-    }
-
-    @media all and (max-width: 600px) {
-        display: none;
-    }
-`;
+import styles from './TableOfContents.module.css';
 
 const Headings = ({ headings, activeId }: { headings: HeadingsData[], activeId: string }) => {
     const handleClick = (id: string) => {
@@ -109,9 +64,9 @@ const TableOfContents = (): JSX.Element => {
     useIntersectionObserver(setActiveId);
 
     return (
-        <ToC aria-label="table-of-contents">
+        <nav className={styles.tableOfContents} aria-label="table-of-contents">
             <Headings headings={nestedHeadings} activeId={activeId} />
-        </ToC>
+        </nav>
     );
 };
 

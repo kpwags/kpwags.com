@@ -1,7 +1,9 @@
 import Link from 'next/link';
 
+import styles from './Footer.module.css';
+
 const Footer = (): JSX.Element => (
-    <footer>
+    <footer className={styles.footer}>
         <ul className="links">
             <li>
                 <a href="/">Home</a>

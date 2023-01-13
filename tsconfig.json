@@ -24,7 +24,8 @@
             "@posts/*": ["posts/*"],
             "@models/*": ["models/*"],
             "@data/*": ["data/*"],
-            "@contexts/*": ["contexts/*"]
+            "@contexts/*": ["contexts/*"],
+            "@css/*": ["css/*"]
         },
         "incremental": true
     },

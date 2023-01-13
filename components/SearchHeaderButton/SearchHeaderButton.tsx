@@ -1,4 +1,5 @@
 import { SearchOutlined } from '@ant-design/icons';
+import styles from './SearchHeaderButton.module.css';
 
 type SearchHeaderButtonProps = {
     onClick: () => void
@@ -8,7 +9,7 @@ const SearchHeaderButton = ({
     onClick,
 }: SearchHeaderButtonProps): JSX.Element => (
     <SearchOutlined
-        className="search-icon"
+        className={styles.searchIcon}
         title="Open Search Bar"
         onClick={onClick}
     />

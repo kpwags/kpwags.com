@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { MDXRemote } from 'next-mdx-remote';
-import styled from 'styled-components';
 import Prism from 'prismjs';
 import { BlogPost } from '@models/blogPost';
 import { formatDate } from '@lib/utilities';
@@ -19,6 +18,8 @@ import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
 import InDepthNotes from '@components/InDepthNotes';
+
+import styles from './BlogEntry.module.css';
 
 // Prism
 import 'prismjs/components';
@@ -47,191 +48,16 @@ const components = {
     InDepthNotes,
 };
 
-const Post = styled.article`
-    h2 {
-        margin: 20px 0;
-    }
-
-    h3 {
-        margin: 20px 0;
-    }
-
-    h4 {
-        margin-bottom: 8px;
-        font-size: 1.3rem;
-        font-weight: 400;
-
-        code {
-            font-size: 1.1rem;
-            font-weight: normal;
-        }
-    }
-
-    .metadata {
-        margin: 0.2rem 0 1.25rem 0;
-        font-style: italic;
-        font-size: 1.2rem;
-        color: var(--meta);
-        font-weight: 300;
-
-        svg {
-            path {
-                fill: var(--meta);
-            }
-        }
-    }
-
-    blockquote {
-        border-left: 8px solid var(--primary-color-2);
-        padding-left: 40px;
-        margin: 30px 0;
-
-        p {
-            font-size: 2rem;
-            font-style: italic;
-            color: var(--primary-color-1);
-        }
-
-        @media all and (max-width: 800px) {
-            padding-left: 20px;
-
-            p {
-                font-size: 1.5rem;
-            }
-        }
-    }
-
-    blockquote.small {
-        border-left: none;
-        padding-left: 20px;
-        margin: 15px 0;
-        font-size: 1.7rem;
-        line-height: 1.75;
-        font-style: italic;
-        color: var(--primary-color-1);
-        margin-bottom: 25px;
-    }
-
-    hr {
-        width: 250px;
-        margin: 40px auto;
-        border-bottom: 1px solid hsl(0, 0%, 87.1%);
-        background-color: transparent;
-    }
-
-    div.centered-image {
-        text-align: center;
-        margin: 30px 0;
-
-        img {
-            max-width: 80%;
-        }
-
-        img.shadowed {
-            box-shadow: var(--box-shadow);
-        }
-
-        .credit {
-            margin: 10px 0;
-            color: var(--grey-1);
-        }
-
-        .caption {
-            margin: 15px 0 10px 0;
-            font-style: italic;
-            color: var(--grey-1);
-        }
-    }
-
-    pre {
-        margin: 25px 40px;
-
-        @media all and (max-width: 1280px) {
-            margin:15px 5px;
-        }
-    }
-
-    p {
-        font-size: 1.5rem;
-        font-weight: 300;
-
-        code {
-            font-size: 1.5rem;
-        }
-
-        a {
-            font-weight: normal;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-
-    .domain-name {
-        font-style: italic;
-        color: var(--meta);
-    }
-
-    .content {
-        ul,
-        ol {
-            font-size: 1.5rem;
-            font-weight: 300;
-            margin: 0 25px 40px 25px;
-
-            li {
-                padding-left: 12px;
-            }
-        }
-
-        &.reading-log {
-            blockquote {
-                border-left: none;
-                padding-left: 20px;
-                margin: 15px 0;
-                font-size: 1.7rem;
-                line-height: 1.75;
-                font-style: italic;
-                color: var(--primary-color-2);
-                margin-bottom: 25px;
-            }
-
-            h3 {
-                color: var(--text);
-            }
-        }
-    }
-`;
-
-const TagList = styled.ul`
-    margin: 36px 0 20px;
-    padding: 0;
-    width: 100%;
-`;
-
-const Tag = styled.li`
-    display: inline-block;
-    list-style-type: none;
-    padding: 0 30px 0 0;
-    line-height: 2;
-    text-transform: uppercase;
-
-    a {
-        white-space: nowrap;
-    }
-`;
-
 interface PostTagsProps {
     tags: BlogTag[]
 }
 
 const PostTags = ({ tags }: PostTagsProps): JSX.Element => (
-    <TagList>
+    <ul className={styles.tagList}>
         {tags.map((t) => (
-            <Tag key={t.url}><Link href={`/tag/${t.url}`}><a>{t.name}</a></Link></Tag>
+            <li key={t.url}><Link href={`/tag/${t.url}`}><a>{t.name}</a></Link></li>
         ))}
-    </TagList>
+    </ul>
 );
 
 interface BlogEntryProps {
@@ -254,7 +80,7 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
 
     return (
         <>
-            <Post className="line-numbers">
+            <article className="article line-numbers">
                 {post.tags.length > 0 && <PostTags tags={post.tags} />}
 
                 <h1>{post.title}</h1>
@@ -277,7 +103,7 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
                         <Utterances issueNumber={post.commentIssueNumber} />
                     </div>
                 )}
-            </Post>
+            </article>
         </>
     );
 };

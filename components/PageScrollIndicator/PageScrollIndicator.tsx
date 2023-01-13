@@ -1,21 +1,6 @@
 import { useEffect } from 'react';
-import styled from 'styled-components';
 
-const ScrollIndicator = styled.div`
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 20px;
-    background: transparent;
-    z-index: 100;
-
-    div {
-        height: 5px;
-        background: var(--primary-color-3);
-        width: 0%;
-    }
-`;
+import styles from './PageScrollIndicator.module.css';
 
 const PageScrollIndicator = (): JSX.Element => {
     const handleScroll = () => {
@@ -24,6 +9,7 @@ const PageScrollIndicator = (): JSX.Element => {
         const scrolled = (scrollCalculate / height) * 100;
 
         const progressBar = document.querySelector('.progress-bar') as HTMLElement;
+
         if (progressBar && progressBar.style) {
             progressBar.style.width = `${scrolled}%`;
         }
@@ -36,9 +22,9 @@ const PageScrollIndicator = (): JSX.Element => {
     }, []);
 
     return (
-        <ScrollIndicator>
+        <div className={styles.scroller}>
             <div className="progress-bar" />
-        </ScrollIndicator>
+        </div>
     );
 };
 

@@ -1,0 +1,23 @@
+.portfolioItem {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    margin: 40px 0;
+    padding: 40px 0;
+}
+
+.portfolioImage div {
+    box-shadow: 0 12px 12px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+@media all and (max-width: 768px) {
+    .portfolioItem {
+        display: block;
+    }
+
+    .portfolioImage {
+        margin-bottom: 25px;
+    }
+}

@@ -1,24 +1,4 @@
 import Head from 'next/head';
-import styled from 'styled-components';
-
-const ContactList = styled.ul`
-    text-align: center;
-    font-size: 1.3rem;
-
-    @media all and (max-width: 450px) {
-        font-size: 1rem;
-    }
-
-    li {
-        display: inline;
-        padding: 0 1.25rem;
-
-        @media all and (max-width: 450px) {
-            display: block;
-            padding: 0.5rem 0;
-        }
-    }
-`;
 
 const Contact = (): JSX.Element => (
     <div className="contact">
@@ -29,10 +9,10 @@ const Contact = (): JSX.Element => (
             If you ever want to get in touch with me, I&apos;m not that hard to get a hold of.
         </p>
 
-        <ContactList>
+        <ul>
             <li><a href="https://hachyderm.io/@kpwags" target="_blank" rel="nofollow noreferrer">Mastodon</a></li>
             <li><a href="https://github.com/kpwags" target="_blank" rel="nofollow noreferrer">GitHub</a></li>
-        </ContactList>
+        </ul>
     </div>
 );
 

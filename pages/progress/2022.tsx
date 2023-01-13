@@ -1,44 +1,12 @@
 import ProgressBar from '@components/ProgressBar';
 import Head from 'next/head';
-import styled from 'styled-components';
 
-const Container = styled.div`
-    width: 1024px;
-    margin: 50px auto 30px auto;
-
-    h1 {
-        margin-bottom: 24px;
-    }
-
-    h3 {
-        margin-bottom: 8px;
-    }
-
-    p {
-        font-size: 1.2rem;
-    }
-
-    hr {
-        width: 250px;
-        margin: 40px auto;
-        border-bottom: 1px solid hsl(0, 0%, 87.1%);
-        background-color: transparent;
-    }
-
-    @media all and (max-width: 1200px) {
-        width: 800px;
-    }
-
-    @media all and (max-width: 850px) {
-        width: 100%;
-        margin: 25px 0;
-    }
-`;
+import styles from '@css/Goals.module.css';
 
 const ProgressFor2022 = (): JSX.Element => (
     <>
         <Head><title>2022 Goal Progress - Keith Wagner</title></Head>
-        <Container>
+        <div className={styles.container}>
             <h1>2022 Goal Progress</h1>
 
             <p>I figured it would be a nice idea to create a page to show my progress on my goals for 2022.</p>
@@ -100,7 +68,7 @@ const ProgressFor2022 = (): JSX.Element => (
 
             <h3>Technical Blog Posts Written</h3>
             <ProgressBar color="hsl(24, 69%, 59%)" fullValue={10} currentValue={7} />
-        </Container>
+        </div>
     </>
 );
 

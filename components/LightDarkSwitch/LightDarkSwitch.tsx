@@ -1,67 +1,16 @@
 /* eslint-disable max-len */
-import styled from 'styled-components';
+
+import styles from './LightDarkSwitch.module.css';
 
 interface LightDarkSwitchProps {
     onClick: () => void
-    id: string
 }
 
-const Switch = styled.svg`
-    max-height: 1.2rem;
-    vertical-align: middle;
-    cursor: pointer;
-
-    @media all and (min-width: 450px) {
-        display: inline-block;
-    }
-
-    rect#togglebutton-rect {
-        stroke: var(--primary-color-1);
-    }
-
-    rect#togglebutton-rect {
-        stroke: var(--primary-color-2);
-    }
-
-    circle#togglebutton-circle-lightmode,
-    circle#togglebutton-circle-darkmode {
-        fill: var(--primary-color-1);
-    }
-
-    &:hover circle#togglebutton-circle-lightmode,
-    &:hover circle#togglebutton-circle-darkmode {
-        fill: var(--primary-color-2);
-    }
-
-    #togglebutton-circle-lightmode {
-        /* display: var(--svg-display-lightmode); */
-        display: var(--display-light-mode);
-    }
-
-    #togglebutton-circle-darkmode {
-        display: var(--display-dark-mode);
-    }
-
-    #togglebutton-star {
-        display: var(--display-light-mode);
-    }
-
-    #togglebutton-sun-ellipse,
-    #togglebutton-sun-star {
-        fill: #fff700;
-    }
-
-    #togglebutton-moon {
-        fill: #363636;
-        display:var(--display-dark-mode);
-    }
-`;
-
-const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => (
-    <Switch
+const LightDarkSwitch = ({ onClick }: LightDarkSwitchProps): JSX.Element => (
+    <svg
         width="64"
         height="64"
-        id={id}
+        className={styles.switch}
         viewBox="0 0 16.933333 8.466667"
         onClick={onClick}
         role="button"
@@ -69,7 +18,7 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
     >
         <g id="layer1">
             <rect
-                id="togglebutton-rect"
+                className={styles.toggleButtonRect}
                 style={{
                     opacity: 1,
                     fill: 'none',
@@ -87,7 +36,7 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
             />
 
             <circle
-                id="togglebutton-circle-lightmode"
+                className={styles.toggleButtonCircleLightMode}
                 style={{
                     fillOpacity: 1,
                     strokeWidth: 0.405981,
@@ -98,7 +47,7 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
             />
 
             <circle
-                id="togglebutton-circle-darkmode"
+                className={styles.toggleButtonCircleDarkMode}
                 style={{
                     fillOpacity: 1,
                     strokeWidth: 0.405981,
@@ -109,11 +58,11 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
             />
 
             <g
-                id="togglebutton-star"
+                className={styles.toggleButtonStar}
                 transform="matrix(1.4921861,0,0,1.4921861,-2.1293234,-1.8964798)"
             >
                 <ellipse
-                    id="togglebutton-sun-ellipse"
+                    className={styles.toggleButtonSunEllipse}
                     style={{
                         fillOpacity: 1,
                         stroke: 'none',
@@ -128,7 +77,7 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
                     ry="0.94877934"
                 />
                 <path
-                    id="togglebutton-sun-star"
+                    className={styles.toggleButtonSunStar}
                     style={{
                         fillOpacity: 1,
                         stroke: 'none',
@@ -142,7 +91,7 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
             </g>
 
             <path
-                id="togglebutton-moon"
+                className={styles.toggleButtonMove}
                 style={{
                     opacity: 1,
                     fillOpacity: 1,
@@ -155,7 +104,7 @@ const LightDarkSwitch = ({ onClick, id }: LightDarkSwitchProps): JSX.Element => 
                 d="m 12.531035,1.951326 a 2.2245468,2.2245468 0 0 0 -0.510973,0.067303 2.2245468,2.2245468 0 0 1 1.492182,2.1005675 2.2245468,2.2245468 0 0 1 -1.681693,2.1572438 2.2245468,2.2245468 0 0 0 0.732365,0.1239795 2.2245468,2.2245468 0 0 0 2.224547,-2.2245471 2.2245468,2.2245468 0 0 0 -2.224547,-2.224547 2.2245468,2.2245468 0 0 0 -0.03187,0 z"
             />
         </g>
-    </Switch>
+    </svg>
 );
 
 export default LightDarkSwitch;

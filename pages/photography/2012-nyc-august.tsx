@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotosetRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2012-nyc-august';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const NewYorkCityAugust2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,18 +19,18 @@ const NewYorkCityAugust2012 = (): JSX.Element => {
     return (
         <>
             <Head><title>New York City (August 2012) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>New York City</h1>
-                <div className="meta">August 10 - 11, 2012</div>
+                <div className={styles.meta}>August 10 - 11, 2012</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         It was a hot weekend in New York City. We were able to go to Grand Central Station,
                         Top of the Rock, and the Intrepid Air & Space Museum.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotosetRow
                     images={[
@@ -69,11 +70,11 @@ const NewYorkCityAugust2012 = (): JSX.Element => {
                     onSelect={selectPhoto}
                 />
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         I was finally able to see a Space Shuttle up close.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotosetRow
                     images={[
@@ -81,7 +82,7 @@ const NewYorkCityAugust2012 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}

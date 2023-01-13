@@ -1,0 +1,50 @@
+.container {
+    margin: 3.2rem auto 2rem auto;
+}
+
+.container h2 {
+    margin: 25px 0 20px;
+}
+
+.lastUpdate {
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.items {
+    margin: 0 0 40px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    justify-items: center;
+}
+
+@media all and (max-width: 900px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .container {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .container h1 {
+        font-size: 1.8rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .items {
+        display: block;
+    }
+}

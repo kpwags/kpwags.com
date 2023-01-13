@@ -1,0 +1,7 @@
+.inDepthNotes {
+    margin-bottom: 2rem;
+}
+
+.inDepthNotes .source {
+    color: var(--text);
+}

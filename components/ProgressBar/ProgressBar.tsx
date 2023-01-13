@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styles from './ProgressBar.module.css';
 
 type ProgressBarProps = {
     color: string
@@ -6,45 +6,6 @@ type ProgressBarProps = {
     fullValue: number
     format?: 'none' | 'money'
 }
-
-const Container = styled.div`
-  display: grid;
-  grid-template-columns: 9fr 3fr;
-  grid-column-gap: 12px;
-
-  @media all and (max-width: 500px) {
-    display: block;
-  }
-`;
-
-const Bar = styled.div`
-    height: 40px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #666;
-    position: relative;
-    margin: 0 0 25px 0;
-
-    @media all and (max-width: 500px) {
-        margin: 0 0 10px 0;
-    }
-`;
-
-const InnerBar = styled.div`
-    height: 100%;
-`;
-
-const BarLegend = styled.p`
-    line-height: 40px;
-    margin: 0;
-    padding: 0;
-
-    @media all and (max-width: 500px) {
-        line-height: 1;
-        margin: 0 0 25px 0;
-        text-align: center;
-    }
-`;
 
 const ProgressBar = ({
     color,
@@ -83,12 +44,12 @@ const ProgressBar = ({
     }
 
     return (
-        <Container>
-            <Bar>
-                <InnerBar style={{ backgroundColor: color, width: `${currentPercentage}%` }} />
-            </Bar>
-            <BarLegend>{formattedCurrentValue} / {formattedFullValue} ({actualPercentage}%)</BarLegend>
-        </Container>
+        <div className={styles.container}>
+            <div className={styles.bar}>
+                <div className={styles.innerBar} style={{ backgroundColor: color, width: `${currentPercentage}%` }} />
+            </div>
+            <p className={styles.barLegend}>{formattedCurrentValue} / {formattedFullValue} ({actualPercentage}%)</p>
+        </div>
     );
 };
 

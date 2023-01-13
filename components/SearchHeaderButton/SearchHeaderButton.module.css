@@ -1,0 +1,22 @@
+.searchIcon {
+    vertical-align: middle;
+    display: inline;
+    padding: 0 14px;
+}
+
+.searchIcon svg {
+    height: 1.2rem;
+    width: 1.2rem;
+    vertical-align: middle;
+    display: inline;
+}
+
+.searchIcon svg path {
+    fill: var(--primary-color-1);
+}
+
+@media all and (max-width: 450px) {
+    .searchIcon {
+        display: none;
+    }
+}

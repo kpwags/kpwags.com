@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 
     let className = '';
 
-    if (['bookshelf', 'movies', 'games', 'podcasts'].includes(Component.name.toLowerCase())) {
+    if (['bookshelf', 'movies', 'games', 'podcasts', 'tvshows'].includes(Component.name.toLowerCase())) {
         className = 'wide';
     }
 

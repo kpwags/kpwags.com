@@ -1,16 +1,12 @@
 import Link from 'next/link';
-import styled from 'styled-components';
-
-const SearchBlock = styled.div`
-    margin: 25px 0;
-`;
+import styles from './SearchLink.module.css';
 
 const SearchLink = (): JSX.Element => (
-    <SearchBlock>
+    <div className={styles.searchBlock}>
         <Link href="/search">
             <a>Search Posts</a>
         </Link>
-    </SearchBlock>
+    </div>
 );
 
 export default SearchLink;

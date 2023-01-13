@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotosetRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2013-aruba';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const Aruba2013 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,17 +19,17 @@ const Aruba2013 = (): JSX.Element => {
     return (
         <>
             <Head><title>Aruba (October 2013) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>Aruba</h1>
-                <div className="meta">October 21 - 28, 2013</div>
+                <div className={styles.meta}>October 21 - 28, 2013</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         Lauren and I went to Aruba for our honeymoon. We stayed in an all-inclusive resort with some great views and scenery.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotosetRow
                     images={[
@@ -98,7 +99,7 @@ const Aruba2013 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}

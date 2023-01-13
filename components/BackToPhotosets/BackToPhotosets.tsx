@@ -1,16 +1,12 @@
 import Link from 'next/link';
-import styled from 'styled-components';
-
-const BackButton = styled.div`
-    margin: 25px 0;
-`;
+import styles from './BackToPhotosets.module.css';
 
 const BackToPhotoset = (): JSX.Element => (
-    <BackButton>
+    <div className={styles.backButton}>
         <Link href="/photography">
             <a>&larr; Back to Photo Sets</a>
         </Link>
-    </BackButton>
+    </div>
 );
 
 export default BackToPhotoset;

@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotoRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2012-nyc-february';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const NewYorkCityJanuary2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,18 +19,18 @@ const NewYorkCityJanuary2012 = (): JSX.Element => {
     return (
         <>
             <Head><title>New York City (February 2012) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>New York City</h1>
-                <div className="meta">February 24 - 25, 2012</div>
+                <div className={styles.meta}>February 24 - 25, 2012</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         Lauren and I ended up going to New York City with my good friend LJ and his now-wife Emily. We did some touristy things by
                         visiting Central Park, the Empire State Building and Rockafeller Plaza.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotoRow
                     images={[
@@ -130,7 +131,7 @@ const NewYorkCityJanuary2012 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}

@@ -1,0 +1,8 @@
+.rating {
+    margin: 0.6rem 0;
+}
+
+.star {
+    padding: 0 4px;
+    display: inline;
+}

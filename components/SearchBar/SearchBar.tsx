@@ -1,11 +1,7 @@
 import SearchForm from '@components/SearchForm';
-import styled from 'styled-components';
 import { useRouter } from 'next/router';
 
-const Bar = styled.div`
-    text-align: center;
-    margin: 12px 0;
-`;
+import styles from './SearchBar.module.css';
 
 type SearchBarProps = {
     visible: boolean
@@ -30,12 +26,12 @@ const SearchBar = ({
     };
 
     return (
-        <Bar hidden={!visible}>
+        <div className={styles.bar} hidden={!visible}>
             <SearchForm
                 id="search-bar"
                 onSearch={handleSearch}
             />
-        </Bar>
+        </div>
     );
 };
 

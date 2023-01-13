@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotoRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2012-cape-may';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const CapeMayApril2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,17 +19,17 @@ const CapeMayApril2012 = (): JSX.Element => {
     return (
         <>
             <Head><title>Cape May (2012) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>Cape May</h1>
-                <div className="meta">April 16 - 17, 2012</div>
+                <div className={styles.meta}>April 16 - 17, 2012</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         Lauren and I went to our favorite beach spot in New Jersey. Cape May is a beautiful shore town on the Southern Tip of New Jersey.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotoRow
                     images={[
@@ -115,7 +116,7 @@ const CapeMayApril2012 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}

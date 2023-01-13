@@ -1,0 +1,21 @@
+.footer {
+    margin: 6rem 0 3rem;
+    padding-top: 1.4rem;
+    text-align: center;
+    border-top: 1px solid var(--grey-1);
+}
+
+.footer ul {
+    margin-bottom: 1rem;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+}
+
+.footer span.copyright {
+    font-size: 1rem;
+    font-style: italic;
+}
