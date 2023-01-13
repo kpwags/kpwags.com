@@ -1,0 +1,22 @@
+.settingsIcon {
+    vertical-align: middle;
+    display: inline;
+    padding: 0 14px;
+}
+
+.settingsIcon svg {
+    height: 1.2rem;
+    width: 1.2rem;
+    vertical-align: middle;
+    display: inline;
+}
+
+.settingsIcon svg path {
+    fill: var(--primary-color-1);
+}
+
+@media all and (max-width: 450px) {
+    .settingsIcon {
+        display: none;
+    }
+}

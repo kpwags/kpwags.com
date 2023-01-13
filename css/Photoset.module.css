@@ -1,0 +1,17 @@
+.photoset {
+    padding: 0 10px;
+}
+
+.meta {
+    margin: 8px 0 25px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.description {
+    margin: 25px 0;
+}
+
+.description p {
+    font-size: 1.15rem;
+}

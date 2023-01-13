@@ -1,98 +1,21 @@
 import Link from 'next/link';
-import styled from 'styled-components';
 
-const LatestPhotosetSection = styled.section`
-    margin: 5rem 0;
-
-    div.heading {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-
-        div.link {
-            text-align: right;
-
-            @media all and (max-width: 450px) {
-                display: none;
-            }
-        }
-
-        @media all and (max-width: 450px) {
-            display: block;
-        }
-    }
-
-    div.mobile-link {
-        text-align: center;
-        display: none;
-        font-size: 1.2rem;
-        margin: 15px 0 0;
-
-        @media all and (max-width: 450px) {
-            display: block;
-        }
-    }
-
-    h2 {
-        margin-bottom: 12px;
-    }
-
-    div.photoset {
-        border: 1px solid var(--meta);
-        padding: 1rem;
-        box-shadow: var(--box-shadow);
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 25px;
-        grid-row-gap: 0px;
-
-        @media all and (max-width: 450px) {
-            display: block;
-        }
-
-        div.image {
-            min-width: 100%;
-            min-height: 100%;
-            object-fit: cover;
-            background-position: 50% 50%;
-
-            @media all and (max-width: 450px) {
-                min-height: 300px;
-            }
-        }
-
-        div.content {
-            padding: 20px 20px 20px 0;
-
-            @media all and (max-width: 450px) {
-                padding: 12px;
-            }
-
-            h3 {
-                font-size: 1.6rem;
-                margin-bottom: 1rem;
-            }
-
-            p {
-                font-size: 1.2rem;
-                margin-bottom: 1rem;
-            }
-        }
-    }
-`;
+import styles from './LatestPhotoset.module.css';
 
 const LatestPhotoset = (): JSX.Element => (
-    <LatestPhotosetSection>
-        <div className="heading">
+    <section className={styles.latestPhotosetSection}>
+        <div className={styles.heading}>
             <h2>Latest Photoset</h2>
             <div className="link">
                 <Link href="/photography"><a>View More</a></Link>
             </div>
         </div>
-        <div className="photoset">
-            <div className="image" style={{ backgroundImage: "url('/photography/thumbnails/2016-vermont.jpg')" }} />
-            <div className="content">
+        <div className={styles.photoset}>
+            <div
+                className={styles.image}
+                style={{ backgroundImage: "url('https://kpwags.com/photography/thumbnails/2016-vermont.jpg')" }}
+            />
+            <div className={styles.content}>
                 <h3>
                     <Link href="/photography/2016-vermont">
                         <a>Vermont</a>
@@ -107,10 +30,10 @@ const LatestPhotoset = (): JSX.Element => (
                 </p>
             </div>
         </div>
-        <div className="mobile-link">
+        <div className={styles.mobileLink}>
             <Link href="/photography"><a>View More</a></Link>
         </div>
-    </LatestPhotosetSection>
+    </section>
 );
 
 export default LatestPhotoset;

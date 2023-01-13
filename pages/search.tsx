@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import styled from 'styled-components';
 import { BlogPost } from '@models/blogPost';
 import { useEffect, useState } from 'react';
 import { getAllPosts } from '@lib/posts';
 import PostListing from '@components/PostListing';
 import { GetStaticProps } from 'next';
 import SearchForm from '@components/SearchForm';
+import styles from '@css/Search.module.css';
 
 export const getStaticProps: GetStaticProps = async () => {
     const blogPosts = getAllPosts();
@@ -17,13 +17,6 @@ export const getStaticProps: GetStaticProps = async () => {
         },
     };
 };
-
-const SearchContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    margin: 25px 0;
-`;
-
 interface SearchProps {
     posts: BlogPost[];
 }
@@ -63,12 +56,12 @@ const Search = ({ posts }: SearchProps): JSX.Element => {
             <Head><title>Search - Keith Wagner</title></Head>
             <h1>Search</h1>
 
-            <SearchContainer>
+            <div className={styles.searchContainer}>
                 <SearchForm
                     id="main-search"
                     onSearch={search}
                 />
-            </SearchContainer>
+            </div>
 
             {hasSearched && searchResults.length === 0 ? (
                 <>

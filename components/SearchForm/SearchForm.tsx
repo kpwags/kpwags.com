@@ -1,28 +1,6 @@
 import { FormEvent } from 'react';
-import styled from 'styled-components';
 
-const SearchFormComponent = styled.form`
-    input {
-        padding: 10px;
-        border-radius: 2px;
-        width: 300px;
-        border: 1px solid var(--black-3);
-        margin-right: 15px;
-    }
-
-    button {
-        background: var(--primary-color-1);
-        color: #fefefe;
-        border:none;
-        padding: 10px 15px;
-        font-weight: normal;
-        cursor: pointer;
-
-        &:hover {
-            background: var(--primary-color-3);
-        }
-    }
-`;
+import styles from './SearchForm.module.css';
 
 type SearchFormProps = {
     id: string
@@ -43,10 +21,11 @@ const SearchForm = ({
     };
 
     return (
-        <SearchFormComponent
+        <form
             onSubmit={search}
         >
             <input
+                className={styles.searchField}
                 id={id}
                 name="keywords"
                 type="text"
@@ -54,8 +33,8 @@ const SearchForm = ({
                 aria-label="Search Keywords"
                 required
             />
-            <button type="submit">Search</button>
-        </SearchFormComponent>
+            <button type="submit" className={styles.searchButton}>Search</button>
+        </form>
     );
 };
 

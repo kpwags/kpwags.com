@@ -1,0 +1,29 @@
+.imageContainer {
+    margin: 30px 0;
+    max-width: 80%;
+}
+
+.imageContainerCentered {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 80%;
+}
+
+.imageContainerShadowed {
+    margin: 30px 0;
+    max-width: 80%;
+    box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.imageContainerCenteredShadowed {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 80%;
+    box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.credit {
+    margin: 10px 35px;
+    color: hsl(0, 0%, 60%);
+    font-style: italic;
+}

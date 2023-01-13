@@ -1,32 +1,7 @@
 import Head from 'next/head';
-import styled from 'styled-components';
 import { GetStaticProps } from 'next';
 import { getFeedbinItems } from '@lib/feedbin';
 import { FeedbinItem } from '@models/FeedbinItem';
-
-const Container = styled.div`
-
-`;
-
-const LikedItemsList = styled.ul`
-    margin: 25px 0;
-    padding: 0;
-
-    li {
-        display: block;
-        list-style-type: none;
-        margin: 24px 0;
-
-        div.title {
-            font-weight: 400;
-            font-size: 1.4rem;
-        }
-
-        div.source {
-            color: var(--meta);
-        }
-    }
-`;
 
 export const getServerSideProps: GetStaticProps = async () => {
     const data = await getFeedbinItems();
@@ -47,7 +22,7 @@ const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
     <>
         <Head><title>Likes - Keith Wagner</title></Head>
 
-        <Container>
+        <div>
             <h1>
                 Articles, Podcasts & <span>Other Likes</span>
             </h1>
@@ -57,7 +32,7 @@ const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
                 me the starred items in a feed. These are my starred items.
             </p>
 
-            <LikedItemsList>
+            <ul className="likes">
                 {likedItems.map((item) => (
                     <li key={item.link}>
                         <div className="title">
@@ -70,8 +45,8 @@ const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
                         </div>
                     </li>
                 ))}
-            </LikedItemsList>
-        </Container>
+            </ul>
+        </div>
     </>
 );
 

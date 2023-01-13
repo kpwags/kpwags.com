@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotosetRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2012-ricketts-glen';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const RickettsGlen2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,18 +19,18 @@ const RickettsGlen2012 = (): JSX.Element => {
     return (
         <>
             <Head><title>Rickett&apos;s Glen (October 2012) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>Rickett&apos;s Glen</h1>
-                <div className="meta">October 18, 2012</div>
+                <div className={styles.meta}>October 18, 2012</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         Rickett&apos;s Glen was always my favorite hike growing up. I still love it, especially in the fall with all the leafs changing colors.
                         The hike is around 7 miles and it takes you along a stream with plenty of waterfalls to admire. Lauren and I went on a cool October day and loved it.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotosetRow
                     images={[
@@ -114,7 +115,7 @@ const RickettsGlen2012 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}

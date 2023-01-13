@@ -1,0 +1,50 @@
+.photosetList {
+    margin: 25px 0;
+    padding: 15px;
+    background: var(--photoset-list-bg);
+}
+
+.photosetList li {
+    list-style-type: none;
+    margin: 0 0 15px 0;
+}
+
+.photosetList li:last-child {
+    margin-bottom: 0;
+}
+
+.photosetList li a {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    line-height: 1;
+}
+
+.photosetList li a:hover {
+    background: var(--photoset-list-hover-bg);
+    text-decoration: none;
+}
+
+.photosetList li a:last-child {
+    margin-bottom: 0;
+}
+
+.info {
+    align-self: center;
+}
+
+.info h2 {
+    margin-bottom: 8px;
+    color: var(--primary-color-1);
+}
+
+.info .date {
+    margin-bottom: 8px;
+    color: var(--text);
+}
+
+.info p {
+    margin: 0;
+    color: var(--text);
+}

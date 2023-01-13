@@ -1,12 +1,8 @@
-import styled from 'styled-components';
 import { PhotoBlogItem } from '@models/PhotoBlogItem';
 import Lightbox from 'react-image-lightbox';
 
 import 'react-image-lightbox/style.css';
-
-const Caption = styled.span`
-    font-size: 1.5rem;
-`;
+import styles from './PhotoBlogLightbox.module.css';
 
 interface PhotoBlogLightboxProps {
     photos: PhotoBlogItem[]
@@ -32,8 +28,7 @@ const PhotoBlogLightbox = ({
         <>
             {visible && (
                 <Lightbox
-                    // imageTitle={(<>{images[index].description}</>)}
-                    imageCaption={(<Caption>{images[index].description}</Caption>)}
+                    imageCaption={(<span className={styles.caption}>{images[index].description}</span>)}
                     mainSrc={images[index].src}
                     nextSrc={images[(index + 1) % images.length].src}
                     prevSrc={images[(index + images.length - 1) % images.length].src}

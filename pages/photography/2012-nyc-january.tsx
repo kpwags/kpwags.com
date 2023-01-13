@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotoRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2012-nyc-january';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const NewYorkCityJanuary2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,19 +19,19 @@ const NewYorkCityJanuary2012 = (): JSX.Element => {
     return (
         <>
             <Head><title>New York City (January 2012) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>New York City</h1>
-                <div className="meta">January 13 - 15, 2012</div>
+                <div className={styles.meta}>January 13 - 15, 2012</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         Lauren and I found a Groupon or LivingSocial deal to a hotel just over the Queensboro bridge so we decided to stay in Queens for
                         a long weekend. One benefit of staying there is that we found a great view over the East River in Long Island City of the Manhattan
                         skyline.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotoRow
                     images={[
@@ -54,11 +55,11 @@ const NewYorkCityJanuary2012 = (): JSX.Element => {
                     onSelect={selectPhoto}
                 />
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         On Saturday, Lauren and I walked around Central Park. We ended up finding some rather brave squirrels.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotoRow
                     images={[
@@ -90,12 +91,12 @@ const NewYorkCityJanuary2012 = (): JSX.Element => {
                     onSelect={selectPhoto}
                 />
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         We ended up going back to the park opposite Manhattan Sunday morning since it was a little nicer out. It was cold, but the blue
                         sky made it worth it.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotoRow
                     images={[
@@ -133,7 +134,7 @@ const NewYorkCityJanuary2012 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}

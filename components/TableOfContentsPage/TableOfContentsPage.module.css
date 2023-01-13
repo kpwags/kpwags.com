@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+
+.mainContent {
+    max-width: 60%;
+}
+
+.mainContent h2,
+.mainContent h3 {
+    scroll-margin-top: 1rem;
+}
+
+@media all and (max-width: 600px) {
+    .mainContent {
+        max-width: 100%;
+    }
+}
+
+@supports (-webkit-hyphens:none) {
+
+    .mainContent h2,
+    .mainContent h3 {
+        padding-top: 16px;
+        margin-top: -16px;
+    }
+}

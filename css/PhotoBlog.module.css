@@ -1,0 +1,45 @@
+.photoGrid {
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-items: center;
+}
+
+.photoGrid button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.loadMore {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.loadMore button {
+    border: var(--primary-color-2);
+    background: var(--primary-color-1);
+    color: var(--background);
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.photo {
+    margin: 2rem 0;
+}
+
+.caption {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.date {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: var(--meta);
+}

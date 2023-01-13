@@ -1,24 +1,14 @@
-import styled from 'styled-components';
-
-const TagHeaderLine = styled.h1`
-    div {
-        font-size: 1.1rem;
-        font-weight: 300;
-    }
-
-    text-transform: uppercase;
-    font-size: 2.4rem;
-`;
+import styles from './TagHeader.module.css';
 
 interface TagHeaderProps {
     name: string
 }
 
 const TagHeader = ({ name }: TagHeaderProps): JSX.Element => (
-    <TagHeaderLine>
-        <div>Posts Tagged</div>
+    <h1 className={styles.tagHeaderLine}>
+        <div className={styles.prefix}>Posts Tagged</div>
         {name}
-    </TagHeaderLine>
+    </h1>
 );
 
 export default TagHeader;

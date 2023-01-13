@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
-import styled from 'styled-components';
 import Image from 'next/image';
 import { GetStaticProps } from 'next';
 import { useEffect, useState } from 'react';
@@ -9,37 +7,7 @@ import PhotoBlogLightbox from '@components/PhotoBlogLightbox';
 import { generatePhotoBlogRssFeed } from '@lib/rss';
 import PhotoBlogRssFeeds from '@components/PhotoBlogRssFeeds';
 
-const PhotoBlogGrid = styled.div`
-    display: grid;
-    margin-top: 25px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    justify-items: center;
-
-    button {
-        border: none;
-        background: transparent;
-        cursor: pointer;
-
-        &:focus {
-            border: none;
-        }
-    }
-`;
-
-const LoadMore = styled.div`
-    text-align: center;
-    margin: 40px 0;
-
-    button {
-        border: var(--primary-color-2);
-        background: var(--primary-color-1);
-        color: var(--background);
-        padding: 8px 16px;
-        cursor: pointer;
-    }
-`;
+import styles from '@css/PhotoBlog.module.css';
 
 export const getStaticProps: GetStaticProps = () => {
     generatePhotoBlogRssFeed();
@@ -87,7 +55,7 @@ const PhotoBlog = (): JSX.Element => {
                     into anything else.
                 </p>
 
-                <PhotoBlogGrid>
+                <div className={styles.photoGrid}>
                     {photos.map((p, idx) => (
                         <button
                             key={p.key}
@@ -103,12 +71,12 @@ const PhotoBlog = (): JSX.Element => {
                             />
                         </button>
                     ))}
-                </PhotoBlogGrid>
+                </div>
 
                 {photos.length < photoBlog.length ? (
-                    <LoadMore>
+                    <div className={styles.loadMore}>
                         <button type="button" onClick={() => loadMore()}>Load More</button>
-                    </LoadMore>
+                    </div>
                 ) : null}
 
                 <PhotoBlogLightbox

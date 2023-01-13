@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotosetRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2014-nyc';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const NewYorkCityApril2014 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,20 +19,20 @@ const NewYorkCityApril2014 = (): JSX.Element => {
     return (
         <>
             <Head><title>New York City (April 2014) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>New York City</h1>
-                <div className="meta">April 24 - 27, 2013</div>
+                <div className={styles.meta}>April 24 - 27, 2013</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         After a few rough weeks at work for both Lauren and I, we decided it would be a good idea for us to take a little mini-vacation.
                         So we decided to take a nice 5 day weekend to New York City.  The weather was absolutely gorgeous as we walked around the city visiting
                         the Brooklyn Bridge and various places in Manhattan.
                         We even ventured into Brooklyn to view the Brooklyn Bridge from a different angle.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotosetRow
                     images={[
@@ -144,7 +145,7 @@ const NewYorkCityApril2014 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}

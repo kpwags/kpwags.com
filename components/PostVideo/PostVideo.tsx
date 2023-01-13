@@ -1,23 +1,9 @@
 /* eslint-disable jsx-a11y/media-has-caption */
-import styled from 'styled-components';
-
-const VideoContainer = styled.div`
-    margin: 30px 0;
-    max-width: 80%;
-
-    &.centered {
-        margin: 30px auto;
-        text-align: center;
-    }
-
-    &.shadowed div {
-        box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
-    }
-`;
+import styles from './PostVideo.module.css';
 
 type PostVideoProps = {
     src: string
-    width: number
+    width?: number
     height?: number
     centered?: boolean
     shadowed?: boolean
@@ -30,17 +16,18 @@ const PostVideo = ({
     centered = true,
     shadowed = false,
 }: PostVideoProps): JSX.Element => {
-    const cssClasses: string[] = [];
+    let cssClass = styles.videoContainer;
 
     if (centered) {
-        cssClasses.push('centered');
+        cssClass = `${cssClass} ${styles.centered}`;
     }
 
     if (shadowed) {
-        cssClasses.push('shadowed');
+        cssClass = `${cssClass} ${styles.shadowed}`;
     }
+
     return (
-        <VideoContainer className={cssClasses.join(' ')}>
+        <div className={cssClass}>
             <video
                 controls
                 width={width}
@@ -53,7 +40,7 @@ const PostVideo = ({
                 />
                 Not Supported
             </video>
-        </VideoContainer>
+        </div>
     );
 };
 

@@ -1,38 +1,15 @@
 /* eslint-disable max-len */
 import Head from 'next/head';
 import Link from 'next/link';
-import styled from 'styled-components';
 import PostImage from '@components/PostImage';
 import ExternalLink from '@components/ExternalLink';
-
-const Container = styled.div`
-    h3 {
-        margin: 15px 0;
-    }
-
-    ul.vscode-plugins {
-        margin:0 0 30px 0;
-        list-style-type: none;
-
-        li {
-            margin: 5px 0;
-        }
-    }
-
-    @media all and (max-width: 600px) {
-        margin: 10px 0;
-
-        ul {
-            margin: 0;
-        }
-    }
-`;
+import styles from '@css/Uses.module.css';
 
 const Uses = (): JSX.Element => (
     <>
         <Head><title>Uses - Keith Wagner</title></Head>
         <h1>What I Use</h1>
-        <Container>
+        <div className={styles.container}>
             <p><em>Last Updated: July 2022</em></p>
             <h2 id="computers">Computers</h2>
 
@@ -239,7 +216,7 @@ const Uses = (): JSX.Element => (
             <p>
                 Visual Studio Code has an amazing suite of plugins to make development easier and faster.
             </p>
-            <ul className="vscode-plugins">
+            <ul className={styles.vscodePlugins}>
                 <li><ExternalLink href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag">Auto Close Tag</ExternalLink></li>
                 <li><ExternalLink href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto Rename Tag</ExternalLink></li>
                 <li><ExternalLink href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp">C#</ExternalLink></li>
@@ -358,7 +335,7 @@ const Uses = (): JSX.Element => (
                 much of our smart lighting. We have under cabinet lights and light bulbs in our living room
                 that allow for integration into the Google ecosystem.
             </p>
-        </Container>
+        </div>
     </>
 );
 

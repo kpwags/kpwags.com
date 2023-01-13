@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
-import VideoGames from '@models/VideoGames';
+import { VideoGames } from '@models/VideoGames';
 
 const games: VideoGames = {
     lastUpdate: 'December 2022',

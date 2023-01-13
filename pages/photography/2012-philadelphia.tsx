@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import PhotosetRow from '@components/PhotosetRow';
 import photoset from '@data/photosets/2012-philadelphia';
-import { Photoset, PhotosetDescription } from '@lib/PhotosetStyles';
 import PhotosetLightbox from '@components/PhotosetLightbox';
 import BackToPhotoset from '@components/BackToPhotosets';
+
+import styles from '@css/Photoset.module.css';
 
 const Philadelphia2012 = (): JSX.Element => {
     const [photoIndex, setPhotoIndex] = useState<number>(0);
@@ -18,17 +19,17 @@ const Philadelphia2012 = (): JSX.Element => {
     return (
         <>
             <Head><title>Philadelphia (June 2012) - Keith Wagner</title></Head>
-            <Photoset>
+            <main className={styles.photoset}>
                 <BackToPhotoset />
 
                 <h1>Philadelphia</h1>
-                <div className="meta">June 16, 2012</div>
+                <div className={styles.meta}>June 16, 2012</div>
 
-                <PhotosetDescription>
+                <div className={styles.description}>
                     <p>
                         It was a beautiful day, so Lauren and I wandered into Philadelphia and walked around.
                     </p>
-                </PhotosetDescription>
+                </div>
 
                 <PhotosetRow
                     images={[
@@ -75,7 +76,7 @@ const Philadelphia2012 = (): JSX.Element => {
                     ]}
                     onSelect={selectPhoto}
                 />
-            </Photoset>
+            </main>
             <PhotosetLightbox
                 photoset={photoset}
                 index={photoIndex}
