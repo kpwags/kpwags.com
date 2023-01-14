@@ -380,6 +380,19 @@ div.cover.about {
     font-size: 1.2rem;
     color: var(--meta);
     font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.article .metadata .separator {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.article .metadata svg {
+    display: inline-block;
+    margin-right: 1rem;
 }
 
 .article .metadata svg path {

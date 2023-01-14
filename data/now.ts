@@ -4,10 +4,10 @@ const now: CurrentlyDoing = {
     lastUpdate: 'January 2023',
     reading: [
         {
-            title: 'The Bond King: How One Man Made a Market, Built an Empire, and Lost it All',
-            author: 'Mary Childs',
-            cover: 'bondking.jpg',
-            link: 'https://bookshop.org/p/books/the-bond-king-how-one-man-made-a-market-built-an-empire-and-lost-it-all-mary-childs/15873505?ean=9781250120847',
+            title: 'The Bomb: Presidents, Generals, and the Secret History of Nuclear War',
+            author: 'Fred Kaplan',
+            cover: 'the_bomb.jpg',
+            link: 'https://bookshop.org/p/books/the-bomb-presidents-generals-and-the-secret-history-of-nuclear-war-fred-kaplan/7774644?ean=9781982107307',
             rating: null,
             thoughts: null,
             imageFolder: 'books',

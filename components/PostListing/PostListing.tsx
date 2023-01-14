@@ -17,7 +17,7 @@ const PostListing = ({
 }: PostListingProps): JSX.Element => (
     <article key={post.id} className={showBorder ? styles.boxedArticle : styles.article}>
         <h2><Link href={post.url}><a>{post.title}</a></Link></h2>
-        <div className="metadata">
+        <div className={styles.metadata}>
             {formatDate(post.date)}
             {post.readTime ? <> &mdash; {post.readTime} min read</> : null}
         </div>

@@ -12,11 +12,43 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'December 2022',
+    lastUpdate: 'January 2023',
     years: [
+        {
+            year: '2023',
+            movies: [
+                {
+                    title: 'Jurassic World: Dominion',
+                    cover: 'jurassicworlddominion.jpg',
+                    link: 'https://www.imdb.com/title/tt8041270/',
+                    dateWatched: 'January 7, 2022',
+                    rating: 2,
+                    imageFolder: 'movies',
+                    thoughts: "Definitely glad I didn't see this in the theaters. Nothing compares to the first Jurassic Park movie.",
+                },
+                {
+                    title: 'Glass Onion',
+                    cover: 'glassonion.jpg',
+                    link: 'https://www.imdb.com/title/tt11564570/',
+                    dateWatched: 'January 1, 2023',
+                    rating: 4,
+                    imageFolder: 'movies',
+                    thoughts: 'This had a good cast and Daniel Craig was fantastic. Definitely some good twists.',
+                },
+            ],
+        },
         {
             year: '2022',
             movies: [
+                {
+                    title: 'Elysium',
+                    cover: 'elysium.jpg',
+                    link: 'https://www.imdb.com/title/tt1535108/',
+                    dateWatched: 'December 31, 2022',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: "It wasn't quite as good as I expected and kind of predictable, but I still enjoyed it.",
+                },
                 {
                     title: 'Star Trek: Generations',
                     cover: 'startrekgenerations.jpg',

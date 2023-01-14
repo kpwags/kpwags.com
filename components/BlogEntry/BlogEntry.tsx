@@ -87,7 +87,7 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
                 <div className="metadata">
                     <ClockCircleOutlined /> {formatDate(post.date)}
                     {post.readTime ? (
-                        <> &mdash; <ReadOutlined /> {post.readTime} min read</>
+                        <><span className="separator">&mdash;</span><ReadOutlined /> {post.readTime} min read</>
                     ) : null}
                 </div>
 
