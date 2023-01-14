@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2023',
             books: [
                 {
+                    title: 'The Bond King: How One Man Made a Market, Built an Empire, and Lost it All',
+                    author: 'Mary Childs',
+                    cover: 'bondking.jpg',
+                    link: 'https://bookshop.org/p/books/the-bond-king-how-one-man-made-a-market-built-an-empire-and-lost-it-all-mary-childs/15873505?ean=9781250120847',
+                    rating: 3,
+                    thoughts: "I've heard of Pimco and of Bill Gross. This was an interesting read into his history and a bit of an internal look at trading companies.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'Snow Crash',
                     author: 'Neal Stephenson',
                     cover: 'snow_crash.jpg',

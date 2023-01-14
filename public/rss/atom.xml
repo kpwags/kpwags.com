@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-01-13T23:02:26.749Z</updated>
+    <updated>2023-01-14T00:08:36.942Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,46 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - January 13 (#14)]]></title>
+        <id>https://kpwags.com/posts/2023/01/13/reading-log-january-13-14</id>
+        <link href="https://kpwags.com/posts/2023/01/13/reading-log-january-13-14"/>
+        <updated>2023-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A little light this week. Identity thieves targeted a credit reporting agency, a look at the podcasting market, and more.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>A little light this week. Identity thieves targeted a credit reporting agency, a look at the podcasting market, and more.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Nilay Patel:</span> <a href="https://www.theverge.com/23547877/decoder-chokepoint-capitalism-cory-doctorow-rebecca-giblin-spotify-ticketmaster-antitrust">What is chokepoint capitalism, with authors Cory Doctorow and Rebecca Giblin</a></h3><p>I read this <em>Chokepoint Capitalism</em> last year and even wrote <a href="https://kpwags.com/posts/2022/12/07/chokepoint-capitalism-a-review">a post reviewing it</a>. I think in today&#x27;s current market, it&#x27;s important to keep in mind how corporations are affecting the ability of people to make a living.</p></div>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Dylan Roth:</span> <a href="https://www.polygon.com/23547617/deep-space-nine-star-trek-ds9-watch-analysis">Deep Space Nine was ahead of its time for all the reasons it was Star Trek&#x27;s &#x27;problem child&#x27;</a></h3><p>Star Trek DS9 is my absolute favorite TV series, it&#x27;s the series I very often re-watch. It was the first Star Trek series to have an overarching story across all episodes. With <em>The Original Series</em> and <em>The Next Generation</em>, you could just turn an episode on and generally be fine. DS9 broke that mold which would occasionally make it hard to fully understand what was going on in some episodes. It was also based on a space station rather than a moving starship.</p><p>It dove into some ethical gray areas and didn&#x27;t have the same feel of “Utopia” that was often seen in <em>The Next Generation</em>. It didn&#x27;t pull punches. It also had two of the best villains in all of Trek. While I&#x27;m sure the statute of limitations is over for spoilers given that the series ended over 20 years ago, but I would highly recommend this series.</p></div>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://johnnyreilly.com/2022/09/20/react-usesearchparamsstate">React: storing state in URL with URLSearchParams</a> <em>(John Reilly)</em></p>
+<p><a href="https://endjin.com/blog/2023/01/dotnet-csharp-lazy-async-initialization">Lazy and once-only C# async initialization</a> <em>(Ian Griffiths)</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://arstechnica.com/gadgets/2023/01/apple-rolls-out-ai-narrated-audiobooks-and-its-probably-the-start-of-trend/">Apple rolls out AI-narrated audiobooks, and it&#x27;s probably the start of a trend</a> <em>(Samuel Axon)</em></p>
+<p><a href="https://krebsonsecurity.com/2023/01/identity-thieves-bypassed-experian-security-to-view-credit-reports/">Identity Thieves Bypassed Experian Security to View Credit Reports</a> <em>(KrebsOnSecurity)</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.wsj.com/articles/your-coworkers-are-less-ambitious-bosses-adjust-to-the-new-order-11672441067">Your Coworkers Are Less Ambitious; Bosses Adjust to the New Order</a> <em>(Lindsay Ellis &amp; Ray A. Smith)</em></p>
+<p><a href="https://www.bloomberg.com/news/articles/2023-01-04/the-great-podcasting-market-correction">The Great Podcasting Market Correction</a> <em>(Ashley Carman &amp; Lucas Shaw)</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://darknetdiaries.com/episode/119/">Darknet Diaries #119: Hot Wallets</a></p>
+<p><a href="https://99percentinvisible.org/episode/meet-us-by-the-fountain/">99% Invisible #495: Meet Us by the Fountain</a></p>
+<p><a href="https://freakonomics.com/podcast/103-pieces-of-advice-that-may-or-may-not-work/">Freakonomics #507: 103 Pieces of Advice That May or May Not Work</a></p>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://cdevroe.com/2023/01/11/blogging-is-alive">Blogging is alive and well</a> <em>(Colin Devroe)</em></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Fireworks - Arrows</h4>
+<p><a href="https://www.youtube.com/watch?v=HZxk1l3u7OQ" title="Fireworks - Arrows">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Books I Read in 2022]]></title>
         <id>https://kpwags.com/posts/2023/01/07/books-i-read-in-2022</id>
