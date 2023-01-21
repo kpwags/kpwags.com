@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2023',
             books: [
                 {
+                    title: 'The Bomb: Presidents, Generals, and the Secret History of Nuclear War',
+                    author: 'Fred Kaplan',
+                    cover: 'the_bomb.jpg',
+                    link: 'https://bookshop.org/p/books/the-bomb-presidents-generals-and-the-secret-history-of-nuclear-war-fred-kaplan/7774644?ean=9781982107307',
+                    rating: 4,
+                    thoughts: "This was an excellent read. It was interesting to see how the presidents from Truman to Trump thought about nuclear weapons and how we've managed to avoid using them. The work revealed from many in the Department of Defense and other experts was fascinating.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'The Bond King: How One Man Made a Market, Built an Empire, and Lost it All',
                     author: 'Mary Childs',
                     cover: 'bondking.jpg',
@@ -210,7 +219,7 @@ const BooksRead: BookList = {
                     rating: 4,
                     imageFolder: 'books',
                     thoughts:
-                        'I enjoyed this book. It had a good story that pulled you in. As a space fan, I definitely enjoyed the tie-ins with the Apollo program. The ending wasn’t my favorite part, but it did tidy up the story arcs. Would still recommend it to anyone.',
+                        "I enjoyed this book. It had a good story that pulled you in. As a space fan, I definitely enjoyed the tie-ins with the Apollo program. The ending wasn't my favorite part, but it did tidy up the story arcs. Would still recommend it to anyone.",
                 },
                 {
                     title: 'Leviathan Falls',

@@ -4,10 +4,10 @@ const now: CurrentlyDoing = {
     lastUpdate: 'January 2023',
     reading: [
         {
-            title: 'The Bomb: Presidents, Generals, and the Secret History of Nuclear War',
-            author: 'Fred Kaplan',
-            cover: 'the_bomb.jpg',
-            link: 'https://bookshop.org/p/books/the-bomb-presidents-generals-and-the-secret-history-of-nuclear-war-fred-kaplan/7774644?ean=9781982107307',
+            title: 'The Bomber Mafia',
+            author: 'Malcolm Gladwell',
+            cover: 'bombermafia.jpg',
+            link: 'https://bookshop.org/p/books/the-bomber-mafia-a-dream-a-temptation-and-the-longest-night-of-the-second-world-war-malcolm-gladwell/17377135?ean=9780316296816',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
