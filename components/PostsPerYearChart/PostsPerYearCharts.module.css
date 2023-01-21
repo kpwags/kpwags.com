@@ -1,0 +1,54 @@
+.mainContainer {
+    margin-top: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    grid-column-gap: 12px;
+}
+
+.bar {
+    height: 40px;
+    position: relative;
+    margin: 0 0 25px 0;
+}
+
+.innerBar {
+    height: 100%;
+}
+
+.barTitle {
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.barTitle .mobile {
+    display: none;
+}
+
+.barLegend {
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        display: block;
+    }
+
+    .bar {
+        margin: 0 0 10px 0;
+    }
+
+    .barLegend {
+        display: none;
+    }
+
+    .barTitle .mobile {
+        display: inline;
+    }
+}
