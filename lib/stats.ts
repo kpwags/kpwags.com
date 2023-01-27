@@ -1,9 +1,12 @@
 import { BlogPost } from '@models/blogPost';
+import { BlogTag } from '@models/BlogTag';
 import { PostsPerTag, PostsPerYear, Stats } from '@models/Stats';
 import { getAllPosts } from './posts';
 
+const getPostYear = (postDate: string): number => parseInt(postDate.substring(0, 4), 10);
+
 export const getPostsPerYear = (posts: BlogPost[]): PostsPerYear[] => {
-    const allYears = posts.map((p) => parseInt(p.date.toString().substring(0, 4), 10));
+    const allYears = posts.map((p) => getPostYear(p.date.toString()));
 
     const years = [...new Set(allYears)];
 
@@ -12,7 +15,7 @@ export const getPostsPerYear = (posts: BlogPost[]): PostsPerYear[] => {
     for (let i = 0; i < years.length; i += 1) {
         postsPerYear.push({
             year: years[i],
-            count: posts.filter((p) => p.date.toString().substring(0, 4) === years[i].toString()).length,
+            count: posts.filter((p) => getPostYear(p.date.toString()) === years[i]).length,
         });
     }
 
@@ -21,23 +24,23 @@ export const getPostsPerYear = (posts: BlogPost[]): PostsPerYear[] => {
 
 export const getPopularTags = (posts: BlogPost[], limit = 10): PostsPerTag[] => {
     const postsPerTag: PostsPerTag[] = [];
+    let tagArray: BlogTag[] = [];
 
     for (let i = 0; i < posts.length; i += 1) {
         const { tags } = posts[i];
 
-        tags.forEach((tag) => {
-            const tagRecord = postsPerTag.find((p) => p.tag === tag.name);
-            if (tagRecord) {
-                postsPerTag.find((p) => p.tag === tag.name).count += 1;
-            } else {
-                postsPerTag.push({
-                    tag: tag.name,
-                    url: tag.url,
-                    count: 1,
-                });
-            }
-        });
+        tagArray = [...tagArray, ...tags];
     }
+
+    const uniqueTags = [...new Set(tagArray.map((t) => t.url))];
+
+    uniqueTags.forEach((tagUrl) => {
+        postsPerTag.push({
+            name: tagArray.find((t) => t.url === tagUrl).name,
+            url: tagUrl,
+            count: tagArray.filter((t) => t.url === tagUrl).length,
+        });
+    });
 
     return postsPerTag.length <= limit
         ? postsPerTag

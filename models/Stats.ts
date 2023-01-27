@@ -4,7 +4,7 @@ export interface PostsPerYear {
 }
 
 export interface PostsPerTag {
-    tag: string;
+    name: string;
     url: string;
     count: number;
 }
