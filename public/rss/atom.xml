@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-01-21T02:28:07.445Z</updated>
+    <updated>2023-01-27T13:45:44.016Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,55 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - January 27 (#16)]]></title>
+        <id>https://kpwags.com/posts/2023/01/27/reading-log-january-27-16</id>
+        <link href="https://kpwags.com/posts/2023/01/27/reading-log-january-27-16"/>
+        <updated>2023-01-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A lot of CSS related posts this week. Also, Astro v2.0 was released this week. I&#39;ve been toying with building something in it, and it looks like it&#39;s added a bunch of good stuff. And one of my favorite games as a kid has been re-launched on the Xbox and the Switch!]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>A lot of CSS related posts this week. Also, Astro v2.0 was released this week. I&#x27;ve been toying with building something in it, and it looks like it&#x27;s added a bunch of good stuff. And one of my favorite games as a kid has been re-launched on the Xbox and the Switch!</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Antoine Toulon:</span> <a href="https://dev.to/antoinecoulon/dont-target-100-coverage-387o">Don&#x27;t target 100% coverage</a></h3><p>I gave a talk to my company about unit testing last year and one thing that stood out to me was the idea that 100% coverage doesn&#x27;t always mean “good code”, but low coverage is a sign of potential issues. Antoine echoes that sentiment and is right here pointing out that just because you have 100% coverage, doesn&#x27;t mean that the tests are useful.</p></div>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/">20 Things I&#x27;ve Learned in my 20 Years as a Software Engineer</a> <em>(Justin Etheredge)</em></p>
+<p><a href="https://blog.silverorange.com/efficiency-over-performance">Efficiency over performance</a> <em>(Steven Garrity)</em></p>
+<p><a href="https://anthonyhobday.com/sideprojects/saferules/">Visual design rules you can safely follow every time</a> <em>(Anthony Hobday)</em></p>
+<p><a href="https://www.stefanjudis.com/blog/a-css-based-background-grid-generator/">A CSS-based background grid generator</a> <em>(Stefan Judis)</em></p>
+<p><a href="https://daverupert.com/2023/01/css-wishlist-2023/">CSS Wishlist 2023</a> <em>(Dave Rupert)</em></p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/keyboard-shortcuts-to-master-your-git-flow-in-visual-studio/">Keyboard Shortcuts to Master Your Git Flow in Visual Studio</a> <em>(Jessie Houghton)</em></p>
+<p><a href="https://astro.build/blog/astro-2/">Astro 2.0</a> <em>(Fred Schott)</em></p>
+<p><a href="https://ishadeed.com/article/conditional-css/">Conditional CSS</a> <em>(Ahmad Shadeed)</em></p>
+<p><a href="https://andrewlock.net/series/behind-the-scenes-of-minimal-apis/">Behind the scenes of minimal APIs</a> <em>(Andrew Lock)</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.theverge.com/2023/1/20/23563851/google-search-ai-chatbot-demo-chatgpt">Google is freaking out about ChatGPT</a> <em>(Richard Lawler &amp; James Vincent)</em></p>
+<p><a href="http://www.righto.com/2023/01/inside-globus-ink-mechanical-navigation.html">Inside the Globus INK: a mechanical navigation computer for Soviet spaceflight</a> <em>(Ken Shirriff]</em></p>
+<p><a href="https://www.theverge.com/2023/1/24/23568901/microsoft-edge-tab-split-window-feature">Microsoft Edge will soon let you split two tabs in a single window</a> <em>(Tom Warren)</em></p>
+<h3>🎮 Gaming</h3>
+<p><a href="https://www.polygon.com/23573980/goldeneye-controls-switch-xbox">GoldenEye controls better on Xbox than on Switch</a> <em>(Old Welsh)</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.economist.com/leaders/2023/01/26/the-humbling-of-goldman-sachs?etear=nl_weekly_1">The humbling of Goldman Sachs</a> <em>(The Economist)</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://www.planetary.org/articles/a-deep-dive-into-the-neptune-system-with-jwst">A deep dive into the Neptune system with JWST</a> <em>(Heidi Hammer &amp; Naomi Rowe-Gurney)</em></p>
+<p><a href="https://www.scientificamerican.com/article/volcanic-activity-on-mars-upends-red-planet-assumptions/">Volcanic Activity on Mars Upends Red Planet Assumptions</a> <em>(Phil Plait)</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.npr.org/2023/01/20/1150332566/charles-ponzi-financial-scam">Planet Money #1608: Charles Ponzi&#x27;s scheme</a></p>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://georgestocker.com/2023/01/22/can-we-kill-the-word-project-please/">Can we kill the word &#x27;project&#x27; please?</a> <em>(George Stocker)</em></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>GoldenEye 007 N64 - Full Soundtrack</h4>
+<p><a href="https://www.youtube.com/watch?v=M1MPVbZ-vTg" title="GoldenEye 007 N64 - Full Soundtrack">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - January 20 (#15)]]></title>
         <id>https://kpwags.com/posts/2023/01/20/reading-log-january-20-15</id>
