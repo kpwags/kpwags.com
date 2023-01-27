@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2023',
             books: [
                 {
+                    title: 'The Bomber Mafia',
+                    author: 'Malcolm Gladwell',
+                    cover: 'bombermafia.jpg',
+                    link: 'https://bookshop.org/p/books/the-bomber-mafia-a-dream-a-temptation-and-the-longest-night-of-the-second-world-war-malcolm-gladwell/17377135?ean=9780316296816',
+                    rating: 4,
+                    thoughts: 'This was a good read, especially after having just finished The Bomb. It was interesting reading about how the different early Army Air Corps officers felt about and used their new weapons of war.',
+                    imageFolder: 'books',
+                },
+                {
                     title: 'The Bomb: Presidents, Generals, and the Secret History of Nuclear War',
                     author: 'Fred Kaplan',
                     cover: 'the_bomb.jpg',

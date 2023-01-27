@@ -49,14 +49,14 @@ const MostPopularTagsChart = ({
         let colorIdx = 0;
 
         for (let i = 0; i < stats.length; i += 1) {
-            const { tag, url, count } = stats[i];
+            const { name: tag, url, count } = stats[i];
 
             if (colorIdx >= availableColors.length) {
                 colorIdx = 0;
             }
 
             chartData.push({
-                tag,
+                name: tag,
                 url,
                 count,
                 color: availableColors[colorIdx],
@@ -76,12 +76,12 @@ const MostPopularTagsChart = ({
     return (
         <div className={styles.mainContainer}>
             {tagData.map((d) => (
-                <div key={d.tag} className={styles.container}>
+                <div key={d.name} className={styles.container}>
                     <p className={styles.barTitle}>
                         <Link href={`/tag/${d.url}`}>
-                            <a>{d.tag}</a>
+                            <a>{d.name}</a>
                         </Link>
-                        <span className="mobile">&nbsp;({d.count})</span>
+                        <span className={styles.mobileStats}>&nbsp;({d.count})</span>
                     </p>
                     <div className={styles.bar}>
                         <div className={styles.innerBar} style={{ backgroundColor: d.color, width: `${d.percentage}%` }} />

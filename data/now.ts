@@ -4,10 +4,10 @@ const now: CurrentlyDoing = {
     lastUpdate: 'January 2023',
     reading: [
         {
-            title: 'The Bomber Mafia',
-            author: 'Malcolm Gladwell',
-            cover: 'bombermafia.jpg',
-            link: 'https://bookshop.org/p/books/the-bomber-mafia-a-dream-a-temptation-and-the-longest-night-of-the-second-world-war-malcolm-gladwell/17377135?ean=9780316296816',
+            title: 'American Nations',
+            author: 'Colin Woodard',
+            cover: 'american_nations.jpg',
+            link: 'https://bookshop.org/p/books/american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america-colin-woodard/16638225?ean=9780143122029',
             rating: null,
             thoughts: null,
             imageFolder: 'books',

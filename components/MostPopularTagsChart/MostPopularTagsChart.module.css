@@ -24,7 +24,7 @@
     padding: 0;
 }
 
-.barTitle .mobile {
+.mobileStats {
     display: none;
 }
 
@@ -56,7 +56,7 @@
         display: none;
     }
 
-    .barTitle .mobile {
+    .mobileStats {
         display: inline;
     }
 }
