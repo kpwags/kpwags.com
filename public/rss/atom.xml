@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-01-27T13:45:44.016Z</updated>
+    <updated>2023-02-03T23:57:49.243Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,375 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - February 3 (#17)]]></title>
+        <id>https://kpwags.com/posts/2023/02/03/reading-log-february-3-17</id>
+        <link href="https://kpwags.com/posts/2023/02/03/reading-log-february-3-17"/>
+        <updated>2023-02-03T23:45:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we look at the next version of TypeScript, the new version of EntityFramework, a big acquisition at Netlify and more.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>This week we look at the next version of TypeScript, the new version of EntityFramework, a big acquisition at Netlify and more.</p>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://itnext.io/make-your-react-tests-easier-to-write-understand-and-maintain-9fa769381d62">Make Your React Tests Easier to Write, Understand and Maintain</a> <em>(Andrew Smith)</em></p>
+<p><a href="https://www.bekk.christmas/post/2022/20/you-should-write-react-in-fsharp">You should write React in F#</a> <em>(Bjørn-Ivar Strøm)</em></p>
+<p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-beta/">Announcing TypeScript 5.0 Beta</a> <em>(Daniel Rosenwasser)</em></p>
+<p><a href="https://www.telerik.com/blogs/whats-new-ef-core-7.0">What&#x27;s New in EF Core 7.0</a> <em>(Assis Zang)</em></p>
+<p><a href="https://www.telerik.com/blogs/making-asynchronous-breakfast-dotnet">Making an Asynchronous Breakfast in .NET</a> <em>(Assis Zang)</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.techdirt.com/2023/02/03/colorado-supreme-court-to-hear-challenge-of-reverse-keyword-warrant-served-to-google/">Colorado Supreme Court To Hear Challenge Of Reverse Keyword Warrant Served To Google</a> <em>(Tim Cushing)</em></p>
+<p><a href="https://www.nytimes.com/2023/02/03/health/apple-watch-911-emergency-call.html">&#x27;My Watch Thinks I&#x27;m Dead&#x27;</a> <em>(Matt Richtel)</em></p>
+<p><a href="https://www.techdirt.com/2023/02/03/google-tells-court-that-gop-should-look-at-its-own-email-practices-rather-than-blaming-gmail/">Google Tells Court That GOP Should Look At Its Own Email Practices Rather Than Blaming Gmail</a> <em>(Mike Masnick)</em></p>
+<h3>🎮 Gaming</h3>
+<p><a href="https://kotaku.com/last-of-us-hbo-nick-offerman-bill-banjo-kazooie-n64-1850065488">Last Of Us Star Was Afraid This N64 Classic Would Ruin His Life</a> <em>(Levi Winslow)</em></p>
+<p><a href="https://www.theverge.com/2023/2/3/23583414/myst-mobile-ios-ipad-remastered-3d-cyan">A remastered version of Myst is coming to iOS</a> <em>(Allison Johnson)</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.etoro.com/en-us/news-and-analysis/market-insights/earnings-vs-economic-recession-whats-the-difference/">Earnings vs. economic recession: What&#x27;s the difference?</a> <em>(Callie Cox)</em></p>
+<p><a href="https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/">Netlify Acquires Gatsby</a> <em>(Netlify)</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://www.science.org/content/article/light-pollution-drowning-starry-night-sky-faster-thought">Light pollution is drowning the starry night sky faster than thought</a> <em>(Joshua Sokol)</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.economist.com/alcohol-pod">Babbage: How alternatives to alcohol could save lives</a></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Slipknot vs. Justin Bieber - Psychosocial Baby</h4>
+<p><a href="https://www.youtube.com/watch?v=kspPE9E1yGM" title="Slipknot vs. Justin Bieber - Psychosocial Baby">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Stats Page]]></title>
+        <id>https://kpwags.com/posts/2023/02/03/building-a-stats-page</id>
+        <link href="https://kpwags.com/posts/2023/02/03/building-a-stats-page"/>
+        <updated>2023-02-03T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the rebirth of personal sites as a content platform, I’ve seen a lot of people making a page dedicated to different statistics about their sites. I figured it was time for me to get in on the action.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                <p><em>This post is for the <a href="https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
+                <p>With the rebirth of personal sites as a content platform, I’ve seen a lot of people making a page dedicated to different statistics about their sites. I figured it was time for me to get in on the action.</p>
+<p>When I first thought to do this, I wasn’t sure what stats to include. I don’t have analytics on my site as I question the privacy implications. The only initial thought I had was posts per year. That was something I could easily gather given that all my posts are in a single folder and all of them have their date in both their filename and their metadata.</p>
+<h2>Posts by Year</h2>
+<p>The first task was to get a list of all my posts, this is pretty simple since I already do this to load my posts.</p>
+<pre><code class="language-typescript">export const getStats = (): Stats =&gt; {
+    const posts = getAllPosts();
+
+    return {
+        PostsPerYear: [],
+    };
+};
+</code></pre>
+<p>The next step was to go through the posts and break down the years and the number of posts per year.</p>
+<pre><code class="language-typescript">const getPostYear = (postDate: string): number =&gt; parseInt(postDate.substring(0, 4), 10);
+
+export const getPostsPerYear = (posts: BlogPost[]): PostsPerYear[] =&gt; {
+    const allYears = posts.map((p) =&gt; getPostYear(p.date.toString()));
+
+    const years = [...new Set(allYears)];
+
+    const postsPerYear: PostsPerYear[] = [];
+
+    for (let i = 0; i &lt; years.length; i += 1) {
+        postsPerYear.push({
+            year: years[i],
+            count: posts.filter((p) =&gt; getPostYear(p.date.toString()) === years[i]).length,
+    }
+
+    return postsPerYear;
+};
+</code></pre>
+<p>The first thing I do is get a list of the years from all the posts. There will be a lot of duplicates here, so I use JavaScript’s <code>Set</code> object to create a unique list.</p>
+<h3>An Aside</h3>
+<pre><code class="language-typescript">const years = [...new Set(allYears)];
+</code></pre>
+<p>By passing in an array to the <code>Set</code> constructor, and spreading it into an array, it will remove duplicates and create a distinct list...quite useful.</p>
+<h3>Back to the Point</h3>
+<p>At this point I have an array of years with their associated number of posts</p>
+<pre><code class="language-js">[
+	{ year: 2013, count: 11 },
+	{ year: 2014, count: 14 },
+	...
+	{ year: 2023, count: 6 }
+]
+</code></pre>
+<p>So at this point, my <code>stats.ts</code> library file looks like this:</p>
+<pre><code class="language-typescript">export const getStats = (): Stats =&gt; {
+    const posts = getAllPosts();
+
+    return {
+        PostsPerYear: getPostsPerYear(posts),
+    };
+};
+</code></pre>
+<p>I then can take that data and pass it into a component to create a nice graphic. More on that later.</p>
+<h2>Most Popular Tags</h2>
+<p>While working on the years, I realized that when I converted my site to run on [Next.js], I added tags to all of my posts. While there are many tags I’ve used, I figured the ten most popular could be a good item to show.</p>
+<p>This one was going to prove to be a little more challenging. For reference, each blog post has an array of tags for it.</p>
+<pre><code class="language-js">[
+    { name: &#x27;Reading Log&#x27;, url: &#x27;reading-log&#x27; },
+    { name: &#x27;Twitter&#x27;, url: &#x27;twitter&#x27; },
+    { name: &#x27;C#&#x27;, url: &#x27;csharp&#x27; },
+    { name: &#x27;.NET&#x27;, url: &#x27;.net&#x27; },
+    { name: &#x27;CSS&#x27;, url: &#x27;css&#x27; },
+    { name: &#x27;Unit Testing&#x27;, url: &#x27;unit-testing&#x27; },
+    { name: &#x27;NASA&#x27;, url: &#x27;nasa&#x27; },
+    { name: &#x27;JWST&#x27;, url: &#x27;jwst&#x27; }
+]
+</code></pre>
+<p>This is an example from my [Reading Log - January 20 (#15)] post. Each tag has 2 properties. The display name, and the URL slug that corresponds to it. I’ve toyed with trying to auto-generate it, but this has worked for me thus far.</p>
+<p>To find the tags most commonly used, I wanted to create an array of tags with their associated post count.</p>
+<pre><code class="language-js">[
+	{ name: &quot;Reading Log&quot;, url: &quot;reading-log&quot;, count: 42 },
+	{ name: &quot;Life&quot;, url: &quot;life&quot;, count: 40 },
+	...
+	{ name: &quot;Monthly Check-In&quot;, url: &quot;monthly-check-in&quot;, count: 16 }
+]
+</code></pre>
+<p>By default, I only wanted the top 10 posts, so I put a limit on the function call and defaulted it to 10. I’m not sure if I’ll use this elsewhere so I figured I’d make it a little extensible.</p>
+<pre><code class="language-typescript">const getPopularTags = (posts: BlogPost[], limit = 10): PostsPerTag[] =&gt; {
+    const postsPerTag: PostsPerTag[] = [];
+    let tagArray: BlogTag[] = [];
+
+    for (let i = 0; i &lt; posts.length; i += 1) {
+        const { tags } = posts[i];
+
+        tagArray = [...tagArray, ...tags];
+    }
+
+    const uniqueTags = [...new Set(tagArray.map((t) =&gt; t.url))];
+
+    uniqueTags.forEach((tagUrl) =&gt; {
+        postsPerTag.push({
+            name: tagArray.find((t) =&gt; t.url === tagUrl).name,
+            url: tagUrl,
+            count: tagArray.filter((t) =&gt; t.url === tagUrl).length,
+        });
+    });
+
+    return postsPerTag.length &lt;= limit
+        ? postsPerTag
+            .sort((a, b) =&gt; b.count - a.count)
+        : postsPerTag
+            .sort((a, b) =&gt; b.count - a.count)
+            .slice(0, limit);
+};
+</code></pre>
+<p>The way the function works is it goes through all the posts and adds all the tags to a giant array. I then use the same <code>Set</code> command to trim that array to unique tags based on the URL slug. From there, I go through each unique tag and create the array of tags with their associated post count.</p>
+<p>At the very end I return either the entire array sorted by post count descending, or the first ten posts sorted. That gets sent to component to be rendered on the page.</p>
+<pre><code class="language-typescript">export const getStats = (): Stats =&gt; {
+    const posts = getAllPosts();
+
+    return {
+        PostsPerYear: getPostsPerYear(posts),
+			MostPopularTags: getPopularTags(posts),
+    };
+};
+</code></pre>
+<h2>Putting It All Together</h2>
+<p>The final step was to build by <a href="https://kpwags.com/stats">stats</a> page.</p>
+<p>On the stats page, the first thing I want to do is retrieve the stats in the <code>getStaticProps()</code> call.</p>
+<pre><code class="language-typescript">export const getStaticProps: GetStaticProps = async () =&gt; {
+    const stats = getStats();
+
+    return {
+        props: {
+            stats,
+        },
+    };
+};
+</code></pre>
+<p>Returning that to the page I then created 2 components to display the stats in chart form.</p>
+<pre><code class="language-jsx">&lt;h2&gt;Posts Per Year&lt;/h2&gt;
+&lt;PostsPerYearCharts stats={stats.PostsPerYear} /&gt;
+
+&lt;hr className={styles.statsSeparator} /&gt;
+
+&lt;h2&gt;Most Popular Tags&lt;/h2&gt;
+&lt;MostPopularTagsChart stats={stats.MostPopularTags} /&gt;
+</code></pre>
+<h3>Posts Per Year</h3>
+<p>Let’s first look at the posts per year chart.</p>
+<p>The first thing I’ll need to do is to transform the data into something I can use to display on the page. I’ve stolen the CSS from my <a href="https://kpwags.com/progress/2023">goal progress</a> page for the charts. Basically I have some <code>div</code> elements that span the full width of the chart container. I opted to have the year with the most posts span the full width and have all the other years span a percentage based on that.</p>
+<p>So the first thing I need to do is figure out the year with the highest post count, or more specifically, what that post count is. There might be a more efficient	way to do this, but at this point, this’ll do. I go through each year in the <code>stats</code> object and check to see if the count is greater than the current max. If it is, I re-assign the value to <code>max</code>, if it isn’t, I move on. Once all years are looped through, I just return the highest number that will be assigned to the <code>max</code> variable.</p>
+<pre><code class="language-typescript">const getMaxCount = (): number =&gt; {
+    let max = 0;
+
+    for (let i = 0; i &lt; stats.length; i += 1) {
+        const { count } = stats[i];
+
+        if (count &gt; max) {
+            max = count;
+        }
+    }
+
+    return max;
+};
+</code></pre>
+<p>The next step will be to create the data for the graph. Typescript conveniently allows you to extend interfaces, so I created a new type based on the <code>PostsPerYear</code> type.</p>
+<pre><code class="language-typescript">interface PostsPerYearGraph extends PostsPerYear {
+    percentage: number;
+    color: string;
+}
+</code></pre>
+<p>I end up with a type that is defined as:</p>
+<pre><code class="language-typescript">PostsPerYearGraph {
+    year: number;
+    count: number;
+    color: string;
+    percentage: number;
+}
+</code></pre>
+<p>Now let’s build the data.</p>
+<pre><code class="language-typescript">const availableColors = [
+    &#x27;#ff0000&#x27;,
+    &#x27;#e76000&#x27;,
+    &#x27;#ddb400&#x27;,
+    &#x27;#15931a&#x27;,
+    &#x27;#2659e5&#x27;,
+    &#x27;#aa00ff&#x27;,
+];
+
+const calculateData = () =&gt; {
+    const maxCount = getMaxCount();
+
+    const chartData: PostsPerYearGraph[] = [];
+
+    let colorIdx = 0;
+
+    for (let i = 0; i &lt; stats.length; i += 1) {
+        const { year, count } = stats[i];
+
+        if (colorIdx &gt;= availableColors.length) {
+            colorIdx = 0;
+        }
+
+        chartData.push({
+            year,
+            count,
+            color: availableColors[colorIdx],
+            percentage: Math.round((count / maxCount) * 100),
+        });
+
+        colorIdx += 1;
+    }
+
+    setYearData(chartData);
+};
+</code></pre>
+<p>You can see at the beginning of <code>calculateData()</code> I get the max number using the <code>getMaxCount</code> function defined above. I then create an empty array for the chart data. I go through the years and add the data to that array. The 2 complications are that I want separate colors for each bar, and that I need to calculate the width of the bar.</p>
+<p>The color I calculate by having a second loop through an array of colors I wish to use. In this case, it’s the rainbow (save for indigo)! The percentage is a math calculation. What I want for the percentage is “What is the percentage of the current year of the highest count?” In this case I divide the count by the max and multiply by 100, and then round it using the <code>Math.round</code> function.</p>
+<p>I can then take the data and pass it into the JSX to render to the screen.</p>
+<pre><code class="language-jsx">&lt;div className={styles.mainContainer}&gt;
+    {yearData.map((d) =&gt; (
+        &lt;div key={d.year} className={styles.container}&gt;
+            &lt;p className={styles.barTitle}&gt;{d.year}&lt;span className={styles.mobileStats}&gt;&amp;nbsp;({d.count})&lt;/span&gt;&lt;/p&gt;
+            &lt;div className={styles.bar}&gt;
+                &lt;div className={styles.innerBar} style={{ backgroundColor: d.color, width: `${d.percentage}%` }} /&gt;
+            &lt;/div&gt;
+            &lt;p className={styles.barLegend}&gt;{d.count}&lt;/p&gt;
+        &lt;/div&gt;
+    ))}
+&lt;/div&gt;
+</code></pre>
+<p>Here I loop through the yearly data returned by the <code>calculateData()</code> function and create the different bars. I use the inline styles to define both the <code>width</code> and the <code>backgroundColor</code> for the bar.</p>
+<p>The end result looks nice.</p>
+<div class="RssPostImage_imageContainerCentered__SZnE4"><img src="/images/posts/2023-02-03-building-a-stats-page/posts-per-year.png" alt="The end result of my posts per year chart showing horizontal bars representing the number of posts per year" width="1008" height="802"/></div>
+<h3>Most Popular Tags</h3>
+<p>The popular tags charts is almost an exact duplicate. The only difference is that I also assign the URL slug of the tag to the data so that clicking on the tag name on the graph would take the user to the appropriate page showing all posts with the given tag.</p>
+<pre><code class="language-typescript">
+const availableColors = [
+    &#x27;#ff0000&#x27;,
+    &#x27;#e76000&#x27;,
+    &#x27;#ddb400&#x27;,
+    &#x27;#15931a&#x27;,
+    &#x27;#2659e5&#x27;,
+    &#x27;#aa00ff&#x27;,
+];
+
+const getMaxCount = (): number =&gt; {
+    let max = 0;
+
+    for (let i = 0; i &lt; stats.length; i += 1) {
+        const { count } = stats[i];
+
+        if (count &gt; max) {
+            max = count;
+        }
+    }
+
+    return max;
+};
+
+const calculateData = () =&gt; {
+    const maxCount = getMaxCount();
+
+    const chartData: MostPopularTagsGraph[] = [];
+
+    let colorIdx = 0;
+
+    for (let i = 0; i &lt; stats.length; i += 1) {
+        const { name: tag, url, count } = stats[i];
+
+        if (colorIdx &gt;= availableColors.length) {
+            colorIdx = 0;
+        }
+
+        chartData.push({
+            name: tag,
+            url,
+            count,
+            color: availableColors[colorIdx],
+            percentage: count === maxCount ? 100 : Math.round((count / maxCount) * 100),
+        });
+
+        colorIdx += 1;
+    }
+
+    setTagData(chartData);
+};
+
+useEffect(() =&gt; {
+    calculateData();
+}, []);
+
+return (
+    &lt;div className={styles.mainContainer}&gt;
+        {tagData.map((d) =&gt; (
+            &lt;div key={d.name} className={styles.container}&gt;
+                &lt;p className={styles.barTitle}&gt;
+                    &lt;Link href={`/tag/${d.url}`}&gt;
+                        &lt;a&gt;{d.name}&lt;/a&gt;
+                    &lt;/Link&gt;
+                    &lt;span className={styles.mobileStats}&gt;&amp;nbsp;({d.count})&lt;/span&gt;
+                &lt;/p&gt;
+                &lt;div className={styles.bar}&gt;
+                    &lt;div className={styles.innerBar} style={{ backgroundColor: d.color, width: `${d.percentage}%` }} /&gt;
+                &lt;/div&gt;
+                &lt;p className={styles.barLegend}&gt;{d.count}&lt;/p&gt;
+            &lt;/div&gt;
+        ))}
+    &lt;/div&gt;
+);
+
+</code></pre>
+<p>The end result is very similar.</p>
+<div class="RssPostImage_imageContainerCentered__SZnE4"><img src="/images/posts/2023-02-03-building-a-stats-page/most-popular-tags.png" alt="The end result of my most popular tags chart displaying horizontal bars representing posts per tag" width="1046" height="754"/></div>
+<p>It was a fun little project. You can view the full page <a href="https://kpwags.com/stats">here</a>.</p>
+<p>Also, as a reminder, you can view the code to my blog on <a href="https://github.com/kpwags/kpwags.com">GitHub</a>.</p>
+<p>Feel free to reach out to me through the comments or on <a href="https://hachyderm.io/@kpwags">Mastodon</a>.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - January 27 (#16)]]></title>
         <id>https://kpwags.com/posts/2023/01/27/reading-log-january-27-16</id>

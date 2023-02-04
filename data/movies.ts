@@ -12,16 +12,52 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'January 2023',
+    lastUpdate: 'February 2023',
     years: [
         {
             year: '2023',
             movies: [
                 {
+                    title: 'You People',
+                    cover: 'you_people.jpg',
+                    link: 'https://www.imdb.com/title/tt14826022/',
+                    dateWatched: 'January 28, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'Had a lot of good laughs from this. Jonah Hill and Lauren London had good performances.',
+                },
+                {
+                    title: 'Clerks',
+                    cover: 'clerks.jpg',
+                    link: 'https://www.imdb.com/title/tt0109445/',
+                    dateWatched: 'January 22, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'The movie was not as good as I remember it being.',
+                },
+                {
+                    title: 'The Irishman',
+                    cover: 'the_irishman.jpg',
+                    link: 'https://www.imdb.com/title/tt1302006/',
+                    dateWatched: 'January 21, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: "I'm not sure what the hype was around this. De Niro, Pesci & Pacino were good, but the movie dragged on way too long.",
+                },
+                {
+                    title: 'Amsterdam',
+                    cover: 'amsterdam.jpg',
+                    link: 'https://www.imdb.com/title/tt10304142/',
+                    dateWatched: 'January 15, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'This was a weird movie. Felt kind of weird given the way the story was told versus the true parts of the story.',
+                },
+                {
                     title: 'Jurassic World: Dominion',
                     cover: 'jurassicworlddominion.jpg',
                     link: 'https://www.imdb.com/title/tt8041270/',
-                    dateWatched: 'January 7, 2022',
+                    dateWatched: 'January 7, 2023',
                     rating: 2,
                     imageFolder: 'movies',
                     thoughts: "Definitely glad I didn't see this in the theaters. Nothing compares to the first Jurassic Park movie.",
