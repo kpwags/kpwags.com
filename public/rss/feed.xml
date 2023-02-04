@@ -4,11 +4,89 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 03 Feb 2023 23:57:49 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Feb 2023 17:24:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[January Check-In]]></title>
+            <link>https://kpwags.com/posts/2023/02/04/january-check-in</link>
+            <guid>https://kpwags.com/posts/2023/02/04/january-check-in</guid>
+            <pubDate>Sat, 04 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[It seems like a new year just started and already we&#39;re one month in...]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>It seems like a new year just started and already we&#x27;re one month in...</p>
+<h2>Getting Back into Fitness</h2>
+<p>Not that I really stopped last year, but I started a bigger emphasis on it this year. I&#x27;ve made a concerted effort to drink less alcohol and try to limit my snacking. So far it&#x27;s been working. I didn&#x27;t do <em>Dry January</em> but I did a better job of not overindulging on the weekends.</p>
+<p>With the nice weather, I&#x27;ve also been getting more runs in. I managed 48 miles in January, somehow running in the high 40s and low 50s some days.</p>
+<p>With regards to lifting, I switched back to running an <em>nSuns</em> based routine. I&#x27;m putting in more sets and reps and have been getting back to my personal bests. I&#x27;m 100 pounds away from my goal of joining the 1,000 pound club!</p>
+<h2>Picking Up Blazor</h2>
+<p>As a .NET developer, Blazor has been on my radar for a little while now. I decided to play around with it and learn by building a web app to go through and organize my baseball card collection (because why not?). I haven&#x27;t gotten that far and I&#x27;m actually toying with the idea of streaming a little bit of it on Twitch or something.</p>
+<h2>Go Birds</h2>
+<div class="RssPostImage_imageContainerCentered__SZnE4"><img src="/images/posts/2023-02-04-january-check-in/gobirds.gif" alt="Mac from It&#x27;s Always Sunny in Philadelphia shouting &#x27;Go Birds&#x27;" width="600" height="300"/></div>
+<p>The Philadelphia Eagles are back in the Super Bowl facing off against the Kansas City Chiefs. Grease those light posts!</p>
+<h2>Monthly Round-Up</h2>
+<h3>🏃🏼‍♂️ Running &amp; Biking</h3>
+<ul>
+<li><strong>Running:</strong> I ended up running 48 miles this month</li>
+<li><strong>Biking:</strong> Need to get on this</li>
+</ul>
+<h3>🏋🏼‍♂️ Lifting</h3>
+<ul>
+<li>Switch programs and have quickly started to get my lifts back to my all-time highs.</li>
+</ul>
+<h3>📚 Reading</h3>
+<p><em>Finished</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/snow-crash-neal-stephenson/7327954?ean=9780553380958">Snow Crash</a> by Neal Stephenson</li>
+<li><a href="https://bookshop.org/p/books/the-bond-king-how-one-man-made-a-market-built-an-empire-and-lost-it-all-mary-childs/15873505?ean=9781250120847">The Bond King: How One Man Made a Market, Built an Empire, and Lost It All</a> by Mary Childs</li>
+<li><a href="https://bookshop.org/p/books/the-bomb-presidents-generals-and-the-secret-history-of-nuclear-war-fred-kaplan/7774644?ean=9781982107307">The Bomb: Presidents, Generals, and the Secret History of Nuclear War</a> by Fred Kaplan</li>
+<li><a href="https://bookshop.org/p/books/the-bomber-mafia-a-dream-a-temptation-and-the-longest-night-of-the-second-world-war-malcolm-gladwell/17377135?ean=9780316296816">The Bomber Mafia: A Dream, a Temptation, and the Longest Night of the Second World War</a> by Malcolm Gladwell</li>
+</ul>
+<p><em>Started</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america-colin-woodard/16638225?ean=9780143122029">American Nations: A History of the Eleven Rival Regional Cultures of North America</a> by Colin Woodard</li>
+</ul>
+<h3>✍🏻 Writing</h3>
+<ul>
+<li>Continued my reading logs
+<ul>
+<li><a href="https://kpwags.com/posts/2023/01/06/reading-log-january-6-13">January 6 (#13)</a></li>
+<li><a href="https://kpwags.com/posts/2023/01/13/reading-log-january-13-14">January 13 (#14)</a></li>
+<li><a href="https://kpwags.com/posts/2023/01/20/reading-log-january-20-15">January 20 (#15)</a></li>
+<li><a href="https://kpwags.com/posts/2023/01/27/reading-log-january-27-16">January 27 (#16)</a></li>
+</ul>
+</li>
+<li>Wrote about <a href="https://kpwags.com/posts/2023/01/02/2022-retrospective">2022 and Looking onto 2023</a></li>
+<li>Wrote about the <a href="https://kpwags.com/posts/2023/01/07/books-i-read-in-2022">books I read in 2022</a></li>
+</ul>
+<h3>🎮 Gaming</h3>
+<ul>
+<li>Continued <a href="https://www.playstation.com/en-us/games/horizon-zero-dawn/">Horizon Zero Dawn</a></li>
+<li>Played a bit of <a href="https://www.xbox.com/en-us/games/store/goldeneye-007/9n6639h7vgh4">GoldenEye 007</a></li>
+</ul>
+<h2>📺 Watched</h2>
+<ul>
+<li>Continuing <a href="https://www.imdb.com/title/tt0118298/">Daria</a></li>
+<li>Continuing <a href="https://www.imdb.com/title/tt0472954/">It&#x27;s Always Sunny in Philadelphia</a></li>
+<li>Continuing <a href="https://www.imdb.com/title/tt0112178/">Star Trek: Voyager</a></li>
+</ul>
+<h3>🎬 Movies</h3>
+<ul>
+<li><a href="https://www.imdb.com/title/tt11564570/">Glass Onion</a></li>
+<li><a href="https://www.imdb.com/title/tt8041270/">Jurassic World: Dominion</a></li>
+<li><a href="https://www.imdb.com/title/tt10304142/">Amsterdam</a></li>
+<li><a href="https://www.imdb.com/title/tt1302006/">The Irishman</a></li>
+<li><a href="https://www.imdb.com/title/tt0109445/">Clerks</a></li>
+<li><a href="https://www.imdb.com/title/tt14826022/">You People</a></li>
+</ul>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - February 3 (#17)]]></title>
             <link>https://kpwags.com/posts/2023/02/03/reading-log-february-3-17</link>
