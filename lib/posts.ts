@@ -8,6 +8,7 @@ import { BlogTag } from '@models/BlogTag';
 import { buildUrlFromId } from './utilities';
 import { postsPerPage } from './config';
 import decodeHtmlEntities from './decodeHtmlEntities';
+import generateTagUrl from './generateTagUrl';
 
 type PostId = {
     params: {
@@ -79,7 +80,7 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
         const url = buildUrlFromId(id);
         const excerpt = getPostExcerpt(html);
 
-        const tags = data.tags || [] as BlogTag[];
+        const tags = data.tags || [] as string[];
 
         // Combine the data with the id
         return {
@@ -89,7 +90,7 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             date: data.date,
             url,
             hasEmbeddedTweet: false,
-            tags,
+            tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
             content: html,
             isRssOnly: data.isRssOnly || false,
             wordCount,
@@ -181,7 +182,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
 
     const mdx = await serialize(content, { scope: data });
 
-    const tags = data.tags || [] as BlogTag[];
+    const tags = data.tags || [] as string[];
 
     let socialImage = null;
     if (fs.existsSync(path.join(postImagesDirectory, postId, 'social-image.jpg'))) {
@@ -199,7 +200,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         description: decodeHtmlEntities(excerpt) || data.description || null,
         url: buildUrlFromId(postId),
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
-        tags,
+        tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
         commentIssueNumber: data.commentIssueNumber || null,
         socialImageUrl: socialImage,
         socialImageWidth: data.socialImageWidth || null,

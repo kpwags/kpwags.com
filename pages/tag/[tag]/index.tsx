@@ -52,11 +52,7 @@ const TaggedPosts = ({
 }: TaggedPostProps): JSX.Element => (
     <>
         <Head>
-            <title>
-                {tagName}
-                {' '}
-                - Keith Wagner
-            </title>
+            <title>{`Posts tagged '${tagName}' - Keith Wagner`}</title>
         </Head>
         <RssFeeds />
         <main>
