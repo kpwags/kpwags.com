@@ -390,6 +390,25 @@ div.cover.about {
     margin-right: 1rem;
 }
 
+.article .metadata .separator::before {
+    content: ' | ';
+}
+
+@media screen and (max-width: 425px) {
+    .article .metadata {
+        display: block;
+    }
+
+    .article .metadata .read-time {
+        display: block;
+        margin-top: 0.5rem;
+    }
+
+    .article .metadata .separator {
+        display: none;
+    }
+}
+
 .article .metadata svg {
     display: inline-block;
     margin-right: 1rem;
