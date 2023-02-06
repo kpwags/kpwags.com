@@ -14,6 +14,8 @@ const games: VideoGames = {
             thoughts: null,
             finished: 'n/a',
         },
+    ],
+    played: [
         {
             title: 'Pokemon: Violet',
             system: 'Nintendo Switch',
@@ -21,11 +23,9 @@ const games: VideoGames = {
             link: 'https://scarletviolet.pokemon.com/en-us/',
             imageFolder: 'games',
             rating: null,
-            thoughts: null,
-            finished: 'n/a',
+            thoughts: 'Just lost interest.',
+            finished: 'no',
         },
-    ],
-    played: [
         {
             title: 'Jedi: Fallen Order',
             system: 'Xbox',
