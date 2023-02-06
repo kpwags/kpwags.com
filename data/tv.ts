@@ -110,6 +110,14 @@ const tv: TV = {
             link: 'https://www.imdb.com/title/tt0118298/',
             imageFolder: 'tv',
         },
+        {
+            title: '1883',
+            cover: '1883.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt13991232/',
+            imageFolder: 'tv',
+        },
     ],
     completed: [
         {

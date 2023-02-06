@@ -18,6 +18,24 @@ const MoviesWatched: MovieList = {
             year: '2023',
             movies: [
                 {
+                    title: 'Death on the Nile',
+                    cover: 'death_on_the_nile.jpg',
+                    link: 'https://www.imdb.com/title/tt7657566/',
+                    dateWatched: 'February 5, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'Had some nice twist and turns. While the ending made sense, not entirely sure how we got there.',
+                },
+                {
+                    title: 'The Harder They Fall',
+                    cover: 'the_harder_they_fall.jpg',
+                    link: 'https://www.imdb.com/title/tt10696784/',
+                    dateWatched: 'February 4, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'I enjoyed the movie. It had good action sequences and the cast was fantastic.',
+                },
+                {
                     title: 'You People',
                     cover: 'you_people.jpg',
                     link: 'https://www.imdb.com/title/tt14826022/',

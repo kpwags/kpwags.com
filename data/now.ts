@@ -46,6 +46,14 @@ const now: CurrentlyDoing = {
             link: 'https://www.imdb.com/title/tt0118298/',
             imageFolder: 'tv',
         },
+        {
+            title: '1883',
+            cover: '1883.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt13991232/',
+            imageFolder: 'tv',
+        },
     ],
     playing: [
         {
@@ -53,15 +61,6 @@ const now: CurrentlyDoing = {
             system: 'PS5',
             cover: 'horizonzerodawn.jpg',
             link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn/',
-            imageFolder: 'games',
-            rating: null,
-            thoughts: null,
-        },
-        {
-            title: 'Pokemon: Violet',
-            system: 'Nintendo Switch',
-            cover: 'pokemonviolet.jpg',
-            link: 'https://scarletviolet.pokemon.com/en-us/',
             imageFolder: 'games',
             rating: null,
             thoughts: null,
