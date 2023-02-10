@@ -4,11 +4,48 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sat, 04 Feb 2023 17:24:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Feb 2023 23:51:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - February 10 (#18)]]></title>
+            <link>https://kpwags.com/posts/2023/02/10/reading-log-february-10-18</link>
+            <guid>https://kpwags.com/posts/2023/02/10/reading-log-february-10-18</guid>
+            <pubDate>Fri, 10 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Some criticism and defense of React this week.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>Some criticism and defense of React this week.</p>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://www.zachleat.com/web/react-criticism/">A Historical Reference of React Criticism</a> - <em>(Zach Leatherman)</em></p>
+<p><a href="https://tkdodo.eu/blog/why-react-isnt-dying">Why React isn&#x27;t dying</a> <em>(Dominik)</em></p>
+<p><a href="https://codeopinion.com/why-is-clean-architecture-so-popular/">Why is Clean Architecture so Popular?</a> <em>(Derek Comartin)</em></p>
+<p><a href="https://herbcaudill.com/words/20190219-rewrite-refactor-reinvent">Rewrite, refactor, or reinvent?</a> <em>(Herb Caudill)</em></p>
+<p><a href="https://andy-bell.co.uk/my-favourite-3-lines-of-css/">My favourite 3 lines of CSS</a> <em>(Andy Bell)</em></p>
+<p><a href="https://www.syncfusion.com/blogs/post/10-tips-and-tricks-to-handle-javascript-objects.aspx">10 Tips and Tricks to Handle JavaScript Objects</a> <em>(Charuka Herath)</em></p>
+<p><a href="https://www.betterbydesign.cc/p/the-10-types-of-tech-debt-that-will">The 10 types of tech debt that have broken my creative heart</a> <em>(Patrick Morgan)</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.npr.org/2023/02/09/1155650909/google-chatbot--error-bard-shares">Google&#x27;s AI chatbot, Bard, sparks a $100 billion loss in Alphabet shares</a> <em>(Emily Olsen)</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://slate.com/business/2023/01/electric-cars-hummer-ev-tax-fees-weight-joe-biden.html">If You Want a Car This Heavy, You Should Pay Through the Nose</a> <em>(David Zipper)</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://www.scientificamerican.com/article/light-pollution-is-dimming-our-view-of-the-sky-and-its-getting-worse/">Light Pollution Is Dimming Our View of the Sky, and It&#x27;s Getting Worse</a> <em>(Phil Plait)</em></p>
+<h3>⚾ Sports</h3>
+<p><a href="https://theathletic.com/4159445/2023/02/07/mlb-expansion-geographic-realignment/">MLB expansion should include geographic realignment - so let&#x27;s build new divisions</a> <em>(Jim Bowden)</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.npr.org/2023/01/27/1152015250/economics-papers-nigeria-church-vietnam-china-sweden">Planet Money #1610: Three economists on the econ papers that changed their lives</a></p>
+<p><a href="https://www.smashingsecurity.com/308-jail-after-vpn-fail-criminal-messaging-apps-and-wolf-crying-watches/">Smashing Security #308: Jail after VPN fail, criminal messaging apps, and wolf-crying watches</a></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Frank Turner - Little Life</h4>
+<p><a href="https://www.youtube.com/watch?v=1xAZGEXUGrI" title="Frank Turner - Little Life">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[January Check-In]]></title>
             <link>https://kpwags.com/posts/2023/02/04/january-check-in</link>

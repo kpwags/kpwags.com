@@ -12,11 +12,20 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'January 2023',
+    lastUpdate: 'February 2023',
     years: [
         {
             year: '2023',
             books: [
+                {
+                    title: 'American Nations',
+                    author: 'Colin Woodard',
+                    cover: 'american_nations.jpg',
+                    link: 'https://bookshop.org/p/books/american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america-colin-woodard/16638225?ean=9780143122029',
+                    rating: 4,
+                    thoughts: "It was an interesting read talking about the history of the different areas of North America and how their founding and upbringing influence us even today. It was written over 10 years ago, but still hits the notes of the division we're dealing with today.",
+                    imageFolder: 'books',
+                },
                 {
                     title: 'The Bomber Mafia',
                     author: 'Malcolm Gladwell',

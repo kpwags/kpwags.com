@@ -18,6 +18,15 @@ const MoviesWatched: MovieList = {
             year: '2023',
             movies: [
                 {
+                    title: 'Margin Call',
+                    cover: 'margin_call.jpg',
+                    link: 'https://www.imdb.com/title/tt1615147/',
+                    dateWatched: 'February 8, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: "I'm not sure how to feel about this other than it feels very much like Wall Street.",
+                },
+                {
                     title: 'Death on the Nile',
                     cover: 'death_on_the_nile.jpg',
                     link: 'https://www.imdb.com/title/tt7657566/',

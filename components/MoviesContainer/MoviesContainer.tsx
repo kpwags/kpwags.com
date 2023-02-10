@@ -25,7 +25,7 @@ const MoviesContainer = ({
 
         {movies.years.map((year) => (
             <div key={year.year}>
-                <h2>{year.year}</h2>
+                <h2>{year.year} ({year.movies.length})</h2>
 
                 <div className={styles.movieGrid}>
                     {year.movies.map((movie) => (

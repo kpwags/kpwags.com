@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const now: CurrentlyDoing = {
-    lastUpdate: 'January 2023',
+    lastUpdate: 'February 2023',
     reading: [
         {
-            title: 'American Nations',
-            author: 'Colin Woodard',
-            cover: 'american_nations.jpg',
-            link: 'https://bookshop.org/p/books/american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america-colin-woodard/16638225?ean=9780143122029',
+            title: "Liar's Poker",
+            author: 'Michael Lewis',
+            cover: 'liars_poker.jpg',
+            link: 'https://bookshop.org/p/books/liar-s-poker-michael-lewis/8855267?ean=9780393338690',
             rating: null,
             thoughts: null,
             imageFolder: 'books',

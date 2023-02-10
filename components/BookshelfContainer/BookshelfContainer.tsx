@@ -21,7 +21,7 @@ const BookshelfContainer = ({
 
         {books.years.map((year) => (
             <div key={year.year}>
-                <h2>{year.year}</h2>
+                <h2>{year.year} ({year.books.length})</h2>
 
                 <div className={styles.bookGrid}>
                     {year.books.map((book) => (
