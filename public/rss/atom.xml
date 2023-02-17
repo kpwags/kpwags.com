@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-02-10T23:51:19.492Z</updated>
+    <updated>2023-02-17T00:45:20.182Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,37 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Luck]]></title>
+        <id>https://kpwags.com/posts/2023/02/16/luck</id>
+        <link href="https://kpwags.com/posts/2023/02/16/luck"/>
+        <updated>2023-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I forget what I was reading, but there was a line in it about luck that stuck with me.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>I forget what I was reading, but there was a line in it about luck that stuck with me.</p>
+<p>The exact quote eludes me, but it was about how we so often attribute our successes purely to our hard work, grit, and determination, leaving out the role of luck.</p>
+<p>I think about where I am in life, and while I certainly have worked hard, I can&#x27;t attribute everything I&#x27;ve earned to that hard work. Luck has played a role in me getting to where I am now as well.</p>
+<p>I think about how lucky I am that:</p>
+<ul>
+<li>I was born in a solidly middle class family</li>
+<li>Both my parents were always there to help and support me</li>
+<li>My Dad was an engineer who was always able to help me with any math and science classes all the way through college.</li>
+<li>My Mom was a teacher who could help me with English and literature classes.</li>
+<li>I grew up never having to worry about food on my plate or a roof over my head.</li>
+</ul>
+<p>None of this I had any control over. It just was.</p>
+<p>This is not to say that those who didn&#x27;t have what I had growing up couldn&#x27;t achieve what I have, it just made my journey all that much easier. It also makes it all that much more impressive for those that have had more barriers to break through.</p>
+<p>It really makes me count my blessings and be ever more thankful for what I have.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - February 10 (#18)]]></title>
         <id>https://kpwags.com/posts/2023/02/10/reading-log-february-10-18</id>
