@@ -2,6 +2,10 @@
     margin-bottom: 2rem;
 }
 
+.inDepthNotes h3 {
+    font-size: 1.85rem;
+}
+
 .inDepthNotes .source {
     color: var(--text);
 }
