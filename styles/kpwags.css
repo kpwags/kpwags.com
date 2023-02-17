@@ -523,6 +523,7 @@ div.cover.about {
 
 .article .content.reading-log h3 {
     color: var(--text);
+    font-size: 1.85rem;
 }
 
 .contact ul {
