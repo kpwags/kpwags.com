@@ -2,7 +2,7 @@
 import { TV } from '@models/tv';
 
 const tv: TV = {
-    lastUpdate: 'November 2022',
+    lastUpdate: 'February 2023',
     continuing: [
         {
             title: 'For All Mankind',
@@ -45,14 +45,6 @@ const tv: TV = {
             imageFolder: 'tv',
         },
         {
-            title: 'Star Trek: Picard',
-            cover: 'picard.jpg',
-            rating: null,
-            thoughts: null,
-            link: 'https://www.imdb.com/title/tt8806524/',
-            imageFolder: 'tv',
-        },
-        {
             title: 'Star Trek: Strange New Worlds',
             cover: 'strangenewworlds.jpg',
             rating: null,
@@ -76,6 +68,14 @@ const tv: TV = {
             link: 'https://www.imdb.com/title/tt9184820/',
             imageFolder: 'tv',
         },
+        {
+            title: 'Yellowstone',
+            cover: 'yellowstone.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt4236770/',
+            imageFolder: 'tv',
+        },
     ],
     current: [
         {
@@ -87,19 +87,19 @@ const tv: TV = {
             imageFolder: 'tv',
         },
         {
+            title: 'Star Trek: Picard',
+            cover: 'picard.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt8806524/',
+            imageFolder: 'tv',
+        },
+        {
             title: 'Star Trek: Voyager',
             cover: 'voyager.jpg',
             rating: 5,
             thoughts: 'I enjoyed this series. They could have done more with the stranded part making it a little more rough, but the cast and series worked well.',
             link: 'https://www.imdb.com/title/tt0112178/',
-            imageFolder: 'tv',
-        },
-        {
-            title: 'Yellowstone',
-            cover: 'yellowstone.jpg',
-            rating: null,
-            thoughts: null,
-            link: 'https://www.imdb.com/title/tt4236770/',
             imageFolder: 'tv',
         },
         {

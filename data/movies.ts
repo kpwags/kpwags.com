@@ -18,6 +18,15 @@ const MoviesWatched: MovieList = {
             year: '2023',
             movies: [
                 {
+                    title: 'Sorry to Bother You',
+                    cover: 'sorry_to_bother_you.jpg',
+                    link: 'https://www.imdb.com/title/tt5688932/',
+                    dateWatched: 'February 11, 2023',
+                    rating: 2,
+                    imageFolder: 'movies',
+                    thoughts: 'This movie started off good…then jumped the shark.',
+                },
+                {
                     title: 'Margin Call',
                     cover: 'margin_call.jpg',
                     link: 'https://www.imdb.com/title/tt1615147/',
