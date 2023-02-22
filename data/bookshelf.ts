@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2023',
             books: [
                 {
+                    title: "Liar's Poker",
+                    author: 'Michael Lewis',
+                    cover: 'liars_poker.jpg',
+                    link: 'https://bookshop.org/p/books/liar-s-poker-michael-lewis/8855267?ean=9780393338690',
+                    rating: 3,
+                    thoughts: 'This was a lot different from his other books. It did provide an interesting look into one of the more famous names in Wall Street in the Saloman Brothers.',
+                    imageFolder: 'books',
+                },
+                {
                     title: 'American Nations',
                     author: 'Colin Woodard',
                     cover: 'american_nations.jpg',

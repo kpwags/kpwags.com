@@ -4,10 +4,10 @@ const now: CurrentlyDoing = {
     lastUpdate: 'February 2023',
     reading: [
         {
-            title: "Liar's Poker",
-            author: 'Michael Lewis',
-            cover: 'liars_poker.jpg',
-            link: 'https://bookshop.org/p/books/liar-s-poker-michael-lewis/8855267?ean=9780393338690',
+            title: 'American Gods',
+            author: 'Neil Gaiman',
+            cover: 'american_gods.jpg',
+            link: 'https://bookshop.org/p/books/american-gods-neil-gaiman/6438874?ean=9780063081918',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
@@ -15,12 +15,12 @@ const now: CurrentlyDoing = {
     ],
     watching: [
         {
-            title: 'Yellowstone',
-            cover: 'yellowstone.jpg',
-            imageFolder: 'tv',
-            link: 'https://www.imdb.com/title/tt4236770/',
+            title: 'Star Trek: Picard',
+            cover: 'picard.jpg',
             rating: null,
             thoughts: null,
+            link: 'https://www.imdb.com/title/tt8806524/',
+            imageFolder: 'tv',
         },
         {
             title: "It's Always Sunny in Philadelphia",
