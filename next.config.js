@@ -4,6 +4,7 @@ const withMDX = require('@next/mdx')({
 });
 
 module.exports = {
+    target: 'serverless',
     webpack(config) {
         config.module.rules.push({ test: /\.mdx$/, use: 'raw-loader' });
         config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
