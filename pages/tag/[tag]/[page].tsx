@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import { getPaginatedPostsForTag, getAllTagPages } from '@lib/posts';
+import { getPaginatedPostsForTag, getAllTagPages } from '@lib/tags';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
 import { BlogPost } from '@models/blogPost';
@@ -81,11 +81,7 @@ const TaggedPosts = ({
     return (
         <>
             <Head>
-                <title>
-                    {tagName}
-                    {' '}
-                    - Keith Wagner
-                </title>
+                <title>{`${tagName} - Keith Wagner`}</title>
             </Head>
             <RssFeeds />
             <main>
@@ -103,7 +99,7 @@ const TaggedPosts = ({
                     onPageChange={handlePagination}
                     containerClassName="pagination"
                     activeClassName="paginate-active"
-                    nextLinkClassName="paginate-next-a"
+                    nextLinkClassName={currentPage === lastPage ? 'hidden' : 'paginate-next-a'}
                     previousLinkClassName="paginate-prev-a"
                 />
             </main>

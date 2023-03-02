@@ -54,36 +54,47 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         className = 'wide';
     }
 
+    let description: string | null = null;
+    let title: string | null = null;
+    let url: string | null = null;
+    let imageUrl: string | null = null;
+    let hasEmbeddedTweets = false;
+
+    if (pageProps.post) {
+        description = pageProps.post.description || null;
+        title = pageProps.post.title || null;
+        url = pageProps.post.url || null;
+        imageUrl = pageProps.post.socialImageUrl || null;
+        hasEmbeddedTweets = pageProps.post.hasEmbeddedTweet || false;
+    }
+
+    if (pageProps.readingLog) {
+        description = pageProps.readingLog.description || null;
+        title = pageProps.readingLog.title || null;
+        url = pageProps.readingLog.url || null;
+        imageUrl = pageProps.readingLog.socialImageUrl || null;
+    }
+
     return (
         <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>{pageProps.post ? `${pageProps.post.title} - Keith Wagner` : 'Keith Wagner'}</title>
+                <title>{title ? `${title} - Keith Wagner` : 'Keith Wagner'}</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:site_name" content="Keith Wagner" />
-                <meta name="twitter:creator" content="@kpwags" />
-                {pageProps.post ? (
+                {pageProps.post || pageProps.readingLog ? (
                     <>
-                        <meta name="description" content={pageProps.post.description || ''} />
+                        <meta name="description" content={description || ''} />
                         <meta property="og:type" content="article" />
-                        <meta property="og:title" content={pageProps.post.title} />
-                        <meta property="og:description" content={pageProps.post.description || ''} />
-                        <meta property="og:url" content={`https://kpwags.com${pageProps.post.url}`} />
-                        {pageProps.post.socialImageUrl && <meta property="og:image" content={`https://kpwags.com/images/posts/${pageProps.post.socialImageUrl}`} />}
-                        {pageProps.post.socialImageUrl && (
-                            <>
-                                <meta name="twitter:card" content="summary" />
-                                <meta name="twitter:site" content="@kpwags" />
-                                <meta name="twitter:title" content={pageProps.post.title} />
-                                <meta name="twitter:description" content={pageProps.post.description} />
-                                <meta name="twitter:image" content={`https://kpwags.com/images/posts/${pageProps.post.socialImageUrl}`} />
-                            </>
-                        )}
-                        {pageProps.post.hasEmbeddedTweet && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
+                        <meta property="og:title" content={title} />
+                        <meta property="og:description" content={description || ''} />
+                        <meta property="og:url" content={`https://kpwags.com${url}`} />
+                        {imageUrl && <meta property="og:image" content={`https://kpwags.com/${imageUrl}`} />}
+                        {hasEmbeddedTweets && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
                     </>
                 ) : null}
             </Head>

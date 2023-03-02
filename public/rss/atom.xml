@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-02-17T23:44:06.284Z</updated>
+    <updated>2023-03-02T00:41:21.884Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -16,8 +16,8 @@
     <rights>2023 Keith Wagner</rights>
     <entry>
         <title type="html"><![CDATA[Reading Log - February 17 (#19)]]></title>
-        <id>https://kpwags.com/posts/2023/02/17/reading-log-february-17-19</id>
-        <link href="https://kpwags.com/posts/2023/02/17/reading-log-february-17-19"/>
+        <id>https://kpwags.com/reading-log/19</id>
+        <link href="https://kpwags.com/reading-log/19"/>
         <updated>2023-02-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[CSS is finally getting a killer feature, Elon is being Elon &amp; the Supreme Court hears an important Internet case.]]></summary>
         <content type="html"><![CDATA[
@@ -96,8 +96,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - February 10 (#18)]]></title>
-        <id>https://kpwags.com/posts/2023/02/10/reading-log-february-10-18</id>
-        <link href="https://kpwags.com/posts/2023/02/10/reading-log-february-10-18"/>
+        <id>https://kpwags.com/reading-log/18</id>
+        <link href="https://kpwags.com/reading-log/18"/>
         <updated>2023-02-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Some criticism and defense of React this week.]]></summary>
         <content type="html"><![CDATA[
@@ -219,8 +219,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - February 3 (#17)]]></title>
-        <id>https://kpwags.com/posts/2023/02/03/reading-log-february-3-17</id>
-        <link href="https://kpwags.com/posts/2023/02/03/reading-log-february-3-17"/>
+        <id>https://kpwags.com/reading-log/17</id>
+        <link href="https://kpwags.com/reading-log/17"/>
         <updated>2023-02-03T23:45:00.000Z</updated>
         <summary type="html"><![CDATA[This week we look at the next version of TypeScript, the new version of EntityFramework, a big acquisition at Netlify and more.]]></summary>
         <content type="html"><![CDATA[
@@ -588,8 +588,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - January 27 (#16)]]></title>
-        <id>https://kpwags.com/posts/2023/01/27/reading-log-january-27-16</id>
-        <link href="https://kpwags.com/posts/2023/01/27/reading-log-january-27-16"/>
+        <id>https://kpwags.com/reading-log/16</id>
+        <link href="https://kpwags.com/reading-log/16"/>
         <updated>2023-01-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A lot of CSS related posts this week. Also, Astro v2.0 was released this week. I&#39;ve been toying with building something in it, and it looks like it&#39;s added a bunch of good stuff. And one of my favorite games as a kid has been re-launched on the Xbox and the Switch!]]></summary>
         <content type="html"><![CDATA[
@@ -637,8 +637,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - January 20 (#15)]]></title>
-        <id>https://kpwags.com/posts/2023/01/20/reading-log-january-20-15</id>
-        <link href="https://kpwags.com/posts/2023/01/20/reading-log-january-20-15"/>
+        <id>https://kpwags.com/reading-log/15</id>
+        <link href="https://kpwags.com/reading-log/15"/>
         <updated>2023-01-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[RIP Tweetbot.]]></summary>
         <content type="html"><![CDATA[
@@ -687,8 +687,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - January 13 (#14)]]></title>
-        <id>https://kpwags.com/posts/2023/01/13/reading-log-january-13-14</id>
-        <link href="https://kpwags.com/posts/2023/01/13/reading-log-january-13-14"/>
+        <id>https://kpwags.com/reading-log/14</id>
+        <link href="https://kpwags.com/reading-log/14"/>
         <updated>2023-01-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A little light this week. Identity thieves targeted a credit reporting agency, a look at the podcasting market, and more.]]></summary>
         <content type="html"><![CDATA[
@@ -788,8 +788,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - January 6 (#13)]]></title>
-        <id>https://kpwags.com/posts/2023/01/06/reading-log-january-6-13</id>
-        <link href="https://kpwags.com/posts/2023/01/06/reading-log-january-6-13"/>
+        <id>https://kpwags.com/reading-log/13</id>
+        <link href="https://kpwags.com/reading-log/13"/>
         <updated>2023-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A scary moment in the NFL Monday night. Also lots of podcasts this week.]]></summary>
         <content type="html"><![CDATA[
@@ -980,8 +980,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - December 30 (#12)]]></title>
-        <id>https://kpwags.com/posts/2022/12/30/reading-log-december-30-12</id>
-        <link href="https://kpwags.com/posts/2022/12/30/reading-log-december-30-12"/>
+        <id>https://kpwags.com/reading-log/12</id>
+        <link href="https://kpwags.com/reading-log/12"/>
         <updated>2022-12-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Mastodon is making some in-roads, Apple is considering opening up a bit on iOS and LastPass is in some trouble.]]></summary>
         <content type="html"><![CDATA[
@@ -1075,8 +1075,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - December 23 (#11)]]></title>
-        <id>https://kpwags.com/posts/2022/12/23/reading-log-december-23-11</id>
-        <link href="https://kpwags.com/posts/2022/12/23/reading-log-december-23-11"/>
+        <id>https://kpwags.com/reading-log/11</id>
+        <link href="https://kpwags.com/reading-log/11"/>
         <updated>2022-12-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[NASA&#39;s InSight probe has seemingly sent its last signal back to Earth. Some questionable security from iRobot, and a little bit of Twitter drama makes up some of this week&#39;s reading.]]></summary>
         <content type="html"><![CDATA[
@@ -1124,8 +1124,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - December 16 (#10)]]></title>
-        <id>https://kpwags.com/posts/2022/12/16/reading-log-december-16-10</id>
-        <link href="https://kpwags.com/posts/2022/12/16/reading-log-december-16-10"/>
+        <id>https://kpwags.com/reading-log/10</id>
+        <link href="https://kpwags.com/reading-log/10"/>
         <updated>2022-12-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[There&#39;s no escaping the Twitter drama this week after Elon&#39;s petty hypocrisy. But outside that, we look at the celebrating the 75th birthday of the transistor, a big advancement in fusion energy, as well as a big announcement from Apple.]]></summary>
         <content type="html"><![CDATA[
@@ -1175,8 +1175,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - December 9 (#9)]]></title>
-        <id>https://kpwags.com/posts/2022/12/09/reading-log-december-9-9</id>
-        <link href="https://kpwags.com/posts/2022/12/09/reading-log-december-9-9"/>
+        <id>https://kpwags.com/reading-log/9</id>
+        <link href="https://kpwags.com/reading-log/9"/>
         <updated>2022-12-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ignoring more Twitter drama this week to look at the FTC filing a lawsuit to stop Microsoft and more.]]></summary>
         <content type="html"><![CDATA[
@@ -1368,8 +1368,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - December 2 (#8)]]></title>
-        <id>https://kpwags.com/posts/2022/12/02/reading-log-december-2-8</id>
-        <link href="https://kpwags.com/posts/2022/12/02/reading-log-december-2-8"/>
+        <id>https://kpwags.com/reading-log/8</id>
+        <link href="https://kpwags.com/reading-log/8"/>
         <updated>2022-12-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Another quiet week. Artemis I is continuing to send back amazing pictures. LastPass had a bad week. And there&#39;s some cool CSS stuff.]]></summary>
         <content type="html"><![CDATA[
@@ -1428,8 +1428,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - November 25 (#7)]]></title>
-        <id>https://kpwags.com/posts/2022/11/25/reading-log-november-25-7</id>
-        <link href="https://kpwags.com/posts/2022/11/25/reading-log-november-25-7"/>
+        <id>https://kpwags.com/reading-log/7</id>
+        <link href="https://kpwags.com/reading-log/7"/>
         <updated>2022-11-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It was a relatively light week with American Thanksgiving.]]></summary>
         <content type="html"><![CDATA[
@@ -1528,8 +1528,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - November 18 (#6)]]></title>
-        <id>https://kpwags.com/posts/2022/11/18/reading-log-november-18-6</id>
-        <link href="https://kpwags.com/posts/2022/11/18/reading-log-november-18-6"/>
+        <id>https://kpwags.com/reading-log/6</id>
+        <link href="https://kpwags.com/reading-log/6"/>
         <updated>2022-11-18T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[CSS has come a long way, and NASA has finally launched <em>Artemis I</em> to the moon.]]></summary>
         <content type="html"><![CDATA[
@@ -1593,8 +1593,8 @@ return (
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - November 11 (#5)]]></title>
-        <id>https://kpwags.com/posts/2022/11/11/reading-log-november-11-5</id>
-        <link href="https://kpwags.com/posts/2022/11/11/reading-log-november-11-5"/>
+        <id>https://kpwags.com/reading-log/5</id>
+        <link href="https://kpwags.com/reading-log/5"/>
         <updated>2022-11-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Twitter drama is never ending. Microsoft has also released .NET 7 and C# 11!]]></summary>
         <content type="html"><![CDATA[
@@ -1920,8 +1920,8 @@ export const useTheme = (): UseThemeReturn =&gt; {
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - November 4 (#4)]]></title>
-        <id>https://kpwags.com/posts/2022/11/04/reading-log-november-4-4</id>
-        <link href="https://kpwags.com/posts/2022/11/04/reading-log-november-4-4"/>
+        <id>https://kpwags.com/reading-log/4</id>
+        <link href="https://kpwags.com/reading-log/4"/>
         <updated>2022-11-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Elon Musk&#39;s takeover of Twitter has made for an interesting news week.]]></summary>
         <content type="html"><![CDATA[
@@ -2381,8 +2381,8 @@ internal class Program
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - October 28 (#3)]]></title>
-        <id>https://kpwags.com/posts/2022/10/28/reading-log-october-28-3</id>
-        <link href="https://kpwags.com/posts/2022/10/28/reading-log-october-28-3"/>
+        <id>https://kpwags.com/reading-log/3</id>
+        <link href="https://kpwags.com/reading-log/3"/>
         <updated>2022-10-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Too much Musk this week.]]></summary>
         <content type="html"><![CDATA[
@@ -2435,8 +2435,8 @@ internal class Program
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - October 21 (#2)]]></title>
-        <id>https://kpwags.com/posts/2022/10/21/reading-log-october-21-2</id>
-        <link href="https://kpwags.com/posts/2022/10/21/reading-log-october-21-2"/>
+        <id>https://kpwags.com/reading-log/2</id>
+        <link href="https://kpwags.com/reading-log/2"/>
         <updated>2022-10-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[After stuffing Pocket with a bunch of articles, I&#39;ve finally gotten around to going through them.]]></summary>
         <content type="html"><![CDATA[
@@ -2493,8 +2493,8 @@ internal class Program
     </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - October 14 (#1)]]></title>
-        <id>https://kpwags.com/posts/2022/10/14/reading-log-october-14-1</id>
-        <link href="https://kpwags.com/posts/2022/10/14/reading-log-october-14-1"/>
+        <id>https://kpwags.com/reading-log/1</id>
+        <link href="https://kpwags.com/reading-log/1"/>
         <updated>2022-10-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It&#39;s been a little bit since I&#39;ve posted one of these. Been busy working on other projects and playing Wrath of the Lich King. Anyway, here&#39;s the newest list.]]></summary>
         <content type="html"><![CDATA[
@@ -3153,6 +3153,42 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Reading List: July 16 - July 22]]></title>
+        <id>https://kpwags.com/posts/2022/07/22/reading-list</id>
+        <link href="https://kpwags.com/posts/2022/07/22/reading-list"/>
+        <updated>2022-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some articles about C#, SQL and looking at local newspapers.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Some articles about C#, SQL and looking at local newspapers.</p>
+<h2>👨🏼‍💻Software Development</h2>
+<p><a href="https://jeremybytes.blogspot.com/2022/07/nullability-in-c-what-it-is-and-what-it.html">Nullability in C# - What It Is and What It Is Not</a> - <em>jeremybytes.blogspot.com</em></p>
+<p><a href="https://blog.plover.com/prog/git/tips-2.html">Things I wish everyone knew about Git (Part II)</a> - <em>blog.plover.com</em></p>
+<p><a href="https://brandur.org/soft-deletion">Soft Deletion Probably Isn&#x27;t Worth It</a> - <em>brandur.org</em></p>
+<p><a href="https://steven-giesel.com/blogPost/3992a289-4cc9-460c-b484-0cc137cccafa">Abstract Class vs Interface</a> - <em>steven-giesel.com</em></p>
+<p><a href="https://jvns.ca/blog/2022/07/20/pseudoterminals/">What happens when you press a key in your terminal?</a> - <em>jvns.ca</em></p>
+<p><a href="https://una.im/style-queries/">Style Queries</a> - <em>una.im</em></p>
+<h2>🖥 Technology</h2>
+<p><a href="https://www.ctrl.blog/entry/teamviewer-font-privacy.html">TeamViewer installs suspicious font only useful for web fingerprinting</a> - <em>ctrl.blog</em></p>
+<h2>📈 Business and Finance</h2>
+<p><a href="https://www.marketplace.org/2022/07/19/supermarket-design-emotions-impulse-buys/">It&#x27;s hard to keep costs down at the supermarket, thanks to store design and our emotions</a> - <em>marketplace.org</em></p>
+<h2>🎧 Podcasts</h2>
+<p><a href="https://www.dotnetrocks.com/default.aspx?ShowNum=1759">.NET Rocks #1759: Code That Fits in Your Head</a></p>
+<h2>🎒 Miscellaneous</h2>
+<p><a href="https://defector.com/this-is-not-the-way-to-help-local-news/">This is Not the Way to Help Local News</a> - 💰 - <em>defector.com</em></p>
+<h2>🎵 A Song to Leave You With</h2>
+<h3>Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave</h3>
+<p><a href="https://www.youtube.com/watch?v=liHH9TIY-Ik" title="Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Reading List: July 23 - July 29]]></title>
         <id>https://kpwags.com/posts/2022/07/29/reading-list</id>
         <link href="https://kpwags.com/posts/2022/07/29/reading-list"/>
@@ -3188,42 +3224,6 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
 <h2>🎵 A Song to Leave You With</h2>
 <h3>The Gaslight Anthem - Handwritten</h3>
 <p><a href="https://www.youtube.com/watch?v=Lf-rEslupnY" title="The Gaslight Anthem - Handwritten">View on YouTube</a></p>
-            </div>
-        ]]></content>
-        <author>
-            <name>Keith Wagner</name>
-            <email>blog@kpwags.com</email>
-            <uri>https://kpwags.com/</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reading List: July 16 - July 22]]></title>
-        <id>https://kpwags.com/posts/2022/07/22/reading-list</id>
-        <link href="https://kpwags.com/posts/2022/07/22/reading-list"/>
-        <updated>2022-07-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Some articles about C#, SQL and looking at local newspapers.]]></summary>
-        <content type="html"><![CDATA[
-            <div>
-                
-                <p>Some articles about C#, SQL and looking at local newspapers.</p>
-<h2>👨🏼‍💻Software Development</h2>
-<p><a href="https://jeremybytes.blogspot.com/2022/07/nullability-in-c-what-it-is-and-what-it.html">Nullability in C# - What It Is and What It Is Not</a> - <em>jeremybytes.blogspot.com</em></p>
-<p><a href="https://blog.plover.com/prog/git/tips-2.html">Things I wish everyone knew about Git (Part II)</a> - <em>blog.plover.com</em></p>
-<p><a href="https://brandur.org/soft-deletion">Soft Deletion Probably Isn&#x27;t Worth It</a> - <em>brandur.org</em></p>
-<p><a href="https://steven-giesel.com/blogPost/3992a289-4cc9-460c-b484-0cc137cccafa">Abstract Class vs Interface</a> - <em>steven-giesel.com</em></p>
-<p><a href="https://jvns.ca/blog/2022/07/20/pseudoterminals/">What happens when you press a key in your terminal?</a> - <em>jvns.ca</em></p>
-<p><a href="https://una.im/style-queries/">Style Queries</a> - <em>una.im</em></p>
-<h2>🖥 Technology</h2>
-<p><a href="https://www.ctrl.blog/entry/teamviewer-font-privacy.html">TeamViewer installs suspicious font only useful for web fingerprinting</a> - <em>ctrl.blog</em></p>
-<h2>📈 Business and Finance</h2>
-<p><a href="https://www.marketplace.org/2022/07/19/supermarket-design-emotions-impulse-buys/">It&#x27;s hard to keep costs down at the supermarket, thanks to store design and our emotions</a> - <em>marketplace.org</em></p>
-<h2>🎧 Podcasts</h2>
-<p><a href="https://www.dotnetrocks.com/default.aspx?ShowNum=1759">.NET Rocks #1759: Code That Fits in Your Head</a></p>
-<h2>🎒 Miscellaneous</h2>
-<p><a href="https://defector.com/this-is-not-the-way-to-help-local-news/">This is Not the Way to Help Local News</a> - 💰 - <em>defector.com</em></p>
-<h2>🎵 A Song to Leave You With</h2>
-<h3>Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave</h3>
-<p><a href="https://www.youtube.com/watch?v=liHH9TIY-Ik" title="Gregor Barnett - Don&#x27;t Go Throwing Roses in My Grave">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -3393,33 +3393,6 @@ const Likes = ({ likedItems }: LikeProps): JSX.Element =&gt; {
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Reading List: June 25 - July 1]]></title>
-        <id>https://kpwags.com/posts/2022/07/01/reading-list</id>
-        <link href="https://kpwags.com/posts/2022/07/01/reading-list"/>
-        <updated>2022-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Didn&#39;t get to much reading this week, but a little bit on CSS, Apple&#39;s issues with WebKit and iOS, and women and grunge.]]></summary>
-        <content type="html"><![CDATA[
-            <div>
-                
-                <p>Didn&#x27;t get to much reading this week, but a little bit on CSS, Apple&#x27;s issues with WebKit and iOS, and women and grunge.</p>
-<h2>👨🏼‍💻Software Development</h2>
-<p><a href="https://swyx.io/the-end-of-localhost">The End of Localhost</a> - Developing on our local machines might not be as common as it is now <span class="domain-name">(swyx.io)</span></p>
-<p><a href="https://sprucecss.com/blog/writing-better-css">Writing Better CSS</a> - There is no &quot;one size fits all&quot; method for dealing with CSS, but any ideas to improve is welcome. <span class="domain-name">(sprucecss.com)</span></p>
-<h2>🖥 Technology</h2>
-<p><a href="https://infrequently.org/2022/06/apple-is-not-defending-browser-engine-choice/">Apple Is Not Defending Browser Engine Choice</a> - I am an iOS user and even I agree Apple should open up iOS to different browser engines. <span class="domain-name">(infrequently.org)</span></p>
-<h2>🎒 Miscellaneous</h2>
-<p><a href="https://longreads.com/2022/06/29/the-women-who-built-grunge/">The Women Who Built Grunge</a> - They&#x27;ve been sadly long buried beneath men. <span class="domain-name">(longreads.com)</span></p>
-<h2>🎵 A Song to Leave You With</h2>
-<p><a href="https://www.youtube.com/watch?v=vfGZZJnoJ0U" title="Deaf Havana - Boston Square">View on YouTube</a></p>
-            </div>
-        ]]></content>
-        <author>
-            <name>Keith Wagner</name>
-            <email>blog@kpwags.com</email>
-            <uri>https://kpwags.com/</uri>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Mocking React Router and useParams]]></title>
         <id>https://kpwags.com/posts/2022/07/01/mocking-react-router-and-useparams</id>
         <link href="https://kpwags.com/posts/2022/07/01/mocking-react-router-and-useparams"/>
@@ -3482,6 +3455,33 @@ describe(&#x27;&lt;ViewRecipe /&gt;&#x27;, () =&gt; {
 <p>In the test, we then tell jest to spy on the router component and watch for <code>useParams()</code> to be called. The spy will then pay attention to if and when it is called, and if it is, return the mocked value of <code>{ id: &#x27;1&#x27; }</code>.</p>
 <p>Now when the <code>ViewRecipe</code> component is rendered the <code>useParams()</code> hook will return an ID of 1 for the test. The cool part about this is that we can set the spy in every test to return a different value for the test. I use <a href="https://kpwags.com/posts/2021/02/03/unit-testing-with-msw">Mock Service Worker</a> to mock my API calls, so the different ID values can trigger different data returns.</p>
 <p>So there you go, a nice easy way to write tests when your components rely on React Router and the <code>useParams()</code> hook.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reading List: June 25 - July 1]]></title>
+        <id>https://kpwags.com/posts/2022/07/01/reading-list</id>
+        <link href="https://kpwags.com/posts/2022/07/01/reading-list"/>
+        <updated>2022-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Didn&#39;t get to much reading this week, but a little bit on CSS, Apple&#39;s issues with WebKit and iOS, and women and grunge.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Didn&#x27;t get to much reading this week, but a little bit on CSS, Apple&#x27;s issues with WebKit and iOS, and women and grunge.</p>
+<h2>👨🏼‍💻Software Development</h2>
+<p><a href="https://swyx.io/the-end-of-localhost">The End of Localhost</a> - Developing on our local machines might not be as common as it is now <span class="domain-name">(swyx.io)</span></p>
+<p><a href="https://sprucecss.com/blog/writing-better-css">Writing Better CSS</a> - There is no &quot;one size fits all&quot; method for dealing with CSS, but any ideas to improve is welcome. <span class="domain-name">(sprucecss.com)</span></p>
+<h2>🖥 Technology</h2>
+<p><a href="https://infrequently.org/2022/06/apple-is-not-defending-browser-engine-choice/">Apple Is Not Defending Browser Engine Choice</a> - I am an iOS user and even I agree Apple should open up iOS to different browser engines. <span class="domain-name">(infrequently.org)</span></p>
+<h2>🎒 Miscellaneous</h2>
+<p><a href="https://longreads.com/2022/06/29/the-women-who-built-grunge/">The Women Who Built Grunge</a> - They&#x27;ve been sadly long buried beneath men. <span class="domain-name">(longreads.com)</span></p>
+<h2>🎵 A Song to Leave You With</h2>
+<p><a href="https://www.youtube.com/watch?v=vfGZZJnoJ0U" title="Deaf Havana - Boston Square">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
@@ -7740,6 +7740,26 @@ const directions = await Promise.all(directionCreations);
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Delays, Delays...]]></title>
+        <id>https://kpwags.com/posts/2014/01/24/delays-delays</id>
+        <link href="https://kpwags.com/posts/2014/01/24/delays-delays"/>
+        <updated>2014-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week, I was hoping to get back into my gym routine. I went so far as to do a double session on Monday in hockey (2.5 hours of drills) and was all ready to start on Tuesday after a few false starts over the last month.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>This week, I was hoping to get back into my gym routine. I went so far as to do a double session on Monday in hockey (2.5 hours of drills) and was all ready to start on Tuesday after a few false starts over the last month.</p>
+<p>Life unfortunately, doesn&#x27;t always go so easy. Tuesday there was a pretty big snowstorm and did not feel comfortable to drive to the gym. Wednesday I was all ready to go…but then I got sick. Stupid virus or something knocked me on my ass until today, and even today I don&#x27;t feel 100%.</p>
+<p>Oh well, maybe tomorrow.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Making a Switch to Ghost?]]></title>
         <id>https://kpwags.com/posts/2014/01/24/making-a-switch-to-ghost</id>
         <link href="https://kpwags.com/posts/2014/01/24/making-a-switch-to-ghost"/>
@@ -7753,26 +7773,6 @@ const directions = await Promise.all(directionCreations);
 <p>So why should I even contemplate a switch? Truth be told, I still can&#x27;t come up with a great answer for this. I see other people raving about it and its simplicity for simply writing does have a certain draw to it. One of the reasons for this blog was to get me into the habit of writing and Ghost seems to do a great job at doing just that. It doesn&#x27;t yet seem to have the same support that WordPress has for plugins and whatnot, though that&#x27;s apparently in the works. Still though, I don&#x27;t really use any plugins for my blog at all except for Disqus so it probably isn&#x27;t all that big of a deal.</p>
 <p>I guess one of the biggest drawbacks (for me) I see for it is that it&#x27;s written in node.js. I have no problem with node.js, its just that I haven&#x27;t really played around with it much and would like a better understanding of it before I&#x27;m willing to run my site on it. That in itself wouldn&#x27;t be so bad if it weren&#x27;t for the fact that I&#x27;m busy enough the way it is. Now I feel like I&#x27;m just complaining about nothing or maybe I just have too much on my plate at the moment.</p>
 <p>Either way, it&#x27;s something I am still considering, but I can&#x27;t help but to think…if it ain&#x27;t broke, don&#x27;t fix it.</p>
-            </div>
-        ]]></content>
-        <author>
-            <name>Keith Wagner</name>
-            <email>blog@kpwags.com</email>
-            <uri>https://kpwags.com/</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delays, Delays...]]></title>
-        <id>https://kpwags.com/posts/2014/01/24/delays-delays</id>
-        <link href="https://kpwags.com/posts/2014/01/24/delays-delays"/>
-        <updated>2014-01-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week, I was hoping to get back into my gym routine. I went so far as to do a double session on Monday in hockey (2.5 hours of drills) and was all ready to start on Tuesday after a few false starts over the last month.]]></summary>
-        <content type="html"><![CDATA[
-            <div>
-                
-                <p>This week, I was hoping to get back into my gym routine. I went so far as to do a double session on Monday in hockey (2.5 hours of drills) and was all ready to start on Tuesday after a few false starts over the last month.</p>
-<p>Life unfortunately, doesn&#x27;t always go so easy. Tuesday there was a pretty big snowstorm and did not feel comfortable to drive to the gym. Wednesday I was all ready to go…but then I got sick. Stupid virus or something knocked me on my ass until today, and even today I don&#x27;t feel 100%.</p>
-<p>Oh well, maybe tomorrow.</p>
             </div>
         ]]></content>
         <author>
