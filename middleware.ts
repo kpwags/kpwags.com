@@ -6,6 +6,11 @@ export function middleware(request: NextRequest) {
     const url = request.nextUrl.clone();
 
     switch (url.pathname) {
+        case '/current':
+            url.pathname = '/now';
+            url.search = '';
+            return NextResponse.redirect(url);
+
         case '/posts/2022/10/14/reading-log-october-14-1':
             url.pathname = '/reading-log/1';
             url.search = '';

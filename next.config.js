@@ -4,6 +4,7 @@ const withMDX = require('@next/mdx')({
 });
 
 module.exports = {
+    target: 'server',
     webpack(config) {
         config.module.rules.push({ test: /\.mdx$/, use: 'raw-loader' });
         config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
@@ -22,11 +23,6 @@ module.exports = {
             {
                 source: '/feed.xml',
                 destination: '/rss/feed.xml',
-                permanent: true,
-            },
-            {
-                source: '/current',
-                destination: '/now',
                 permanent: true,
             },
         ];
