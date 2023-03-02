@@ -54,7 +54,7 @@ const Header = (): JSX.Element => {
                 </div>
                 <nav className={styles.nav}>
                     <Link aria-label="Blog" href="/blog"><a>Blog</a></Link>
-                    <Link aria-label="Photo Blog" href="/photoblog"><a>Photo Blog</a></Link>
+                    <Link aria-label="Reading Logs" href="/reading-logs"><a>Reading Logs</a></Link>
                     <Link aria-label="Photography" href="/photography"><a>Photography</a></Link>
                     <Link aria-label="About" href="/about"><a className="hide-on-tablet">About</a></Link>
                     <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />

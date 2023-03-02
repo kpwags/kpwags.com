@@ -9,3 +9,9 @@
 .rss svg path {
     fill: var(--primary-color-2)
 }
+
+@media (max-width: 767px) {
+    .rss {
+        display: none;
+    }
+}
