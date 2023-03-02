@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { getPaginatedPostsForTag, getAllTagPages } from '@lib/posts';
+import { getPaginatedPostsForTag, getAllTagPages } from '@lib/tags';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { BlogPost } from '@models/blogPost';
 import PostListing from '@components/PostListing';

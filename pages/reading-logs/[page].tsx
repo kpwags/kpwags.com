@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import { BlogPost } from '@models/blogPost';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
-import { getPaginatedPosts, getPostPages } from '@lib/posts';
-import PostListing from '@components/PostListing';
+import { getPaginatedReadingLogs, getReadingLogPages } from '@lib/readinglog';
+import ReadingLogListing from '@components/ReadingLogListing';
 import ReactPaginate from 'react-paginate';
 import RssFeeds from '@components/RssFeeds';
+import { ReadingLog } from '@models/ReadingLog';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = getPostPages();
+    const paths = getReadingLogPages();
 
     return {
         paths,
@@ -26,30 +26,30 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         pageNumber = parseInt(page, 10);
     }
 
-    const posts = getPaginatedPosts(pageNumber);
+    const logs = getPaginatedReadingLogs(pageNumber);
 
     return {
         props: {
-            posts: posts.posts,
-            lastPage: posts.totalPages,
+            logs: logs.posts,
+            lastPage: logs.totalPages,
             currentPage: pageNumber,
         },
     };
 };
 
-interface PostProps {
-    posts: BlogPost[]
+interface ReadingLogProps {
+    logs: ReadingLog[]
     lastPage: number
     currentPage: number
 }
 
-const Post = ({ posts, lastPage, currentPage }: PostProps): JSX.Element => {
-    const [blogPosts, setBlogPosts] = useState(posts);
+const Post = ({ logs, lastPage, currentPage }: ReadingLogProps): JSX.Element => {
+    const [readingLogs, setReadingLogs] = useState(logs);
     const router = useRouter();
 
     useEffect(() => {
-        setBlogPosts(posts);
-    }, [posts]);
+        setReadingLogs(logs);
+    }, [logs]);
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handlePagination = (page: any) => {
@@ -66,18 +66,18 @@ const Post = ({ posts, lastPage, currentPage }: PostProps): JSX.Element => {
 
     return (
         <>
-            <Head><title>Blog - Keith Wagner</title></Head>
+            <Head><title>Reading Logs - Keith Wagner</title></Head>
             <RssFeeds />
 
-            <h1>Blog</h1>
+            <h1>Reading Logs</h1>
 
-            {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
+            {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
 
             <ReactPaginate
                 marginPagesDisplayed={0}
                 pageRangeDisplayed={0}
-                previousLabel="&larr; Newer Posts"
-                nextLabel="Older Posts &rarr;"
+                previousLabel="&larr; Newer"
+                nextLabel="Older &rarr;"
                 initialPage={currentPage - 1}
                 pageCount={lastPage}
                 onPageChange={handlePagination}
