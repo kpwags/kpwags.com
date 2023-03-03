@@ -4,7 +4,7 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Thu, 02 Mar 2023 02:57:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Mar 2023 23:21:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
@@ -20,7 +20,7 @@
                 
                 <p>I just moved my reading logs into their own page and unfortunately I&#x27;m dealing with a few side effects caused by it.</p>
 <p>I&#x27;m hoping to fix them over the next couple days. The biggest issue is the redirects. Moving the reading logs, I have redirects in place that work locally, but aren&#x27;t working in production. It&#x27;s an annoying bug that I&#x27;m gonna have to experiment with to fix.</p>
-<p>The other thing I added was additional RSS feeds. The default feed before includes both blog posts and reading logs. I also added feeds for the reading logs and blog posts separately.</p>
+<p>The other thing I added was additional RSS feeds. The default feed before includes both blog posts and reading logs. I also added feeds for the reading logs and blog posts separately. You can click the RSS feed icon in the site header to choose your feed.</p>
             </div>
         ]]></content:encoded>
             <author>blog@kpwags.com (Keith Wagner)</author>
