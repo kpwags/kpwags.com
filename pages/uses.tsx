@@ -20,12 +20,8 @@ const Uses = (): JSX.Element => (
 
             <h3 id="laptop">Laptop</h3>
             <p>
-                Back in June, my old 2015 MacBook Pro made some popping noises which scared me into upgrading my laptop.
-                I was hoping to hold off and wait for Apple to release a 15 or 16&quot; MacBook Pro with the M1 chip, but
-                since I couldn&apos;t trust my laptop to not catch fire, I decided the smaller 13&quot; MacBook Pro would
-                work for me. It took a little bit of time to get used to the smaller screen, but so far it&apos;s been a
-                fantastic machine. I keep it plugged into a docking station most of the time so I&apos;m able to use it with
-                my dual 27&quot; monitors. The battery life on it is amazing.
+                I use a 13&quot; M1 MacBook Pro as my daily driver. It took a little bit of time to get used to the smaller screen, but so far it&apos;s been a
+                fantastic machine. I keep it plugged into a docking station most of the time so I&apos;m able to use it with my dual 27&quot; monitors. The battery life on it is amazing.
             </p>
 
             <h2 id="displays">Displays</h2>
@@ -80,12 +76,12 @@ const Uses = (): JSX.Element => (
 
             <h3 id="phone">Phone</h3>
             <p>
-                I&apos;m currently using an iPhone 12 Pro. The screen is absolutely stunning and it takes fantastic photos.
+                I&apos;m currently using an iPhone 14 Pro Max. The screen is absolutely stunning and it takes fantastic photos.
             </p>
 
             <h3 id="smart-watch">Smart Watch</h3>
             <p>
-                To go along with my iPhone, I have the Apple Watch Series 5. The watch is awesome for keeping track of my
+                To go along with my iPhone, I have the Apple Watch Series 8 with cell service. The watch is awesome for keeping track of my
                 fitness when running &amp; working out. The trick with the watch is to be selective about what alerts you want shared
                 between your phone and your wrist. In my case, most alerts are off on the watch because let&apos;s face it, how many
                 notifications need to be responded to immediately? The occasional phone call I take on the watch makes me feel like
@@ -178,6 +174,9 @@ const Uses = (): JSX.Element => (
                 <ExternalLink href="https://code.visualstudio.com/">Visual Studio Code</ExternalLink>: My primary editor for my development.
             </p>
             <p>
+                <ExternalLink href="https://www.jetbrains.com/rider/">JetBrains Rider</ExternalLink>: I needed a good IDE on my Mac for my .NET projects and Rider is awesome. Might even switch to it on Windows too.
+            </p>
+            <p>
                 <ExternalLink href="https://visualstudio.microsoft.com/vs/">Visual Studio 2022</ExternalLink>: On my desktop, I will sometimes use Visual Studio 2022 for some of the backend work for my .NET projects.
             </p>
 
@@ -237,8 +236,7 @@ const Uses = (): JSX.Element => (
 
             <h3 id="web-browsing">Web Browsing</h3>
             <p>
-                I&apos;ve been using <ExternalLink href="https://brave.com/">Brave</ExternalLink>to browse the web. I don&apos;t use
-                the Brave Rewards functionality, but the browser is fast and the blocking of trackers and ads is important to me.
+                I&apos;ve been using <ExternalLink href="https://arc.net/">Arc</ExternalLink> and while it took a little bit to get used to, but I&apos;m liking it so far.
             </p>
 
             <h3 id="email">Email</h3>
