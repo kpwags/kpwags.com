@@ -4,11 +4,56 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 10 Mar 2023 20:15:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Mar 2023 22:35:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - March 17 (#22)]]></title>
+            <link>https://kpwags.com/reading-log/22</link>
+            <guid>https://kpwags.com/reading-log/22</guid>
+            <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[New updates about .NET 8 &amp; TypeScript, JavaScript failures &amp; progressive enhancement, and more.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>New updates about .NET 8 &amp; TypeScript, JavaScript failures &amp; progressive enhancement, and more.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Jason Godesky:</span> <a href="https://scribe.rip/@jason.godesky/when-javascript-fails-52eef47e90db">When JavaScript Fails</a></h3><p>I&#x27;ve been guilty of not properly handling my site without JavaScript enabled. I didn&#x27;t even necessarily thing about what happens if it fails to load at all. It&#x27;s important to think of the edge cases to help produce a good experience. There are obviously some functionality that require JavaScript, but that doesn&#x27;t mean you should ignore the user and not have some fallback in place, even if it means alerting the user they need to turn on scripts.</p></div>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://blog.container-solutions.com/why-your-desk-is-the-worst-place-to-work-and-other-life-lessons-from-a-lazy-developer">Why Your Desk is the Worst Place to Work, and Other Life Lessons from a Lazy Developer</a> <em>Holly Cummins</em></p>
+<p><a href="https://andrewlock.net/working-with-git-in-jetbrains-rider/">Working with Git in JetBrains Rider</a> <em>Andrew Lock</em></p>
+<p><a href="https://frankrausch.com/ios-navigation">Modern iOS Navigation Patterns</a> <em>Frank Rausch</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-ef8-preview-2/">EF Core 8 Preview 2: Lite and familiar</a> <em>Arthur Vickers</em></p>
+<p><a href="https://blogs.windows.com/msedgedev/2023/03/14/taking-control-of-your-applications-title-bar/">Taking control of your application&#x27;s title bar</a> <em>Diego Gonzalez</em></p>
+<p><a href="https://css-tricks.com/5-mistakes-starting-react/">5 Mistakes I Made When Starting My First React Project</a> <em>Richard Oliver Bray</em></p>
+<p><a href="https://www.adhamdannaway.com/blog/ui-design/16-ui-design-rules">16 little UI design rules that make a big impact</a> <em>Adham Dannaway</em></p>
+<p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/">Announcing TypeScript 5.0</a> <em>Daniel Rosenwasser</em></p>
+<p><a href="https://luketheweb.dev/blog/what-is-vite-and-why-should-you-use-it-instead-of-create-react-app">What is Vite and Why Should You Use It Instead of Create React App?</a> <em>Luke Twomey</em></p>
+<p><a href="https://modernfontstacks.com/">Modern Font Stacks</a> <em>Dan Klammer</em></p>
+<p><a href="https://joshcollinsworth.com/blog/great-transitions">Ten tips for better CSS transitions and animations</a> <em>Josh Collinsworth</em></p>
+<p><a href="https://react.dev/blog/2023/03/16/introducing-react-dev">Introducing react.dev</a> <em>Dan Abramov &amp; Rachel Nabors</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/how-async-await-really-works/">How Async/Await Really Works in C# - .NET Blog</a> <em>Stephen Toub</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.wired.com/story/why-the-floppy-disk-just-wont-die/">Why the Floppy Disk Just Won&#x27;t Die</a> <em>Jacopo Prisco</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.npr.org/sections/money/2023/03/14/1163200179/the-collapse-of-silicon-valley-bank">The Collapse Of Silicon Valley Bank</a> <em>Bobby Allyn, David Gura, Paddy Hirsch &amp; Greg Rosalsky</em></p>
+<p><a href="https://www.axios.com/2023/03/16/the-long-anticipated-office-reckoning-is-upon-us">The long-anticipated office reckoning is upon us</a> <em>Emily Peck</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://www.theverge.com/2023/3/14/23639474/floating-solar-panels-power-cities-renewable-energy">Floating solar panels could completely power thousands of cities</a> <em>Justine Calma</em></p>
+<h3>⚾ Sports</h3>
+<p><a href="https://theathletic.com/4257621/2023/03/14/officiating-ncaa-tournament-super-bowl-big-moments/">What&#x27;s it like to be an official in the final moments of a huge game? &#x27;I was dead and right&#x27;</a> <em>Brandon Quinn</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.techdirt.com/2023/03/15/techdirt-podcast-episode-347-why-is-congress-so-wrong-about-section-230/">Techdirt Podcast #347: Why Is Congress So Wrong About Section 230?</a></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Jerry Goldsmith - Star Trek: First Credit End Credits</h4>
+<p><a href="https://www.youtube.com/watch?v=q1H_OwK9r5s" title="Jerry Goldsmith - Star Trek: First Credit End Credits">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - March 10 (#21)]]></title>
             <link>https://kpwags.com/reading-log/21</link>

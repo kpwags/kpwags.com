@@ -11,7 +11,7 @@ const ProgressFor2023 = (): JSX.Element => (
 
             <p>I figured it would be a nice idea to create a page to show my progress on my goals for 2023.</p>
 
-            <p><em>Last Updated: February 21, 2022</em></p>
+            <p><em>Last Updated: March 17, 2022</em></p>
 
             <h2>Goal #1: Learn (Re-Learn?) Guitar</h2>
             <p>My goal for 2023 teach myself guitar. I want to learn 10 &quot;modern&quot; rock songs.</p>
@@ -41,7 +41,7 @@ const ProgressFor2023 = (): JSX.Element => (
             <p>My goal for 2023 is to hit a 1,000 total weight across deadlift, squat, &amp; bench press.</p>
 
             <h3>1,000 lbs. Goal</h3>
-            <ProgressBar color="hsl(150, 96%, 29%)" fullValue={1000} currentValue={950} />
+            <ProgressBar color="hsl(150, 96%, 29%)" fullValue={1000} currentValue={975} />
 
             <hr />
 
@@ -49,7 +49,7 @@ const ProgressFor2023 = (): JSX.Element => (
             <p>My goal for 2023 is to run 400 miles and bike 400 miles.</p>
 
             <h3>Running</h3>
-            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={74.16} />
+            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={99} />
 
             <h3>Biking</h3>
             <ProgressBar color="hsl(167, 100%, 37%)" fullValue={400} currentValue={0} />
@@ -60,7 +60,7 @@ const ProgressFor2023 = (): JSX.Element => (
             <p>My goal for 2023 is to take my DSLR out 5 times for photo shoots this year.</p>
 
             <h3>Photo Shoots</h3>
-            <ProgressBar color="hsl(15, 96%, 29%)" fullValue={5} currentValue={0} />
+            <ProgressBar color="hsl(15, 96%, 29%)" fullValue={5} currentValue={1} />
         </div>
     </>
 );
