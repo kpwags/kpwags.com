@@ -93,7 +93,7 @@ const getPostsForRssFeed = async (): Promise<BlogPost[]> => {
         };
     }));
 
-    return sortPosts(posts);
+    return sortPosts(posts.filter((p) => p.title));
 };
 
 const getReadingLogsForRssFeed = async (): Promise<ReadingLog[]> => {
@@ -296,7 +296,7 @@ const generateRssFeed = async (): Promise<void> => {
         language: 'en',
         favicon: `${baseUrl}/favicon.ico`,
         copyright: `${date.getFullYear()} Keith Wagner`,
-        updated: date,
+        updated: new Date(),
         generator: 'Next.js using Feed for Node.js',
         feedLinks: {
             rss2: `${baseUrl}/rss/feed.xml`,

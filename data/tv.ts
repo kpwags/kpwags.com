@@ -118,6 +118,14 @@ const tv: TV = {
             link: 'https://www.imdb.com/title/tt13991232/',
             imageFolder: 'tv',
         },
+        {
+            title: 'Elementary',
+            cover: 'elementary.jpg',
+            rating: 5,
+            thoughts: "I loved the way the show's creators brought about Sherlock Holmes meets New York City.",
+            link: 'https://www.imdb.com/title/tt2191671/',
+            imageFolder: 'tv',
+        },
     ],
     completed: [
         {

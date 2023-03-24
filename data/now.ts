@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const now: CurrentlyDoing = {
-    lastUpdate: 'February 2023',
+    lastUpdate: 'March 2023',
     reading: [
         {
-            title: 'American Gods',
+            title: 'Anansi Boys',
             author: 'Neil Gaiman',
-            cover: 'american_gods.jpg',
-            link: 'https://bookshop.org/p/books/american-gods-neil-gaiman/6438874?ean=9780063081918',
+            cover: 'anansi_boys.jpg',
+            link: 'https://bookshop.org/p/books/anansi-boys-neil-gaiman/6438691?ean=9780063070738',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
@@ -52,6 +52,14 @@ const now: CurrentlyDoing = {
             rating: null,
             thoughts: null,
             link: 'https://www.imdb.com/title/tt13991232/',
+            imageFolder: 'tv',
+        },
+        {
+            title: 'Elementary',
+            cover: 'elementary.jpg',
+            rating: 5,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt2191671/',
             imageFolder: 'tv',
         },
     ],
