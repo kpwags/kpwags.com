@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-03-19T20:45:04.676Z</updated>
+    <updated>2023-03-24T23:01:42.294Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,60 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - March 24 (#23)]]></title>
+        <id>https://kpwags.com/reading-log/23</id>
+        <link href="https://kpwags.com/reading-log/23"/>
+        <updated>2023-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You know all those supposedly &quot;good&quot; password rules? Well, they tend not to be so good.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                <p>You know all those supposedly &quot;good&quot; password rules? Well, they tend not to be so good.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Christopher Mims:</span> <a href="https://www.wsj.com/articles/annoying-password-rules-actually-make-us-less-secure-a05edb70">Annoying Password Rules Actually Make Us Less Secure</a></h3><p>So many of the rules that sites and companies use annoy the living bejeezus out of me. There&#x27;s no reason I shouldn&#x27;t be able to have a long password with special characters in it...and please let me use a password manager.</p></div>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://www.scottohara.me/blog/2023/03/24/search-element.html">The Search Element</a> <em>Scott O&#x27;Hara</em></p>
+<p><a href="https://johnnyreilly.com/lighthouse-meet-github-actions">Lighthouse meet GitHub Actions</a> <em>John Reilly</em></p>
+<p><a href="https://blog.ploeh.dk/2023/03/20/on-trust-in-software-development/">On trust in software development</a> <em>Mark Seemann</em></p>
+<p><a href="https://raygun.com/blog/react-debugging-guide/">The 2023 guide to React debugging</a> <em>Anna Monus</em></p>
+<p><a href="https://javascript.plainenglish.io/clean-code-in-typescript-a183d43f3bf0">Clean Code in TypeScript</a> <em>Kyle Le</em></p>
+<p><a href="https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/">6 CSS snippets every front-end developer should know in 2023</a> <em>Adam Argyle</em></p>
+<p><a href="https://damienbod.com/2023/03/20/a-first-look-at-blazor-and-net-8/">A first look at Blazor and .NET 8</a> <em>Damien Bowden</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://clivethompson.medium.com/maybe-zoom-parties-werent-so-bad-e5e57e1c869c">Maybe Zoom Parties Weren&#x27;t So Bad</a> <em>Clive Thompson</em></p>
+<p><a href="https://www.techdirt.com/2023/03/20/fcc-staffers-routinely-held-stock-in-telecom-giants-they-regulated/">FCC Staffers Routinely Held Stock In Telecom Giants They Regulated</a> <em>Karl Bode</em></p>
+<p><a href="https://www.bitestring.com/posts/2023-03-19-web-fingerprinting-is-worse-than-I-thought.html">Web fingerprinting is worse than I thought</a> <em>bitestring.com</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2023/03/antisemitism-on-twitter-has-more-than-doubled-since-elon-musk-took-over/">Antisemitism on Twitter has more than doubled since Elon Musk took over</a> <em>Carl Miller</em></p>
+<p><a href="https://www.techdirt.com/2023/03/21/appeals-court-says-nope-to-florida-governors-stop-woke-law-denies-request-to-lift-injunction-against-it/">Appeals Court Says Nope To Florida Governor&#x27;s &#x27;Stop Woke&#x27; Law, Denies Request To Lift Injunction Against It</a> <em>Tim Cushing</em></p>
+<p><a href="https://blog.mozilla.org/en/mozilla/introducing-mozilla-ai-investing-in-trustworthy-ai/">Introducing Mozilla.ai: Investing in trustworthy AI</a> <em>Mark Surman</em></p>
+<h3>🎮 Gaming</h3>
+<p><a href="https://www.counter-strike.net/cs2">Introducing Counter-Strike 2</a> <em>counter-strike.net</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.wsj.com/articles/that-plum-job-listing-may-just-be-a-ghost-3aafc794">Job Listings Abound, but Many Are Fake</a> <em>Te—Ping Chen</em></p>
+<p><a href="https://www.techdirt.com/2023/03/22/book-publishers-wont-stop-until-libraries-are-dead/">Book Publishers Won&#x27;t Stop Until Libraries Are Dead</a> <em>Mike Masnick</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/science/2023/03/relativity-space-has-a-successful-failure-with-the-debut-of-terran-1/">Relativity Space has a successful failure with the debut of Terran 1</a> <em>Eric Berger</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://mebfaber.com/2021/08/04/e337-richard-thaler/">The Meb Faber Show #337: Professor Richard Thaler</a></p>
+<p><a href="https://www.jordanharbinger.com/sam-harris-rationally-confronting-the-irrational/">The Jordan Harbinger Show #698: Sam Harris | Rationally Confronting the Irrational</a></p>
+<p><a href="https://www.npr.org/2023/03/21/1164979588/svb-collapse-bailout-startup-founder">Planet Money #1624: Inside a Bank Run</a></p>
+<p><a href="https://longform.org/posts/longform-podcast-496-michael-pollan">Longform Podcast #496: Michael Pollan</a></p>
+<p><a href="https://www.dancarlin.com/product/hardcore-history-68-blitz-human-resources/">Hardcore History #68: Human Resources</a></p>
+<p><a href="https://theathletic.com/podcast/278-luck/">The Athletic: Luck</a></p>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://chasem.co/2023/03/weblogs-as-a-form/">How blogs shaped the web</a> <em>Chase McCoy</em></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>The Menzingers - Bad Actors</h4>
+<p><a href="https://www.youtube.com/watch?v=N1XBswrzOV8" title="The Menzingers - Bad Actors">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - March 17 (#22)]]></title>
         <id>https://kpwags.com/reading-log/22</id>

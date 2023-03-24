@@ -12,11 +12,20 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'February 2023',
+    lastUpdate: 'March 2023',
     years: [
         {
             year: '2023',
             books: [
+                {
+                    title: 'American Gods',
+                    author: 'Neil Gaiman',
+                    cover: 'american_gods.jpg',
+                    link: 'https://bookshop.org/p/books/american-gods-neil-gaiman/6438874?ean=9780063081918',
+                    rating: 4,
+                    thoughts: "Ever read a book and struggle to define the synopsis? I can't fully define the synopsis, but I enjoyed the story.",
+                    imageFolder: 'books',
+                },
                 {
                     title: "Liar's Poker",
                     author: 'Michael Lewis',
