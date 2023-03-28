@@ -93,7 +93,7 @@ const getPostsForRssFeed = async (): Promise<BlogPost[]> => {
         };
     }));
 
-    return sortPosts(posts.filter((p) => p.title));
+    return sortPosts(posts);
 };
 
 const getReadingLogsForRssFeed = async (): Promise<ReadingLog[]> => {
