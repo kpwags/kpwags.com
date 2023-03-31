@@ -4,11 +4,49 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Tue, 28 Mar 2023 23:26:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Mar 2023 22:42:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - March 31 (#24)]]></title>
+            <link>https://kpwags.com/reading-log/24</link>
+            <guid>https://kpwags.com/reading-log/24</guid>
+            <pubDate>Fri, 31 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Podcast heavy this week. I&#39;ve been trying to go through and listen to my unruly queue.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>Podcast heavy this week. I&#x27;ve been trying to go through and listen to my unruly queue.</p>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://www.robinwieruch.de/react-starter/">How to start a React Project in 2023</a> <em>Robin Wieruch</em></p>
+<p><a href="https://designshack.net/articles/graphics/choosing-font-for-titles-and-headline/">How to Choose the Perfect Font for Titles &amp; Headlines</a> <em>Jenifer Davies</em></p>
+<p><a href="https://www.joshwcomeau.com/blog/the-end-of-frontend-development/">The End of Front-End Development</a> <em>Josh Comeau</em></p>
+<p><a href="https://bartwullems.blogspot.com/2023/03/c-clean-up-your-exception-handling.html">C# - Clean up your exception handling logic with Exception Filters</a> <em>Bart Wullems</em></p>
+<p><a href="https://www.zachleat.com/web/single-page-applications/">Defaulting on Single Page Applications (SPA)</a> <em>Zach Leatherman</em></p>
+<p><a href="https://csharp.christiannagel.com/2023/03/28/primaryctors/">Primary Constructors with C#</a> <em>Christian Nagel</em></p>
+<p><a href="https://blog.sandworm.dev/one-in-two-new-npm-packages-is-seo-spam-right-now">One in Two New npm Packages is SEO Spam Right Now</a> <em>Gabi Dobocan</em></p>
+<p><a href="https://www.aha.io/engineering/articles/css-is-hard-no-matter-how-good-you-are-at-it">CSS is hard no matter how good you are at it</a> <em>Jonathan Steel</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.theverge.com/2023/3/27/23658863/arc-browser-iphone-ios-companion-app-mac">Arc is coming to iPhone, but it won&#x27;t replace Safari yet, says CEO</a> <em>Mitchell Clark</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.boweryboyshistory.com/2022/08/danger-in-the-harbor-world-war-i-and-the-black-tom-explosion-of-1916.html">Danger in the Harbor: World War I and the Black Tom Explosion of 1916</a></p>
+<p><a href="https://www.economist.com/moscowpod">The Economist: Next Year in Moscow</a></p>
+<p><a href="https://shows.acast.com/the-new-bazaar/episodes/the-moral-consequences-of-economic-growth-revisited">The New Bazaar #49: The Moral Consequences of Economic Growth, Revisited</a></p>
+<p><a href="https://shows.acast.com/wtf-with-marc-maron-podcast/episodes/episode-1353-neil-gaiman">WTF with Marc Maron #1353: Neil Gaiman</a></p>
+<p><a href="https://wondery.com/shows/how-i-built-this/episode/10386-dogfish-head-craft-brewery-sam-and-mariah-calagione/">How I Built This #433: Dogfish Head Craft Brewery</a></p>
+<p><a href="https://www.theverge.com/23658648/mastodon-ceo-twitter-interview-elon-musk-twitter">Decoder: Can Mastodon seize the moment from Twitter?</a></p>
+<p><a href="https://www.pushkin.fm/podcasts/cautionary-tales/cautionary-conversation-flying-on-empty">Cautionary Conversation: Flying on Empty</a></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Spanish Love Songs - Kick</h4>
+<p><a href="https://www.youtube.com/watch?v=li8_sda6Gt0">https://www.youtube.com/watch?v=li8_sda6Gt0</a></p>
+<p><a href="https://www.youtube.com/watch?v=li8\_sda6Gt0" title="Spanish Love Songs - Kick">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Handling an Unruly Podcast Queue]]></title>
             <link>https://kpwags.com/posts/2023/03/28/handling-an-unruly-podcast-queue</link>
