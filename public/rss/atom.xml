@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-03-31T22:42:58.745Z</updated>
+    <updated>2023-04-03T23:14:49.307Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -15,6 +15,79 @@
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
     <entry>
+        <title type="html"><![CDATA[March Check-In]]></title>
+        <id>https://kpwags.com/posts/2023/04/03/march-check-in</id>
+        <link href="https://kpwags.com/posts/2023/04/03/march-check-in"/>
+        <updated>2023-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[March wasn&#39;t a particularly bad month, had a wedding a whiskey dinner.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>March wasn&#x27;t a particularly bad month, had a wedding a whiskey dinner.</p>
+<h2>Getting My Camera Out Again</h2>
+<p>At the beginning of March, my Sister-in-Law got married and as a wedding gift, I offered to take some photos of her special day. It gave me the chance to get my camera out and enjoy my hobby. I still need to go through the photos, and I&#x27;m thinking it will be a good chance to give <a href="https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746">Darkroom</a> a try.</p>
+<h2>Digging into Astro</h2>
+<p>You know the saying that developers can&#x27;t finish a side project? Yeah, that trend continues as I&#x27;ve been splitting my time between Blazor and re-writing my blog using Astro 2.0. I&#x27;m actually pretty impressed with how easy it is to implement. I miss bits and pieces of React &amp; Next.js, but man is Astro fast. I&#x27;m not sure if I&#x27;ll end up switching platforms, but I&#x27;m liking the ease of developer experience.</p>
+<h2>Continuing Blazor</h2>
+<p>I&#x27;ve been making good progress with my card organizer in Blazor. I&#x27;m amazed at how fast it is to build an app with Blazor. It&#x27;s taken a slight back seat with my blog rewrite in Astro, but I&#x27;m getting it into a good place.</p>
+<h2>Monthly Round-Up</h2>
+<p><strong>🏃🏼‍♂️ Running &amp; Biking</strong></p>
+<ul>
+<li><strong>Running:</strong> I ended up running 35 miles in March. Still trying to do longer runs in the hopes of making the transition to marathon training in August.</li>
+<li><strong>Biking:</strong> Nope</li>
+</ul>
+<p><strong>🏋🏼‍♂️ Lifting</strong></p>
+<ul>
+<li>Was able to finally hit the 1,000 lbs. club. I hit new PRs on both deadlifts (400 lbs.) &amp; Bench Press (240 lbs.). I&#x27;ve since dropped weight a bit to focus more on reps than sheer weight.</li>
+</ul>
+<p><strong>📚 Reading</strong></p>
+<p><em>Finished</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/american-gods-neil-gaiman/6438874?ean=9780063081918">American Gods</a> by Neil Gaiman</li>
+</ul>
+<p><em>Started</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/anansi-boys-neil-gaiman/6438691?ean=9780063070738">Anansi Boys</a> by Neil Gaiman</li>
+</ul>
+<p><strong>✍🏻 Writing</strong></p>
+<ul>
+<li>Continued my reading logs
+<ul>
+<li><a href="https://kpwags.com/reading-log/20">March 3 (#20)</a></li>
+<li><a href="https://kpwags.com/reading-log/21">March 10 (#21)</a></li>
+<li><a href="https://kpwags.com/reading-log/22">March 17 (#22)</a></li>
+<li><a href="https://kpwags.com/reading-log/23">March 24 (#23)</a></li>
+<li><a href="https://kpwags.com/reading-log/24">March 31 (#24)</a></li>
+</ul>
+</li>
+<li>Wrote about <a href="https://kpwags.com/posts/2023/03/01/separating-reading-logs">separating my reading logs</a>.</li>
+<li>Wrote about <a href="https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions">my first impressions of Blazor</a>.</li>
+<li>Wrote about <a href="https://kpwags.com/posts/2023/03/28/handling-an-unruly-podcast-queue">my unruly podcast queue</a></li>
+</ul>
+<p><strong>🎮 Gaming</strong></p>
+<ul>
+<li><a href="https://www.playstation.com/en-us/games/horizon-zero-dawn/">Horizon Zero Dawn</a> - Continuing with this</li>
+</ul>
+<p><strong>📺 Watched</strong></p>
+<ul>
+<li>Continuing <a href="https://www.imdb.com/title/tt8806524/">Star Trek Picard</a></li>
+<li>Continuing <a href="https://www.imdb.com/title/tt0112178/">Star Trek Voyager</a></li>
+<li>Started re-watching <a href="https://www.imdb.com/title/tt2191671/">Elementary</a></li>
+</ul>
+<p><strong>🎬 Movies</strong></p>
+<ul>
+<li><em>This is Where I Leave You</em></li>
+<li><em>Raiders of the Lost Ark</em></li>
+</ul>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Reading Log - March 31 (#24)]]></title>
         <id>https://kpwags.com/reading-log/24</id>
         <link href="https://kpwags.com/reading-log/24"/>
@@ -26,16 +99,16 @@
                 <p>Podcast heavy this week. I&#x27;ve been trying to go through and listen to my unruly queue.</p>
 <h2>Link Blast</h2>
 <h3>👨🏼‍💻 Software Development &amp; Design</h3>
-<p><a href="https://www.robinwieruch.de/react-starter/">How to start a React Project in 2023</a> <em>Robin Wieruch</em></p>
-<p><a href="https://designshack.net/articles/graphics/choosing-font-for-titles-and-headline/">How to Choose the Perfect Font for Titles &amp; Headlines</a> <em>Jenifer Davies</em></p>
-<p><a href="https://www.joshwcomeau.com/blog/the-end-of-frontend-development/">The End of Front-End Development</a> <em>Josh Comeau</em></p>
-<p><a href="https://bartwullems.blogspot.com/2023/03/c-clean-up-your-exception-handling.html">C# - Clean up your exception handling logic with Exception Filters</a> <em>Bart Wullems</em></p>
-<p><a href="https://www.zachleat.com/web/single-page-applications/">Defaulting on Single Page Applications (SPA)</a> <em>Zach Leatherman</em></p>
-<p><a href="https://csharp.christiannagel.com/2023/03/28/primaryctors/">Primary Constructors with C#</a> <em>Christian Nagel</em></p>
-<p><a href="https://blog.sandworm.dev/one-in-two-new-npm-packages-is-seo-spam-right-now">One in Two New npm Packages is SEO Spam Right Now</a> <em>Gabi Dobocan</em></p>
-<p><a href="https://www.aha.io/engineering/articles/css-is-hard-no-matter-how-good-you-are-at-it">CSS is hard no matter how good you are at it</a> <em>Jonathan Steel</em></p>
+<p><a href="https://www.robinwieruch.de/react-starter/">How to start a React Project in 2023</a> - <em>Robin Wieruch</em></p>
+<p><a href="https://designshack.net/articles/graphics/choosing-font-for-titles-and-headline/">How to Choose the Perfect Font for Titles &amp; Headlines</a> - <em>Jenifer Davies</em></p>
+<p><a href="https://www.joshwcomeau.com/blog/the-end-of-frontend-development/">The End of Front-End Development</a> - <em>Josh Comeau</em></p>
+<p><a href="https://bartwullems.blogspot.com/2023/03/c-clean-up-your-exception-handling.html">C# - Clean up your exception handling logic with Exception Filters</a> - <em>Bart Wullems</em></p>
+<p><a href="https://www.zachleat.com/web/single-page-applications/">Defaulting on Single Page Applications (SPA)</a> - <em>Zach Leatherman</em></p>
+<p><a href="https://csharp.christiannagel.com/2023/03/28/primaryctors/">Primary Constructors with C#</a> - <em>Christian Nagel</em></p>
+<p><a href="https://blog.sandworm.dev/one-in-two-new-npm-packages-is-seo-spam-right-now">One in Two New npm Packages is SEO Spam Right Now</a> - <em>Gabi Dobocan</em></p>
+<p><a href="https://www.aha.io/engineering/articles/css-is-hard-no-matter-how-good-you-are-at-it">CSS is hard no matter how good you are at it</a> - <em>Jonathan Steel</em></p>
 <h3>🖥 Technology &amp; the Internet</h3>
-<p><a href="https://www.theverge.com/2023/3/27/23658863/arc-browser-iphone-ios-companion-app-mac">Arc is coming to iPhone, but it won&#x27;t replace Safari yet, says CEO</a> <em>Mitchell Clark</em></p>
+<p><a href="https://www.theverge.com/2023/3/27/23658863/arc-browser-iphone-ios-companion-app-mac">Arc is coming to iPhone, but it won&#x27;t replace Safari yet, says CEO</a> - <em>Mitchell Clark</em></p>
 <h3>🎧 Podcasts</h3>
 <p><a href="https://www.boweryboyshistory.com/2022/08/danger-in-the-harbor-world-war-i-and-the-black-tom-explosion-of-1916.html">Danger in the Harbor: World War I and the Black Tom Explosion of 1916</a></p>
 <p><a href="https://www.economist.com/moscowpod">The Economist: Next Year in Moscow</a></p>
@@ -46,7 +119,6 @@
 <p><a href="https://www.pushkin.fm/podcasts/cautionary-tales/cautionary-conversation-flying-on-empty">Cautionary Conversation: Flying on Empty</a></p>
 <h3>🎵 A Song to Leave You With</h3>
 <h4>Spanish Love Songs - Kick</h4>
-<p><a href="https://www.youtube.com/watch?v=li8_sda6Gt0">https://www.youtube.com/watch?v=li8_sda6Gt0</a></p>
 <p><a href="https://www.youtube.com/watch?v=li8\_sda6Gt0" title="Spanish Love Songs - Kick">View on YouTube</a></p>
             </div>
         ]]></content>
