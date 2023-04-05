@@ -148,7 +148,12 @@ const getAllPosts = async (): Promise<Item[]> => {
 
     allPosts.forEach((post) => {
         const mdx = (
-            <MDXRemote compiledSource={post.content} components={components} />
+            <MDXRemote
+                compiledSource={post.content}
+                components={components}
+                scope={post}
+                frontmatter={post}
+            />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);
@@ -186,7 +191,12 @@ const getPosts = async (): Promise<Item[]> => {
 
     posts.forEach((post) => {
         const mdx = (
-            <MDXRemote compiledSource={post.content} components={components} />
+            <MDXRemote
+                compiledSource={post.content}
+                components={components}
+                scope={post}
+                frontmatter={post}
+            />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);
@@ -224,7 +234,12 @@ const getReadingLogs = async (): Promise<Item[]> => {
 
     logs.forEach((log) => {
         const mdx = (
-            <MDXRemote compiledSource={log.content} components={components} />
+            <MDXRemote
+                compiledSource={log.content}
+                components={components}
+                scope={log}
+                frontmatter={log}
+            />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);

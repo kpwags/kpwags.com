@@ -55,7 +55,7 @@ interface PostTagsProps {
 const PostTags = ({ tags }: PostTagsProps): JSX.Element => (
     <ul className={styles.tagList}>
         {tags.map((t) => (
-            <li key={t.url}><Link href={`/tag/${t.url}`}><a>{t.name}</a></Link></li>
+            <li key={t.url}><Link href={`/tag/${t.url}`}>{t.name}</Link></li>
         ))}
     </ul>
 );
@@ -100,7 +100,12 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
                     {post.isRssOnly ? (
                         <p><em>This post is for the <a href="/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
                     ) : null}
-                    <MDXRemote compiledSource={post.content} components={components} />
+                    <MDXRemote
+                        compiledSource={post.content}
+                        components={components}
+                        scope={post}
+                        frontmatter={post}
+                    />
                 </div>
 
                 {post.commentIssueNumber !== null && (

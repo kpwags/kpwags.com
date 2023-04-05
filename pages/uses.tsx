@@ -286,7 +286,7 @@ const Uses = (): JSX.Element => (
 
             <h3 id="podcasts">Podcasts</h3>
             <p>
-                I&apos;ve been a long-time user of <ExternalLink href="https://www.pocketcasts.com/">PocketCasts</ExternalLink> for subscribing to and listening to my overly large <Link href="/listening"><a>podcast subscription list</a></Link>.
+                I&apos;ve been a long-time user of <ExternalLink href="https://www.pocketcasts.com/">PocketCasts</ExternalLink> for subscribing to and listening to my overly large <Link href="/listening">podcast subscription list</Link>.
             </p>
 
             <h2 id="gaming">Gaming Systems</h2>

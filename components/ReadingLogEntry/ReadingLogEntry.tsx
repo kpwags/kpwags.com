@@ -30,7 +30,7 @@ interface PostTagsProps {
 const PostTags = ({ tags }: PostTagsProps): JSX.Element => (
     <ul className={styles.tagList}>
         {tags.map((t) => (
-            <li key={t.url}><Link href={`/tag/${t.url}`}><a>{t.name}</a></Link></li>
+            <li key={t.url}><Link href={`/tag/${t.url}`}>{t.name}</Link></li>
         ))}
     </ul>
 );
@@ -50,7 +50,12 @@ const BlogEntry = ({ readingLog }: ReadingLogEntryProps): JSX.Element => (
             </div>
 
             <div className="content reading-log">
-                <MDXRemote compiledSource={readingLog.content} components={components} />
+                <MDXRemote
+                    compiledSource={readingLog.content}
+                    components={components}
+                    scope={readingLog}
+                    frontmatter={readingLog}
+                />
             </div>
 
             {readingLog.commentIssueNumber !== null && (

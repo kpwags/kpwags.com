@@ -16,7 +16,7 @@ const PostListing = ({
     showTags = false,
 }: PostListingProps): JSX.Element => (
     <article key={post.id} className={showBorder ? styles.boxedArticle : styles.article}>
-        <h2><Link href={post.url}><a>{post.title}</a></Link></h2>
+        <h2><Link href={post.url}>{post.title}</Link></h2>
         <div className={styles.metadata}>
             {formatDate(post.date)}
             {post.readTime ? <> &mdash; {post.readTime} min read</> : null}
@@ -25,7 +25,7 @@ const PostListing = ({
         {showTags ? (
             <ul className={styles.tags}>
                 {post.tags.map((t) => (
-                    <li key={t.url}><Link href={`/tag/${t.url}`}><a>#{t.name}</a></Link></li>
+                    <li key={t.url}><Link href={`/tag/${t.url}`}>#{t.name}</Link></li>
                 ))}
             </ul>
         ) : null}
