@@ -22,7 +22,7 @@ const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
     <>
         <Head><title>Likes - Keith Wagner</title></Head>
 
-        <div>
+        <main>
             <h1>
                 Articles, Podcasts & <span>Other Likes</span>
             </h1>
@@ -46,7 +46,7 @@ const Podcasts = ({ likedItems }: LikeProps): JSX.Element => (
                     </li>
                 ))}
             </ul>
-        </div>
+        </main>
     </>
 );
 
