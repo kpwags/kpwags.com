@@ -4,12 +4,6 @@
     cursor: pointer;
 }
 
-@media (min-width: 450px) {
-    .switch {
-        display: inline-block;
-    }
-}
-
 .toggleButtonRect {
     stroke: var(--primary-color-1);
 }
