@@ -38,14 +38,14 @@ interface HomeProps {
 }
 
 const Home = ({ posts, readingLogs }: HomeProps): JSX.Element => (
-    <>
+    <main>
         <RssFeeds />
         <PhotoBlogRssFeeds />
         <Welcome />
         <LatestPosts mostRecentPosts={posts} />
         <LatestReadingLogs mostRecentLogs={readingLogs} />
         <LatestPhotoset />
-    </>
+    </main>
 );
 
 export default Home;

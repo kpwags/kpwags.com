@@ -27,9 +27,6 @@ const Footer = (): JSX.Element => (
                 <Link href="/work" title="Work">Work</Link>
             </li>
             <li>
-                <Link href="/contact" title="Contact">Contact</Link>
-            </li>
-            <li>
                 <Link href="/uses" title="Uses">Uses</Link>
             </li>
             <li>

@@ -16,7 +16,9 @@ type MoviesProps = {
 const Movies = ({ movies }: MoviesProps): JSX.Element => (
     <>
         <Head><title>Movies - Keith Wagner</title></Head>
-        <MoviesContainer movies={movies} />
+        <main className="wide">
+            <MoviesContainer movies={movies} />
+        </main>
     </>
 );
 

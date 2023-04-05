@@ -26,15 +26,17 @@ const ReadingLogs = ({ readingLogs }: BlogProps): JSX.Element => (
         <Head><title>Reading Logs - Keith Wagner</title></Head>
         <RssFeeds />
 
-        <h1>Reading Logs</h1>
+        <main>
+            <h1>Reading Logs</h1>
 
-        {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
+            {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
 
-        <ul className="pagination">
-            <li className="next">
-                <Link href="/reading-logs/2" className="paginate-next-a">Older &rarr;</Link>
-            </li>
-        </ul>
+            <ul className="pagination">
+                <li className="next">
+                    <Link href="/reading-logs/2" className="paginate-next-a">Older &rarr;</Link>
+                </li>
+            </ul>
+        </main>
     </>
 );
 

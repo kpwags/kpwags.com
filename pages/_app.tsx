@@ -48,12 +48,6 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         setSelectedFont(f);
     };
 
-    let className = '';
-
-    if (['bookshelf', 'movies', 'games', 'podcasts', 'tvshows'].includes(Component.name.toLowerCase())) {
-        className = 'wide';
-    }
-
     let description: string | null = null;
     let title: string | null = null;
     let url: string | null = null;
@@ -108,11 +102,9 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                     changeFontTheme: toggleFont,
                 }}
             >
-                <main className={className}>
-                    <Header />
-                    <Component {...pageProps} />
-                    <Footer />
-                </main>
+                <Header />
+                <Component {...pageProps} />
+                <Footer />
             </BlogContext.Provider>
         </>
     );

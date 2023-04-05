@@ -32,15 +32,17 @@ interface PhotoProps {
 }
 
 const Photo = ({ photo }: PhotoProps): JSX.Element => (
-    <article className={styles.photo}>
-        <img
-            src={`/images/photoblog/${photo.src}`}
-            width="100%"
-            alt={photo.altText}
-        />
-        <p className={styles.caption}>{photo.description} ({photo.location})</p>
-        <p className={styles.date}>{formatDate(photo.date)}</p>
-    </article>
+    <main>
+        <article className={styles.photo}>
+            <img
+                src={`/images/photoblog/${photo.src}`}
+                width="100%"
+                alt={photo.altText}
+            />
+            <p className={styles.caption}>{photo.description} ({photo.location})</p>
+            <p className={styles.date}>{formatDate(photo.date)}</p>
+        </article>
+    </main>
 );
 
 export default Photo;

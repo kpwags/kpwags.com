@@ -25,7 +25,7 @@ const StatsPage = ({ stats }: StatsPageProps): JSX.Element => (
     <>
         <Head><title>Stats - Keith Wagner</title></Head>
 
-        <div>
+        <main>
             <h1>Statistics</h1>
 
             <p>
@@ -39,7 +39,7 @@ const StatsPage = ({ stats }: StatsPageProps): JSX.Element => (
 
             <h2>Most Popular Tags</h2>
             <MostPopularTagsChart stats={stats.MostPopularTags} />
-        </div>
+        </main>
     </>
 );
 
