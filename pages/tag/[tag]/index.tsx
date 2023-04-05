@@ -63,7 +63,7 @@ const TaggedPosts = ({
             {pageCount > 1 && (
                 <ul className="pagination">
                     <li className="next">
-                        <Link href={`/tag/${tag}/2`}><a className="paginate-next-a">Older Posts &rarr;</a></Link>
+                        <Link href={`/tag/${tag}/2`} className="paginate-next-a">Older Posts &rarr;</Link>
                     </li>
                 </ul>
             )}

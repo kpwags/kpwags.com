@@ -7,7 +7,7 @@ const LatestPhotoset = (): JSX.Element => (
         <div className={styles.heading}>
             <h2>Latest Photoset</h2>
             <div className="link">
-                <Link href="/photography"><a>View More</a></Link>
+                <Link href="/photography">View More</Link>
             </div>
         </div>
         <div className={styles.photoset}>
@@ -17,21 +17,19 @@ const LatestPhotoset = (): JSX.Element => (
             />
             <div className={styles.content}>
                 <h3>
-                    <Link href="/photography/2016-vermont">
-                        <a>Vermont</a>
-                    </Link>
+                    <Link href="/photography/2016-vermont">Vermont</Link>
                 </h3>
                 <p>
                     To celebrate our 3 year anniversary, Lauren and I went up to Wilmington Vermont
                     to enjoy the fall colors.
                 </p>
                 <p>
-                    <Link href="/photography/2016-vermont"><a>View Photos</a></Link>
+                    <Link href="/photography/2016-vermont">View Photos</Link>
                 </p>
             </div>
         </div>
         <div className={styles.mobileLink}>
-            <Link href="/photography"><a>View More</a></Link>
+            <Link href="/photography">View More</Link>
         </div>
     </section>
 );

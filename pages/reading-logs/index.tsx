@@ -32,7 +32,7 @@ const ReadingLogs = ({ readingLogs }: BlogProps): JSX.Element => (
 
         <ul className="pagination">
             <li className="next">
-                <Link href="/reading-logs/2"><a className="paginate-next-a">Older &rarr;</a></Link>
+                <Link href="/reading-logs/2" className="paginate-next-a">Older &rarr;</Link>
             </li>
         </ul>
     </>

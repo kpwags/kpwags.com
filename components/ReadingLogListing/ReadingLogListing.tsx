@@ -12,14 +12,14 @@ const ReadingLogListing = ({
     readingLog,
 }: ReadingLogListingProps): JSX.Element => (
     <article key={readingLog.id} className={styles.boxedArticle}>
-        <h2><Link href={readingLog.url}><a>{readingLog.title}</a></Link></h2>
+        <h2><Link href={readingLog.url}>{readingLog.title}</Link></h2>
         <div className={styles.metadata}>
             {formatDate(readingLog.date)}
         </div>
 
         <ul className={styles.tags}>
             {readingLog.tags.map((t) => (
-                <li key={t.url}><Link href={`/tag/${t.url}`}><a>#{t.name}</a></Link></li>
+                <li key={t.url}><Link href={`/tag/${t.url}`}>#{t.name}</Link></li>
             ))}
         </ul>
 

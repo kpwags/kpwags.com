@@ -50,13 +50,13 @@ const Header = (): JSX.Element => {
             </div>
             <header className={styles.header}>
                 <div className={styles.siteTitle}>
-                    <Link aria-label="Home" href="/"><a>Keith Wagner</a></Link>
+                    <Link aria-label="Home" href="/">Keith Wagner</Link>
                 </div>
                 <nav className={styles.nav}>
-                    <Link aria-label="Blog" href="/blog"><a>Blog</a></Link>
-                    <Link aria-label="Reading Logs" href="/reading-logs"><a>Reading Logs</a></Link>
-                    <Link aria-label="Photography" href="/photography"><a>Photography</a></Link>
-                    <Link aria-label="About" href="/about"><a className="hide-on-tablet">About</a></Link>
+                    <Link aria-label="Blog" href="/blog">Blog</Link>
+                    <Link aria-label="Reading Logs" href="/reading-logs">Reading Logs</Link>
+                    <Link aria-label="Photography" href="/photography">Photography</Link>
+                    <Link aria-label="About" href="/about" className="hide-on-tablet">About</Link>
                     <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />
                     <SearchHeaderButton onClick={() => setSearchBarVisible(!searchBarVisible)} />
                     <RssFeedButton onClick={() => setRssFeedsVisible(!rssFeedsVisible)} />

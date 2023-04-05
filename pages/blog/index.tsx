@@ -32,7 +32,7 @@ const Blog = ({ posts }: BlogProps): JSX.Element => (
 
         <ul className="pagination">
             <li className="next">
-                <Link href="/blog/2"><a className="paginate-next-a">Older Posts &rarr;</a></Link>
+                <Link href="/blog/2" className="paginate-next-a">Older Posts &rarr;</Link>
             </li>
         </ul>
     </>

@@ -13,14 +13,14 @@ const LatestReadingLogs = ({ mostRecentLogs }: LatestReadingLogsProps): JSX.Elem
         <div className={styles.heading}>
             <h2>Latest Reading Logs</h2>
             <div className={styles.link}>
-                <Link href="/reading-logs"><a>View More</a></Link>
+                <Link href="/reading-logs">View More</Link>
             </div>
         </div>
         <div>
             {mostRecentLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
 
             <div className={styles.mobileLink}>
-                <Link href="/reading-logs"><a>View More</a></Link>
+                <Link href="/reading-logs">View More</Link>
             </div>
         </div>
     </section>
