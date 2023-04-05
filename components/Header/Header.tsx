@@ -41,32 +41,36 @@ const Header = (): JSX.Element => {
 
     return (
         <>
-            <div className={styles.stickyToggle}>
-                <LightDarkSwitch
-                    onClick={() => {
-                        changeMode();
-                    }}
-                />
-            </div>
             <header className={styles.header}>
-                <div className={styles.siteTitle}>
-                    <Link aria-label="Home" href="/">Keith Wagner</Link>
+                <div className={styles.container}>
+                    <div className={styles.logo}>
+                        <img src="/images/logo.png" alt="Keith Wagner" />
+                        <a href="/">Keith Wagner</a>
+                    </div>
+                    <nav className={styles.nav}>
+                        <Link aria-label="Blog" href="/blog">Blog</Link>
+                        <Link aria-label="Reading Logs" href="/reading-logs">Reading Logs</Link>
+                        <Link aria-label="Photography" href="/photography">Photography</Link>
+                        <Link aria-label="About" href="/about" className="hide-on-tablet">About</Link>
+                    </nav>
                 </div>
-                <nav className={styles.nav}>
-                    <Link aria-label="Blog" href="/blog">Blog</Link>
-                    <Link aria-label="Reading Logs" href="/reading-logs">Reading Logs</Link>
-                    <Link aria-label="Photography" href="/photography">Photography</Link>
-                    <Link aria-label="About" href="/about" className="hide-on-tablet">About</Link>
+                <div className={styles.config}>
                     <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />
                     <SearchHeaderButton onClick={() => setSearchBarVisible(!searchBarVisible)} />
                     <RssFeedButton onClick={() => setRssFeedsVisible(!rssFeedsVisible)} />
-                    <span className={styles.normalToggle}>
-                        <LightDarkSwitch
-                            onClick={() => changeMode()}
-                        />
-                    </span>
-                </nav>
+                    <LightDarkSwitch
+                        onClick={() => changeMode()}
+                    />
+                </div>
             </header>
+
+            <nav className={styles.mobileNav}>
+                <a href="/blog">Blog</a>
+                <a href="/reading-logs">Reading Logs</a>
+                <a href="/reading-logs">Photography</a>
+                <a href="/about">About</a>
+            </nav>
+
             <RssFeedSelectionBar
                 visible={rssFeedsVisible}
             />
