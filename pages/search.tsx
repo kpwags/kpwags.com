@@ -67,14 +67,14 @@ const Search = ({ posts }: SearchProps): JSX.Element => {
 
                 {hasSearched && searchResults.length === 0 ? (
                     <>
-                        <h2>Search Results</h2>
+                        <h2 className={styles.searchHeader}>Search Results</h2>
                         <p><em>No Results</em></p>
                     </>
                 ) : null}
 
                 {hasSearched && searchResults.length > 0 ? (
                     <>
-                        <h2>Search Results</h2>
+                        <h2 className={styles.searchHeader}>Search Results</h2>
                         {searchResults.map((p) => (<PostListing key={p.id} post={p} />))}
                     </>
                 ) : null}
