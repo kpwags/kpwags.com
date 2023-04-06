@@ -17,7 +17,7 @@ const LatestPosts = ({ mostRecentPosts }: LatestPostsProps): JSX.Element => (
             </div>
         </div>
         <div>
-            {mostRecentPosts.map((p) => (<PostListing key={p.id} post={p} showBorder showTags />))}
+            {mostRecentPosts.map((p) => (<PostListing key={p.id} post={p} />))}
 
             <div className={styles.mobileLink}>
                 <Link href="/blog">View More</Link>

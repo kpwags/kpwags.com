@@ -11,20 +11,15 @@ interface ReadingLogListingProps {
 const ReadingLogListing = ({
     readingLog,
 }: ReadingLogListingProps): JSX.Element => (
-    <article key={readingLog.id} className={styles.boxedArticle}>
+    <article key={readingLog.id} className={styles.article}>
         <h2><Link href={readingLog.url}>{readingLog.title}</Link></h2>
+
         <div className={styles.metadata}>
-            {formatDate(readingLog.date)}
+            <div className="post-date">{formatDate(readingLog.date)}</div>
         </div>
 
-        <ul className={styles.tags}>
-            {readingLog.tags.map((t) => (
-                <li key={t.url}><Link href={`/tag/${t.url}`}>#{t.name}</Link></li>
-            ))}
-        </ul>
-
         {/* eslint-disable-next-line react/no-danger */}
-        {readingLog.excerpt !== null ? <p dangerouslySetInnerHTML={{ __html: readingLog.excerpt || 'No content found' }} /> : null}
+        {readingLog.excerpt !== null ? <div className={styles.excerpt} dangerouslySetInnerHTML={{ __html: readingLog.excerpt || 'No content found' }} /> : null}
     </article>
 );
 

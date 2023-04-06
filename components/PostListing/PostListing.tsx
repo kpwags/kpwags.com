@@ -6,32 +6,26 @@ import styles from './PostListing.module.css';
 
 interface PostListingProps {
     post: BlogPost
-    showBorder?: boolean
-    showTags?: boolean
 }
 
 const PostListing = ({
     post,
-    showBorder = false,
-    showTags = false,
 }: PostListingProps): JSX.Element => (
-    <article key={post.id} className={showBorder ? styles.boxedArticle : styles.article}>
+    <article key={post.id} className={styles.article}>
         <h2><Link href={post.url}>{post.title}</Link></h2>
+
         <div className={styles.metadata}>
-            {formatDate(post.date)}
-            {post.readTime ? <> &mdash; {post.readTime} min read</> : null}
+            <div className="post-date">{formatDate(post.date)}</div>
+            {post.readTime ? (
+                <>
+                    <div>&bull;</div>
+                    <div className="readtime">{post.readTime} min read</div>
+                </>
+            ) : null}
         </div>
 
-        {showTags ? (
-            <ul className={styles.tags}>
-                {post.tags.map((t) => (
-                    <li key={t.url}><Link href={`/tag/${t.url}`}>#{t.name}</Link></li>
-                ))}
-            </ul>
-        ) : null}
-
         {/* eslint-disable-next-line react/no-danger */}
-        {post.excerpt !== null ? <p dangerouslySetInnerHTML={{ __html: post.excerpt || 'No content found' }} /> : null}
+        {post.excerpt !== null ? <div className={styles.excerpt} dangerouslySetInnerHTML={{ __html: post.excerpt || 'No content found' }} /> : null}
     </article>
 );
 
