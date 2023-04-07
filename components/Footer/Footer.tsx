@@ -58,8 +58,8 @@ const Footer = (): JSX.Element => (
             </li>
         </ul>
         <ul className="info">
-            <li>
-                <span className="copyright">&copy; {new Date().getFullYear()} Keith Wagner</span>
+            <li className={styles.copyright}>
+                &copy; {new Date().getFullYear()} Keith Wagner
             </li>
             <li>
                 <a href="https://www.github.com/kpwags">GitHub</a>

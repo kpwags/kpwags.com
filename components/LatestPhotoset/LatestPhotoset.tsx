@@ -6,7 +6,7 @@ const LatestPhotoset = (): JSX.Element => (
     <section className={styles.latestPhotosetSection}>
         <div className={styles.heading}>
             <h2>Latest Photoset</h2>
-            <div className="link">
+            <div className={styles.link}>
                 <Link href="/photography">View More</Link>
             </div>
         </div>

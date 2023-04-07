@@ -8,7 +8,6 @@ const Welcome = (): JSX.Element => (
             </div>
             <div>
                 Hi! I&apos;m <span className="primary-color">Keith Wagner</span>, a software developer in the Philadelphia area.
-                I am always learning and building new things.
             </div>
         </div>
     </section>
