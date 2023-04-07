@@ -15,7 +15,14 @@
     padding: 0.25rem 1rem;
 }
 
-.footer span.copyright {
+.copyright {
     font-size: 1rem;
     font-style: italic;
+}
+
+@media all and (max-width: 450px) {
+    .footer ul li.copyright {
+        margin-top: 1.5rem;
+        display: block;
+    }
 }
