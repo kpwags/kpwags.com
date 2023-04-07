@@ -8,10 +8,7 @@
     --black-3: hsl(0, 0%, 20%);
     --grey-1: hsl(0, 0%, 69%);
     --grey-2: hsl(0, 0%, 39%);
-    --sans-serif: WorkSans, Helvetica, Arial, sans-serif;
-    --serif: Petrona, Georgia, 'Times New Roman', serif;
-    --monospaced: SourceCodePro, 'Courier New';
-    --font: var(--sans-serif);
+    --font: 'JetBrains Mono', SourceCodePro, 'Courier New';
     --primary-color-1: hsl(144, 100%, 15%);
     --primary-color-2: hsl(142, 68%, 29%);
     --primary-color-3: hsl(124, 95%, 32%);
@@ -130,18 +127,6 @@
     --primary-color-1: hsl(0 100% 67%);
     --primary-color-2: hsl(0, 64%, 55%);
     --primary-color-3: hsl(0, 82%, 71%);
-}
-
-[data-font-theme*='sansserif'] {
-    --font: var(--sans-serif);
-}
-
-[data-font-theme*='serif'] {
-    --font: var(--serif);
-}
-
-[data-font-theme*='mono'] {
-    --font: var(--monospaced);
 }
 
 /* --- CSS Reset --- */
@@ -392,6 +377,10 @@ div.cover.about {
 
 .article .metadata .separator::before {
     content: ' | ';
+}
+
+.primary-color {
+    color: var(--primary-color-1);
 }
 
 @media screen and (max-width: 425px) {
