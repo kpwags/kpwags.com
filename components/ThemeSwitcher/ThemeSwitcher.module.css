@@ -1,17 +1,15 @@
 .bar {
     text-align: center;
-    margin: 12px 0;
+    margin: 1rem 2rem;
 }
 
 .themeOptions {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    column-gap: 1rem;
-    row-gap: 1rem;
+    display: flex;
 }
 
 .colorThemeBar {
     text-align: left;
+    flex-grow: 3;
 }
 
 .colorThemeBar h3 {
@@ -19,15 +17,15 @@
 }
 
 .colorButtons {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
-    column-gap: 1rem;
-    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .themeColor {
     border-style: solid;
     cursor: pointer;
+    width: 90px;
 }
 
 .themeColor.red {
@@ -57,6 +55,7 @@
 
 .fontThemeBar {
     text-align: left;
+    flex-grow: 1;
 }
 
 .heading {
@@ -64,10 +63,9 @@
 }
 
 .fontButtons {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    column-gap: 1rem;
-    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .fontStyle {
@@ -75,6 +73,7 @@
     border-color: var(--primary-color-1);
     background: var(--grey-1);
     cursor: pointer;
+    width: 120px;
 }
 
 .fontStyle:hover {

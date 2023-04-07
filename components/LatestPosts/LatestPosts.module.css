@@ -2,19 +2,18 @@
     margin: 5rem 0;
 }
 
-.heading {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+.mostRecentPosts h2 {
+    color: var(--text);
 }
 
-.link {
-    text-align: right;
+.mostRecentPosts h3 {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
 }
 
-.mobileLink {
+.viewMore {
     text-align: center;
-    display: none;
+    margin: 2rem 0 0;
     font-size: 1.2rem;
 }
 

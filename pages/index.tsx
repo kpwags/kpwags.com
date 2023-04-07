@@ -14,7 +14,6 @@ import {
 import PhotoBlogRssFeeds from '@components/PhotoBlogRssFeeds';
 import { getAllReadingLogs } from '@lib/readinglog';
 import { ReadingLog } from '@models/ReadingLog';
-import LatestReadingLogs from '@components/LatestReadingLogs';
 
 export const getStaticProps: GetStaticProps = async () => {
     const blogPosts = getAllPosts();
@@ -42,8 +41,19 @@ const Home = ({ posts, readingLogs }: HomeProps): JSX.Element => (
         <RssFeeds />
         <PhotoBlogRssFeeds />
         <Welcome />
-        <LatestPosts mostRecentPosts={posts} />
-        <LatestReadingLogs mostRecentLogs={readingLogs} />
+
+        <LatestPosts
+            title="Latest Posts"
+            posts={posts.map((p) => ({ title: p.title, url: p.url }))}
+            viewMoreLink="/blog"
+        />
+
+        <LatestPosts
+            title="Latest Reading Logs"
+            posts={readingLogs.map((p) => ({ title: p.title.replace('Reading Log - ', ''), url: p.url }))}
+            viewMoreLink="/reading-logs"
+        />
+
         <LatestPhotoset />
     </main>
 );
