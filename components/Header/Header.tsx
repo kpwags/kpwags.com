@@ -8,7 +8,7 @@ import SearchHeaderButton from '@components/SearchHeaderButton';
 import SearchBar from '@components/SearchBar';
 import ThemeSwitchButton from '@components/ThemeSwitchButton';
 import ThemeSwitcher from '@components/ThemeSwitcher';
-import { ColorTheme, FontTheme } from '@models/theme';
+import { ColorTheme } from '@models/theme';
 
 import RssFeedSelectionBar from '@components/RssFeedSelectionBar';
 import RssFeedButton from '@components/RssFeedButton/RssFeedButton';
@@ -21,7 +21,7 @@ const Header = (): JSX.Element => {
     const [themeSwitcherVisible, setThemeSwitcherVisible] = useState<boolean>(false);
     const [rssFeedsVisible, setRssFeedsVisible] = useState<boolean>(false);
 
-    const { changeTheme, changeColorTheme, changeFontTheme } = useContext(BlogContext);
+    const { changeTheme, changeColorTheme } = useContext(BlogContext);
 
     const changeMode = () => {
         if (getCurrentTheme() === 'light') {
@@ -33,10 +33,6 @@ const Header = (): JSX.Element => {
 
     const changeColor = (color: ColorTheme) => {
         changeColorTheme(color);
-    };
-
-    const changeFont = (font: FontTheme) => {
-        changeFontTheme(font);
     };
 
     return (
@@ -77,7 +73,6 @@ const Header = (): JSX.Element => {
             <ThemeSwitcher
                 visible={themeSwitcherVisible}
                 onChangeColor={(color) => changeColor(color)}
-                onChangeFont={(font) => changeFont(font)}
             />
             <SearchBar
                 visible={searchBarVisible}

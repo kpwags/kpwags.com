@@ -3,29 +3,20 @@
     margin: 1rem 2rem;
 }
 
-.themeOptions {
-    display: flex;
-}
-
-.colorThemeBar {
-    text-align: left;
-    flex-grow: 3;
-}
-
-.colorThemeBar h3 {
-    margin-bottom: 0.3rem;
+.bar h3 {
+    margin-bottom: 0.75rem;
 }
 
 .colorButtons {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .themeColor {
     border-style: solid;
     cursor: pointer;
-    width: 90px;
+    width: 100px;
 }
 
 .themeColor.red {
@@ -51,43 +42,4 @@
 .themeColor.purple {
     border-color: var(--primary-color-purple);
     background: var(--primary-color-purple);
-}
-
-.fontThemeBar {
-    text-align: left;
-    flex-grow: 1;
-}
-
-.heading {
-    margin-bottom: 0.3rem;
-}
-
-.fontButtons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.fontStyle {
-    border-style: solid;
-    border-color: var(--primary-color-1);
-    background: var(--grey-1);
-    cursor: pointer;
-    width: 120px;
-}
-
-.fontStyle:hover {
-    background: var(--primary-color-2);
-}
-
-.fontStyle.sansSerif {
-    font-family: var(--sans-serif);
-}
-
-.fontStyle.serif {
-    font-family: var(--serif);
-}
-
-.fontStyle.monospaced {
-    font-family: var(--monospaced);
 }

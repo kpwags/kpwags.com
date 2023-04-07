@@ -1,24 +1,20 @@
 import { useEffect, useState } from 'react';
-import Theme, { ColorTheme, FontTheme } from '@models/theme';
+import Theme, { ColorTheme } from '@models/theme';
 import { saveToLocalStorage, retrieveFromLocalStorage } from '../lib/storage';
 
 interface UseThemeReturn {
     theme: Theme;
     color: ColorTheme;
-    font: FontTheme;
     themeLoaded: boolean;
     getCurrentTheme: () => Theme;
     getCurrentColor: () => ColorTheme;
-    getCurrentFont: () => FontTheme;
     changeTheme: (t: Theme) => void;
     changeColor: (c: ColorTheme) => void;
-    changeFont: (f: FontTheme) => void;
 }
 
 export const useTheme = (): UseThemeReturn => {
     const [theme, setTheme] = useState<Theme>('light');
     const [color, setColor] = useState<ColorTheme>('green');
-    const [font, setFont] = useState<FontTheme>('sans');
     const [themeLoaded, setThemeLoaded] = useState(false);
 
     const getPreferredColorMode = (): Theme => {
@@ -45,12 +41,6 @@ export const useTheme = (): UseThemeReturn => {
         setColor(c);
     };
 
-    const changeFont = (f: FontTheme) => {
-        saveToLocalStorage('font', f);
-        document.documentElement.setAttribute('data-font-theme', f);
-        setFont(f);
-    };
-
     const getCurrentTheme = (): Theme => {
         const localTheme = retrieveFromLocalStorage('theme') as Theme;
 
@@ -71,20 +61,9 @@ export const useTheme = (): UseThemeReturn => {
         return color;
     };
 
-    const getCurrentFont = (): FontTheme => {
-        const localStorageFont = retrieveFromLocalStorage('font') as FontTheme;
-
-        if (localStorageFont) {
-            return localStorageFont;
-        }
-
-        return font;
-    };
-
     useEffect(() => {
         const localTheme = retrieveFromLocalStorage('theme') as Theme;
         const selectedColor = retrieveFromLocalStorage('color') as ColorTheme;
-        const selectedFont = retrieveFromLocalStorage('font') as FontTheme;
 
         if (localTheme) {
             setTheme(localTheme);
@@ -102,27 +81,16 @@ export const useTheme = (): UseThemeReturn => {
             document.documentElement.setAttribute('data-color-theme', 'green');
         }
 
-        if (selectedFont) {
-            setFont(selectedFont);
-            document.documentElement.setAttribute('data-font-theme', selectedFont);
-        } else {
-            setFont('sans');
-            document.documentElement.setAttribute('data-font-theme', 'sans');
-        }
-
         setThemeLoaded(true);
     }, []);
 
     return {
         theme,
         color,
-        font,
         themeLoaded,
         getCurrentTheme,
         getCurrentColor,
-        getCurrentFont,
         changeTheme,
         changeColor,
-        changeFont,
     };
 };
