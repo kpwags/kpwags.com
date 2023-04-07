@@ -64,6 +64,14 @@ const ThemeSwitcher = ({
                 <div className={styles.fontButtons}>
                     <button
                         type="button"
+                        title="Chnage to a Monospace Font"
+                        className={`${styles.fontStyle} ${styles.monospaced}`}
+                        onClick={() => onChangeFont('mono')}
+                    >
+                        Monospace
+                    </button>
+                    <button
+                        type="button"
                         title="Change to a Sans-Serif Font"
                         className={`${styles.fontStyle} ${styles.sansSerif}`}
                         onClick={() => onChangeFont('sans')}
@@ -77,14 +85,6 @@ const ThemeSwitcher = ({
                         onClick={() => onChangeFont('serif')}
                     >
                         Serif
-                    </button>
-                    <button
-                        type="button"
-                        title="Chnage to a Monospace Font"
-                        className={`${styles.fontStyle} ${styles.monospaced}`}
-                        onClick={() => onChangeFont('mono')}
-                    >
-                        Monospace
                     </button>
                 </div>
             </div>
