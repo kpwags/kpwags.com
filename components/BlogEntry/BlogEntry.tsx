@@ -1,13 +1,9 @@
 import { useEffect } from 'react';
-import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { MDXRemote } from 'next-mdx-remote';
 import Prism from 'prismjs';
 import { BlogPost } from '@models/blogPost';
-import { formatDate } from '@lib/utilities';
-import { BlogTag } from '@models/BlogTag';
 import Utterances from '@components/Utterances';
-import { ReadOutlined, ClockCircleOutlined } from '@ant-design/icons';
 
 // Blog Components
 import PostImage from '@components/PostImage';
@@ -17,9 +13,7 @@ import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
-import InDepthNotes from '@components/InDepthNotes';
-
-import styles from './BlogEntry.module.css';
+import PostHeading from '@components/PostHeading';
 
 // Prism
 import 'prismjs/components';
@@ -45,20 +39,7 @@ const components = {
     BookRead,
     YouTubeEmbed,
     ExternalLink,
-    InDepthNotes,
 };
-
-interface PostTagsProps {
-    tags: BlogTag[]
-}
-
-const PostTags = ({ tags }: PostTagsProps): JSX.Element => (
-    <ul className={styles.tagList}>
-        {tags.map((t) => (
-            <li key={t.url}><Link href={`/tag/${t.url}`}>{t.name}</Link></li>
-        ))}
-    </ul>
-);
 
 interface BlogEntryProps {
     post: BlogPost
@@ -69,34 +50,17 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
         Prism.highlightAll();
     }, []);
 
-    // my reading log posts have a few extra CSS rules
-    const getPostContentCssClass = (): string => {
-        if (post.tags.find((t) => t.url === 'reading-log')) {
-            return 'content reading-log';
-        }
-
-        return 'content';
-    };
-
     return (
         <>
             <article className="article line-numbers">
-                {post.tags.length > 0 && <PostTags tags={post.tags} />}
+                <PostHeading
+                    title={post.title}
+                    date={post.date}
+                    readTime={post.readTime}
+                    tags={post.tags}
+                />
 
-                <h1>{post.title}</h1>
-                <div className="metadata">
-                    <div><ClockCircleOutlined /> {formatDate(post.date)}</div>
-                    {post.readTime ? (
-                        <>
-                            <div className="separator" />
-                            <div className="read-time">
-                                <ReadOutlined /> {post.readTime} min read
-                            </div>
-                        </>
-                    ) : null}
-                </div>
-
-                <div className={getPostContentCssClass()}>
+                <div className="content">
                     {post.isRssOnly ? (
                         <p><em>This post is for the <a href="/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
                     ) : null}
