@@ -340,6 +340,10 @@ div.cover.about {
     white-space: nowrap;
 }
 
+.article h1 {
+    margin: 0;
+}
+
 .article h2 {
     margin: 20px 0;
 }
