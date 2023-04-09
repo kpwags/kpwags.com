@@ -18,7 +18,7 @@ type VideoGamesProps = {
 };
 
 const Games = ({ videoGames }: VideoGamesProps): JSX.Element => (
-    <main className="wide">
+    <main className="full-width">
         <div className={styles.container}>
             <Head><title>Video Games - Keith Wagner</title></Head>
 

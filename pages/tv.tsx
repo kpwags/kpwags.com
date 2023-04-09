@@ -18,7 +18,7 @@ type TVShowsProps = {
 };
 
 const TVShows = ({ tvShows }: TVShowsProps): JSX.Element => (
-    <main>
+    <main className="full-width">
         <div className={styles.container}>
             <Head><title>Television Watch List - Keith Wagner</title></Head>
 
