@@ -9,6 +9,7 @@ import Footer from '@components/Footer';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
 import Theme, { ColorTheme } from '@models/theme';
 
+import '@code-hike/mdx/dist/index.css';
 import '../styles/fonts.css';
 import '../styles/kpwags.css';
 

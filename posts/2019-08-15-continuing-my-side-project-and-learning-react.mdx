@@ -20,7 +20,7 @@ I wrote the code to go through each ingredient and direction, add it to the data
 
 A quick change corrected that problem and all of a sudden, the form worked as expected.
 
-```js
+```javascript
 const directionCreations = formValues.directions.map(async (d) => {
     const direction = await ctx.db.mutation.createDirection(
         {

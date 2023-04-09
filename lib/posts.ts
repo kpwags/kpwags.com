@@ -4,10 +4,15 @@ import matter from 'gray-matter';
 import marked from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
+import { remarkCodeHike } from '@code-hike/mdx';
+
 import { buildUrlFromId } from './utilities';
 import { postsPerPage } from './config';
 import decodeHtmlEntities from './decodeHtmlEntities';
 import generateTagUrl from './generateTagUrl';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const theme = require('shiki/themes/github-dark-dimmed.json');
 
 type PostId = {
     params: {
@@ -179,7 +184,13 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     const html = marked(content);
     const excerpt = getPostExcerpt(html);
 
-    const mdx = await serialize(content, { scope: data });
+    const mdx = await serialize(content, {
+        scope: data,
+        mdxOptions: {
+            remarkPlugins: [[remarkCodeHike, { autoImport: false, theme }]],
+            useDynamicImport: true,
+        },
+    });
 
     const tags = data.tags || [] as string[];
 

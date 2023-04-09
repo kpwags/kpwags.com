@@ -36,7 +36,7 @@ MSW works by having a list of handlers that handle the various different fetch c
 
 #### `/src/test/server-handlers.ts`
 
-```js
+```javascript
 import { rest } from 'msw';
 
 const handlers = [
@@ -96,7 +96,7 @@ Just make sure to add a handler for every fetch call.
 
 #### `/src/test/server.ts`
 
-```js
+```javascript
 import { setupServer } from 'msw/node';
 import { handlers } from './server-handlers';
 
@@ -112,7 +112,7 @@ This code sets up your server by passing in the handlers you created above and p
 
 #### `/src/setupTests.ts`
 
-```js
+```javascript
 import { server } from './test/server';
 
 beforeAll(() => {
@@ -137,7 +137,7 @@ When starting the server in the **`beforeAll`** function, I like to pass in the 
 
 #### `/jest.config.js`
 
-```js
+```javascript
 module.exports = {
     setupFilesAfterEnv: ['./src/setupTests.ts'],
 };

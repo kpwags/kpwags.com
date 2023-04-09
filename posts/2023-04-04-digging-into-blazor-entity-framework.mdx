@@ -19,7 +19,7 @@ Well that's different.
 
 I quickly realized that things were a little different, but following their setup, I worked to make sure that each interaction would operate in its own context. Reading more I found out that Microsoft recommended I use a factory to help. I added the DB Factory to my `Program.cs` file. The nice part is that it's very similar to how I configure it in my other projects.
 
-```cs
+```csharp
 // Program.cs
 
 builder.Services.AddDbContextFactory<ApplicationDbContext>(opt =>
@@ -30,7 +30,7 @@ Setting up my models worked the same way as [Digital Family Cookbook](https://gi
 
 Let's create my first database table and model. Each of my baseball cards are going to need a brand (think Topps, Donruss, or Upper Deck).
 
-```cs
+```csharp
 // BrandDto.cs
 
 namespace CardOrganizer.Domain.Dtos;
@@ -51,7 +51,7 @@ public class BrandDto
 
 Now let's actually create the app's database context.
 
-```cs
+```csharp
 // ApplicationDbContext.cs
 
 namespace CardOrganizer.Infrastructure.Database;
@@ -112,7 +112,7 @@ $ dotnet ef database update
 
 Now that the database was built, I can interact with the database using the `IDbContextFactory` I added to my `Program.cs` file above.
 
-```cs
+```csharp
 // BrandRepository.cs
 
 namespace CardOrganizer.Infrastructure.Repositories;
@@ -144,7 +144,7 @@ public class BrandRepository : IBrandRespository
 
 You can see in the constructor, I use dependency injection to inject the DbContextFactory to use in the repo, so that in any method I need access to the DB, I can easily create a new DB context by:
 
-```cs
+```csharp
 var dbContext = await _contextFactory.CreateDbContextAsync();
 ```
 
@@ -152,7 +152,7 @@ From there on, there's no real difference between using Entity Framework in a Bl
 
 The one thing you might also notice is that I don't have the repository return the DTO (Data Transfer Object) from the repository. Instead I have it return the domain model. My reasoning for that is that I want any extra logic I might need in the model separate from the model that gets saved and retrieved from the database. For the `Brand` domain model, the `FromDto` function is pretty simple.
 
-```cs
+```csharp
 public static Brand FromDto(BrandDto dto) => new Brand
 {
     BrandId = dto.BrandId,
