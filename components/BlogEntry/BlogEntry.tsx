@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { MDXRemote } from 'next-mdx-remote';
-import Prism from 'prismjs';
 import { BlogPost } from '@models/blogPost';
 import Utterances from '@components/Utterances';
 
@@ -14,17 +13,7 @@ import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
 import PostHeading from '@components/PostHeading';
-
-// Prism
-import 'prismjs/components';
-import 'prismjs/components/prism-bash';
-import 'prismjs/components/prism-csharp';
-import 'prismjs/components/prism-jsx';
-import 'prismjs/components/prism-sql';
-import 'prismjs/components/prism-tsx';
-import 'prismjs/components/prism-typescript';
-import 'prismjs/components/prism-yaml';
-import 'prism-themes/themes/prism-material-dark.css';
+import { CH } from '@code-hike/mdx/components';
 
 const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
     ssr: false,
@@ -39,6 +28,7 @@ const components = {
     BookRead,
     YouTubeEmbed,
     ExternalLink,
+    CH,
 };
 
 interface BlogEntryProps {
@@ -47,12 +37,12 @@ interface BlogEntryProps {
 
 const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
     useEffect(() => {
-        Prism.highlightAll();
+        // Prism.highlightAll();
     }, []);
 
     return (
         <>
-            <article className="article line-numbers">
+            <article className="article">
                 <PostHeading
                     title={post.title}
                     date={post.date}

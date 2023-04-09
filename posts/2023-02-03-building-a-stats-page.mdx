@@ -60,7 +60,7 @@ By passing in an array to the `Set` constructor, and spreading it into an array,
 
 At this point I have an array of years with their associated number of posts
 
-```js
+```json
 [
 	{ year: 2013, count: 11 },
 	{ year: 2014, count: 14 },
@@ -89,7 +89,7 @@ While working on the years, I realized that when I converted my site to run on [
 
 This one was going to prove to be a little more challenging. For reference, each blog post has an array of tags for it.
 
-```js
+```json
 [
     { name: 'Reading Log', url: 'reading-log' },
     { name: 'Twitter', url: 'twitter' },
@@ -106,7 +106,7 @@ This is an example from my [Reading Log - January 20 (#15)] post. Each tag has 2
 
 To find the tags most commonly used, I wanted to create an array of tags with their associated post count.
 
-```js
+```json
 [
 	{ name: "Reading Log", url: "reading-log", count: 42 },
 	{ name: "Life", url: "life", count: 40 },
@@ -386,7 +386,6 @@ return (
         ))}
     </div>
 );
-
 ```
 
 The end result is very similar.

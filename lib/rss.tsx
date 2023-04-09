@@ -10,6 +10,7 @@ import { BlogTag } from '@models/BlogTag';
 import { BlogPost } from '@models/blogPost';
 import marked from 'marked';
 import matter from 'gray-matter';
+import { remarkCodeHike } from '@code-hike/mdx';
 import { serialize } from 'next-mdx-remote/serialize';
 import { ReadingLog } from '@models/ReadingLog';
 
@@ -27,6 +28,9 @@ import YouTubeEmbed from '@components/RssYouTubeEmbed';
 import { buildUrlFromId } from './utilities';
 import { getPostExcerpt } from './posts';
 import { convertToPost } from './readinglog';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const theme = require('shiki/themes/github-dark-dimmed.json');
 
 const components = {
     PostImage,
@@ -74,7 +78,14 @@ const getPostsForRssFeed = async (): Promise<BlogPost[]> => {
         const html = marked(content);
         const excerpt = getPostExcerpt(html);
 
-        const mdx = await serialize(content, { scope: data });
+        const mdx = await serialize(content, {
+            scope: data,
+            mdxOptions: {
+                remarkPlugins: [[remarkCodeHike, { autoImport: false, theme }]],
+                useDynamicImport: true,
+            },
+        });
+
         const url = buildUrlFromId(id);
 
         const tags = data.tags || [] as BlogTag[];
