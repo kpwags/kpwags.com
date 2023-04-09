@@ -13,6 +13,7 @@ import matter from 'gray-matter';
 import { remarkCodeHike } from '@code-hike/mdx';
 import { serialize } from 'next-mdx-remote/serialize';
 import { ReadingLog } from '@models/ReadingLog';
+import { CH } from '@code-hike/mdx/components';
 
 // Blog Components
 import PostImage from '@components/RssPostImage';
@@ -42,6 +43,7 @@ const components = {
     YouTubeEmbed,
     ExternalLink,
     InDepthNotes,
+    CH,
 };
 
 const postsDirectory = path.join(process.cwd(), 'posts');
