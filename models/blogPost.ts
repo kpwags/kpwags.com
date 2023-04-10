@@ -10,8 +10,6 @@ export interface BlogPost {
     content?: string
     description?: string
     socialImageUrl?: string
-    socialImageWidth?: number
-    socialImageHeight?: number
     hasEmbeddedTweet: boolean
     tags: BlogTag[]
     commentIssueNumber?: number

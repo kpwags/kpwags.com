@@ -213,8 +213,6 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
         commentIssueNumber: data.commentIssueNumber || null,
         socialImageUrl: socialImage,
-        socialImageWidth: data.socialImageWidth || null,
-        socialImageHeight: data.socialImageHeight || null,
         wordCount,
         readTime: readingTime,
     };
