@@ -12,11 +12,20 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'March 2023',
+    lastUpdate: 'April 2023',
     years: [
         {
             year: '2023',
             books: [
+                {
+                    title: 'Anansi Boys',
+                    author: 'Neil Gaiman',
+                    cover: 'anansi_boys.jpg',
+                    link: 'https://bookshop.org/p/books/anansi-boys-neil-gaiman/6438691?ean=9780063070738',
+                    rating: 4,
+                    thoughts: 'I’m not sure whether I liked this better than American Gods, but it was an enjoyable read with some interesting characters.',
+                    imageFolder: 'books',
+                },
                 {
                     title: 'American Gods',
                     author: 'Neil Gaiman',
