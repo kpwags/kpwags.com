@@ -12,11 +12,47 @@ export type MovieList = {
 };
 
 const MoviesWatched: MovieList = {
-    lastUpdate: 'February 2023',
+    lastUpdate: 'April 2023',
     years: [
         {
             year: '2023',
             movies: [
+                {
+                    title: 'The Shawshank Redemption',
+                    cover: 'the_shawshank_redemption.jpg',
+                    link: 'https://www.imdb.com/title/tt0111161/',
+                    dateWatched: 'April 8, 2023',
+                    rating: 5,
+                    imageFolder: 'movies',
+                    thoughts: 'I don’t know if I ever saw this all the way through, but the movie was fantastic. Tim Robbins & Morgan Freeman were great in it.',
+                },
+                {
+                    title: 'The Great Gatsby',
+                    cover: 'gatsby.jpg',
+                    link: 'https://www.imdb.com/title/tt1343092/',
+                    dateWatched: 'April 2, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'Some things I remembered from the book…some things I didn’t. I didn’t hate the adaptation.',
+                },
+                {
+                    title: 'Raiders of the Lost Ark',
+                    cover: 'raiders_of_the_lost_ark.jpg',
+                    link: 'https://www.imdb.com/title/tt0082971/',
+                    dateWatched: 'March 26, 2023',
+                    rating: 4,
+                    imageFolder: 'movies',
+                    thoughts: '40 some years later, this still holds up.',
+                },
+                {
+                    title: 'This is Where I Leave You',
+                    cover: 'this_is_where_i_leave_you.jpg',
+                    link: 'https://www.imdb.com/title/tt1371150',
+                    dateWatched: 'March 19, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'Wasn’t a bad movie. It had a good mix of humor and drama. It was a little predictable though.',
+                },
                 {
                     title: 'Sorry to Bother You',
                     cover: 'sorry_to_bother_you.jpg',

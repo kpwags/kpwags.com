@@ -11,7 +11,7 @@ const ProgressFor2023 = (): JSX.Element => (
 
             <p>I figured it would be a nice idea to create a page to show my progress on my goals for 2023.</p>
 
-            <p><em>Last Updated: March 24, 2022</em></p>
+            <p><em>Last Updated: April 10, 2022</em></p>
 
             <h2>Goal #1: Learn (Re-Learn?) Guitar</h2>
             <p>My goal for 2023 teach myself guitar. I want to learn 10 &quot;modern&quot; rock songs.</p>
@@ -25,7 +25,7 @@ const ProgressFor2023 = (): JSX.Element => (
             <p>My goal for 2023 is to read 30 books.</p>
 
             <h3>Total Books Read</h3>
-            <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={7} />
+            <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={8} />
 
             <hr />
 
@@ -33,7 +33,7 @@ const ProgressFor2023 = (): JSX.Element => (
             <p>My goal for 2023 is to write 12 technical blog posts.</p>
 
             <h3>Technical Blog Posts Written</h3>
-            <ProgressBar color="hsl(24, 69%, 59%)" fullValue={12} currentValue={2} />
+            <ProgressBar color="hsl(24, 69%, 59%)" fullValue={12} currentValue={4} />
 
             <hr />
 
@@ -41,7 +41,7 @@ const ProgressFor2023 = (): JSX.Element => (
             <p>My goal for 2023 is to hit a 1,000 total weight across deadlift, squat, &amp; bench press.</p>
 
             <h3>1,000 lbs. Goal</h3>
-            <ProgressBar color="hsl(150, 96%, 29%)" fullValue={1000} currentValue={1000} />
+            <ProgressBar color="hsl(150, 96%, 29%)" fullValue={1000} currentValue={1005} />
 
             <hr />
 
@@ -49,7 +49,7 @@ const ProgressFor2023 = (): JSX.Element => (
             <p>My goal for 2023 is to run 400 miles and bike 400 miles.</p>
 
             <h3>Running</h3>
-            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={102.23} />
+            <ProgressBar color="hsl(240, 74%, 52%)" fullValue={400} currentValue={129.48} />
 
             <h3>Biking</h3>
             <ProgressBar color="hsl(167, 100%, 37%)" fullValue={400} currentValue={0} />

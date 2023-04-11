@@ -5,9 +5,24 @@ const podcasts: PodcastCategory[] = [
         name: 'Business & Economics',
         podcasts: [
             {
+                name: 'Business Matters',
+                link: 'https://www.bbc.co.uk/programmes/p016tl04',
+                artwork: 'business_matters.jpg',
+            },
+            {
+                name: "Capitalisn't",
+                link: 'https://www.capitalisnt.com/',
+                artwork: 'capitalisnt.jpg',
+            },
+            {
                 name: 'Corner Office',
                 link: 'https://www.marketplace.org/shows/corner-office-from-marketplace/',
                 artwork: 'corner_office.jpg',
+            },
+            {
+                name: 'Crash Course',
+                link: 'https://www.bloomberg.com/podcasts/series/crash-course',
+                artwork: 'crash_course.jpg',
             },
             {
                 name: 'EconTalk',
@@ -63,11 +78,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'Planet Money',
                 link: 'https://www.npr.org/sections/money/',
                 artwork: 'planet_money.jpg',
-            },
-            {
-                name: 'Spectacular Failures',
-                link: 'https://www.spectacularfailures.org/',
-                artwork: 'spectacular_failures.jpg',
             },
             {
                 name: 'Think Like an Economist',
@@ -135,9 +145,19 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'code_newbie.jpg',
             },
             {
+                name: 'CodePen Radio',
+                link: 'https://podcasts.apple.com/us/podcast/codepen-radio/id824437159',
+                artwork: 'codepen.jpg',
+            },
+            {
                 name: 'Coding Blocks',
                 link: 'https://www.codingblocks.net/',
                 artwork: 'codingblocks.jpg',
+            },
+            {
+                name: 'Coffee & Open Source',
+                link: 'https://coffeeandopensource.com',
+                artwork: 'coffee_open_source.jpg',
             },
             {
                 name: 'The CSS Podcast',
@@ -145,19 +165,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'csspodcast.jpg',
             },
             {
-                name: 'DevDiscuss',
-                link: 'https://dev.to/devdiscuss',
-                artwork: 'dev_discuss.jpg',
-            },
-            {
                 name: 'Developer Tea',
                 link: 'https://developertea.com/',
                 artwork: 'developer_tea.jpg',
-            },
-            {
-                name: 'DevNews',
-                link: 'https://devpods.dev/podcasts/devnews',
-                artwork: 'dev_news.jpg',
             },
             {
                 name: 'Hanselminutes',
@@ -170,9 +180,24 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'js_party.jpg',
             },
             {
+                name: 'Merge Conflict',
+                link: 'https://www.mergeconflict.fm/',
+                artwork: 'merge_conflict.jpg',
+            },
+            {
                 name: 'No Dogma',
                 link: 'https://nodogmapodcast.bryanhogan.net/',
                 artwork: 'nodogma.jpg',
+            },
+            {
+                name: 'PodRocket',
+                link: 'https://podrocket.logrocket.com/',
+                artwork: 'podrocket.jpg',
+            },
+            {
+                name: 'Practical AI',
+                link: 'https://changelog.com/practicalai',
+                artwork: 'practical_ai.jpg',
             },
             {
                 name: 'Programming Throwdown',
@@ -183,6 +208,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'The ReadME Podcast',
                 link: 'https://github.com/readme/podcast',
                 artwork: 'readmepodcast.jpg',
+            },
+            {
+                name: 'Remotely Interesting',
+                link: 'https://podcasts.apple.com/us/podcast/remotely-interesting/id1530314876',
+                artwork: 'remotely_interesting.jpg',
             },
             {
                 name: 'ShopTalk',
@@ -213,26 +243,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'Working Code',
                 link: 'https://redcircle.com/shows/workingcode',
                 artwork: 'workingcode.jpg',
-            },
-        ],
-    },
-    {
-        name: 'Fitness',
-        podcasts: [
-            {
-                name: 'Iron Radio',
-                link: 'http://www.ironradio.org/',
-                artwork: 'iron_radio.jpg',
-            },
-            {
-                name: 'Maintenance Phase',
-                link: 'https://www.maintenancephase.com/',
-                artwork: 'maintenancephase.jpg',
-            },
-            {
-                name: 'Stronger By Science',
-                link: 'https://www.strongerbyscience.com/',
-                artwork: 'stronger_by_science.jpg',
             },
         ],
     },
@@ -277,6 +287,71 @@ const podcasts: PodcastCategory[] = [
         ],
     },
     {
+        name: 'Health & Fitness',
+        podcasts: [
+            {
+                name: 'Freakonomics M.D.',
+                link: 'https://freakonomics.com/series/bapu/',
+                artwork: 'freakonomics_md.jpg',
+            },
+            {
+                name: 'Iron Radio',
+                link: 'http://www.ironradio.org/',
+                artwork: 'iron_radio.jpg',
+            },
+            {
+                name: 'Maintenance Phase',
+                link: 'https://www.maintenancephase.com/',
+                artwork: 'maintenancephase.jpg',
+            },
+            {
+                name: 'Stronger By Science',
+                link: 'https://www.strongerbyscience.com/',
+                artwork: 'stronger_by_science.jpg',
+            },
+        ],
+    },
+    {
+        name: 'History',
+        podcasts: [
+            {
+                name: 'The Bowery Boys',
+                link: 'https://www.boweryboyshistory.com/bowery-boys-first/bowery-boys-podcast',
+                artwork: 'bowery_boys.jpg',
+            },
+            {
+                name: 'Hardcore History',
+                link: 'https://www.dancarlin.com/hardcore-history-series/',
+                artwork: 'hardcore_history.jpg',
+            },
+            {
+                name: 'Hardcore History: Addendum',
+                link: 'https://www.dancarlin.com/addendum/',
+                artwork: 'hardcore_history_addendum.jpg',
+            },
+            {
+                name: 'More Perfect',
+                link: 'https://www.wnycstudios.org/podcasts/radiolabmoreperfect',
+                artwork: 'more_perfect.jpg',
+            },
+            {
+                name: 'The Rest is History',
+                link: 'https://play.acast.com/s/the-rest-is-history-podcast',
+                artwork: 'rest_is_history.jpg',
+            },
+            {
+                name: 'Revisionist History',
+                link: 'http://revisionisthistory.com/',
+                artwork: 'revisionist_history.jpg',
+            },
+            {
+                name: 'Throughline',
+                link: 'https://www.npr.org/podcasts/510333/throughline',
+                artwork: 'throughline.jpg',
+            },
+        ],
+    },
+    {
         name: 'News',
         podcasts: [
             {
@@ -298,6 +373,16 @@ const podcasts: PodcastCategory[] = [
                 name: 'The Journal',
                 link: 'https://www.wsj.com/podcasts/the-journal',
                 artwork: 'the_journal.jpg',
+            },
+            {
+                name: 'On the Media',
+                link: 'https://www.wnycstudios.org/podcasts/otm',
+                artwork: 'on_the_media.jpg',
+            },
+            {
+                name: 'The Problem with Jon Stewart',
+                link: 'https://podcasts.apple.com/us/podcast/the-problem-with-jon-stewart/id1583132133',
+                artwork: 'problem_jon_stewart.jpg',
             },
             {
                 name: 'Up First',
@@ -358,6 +443,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'Trillions',
                 link: 'https://www.bloomberg.com/podcasts/decrypted1',
                 artwork: 'trillions.jpg',
+            },
+            {
+                name: 'Wealthtrack',
+                link: 'https://wealthtrack.com/',
+                artwork: 'wealthtrack.jpg',
             },
         ],
     },
@@ -470,6 +560,11 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'athletic_nba_show.jpg',
             },
             {
+                name: 'The Bill Simmons Podcast',
+                link: 'https://www.theringer.com/the-bill-simmons-podcast',
+                artwork: 'bill_simmons.jpg',
+            },
+            {
                 name: 'Birds with Friends',
                 link: 'https://theathletic.com/podcast/62-birds-with-friends/',
                 artwork: 'birds_with_friends.jpg',
@@ -505,6 +600,21 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'the_lead.jpg',
             },
             {
+                name: 'The Mismatch',
+                link: 'https://www.theringer.com/the-mismatch-nba-show',
+                artwork: 'mismatch.jpg',
+            },
+            {
+                name: 'New Heights',
+                link: 'https://podcasts.apple.com/us/podcast/new-heights-with-jason-and-travis-kelce/id1643745036',
+                artwork: 'new_heights.jpg',
+            },
+            {
+                name: 'Pardon the Interruption',
+                link: 'https://www.espn.com/espnradio/podcast/archive/_/id/2406595',
+                artwork: 'pti.jpg',
+            },
+            {
                 name: 'Phillies Talk',
                 link: 'https://www.nbcsports.com/philadelphia/phillies-talk',
                 artwork: 'phillies_talk.jpg',
@@ -528,6 +638,11 @@ const podcasts: PodcastCategory[] = [
                 name: 'R2C2',
                 link: 'https://www.theringer.com/r2c2-podcast-cc-sabathia-ryan-ruocco',
                 artwork: 'r2c2.jpg',
+            },
+            {
+                name: 'The Right Time with Bomani Jones',
+                link: 'http://www.espn.com/espnradio/podcast/archive?id=12563086',
+                artwork: 'the_right_time.jpg',
             },
             {
                 name: 'The Ringer NBA Show',
@@ -570,6 +685,16 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'darknet_diaries.jpg',
             },
             {
+                name: 'Decoder',
+                link: 'https://www.theverge.com/decoder-podcast-with-nilay-patel',
+                artwork: 'decoder.jpg',
+            },
+            {
+                name: 'Hard Fork',
+                link: 'https://www.nytimes.com/2022/10/04/podcasts/hard-fork-technology.html',
+                artwork: 'hard_fork.jpg',
+            },
+            {
                 name: 'Marketplace Tech',
                 link: 'https://www.marketplace.org/shows/marketplace-tech/',
                 artwork: 'marketplace_tech.jpg',
@@ -610,16 +735,6 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'code_switch.jpg',
             },
             {
-                name: 'Hardcore History',
-                link: 'https://www.dancarlin.com/hardcore-history-series/',
-                artwork: 'hardcore_history.jpg',
-            },
-            {
-                name: 'Hardcore History: Addendum',
-                link: 'https://www.dancarlin.com/addendum/',
-                artwork: 'hardcore_history_addendum.jpg',
-            },
-            {
                 name: 'Death, Sex & Money',
                 link: 'https://www.wnycstudios.org/podcasts/deathsexmoney',
                 artwork: 'death_sex_and_money.jpg',
@@ -645,14 +760,34 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'gtd.jpg',
             },
             {
+                name: 'The Gray Area',
+                link: 'https://podcasts.apple.com/us/podcast/the-gray-area-with-sean-illing/id1081584611',
+                artwork: 'gray_area.jpg',
+            },
+            {
+                name: 'The Greatest Generation',
+                link: 'https://maximumfun.org/podcasts/greatest-generation/',
+                artwork: 'greatest_generation.jpg',
+            },
+            {
                 name: 'How I Built This',
                 link: 'https://www.npr.org/podcasts/510313/how-i-built-this',
                 artwork: 'how_i_built_this.jpg',
             },
             {
+                name: 'If Books Could Kill',
+                link: 'https://www.iheart.com/podcast/867-if-books-could-kill-104279346/',
+                artwork: 'if_books_could_kill.jpg',
+            },
+            {
                 name: 'Into It',
                 link: 'https://podcasts.apple.com/us/podcast/id1634687152',
                 artwork: 'into_it.jpg',
+            },
+            {
+                name: "It's Been a Minute",
+                link: 'https://www.npr.org/podcasts/510317/its-been-a-minute',
+                artwork: 'its_been_a_minute.jpg',
             },
             {
                 name: 'The Jordan Harbinger Show',
@@ -675,9 +810,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'make_no_law.jpg',
             },
             {
-                name: 'More Perfect',
-                link: 'https://www.wnycstudios.org/podcasts/radiolabmoreperfect',
-                artwork: 'more_perfect.jpg',
+                name: 'The Neoliberal Podcast',
+                link: 'https://podcasts.apple.com/us/podcast/the-neoliberal-podcast/id1390384827',
+                artwork: 'neoliberal_podcast.jpg',
             },
             {
                 name: 'On Point',
@@ -685,9 +820,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'on_point.jpg',
             },
             {
-                name: 'On the Media',
-                link: 'https://www.wnycstudios.org/podcasts/otm',
-                artwork: 'on_the_media.jpg',
+                name: 'On with Kara Swisher',
+                link: 'https://podcasts.voxmedia.com/show/on-with-kara-swisher',
+                artwork: 'on_with_kara_swisher.jpg',
             },
             {
                 name: 'People I Mostly Admire',
@@ -695,39 +830,14 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'people_i_mostly_admire.jpg',
             },
             {
-                name: 'Pessimists Aloud',
-                link: 'https://anchor.fm/pessimistsaloud',
-                artwork: 'pessimistsaloud.jpg',
-            },
-            {
-                name: 'Pivot',
-                link: 'https://podcasts.voxmedia.com/show/pivot',
-                artwork: 'pivot.jpg',
+                name: 'Plain English with Derek Thompson',
+                link: 'https://www.theringer.com/plain-english-with-derek-thompson-podcast',
+                artwork: 'plain_english.jpg',
             },
             {
                 name: 'The Prof G Pod',
                 link: 'https://podcasts.voxmedia.com/show/the-prof-g-pod-with-scott-galloway',
                 artwork: 'prof_g_pod.jpg',
-            },
-            {
-                name: 'Radio Times',
-                link: 'https://whyy.org/programs/radio-times/',
-                artwork: 'radio_times.jpg',
-            },
-            {
-                name: 'Rationally Speaking',
-                link: 'http://rationallyspeakingpodcast.org/',
-                artwork: 'rationallyspeaking.jpg',
-            },
-            {
-                name: 'Reply All',
-                link: 'https://gimletmedia.com/shows/reply-all/episodes',
-                artwork: 'reply_all.jpg',
-            },
-            {
-                name: 'Revisionist History',
-                link: 'http://revisionisthistory.com/',
-                artwork: 'revisionist_history.jpg',
             },
             {
                 name: 'Rough Translation',
@@ -738,11 +848,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'Serial',
                 link: 'https://serialpodcast.org/',
                 artwork: 'serial.jpg',
-            },
-            {
-                name: 'Sideways',
-                link: 'https://www.bbc.co.uk/programmes/m000s2kt',
-                artwork: 'sideways.jpg',
             },
             {
                 name: 'Slow Burn',
@@ -780,19 +885,9 @@ const podcasts: PodcastCategory[] = [
                 artwork: 'this_is_uncomfortable.jpg',
             },
             {
-                name: 'Throughline',
-                link: 'https://www.npr.org/podcasts/510333/throughline',
-                artwork: 'throughline.jpg',
-            },
-            {
                 name: 'The Uncertain Hour',
                 link: 'https://www.marketplace.org/shows/the-uncertain-hour/',
                 artwork: 'uncertain_hour.jpg',
-            },
-            {
-                name: 'Vox Conversations',
-                link: 'https://www.vox.com/vox-conversations-podcast',
-                artwork: 'vox_conversations.jpg',
             },
             {
                 name: 'WorkLife with Adam Grant',
@@ -803,11 +898,6 @@ const podcasts: PodcastCategory[] = [
                 name: 'WTF with Marc Maron',
                 link: 'http://www.wtfpod.com/',
                 artwork: 'wtf_podcast.jpg',
-            },
-            {
-                name: "You're Wrong About",
-                link: 'https://yourewrongabout.com/',
-                artwork: 'youre_wrong_about.jpg',
             },
         ],
     },

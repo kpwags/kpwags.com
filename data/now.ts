@@ -1,13 +1,13 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const now: CurrentlyDoing = {
-    lastUpdate: 'March 2023',
+    lastUpdate: 'April 2023',
     reading: [
         {
-            title: 'Anansi Boys',
-            author: 'Neil Gaiman',
-            cover: 'anansi_boys.jpg',
-            link: 'https://bookshop.org/p/books/anansi-boys-neil-gaiman/6438691?ean=9780063070738',
+            title: 'The Heart Is a Lonely Hunter',
+            author: 'Carson McCullers',
+            cover: 'heart_lonely_hunter.jpg',
+            link: 'https://bookshop.org/p/books/heart-is-a-lonely-hunter-carson-mccullers/266374',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
@@ -69,6 +69,15 @@ const now: CurrentlyDoing = {
             system: 'PS5',
             cover: 'horizonzerodawn.jpg',
             link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn/',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+        },
+        {
+            title: 'Halo Infinite: Multiplayer',
+            system: 'Xbox',
+            cover: 'halo-infinite-mp.jpg',
+            link: 'https://www.halowaypoint.com/halo-infinite',
             imageFolder: 'games',
             rating: null,
             thoughts: null,

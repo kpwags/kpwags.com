@@ -2,13 +2,23 @@
 import { VideoGames } from '@models/VideoGames';
 
 const games: VideoGames = {
-    lastUpdate: 'December 2022',
+    lastUpdate: 'April 2022',
     current: [
         {
             title: 'Horizon Zero Dawn',
             system: 'PS5',
             cover: 'horizonzerodawn.jpg',
             link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn/',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+            finished: 'n/a',
+        },
+        {
+            title: 'Halo Infinite: Multiplayer',
+            system: 'Xbox',
+            cover: 'halo-infinite.jpg',
+            link: 'https://www.halowaypoint.com/halo-infinite',
             imageFolder: 'games',
             rating: null,
             thoughts: null,
