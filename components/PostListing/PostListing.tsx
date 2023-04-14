@@ -26,6 +26,8 @@ const PostListing = ({
 
         {/* eslint-disable-next-line react/no-danger */}
         {post.excerpt !== null ? <div className={styles.excerpt} dangerouslySetInnerHTML={{ __html: post.excerpt || 'No content found' }} /> : null}
+
+        <div className={styles.continueReading}><Link href={post.url}>Continue Reading &gt;</Link></div>
     </article>
 );
 
