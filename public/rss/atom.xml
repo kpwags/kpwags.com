@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-04-07T23:08:45.552Z</updated>
+    <updated>2023-04-14T21:52:00.964Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,51 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - April 14 (#26)]]></title>
+        <id>https://kpwags.com/reading-log/26</id>
+        <link href="https://kpwags.com/reading-log/26"/>
+        <updated>2023-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week a lot of details were announced about .NET 8 and C# 12. Also included is NPR leaving Twitter, Uber screwing drivers, and the power of libraries.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>This week a lot of details were announced about .NET 8 and C# 12. Also included is NPR leaving Twitter, Uber screwing drivers, and the power of libraries.</p>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://ishadeed.com/article/css-text-wrap-balance/">CSS Text balancing with text-wrap:balance</a> - <em>Ahmad Shadeed</em></p>
+<p><a href="https://steven-giesel.com/blogPost/d38e70b4-6f36-41ff-8011-b0b0d1f54f6e">5 useful extensions for Task&lt;T&gt; in .NET</a> - <em>Steven Giesel</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/learn-how-to-modernize-your-dotnet-apps/">Learn how to modernize your .NET apps from the pros!</a> - <em>Jon Galloway</em></p>
+<p><a href="https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents">A README Template – With an Automatically Generated Table of Contents</a> - <em>Matthias Ott</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-8-preview-3/">ASP.NET Core updates in .NET 8 Preview 3</a> - <em>Daniel Roth</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/check-out-csharp-12-preview/">Check out new C# 12 preview features!</a> - <em>Kathleen Dollard</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-3/">Announcing .NET 8 Preview 3</a> - <em>Jiachen Jiang</em></p>
+<p><a href="https://www.theverge.com/23650428/colorblindness-design-ui-accessibility-wordle">Chasing Rainbows</a> - <em>Andy Baio</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.businessinsider.com/tech-companies-ruining-apps-websites-internet-worse-google-facebook-amazon-2023-3">Big Tech&#x27;s Big Downgrade</a> - <em>Ed Zitron</em></p>
+<p><a href="https://www.npr.org/2023/04/12/1169269161/npr-leaves-twitter-government-funded-media-label">NPR quits Twitter after being falsely labeled as &#x27;state-affiliated media’</a> - <em>David Folkenflik</em></p>
+<h3>🎮 Gaming</h3>
+<p><a href="https://www.theverge.com/2023/4/7/23674958/joe-staten-halo-infinite-destiny-microsoft-bungie">Halo veteran Joseph Staten is leaving Microsoft</a> - <em>Jay Peters</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.marketplace.org/2023/04/10/how-ride-hail-companies-use-data-to-pay-drivers-less/">How ride-hail companies use data to pay drivers less</a> - <em>Kai Ryssdal &amp; Livi Burdette</em></p>
+<p><a href="https://www.economist.com/finance-and-economics/2023/04/12/how-the-state-could-take-control-of-the-banking-system">How the State Could Take Control of the Banking System</a> - <em>The Economist</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/science/2023/04/black-hole-is-soaring-between-galaxies-leaving-stars-in-its-wake/">Black hole is soaring between galaxies, leaving stars in its wake</a> - <em>John Timmer</em></p>
+<p><a href="https://www.npr.org/sections/health-shots/2023/04/14/1169216517/youre-less-likely-to-get-long-covid-after-a-second-infection-than-a-first">You&#x27;re less likely to get long COVID after a second infection than a first</a> - <em>Rob Stein</em></p>
+<p><a href="https://gizmodo.com/nasa-goddard-makenzie-lystrup-sagan-pale-blue-dot-1850320312">New NASA Official Took Her Oath of Office on Carl Sagan’s ‘Pale Blue Dot’</a> - <em>Passant Rabie</em></p>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://www.wsj.com/articles/the-money-saving-power-of-your-library-card-8f490455">The Money Saving Power of Your Library Card</a> - <em>Shara Tibken</em></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Breaking Benjamin - Never Again</h4>
+<p><a href="https://www.youtube.com/watch?v=zEUG3\_Zh-rw" title="Breaking Benjamin - Never Again">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - April 7 (#25)]]></title>
         <id>https://kpwags.com/reading-log/25</id>
@@ -47,8 +92,8 @@
 <p><a href="https://stackoverflow.blog/2023/03/31/how-to-keep-the-servers-running-when-your-mastodon-goes-viral/">Stack Overflow Podcast #567: How to keep the servers running when your Mastodon goes viral</a></p>
 <p><a href="https://podcasts.apple.com/ca/podcast/508-president-clinton-interviews-roman-mars/id394775318?i=1000580110425">99% Invisible #508: President Clinton Interviews Roman Mars</a></p>
 <h3>🎵 A Song to Leave You With</h3>
-<h4>Artist - Song</h4>
-<p><a href="https://www.youtube.com/watch?v=TX0psH6zH7g" title="A Song to Leave You With">View on YouTube</a></p>
+<h4>The Gaslight Anthem - The Backseat</h4>
+<p><a href="https://www.youtube.com/watch?v=TX0psH6zH7g" title="The Gaslight Anthem - The Backseat">View on YouTube</a></p>
             </div>
         ]]></content>
         <author>
