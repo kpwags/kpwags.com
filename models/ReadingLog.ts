@@ -10,6 +10,7 @@ export interface ReadingLog {
     commentIssueNumber: number;
     content: string;
     excerpt: string;
-    socialImageUrl: string;
+    socialImageUrl?: string;
     readTime?: number;
+    description: string;
 }

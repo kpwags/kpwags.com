@@ -47,7 +47,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     let hasEmbeddedTweets = false;
 
     if (pageProps.post) {
-        description = pageProps.post.description || null;
+        description = pageProps.post.description || pageProps.post.excerpt || null;
         title = pageProps.post.title || null;
         url = pageProps.post.url || null;
         imageUrl = pageProps.post.socialImageUrl || null;
@@ -55,7 +55,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     }
 
     if (pageProps.readingLog) {
-        description = pageProps.readingLog.description || null;
+        description = pageProps.readingLog.description || pageProps.post.excerpt || null;
         title = pageProps.readingLog.title || null;
         url = pageProps.readingLog.url || null;
         imageUrl = pageProps.readingLog.socialImageUrl || null;

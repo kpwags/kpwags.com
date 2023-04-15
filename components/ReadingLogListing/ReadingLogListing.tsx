@@ -20,6 +20,8 @@ const ReadingLogListing = ({
 
         {/* eslint-disable-next-line react/no-danger */}
         {readingLog.excerpt !== null ? <div className={styles.excerpt} dangerouslySetInnerHTML={{ __html: readingLog.excerpt || 'No content found' }} /> : null}
+
+        <div className={styles.continueReading}><Link href={readingLog.url}>Continue Reading &gt;</Link></div>
     </article>
 );
 

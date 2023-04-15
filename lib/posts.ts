@@ -99,6 +99,7 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             isRssOnly: data.isRssOnly || false,
             wordCount,
             readTime: readingTime,
+            socialImageUrl: null,
         };
     });
 
@@ -202,7 +203,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Combine the data with the id
     return {
         id: postId,
-        excerpt: excerpt || data.excerpt || null,
+        excerpt: excerpt || null,
         title: data.title,
         date: data.date,
         content: mdx.compiledSource,
