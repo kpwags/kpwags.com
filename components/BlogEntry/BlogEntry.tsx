@@ -13,6 +13,8 @@ import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
 import PostHeading from '@components/PostHeading';
+import CodeSandbox from '@components/CodeSandbox';
+import InDepthNotes from '@components/InDepthNotes';
 import { CH } from '@code-hike/mdx/components';
 
 const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
@@ -28,6 +30,8 @@ const components = {
     BookRead,
     YouTubeEmbed,
     ExternalLink,
+    CodeSandbox,
+    InDepthNotes,
     CH,
 };
 
