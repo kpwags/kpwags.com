@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2023',
             books: [
                 {
+                    title: 'The Heart Is a Lonely Hunter',
+                    author: 'Carson McCullers',
+                    cover: 'heart_lonely_hunter.jpg',
+                    link: 'https://bookshop.org/p/books/heart-is-a-lonely-hunter-carson-mccullers/266374',
+                    rating: 3,
+                    thoughts: "I have a hard time giving my thoughts on this as it's so far outside of my normal reading material. I enjoyed the story though and found the characters to be interesting.",
+                    imageFolder: 'books',
+                },
+                {
                     title: 'Anansi Boys',
                     author: 'Neil Gaiman',
                     cover: 'anansi_boys.jpg',

@@ -4,10 +4,10 @@ const now: CurrentlyDoing = {
     lastUpdate: 'April 2023',
     reading: [
         {
-            title: 'The Heart Is a Lonely Hunter',
-            author: 'Carson McCullers',
-            cover: 'heart_lonely_hunter.jpg',
-            link: 'https://bookshop.org/p/books/heart-is-a-lonely-hunter-carson-mccullers/266374',
+            title: 'Pacific Crucible: War at Sea in the Pacific, 1941-1942',
+            author: 'Ian W. Toll',
+            cover: 'pacific_crucible.jpg',
+            link: 'https://bookshop.org/p/books/pacific-crucible-war-at-sea-in-the-pacific-1941-1942-ian-w-toll/8754662',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
