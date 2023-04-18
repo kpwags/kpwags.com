@@ -160,6 +160,7 @@ canvas,
 svg {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 input,
@@ -251,7 +252,7 @@ h3.text {
 
 p {
     line-height: 1.8;
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
     font-size: 1.2rem;
 }
 

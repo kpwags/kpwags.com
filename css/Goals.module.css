@@ -4,11 +4,11 @@
 }
 
 .container h1 {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .container h3 {
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .container p {
@@ -17,7 +17,7 @@
 
 .container hr {
     width: 250px;
-    margin: 40px auto;
+    margin: 2.5rem auto;
     border-bottom: 1px solid hsl(0, 0%, 87.1%);
     background-color: transparent;
 }
@@ -31,6 +31,6 @@
 @media all and (max-width: 850px) {
     .container {
         width: 100%;
-        margin: 25px 0;
+        margin: 1.5rem 0;
     }
 }

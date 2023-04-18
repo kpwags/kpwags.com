@@ -1,9 +1,9 @@
 .photoGrid {
     display: grid;
-    margin-top: 25px;
+    margin-top: 1.5rem;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
     justify-items: center;
 }
 
@@ -22,7 +22,7 @@
     border: var(--primary-color-2);
     background: var(--primary-color-1);
     color: var(--background);
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
