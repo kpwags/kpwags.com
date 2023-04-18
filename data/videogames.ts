@@ -17,7 +17,7 @@ const games: VideoGames = {
         {
             title: 'Halo Infinite: Multiplayer',
             system: 'Xbox',
-            cover: 'halo-infinite.jpg',
+            cover: 'halo-infinite-mp.jpg',
             link: 'https://www.halowaypoint.com/halo-infinite',
             imageFolder: 'games',
             rating: null,

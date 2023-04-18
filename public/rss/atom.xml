@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-04-14T21:52:00.964Z</updated>
+    <updated>2023-04-18T23:25:10.885Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,28 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Libby and Libraries]]></title>
+        <id>https://kpwags.com/posts/2023/04/18/libby-and-libraries</id>
+        <link href="https://kpwags.com/posts/2023/04/18/libby-and-libraries"/>
+        <updated>2023-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As a kid, I loved it when my parents took me to the library. I read often and loved checking out books to read. As an adult it’s no different.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>As a kid, I loved it when my parents took me to the library. I read often and loved checking out books to read. As an adult it’s no different.</p>
+<p>One of the apps on my iPhone is <a href="https://libbyapp.com/interview/welcome#doYouHaveACard">Libby</a> which allows me to borrow eBooks from my local library. I discovered it during the pandemic and it gives me access to books on my Kindle with the press of a button.</p>
+<p>Like physical books, libraries only have so many digital copies available to lend as well. The nice part is that if they have the book you want to read but it’s checked out, you can easily add yourself to the waiting list to get it as soon as it becomes available. Another nice (or maybe not so nice thing from some points of view) is that because it’s digital, once the two weeks the reader has are up, it gets “returned” to the library for the next person. You don’t have to worry about the person before you losing it or returning it a month late.</p>
+<p>They haven’t had every book on my reading list, but it’s a nice way to take advantage of what my local library offers.</p>
+<p>I’d highly recommend seeing what your local libraries offer digitally, and any other of their services. The Wall Street Journal had a <a href="https://www.wsj.com/articles/the-money-saving-power-of-your-library-card-8f490455">good article</a> about it a week or so ago.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - April 14 (#26)]]></title>
         <id>https://kpwags.com/reading-log/26</id>
