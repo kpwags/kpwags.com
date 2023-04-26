@@ -61,6 +61,9 @@ const Footer = (): JSX.Element => (
             <li className={styles.copyright}>
                 &copy; {new Date().getFullYear()} Keith Wagner
             </li>
+            <li className={styles.email}>
+                <a href="mailto:hello@kpwags.com">hello@kpwags.com</a>
+            </li>
             <li>
                 <a href="https://www.github.com/kpwags">GitHub</a>
             </li>
