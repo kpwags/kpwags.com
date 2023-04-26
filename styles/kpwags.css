@@ -215,6 +215,19 @@ main.full-width {
     padding: 0 25px;
 }
 
+.cover {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    background-position: 50% 50%;
+    margin-bottom: 2rem;
+}
+
+.cover.about {
+    background-image: url('/images/covers/about.jpg');
+    background-position: 50% 35%;
+}
+
 h1 {
     font-weight: 500;
     color: var(--primary-color-1);
@@ -270,18 +283,6 @@ a:hover {
 
 a img {
     border: none;
-}
-
-div.cover {
-    width: 100%;
-    object-fit: cover;
-    background-position: 50% 50%;
-    min-height: 400px;
-}
-
-div.cover.about {
-    background-image: url('/images/covers/about.jpg');
-    background-position: 50% 35%;
 }
 
 .about h1 {
