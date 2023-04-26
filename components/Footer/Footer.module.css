@@ -25,4 +25,8 @@
         margin-top: 1.5rem;
         display: block;
     }
+
+    .footer ul li.email {
+        display: block;
+    }
 }
