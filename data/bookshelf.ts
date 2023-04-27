@@ -12,11 +12,29 @@ export type BookList = {
 };
 
 const BooksRead: BookList = {
-    lastUpdate: 'March 2023',
+    lastUpdate: 'April 2023',
     years: [
         {
             year: '2023',
             books: [
+                {
+                    title: 'The Heart Is a Lonely Hunter',
+                    author: 'Carson McCullers',
+                    cover: 'heart_lonely_hunter.jpg',
+                    link: 'https://bookshop.org/p/books/heart-is-a-lonely-hunter-carson-mccullers/266374',
+                    rating: 3,
+                    thoughts: "I have a hard time giving my thoughts on this as it's so far outside of my normal reading material. I enjoyed the story though and found the characters to be interesting.",
+                    imageFolder: 'books',
+                },
+                {
+                    title: 'Anansi Boys',
+                    author: 'Neil Gaiman',
+                    cover: 'anansi_boys.jpg',
+                    link: 'https://bookshop.org/p/books/anansi-boys-neil-gaiman/6438691?ean=9780063070738',
+                    rating: 4,
+                    thoughts: 'I’m not sure whether I liked this better than American Gods, but it was an enjoyable read with some interesting characters.',
+                    imageFolder: 'books',
+                },
                 {
                     title: 'American Gods',
                     author: 'Neil Gaiman',
