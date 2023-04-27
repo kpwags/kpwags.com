@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { MDXRemote } from 'next-mdx-remote';
 import { BlogPost } from '@models/blogPost';
@@ -39,41 +38,35 @@ interface BlogEntryProps {
     post: BlogPost
 }
 
-const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => {
-    useEffect(() => {
-        // Prism.highlightAll();
-    }, []);
+const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => (
+    <>
+        <article className="article">
+            <PostHeading
+                title={post.title}
+                date={post.date}
+                readTime={post.readTime}
+                tags={post.tags}
+            />
 
-    return (
-        <>
-            <article className="article">
-                <PostHeading
-                    title={post.title}
-                    date={post.date}
-                    readTime={post.readTime}
-                    tags={post.tags}
+            <div className="content">
+                {post.isRssOnly ? (
+                    <p><em>This post is for the <a href="/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
+                ) : null}
+                <MDXRemote
+                    compiledSource={post.content}
+                    components={components}
+                    scope={post}
+                    frontmatter={post}
                 />
+            </div>
 
-                <div className="content">
-                    {post.isRssOnly ? (
-                        <p><em>This post is for the <a href="/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
-                    ) : null}
-                    <MDXRemote
-                        compiledSource={post.content}
-                        components={components}
-                        scope={post}
-                        frontmatter={post}
-                    />
+            {post.commentIssueNumber !== null && (
+                <div className="comments">
+                    <Utterances issueNumber={post.commentIssueNumber} />
                 </div>
-
-                {post.commentIssueNumber !== null && (
-                    <div className="comments">
-                        <Utterances issueNumber={post.commentIssueNumber} />
-                    </div>
-                )}
-            </article>
-        </>
-    );
-};
+            )}
+        </article>
+    </>
+);
 
 export default BlogEntry;
