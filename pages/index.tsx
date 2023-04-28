@@ -2,7 +2,6 @@ import { getAllPosts } from '@lib/posts';
 import { GetStaticProps } from 'next';
 import Welcome from '@components/Welcome';
 import LatestPosts from '@components/LatestPosts';
-import LatestPhotoset from '@components/LatestPhotoset';
 import { BlogPost } from '@models/blogPost';
 import RssFeeds from '@components/RssFeeds';
 import {
@@ -49,8 +48,6 @@ const Home = ({ posts, readingLogs }: HomeProps): JSX.Element => (
             posts={readingLogs.map((p) => ({ title: p.title.replace('Reading Log - ', ''), url: p.url }))}
             viewMoreLink="/reading-logs"
         />
-
-        <LatestPhotoset />
     </main>
 );
 
