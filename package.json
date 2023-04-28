@@ -38,6 +38,7 @@
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.36.0",
     "@types/jsdom": "^16.2.13",
     "@types/lodash": "^4.14.168",
     "@types/marked": "^2.0.4",
