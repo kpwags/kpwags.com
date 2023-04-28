@@ -4,14 +4,14 @@ import path from 'path';
 import { Feed, Item } from 'feed';
 import { MDXRemote } from 'next-mdx-remote';
 import ReactDOMServer from 'react-dom/server';
-import photoBlog from '@data/photoBlog';
-import { PhotoBlogItem } from '@models/PhotoBlogItem';
 import { BlogTag } from '@models/BlogTag';
 import { BlogPost } from '@models/blogPost';
 import marked from 'marked';
 import matter from 'gray-matter';
+import { remarkCodeHike } from '@code-hike/mdx';
 import { serialize } from 'next-mdx-remote/serialize';
 import { ReadingLog } from '@models/ReadingLog';
+import { CH } from '@code-hike/mdx/components';
 
 // Blog Components
 import PostImage from '@components/RssPostImage';
@@ -23,10 +23,14 @@ import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
 import InDepthNotes from '@components/InDepthNotes';
 import YouTubeEmbed from '@components/RssYouTubeEmbed';
+import CodeSandbox from '@components/CodeSandbox/CodeSandbox';
 
 import { buildUrlFromId } from './utilities';
 import { getPostExcerpt } from './posts';
 import { convertToPost } from './readinglog';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const theme = require('shiki/themes/github-dark-dimmed.json');
 
 const components = {
     PostImage,
@@ -37,7 +41,9 @@ const components = {
     BookRead,
     YouTubeEmbed,
     ExternalLink,
+    CodeSandbox,
     InDepthNotes,
+    CH,
 };
 
 const postsDirectory = path.join(process.cwd(), 'posts');
@@ -74,7 +80,14 @@ const getPostsForRssFeed = async (): Promise<BlogPost[]> => {
         const html = marked(content);
         const excerpt = getPostExcerpt(html);
 
-        const mdx = await serialize(content, { scope: data });
+        const mdx = await serialize(content, {
+            scope: data,
+            mdxOptions: {
+                remarkPlugins: [[remarkCodeHike, { autoImport: false, theme }]],
+                useDynamicImport: true,
+            },
+        });
+
         const url = buildUrlFromId(id);
 
         const tags = data.tags || [] as BlogTag[];
@@ -148,7 +161,12 @@ const getAllPosts = async (): Promise<Item[]> => {
 
     allPosts.forEach((post) => {
         const mdx = (
-            <MDXRemote compiledSource={post.content} components={components} />
+            <MDXRemote
+                compiledSource={post.content}
+                components={components}
+                scope={post}
+                frontmatter={post}
+            />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);
@@ -186,7 +204,12 @@ const getPosts = async (): Promise<Item[]> => {
 
     posts.forEach((post) => {
         const mdx = (
-            <MDXRemote compiledSource={post.content} components={components} />
+            <MDXRemote
+                compiledSource={post.content}
+                components={components}
+                scope={post}
+                frontmatter={post}
+            />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);
@@ -224,7 +247,12 @@ const getReadingLogs = async (): Promise<Item[]> => {
 
     logs.forEach((log) => {
         const mdx = (
-            <MDXRemote compiledSource={log.content} components={components} />
+            <MDXRemote
+                compiledSource={log.content}
+                components={components}
+                scope={log}
+                frontmatter={log}
+            />
         );
 
         const html = ReactDOMServer.renderToStaticMarkup(mdx);
@@ -248,36 +276,6 @@ const getReadingLogs = async (): Promise<Item[]> => {
             }],
             date: new Date(log.date),
             image: log.socialImageUrl || null,
-        });
-    });
-
-    return items;
-};
-
-const buildHtmlForPhotoBlogItem = (item: PhotoBlogItem): string => `
-        <article>
-            <div><img src="https://kpwags.com/images/photoblog/${item.src}" alt="${item.altText}" /></div>
-            <p>${item.description} (${item.location})</p>
-        </article>
-    `;
-
-const getPhotos = (): Item[] => {
-    const items: Item[] = [];
-
-    photoBlog.forEach((photo) => {
-        items.push({
-            title: photo.description,
-            id: photo.src,
-            link: `https://kpwags.com/photoblog/${photo.key}`,
-            description: photo.description,
-            content: buildHtmlForPhotoBlogItem(photo),
-            author: [{
-                name: 'Keith Wagner',
-                email: 'blog@kpwags.com',
-                link: 'https://kpwags.com/',
-            }],
-            date: new Date(photo.date),
-            image: `https://kpwags.com/images/photoblog/${photo.thumbnail}`,
         });
     });
 
@@ -395,46 +393,8 @@ const generateReadingLogRssFeed = async (): Promise<void> => {
     fs.writeFileSync(`${publicDirectory}/rss/readinglog_feed.json`, feed.json1());
 };
 
-const generatePhotoBlogRssFeed = (): void => {
-    const baseUrl = 'https://kpwags.com';
-    const date = new Date();
-
-    const feed = new Feed({
-        title: 'Keith Wagner - Photo Blog',
-        description: "I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more. This is my photo blog.",
-        id: baseUrl,
-        link: baseUrl,
-        language: 'en',
-        favicon: `${baseUrl}/favicon.ico`,
-        copyright: `${date.getFullYear()} Keith Wagner`,
-        updated: date,
-        generator: 'Next.js using Feed for Node.js',
-        feedLinks: {
-            rss2: `${baseUrl}/rss/photoblog.xml`,
-            json: `${baseUrl}/rss/photoblog.json`,
-            atom: `${baseUrl}/rss/photoblog_atom.xml`,
-        },
-        author: {
-            name: 'Keith Wagner',
-            email: 'blog@kpwags.com',
-            link: 'https://kpwags.com/',
-        },
-    });
-
-    const items = getPhotos();
-
-    items.forEach((i) => feed.addItem(i));
-
-    const publicDirectory = path.join(process.cwd(), 'public');
-
-    fs.writeFileSync(`${publicDirectory}/rss/photoblog.xml`, feed.rss2());
-    fs.writeFileSync(`${publicDirectory}/rss/photoblog_atom.xml`, feed.atom1());
-    fs.writeFileSync(`${publicDirectory}/rss/photoblog.json`, feed.json1());
-};
-
 export {
     generateRssFeed,
-    generatePhotoBlogRssFeed,
     generateReadingLogRssFeed,
     generateBlogPostRssFeed,
 };

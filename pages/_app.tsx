@@ -7,8 +7,9 @@ import { useTheme } from '@hooks/useTheme';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
-import Theme, { ColorTheme, FontTheme } from '@models/theme';
+import Theme, { ColorTheme } from '@models/theme';
 
+import '@code-hike/mdx/dist/index.css';
 import '../styles/fonts.css';
 import '../styles/kpwags.css';
 
@@ -16,21 +17,17 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     const {
         theme,
         color,
-        font,
         themeLoaded,
         changeTheme,
         changeColor,
-        changeFont,
     } = useTheme();
 
     const [selectedTheme, setSelectedTheme] = useState<Theme>(theme);
     const [selectedColor, setSelectedColor] = useState<ColorTheme>(color);
-    const [selectedFont, setSelectedFont] = useState<FontTheme>(font);
 
     useEffect(() => {
         setSelectedTheme(theme);
         setSelectedColor(color);
-        setSelectedFont(font);
     }, [themeLoaded]);
 
     const toggleTheme = (t: Theme) => {
@@ -43,17 +40,6 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         setSelectedColor(c);
     };
 
-    const toggleFont = (f: FontTheme) => {
-        changeFont(f);
-        setSelectedFont(f);
-    };
-
-    let className = '';
-
-    if (['bookshelf', 'movies', 'games', 'podcasts', 'tvshows'].includes(Component.name.toLowerCase())) {
-        className = 'wide';
-    }
-
     let description: string | null = null;
     let title: string | null = null;
     let url: string | null = null;
@@ -61,7 +47,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     let hasEmbeddedTweets = false;
 
     if (pageProps.post) {
-        description = pageProps.post.description || null;
+        description = pageProps.post.description || pageProps.post.excerpt || null;
         title = pageProps.post.title || null;
         url = pageProps.post.url || null;
         imageUrl = pageProps.post.socialImageUrl || null;
@@ -69,7 +55,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     }
 
     if (pageProps.readingLog) {
-        description = pageProps.readingLog.description || null;
+        description = pageProps.readingLog.description || pageProps.post.excerpt || null;
         title = pageProps.readingLog.title || null;
         url = pageProps.readingLog.url || null;
         imageUrl = pageProps.readingLog.socialImageUrl || null;
@@ -104,15 +90,11 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                     changeTheme: toggleTheme,
                     currentColor: selectedColor,
                     changeColorTheme: toggleColor,
-                    currentFont: selectedFont,
-                    changeFontTheme: toggleFont,
                 }}
             >
-                <main className={className}>
-                    <Header />
-                    <Component {...pageProps} />
-                    <Footer />
-                </main>
+                <Header />
+                <Component {...pageProps} />
+                <Footer />
             </BlogContext.Provider>
         </>
     );

@@ -16,7 +16,9 @@ type BookshelfProps = {
 const Bookshelf = ({ books }: BookshelfProps): JSX.Element => (
     <>
         <Head><title>Bookshelf - Keith Wagner</title></Head>
-        <BookshelfContainer books={books} />
+        <main className="full-width">
+            <BookshelfContainer books={books} />
+        </main>
     </>
 );
 

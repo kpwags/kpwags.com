@@ -13,7 +13,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
     return {
         paths,
-        fallback: false,
+        fallback: 'blocking',
     };
 };
 
@@ -69,23 +69,25 @@ const Post = ({ logs, lastPage, currentPage }: ReadingLogProps): JSX.Element => 
             <Head><title>Reading Logs - Keith Wagner</title></Head>
             <RssFeeds />
 
-            <h1>Reading Logs</h1>
+            <main>
+                <h1>Reading Logs</h1>
 
-            {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
+                {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
 
-            <ReactPaginate
-                marginPagesDisplayed={0}
-                pageRangeDisplayed={0}
-                previousLabel="&larr; Newer"
-                nextLabel="Older &rarr;"
-                initialPage={currentPage - 1}
-                pageCount={lastPage}
-                onPageChange={handlePagination}
-                containerClassName="pagination"
-                activeClassName="paginate-active"
-                nextLinkClassName={currentPage === lastPage ? 'hidden' : 'paginate-next-a'}
-                previousLinkClassName={currentPage === 1 ? 'hidden' : 'paginate-prev-a'}
-            />
+                <ReactPaginate
+                    marginPagesDisplayed={0}
+                    pageRangeDisplayed={0}
+                    previousLabel="&larr; Newer"
+                    nextLabel="Older &rarr;"
+                    initialPage={currentPage - 1}
+                    pageCount={lastPage}
+                    onPageChange={handlePagination}
+                    containerClassName="pagination"
+                    activeClassName="paginate-active"
+                    nextLinkClassName={currentPage === lastPage ? 'hidden' : 'paginate-next-a'}
+                    previousLinkClassName={currentPage === 1 ? 'hidden' : 'paginate-prev-a'}
+                />
+            </main>
         </>
     );
 };

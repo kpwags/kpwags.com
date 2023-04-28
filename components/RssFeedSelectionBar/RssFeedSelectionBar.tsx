@@ -34,14 +34,6 @@ const RssFeedSelectionBar = ({
                     <li><a href="/rss/readinglog_feed.json">JSON</a></li>
                 </ul>
             </div>
-            <div>
-                <h3>Photo Blog</h3>
-                <ul>
-                    <li><a href="/rss/photoblog_atom.xml">Atom</a></li>
-                    <li><a href="/rss/photoblog.xml">RSS</a></li>
-                    <li><a href="/rss/photoblog.json">JSON</a></li>
-                </ul>
-            </div>
         </div>
     </div>
 );

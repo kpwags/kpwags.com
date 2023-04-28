@@ -4,10 +4,15 @@ import matter from 'gray-matter';
 import marked from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
+import { remarkCodeHike } from '@code-hike/mdx';
+
 import { buildUrlFromId } from './utilities';
 import { postsPerPage } from './config';
 import decodeHtmlEntities from './decodeHtmlEntities';
 import generateTagUrl from './generateTagUrl';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const theme = require('shiki/themes/github-dark-dimmed.json');
 
 type PostId = {
     params: {
@@ -94,6 +99,7 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             isRssOnly: data.isRssOnly || false,
             wordCount,
             readTime: readingTime,
+            socialImageUrl: null,
         };
     });
 
@@ -179,7 +185,13 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     const html = marked(content);
     const excerpt = getPostExcerpt(html);
 
-    const mdx = await serialize(content, { scope: data });
+    const mdx = await serialize(content, {
+        scope: data,
+        mdxOptions: {
+            remarkPlugins: [[remarkCodeHike, { autoImport: false, theme }]],
+            useDynamicImport: true,
+        },
+    });
 
     const tags = data.tags || [] as string[];
 
@@ -191,7 +203,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     // Combine the data with the id
     return {
         id: postId,
-        excerpt: excerpt || data.excerpt || null,
+        excerpt: excerpt || null,
         title: data.title,
         date: data.date,
         content: mdx.compiledSource,
@@ -202,8 +214,6 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
         commentIssueNumber: data.commentIssueNumber || null,
         socialImageUrl: socialImage,
-        socialImageWidth: data.socialImageWidth || null,
-        socialImageHeight: data.socialImageHeight || null,
         wordCount,
         readTime: readingTime,
     };

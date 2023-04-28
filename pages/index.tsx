@@ -7,14 +7,11 @@ import { BlogPost } from '@models/blogPost';
 import RssFeeds from '@components/RssFeeds';
 import {
     generateRssFeed,
-    generatePhotoBlogRssFeed,
     generateReadingLogRssFeed,
     generateBlogPostRssFeed,
 } from '@lib/rss';
-import PhotoBlogRssFeeds from '@components/PhotoBlogRssFeeds';
 import { getAllReadingLogs } from '@lib/readinglog';
 import { ReadingLog } from '@models/ReadingLog';
-import LatestReadingLogs from '@components/LatestReadingLogs';
 
 export const getStaticProps: GetStaticProps = async () => {
     const blogPosts = getAllPosts();
@@ -23,7 +20,6 @@ export const getStaticProps: GetStaticProps = async () => {
     await generateRssFeed();
     await generateBlogPostRssFeed();
     await generateReadingLogRssFeed();
-    generatePhotoBlogRssFeed();
 
     return {
         props: {
@@ -38,14 +34,24 @@ interface HomeProps {
 }
 
 const Home = ({ posts, readingLogs }: HomeProps): JSX.Element => (
-    <>
+    <main>
         <RssFeeds />
-        <PhotoBlogRssFeeds />
         <Welcome />
-        <LatestPosts mostRecentPosts={posts} />
-        <LatestReadingLogs mostRecentLogs={readingLogs} />
+
+        <LatestPosts
+            title="Latest Posts"
+            posts={posts.map((p) => ({ title: p.title, url: p.url }))}
+            viewMoreLink="/blog"
+        />
+
+        <LatestPosts
+            title="Latest Reading Logs"
+            posts={readingLogs.map((p) => ({ title: p.title.replace('Reading Log - ', ''), url: p.url }))}
+            viewMoreLink="/reading-logs"
+        />
+
         <LatestPhotoset />
-    </>
+    </main>
 );
 
 export default Home;

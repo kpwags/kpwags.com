@@ -54,29 +54,31 @@ const Search = ({ posts }: SearchProps): JSX.Element => {
     return (
         <>
             <Head><title>Search - Keith Wagner</title></Head>
-            <h1>Search</h1>
 
-            <div className={styles.searchContainer}>
-                <SearchForm
-                    id="main-search"
-                    onSearch={search}
-                />
-            </div>
+            <main>
+                <h1>Search</h1>
 
-            {hasSearched && searchResults.length === 0 ? (
-                <>
-                    <h2>Search Results</h2>
-                    <p><em>No Results</em></p>
-                </>
-            ) : null}
+                <div className={styles.searchContainer}>
+                    <SearchForm
+                        id="main-search"
+                        onSearch={search}
+                    />
+                </div>
 
-            {hasSearched && searchResults.length > 0
-                ? (
+                {hasSearched && searchResults.length === 0 ? (
                     <>
-                        <h2>Search Results</h2>
+                        <h2 className={styles.searchHeader}>Search Results</h2>
+                        <p><em>No Results</em></p>
+                    </>
+                ) : null}
+
+                {hasSearched && searchResults.length > 0 ? (
+                    <>
+                        <h2 className={styles.searchHeader}>Search Results</h2>
                         {searchResults.map((p) => (<PostListing key={p.id} post={p} />))}
                     </>
                 ) : null}
+            </main>
         </>
     );
 };

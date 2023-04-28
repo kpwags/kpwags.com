@@ -1,48 +1,55 @@
 .article {
-    list-style-type: none;
-    margin: 40px 0;
+    margin: 0 0 5rem 0;
 }
 
-.article h2,
-.boxedArticle h2 {
-    color: var(--primary-color-1);
-    font-size: 2rem;
-    font-weight: 500;
+.article h2 {
+    font-size: 2.5rem;
+    line-height: 1.1;
 }
 
 .metadata {
-    margin: 0.4rem 0 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    text-transform: uppercase;
     font-style: italic;
-    color: var(--meta);
-    font-size: 1.1rem
+    margin: 1.5rem 0 2rem;
 }
 
 .excerpt {
-    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.tagList {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.tagList li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 30px 0 0;
+    line-height: 2;
+}
+
+.tagList li:first-child {
+    padding-left: 0;
+}
+
+.tagList li a {
+    white-space: nowrap;
+    font-size: 1.2rem;
+}
+
+.continueReading {
+    margin: 2rem 0 0;
     font-size: 1.25rem;
 }
 
-.boxedArticle {
-    list-style-type: none;
-    margin: 40px 0;
-    border: 1px solid var(--meta);
-    padding: 1rem;
-    box-shadow: var(--box-shadow);
-}
-
-.boxedArticle p {
-    margin: 0;
-}
-
-.tags {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
-.tags li {
-    margin: 0 0.8rem 0 0;
-    list-style-type: none;
-    display: inline-block;
-    font-size: 1.1rem;
+@media (max-width: 414px) {
+    .article h2 {
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+    }
 }

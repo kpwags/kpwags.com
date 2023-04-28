@@ -2,9 +2,6 @@
 title: 'Updating My Likes Page with Feedbin'
 date: '2022-07-31'
 tags: ['Development', 'TypeScript', 'Next.js', 'RSS']
-socialImageUrl: '2022-07-31-updating-my-likes-page-with-feedbin/social-image.jpg'
-socialImageWidth: 1200
-socialImageHeight: 675
 commentIssueNumber: 38
 ---
 
@@ -14,7 +11,7 @@ I'm a subscriber to [Feedbin](https://feedbin.com) and the one feature it provid
 
 The first thing I needed to do was to create a TypeScript model for it.
 
-```ts
+```typescript
 interface FeedbinItem {
     title: string
     link: string
@@ -26,7 +23,7 @@ It's a pretty simple model, I want the title, the URL, and the domain.
 
 The next thing I needed to do was to find a good way to parse the XML returned from Feedbin. Since I'm using Node, the DOM Parser the browser uses is a no go as the Node backend doesn't support it. Fortunately I found [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) which does a fantastic job of converting an XML string into a JSON object that would allow me to easily go through the data returned.
 
-```ts
+```typescript
 import { FeedbinItem } from '@models/FeedbinItem';
 import { XMLParser } from 'fast-xml-parser';
 
@@ -61,20 +58,20 @@ export const getFeedbinItems = async (): Promise<FeedbinItem[]> => {
 
 The first thing I do in the code is to declare the array of items to return. I then make a fetch call to Feedbin to retrieve my starred items.
 
-```ts
+```typescript
 const res = await fetch('https://feedbin.com/starred/starred-items.xml');
 ```
 
 Assuming the call was successful, I create the parser and have it parse the XML into a JSON object.
 
-```ts
+```typescript
 const parser = new XMLParser();
 const data = parser.parse(response);
 ```
 
 After that, it's simply parsing the returned items and adding them to the items array.
 
-```ts
+```typescript
 data.rss.channel.item.forEach((i: any) => {
     const domain = (new URL(i.link));
 
@@ -92,7 +89,7 @@ The next step was to pull the data into the page in Next.js. Originally I was ju
 
 I wrapped the fetch code above into its own file to make the `likes.tsx` component a little cleaner.
 
-```ts
+```typescript
 import { getFeedbinItems } from '@lib/feedbin';
 import { FeedbinItem } from '@models/FeedbinItem';
 

@@ -8,7 +8,7 @@ import SearchHeaderButton from '@components/SearchHeaderButton';
 import SearchBar from '@components/SearchBar';
 import ThemeSwitchButton from '@components/ThemeSwitchButton';
 import ThemeSwitcher from '@components/ThemeSwitcher';
-import { ColorTheme, FontTheme } from '@models/theme';
+import { ColorTheme } from '@models/theme';
 
 import RssFeedSelectionBar from '@components/RssFeedSelectionBar';
 import RssFeedButton from '@components/RssFeedButton/RssFeedButton';
@@ -21,7 +21,7 @@ const Header = (): JSX.Element => {
     const [themeSwitcherVisible, setThemeSwitcherVisible] = useState<boolean>(false);
     const [rssFeedsVisible, setRssFeedsVisible] = useState<boolean>(false);
 
-    const { changeTheme, changeColorTheme, changeFontTheme } = useContext(BlogContext);
+    const { changeTheme, changeColorTheme } = useContext(BlogContext);
 
     const changeMode = () => {
         if (getCurrentTheme() === 'light') {
@@ -35,45 +35,43 @@ const Header = (): JSX.Element => {
         changeColorTheme(color);
     };
 
-    const changeFont = (font: FontTheme) => {
-        changeFontTheme(font);
-    };
-
     return (
         <>
-            <div className={styles.stickyToggle}>
-                <LightDarkSwitch
-                    onClick={() => {
-                        changeMode();
-                    }}
-                />
-            </div>
             <header className={styles.header}>
-                <div className={styles.siteTitle}>
-                    <Link aria-label="Home" href="/"><a>Keith Wagner</a></Link>
+                <div className={styles.container}>
+                    <div className={styles.logo}>
+                        <img src="/images/logo.png" alt="Keith Wagner" />
+                        <a href="/">Keith Wagner</a>
+                    </div>
+                    <nav className={styles.nav}>
+                        <Link aria-label="Blog" href="/blog">Blog</Link>
+                        <Link aria-label="Reading Logs" href="/reading-logs">Reading Logs</Link>
+                        <Link aria-label="About" href="/about" className="hide-on-tablet">About</Link>
+                    </nav>
                 </div>
-                <nav className={styles.nav}>
-                    <Link aria-label="Blog" href="/blog"><a>Blog</a></Link>
-                    <Link aria-label="Reading Logs" href="/reading-logs"><a>Reading Logs</a></Link>
-                    <Link aria-label="Photography" href="/photography"><a>Photography</a></Link>
-                    <Link aria-label="About" href="/about"><a className="hide-on-tablet">About</a></Link>
+                <div className={styles.config}>
                     <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />
                     <SearchHeaderButton onClick={() => setSearchBarVisible(!searchBarVisible)} />
                     <RssFeedButton onClick={() => setRssFeedsVisible(!rssFeedsVisible)} />
-                    <span className={styles.normalToggle}>
-                        <LightDarkSwitch
-                            onClick={() => changeMode()}
-                        />
-                    </span>
-                </nav>
+                    <LightDarkSwitch
+                        onClick={() => changeMode()}
+                    />
+                </div>
             </header>
+
+            <nav className={styles.mobileNav}>
+                <a href="/blog">Blog</a>
+                <a href="/reading-logs">Reading Logs</a>
+                <a href="/reading-logs">Photography</a>
+                <a href="/about">About</a>
+            </nav>
+
             <RssFeedSelectionBar
                 visible={rssFeedsVisible}
             />
             <ThemeSwitcher
                 visible={themeSwitcherVisible}
                 onChangeColor={(color) => changeColor(color)}
-                onChangeFont={(font) => changeFont(font)}
             />
             <SearchBar
                 visible={searchBarVisible}

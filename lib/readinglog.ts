@@ -45,23 +45,19 @@ export const getAllReadingLogs = (): ReadingLog[] => {
 
         const tags = data.tags || [] as string[];
 
-        let socialImage = '';
-        if (fs.existsSync(path.join(readingLogImagesDirectory, `${id}.jpg`))) {
-            socialImage = `images/readinglogs/${id}.jpg`;
-        }
-
         // Combine the data with the id
         return {
             id,
             title: data.title,
             number: parseInt(id, 10),
             excerpt: excerpt || null,
+            description: excerpt || null,
             date: data.date,
             url,
             tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
             content: html,
             commentIssueNumber: data.commentIssueNumber,
-            socialImageUrl: socialImage,
+            socialImageUrl: null,
         };
     });
 
@@ -80,6 +76,7 @@ export const getReadingLogData = async (readingLogNumber: number) : Promise<Read
 
     const html = marked(content);
     const excerpt = getPostExcerpt(html);
+    const description = data.description ?? excerpt;
 
     const mdx = await serialize(content, { scope: data });
 
@@ -94,6 +91,7 @@ export const getReadingLogData = async (readingLogNumber: number) : Promise<Read
         id: readingLogNumber.toString(),
         title: data.title,
         number: readingLogNumber,
+        description,
         excerpt,
         date: data.date,
         url: `/reading-log/${readingLogNumber}`,

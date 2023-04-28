@@ -1,0 +1,33 @@
+.metadata {
+    margin: 2rem 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: var(--meta);
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    text-transform: uppercase;
+}
+
+.tagList {
+    margin: 1rem 0 3rem 0;
+    padding: 0;
+    width: 100%;
+}
+
+.tagList li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 30px 0 0;
+    line-height: 2;
+}
+
+.tagList li:first-child {
+    padding-left: 0;
+}
+
+.tagList li a {
+    white-space: nowrap;
+    font-size: 1.2rem;
+    color: var(--primary-color-3);
+}

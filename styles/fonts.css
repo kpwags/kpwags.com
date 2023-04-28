@@ -41,3 +41,17 @@
     font-weight: 200 900;
     font-style: italic;
 }
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/jetbrains_mono/jetbrains.ttf') format('truetype');
+    font-weight: 100 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/jetbrains_mono/jetbrains_italic.ttf') format('truetype');
+    font-weight: 100 800;
+    font-style: italic;
+}

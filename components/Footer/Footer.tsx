@@ -9,94 +9,54 @@ const Footer = (): JSX.Element => (
                 <a href="/">Home</a>
             </li>
             <li>
-                <Link href="/blog">
-                    <a title="Blog">Blog</a>
-                </Link>
+                <Link href="/blog" title="Blog">Blog</Link>
             </li>
             <li>
-                <Link href="/reading-logs">
-                    <a title="Reading Logs">Reading Logs</a>
-                </Link>
+                <Link href="/reading-logs" title="Reading Logs">Reading Logs</Link>
             </li>
             <li>
-                <Link href="/photoblog">
-                    <a title="Photo Blog">Photo Blog</a>
-                </Link>
+                <Link href="/about" title="About">About</Link>
             </li>
             <li>
-                <Link href="/photography">
-                    <a title="Photography">Photography</a>
-                </Link>
+                <Link href="/work" title="Work">Work</Link>
             </li>
             <li>
-                <Link href="/about">
-                    <a title="About">About</a>
-                </Link>
+                <Link href="/uses" title="Uses">Uses</Link>
             </li>
             <li>
-                <Link href="/work">
-                    <a title="Work">Work</a>
-                </Link>
+                <Link href="/search" title="Search">Search</Link>
             </li>
             <li>
-                <Link href="/contact">
-                    <a title="Contact">Contact</a>
-                </Link>
+                <Link href="/bookshelf" title="Bookshelf">Bookshelf</Link>
             </li>
             <li>
-                <Link href="/uses">
-                    <a title="Uses">Uses</a>
-                </Link>
+                <Link href="/now" title="Now">Now</Link>
             </li>
             <li>
-                <Link href="/search">
-                    <a title="Search">Search</a>
-                </Link>
+                <Link href="/movies" title="Movies">Movies</Link>
             </li>
             <li>
-                <Link href="/bookshelf">
-                    <a title="Bookshelf">Bookshelf</a>
-                </Link>
+                <Link href="/likes" title="Likes">Likes</Link>
             </li>
             <li>
-                <Link href="/now">
-                    <a title="Now">Now</a>
-                </Link>
+                <Link href="/listening" title="Podcasts">Podcasts</Link>
             </li>
             <li>
-                <Link href="/movies">
-                    <a title="Movies">Movies</a>
-                </Link>
+                <Link href="/tv/" title="TV">TV</Link>
             </li>
             <li>
-                <Link href="/likes">
-                    <a title="Likes">Likes</a>
-                </Link>
+                <Link href="/video-games/" title="Video Games">Video Games</Link>
             </li>
             <li>
-                <Link href="/listening/">
-                    <a title="Podcasts">Podcasts</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/tv/">
-                    <a title="TV">TV</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/video-games/">
-                    <a title="Video Games">Video Games</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/progress/2023">
-                    <a title="2023 Goals Progress">2023 Goals Progress</a>
-                </Link>
+                <Link href="/progress/2023" title="2023 Goals Progress">2023 Goals Progress</Link>
             </li>
         </ul>
         <ul className="info">
-            <li>
-                <span className="copyright">&copy; {new Date().getFullYear()} Keith Wagner</span>
+            <li className={styles.copyright}>
+                &copy; {new Date().getFullYear()} Keith Wagner
+            </li>
+            <li className={styles.email}>
+                <a href="mailto:hello@kpwags.com">hello@kpwags.com</a>
             </li>
             <li>
                 <a href="https://www.github.com/kpwags">GitHub</a>
@@ -105,9 +65,7 @@ const Footer = (): JSX.Element => (
                 <a rel="me" href="https://hachyderm.io/@kpwags">Mastodon</a>
             </li>
             <li>
-                <Link href="/feed.xml">
-                    <a title="RSS">RSS</a>
-                </Link>
+                <Link href="/feed.xml" title="RSS">RSS</Link>
             </li>
         </ul>
     </footer>

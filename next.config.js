@@ -1,10 +1,18 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+const theme = require('shiki/themes/github-dark-dimmed.json');
+const { remarkCodeHike } = require('@code-hike/mdx');
+
+/* eslint-disable @typescript-eslint/no-var-requires */
 const withMDX = require('@next/mdx')({
     extension: /\.mdx?$/,
+    options: {
+        remarkPlugins: [
+            [remarkCodeHike, { theme }],
+        ],
+    },
 });
 
 module.exports = {
-    target: 'serverless',
     webpack(config) {
         config.module.rules.push({ test: /\.mdx$/, use: 'raw-loader' });
         config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
@@ -135,11 +143,3 @@ module.exports = {
         ];
     },
 };
-
-// module.exports = {
-//     experimental: {
-//         images: {
-//             unoptimized: true,
-//         },
-//     },
-// };

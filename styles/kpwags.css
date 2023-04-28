@@ -8,10 +8,7 @@
     --black-3: hsl(0, 0%, 20%);
     --grey-1: hsl(0, 0%, 69%);
     --grey-2: hsl(0, 0%, 39%);
-    --sans-serif: WorkSans, Helvetica, Arial, sans-serif;
-    --serif: Petrona, Georgia, 'Times New Roman', serif;
-    --monospaced: SourceCodePro, 'Courier New';
-    --font: var(--sans-serif);
+    --font: 'JetBrains Mono', SourceCodePro, 'Courier New';
     --primary-color-1: hsl(144, 100%, 15%);
     --primary-color-2: hsl(142, 68%, 29%);
     --primary-color-3: hsl(124, 95%, 32%);
@@ -132,18 +129,6 @@
     --primary-color-3: hsl(0, 82%, 71%);
 }
 
-[data-font-theme*='sansserif'] {
-    --font: var(--sans-serif);
-}
-
-[data-font-theme*='serif'] {
-    --font: var(--serif);
-}
-
-[data-font-theme*='mono'] {
-    --font: var(--monospaced);
-}
-
 /* --- CSS Reset --- */
 *,
 *::before,
@@ -175,6 +160,7 @@ canvas,
 svg {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 input,
@@ -224,15 +210,29 @@ main {
     max-width: 100%;
 }
 
-main.wide {
-    width: min(150ch, 100vw - 2rem);
+main.full-width {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.cover {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    background-position: 50% 50%;
+    margin-bottom: 2rem;
+}
+
+.cover.about {
+    background-image: url('/images/covers/about.jpg');
+    background-position: 50% 35%;
 }
 
 h1 {
     font-weight: 500;
     color: var(--primary-color-1);
-    font-size: 2.6rem;
-    margin: 2rem 0 0 0;
+    font-size: 3rem;
+    margin: 2rem 0;
     padding: 0;
 }
 
@@ -265,7 +265,7 @@ h3.text {
 
 p {
     line-height: 1.8;
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
     font-size: 1.2rem;
 }
 
@@ -283,18 +283,6 @@ a:hover {
 
 a img {
     border: none;
-}
-
-div.cover {
-    width: 100%;
-    object-fit: cover;
-    background-position: 50% 50%;
-    min-height: 400px;
-}
-
-div.cover.about {
-    background-image: url('/images/covers/about.jpg');
-    background-position: 50% 35%;
 }
 
 .about h1 {
@@ -355,6 +343,10 @@ div.cover.about {
     white-space: nowrap;
 }
 
+.article h1 {
+    margin: 0;
+}
+
 .article h2 {
     margin: 20px 0;
 }
@@ -392,6 +384,10 @@ div.cover.about {
 
 .article .metadata .separator::before {
     content: ' | ';
+}
+
+.primary-color {
+    color: var(--primary-color-1);
 }
 
 @media screen and (max-width: 425px) {

@@ -1,9 +1,7 @@
 ---
 title: 'Unit Testing with MSW'
 date: '2021-02-03'
-description: 'Using Mock Service Worker to do unit tests.'
 tags: ['Development', 'Unit Testing', 'React']
-excerpt: 'A little while back, I started a new project. I have been using spreadsheets to track a lot of my fitness goals. This approach generally works, but I thought it would be easier if I had an app for that. So I did what any self-respecting fitness enthusiast developer would do...make one myself! But with that, also come unit tests.'
 ---
 
 A little while back, I started a new project. I have been using [spreadsheets to track a lot of my fitness goals](https://kpwags.com/2020/01/21/tracking-my-fitness-journey.html). This approach generally works, but I thought it would be easier if I had an app for that. So I did what any self-respecting fitness enthusiast developer would do...make one myself! But with that, also come unit tests.
@@ -36,7 +34,7 @@ MSW works by having a list of handlers that handle the various different fetch c
 
 #### `/src/test/server-handlers.ts`
 
-```js
+```javascript
 import { rest } from 'msw';
 
 const handlers = [
@@ -96,7 +94,7 @@ Just make sure to add a handler for every fetch call.
 
 #### `/src/test/server.ts`
 
-```js
+```javascript
 import { setupServer } from 'msw/node';
 import { handlers } from './server-handlers';
 
@@ -112,7 +110,7 @@ This code sets up your server by passing in the handlers you created above and p
 
 #### `/src/setupTests.ts`
 
-```js
+```javascript
 import { server } from './test/server';
 
 beforeAll(() => {
@@ -137,7 +135,7 @@ When starting the server in the **`beforeAll`** function, I like to pass in the 
 
 #### `/jest.config.js`
 
-```js
+```javascript
 module.exports = {
     setupFilesAfterEnv: ['./src/setupTests.ts'],
 };

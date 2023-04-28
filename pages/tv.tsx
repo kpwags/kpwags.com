@@ -18,50 +18,52 @@ type TVShowsProps = {
 };
 
 const TVShows = ({ tvShows }: TVShowsProps): JSX.Element => (
-    <div className={styles.container}>
-        <Head><title>Television Watch List - Keith Wagner</title></Head>
+    <main className="full-width">
+        <div className={styles.container}>
+            <Head><title>Television Watch List - Keith Wagner</title></Head>
 
-        <h1>Television Watch List</h1>
+            <h1>Television Watch List</h1>
 
-        <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the TV series I&apos;ve watched and am currently watching.</p>
+            <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the TV series I&apos;ve watched and am currently watching.</p>
 
-        <p className={styles.lastUpdate}>
-            Last Updated: {tvShows.lastUpdate}
-        </p>
+            <p className={styles.lastUpdate}>
+                Last Updated: {tvShows.lastUpdate}
+            </p>
 
-        <h2>Currently Watching</h2>
-        <div className={styles.items}>
-            {tvShows.current.map((series) => (
-                <MediaListing
-                    media={series}
-                    key={series.cover}
-                    includeReview
-                />
-            ))}
+            <h2>Currently Watching</h2>
+            <div className={styles.items}>
+                {tvShows.current.map((series) => (
+                    <MediaListing
+                        media={series}
+                        key={series.cover}
+                        includeReview
+                    />
+                ))}
+            </div>
+
+            <h2>In-Between Seasons</h2>
+            <div className={styles.items}>
+                {tvShows.continuing.map((series) => (
+                    <MediaListing
+                        media={series}
+                        key={series.cover}
+                        includeReview
+                    />
+                ))}
+            </div>
+
+            <h2>Completed</h2>
+            <div className={styles.items}>
+                {tvShows.completed.map((series) => (
+                    <MediaListing
+                        media={series}
+                        key={series.cover}
+                        includeReview
+                    />
+                ))}
+            </div>
         </div>
-
-        <h2>In-Between Seasons</h2>
-        <div className={styles.items}>
-            {tvShows.continuing.map((series) => (
-                <MediaListing
-                    media={series}
-                    key={series.cover}
-                    includeReview
-                />
-            ))}
-        </div>
-
-        <h2>Completed</h2>
-        <div className={styles.items}>
-            {tvShows.completed.map((series) => (
-                <MediaListing
-                    media={series}
-                    key={series.cover}
-                    includeReview
-                />
-            ))}
-        </div>
-    </div>
+    </main>
 );
 
 export default TVShows;

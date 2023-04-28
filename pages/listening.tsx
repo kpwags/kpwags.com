@@ -17,7 +17,9 @@ type PodcastsProps = {
 const Podcasts = ({ listeningTo }: PodcastsProps): JSX.Element => (
     <>
         <Head><title>Podcasts - Keith Wagner</title></Head>
-        <PodcastContainer podcasts={listeningTo} />
+        <main className="full-width">
+            <PodcastContainer podcasts={listeningTo} />
+        </main>
     </>
 );
 

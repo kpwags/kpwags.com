@@ -6,7 +6,9 @@ const Welcome = (): JSX.Element => (
             <div className={styles.hello}>
                 <img src="/images/keith.png" alt="Keith Wagner" />
             </div>
-            <div>Hi! I&apos;m Keith Wagner, a software developer in the Philadelphia area. I am always learning and building new things.</div>
+            <div>
+                Hi! I&apos;m <span className="primary-color">Keith Wagner</span>, a software developer in the Philadelphia area.
+            </div>
         </div>
     </section>
 );

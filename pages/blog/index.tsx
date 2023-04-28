@@ -26,15 +26,17 @@ const Blog = ({ posts }: BlogProps): JSX.Element => (
         <Head><title>Blog - Keith Wagner</title></Head>
         <RssFeeds />
 
-        <h1>Blog</h1>
+        <main>
+            <h1>Blog</h1>
 
-        {posts.map((p) => (<PostListing key={p.id} post={p} />))}
+            {posts.map((p) => (<PostListing key={p.id} post={p} />))}
 
-        <ul className="pagination">
-            <li className="next">
-                <Link href="/blog/2"><a className="paginate-next-a">Older Posts &rarr;</a></Link>
-            </li>
-        </ul>
+            <ul className="pagination">
+                <li className="next">
+                    <Link href="/blog/2" className="paginate-next-a">Older Posts &rarr;</Link>
+                </li>
+            </ul>
+        </main>
     </>
 );
 

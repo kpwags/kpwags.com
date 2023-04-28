@@ -8,7 +8,7 @@ interface LightDarkSwitchProps {
 
 const LightDarkSwitch = ({ onClick }: LightDarkSwitchProps): JSX.Element => (
     <svg
-        width="64"
+        width="38"
         height="64"
         className={styles.switch}
         viewBox="0 0 16.933333 8.466667"

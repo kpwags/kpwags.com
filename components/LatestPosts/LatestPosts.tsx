@@ -1,26 +1,27 @@
 import Link from 'next/link';
-import { BlogPost } from '@models/blogPost';
-import PostListing from '@components/PostListing';
 
 import styles from './LatestPosts.module.css';
 
 interface LatestPostsProps {
-    mostRecentPosts: BlogPost[];
+    title: string;
+    posts: { title: string, url: string }[];
+    viewMoreLink: string;
 }
 
-const LatestPosts = ({ mostRecentPosts }: LatestPostsProps): JSX.Element => (
+const LatestPosts = ({
+    title,
+    posts,
+    viewMoreLink,
+}: LatestPostsProps): JSX.Element => (
     <section className={styles.mostRecentPosts}>
-        <div className={styles.heading}>
-            <h2>Latest Posts</h2>
-            <div className={styles.link}>
-                <Link href="/blog"><a>View More</a></Link>
-            </div>
-        </div>
+        <h2>{title}</h2>
         <div>
-            {mostRecentPosts.map((p) => (<PostListing key={p.id} post={p} showBorder showTags />))}
+            {posts.map((p) => (
+                <h3 key={p.url}><Link href={p.url}>{p.title}</Link></h3>
+            ))}
 
-            <div className={styles.mobileLink}>
-                <Link href="/blog"><a>View More</a></Link>
+            <div className={styles.viewMore}>
+                <Link href={viewMoreLink}>View More</Link>
             </div>
         </div>
     </section>

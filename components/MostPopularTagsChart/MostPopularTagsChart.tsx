@@ -78,9 +78,7 @@ const MostPopularTagsChart = ({
             {tagData.map((d) => (
                 <div key={d.name} className={styles.container}>
                     <p className={styles.barTitle}>
-                        <Link href={`/tag/${d.url}`}>
-                            <a>{d.name}</a>
-                        </Link>
+                        <Link href={`/tag/${d.url}`}>{d.name}</Link>
                         <span className={styles.mobileStats}>&nbsp;({d.count})</span>
                     </p>
                     <div className={styles.bar}>
