@@ -4,8 +4,6 @@ import path from 'path';
 import { Feed, Item } from 'feed';
 import { MDXRemote } from 'next-mdx-remote';
 import ReactDOMServer from 'react-dom/server';
-import photoBlog from '@data/photoBlog';
-import { PhotoBlogItem } from '@models/PhotoBlogItem';
 import { BlogTag } from '@models/BlogTag';
 import { BlogPost } from '@models/blogPost';
 import marked from 'marked';
@@ -284,36 +282,6 @@ const getReadingLogs = async (): Promise<Item[]> => {
     return items;
 };
 
-const buildHtmlForPhotoBlogItem = (item: PhotoBlogItem): string => `
-        <article>
-            <div><img src="https://kpwags.com/images/photoblog/${item.src}" alt="${item.altText}" /></div>
-            <p>${item.description} (${item.location})</p>
-        </article>
-    `;
-
-const getPhotos = (): Item[] => {
-    const items: Item[] = [];
-
-    photoBlog.forEach((photo) => {
-        items.push({
-            title: photo.description,
-            id: photo.src,
-            link: `https://kpwags.com/photoblog/${photo.key}`,
-            description: photo.description,
-            content: buildHtmlForPhotoBlogItem(photo),
-            author: [{
-                name: 'Keith Wagner',
-                email: 'blog@kpwags.com',
-                link: 'https://kpwags.com/',
-            }],
-            date: new Date(photo.date),
-            image: `https://kpwags.com/images/photoblog/${photo.thumbnail}`,
-        });
-    });
-
-    return items;
-};
-
 const generateRssFeed = async (): Promise<void> => {
     const baseUrl = 'https://kpwags.com';
     const date = new Date();
@@ -425,46 +393,8 @@ const generateReadingLogRssFeed = async (): Promise<void> => {
     fs.writeFileSync(`${publicDirectory}/rss/readinglog_feed.json`, feed.json1());
 };
 
-const generatePhotoBlogRssFeed = (): void => {
-    const baseUrl = 'https://kpwags.com';
-    const date = new Date();
-
-    const feed = new Feed({
-        title: 'Keith Wagner - Photo Blog',
-        description: "I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more. This is my photo blog.",
-        id: baseUrl,
-        link: baseUrl,
-        language: 'en',
-        favicon: `${baseUrl}/favicon.ico`,
-        copyright: `${date.getFullYear()} Keith Wagner`,
-        updated: date,
-        generator: 'Next.js using Feed for Node.js',
-        feedLinks: {
-            rss2: `${baseUrl}/rss/photoblog.xml`,
-            json: `${baseUrl}/rss/photoblog.json`,
-            atom: `${baseUrl}/rss/photoblog_atom.xml`,
-        },
-        author: {
-            name: 'Keith Wagner',
-            email: 'blog@kpwags.com',
-            link: 'https://kpwags.com/',
-        },
-    });
-
-    const items = getPhotos();
-
-    items.forEach((i) => feed.addItem(i));
-
-    const publicDirectory = path.join(process.cwd(), 'public');
-
-    fs.writeFileSync(`${publicDirectory}/rss/photoblog.xml`, feed.rss2());
-    fs.writeFileSync(`${publicDirectory}/rss/photoblog_atom.xml`, feed.atom1());
-    fs.writeFileSync(`${publicDirectory}/rss/photoblog.json`, feed.json1());
-};
-
 export {
     generateRssFeed,
-    generatePhotoBlogRssFeed,
     generateReadingLogRssFeed,
     generateBlogPostRssFeed,
 };

@@ -7,11 +7,9 @@ import { BlogPost } from '@models/blogPost';
 import RssFeeds from '@components/RssFeeds';
 import {
     generateRssFeed,
-    generatePhotoBlogRssFeed,
     generateReadingLogRssFeed,
     generateBlogPostRssFeed,
 } from '@lib/rss';
-import PhotoBlogRssFeeds from '@components/PhotoBlogRssFeeds';
 import { getAllReadingLogs } from '@lib/readinglog';
 import { ReadingLog } from '@models/ReadingLog';
 
@@ -22,7 +20,6 @@ export const getStaticProps: GetStaticProps = async () => {
     await generateRssFeed();
     await generateBlogPostRssFeed();
     await generateReadingLogRssFeed();
-    generatePhotoBlogRssFeed();
 
     return {
         props: {
@@ -39,7 +36,6 @@ interface HomeProps {
 const Home = ({ posts, readingLogs }: HomeProps): JSX.Element => (
     <main>
         <RssFeeds />
-        <PhotoBlogRssFeeds />
         <Welcome />
 
         <LatestPosts

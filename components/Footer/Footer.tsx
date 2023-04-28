@@ -15,12 +15,6 @@ const Footer = (): JSX.Element => (
                 <Link href="/reading-logs" title="Reading Logs">Reading Logs</Link>
             </li>
             <li>
-                <Link href="/photoblog" title="Photo Blog">Photo Blog</Link>
-            </li>
-            <li>
-                <Link href="/photography" title="Photography">Photography</Link>
-            </li>
-            <li>
                 <Link href="/about" title="About">About</Link>
             </li>
             <li>

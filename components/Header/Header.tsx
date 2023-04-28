@@ -46,7 +46,6 @@ const Header = (): JSX.Element => {
                     <nav className={styles.nav}>
                         <Link aria-label="Blog" href="/blog">Blog</Link>
                         <Link aria-label="Reading Logs" href="/reading-logs">Reading Logs</Link>
-                        <Link aria-label="Photography" href="/photography">Photography</Link>
                         <Link aria-label="About" href="/about" className="hide-on-tablet">About</Link>
                     </nav>
                 </div>

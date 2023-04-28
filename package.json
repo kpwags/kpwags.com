@@ -29,7 +29,6 @@
     "next-mdx-remote": "^4.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-image-lightbox": "^5.1.4",
     "react-paginate": "^8.1.3",
     "shiki": "^0.14.1",
     "typescript": "^4.3.5",
