@@ -208,7 +208,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         date: data.date,
         content: mdx.compiledSource,
         isRssOnly: data.isRssOnly || false,
-        description: decodeHtmlEntities(excerpt) || data.description || null,
+        description: data.description || decodeHtmlEntities(excerpt) || null,
         url: buildUrlFromId(postId),
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
         tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
