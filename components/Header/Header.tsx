@@ -62,7 +62,6 @@ const Header = (): JSX.Element => {
             <nav className={styles.mobileNav}>
                 <a href="/blog">Blog</a>
                 <a href="/reading-logs">Reading Logs</a>
-                <a href="/reading-logs">Photography</a>
                 <a href="/about">About</a>
             </nav>
 
