@@ -504,6 +504,7 @@ a img {
 .article .content ul li,
 .article .content ol li {
     padding-left: 12px;
+    margin-bottom: 1rem;
 }
 
 .article .content.reading-log blockquote {

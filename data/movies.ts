@@ -18,6 +18,24 @@ const MoviesWatched: MovieList = {
             year: '2023',
             movies: [
                 {
+                    title: 'Inside Man',
+                    cover: 'inside_man.jpg',
+                    link: 'https://www.imdb.com/title/tt0454848/',
+                    dateWatched: 'April 29, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'I enjoyed this with its twists and turns.',
+                },
+                {
+                    title: 'The Gray Man',
+                    cover: 'gray_man.jpg',
+                    link: 'https://www.imdb.com/title/tt1649418/',
+                    dateWatched: 'April 15, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'This was definitely a good action flick. Ryan Gosling and Chris Evans both did a great job.',
+                },
+                {
                     title: 'The Shawshank Redemption',
                     cover: 'the_shawshank_redemption.jpg',
                     link: 'https://www.imdb.com/title/tt0111161/',
