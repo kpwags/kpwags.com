@@ -87,14 +87,6 @@ const tv: TV = {
             imageFolder: 'tv',
         },
         {
-            title: 'Star Trek: Picard',
-            cover: 'picard.jpg',
-            rating: null,
-            thoughts: null,
-            link: 'https://www.imdb.com/title/tt8806524/',
-            imageFolder: 'tv',
-        },
-        {
             title: 'Star Trek: Voyager',
             cover: 'voyager.jpg',
             rating: 5,
@@ -128,6 +120,14 @@ const tv: TV = {
         },
     ],
     completed: [
+        {
+            title: 'Star Trek: Picard',
+            cover: 'picard.jpg',
+            rating: 5,
+            thoughts: "The 3rd season was definitely the best. So much nostalgia with a good story. I enjoyed the first 2 seasons, but they didn't match what season 3 brought to the screen.",
+            link: 'https://www.imdb.com/title/tt8806524/',
+            imageFolder: 'tv',
+        },
         {
             title: 'The Office',
             cover: 'theoffice.jpg',

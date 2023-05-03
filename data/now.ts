@@ -4,24 +4,16 @@ const now: CurrentlyDoing = {
     lastUpdate: 'April 2023',
     reading: [
         {
-            title: 'Pacific Crucible: War at Sea in the Pacific, 1941-1942',
+            title: 'The Conquering Tide: War in the Pacific Islands, 1942-1944',
             author: 'Ian W. Toll',
-            cover: 'pacific_crucible.jpg',
-            link: 'https://bookshop.org/p/books/pacific-crucible-war-at-sea-in-the-pacific-1941-1942-ian-w-toll/8754662',
+            cover: 'conquering_tide.jpg',
+            link: 'https://bookshop.org/p/books/the-conquering-tide-war-in-the-pacific-islands-1942-1944-ian-w-toll/8758811?ean=9780393353204',
             rating: null,
             thoughts: null,
             imageFolder: 'books',
         },
     ],
     watching: [
-        {
-            title: 'Star Trek: Picard',
-            cover: 'picard.jpg',
-            rating: null,
-            thoughts: null,
-            link: 'https://www.imdb.com/title/tt8806524/',
-            imageFolder: 'tv',
-        },
         {
             title: "It's Always Sunny in Philadelphia",
             cover: 'always_sunny.jpg',

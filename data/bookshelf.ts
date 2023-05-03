@@ -18,6 +18,15 @@ const BooksRead: BookList = {
             year: '2023',
             books: [
                 {
+                    title: 'Pacific Crucible: War at Sea in the Pacific, 1941-1942',
+                    author: 'Ian W. Toll',
+                    cover: 'pacific_crucible.jpg',
+                    link: 'https://bookshop.org/p/books/pacific-crucible-war-at-sea-in-the-pacific-1941-1942-ian-w-toll/8754662',
+                    rating: 5,
+                    thoughts: 'The Pacific Theater in WWII is something I wasn’t as familiar with compared to Europe. The writing was fantastic talking about the history of the big players involved and the actions taken at the beginning of the war by both the US and Japan. It was a great read to learn more about WWII and not dry reading either.',
+                    imageFolder: 'books',
+                },
+                {
                     title: 'The Heart Is a Lonely Hunter',
                     author: 'Carson McCullers',
                     cover: 'heart_lonely_hunter.jpg',
