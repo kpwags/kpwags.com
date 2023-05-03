@@ -4,7 +4,7 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Wed, 03 May 2023 00:35:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 May 2023 01:02:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
@@ -14,13 +14,11 @@
             <link>https://kpwags.com/posts/2023/05/02/april-check-in</link>
             <guid>https://kpwags.com/posts/2023/05/02/april-check-in</guid>
             <pubDate>Tue, 02 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[<h1 id="april-check-in">April Check-In</h1>
-April wasn’t a bad month. I was productive and was able to finish the month with a well deserved long weekend vacation.]]></description>
+            <description><![CDATA[April wasn’t a bad month. I was productive and was able to finish the month with a well deserved long weekend vacation.]]></description>
             <content:encoded><![CDATA[
             <div>
                 
-                <h1>April Check-In</h1>
-<p>April wasn’t a bad month. I was productive and was able to finish the month with a well deserved long weekend vacation.</p>
+                <p>April wasn’t a bad month. I was productive and was able to finish the month with a well deserved long weekend vacation.</p>
 <h2>Reworking My Site</h2>
 <p>Early on in the month I decided to put Astro on hold and instead focus on cleaning up what I already had for my site with Next.js. I took some of the designing I was doing with Astro and applied it to my current platform. The work was fun and in the end my site is now running the latest version of Next.js (for now) and looks a tad bit better. The downside is that I had to remove my photography section and photo blog temporarily while I find a CDN to store the images.</p>
 <h2>A Nice Long Weekend</h2>
@@ -79,6 +77,8 @@ April wasn’t a bad month. I was productive and was able to finish the month wi
 <li><a href="https://www.imdb.com/title/tt1649418/">The Gray Man</a></li>
 <li><a href="https://www.imdb.com/title/tt0454848/">Inside Man</a></li>
 </ul>
+<hr/>
+<p><em>Update 5.2.2023 : Fixed Duplicate Header</em></p>
             </div>
         ]]></content:encoded>
             <author>blog@kpwags.com (Keith Wagner)</author>
