@@ -2,7 +2,7 @@
 import { TV } from '@models/tv';
 
 const tv: TV = {
-    lastUpdate: 'February 2023',
+    lastUpdate: 'May 2023',
     continuing: [
         {
             title: 'For All Mankind',

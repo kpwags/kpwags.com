@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-05-03T01:02:22.440Z</updated>
+    <updated>2023-05-05T22:37:32.439Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,65 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - May 5 (#27)]]></title>
+        <id>https://kpwags.com/reading-log/27</id>
+        <link href="https://kpwags.com/reading-log/27"/>
+        <updated>2023-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Between a weekend trip and my site update, this has been 3 weeks in the making. This log we look at the passing of a folk legend, Microsoft reverting to its old ways, Microsoft facing a hurdle in its Activision acquisition, some chatty parrots, and more.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                <p>Between a weekend trip and my site update, this has been 3 weeks in the making. This log we look at the passing of a folk legend, Microsoft reverting to its old ways, Microsoft facing a hurdle in its Activision acquisition, some chatty parrots, and more.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Neda Ulaby:</span> <a href="https://www.npr.org/2023/05/01/133464279/gordon-lightfoot-canadian-folk-legend-dies-at-84">Gordon Lightfoot, Canadian folk legend, dies at 84</a></h3><p>I grew up with my dad listening to Gordon Lightfoot quite a bit. It gave me a real appreciation for his music. I have several vinyl records of his and have seen him in concert. The world has lost a fantastic musician.</p></div>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://nextjs.org/blog/next-13-4">Next.js 13.4</a> - <em>Tim Neutrons &amp; Sebastian Markbåge</em></p>
+<p><a href="https://www.robinrendle.com/notes/the-details-element-is-amazing/">The details element is amazing</a> - Robin Rendle</p>
+<p><a href="https://jonhilton.net/blazor-rendering/">State Hasn&#x27;t Changed? Why and when Blazor components re-render</a> - <em>Jon Hilton</em></p>
+<p><a href="https://uxdesign.cc/dark-matters-342ff2c7cc">Dark mode: How accessible design raises the bar</a> - <em>Layth Sihan</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.techdirt.com/2023/04/14/substack-ceo-chris-best-doesnt-realize-hes-just-become-the-nazi-bar/">Substack CEO Chris Best Doesn’t Realize He’s Just Become The Nazi Bar</a> - <em>Mike Masnick</em></p>
+<p><a href="https://gizmodo.com/microsoft-windows-google-chrome-feature-broken-edge-1850392901">Microsoft Broke a Chrome Feature to Promote Its Edge Browser</a> - <em>Thomas Germain</em></p>
+<p><a href="https://defector.com/the-internet-isnt-meant-to-be-so-small">The Internet Isn’t Meant To Be So Small</a> - <em>Kelsey McKinney</em></p>
+<p><a href="https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open">Microsoft is forcing Outlook and Teams to open links in Edge, and IT admins are angry</a> - <em>Tom Warren</em></p>
+<p><a href="https://gizmodo.com/nyc-msg-facial-recognition-landlords-ban-law-hearing-1850401997">These New Yorkers Want to Stop Landlords From Using Facial Recognition</a> - <em>Mack DeGeurin</em></p>
+<p><a href="https://pudding.cool/2023/05/dark-patterns/">How Companies Use Dark Patterns to Keep You Subscribed</a> - <em>Caroline Sinders</em></p>
+<p><a href="https://www.theverge.com/23710406/mozilla-social-mastodon-fediverse-moderation">Mozilla’s setting up shop on Mastodon and trying to reinvent content moderation</a> - <em>David Pierce</em></p>
+<p><a href="https://www.techdirt.com/2023/05/03/elon-whines-that-hell-give-away-nprs-twitter-account-if-they-wont-start-using-twitter-again/">Elon Whines That He’ll Give Away NPR’s Twitter Account If They Won’t Start Using Twitter Again</a> - <em>Mike Masnick</em></p>
+<p><a href="https://www.techdirt.com/2023/05/05/mercedes-locks-better-ev-engine-performance-behind-annoying-subscription-paywalls/">Mercedes Locks Better EV Engine Performance Behind Annoying Subscription Paywalls</a> - <em>Karl Bode</em></p>
+<p><a href="https://www.techdirt.com/2023/05/04/colorado-finally-kills-dumb-2005-comcast-backed-state-law-banning-community-broadband-networks/">Colorado Finally Kills Dumb 2005 Comcast-Backed State Law Banning Community Broadband Networks</a> - <em>Karl Bode</em></p>
+<h3>🎮 Gaming</h3>
+<p><a href="https://www.economist.com/culture/2023/04/19/a-new-video-game-educates-young-people-about-the-holocaust">A new video game educates young people about the Holocaust</a> - <em>The Economist</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://arstechnica.com/gaming/2023/04/uk-government-blocks-microsofts-proposed-activision-purchase/">UK government blocks Microsoft’s proposed Activision purchase</a> - <em>Kyle Orland</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2023/04/judge-slams-tesla-for-claiming-musk-quotes-captured-on-video-may-be-deepfakes/">Judge slams Tesla for claiming Musk quotes captured on video may be deepfakes</a> - <em>Jon Brodkin</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/science/2023/05/watch-a-distant-death-star-devour-a-gas-giant-planet-in-one-big-gulp/">Caught in the act: Astronomers spot star swallowing a planet for first time</a> - * Jennifer Ouellette*</p>
+<p><a href="https://www.scientificamerican.com/article/most-planets-in-the-galaxy-orbit-stars-you-cant-even-see/">Most Planets in the Galaxy Orbit Stars You Can’t Even See</a> - <em>Phil Plait</em></p>
+<p><a href="https://www.smithsonianmag.com/smart-news/scientists-taught-pet-parrots-to-video-call-each-other-and-the-birds-loved-it-180982041/">Scientists Taught Pet Parrots to Video Call Each Other—and the Birds Loved It</a> - <em>Sarah Kuta</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.techdirt.com/2023/04/18/techdirt-podcast-episode-351-save-the-children-from-state-social-media-laws/">Techdirt Podcast #351: Save the Children (From State Social Media Laws)</a></p>
+<p><a href="https://www.pushkin.fm/podcasts/cautionary-tales/the-online-date-thats-too-good-to-be-true">Cautionary Tales: The Online Date That’s Too Good to Be True</a></p>
+<p><a href="https://radiolab.org/podcast/black-box">Radiolab: Black Box</a></p>
+<p><a href="https://99percentinvisible.org/episode/the-safety-bicycle/">99% Invisible #513: The Safety Bicycle</a></p>
+<p><a href="https://www.npr.org/2023/04/28/1172854934/will-artificial-intelligence-help-or-hurt-medicine">Short Wave: Will artificial intelligence help — or hurt — medicine?</a></p>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://www.vulture.com/2023/04/is-the-economist-making-the-best-news-podcasts-right-now.html">Is The Economist Making the Best News Podcasts Right Now?</a> - <em>Nicholas Quah</em></p>
+<p><a href="https://www.polygon.com/23688347/galaxy-quest-tv-series-paramount-plus">Galaxy Quest is Getting a TV Show, For Real this Time Hopefully</a> - <em>Austen Goslin</em></p>
+<p><a href="https://matthiasott.com/notes/simple-truths-about-personal-websites">Simple Truths About Personal Websites</a> - <em>Matthias Ott</em></p>
+<p><a href="https://www.npr.org/2023/04/30/1171703402/metallica-new-album-72-seasons-master-of-puppets">Metallica&#x27;s new album, &#x27;72 Seasons,&#x27; has met critical acclaim. What&#x27;s their secret?</a> - <em>Vincent Acovino, Ailsa Chang, &amp; Jonah Mehta</em></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Gordon Lightfoot - The Wreck of the Edmund Fitzgerald</h4>
+<p><a href="https://www.youtube.com/watch?v=FuzTkGyxkYI" title="Gordon Lightfoot - The Wreck of the Edmund Fitzgerald">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - April 14 (#26)]]></title>
         <id>https://kpwags.com/reading-log/26</id>

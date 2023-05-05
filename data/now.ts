@@ -1,7 +1,7 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const now: CurrentlyDoing = {
-    lastUpdate: 'April 2023',
+    lastUpdate: 'May 2023',
     reading: [
         {
             title: 'The Conquering Tide: War in the Pacific Islands, 1942-1944',
@@ -70,6 +70,15 @@ const now: CurrentlyDoing = {
             system: 'Xbox',
             cover: 'halo-infinite-mp.jpg',
             link: 'https://www.halowaypoint.com/halo-infinite',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+        },
+        {
+            title: 'Star Trek: Online',
+            system: 'PC',
+            cover: 'star_trek_online.jpg',
+            link: 'https://www.playstartrekonline.com/en/',
             imageFolder: 'games',
             rating: null,
             thoughts: null,
