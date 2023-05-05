@@ -13,6 +13,8 @@ const generateTagUrl = (tag: string): string => {
             return 'csharp';
         case 'F#':
             return 'fsharp';
+        case 'Next.js':
+            return 'nextjs';
         default:
             return generateSlug(tag);
     }

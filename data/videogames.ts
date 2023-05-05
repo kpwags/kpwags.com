@@ -2,7 +2,7 @@
 import { VideoGames } from '@models/VideoGames';
 
 const games: VideoGames = {
-    lastUpdate: 'April 2022',
+    lastUpdate: 'May 2022',
     current: [
         {
             title: 'Horizon Zero Dawn',
@@ -19,6 +19,16 @@ const games: VideoGames = {
             system: 'Xbox',
             cover: 'halo-infinite-mp.jpg',
             link: 'https://www.halowaypoint.com/halo-infinite',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+            finished: 'n/a',
+        },
+        {
+            title: 'Star Trek: Online',
+            system: 'PC',
+            cover: 'star_trek_online.jpg',
+            link: 'https://www.playstartrekonline.com/en/',
             imageFolder: 'games',
             rating: null,
             thoughts: null,
