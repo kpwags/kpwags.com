@@ -507,7 +507,8 @@ a img {
     margin-bottom: 1rem;
 }
 
-.article .content.reading-log blockquote {
+.article .content.reading-log blockquote,
+.article .content.reading-log blockquote p {
     border-left: none;
     padding-left: 20px;
     margin: 15px 0;
