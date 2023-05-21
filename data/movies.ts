@@ -18,6 +18,15 @@ const MoviesWatched: MovieList = {
             year: '2023',
             movies: [
                 {
+                    title: "Charlie Wilson's War",
+                    cover: 'charlie_wilsons_war.jpg',
+                    link: 'https://www.imdb.com/title/tt0472062/',
+                    dateWatched: 'April 29, 2023',
+                    rating: 3,
+                    imageFolder: 'movies',
+                    thoughts: 'I’m not entirely sure what I was expecting when I started this. It wasn’t a bad movie and Tom Hanks did a great job, it just felt kinda “meh”. ',
+                },
+                {
                     title: 'Inside Man',
                     cover: 'inside_man.jpg',
                     link: 'https://www.imdb.com/title/tt0454848/',
