@@ -54,6 +54,14 @@ const now: CurrentlyDoing = {
             link: 'https://www.imdb.com/title/tt2191671/',
             imageFolder: 'tv',
         },
+        {
+            title: 'American Gods',
+            cover: 'american_gods.jpg',
+            rating: null,
+            thoughts: null,
+            link: 'https://www.imdb.com/title/tt1898069/',
+            imageFolder: 'tv',
+        },
     ],
     playing: [
         {
