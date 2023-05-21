@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-05-19T21:01:18.160Z</updated>
+    <updated>2023-05-21T19:41:06.985Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,33 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Ian W. Toll's Pacific War Trilogy]]></title>
+        <id>https://kpwags.com/posts/2023/05/21/ian-w-tolls-pacific-war-trilogy</id>
+        <link href="https://kpwags.com/posts/2023/05/21/ian-w-tolls-pacific-war-trilogy"/>
+        <updated>2023-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Over the course of the last month, I’ve been reading a three book series written by Ian W. Toll on the history of World War II in the Pacific. I’m currently on the second book and I can’t recommend it enough.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Over the course of the last month, I’ve been reading a three book series written by Ian W. Toll on the history of World War II in the Pacific. I’m currently on the second book and I can’t recommend it enough.</p>
+<p>I heard about this series on a <a href="https://www.youtube.com/watch?v=8cE5-Ze6EcU">Hardcore History Addendum Episode</a> and it dawned on me that while I knew quite a bit about the war in Europe against Nazi Germany, I didn’t know a great deal about the war in the Pacific Ocean against Japan. The interview was interesting and it inspired me to buy the three books and add them to my reading list.</p>
+<div class="RssPostImage_imageContainerCenteredShadowed__suKXZ"><img src="/images/posts/2023-05-21-ian-w-tolls-pacific-war-trilogy/ian_toll_trilogy.jpg" alt="The three massive books in Ian W. Toll&#x27;s Pacific War Trilogy" width="1200" height="978"/></div>
+<p>If you’re interested in history, they’ve been a great read so far. Toll does a great job talking and explaining what happened and who the characters involved were. He does it in such a way that is not dull, but informative and interesting. Some books on history can be dull and sometimes dry, these books are not one of them.</p>
+<p>Here are the links to buy the books on bookshop.org.</p>
+<ul>
+<li>Book 1: <a href="https://bookshop.org/p/books/pacific-crucible-war-at-sea-in-the-pacific-1941-1942-ian-w-toll/8754662?ean=9780393343410">Pacific Crucible</a></li>
+<li>Book 2: <a href="https://bookshop.org/p/books/the-conquering-tide-war-in-the-pacific-islands-1942-1944-ian-w-toll/8758811?ean=9780393353204">The Conquering Tide</a></li>
+<li>Book 3: <a href="https://bookshop.org/p/books/twilight-of-the-gods-war-in-the-western-pacific-1944-1945-ian-w-toll/13150893?ean=9780393868302">Twilight of the Gods</a></li>
+</ul>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How I Set Up Repositories in Entity Framework]]></title>
         <id>https://kpwags.com/posts/2023/05/11/how-i-set-up-repositories-in-entity-framework</id>
