@@ -4,11 +4,74 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sun, 21 May 2023 19:41:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 May 2023 22:11:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - May 26 (#30)]]></title>
+            <link>https://kpwags.com/reading-log/30</link>
+            <guid>https://kpwags.com/reading-log/30</guid>
+            <pubDate>Fri, 26 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wow, 30 issues now of my reading log in its current format! This week I read about Instagram joining the fediverse, Google’s AMP disaster, the importance of core functionality working without JavaScript, and more.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                <p>Wow, 30 issues now of my reading log in its current format! This week I read about Instagram joining the fediverse, Google’s AMP disaster, the importance of core functionality working without JavaScript, and more.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Jay Peters:</span> <a href="https://www.theverge.com/2023/5/19/23730070/instagram-twitter-app-competitor-leak">This is Instagram’s new Twitter competitor</a></h3><p>I deleted my Facebook &amp; Instagram accounts years ago and have never looked back. I’ve also promised to never create an account on a platform Facebook, now Meta owns. I don’t intend to change that. With that said, I like that they seem to be planning on some form of decentralization and tying it into Mastodon/ActivityPub.</p></div>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Gergely Orosz:</span> <a href="https://blog.pragmaticengineer.com/critical-thinking/">Is Critical Thinking the Most Important Skill for Software Engineers?</a></h3><p>This struck home for me.</p><blockquote>
+<p>I can answer why I felt uneasy about asking what a term like idempotency means: it&#x27;s because I was admitting that I don&#x27;t understand a part of tech jargon. And, to be fair, such admission implies that my professional experience or skills are below the person who knows what this jargon means, and knows how to use it.</p>
+</blockquote><p>In work, it can be hard to admit you don’t know certain terminology, but good teams will not look down on people for asking for clarifications and foster an open environment for everyone to feel comfortable asking questions.</p><p>Gergely also had a good point about the thought leaders that have popped up in the industry.</p><blockquote>
+<p>These people - like myself - share opinions, observations, and views. Many less experienced engineers take these views at face value, assuming as many other people are paying attention to this person, this &quot;famous&quot; person must be right.</p>
+</blockquote><p>It reminds me a lot of the trope “I read it on the internet, so it must be true!”. Some thought leaders are where they’re at because they have studied and used their language and tooling for a long time and know their stuff. Others might not be as experienced. But there’s always a lot of nuance with what they might be pushing. Is it right for you? Despite popular opinion, the true response often comes down to two simple words: “It depends”.</p><p>The best advice really comes down to digging in and asking questions about why people are recommending what they’re recommending.</p></div>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Jeremy Keith:</span> <a href="https://adactio.com/journal/20113">Read-only web apps</a></h3><p>I completely agree with Jeremy here.</p><blockquote>
+<p>The most cartoonish misrepresentation of progressive enhancement is that it means making everything work without JavaScript.
+No. Progressive enhancement means making sure your core functionality works without JavaScript.</p>
+</blockquote><p>My old site on Jekyll worked well with Javascript disabled. There wasn’t much that JS was needed for and most of it was “niceties” rather than key functionality. You could still read all my blog posts and navigate around. I feel like that’s important. I’ve tried to do the same thing on my current blog with Next.js.</p><p>I’ve gone back and forth between having JavaScript disabled and not disabled in the browser and while I certainly wouldn’t expect fancier web apps to work without JavaScript, I SHOULD expect that I should be able to read blog posts on a blog.</p></div>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">David Pierce:</span> <a href="https://www.theverge.com/23711172/google-amp-accelerated-mobile-pages-search-publishers-lawsuit">Speed Trap</a></h3><p>I’ll be completely honest and admit that I didn’t know all that much background on the history of AMP and why it was bad as it was. Reading this was enlightening and there were some quotes that stuck out to me.</p><blockquote>
+<p>“If Google said, ‘you must have your homepage colored bright pink on Tuesdays to be the result in Google,’ everybody would do it, because that’s what they need to do to survive,” says Terence Eden, a web standards expert and a former member of the Google AMP Advisory Committee.</p>
+</blockquote><p>This only highlights the power Google has. Media outlets are so dependent on Google that whether they like it or not, they have to play by Google’s rules, no matter how crazy they are, or how often they change them.</p><blockquote>
+<p>As long as anyone played the game, everybody had to. “Google’s strategy is always to create prisoner’s dilemmas that it controls — to create a system such that if only one person defects, then they win,” a former media executive says. As long as anyone was willing to use AMP and get into that carousel, everyone else had to do the same or risk being left out.</p>
+</blockquote><p>This goes back to <a href="https://kpwags.com/posts/2022/12/07/chokepoint-capitalism-a-review">Chokepoint Capitalism</a>, they have them wrapped up so tightly that they’re stuck.</p><blockquote>
+<p>“You meet with a Facebook person and you see in their eyes they’re psychotic,” says one media executive who’s dealt with all the major platforms. “The Apple person kind of listens but then does what it wants to do. The Google person honestly thinks what they’re doing is the best thing.”</p>
+</blockquote><p>I laughed out loud a little bit there.</p><p>The one thing I do remember is Google touting AMP for is for speed. And given how bad the mobile experience on sites can be, I can’t say I don’t understand. I still hold that a well designed site can run beautifully and smoothly on mobile, you just need to design and build it the right way which might not be quite as “profitable”. It seems I’m not the only one with that thought.</p><blockquote>
+<p>AMP, it turned out, wasn’t even that fast. Multiple publishers ran internal tests and found they were able to make pages that loaded more quickly than AMP pages, so long as they were able to rein in the ad load and extra trackers.</p>
+</blockquote><p>At the end of the day, it’s a good thing that we seem to be moving away from AMP.</p></div>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/">Announcing TypeScript 5.1 RC</a> - <em>Daniel Rosenwasser</em></p>
+<p><a href="https://webkit.org/blog/14154/webkit-features-in-safari-16-5/">WebKit Features in Safari 16.5</a> - <em>Jen Simmons</em></p>
+<p><a href="https://davidwalsh.name/array-group">JavaScript Array Group</a> - <em>David Walsh</em></p>
+<p><a href="https://michaelscodingspot.com/developer-tools/">My 2023 C# Software Developer Tool List</a> - <em>Michael Shplit</em></p>
+<p><a href="https://www.claudiobernasconi.ch/2023/05/20/asp-net-core-dotnet-8-preview/">The Future of ASP.NET Core: .NET 8 Feature Preview</a> - <em>Claudio Bernasconi</em></p>
+<p><a href="https://raygun.com/blog/c-sharp-logging-best-practices/">C# logging: Best practices in 2023 with examples and tools</a> - <em>Shane Duggan</em></p>
+<p><a href="https://jonhilton.net/good-blazor-components/">Good (Blazor) Components are... ?</a> - <em>Jon Hilton</em></p>
+<p><a href="https://www.phoronix.com/news/Podman-Desktop-1.0">Podman Desktop 1.0 Released As An Alternative To Docker Desktop</a> - <em>Michael Larabel</em></p>
+<p><a href="https://changelog.com/posts/still-no-silver-bullet">There&#x27;s still no silver bullet</a> - <em>Jerod Santo</em></p>
+<p><a href="https://daverupert.com/2023/05/markdown-images-anti-pattern/">Markdown images are an anti-pattern</a> - <em>Dave Rupert</em></p>
+<p><a href="https://timdeschryver.dev/blog/refactor-your-net-http-clients-to-typed-http-clients">Refactor your .NET HTTP Clients to Typed HTTP Clients</a> - <em>Tim Deschryver</em></p>
+<p><a href="https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/">6 CSS snippets every front-end developer should know in 2023</a> - <em>Adam Argyle</em></p>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://techcrunch.com/2023/05/23/meta-sells-giphy-to-shutterstock-for-53m-after-uk-divestment-order/">Following UK antitrust order, Meta sells Giphy to Shutterstock for $53M after buying it for $400M</a> - <em>Paul Sawers</em></p>
+<p><a href="https://chriscoyier.net/2023/04/21/the-secret-list-of-websites/">“The Secret List of Websites”</a> - <em>Chris Coyier</em></p>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.theverge.com/2023/5/19/23729711/microsoft-cmo-staff-stock-price-pay">Microsoft exec tells employees to improve its stock performance in lieu of raises</a> - <em>Emma Roth</em></p>
+<h3>🔬 Science</h3>
+<p><a href="https://www.npr.org/2023/05/20/1177056829/titanic-scan">A remarkable new view of the Titanic shipwreck is here, thanks to deep-sea mappers</a> - <em>Rachel Treisman</em></p>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://podcasts.apple.com/us/podcast/knowing-when-to-quit-with-world-poker-champion-annie-duke/id1346314086?i=1000591027157">WorkLife with Adam Grant: Knowing When to Quit with World Poker Champion Annie Duke</a></p>
+<p><a href="https://www.npr.org/2023/05/23/1177772441/is-ai-a-job-killer-or-an-up-skiller">The Indicator: Is AI a job-killer or an up-skiller?</a></p>
+<p><a href="https://www.marketplace.org/shows/make-me-smart/the-pandemics-panic-neglect-cycle-isnt-over/">Make Me Smart #930: The pandemic’s panic-neglect cycle isn’t over</a></p>
+<p><a href="https://unhandledexceptionpodcast.com/posts/0048-isaaclevin/">The Unhandled Exception #48: Coffee and Code - with Isaac Levin</a></p>
+<p><a href="https://www.marketplace.org/shows/marketplace/whats-really-at-the-heart-of-the-debt-limit-debate/">Marketplace: What’s really at the heart of the debt limit debate?</a></p>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>Dave Hause - Pedal Down</h4>
+<p><a href="https://www.youtube.com/watch?v=bH5-6dQcgmM" title="Dave Hause - Pedal Down">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - May 19 (#29)]]></title>
             <link>https://kpwags.com/reading-log/29</link>
