@@ -2,17 +2,29 @@
 import { VideoGames } from '@models/VideoGames';
 
 const games: VideoGames = {
-    lastUpdate: 'May 2022',
+    lastUpdate: 'June 2022',
     current: [
+        {
+            title: 'Horizon Forbidden West',
+            system: 'PS5',
+            cover: 'forbidden_west.jpg',
+            link: 'hhttps://www.playstation.com/en-us/games/horizon-forbidden-west/',
+            imageFolder: 'games',
+            rating: null,
+            thoughts: null,
+            finished: 'n/a',
+        },
+    ],
+    played: [
         {
             title: 'Horizon Zero Dawn',
             system: 'PS5',
             cover: 'horizonzerodawn.jpg',
             link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn/',
             imageFolder: 'games',
-            rating: null,
-            thoughts: null,
-            finished: 'n/a',
+            rating: 5,
+            thoughts: 'I really enjoyed this game. I thought the combat mechanics were a lot of fun, the story drew me in, and the soundtrack was phenomenal. I’m considering going back in and trying to complete more of the side quests and other parts I might have missed.',
+            finished: 'yes',
         },
         {
             title: 'Halo Infinite: Multiplayer',
@@ -34,8 +46,6 @@ const games: VideoGames = {
             thoughts: null,
             finished: 'n/a',
         },
-    ],
-    played: [
         {
             title: 'Pokemon: Violet',
             system: 'Nintendo Switch',

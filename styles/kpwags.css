@@ -265,7 +265,7 @@ h3.text {
 
 p {
     line-height: 1.8;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-size: 1.2rem;
 }
 
@@ -475,6 +475,7 @@ a img {
 .article p {
     font-size: 1.5rem;
     font-weight: 300;
+    text-wrap: balance;
 }
 
 .article p code {
@@ -482,6 +483,8 @@ a img {
 }
 
 .article p a {
+    text-decoration: underline;
+    text-underline-offset: 0.33rem;
     font-weight: normal;
 }
 
@@ -570,14 +573,13 @@ ul.likes li div.source {
     }
 }
 
-
 @media all and (max-width: 810px) {
     h2 {
         font-size: 1.75rem;
     }
 
     div.cover {
-        min-height: 300px
+        min-height: 300px;
     }
 
     .hide-on-tablet {
