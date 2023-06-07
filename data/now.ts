@@ -1,7 +1,7 @@
 import { CurrentlyDoing } from '@models/currentlyDoing';
 
 const now: CurrentlyDoing = {
-    lastUpdate: 'May 2023',
+    lastUpdate: 'June 2023',
     reading: [
         {
             title: 'The Conquering Tide: War in the Pacific Islands, 1942-1944',
@@ -65,28 +65,10 @@ const now: CurrentlyDoing = {
     ],
     playing: [
         {
-            title: 'Horizon Zero Dawn',
+            title: 'Horizon Forbidden West',
             system: 'PS5',
-            cover: 'horizonzerodawn.jpg',
-            link: 'https://www.playstation.com/en-us/games/horizon-zero-dawn/',
-            imageFolder: 'games',
-            rating: null,
-            thoughts: null,
-        },
-        {
-            title: 'Halo Infinite: Multiplayer',
-            system: 'Xbox',
-            cover: 'halo-infinite-mp.jpg',
-            link: 'https://www.halowaypoint.com/halo-infinite',
-            imageFolder: 'games',
-            rating: null,
-            thoughts: null,
-        },
-        {
-            title: 'Star Trek: Online',
-            system: 'PC',
-            cover: 'star_trek_online.jpg',
-            link: 'https://www.playstartrekonline.com/en/',
+            cover: 'forbidden_west.jpg',
+            link: 'hhttps://www.playstation.com/en-us/games/horizon-forbidden-west/',
             imageFolder: 'games',
             rating: null,
             thoughts: null,
