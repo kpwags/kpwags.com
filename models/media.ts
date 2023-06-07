@@ -7,5 +7,6 @@ export interface Media {
     dateWatched?: string,
     rating: number | null,
     thoughts: string | null,
-    imageFolder: 'movies' | 'games' | 'books' | 'tv'
+    imageFolder: 'movies' | 'games' | 'books' | 'tv',
+    genre?: string
 }
