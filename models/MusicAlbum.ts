@@ -3,7 +3,8 @@ export interface MusicAlbum {
     artist: string;
     title: string;
     coverUrl: string;
-    genre: string[];
+    genres: string[];
     sortedName: string;
     formats: string[];
+    tracks?: string[];
 }

@@ -36,3 +36,11 @@ export interface NotionMusic {
         Album: NotionTitle;
     };
 }
+
+interface NotionNumberedListItem {
+    rich_text: { plain_text: string }[];
+}
+
+export interface NotionPageBlocks {
+    numbered_list_item: NotionNumberedListItem;
+}
