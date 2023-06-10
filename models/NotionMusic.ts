@@ -44,3 +44,9 @@ interface NotionNumberedListItem {
 export interface NotionPageBlocks {
     numbered_list_item: NotionNumberedListItem;
 }
+
+export interface NotionMusicApiResponse {
+    hasMore: boolean;
+    nextCursor: string | null;
+    results: NotionMusic[];
+}

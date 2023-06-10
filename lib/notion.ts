@@ -1,5 +1,9 @@
 import { MusicAlbum } from '@models/MusicAlbum';
-import { NotionMusic, NotionPageBlocks } from '@models/NotionMusic';
+import {
+    NotionMusicApiResponse,
+    NotionMusic,
+    NotionPageBlocks,
+} from '@models/NotionMusic';
 import { Client } from '@notionhq/client';
 
 const getSortedName = (val: string): string => {
@@ -10,7 +14,7 @@ const getSortedName = (val: string): string => {
     return val;
 };
 
-const fetchMusicFromNotion = async (cursor?: string): Promise<{ hasMore: boolean, nextCursor: string | null, results: NotionMusic[] }> => {
+const fetchMusicFromNotion = async (cursor?: string): Promise<NotionMusicApiResponse> => {
     const notion = new Client({
         auth: process.env.NOTION_API_KEY,
     });
@@ -61,7 +65,7 @@ export const getMusic = async (): Promise<MusicAlbum[]> => {
 
     while (hasMore) {
         // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchMusicFromNotion(nextCursor);
+        const resp = await fetchMusicFromNotion(nextCursor) as NotionMusicApiResponse;
 
         hasMore = resp.hasMore;
         nextCursor = resp.nextCursor;
@@ -113,7 +117,7 @@ export const getAllAlbumIds = async (): Promise<AlbumId[]> => {
 
     while (hasMore) {
         // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchMusicFromNotion(nextCursor);
+        const resp = await fetchMusicFromNotion(nextCursor) as NotionMusicApiResponse;
 
         hasMore = resp.hasMore;
         nextCursor = resp.nextCursor;
