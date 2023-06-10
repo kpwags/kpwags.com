@@ -1,20 +1,24 @@
 /* eslint-disable max-len */
 import Head from 'next/head';
-import games from '@data/videogames';
 import { GetStaticProps } from 'next';
 import VideoGameListing from '@components/VideoGameListing';
-import { VideoGames } from '@models/VideoGames';
+import { VideoGame } from '@models/VideoGame';
 
 import styles from '@css/VideoGames.module.css';
+import { getVideoGames } from '@lib/notion';
 
-export const getStaticProps: GetStaticProps = async () => ({
-    props: {
-        videoGames: games,
-    },
-});
+export const getStaticProps: GetStaticProps = async () => {
+    const data = await getVideoGames();
+
+    return ({
+        props: {
+            videoGames: data,
+        },
+    });
+};
 
 type VideoGamesProps = {
-    videoGames: VideoGames;
+    videoGames: VideoGame[];
 };
 
 const Games = ({ videoGames }: VideoGamesProps): JSX.Element => (
@@ -26,16 +30,12 @@ const Games = ({ videoGames }: VideoGamesProps): JSX.Element => (
 
             <p>I&apos;ve certainly played more than this, but I figured I&apos;d update this list with some of my thoughts for the video games I&apos;ve played and am currently playing.</p>
 
-            <p className={styles.lastUpdate}>
-                Last Updated: {videoGames.lastUpdate}
-            </p>
-
             <h2>Currently Playing</h2>
             <div className={styles.items}>
-                {videoGames.current.map((g) => (
+                {videoGames.filter((g) => g.status === 'current').map((g) => (
                     <VideoGameListing
                         game={g}
-                        key={g.cover}
+                        key={g.id}
                     />
                 ))}
             </div>
@@ -48,10 +48,10 @@ const Games = ({ videoGames }: VideoGamesProps): JSX.Element => (
             </p>
 
             <div className={`${styles.items} ${styles.paddedTop}`}>
-                {videoGames.played.map((g) => (
+                {videoGames.filter((g) => g.status !== 'current').map((g) => (
                     <VideoGameListing
                         game={g}
-                        key={g.cover}
+                        key={g.id}
                     />
                 ))}
             </div>

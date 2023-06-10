@@ -11,12 +11,12 @@ const VideoGameListing = ({ game }: VideoGameListingProps): JSX.Element => {
     const [showThoughts, setShowThoughts] = useState(false);
 
     const getPlayedIcon = (g: VideoGame): string | null => {
-        switch (g.finished) {
-            case 'yes':
+        switch (g.completed) {
+            case 'Yes':
                 return ' ✅';
-            case 'no':
+            case 'No':
                 return ' ❌';
-            case 'n/a':
+            case 'N/A':
             default:
                 return null;
         }
@@ -26,7 +26,7 @@ const VideoGameListing = ({ game }: VideoGameListingProps): JSX.Element => {
         <div className={styles.item}>
             <div>
                 <a href={game.link} target="_blank" rel="noreferrer">
-                    <img src={`/images/${game.imageFolder}/${game.cover}`} alt={game.title} className={styles.cover} />
+                    <img src={game.coverUrl} alt={game.title} className={styles.cover} height={300} width={200} />
                 </a>
             </div>
             <div>
@@ -36,11 +36,7 @@ const VideoGameListing = ({ game }: VideoGameListingProps): JSX.Element => {
 
                 {getPlayedIcon(game)}
 
-                {game.author ? <div className={styles.meta}>{game.author}</div> : null}
-
-                {game.dateWatched ? <div className={styles.meta}>{game.dateWatched}</div> : null}
-
-                {game.system ? <div className={styles.meta}>{game.system}</div> : null}
+                {game.platform ? <div className={styles.meta}>{game.platform}</div> : null}
 
                 {(game.rating !== null || game.thoughts !== null) ? (
                     <>
