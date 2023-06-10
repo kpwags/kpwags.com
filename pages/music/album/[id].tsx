@@ -31,7 +31,7 @@ interface AlbumDetailsProps {
 
 const AlbumDetails = ({ album }: AlbumDetailsProps): JSX.Element => (
     <>
-        <Head><title>{album.title} - {album.artist} - Keith Wagner</title></Head>
+        <Head><title>{`${album.title} - ${album.artist} - Keith Wagner`}</title></Head>
         <main>
             <div className={styles.backLink}>
                 <Link href="/music">&lt; Back to Music Collection</Link>

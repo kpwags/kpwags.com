@@ -10,20 +10,44 @@ const getSortedName = (val: string): string => {
     return val;
 };
 
-export const getMusic = async (): Promise<MusicAlbum[]> => {
+const fetchMusicFromNotion = async (cursor?: string): Promise<{ hasMore: boolean, nextCursor: string | null, results: NotionMusic[] }> => {
     const notion = new Client({
         auth: process.env.NOTION_API_KEY,
     });
 
     const response = await notion.databases.query({
         database_id: process.env.MUSIC_DB_ID,
+        start_cursor: cursor,
     });
+
+    const hasMore = response.has_more;
+    let nextCursor: string | null = null;
+
+    if (hasMore) {
+        nextCursor = response.next_cursor;
+    }
 
     const music = response.results as unknown as NotionMusic[];
 
+    return {
+        hasMore,
+        nextCursor,
+        results: music,
+    };
+};
+
+export const getMusic = async (): Promise<MusicAlbum[]> => {
     const albums: MusicAlbum[] = [];
 
-    music.forEach((m) => {
+    let hasMore = false;
+    let nextCursor;
+
+    const response = await fetchMusicFromNotion();
+
+    hasMore = response.hasMore;
+    nextCursor = response.nextCursor;
+
+    response.results.forEach((m) => {
         albums.push({
             id: m.id,
             artist: m.properties.Artist.rich_text[0].plain_text,
@@ -34,6 +58,26 @@ export const getMusic = async (): Promise<MusicAlbum[]> => {
             sortedName: getSortedName(m.properties.Artist.rich_text[0].plain_text),
         });
     });
+
+    while (hasMore) {
+        // eslint-disable-next-line no-await-in-loop
+        const resp = await fetchMusicFromNotion(nextCursor);
+
+        hasMore = resp.hasMore;
+        nextCursor = resp.nextCursor;
+
+        resp.results.forEach((m) => {
+            albums.push({
+                id: m.id,
+                artist: m.properties.Artist.rich_text[0].plain_text,
+                title: m.properties.Album.title[0].plain_text,
+                coverUrl: m.properties.AlbumArt.files[0].file.url,
+                genres: m.properties.Genre.multi_select.map((i) => i.name),
+                formats: m.properties.Format.multi_select.map((i) => i.name),
+                sortedName: getSortedName(m.properties.Artist.rich_text[0].plain_text),
+            });
+        });
+    }
 
     return albums
         .sort((a, b) => {
@@ -53,21 +97,35 @@ type AlbumId = {
 }
 
 export const getAllAlbumIds = async (): Promise<AlbumId[]> => {
-    const notion = new Client({
-        auth: process.env.NOTION_API_KEY,
+    const albumIds: string[] = [];
+
+    let hasMore = false;
+    let nextCursor;
+
+    const response = await fetchMusicFromNotion();
+
+    hasMore = response.hasMore;
+    nextCursor = response.nextCursor;
+
+    response.results.forEach((m) => {
+        albumIds.push(m.id);
     });
 
-    const response = await notion.databases.query({
-        database_id: process.env.MUSIC_DB_ID,
-    });
+    while (hasMore) {
+        // eslint-disable-next-line no-await-in-loop
+        const resp = await fetchMusicFromNotion(nextCursor);
 
-    // console.log({ resp: JSON.stringify(response.results) });
+        hasMore = resp.hasMore;
+        nextCursor = resp.nextCursor;
 
-    const music = response.results as unknown as NotionMusic[];
+        resp.results.forEach((m) => {
+            albumIds.push(m.id);
+        });
+    }
 
-    return music.map((album) => ({
+    return albumIds.map((id) => ({
         params: {
-            id: album.id,
+            id,
         },
     }));
 };
@@ -97,8 +155,6 @@ export const getAlbumDetails = async (id: string): Promise<MusicAlbum> => {
         block_id: id,
         page_size: 75,
     });
-
-    // console.log({ resp: JSON.stringify(response.results) });
 
     const trackListing = pageBlocksResponse.results as unknown as NotionPageBlocks[];
     const tracks = getTracks(trackListing);
