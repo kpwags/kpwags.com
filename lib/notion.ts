@@ -1,9 +1,11 @@
 import { MusicAlbum } from '@models/MusicAlbum';
+import { VideoGame } from '@models/VideoGame';
 import {
     NotionMusicApiResponse,
     NotionMusic,
     NotionPageBlocks,
 } from '@models/NotionMusic';
+import { NotionVideoGame, NotionVideoGamesApiResponse } from '@models/NotionVideoGame';
 import { Client } from '@notionhq/client';
 
 const getSortedName = (val: string): string => {
@@ -37,6 +39,57 @@ const fetchMusicFromNotion = async (cursor?: string): Promise<NotionMusicApiResp
         hasMore,
         nextCursor,
         results: music,
+    };
+};
+
+const fetchVideoGamesFromNotion = async (cursor?: string): Promise<NotionVideoGamesApiResponse> => {
+    const notion = new Client({
+        auth: process.env.NOTION_API_KEY,
+    });
+
+    const response = await notion.databases.query({
+        database_id: process.env.VIDEOGAMES_DB_ID,
+        start_cursor: cursor,
+        filter: {
+            or: [
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'Current',
+                    },
+                },
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'Completed',
+                    },
+                },
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'Maybe Later',
+                    },
+                },
+            ],
+        },
+        sorts: [
+            { property: 'Date Completed', direction: 'descending' },
+        ],
+    });
+
+    const hasMore = response.has_more;
+    let nextCursor: string | null = null;
+
+    if (hasMore) {
+        nextCursor = response.next_cursor;
+    }
+
+    const games = response.results as unknown as NotionVideoGame[];
+
+    return {
+        hasMore,
+        nextCursor,
+        results: games,
     };
 };
 
@@ -173,4 +226,47 @@ export const getAlbumDetails = async (id: string): Promise<MusicAlbum> => {
         sortedName: getSortedName(albumDetails.properties.Artist.rich_text[0].plain_text),
         tracks,
     };
+};
+
+const mapResultToVideoGame = (result: NotionVideoGame): VideoGame => ({
+    id: result.id,
+    title: result.properties.Name.title[0].plain_text,
+    coverUrl: result.properties.Cover.files[0].file.url,
+    rating: result.properties.Rating.number,
+    // eslint-disable-next-line camelcase
+    thoughts: result.properties.Thoughts.rich_text[0]?.plain_text ?? null,
+    status: result.properties.Status.select.name === 'Current' ? 'current' : 'past',
+    platform: result.properties.Platform.select.name,
+    completed: result.properties.Completed.select.name,
+    link: result.properties.Link.url,
+});
+
+export const getVideoGames = async (): Promise<VideoGame[]> => {
+    const games: VideoGame[] = [];
+
+    let hasMore = false;
+    let nextCursor;
+
+    const response = await fetchVideoGamesFromNotion();
+
+    hasMore = response.hasMore;
+    nextCursor = response.nextCursor;
+
+    response.results.forEach((vg) => {
+        games.push(mapResultToVideoGame(vg));
+    });
+
+    while (hasMore) {
+        // eslint-disable-next-line no-await-in-loop
+        const resp = await fetchVideoGamesFromNotion(nextCursor) as NotionVideoGamesApiResponse;
+
+        hasMore = resp.hasMore;
+        nextCursor = resp.nextCursor;
+
+        resp.results.forEach((vg) => {
+            games.push(mapResultToVideoGame(vg));
+        });
+    }
+
+    return games;
 };
