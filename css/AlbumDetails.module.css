@@ -1,0 +1,71 @@
+.backLink {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.album {
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.albumCover {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .album {
+        flex-wrap: wrap;
+    }
+
+    .albumCover {
+        margin: 0 auto;
+    }
+}
+
+.albumCover img {
+    aspect-ratio: 1 / 1;
+}
+
+.albumDetails {
+    margin: 0;
+}
+
+.albumTitle {
+    color: var(--primary-color-1);
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.artistName {
+    font-style: italic;
+    font-size: 1.65rem;
+    color: var(--text);
+}
+
+.detailLine {
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+
+.label {
+    font-weight: 900;
+    width: 100px;
+}
+
+.tracks {
+    font-size: 1.2rem;
+}
+
+.tracks ol {
+    margin: 2rem 0;
+}
+
+.tracks ol li {
+    margin: 0.75rem 0;
+}

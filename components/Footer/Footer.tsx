@@ -45,6 +45,9 @@ const Footer = (): JSX.Element => (
                 <Link href="/tv/" title="TV">TV</Link>
             </li>
             <li>
+                <Link href="/music" title="Music">Music</Link>
+            </li>
+            <li>
                 <Link href="/video-games/" title="Video Games">Video Games</Link>
             </li>
             <li>

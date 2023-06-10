@@ -1,0 +1,26 @@
+.container h2 {
+    margin: 3rem 0 2rem 0;
+}
+
+.container .lastUpdate,
+.container .notes {
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.musicGrid {
+    margin: 0 0 2.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 0.6rem;
+    grid-row-gap: 2.5rem;
+    justify-items: center;
+}
+
+@media all and (max-width: 767px) {
+    .container p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
