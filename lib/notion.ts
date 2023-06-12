@@ -93,6 +93,16 @@ const fetchVideoGamesFromNotion = async (cursor?: string): Promise<NotionVideoGa
     };
 };
 
+const mapResultToMusic = (m: NotionMusic): MusicAlbum => ({
+    id: m.id,
+    artist: m.properties.Artist.rich_text[0].plain_text,
+    title: m.properties.Album.title[0].plain_text,
+    coverUrl: m.properties.AlbumArt.files[0].file.url,
+    genres: m.properties.Genre.multi_select.map((i) => i.name),
+    formats: m.properties.Format.multi_select.map((i) => i.name),
+    sortedName: getSortedName(m.properties.Artist.rich_text[0].plain_text),
+});
+
 export const getMusic = async (): Promise<MusicAlbum[]> => {
     const albums: MusicAlbum[] = [];
 
@@ -105,15 +115,7 @@ export const getMusic = async (): Promise<MusicAlbum[]> => {
     nextCursor = response.nextCursor;
 
     response.results.forEach((m) => {
-        albums.push({
-            id: m.id,
-            artist: m.properties.Artist.rich_text[0].plain_text,
-            title: m.properties.Album.title[0].plain_text,
-            coverUrl: m.properties.AlbumArt.files[0].file.url,
-            genres: m.properties.Genre.multi_select.map((i) => i.name),
-            formats: m.properties.Format.multi_select.map((i) => i.name),
-            sortedName: getSortedName(m.properties.Artist.rich_text[0].plain_text),
-        });
+        albums.push(mapResultToMusic(m));
     });
 
     while (hasMore) {
@@ -124,15 +126,7 @@ export const getMusic = async (): Promise<MusicAlbum[]> => {
         nextCursor = resp.nextCursor;
 
         resp.results.forEach((m) => {
-            albums.push({
-                id: m.id,
-                artist: m.properties.Artist.rich_text[0].plain_text,
-                title: m.properties.Album.title[0].plain_text,
-                coverUrl: m.properties.AlbumArt.files[0].file.url,
-                genres: m.properties.Genre.multi_select.map((i) => i.name),
-                formats: m.properties.Format.multi_select.map((i) => i.name),
-                sortedName: getSortedName(m.properties.Artist.rich_text[0].plain_text),
-            });
+            albums.push(mapResultToMusic(m));
         });
     }
 
