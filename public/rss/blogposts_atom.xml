@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-06-09T22:19:45.790Z</updated>
+    <updated>2023-06-12T22:39:03.321Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,25 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Goodbye Reddit!]]></title>
+        <id>https://kpwags.com/posts/2023/06/12/goodbye-reddit</id>
+        <link href="https://kpwags.com/posts/2023/06/12/goodbye-reddit"/>
+        <updated>2023-06-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Well, it’s official...I deleted my two Reddit accounts.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Well, it’s official...I deleted my two Reddit accounts.</p>
+<p>Given the responses from /u/spez (Steve Huffman) in the AMA, it’s obvious the site’s ownership doesn’t care. Even if they do revert their API pricing changes, I’m done. I don’t trust them and I have better things I can spend my time doing.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Further Thoughts on Reddit's API Changes]]></title>
         <id>https://kpwags.com/posts/2023/06/07/further-thoughts-on-reddits-api-changes</id>
