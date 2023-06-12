@@ -231,7 +231,7 @@ export const getAlbumDetails = async (id: string): Promise<MusicAlbum> => {
 const mapResultToVideoGame = (result: NotionVideoGame): VideoGame => ({
     id: result.id,
     title: result.properties.Name.title[0].plain_text,
-    coverUrl: result.properties.Cover.files[0].file.url,
+    coverUrl: result.properties.CoverUrl.url,
     rating: result.properties.Rating.number,
     // eslint-disable-next-line camelcase
     thoughts: result.properties.Thoughts.rich_text[0]?.plain_text ?? null,

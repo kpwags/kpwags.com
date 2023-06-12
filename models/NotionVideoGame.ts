@@ -1,5 +1,4 @@
 import {
-    NotionFile,
     NotionLink,
     NotionNumber,
     NotionPlainText,
@@ -25,7 +24,7 @@ export interface NotionVideoGame {
     id: string;
     properties: {
         Name: NotionTitle;
-        Cover: NotionFile;
+        CoverUrl: NotionLink;
         Thoughts: NotionPlainText;
         Link: NotionLink;
         Rating: NotionNumber;
