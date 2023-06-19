@@ -16,7 +16,9 @@ export interface NotionLink {
 
 export interface NotionDate {
     id: string;
-    date: Date | null;
+    date: {
+        start: string | null
+    } | null;
 }
 
 export interface NotionNumber {

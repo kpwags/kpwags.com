@@ -3,9 +3,9 @@ import Head from 'next/head';
 import { GetStaticProps } from 'next';
 import VideoGameListing from '@components/VideoGameListing';
 import { VideoGame } from '@models/VideoGame';
+import { getVideoGames } from '@lib/notion';
 
 import styles from '@css/VideoGames.module.css';
-import { getVideoGames } from '@lib/notion';
 
 export const getStaticProps: GetStaticProps = async () => {
     const data = await getVideoGames();

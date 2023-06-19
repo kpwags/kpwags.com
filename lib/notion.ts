@@ -7,6 +7,8 @@ import {
 } from '@models/NotionMusic';
 import { NotionVideoGame, NotionVideoGamesApiResponse } from '@models/NotionVideoGame';
 import { Client } from '@notionhq/client';
+import { NotionBook, NotionBooksApiResponse } from '@models/NotionBook';
+import { Book } from '@models/Book';
 
 const getSortedName = (val: string): string => {
     if (val.startsWith('The ')) {
@@ -90,6 +92,51 @@ const fetchVideoGamesFromNotion = async (cursor?: string): Promise<NotionVideoGa
         hasMore,
         nextCursor,
         results: games,
+    };
+};
+
+const fetchBooksFromNotion = async (cursor?: string): Promise<NotionBooksApiResponse> => {
+    const notion = new Client({
+        auth: process.env.NOTION_API_KEY,
+    });
+
+    const response = await notion.databases.query({
+        database_id: process.env.BOOKS_DB_ID,
+        start_cursor: cursor,
+        filter: {
+            or: [
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'In Progress',
+                    },
+                },
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'Completed',
+                    },
+                },
+            ],
+        },
+        sorts: [
+            { property: 'DateFinished', direction: 'descending' },
+        ],
+    });
+
+    const hasMore = response.has_more;
+    let nextCursor: string | null = null;
+
+    if (hasMore) {
+        nextCursor = response.next_cursor;
+    }
+
+    const books = response.results as unknown as NotionBook[];
+
+    return {
+        hasMore,
+        nextCursor,
+        results: books,
     };
 };
 
@@ -263,4 +310,47 @@ export const getVideoGames = async (): Promise<VideoGame[]> => {
     }
 
     return games;
+};
+
+const mapResultToBook = (result: NotionBook): Book => ({
+    id: result.id,
+    title: result.properties.Name.title[0].plain_text,
+    author: result.properties.Author.rich_text[0].plain_text,
+    coverUrl: result.properties.CoverUrl.url,
+    rating: result.properties.Rating.number,
+    // eslint-disable-next-line camelcase
+    thoughts: result.properties.Thoughts.rich_text[0]?.plain_text ?? null,
+    status: result.properties.Status.select.name === 'In Progress' ? 'current' : 'read',
+    link: result.properties.Link.url,
+    yearRead: result.properties.DateFinished.date ? new Date(result.properties.DateFinished.date.start).getFullYear() : null,
+});
+
+export const getBooks = async (): Promise<Book[]> => {
+    const books: Book[] = [];
+
+    let hasMore = false;
+    let nextCursor;
+
+    const response = await fetchBooksFromNotion();
+
+    hasMore = response.hasMore;
+    nextCursor = response.nextCursor;
+
+    response.results.forEach((b) => {
+        books.push(mapResultToBook(b));
+    });
+
+    while (hasMore) {
+        // eslint-disable-next-line no-await-in-loop
+        const resp = await fetchBooksFromNotion(nextCursor) as NotionBooksApiResponse;
+
+        hasMore = resp.hasMore;
+        nextCursor = resp.nextCursor;
+
+        resp.results.forEach((b) => {
+            books.push(mapResultToBook(b));
+        });
+    }
+
+    return books;
 };
