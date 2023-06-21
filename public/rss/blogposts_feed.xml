@@ -4,11 +4,28 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 12 Jun 2023 22:39:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jun 2023 22:45:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[It's Easy to Fall Off the Train]]></title>
+            <link>https://kpwags.com/posts/2023/06/21/its-easy-to-fall-off-the-train</link>
+            <guid>https://kpwags.com/posts/2023/06/21/its-easy-to-fall-off-the-train</guid>
+            <pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I’ve been pretty good with my fitness to start the year. For the first 3 months of the year I worked out in some fashion just about every day. Then I tweaked my hip flexor and it came crashing down.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>I’ve been pretty good with my fitness to start the year. For the first 3 months of the year I worked out in some fashion just about every day. Then I tweaked my hip flexor and it came crashing down.</p>
+<p>I know it’s the age-old trope about having a hard time sticking to fitness and diet goals, but it’s amazing how even with months of doing well, it’s easy to get tripped up. The hip flexor issue prevented me from running and some of lifting routines, so I slowed to give it time to heal. Now that it’s back to normal and I’m pain-free, I haven’t been able to quite get back into my previous routine.</p>
+<p>It takes a lot of determination and self-control to keep to fitness routines so props to those who can do it. Off days and days to let loose are of course never a bad thing, just gotta be careful that the off days don’t become the new routine.</p>
+<p>I’ll get there.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Goodbye Reddit!]]></title>
             <link>https://kpwags.com/posts/2023/06/12/goodbye-reddit</link>

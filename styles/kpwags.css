@@ -475,7 +475,6 @@ a img {
 .article p {
     font-size: 1.5rem;
     font-weight: 300;
-    text-wrap: balance;
 }
 
 .article p code {
