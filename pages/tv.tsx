@@ -5,7 +5,7 @@ import TvShowListing from '@components/TvShowListing';
 import { TV } from '@models/tv';
 import { getTvShows } from '@lib/notion';
 
-import styles from '@css/VideoGames.module.css';
+import styles from '@css/Tv.module.css';
 
 export const getStaticProps: GetStaticProps = async () => {
     const data = await getTvShows();

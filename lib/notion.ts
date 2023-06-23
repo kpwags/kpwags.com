@@ -11,6 +11,7 @@ import { NotionBook, NotionBooksApiResponse } from '@models/NotionBook';
 import { Book } from '@models/Book';
 import { NotionTv, NotionTvApiResponse } from '@models/NotionVideoTv';
 import { TV } from '@models/tv';
+import { Current } from '@models/Current';
 
 const getSortedName = (val: string): string => {
     if (val.startsWith('The ')) {
@@ -97,6 +98,29 @@ const fetchVideoGamesFromNotion = async (cursor?: string): Promise<NotionVideoGa
     };
 };
 
+const fetchCurrentVideoGamesFromNotion = async (): Promise<NotionVideoGame[]> => {
+    const notion = new Client({
+        auth: process.env.NOTION_API_KEY,
+    });
+
+    const response = await notion.databases.query({
+        database_id: process.env.VIDEOGAMES_DB_ID,
+        filter: {
+            property: 'Status',
+            select: {
+                equals: 'Current',
+            },
+        },
+        sorts: [
+            { property: 'Date Completed', direction: 'descending' },
+        ],
+    });
+
+    const games = response.results as unknown as NotionVideoGame[];
+
+    return games;
+};
+
 const fetchBooksFromNotion = async (cursor?: string): Promise<NotionBooksApiResponse> => {
     const notion = new Client({
         auth: process.env.NOTION_API_KEY,
@@ -140,6 +164,26 @@ const fetchBooksFromNotion = async (cursor?: string): Promise<NotionBooksApiResp
         nextCursor,
         results: books,
     };
+};
+
+const fetchCurrentBooksFromNotion = async (): Promise<NotionBook[]> => {
+    const notion = new Client({
+        auth: process.env.NOTION_API_KEY,
+    });
+
+    const response = await notion.databases.query({
+        database_id: process.env.BOOKS_DB_ID,
+        filter: {
+            property: 'Status',
+            select: {
+                equals: 'In Progress',
+            },
+        },
+    });
+
+    const books = response.results as unknown as NotionBook[];
+
+    return books;
 };
 
 const fetchTvFromNotion = async (cursor?: string): Promise<NotionTvApiResponse> => {
@@ -188,6 +232,27 @@ const fetchTvFromNotion = async (cursor?: string): Promise<NotionTvApiResponse> 
         nextCursor,
         results: tvShows,
     };
+};
+
+const fetchCurrentTvFromNotion = async (cursor?: string): Promise<NotionTv[]> => {
+    const notion = new Client({
+        auth: process.env.NOTION_API_KEY,
+    });
+
+    const response = await notion.databases.query({
+        database_id: process.env.TV_DB_ID,
+        start_cursor: cursor,
+        filter: {
+            property: 'Status',
+            select: {
+                equals: 'In Progress',
+            },
+        },
+    });
+
+    const tvShows = response.results as unknown as NotionTv[];
+
+    return tvShows;
 };
 
 const mapResultToMusic = (m: NotionMusic): MusicAlbum => ({
@@ -458,4 +523,34 @@ export const getTvShows = async (): Promise<TV[]> => {
 
     return tvShows
         .sort((a, b) => a.sortedName.localeCompare(b.sortedName));
+};
+
+export const getCurrentActions = async (): Promise<Current> => {
+    const books: Book[] = [];
+    const games: VideoGame[] = [];
+    const tvShows: TV[] = [];
+
+    const reading = await fetchCurrentBooksFromNotion();
+
+    reading.forEach((b) => {
+        books.push(mapResultToBook(b));
+    });
+
+    const videoGames = await fetchCurrentVideoGamesFromNotion();
+
+    videoGames.forEach((vg) => {
+        games.push(mapResultToVideoGame(vg));
+    });
+
+    const tv = await fetchCurrentTvFromNotion();
+
+    tv.forEach((t) => {
+        tvShows.push(mapResultToTvShow(t));
+    });
+
+    return {
+        reading: books.filter((b) => b.status === 'current'),
+        watching: tvShows.filter((t) => t.status === 'current'),
+        playing: games.filter((vg) => vg.status === 'current'),
+    };
 };
