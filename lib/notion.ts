@@ -130,20 +130,10 @@ const fetchBooksFromNotion = async (cursor?: string): Promise<NotionBooksApiResp
         database_id: process.env.BOOKS_DB_ID,
         start_cursor: cursor,
         filter: {
-            or: [
-                {
-                    property: 'Status',
-                    select: {
-                        equals: 'In Progress',
-                    },
-                },
-                {
-                    property: 'Status',
-                    select: {
-                        equals: 'Completed',
-                    },
-                },
-            ],
+            property: 'Status',
+            select: {
+                equals: 'Completed',
+            },
         },
         sorts: [
             { property: 'DateFinished', direction: 'descending' },
