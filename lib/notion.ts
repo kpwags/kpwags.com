@@ -9,6 +9,8 @@ import { NotionVideoGame, NotionVideoGamesApiResponse } from '@models/NotionVide
 import { Client } from '@notionhq/client';
 import { NotionBook, NotionBooksApiResponse } from '@models/NotionBook';
 import { Book } from '@models/Book';
+import { NotionTv, NotionTvApiResponse } from '@models/NotionVideoTv';
+import { TV } from '@models/tv';
 
 const getSortedName = (val: string): string => {
     if (val.startsWith('The ')) {
@@ -137,6 +139,54 @@ const fetchBooksFromNotion = async (cursor?: string): Promise<NotionBooksApiResp
         hasMore,
         nextCursor,
         results: books,
+    };
+};
+
+const fetchTvFromNotion = async (cursor?: string): Promise<NotionTvApiResponse> => {
+    const notion = new Client({
+        auth: process.env.NOTION_API_KEY,
+    });
+
+    const response = await notion.databases.query({
+        database_id: process.env.TV_DB_ID,
+        start_cursor: cursor,
+        filter: {
+            or: [
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'In Progress',
+                    },
+                },
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'Completed',
+                    },
+                },
+                {
+                    property: 'Status',
+                    select: {
+                        equals: 'Between Seasons',
+                    },
+                },
+            ],
+        },
+    });
+
+    const hasMore = response.has_more;
+    let nextCursor: string | null = null;
+
+    if (hasMore) {
+        nextCursor = response.next_cursor;
+    }
+
+    const tvShows = response.results as unknown as NotionTv[];
+
+    return {
+        hasMore,
+        nextCursor,
+        results: tvShows,
     };
 };
 
@@ -353,4 +403,59 @@ export const getBooks = async (): Promise<Book[]> => {
     }
 
     return books;
+};
+
+const getStatus = (name: 'Completed' | 'In Progress' | 'Between Seasons'): 'current' | 'completed' | 'between-seasons' => {
+    switch (name) {
+        case 'Completed':
+            return 'completed';
+        case 'Between Seasons':
+            return 'between-seasons';
+        case 'In Progress':
+        default:
+            return 'current';
+    }
+};
+
+const mapResultToTvShow = (result: NotionTv): TV => ({
+    id: result.id,
+    title: result.properties.Name.title[0].plain_text,
+    coverUrl: result.properties.CoverUrl.url,
+    rating: result.properties.Rating.number,
+    // eslint-disable-next-line camelcase
+    thoughts: result.properties.Thoughts.rich_text[0]?.plain_text ?? null,
+    status: getStatus(result.properties.Status.select.name),
+    link: result.properties.Link.url,
+    sortedName: getSortedName(result.properties.Name.title[0].plain_text),
+});
+
+export const getTvShows = async (): Promise<TV[]> => {
+    const tvShows: TV[] = [];
+
+    let hasMore = false;
+    let nextCursor;
+
+    const response = await fetchTvFromNotion();
+
+    hasMore = response.hasMore;
+    nextCursor = response.nextCursor;
+
+    response.results.forEach((tv) => {
+        tvShows.push(mapResultToTvShow(tv));
+    });
+
+    while (hasMore) {
+        // eslint-disable-next-line no-await-in-loop
+        const resp = await fetchTvFromNotion(nextCursor) as NotionTvApiResponse;
+
+        hasMore = resp.hasMore;
+        nextCursor = resp.nextCursor;
+
+        resp.results.forEach((tv) => {
+            tvShows.push(mapResultToTvShow(tv));
+        });
+    }
+
+    return tvShows
+        .sort((a, b) => a.sortedName.localeCompare(b.sortedName));
 };

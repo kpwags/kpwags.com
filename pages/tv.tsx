@@ -1,20 +1,24 @@
 /* eslint-disable max-len */
 import Head from 'next/head';
-import tv from '@data/tv';
 import { GetStaticProps } from 'next';
-import MediaListing from '@components/MediaListing';
+import TvShowListing from '@components/TvShowListing';
 import { TV } from '@models/tv';
+import { getTvShows } from '@lib/notion';
 
-import styles from '@css/Tv.module.css';
+import styles from '@css/VideoGames.module.css';
 
-export const getStaticProps: GetStaticProps = async () => ({
-    props: {
-        tvShows: tv,
-    },
-});
+export const getStaticProps: GetStaticProps = async () => {
+    const data = await getTvShows();
+
+    return ({
+        props: {
+            tvShows: data,
+        },
+    });
+};
 
 type TVShowsProps = {
-    tvShows: TV;
+    tvShows: TV[];
 };
 
 const TVShows = ({ tvShows }: TVShowsProps): JSX.Element => (
@@ -26,39 +30,32 @@ const TVShows = ({ tvShows }: TVShowsProps): JSX.Element => (
 
             <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the TV series I&apos;ve watched and am currently watching.</p>
 
-            <p className={styles.lastUpdate}>
-                Last Updated: {tvShows.lastUpdate}
-            </p>
-
             <h2>Currently Watching</h2>
             <div className={styles.items}>
-                {tvShows.current.map((series) => (
-                    <MediaListing
-                        media={series}
-                        key={series.cover}
-                        includeReview
+                {tvShows.filter((tv) => tv.status === 'current').map((tv) => (
+                    <TvShowListing
+                        tvShow={tv}
+                        key={tv.id}
                     />
                 ))}
             </div>
 
             <h2>In-Between Seasons</h2>
             <div className={styles.items}>
-                {tvShows.continuing.map((series) => (
-                    <MediaListing
-                        media={series}
-                        key={series.cover}
-                        includeReview
+                {tvShows.filter((tv) => tv.status === 'between-seasons').map((tv) => (
+                    <TvShowListing
+                        tvShow={tv}
+                        key={tv.id}
                     />
                 ))}
             </div>
 
             <h2>Completed</h2>
             <div className={styles.items}>
-                {tvShows.completed.map((series) => (
-                    <MediaListing
-                        media={series}
-                        key={series.cover}
-                        includeReview
+                {tvShows.filter((tv) => tv.status === 'completed').map((tv) => (
+                    <TvShowListing
+                        tvShow={tv}
+                        key={tv.id}
                     />
                 ))}
             </div>
