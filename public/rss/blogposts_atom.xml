@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-06-23T20:10:13.483Z</updated>
+    <updated>2023-06-24T18:21:41.133Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,31 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Gary Bettman and the NHL are Cowards]]></title>
+        <id>https://kpwags.com/posts/2023/06/24/gary-bettman-and-the-nhl-are-cowards</id>
+        <link href="https://kpwags.com/posts/2023/06/24/gary-bettman-and-the-nhl-are-cowards"/>
+        <updated>2023-06-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last year, the hubbub started when Flyers (my team sadly) defenseman Ivan Provorov decided to not skate warmups wearing the Flyers pride night jersey. Of the 20 active skaters and goalies, he was the only person to not be out there on the ice, and in the pride jersey. This week, the NHL &amp; Gary Bettman gave into the anti-LGBT hate and said that teams will not wear specialty jerseys for warmups in the 2023-24 season.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Last year, the hubbub started when Flyers (my team sadly) defenseman Ivan Provorov decided to not skate warmups wearing the Flyers pride night jersey. Of the 20 active skaters and goalies, he was the only person to not be out there on the ice, and in the pride jersey. This week, the NHL &amp; Gary Bettman gave into the anti-LGBT hate and said that teams will not wear specialty jerseys for warmups in the 2023-24 season.</p>
+<p>It fucking sucks on a number of levels. Hockey should be for everyone. The LGBTQ community should feel welcome to come cheer their team on. They should feel welcome to lace up skates and play. They shouldn&#x27;t feel marginalized nor should they feel like they don&#x27;t belong.</p>
+<p>What I think many fail to understand is that the jerseys aren’t about the players. They’re about showing the fans in the building that they are all welcome. That it doesn’t matter what your gender or sexual identity is, you are welcome to come cheer your team on.</p>
+<p>Brian Burke, most recently the president of hockey operations for the Pittsburgh Penguins said it best.</p>
+<blockquote>
+<p>I repeat that I am extremely disappointed. I wish players would understand that the pride sweaters are about inclusion and welcoming everybody. A player wearing pride colors or tape isn’t endorsing a set of values or enlisting in a cause! He is saying you are welcome here. And you are. In ever single NHL building.</p>
+</blockquote>
+<p>This is sadly another step back and Gary Bettman and the NHL are cowards. They should be ashamed of themselves and it makes me incredibly sad and angry to be a fan of this sport.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[It's Easy to Fall Off the Train]]></title>
         <id>https://kpwags.com/posts/2023/06/21/its-easy-to-fall-off-the-train</id>
