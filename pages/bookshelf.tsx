@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import { getBooks } from '@lib/notion';
 import { Book } from '@models/Book';
 import BookListing from '@components/BookListing';
@@ -7,7 +7,12 @@ import getUniqueValues from '@lib/getUniqueValues';
 
 import styles from '@css/Bookshelf.module.css';
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+    res.setHeader(
+        'Cache-Control',
+        'public, s-maxage=10, stale-while-revalidate=3600',
+    );
+
     const data = await getBooks();
 
     return ({
