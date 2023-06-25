@@ -1,12 +1,17 @@
 import Head from 'next/head';
-import { GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import { getMusic } from '@lib/notion';
 import { MusicAlbum } from '@models/MusicAlbum';
-
-import styles from '@css/Music.module.css';
 import MusicAlbumView from '@components/MusicAlbumView/MusicAlbumView';
 
-export const getServerSideProps: GetStaticProps = async () => {
+import styles from '@css/Music.module.css';
+
+export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+    res.setHeader(
+        'Cache-Control',
+        'public, s-maxage=10, stale-while-revalidate=3600',
+    );
+
     const data = await getMusic();
 
     return {

@@ -1,13 +1,18 @@
 /* eslint-disable max-len */
 import Head from 'next/head';
-import { GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import VideoGameListing from '@components/VideoGameListing';
 import { VideoGame } from '@models/VideoGame';
 import { getVideoGames } from '@lib/notion';
 
 import styles from '@css/VideoGames.module.css';
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+    res.setHeader(
+        'Cache-Control',
+        'public, s-maxage=10, stale-while-revalidate=3600',
+    );
+
     const data = await getVideoGames();
 
     return ({
