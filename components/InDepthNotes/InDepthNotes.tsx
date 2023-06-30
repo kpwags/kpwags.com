@@ -18,6 +18,7 @@ const InDepthNotes = ({
     <div className={styles.inDepthNotes}>
         <h3><span className="source">{source}:</span> <a href={url}>{title}</a></h3>
         {children}
+        <hr />
     </div>
 );
 
