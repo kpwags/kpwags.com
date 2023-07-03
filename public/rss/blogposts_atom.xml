@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-06-30T13:03:35.572Z</updated>
+    <updated>2023-07-03T18:32:22.341Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,94 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[June 2023 Check-In]]></title>
+        <id>https://kpwags.com/posts/2023/07/03/june-2023-check-in</id>
+        <link href="https://kpwags.com/posts/2023/07/03/june-2023-check-in"/>
+        <updated>2023-07-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Half the year is over. This month also had me surviving another trip around the sun.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>Half the year is over. This month also had me surviving another trip around the sun.</p>
+<h2>Site Updates</h2>
+<p>The one thing I&#x27;ve spent doing this month is moving my various lists (<a href="https://kpwags.com/tv">TV</a>, <a href="https://kpwags.com/movies">Movies</a>, <a href="https://kpwags.com/now">Now</a>, <a href="https://kpwags.com/video-games">Video Games</a>, <a href="https://kpwags.com/bookshelf">Bookshelf</a>, <a href="https://kpwags.com/listening">Podcasts</a>, &amp; my new <a href="https://kpwags.com/music">Music</a> page) is to put the data into Notion and use it&#x27;s API to load the data. This will save me the hassle of updating the JSON that currently populates it. I started with my new music page and now I&#x27;ve gotten TV, books, video games and the now pages all updated. Last ones are movies and podcasts.</p>
+<h2>New York City</h2>
+<p>It&#x27;s become somewhat of a tradition, but Lauren and I spent a long weekend in New York City for my birthday. We seldomly go there with a plan, we just see what&#x27;s going on and go from there.</p>
+<p>This year we went to MoMA to see a Georgia O&#x27;Keeffe exhibit Lauren had been wanting to see. It was interesting but I feel sadly that some of it is just lost on me.</p>
+<p>A lot of the rest of the trip was spent wandering around, checking out different restaurants, whiskey bars, and even a new brewery. Time was also spent at various parks people watching and reading. The weather was mostly good too. It wasn&#x27;t too hot, it only really rained for a little bit and we were inside MoMA for the storm.</p>
+<p>Next year&#x27;s birthday will be a little weird as I&#x27;ll be hitting the big 4-0.</p>
+<h2>Back at it as a Goalie</h2>
+<p>The league I play goalie in has started back up, so I&#x27;m now spending more nights at the rink, this time guarding the net. I&#x27;m glad to have given my hip flexor a month and a half break, but am looking forward to getting better in net.</p>
+<p>I ended up playing a game towards the end of the month in a higher league as an emergency sub. We ended up winning the game too. The defense in front of me was a huge help and deserves most of the credit, but I felt like I played relatively well given the advanced skill level. Only helps me get better too!</p>
+<h2>Finally Starting My Sleeve</h2>
+<p>For the last 5+ years, I have been wanting to get a space-themed sleeve on my right arm. I finally found an artist to work on getting it started. My first session was last week and the work so far looks amazing. There&#x27;s still plenty to go, but I can&#x27;t wait for the final result.</p>
+<h1>Monthly Round Up</h1>
+<h2>Monthly Round-Up</h2>
+<p><strong>🏃🏼‍♂️ Running &amp; Biking</strong></p>
+<ul>
+<li><strong>Running:</strong> I only ended up running 9.3 miles. Weather hasn&#x27;t been great and I&#x27;ve been busier with hockey.</li>
+<li><strong>Biking:</strong> Nope</li>
+</ul>
+<p><strong>🏋🏼‍♂️ Lifting</strong></p>
+<ul>
+<li>Started back up with my 5/3/1 program. It&#x27;s going well.</li>
+</ul>
+<p><strong>📚 Reading</strong></p>
+<p><em>Finished</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/the-conquering-tide-war-in-the-pacific-islands-1942-1944-ian-w-toll/8758811?ean=9780393353204">The Conquering Tide: War in the Pacific Islands, 1942-1944</a> by Ian W. Toll</li>
+</ul>
+<p><em>Started</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/twilight-of-the-gods-war-in-the-western-pacific-1944-1945-ian-w-toll/13150893?ean=9780393868302">Twilight of the Gods: War in the Western Pacific, 1944-1945</a> by Ian W. Toll</li>
+</ul>
+<p><strong>✍🏻 Writing</strong></p>
+<ul>
+<li>Continued my reading logs
+<ul>
+<li><a href="https://kpwags.com/reading-log/31">June 2</a></li>
+<li><a href="https://kpwags.com/reading-log/32">June 9</a></li>
+<li><a href="https://kpwags.com/reading-log/33">June 23</a></li>
+<li><a href="https://kpwags.com/reading-log/34">June 30</a></li>
+</ul>
+</li>
+<li>Wrote about:
+<ul>
+<li><a href="https://kpwags.com/posts/2023/06/07/further-thoughts-on-reddits-api-changes">Reddit&#x27;s API changes</a></li>
+<li><a href="https://kpwags.com/posts/2023/06/12/goodbye-reddit">Deleting my Reddit accounts</a></li>
+<li><a href="https://kpwags.com/posts/2023/06/21/its-easy-to-fall-off-the-train">Adversity with sticking to my fitness goals</a></li>
+<li><a href="https://kpwags.com/posts/2023/06/24/gary-bettman-and-the-nhl-are-cowards">Gary Bettman and the NHL making a very bad decision</a></li>
+<li><a href="https://kpwags.com/posts/2023/06/27/star-trek-prodigy-what-a-bummer">The sad end to Star Trek: Prodigy</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>🎮 Gaming</strong></p>
+<ul>
+<li>Beat <a href="https://www.playstation.com/en-us/games/horizon-zero-dawn/">Horizon Zero Dawn</a></li>
+<li>Started <a href="https://www.playstation.com/en-us/games/horizon-forbidden-west/">Horizon Forbidden West</a></li>
+</ul>
+<p><strong>📺 Watched</strong></p>
+<ul>
+<li>Finished rewatching <a href="https://www.imdb.com/title/tt2191671/">Elementary</a></li>
+<li>Finished rewatching <a href="https://www.imdb.com/title/tt0112178/">Star Trek: Voyager</a></li>
+<li>Continued <a href="https://www.imdb.com/title/tt1898069/?ref_=fn_al_tt_1">American Gods</a></li>
+<li>Continued <a href="https://www.imdb.com/title/tt0472954/">It&#x27;s Always Sunny in Philadelphia</a></li>
+<li>Started Season 2 of <a href="https://www.imdb.com/title/tt12327578/">Star Trek: Strange New Worlds</a></li>
+<li>Started <a href="https://www.imdb.com/title/tt2261227/">Altered Carbon</a></li>
+</ul>
+<p><strong>🎬 Movies</strong></p>
+<ul>
+<li>None this month</li>
+</ul>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Star Trek Prodigy...What a Bummer]]></title>
         <id>https://kpwags.com/posts/2023/06/27/star-trek-prodigy-what-a-bummer</id>
