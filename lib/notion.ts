@@ -539,8 +539,8 @@ export const getCurrentActions = async (): Promise<Current> => {
     });
 
     return {
-        reading: books.filter((b) => b.status === 'current'),
-        watching: tvShows.filter((t) => t.status === 'current'),
-        playing: games.filter((vg) => vg.status === 'current'),
+        reading: books.filter((b) => b.status === 'current').sort((a, b) => a.title.localeCompare(b.title)),
+        watching: tvShows.filter((t) => t.status === 'current').sort((a, b) => a.title.localeCompare(b.title)),
+        playing: games.filter((vg) => vg.status === 'current').sort((a, b) => a.title.localeCompare(b.title)),
     };
 };
