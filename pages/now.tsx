@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import { Current } from '@models/Current';
 import { getCurrentActions } from '@lib/notion';
 import TvShowListing from '@components/TvShowListing';
@@ -8,7 +8,7 @@ import BookListing from '@components/BookListing';
 
 import styles from '@css/Now.module.css';
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
     const data = await getCurrentActions();
 
     return ({
