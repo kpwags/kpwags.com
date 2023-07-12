@@ -3,6 +3,10 @@
     max-width: 80%;
 }
 
+.imageContainer.centered img {
+    display: inline;
+}
+
 .centered {
     margin: 30px auto;
     text-align: center;
