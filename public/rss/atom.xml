@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-07-07T20:03:27.569Z</updated>
+    <updated>2023-07-12T23:36:01.950Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,38 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Random Thoughts on Owning Things]]></title>
+        <id>https://kpwags.com/posts/2023/07/12/random-thoughts-on-owning-things</id>
+        <link href="https://kpwags.com/posts/2023/07/12/random-thoughts-on-owning-things"/>
+        <updated>2023-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the latest news with <a href="https://gizmodo.com/star-trek-prodigy-cancelled-no-season-2-paramount-plus-1850571256">Paramount+</a> and <a href="https://www.theverge.com/2023/5/19/23729642/disney-plus-hulu-remove-pull-shows-willow-streaming-bob-iger">Disney/Hulu</a> pulling their own content from their own services, it&#39;s gotten me thinking quite a bit about ownership of what you purchase.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                <p>With the latest news with <a href="https://gizmodo.com/star-trek-prodigy-cancelled-no-season-2-paramount-plus-1850571256">Paramount+</a> and <a href="https://www.theverge.com/2023/5/19/23729642/disney-plus-hulu-remove-pull-shows-willow-streaming-bob-iger">Disney/Hulu</a> pulling their own content from their own services, it&#x27;s gotten me thinking quite a bit about ownership of what you purchase.</p>
+<p>It used to be you wanted the latest movie, book, music album, you went to the store and bought them. They were yours, no one could take them away from you. You could lend them to your friends and family, or let them collect dust on a shelf somewhere until you wanted to consume them again.</p>
+<p>Then along came digital downloads, first of music. The original downloads often came with Digital Rights Management (DRM) which basically meant that you could only listen to your purchases the way whoever you bought it from said you could. And you had to hope that the store you bought them from, didn&#x27;t just <a href="https://arstechnica.com/uncategorized/2008/09/wal-mart-latest-to-shut-down-drm-key-servers/">up and shut down, preventing your music from being played</a>.</p>
+<p>Eventually for music, the stores went DRM-free which made owning your purchases feasible again. But then came the Kindle with most if not all of its books locked down with more DRM. Eventually, Amazon started allowing some eBooks to be sold DRM-free...but don&#x27;t expect the same for audio books purchased from Audible.</p>
+<p>Oh, and did I mention it&#x27;s against the law to break DRM? Bought a Kindle and hundreds of eBooks from the Kindle store and decided you want to switch to Kobo? Hope you don&#x27;t want to read (most) of the books on your brand new Kobo reader!</p>
+<p>The list goes on and on, and has now reached the streaming age. The content we watch on Netflix, Hulu, and the other video streaming sources can be added and pulled at their whim. Really like that Netflix series, enough that you enjoy watching it regularly? Better hope they don&#x27;t pull it!</p>
+<p>Now I&#x27;m not trying to be a curmudgeon. I use music and video streaming services plenty, and enjoy them. But looking at the <em>Star Trek: Prodigy</em> case, it shows how much they can suck too. There&#x27;s no easy way for me to go out and actually own it. CBS/Paramount don&#x27;t offer the entire series on DVD or Blu-Ray. I can get the first 10 episodes on disc, but not the last 10. And that&#x27;s the part that sucks.</p>
+<p>There are plenty of shows and movies where streaming makes plenty of sense. If I want to watch what might be a stupid movie (in all the good ways) and it&#x27;s on a streaming service I have access to, I can watch it without having to shell out $20 for a DVD. And if I do like it, I can buy a physical copy.</p>
+<p>Streaming is perfect for those &quot;like, but not enough to buy&quot; movies, TV and books. But what do you do for the media you really like, are willing to shell out the money for, but the rights holders pull from streaming without offering an alternative? The cynic in me points to the last thing media companies want...</p>
+<div class="RssPostImage_imageContainerCenteredShadowed__suKXZ"><img src="/images/posts/2023-07-12-random-thoughts-on-owning-things/meme.jpg" alt="The Archer meme with the top text reading &#x27;Do you want people to pirate your stuff?&#x27; and the bottom text reading &#x27;Because this is why people pirate your stuff&#x27;" width="544" height="500"/></div>
+<p>Moving to the gaming world, there was a recent study, <a href="https://arstechnica.com/gaming/2023/07/87-of-classic-games-are-out-of-print-thats-a-problem-for-gaming-history/">87% of classic games are out of print</a>. Even games that are 15 years old can be hard to come by. Hope you didn&#x27;t want to play that PlayStation 2 game!</p>
+<p>After the whole <em>Star Trek: Prodigy</em> fiasco, I went out and bought the first season of <em>Star Trek: Strange New Worlds</em> on Blu-Ray because the show has been absolutely amazing so far (seriously, watch it). And I pre-ordered the entire series of <em>Star Trek: Picard</em>.</p>
+<p>Paramount+ can take their shows off their streaming services, but they can&#x27;t come into my home and take my Blu-Ray player! Nor can Warner Music come in and take my record player! Mwahaha!</p>
+<p>I guess the whole point of this rambling is that over the last several months, I&#x27;ve been focused on buying more physical media, and DRM-free digital media so that I can watch, read, and listen to it without having to worry about it going away.</p>
+<p>You should consider that too.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - July 7, 2023 (#35)]]></title>
         <id>https://kpwags.com/reading-log/35</id>
