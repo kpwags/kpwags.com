@@ -4,11 +4,97 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Wed, 12 Jul 2023 23:36:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Jul 2023 20:04:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - July 21, 2023 (#36)]]></title>
+            <link>https://kpwags.com/reading-log/36</link>
+            <guid>https://kpwags.com/reading-log/36</guid>
+            <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[It’s another double issue as I was away in Maryland last weekend. Lots of stuff in here from many classic games being no longer available, new C# &amp; .NET features, some CSS tricks, and an unfortunate outcome in the FTC vs. Microsoft case regarding their acquisition of Activision.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>It’s another double issue as I was away in Maryland last weekend. Lots of stuff in here from many classic games being no longer available, new C# &amp; .NET features, some CSS tricks, and an unfortunate outcome in the FTC vs. Microsoft case regarding their acquisition of Activision.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Kyle Orland:</span> <a href="https://arstechnica.com/gaming/2023/07/87-of-classic-games-are-out-of-print-thats-a-problem-for-gaming-history/">87% of classic games are out of print. That’s a problem for gaming history.</a></h3><p>This goes along with the <a href="https://kpwags.com/posts/2023/06/27/star-trek-prodigy-what-a-bummer">tragedy of Star Trek: Prodigy</a> and my push to <a href="https://kpwags.com/posts/2023/07/12/random-thoughts-on-owning-things">own my media</a>. There are so many good games of the past that are hard to come by. And there are some that are only available via some probably less-than-legal methods which is shame.</p><hr/></div>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Mike Masnick:</span> <a href="https://www.techdirt.com/2023/07/19/how-would-the-gop-feel-if-democrats-in-congress-demanded-details-regarding-how-fox-news-or-the-ny-post-made-editorial-decisions/">How Would The GOP Feel If Democrats In Congress Demanded Details Regarding How Fox News Or The NY Post Made Editorial Decisions?</a></h3><blockquote>
+<p>Now, imagine if the Democrats were in control over the House, and they formed a committee that sent a similar subpoena to Fox News or to the NY Post “compelling” either of those orgs to detail how it made editorial choices, what stories it would cover, what opinion writers it would publish, or what stories would go on the front page with what headlines?</p>
+</blockquote><p>Mike hits the nail right on the head here. I am no fan of Fox News. I think it has made America dumber, and has helped divide this country by feeding so many lies and bullshit over the years. I also don’t want to see the government going after them and pushing them to determine what they cover and how they cover it.</p><hr/></div>
+<h2>Link Blast</h2>
+<h3>👨🏼‍💻 Software Development &amp; Design</h3>
+<p><a href="https://ishadeed.com/article/new-viewport-units/">New Viewport Units</a> - <em>Ahmad Shadeed</em></p>
+<p><a href="https://chriscoyier.net/2023/07/11/sass-features-in-css/">Sass Features in CSS</a> - <em>Chris Coyier</em></p>
+<p><a href="https://fedmentor.dev/posts/rem-html-font-size-hack/">Should I change the default HTML font-size to 62.5%?</a> - <em>Grace Snow</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-6/">Announcing .NET 8 Preview 6</a> - <em>Justin Yoo</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/new-csharp-12-preview-features/">New C# 12 preview features</a> - <em>Kathleen Dollard</em></p>
+<p><a href="https://timdeschryver.dev/blog/entity-framework-features-i-wish-i-knew-earlier">Entity framework features I wish I knew earlier</a> - <em>Tim Deschryver</em></p>
+<p><a href="https://www.infobeans.com/why-design-systems-fail/">Why design systems fail</a> - <em>Karen Vanhouten</em></p>
+<p><a href="https://jonhilton.net/blazor-ssr/">Exploring Blazor Changes in .NET 8 - Server Side Rendering (SSR)</a> - <em>Jon Hilton</em></p>
+<p><a href="https://fettblog.eu/5-truths-about-typescript/">5 Inconvenient Truths about TypeScript</a> - <em>Stefan Baumgartner</em></p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/introducing-a-powerful-new-extension-manager/">Introducing a Powerful New Extension Manager</a> - <em>Maia Kelner</em></p>
+<p><a href="https://code-maze.com/csharp-mediatr-publish-and-send-methods/">MediatR Publish and Send Methods</a> - <em>Code Maze</em></p>
+<p><a href="https://www.matuzo.at/blog/2023/zero-width-height-skip/">Visually hidden links with 0 dimensions</a> - <em>Manuel Matuzović</em></p>
+<p><a href="https://gomakethings.com/how-to-create-a-responsive-grid-system-with-css-grid/">How to create a responsive grid system with CSS Grid</a> - <em>Chris Ferdinandi</em></p>
+<p><a href="https://addyosmani.com/blog/good-code/">Good code is like a love letter to the next developer who will maintain it.</a> - <em>Addy Osmani</em></p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/too-many-tabs-open-no-problem/">Too many tabs open? No problem!</a> - <em>Mads Kristensen</em></p>
+<p><a href="https://steven-giesel.com/blogPost/3ebbefe2-7db7-4d1d-8d81-719009504027">Overload Resolution in C#</a> - <em>Steven Giesel</em></p>
+<hr/>
+<h3>🖥 Technology &amp; the Internet</h3>
+<p><a href="https://www.techspot.com/news/99348-san-francisco-protestors-disabling-autonomous-vehicles-using-traffic.html">San Francisco protestors are disabling autonomous vehicles using traffic cones</a> - <em>Rob Thubron</em></p>
+<p><a href="https://www.theverge.com/2023/7/11/23791183/fcc-sim-swapping-port-out-phone-hijacking-security-protection">The FCC aims to stop SIM swappers with new rules</a> - <em>Wes Davis</em></p>
+<p><a href="https://www.techdirt.com/2023/07/12/congratulations-the-us-is-32nd-worldwide-on-broadband-affordability/">Congratulations! The US Is 32nd Worldwide On Broadband Affordability</a> - <em>Karl Bode</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2023/07/meta-wont-say-what-happened-to-taxpayer-data-it-may-have-illegally-collected/">Tax preparers that shared private data with Meta, Google could be fined billions</a> - <em>Ashley Belanger</em></p>
+<p><a href="https://daringfireball.net/linked/2023/07/12/xai">The ‘X’ Stands for Bullshit</a> - <em>John Gruber</em></p>
+<p><a href="https://www.techdirt.com/2023/07/17/massachusetts-prepares-to-ban-the-collection-and-abuse-of-cell-phone-location-data/">Massachusetts Prepares To Ban The Collection And Abuse Of Cell Phone Location Data</a> - <em>Karl Bode</em></p>
+<p><a href="https://www.vice.com/en/article/v7b3gj/amazon-told-drivers-not-to-worry-about-in-van-surveillance-cameras-now-footage-is-leaking-online">Amazon Told Drivers Not to Worry About In-Van Surveillance Cameras. Now Footage Is Leaking Online</a> - <em>Jules Roscoe</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2023/07/fear-loathing-and-excitement-as-threads-adopts-open-standard-used-by-mastodon/">Fear, loathing, and excitement as Threads adopts open standard used by Mastodon</a> - <em>Gregory Barber</em></p>
+<hr/>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/space/2023/07/in-space-manufacturing-startup-aces-pharma-experiment-in-orbit/">In-space manufacturing startup aces pharma experiment in orbit</a> - <em>Stephen Clark</em></p>
+<p><a href="https://arstechnica.com/science/2023/07/probing-the-mysteries-of-neutron-stars-with-a-surprising-earthly-analog/">Probing the mysteries of neutron stars with a surprising earthly analog</a> - <em>Katie McCormick</em></p>
+<p><a href="https://www.npr.org/sections/money/2023/07/11/1186458991/should-we-invest-more-in-weather-forecasting-it-may-save-your-life">Should we invest more in weather forecasting? It may save your life</a> - <em>Greg Rosalsky</em></p>
+<p><a href="https://arstechnica.com/science/2023/07/hubble-is-able-to-spot-boulders-blasted-loose-by-the-dart-impact/">DART asteroid impact created a 10,000-kilometer debris field of boulders</a> - <em>John Timmer</em></p>
+<hr/>
+<h3>🎮 Gaming</h3>
+<p><a href="https://www.theverge.com/2023/7/11/23779039/microsoft-activision-blizzard-ftc-trial-win">Microsoft wins FTC fight to buy Activision Blizzard</a> - <em>Tom Warren</em></p>
+<p><a href="https://www.theverge.com/2023/7/14/23795326/xbox-major-nelson-larry-hryb-microsoft">Xbox’s Major Nelson is leaving Microsoft after 22 years</a> - <em>Jay Peters</em></p>
+<p><a href="https://www.theverge.com/2023/7/19/23797238/microsoft-activision-blizzard-merger-agreement-extension">Microsoft and Activision Blizzard extend merger agreement to October</a> - <em>Tom Warren</em></p>
+<hr/>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.businessinsider.com/tech-industry-fake-work-problem-bad-managers-bosses-layoffs-jobs-2023-7">Inside the perverse system of &#x27;lazy management&#x27; that&#x27;s destroying the tech industry</a> - <em>Hugh Langley &amp; Grace Kay</em></p>
+<p><a href="https://www.economist.com/business/2023/07/10/the-fight-over-working-from-home-goes-global">The fight over working from home goes global</a> - <em>The Economist</em></p>
+<p><a href="https://www.marketplace.org/2023/07/13/the-financial-consequences-of-empty-offices/">The financial consequences of empty offices</a> - <em>David Brancaccio, Alex Schroeder, &amp; Erika Soderstrom</em></p>
+<p><a href="https://www.thedriftmag.com/a-good-prospect/">A Good Prospect</a> - <em>Nick Bowlin</em></p>
+<p><a href="https://www.npr.org/2023/07/17/1187275511/tipping-minimum-wage-tips-tip-screen">Got tipping rage? This barista reveals what it&#x27;s like to be behind the tip screen</a> - <em>Stacy Vanek Smith</em></p>
+<p><a href="https://www.marketplace.org/2023/07/19/why-prices-of-some-evs-are-falling/">Electric vehicles are getting cheaper — here&#x27;s why</a> - <em>Samantha Fields</em></p>
+<hr/>
+<h3>⚾ Sports</h3>
+<p><a href="https://defector.com/megan-rapinoe-couldnt-have-done-it-any-better">Megan Rapinoe Couldn&#x27;t Have Done It Any Better</a> - <em>Tom Ley</em></p>
+<p><a href="https://www.npr.org/2023/07/10/1184587949/negro-league-baseball-mlb-sam-pollard">The Negro League revolutionized baseball – MLB&#x27;s new rules are part of its legacy</a> - <em>Dave Davies</em></p>
+<p><a href="https://defector.com/new-york-times-sports-the-athletic">The Slow Hemorrhage Of The American Sports Desk</a> - <em>Ray Ratto</em></p>
+<p><a href="https://defector.com/running-backs-are-hosed">Running Backs Are Hosed</a> - <em>Tom Ley</em></p>
+<hr/>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.marketplace.org/shows/make-me-smart/the-american-whitelash-and-economic-fear/">Make Me Smart #968: The &quot;American Whitelash&quot; and economic fear</a></p>
+<p><a href="https://shoptalkshow.com/552/">ShopTalk #552: Do You Want to Build a JS Framework? ☃️ CSS Wishlist for 2023</a></p>
+<hr/>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://anildash.com/2023/07/07/vc-qanon/">&quot;VC qanon&quot; and the radicalization of the tech tycoons</a> - <em>Anil Dash</em></p>
+<p><a href="https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-115-supernova-is-here/">Our Fastest, Most Beautiful Release Ever: Thunderbird 115 &quot;Supernova&quot; Is Here!</a> - <em>Jason Evangelho</em></p>
+<p><a href="https://pluralistic.net/2023/07/13/whose-security/#for-me-not-thee">A “secure” system can be the most dangerous of all</a> - <em>Cory Doctorow</em></p>
+<p><a href="https://www.yieldcode.blog/post/why-engineers-should-write/">Why engineers should focus on writing</a> - <em>Dmitry Kudryavtsev</em></p>
+<hr/>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>The Gaslight Anthem  (feat. Bruce Springsteen) - History Books</h4>
+<p><a href="https://www.youtube.com/watch?v=gyUgfrCegOs" title="The Gaslight Anthem  (feat. Bruce Springsteen) - History Books">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Random Thoughts on Owning Things]]></title>
             <link>https://kpwags.com/posts/2023/07/12/random-thoughts-on-owning-things</link>
