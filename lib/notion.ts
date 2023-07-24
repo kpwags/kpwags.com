@@ -12,6 +12,9 @@ import { Book } from '@models/Book';
 import { NotionTv, NotionTvApiResponse } from '@models/NotionVideoTv';
 import { TV } from '@models/tv';
 import { Current } from '@models/Current';
+import { Movie } from '@models/movie';
+import { NotionMovie, NotionMovieApiResponse } from '@models/NotionMovie';
+import dayjs from 'dayjs';
 
 const getSortedName = (val: string): string => {
     if (val.startsWith('The ')) {
@@ -153,6 +156,41 @@ const fetchBooksFromNotion = async (cursor?: string): Promise<NotionBooksApiResp
         hasMore,
         nextCursor,
         results: books,
+    };
+};
+
+const fetchMoviesFromNotion = async (cursor?: string): Promise<NotionMovieApiResponse> => {
+    const notion = new Client({
+        auth: process.env.NOTION_API_KEY,
+    });
+
+    const response = await notion.databases.query({
+        database_id: process.env.MOVIE_DB_ID,
+        start_cursor: cursor,
+        filter: {
+            property: 'Status',
+            select: {
+                equals: 'Watched',
+            },
+        },
+        sorts: [
+            { property: 'DateWatched', direction: 'descending' },
+        ],
+    });
+
+    const hasMore = response.has_more;
+    let nextCursor: string | null = null;
+
+    if (hasMore) {
+        nextCursor = response.next_cursor;
+    }
+
+    const movies = response.results as unknown as NotionMovie[];
+
+    return {
+        hasMore,
+        nextCursor,
+        results: movies,
     };
 };
 
@@ -543,4 +581,46 @@ export const getCurrentActions = async (): Promise<Current> => {
         watching: tvShows.filter((t) => t.status === 'current').sort((a, b) => a.title.localeCompare(b.title)),
         playing: games.filter((vg) => vg.status === 'current').sort((a, b) => a.title.localeCompare(b.title)),
     };
+};
+
+const mapResultToMovie = (result: NotionMovie): Movie => ({
+    id: result.id,
+    title: result.properties.Name.title[0].plain_text,
+    cover: result.properties.CoverUrl.url,
+    rating: result.properties.Rating.number,
+    // eslint-disable-next-line camelcase
+    thoughts: result.properties.Thoughts.rich_text[0]?.plain_text ?? null,
+    link: result.properties.ImdbLink.url,
+    dateWatched: result.properties.DateWatched.date ? dayjs(result.properties.DateWatched.date.start).format('MMMM D, YYYY') : null,
+    yearWatched: result.properties.DateWatched.date ? dayjs(result.properties.DateWatched.date.start).year() : null,
+});
+
+export const getMovies = async (): Promise<Movie[]> => {
+    const movies: Movie[] = [];
+
+    let hasMore = false;
+    let nextCursor;
+
+    const response = await fetchMoviesFromNotion();
+
+    hasMore = response.hasMore;
+    nextCursor = response.nextCursor;
+
+    response.results.forEach((m) => {
+        movies.push(mapResultToMovie(m));
+    });
+
+    while (hasMore) {
+        // eslint-disable-next-line no-await-in-loop
+        const resp = await fetchMoviesFromNotion(nextCursor) as NotionMovieApiResponse;
+
+        hasMore = resp.hasMore;
+        nextCursor = resp.nextCursor;
+
+        resp.results.forEach((m) => {
+            movies.push(mapResultToMovie(m));
+        });
+    }
+
+    return movies;
 };
