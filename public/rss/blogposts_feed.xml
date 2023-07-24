@@ -4,11 +4,28 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 21 Jul 2023 20:04:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jul 2023 23:13:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading and Watching Notes]]></title>
+            <link>https://kpwags.com/posts/2023/07/24/reading-and-watching-notes</link>
+            <guid>https://kpwags.com/posts/2023/07/24/reading-and-watching-notes</guid>
+            <pubDate>Mon, 24 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lately I’ve been reading a lot of non-fiction and have been watching some documentaries like <em>The Roosevelts</em>. I’ve found them to be incredibly interesting, but also very much in depth with a lot of information to digest. Sometimes it feels like I’m back in middle school, but I’ve started to take notes on what I’ve been reading and watching.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p>Lately I’ve been reading a lot of non-fiction and have been watching some documentaries like <em>The Roosevelts</em>. I’ve found them to be incredibly interesting, but also very much in depth with a lot of information to digest. Sometimes it feels like I’m back in middle school, but I’ve started to take notes on what I’ve been reading and watching.</p>
+<p>With reading, I’ve just been making notes about what I’m reading and capturing quotes that stand out. My iPhone makes the quotes easy as I can use the OCR functionality of the camera to copy the text off the page or off my Kindle to copy into my note.</p>
+<p>With documentaries, it’s much the same, just capturing various different notes and factoids that I see and find interesting.</p>
+<p>I’m not sure I’ll ever come back and dig into them, but I’m always trying to learn and it often feels like writing down some of what I read and watch helps my grasp things better.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Random Thoughts on Owning Things]]></title>
             <link>https://kpwags.com/posts/2023/07/12/random-thoughts-on-owning-things</link>
