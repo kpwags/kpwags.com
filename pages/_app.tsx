@@ -40,6 +40,22 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         setSelectedColor(c);
     };
 
+    const chromeColor = (): string => {
+        switch (color) {
+            case 'blue':
+                return '#2a45cb';
+            case 'purple':
+                return '#d01bcd';
+            case 'orange':
+                return '#d27519';
+            case 'red':
+                return '#ff5757';
+            case 'green':
+            default:
+                return '#187c3d';
+        }
+    };
+
     let description: string | null = null;
     let title: string | null = null;
     let url: string | null = null;
@@ -65,6 +81,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content={chromeColor()} />
                 <title>{title ? `${title} - Keith Wagner` : 'Keith Wagner'}</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
