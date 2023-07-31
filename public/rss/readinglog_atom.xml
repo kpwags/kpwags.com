@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-07-28T23:38:07.512Z</updated>
+    <updated>2023-07-31T20:55:12.289Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -19,16 +19,14 @@
         <id>https://kpwags.com/reading-log/37</id>
         <link href="https://kpwags.com/reading-log/37"/>
         <updated>2023-07-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="reading-log---july-28-2023-37">Reading Log - July 28, 2023 (#37)</h1>
-A little light this week, but I&#39;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.]]></summary>
+        <summary type="html"><![CDATA[A little light this week, but I&#39;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.]]></summary>
         <content type="html"><![CDATA[
             <div>
-                <h1>Reading Log - July 28, 2023 (#37)</h1>
-<p>A little light this week, but I&#x27;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.</p>
+                <p>A little light this week, but I&#x27;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.</p>
 <h2>In Depth</h2>
 <div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Raymond Chen:</span> <a href="https://devblogs.microsoft.com/oldnewthing/20230725-00/?p=108482">Before you try to do something, make sure you can do nothing</a></h3><p>When I’m learning a new language or library, it’s very easy for me to try to write something complex and in depth right out of the gate. In reality, it’s better to learn to walk before you try to run.</p><blockquote>
 <p>Too often, I see relatively inexperienced developers dive in and start writing a big complex thing: Then they can’t even get it to compile because it’s so big and complex. They ask for help, saying, “I’m having trouble with this one line of code,” but as you study what they have written, you realize that this one line of code is hardly the problem.</p>
-</blockquote><hr/></div>
+</blockquote><p>Truer words...</p><hr/></div>
 <h2>Link Blast</h2>
 <h3>👨🏼‍💻 Software Development &amp; Design</h3>
 <p><a href="https://gomakethings.com/the-joy-of-simplicity-in-web-development/">The joy of simplicity in web development</a> - <em>Chris Ferdinandi</em></p>
