@@ -4,7 +4,7 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 28 Jul 2023 23:38:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Jul 2023 20:55:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
@@ -14,16 +14,14 @@
             <link>https://kpwags.com/reading-log/37</link>
             <guid>https://kpwags.com/reading-log/37</guid>
             <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[<h1 id="reading-log---july-28-2023-37">Reading Log - July 28, 2023 (#37)</h1>
-A little light this week, but I&#39;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.]]></description>
+            <description><![CDATA[A little light this week, but I&#39;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.]]></description>
             <content:encoded><![CDATA[
             <div>
-                <h1>Reading Log - July 28, 2023 (#37)</h1>
-<p>A little light this week, but I&#x27;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.</p>
+                <p>A little light this week, but I&#x27;ve read about a new horrible law being pushed through U.S. Congress that could ruin the internet, Google supporting some bad DRM policies and more.</p>
 <h2>In Depth</h2>
 <div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Raymond Chen:</span> <a href="https://devblogs.microsoft.com/oldnewthing/20230725-00/?p=108482">Before you try to do something, make sure you can do nothing</a></h3><p>When I’m learning a new language or library, it’s very easy for me to try to write something complex and in depth right out of the gate. In reality, it’s better to learn to walk before you try to run.</p><blockquote>
 <p>Too often, I see relatively inexperienced developers dive in and start writing a big complex thing: Then they can’t even get it to compile because it’s so big and complex. They ask for help, saying, “I’m having trouble with this one line of code,” but as you study what they have written, you realize that this one line of code is hardly the problem.</p>
-</blockquote><hr/></div>
+</blockquote><p>Truer words...</p><hr/></div>
 <h2>Link Blast</h2>
 <h3>👨🏼‍💻 Software Development &amp; Design</h3>
 <p><a href="https://gomakethings.com/the-joy-of-simplicity-in-web-development/">The joy of simplicity in web development</a> - <em>Chris Ferdinandi</em></p>
