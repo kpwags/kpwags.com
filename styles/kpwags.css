@@ -534,6 +534,10 @@ a img {
     margin-top: 5rem;
 }
 
+.article .content ul > li > ul {
+    margin: 0.75rem 0 0.75rem 3rem;
+}
+
 .contact ul {
     text-align: center;
     font-size: 1.3rem;

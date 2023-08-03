@@ -51,6 +51,9 @@ const Footer = (): JSX.Element => (
                 <Link href="/video-games/" title="Video Games">Video Games</Link>
             </li>
             <li>
+                <Link href="/stats" title="Stats">Stats</Link>
+            </li>
+            <li>
                 <Link href="/progress/2023" title="2023 Goals Progress">2023 Goals Progress</Link>
             </li>
         </ul>
