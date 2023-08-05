@@ -87,11 +87,12 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
         const tags = data.tags || [] as string[];
 
         // Combine the data with the id
-        return {
+        const blogPost: BlogPost = {
             id,
             title: data.title,
             excerpt: excerpt || null,
             date: data.date,
+            subheading: data.subheading || null,
             url,
             hasEmbeddedTweet: false,
             tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
@@ -101,6 +102,8 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             readTime: readingTime,
             socialImageUrl: null,
         };
+
+        return blogPost;
     });
 
     const sortedPosts = sortPosts(allPostsData);
@@ -206,6 +209,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         excerpt: excerpt || null,
         title: data.title,
         date: data.date,
+        subheading: data.subheading || null,
         content: mdx.compiledSource,
         isRssOnly: data.isRssOnly || false,
         description: data.description || decodeHtmlEntities(excerpt) || null,

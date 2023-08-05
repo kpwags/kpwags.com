@@ -46,6 +46,7 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => (
                 date={post.date}
                 readTime={post.readTime}
                 tags={post.tags}
+                subheading={post.subheading}
             />
 
             <div className="content">
