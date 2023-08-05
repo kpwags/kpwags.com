@@ -1,15 +1,15 @@
 /* eslint-disable camelcase */
 import {
-    NotionFile,
     NotionMutliSelect,
     NotionPlainText,
     NotionTitle,
+    NotionLink,
 } from './NotionShared';
 
 export interface NotionMusic {
     id: string;
     properties: {
-        AlbumArt: NotionFile;
+        CoverUrl: NotionLink;
         Artist: NotionPlainText;
         Genre: NotionMutliSelect;
         Format: NotionMutliSelect;
