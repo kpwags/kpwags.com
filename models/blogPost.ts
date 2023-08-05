@@ -7,6 +7,7 @@ export interface BlogPost {
     isRssOnly?: boolean
     excerpt?: string
     url?: string
+    subheading?: string | null
     content?: string
     description?: string
     socialImageUrl?: string

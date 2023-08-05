@@ -9,6 +9,7 @@ interface PostHeadingProps {
     tags: BlogTag[];
     date: Date;
     readTime?: number;
+    subheading?: string | null;
 }
 
 const PostHeading = ({
@@ -16,6 +17,7 @@ const PostHeading = ({
     tags,
     date,
     readTime,
+    subheading = null,
 }: PostHeadingProps): JSX.Element => {
     const MetaData = (): JSX.Element => (
         <div className={styles.metadata}>
@@ -48,6 +50,8 @@ const PostHeading = ({
             <MetaData />
 
             <h1>{title}</h1>
+
+            {subheading ? <h2 className="subheading">{subheading}</h2> : null}
 
             {tags.length > 0 ? <Tags /> : null}
         </>

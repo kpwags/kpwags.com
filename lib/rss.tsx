@@ -96,6 +96,7 @@ const getPostsForRssFeed = async (): Promise<BlogPost[]> => {
         return {
             id,
             title: data.title,
+            subheading: data.subheading || null,
             excerpt: excerpt || data.excerpt || null,
             date: data.date,
             url,
@@ -173,6 +174,7 @@ const getAllPosts = async (): Promise<Item[]> => {
 
         const htmlContent = `
             <div>
+                ${post.subheading ? `<h2>${post.subheading}</h2>` : ''}
                 ${post.isRssOnly ? '<p><em>This post is for the <a href="https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>' : ''}
                 ${html}
             </div>
@@ -216,6 +218,7 @@ const getPosts = async (): Promise<Item[]> => {
 
         const htmlContent = `
             <div>
+                ${post.subheading ? `<h2>${post.subheading}</h2>` : ''}
                 ${post.isRssOnly ? '<p><em>This post is for the <a href="https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>' : ''}
                 ${html}
             </div>
