@@ -5,8 +5,7 @@ import marked from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { remarkCodeHike } from '@code-hike/mdx';
-
-import { buildUrlFromId } from './utilities';
+import { buildUrlFromId, removeAnchorLink } from './utilities';
 import { postsPerPage } from './config';
 import decodeHtmlEntities from './decodeHtmlEntities';
 import generateTagUrl from './generateTagUrl';
@@ -212,7 +211,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         subheading: data.subheading || null,
         content: mdx.compiledSource,
         isRssOnly: data.isRssOnly || false,
-        description: data.description || decodeHtmlEntities(excerpt) || null,
+        description: data.description || decodeHtmlEntities(removeAnchorLink(excerpt)) || null,
         url: buildUrlFromId(postId),
         hasEmbeddedTweet: data.hasEmbeddedTweet || false,
         tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
