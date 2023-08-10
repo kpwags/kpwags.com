@@ -26,3 +26,5 @@ export const buildUrlFromId = (id: string): string => {
 
     return `/posts/${arr[0]}/${arr[1]}/${arr[2]}/${stub}`;
 };
+
+export const removeAnchorLink = (str: string): string => str.replace(/<a.*?>/ig, '').replace(/<\/a>/ig, '');
