@@ -1,5 +1,5 @@
-import { BlogContext } from '@contexts/BlogContext';
-import { useContext } from 'react';
+import StarIcon from '@components/StarIcon';
+
 import styles from './StarRating.module.css';
 
 type StarRatingProps = {
@@ -7,19 +7,12 @@ type StarRatingProps = {
 };
 
 const StarRating = ({ rating }: StarRatingProps): JSX.Element => {
-    const { currentTheme, currentColor } = useContext(BlogContext);
-
     const getStars = () => {
         const starsHtml = [];
 
         for (let i = 0; i < rating; i += 1) {
             starsHtml.push(
-                <img
-                    className={styles.star}
-                    src={`/images/rating-star-${currentTheme}-${currentColor}.png`}
-                    alt="star"
-                    key={i}
-                />,
+                <StarIcon key={i} />,
             );
         }
 
