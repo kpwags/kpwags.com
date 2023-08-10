@@ -1,0 +1,5 @@
+.star {
+    display: inline-block;
+    fill: var(--primary-color-1);
+    margin: 0 0.25rem;
+}
