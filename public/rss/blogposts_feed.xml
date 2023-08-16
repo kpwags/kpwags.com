@@ -4,11 +4,42 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 11 Aug 2023 13:18:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Aug 2023 23:25:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Figuring Out Better Sleep Habits]]></title>
+            <link>https://kpwags.com/posts/2023/08/16/figuring-out-better-sleep-habits</link>
+            <guid>https://kpwags.com/posts/2023/08/16/figuring-out-better-sleep-habits</guid>
+            <pubDate>Wed, 16 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Something that&#39;s been on my todo list for a while is to improve my sleeping habits.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>Something that&#x27;s been on my todo list for a while is to improve my sleeping habits.</p>
+<p>I was listening to a <a href="http://www.strongerbyscience.com/podcast-episode-114/">Stronger by Science podcast episode talking about sleep habits</a> and realized that my sleep habits are not exactly great. The biggest thing I have going against me is really the fact that I play hockey with ice times that are often around 10pm or even later sometimes.</p>
+<p>There were a few things that the podcast mentioned. The biggest points that I took away from it was:</p>
+<ol>
+<li>Get yourself on a consistent sleep schedule</li>
+<li>Sleep long enough</li>
+<li>Avoid caffeine roughly 6 hours before bed (even more time is better)</li>
+<li>Avoid too much alcohol before bed</li>
+<li>Keep the room dark and no screens</li>
+</ol>
+<p>Looking at the points, I could definitely improve on just about all of them.</p>
+<p>I&#x27;m not sure I&#x27;ll ever completely get on a consistent sleep schedule. On nights when I don&#x27;t have hockey, I try to be in bed between 10 and 10:15pm with a 6:45am alarm. On nights where I play hockey, even if it&#x27;s an early game and I get home before 11, I&#x27;m still amped up and wouldn&#x27;t be able to sleep if I got into bed. I&#x27;ve written about <a href="https://kpwags.com/posts/2023/05/05/calming-down-after-hockey">how I&#x27;ve been reading a bit before bed after hockey</a>.</p>
+<p>Sleeping long enough generally isn&#x27;t a problem on non-hockey nights. I generally aim for a good 7-8 hours which I feel gives me a good energy level. The problem of course is when I&#x27;m playing several nights in a row and feel like I&#x27;m constantly playing catch-up with my sleep.</p>
+<p>Avoiding caffeine I&#x27;ve been working at on getting better. I generally don&#x27;t have coffee much in the afternoon. I might occasionally have some around the 2-3pm lull, but not on an every day basis. I would however often have an energy drink prior to the late games to give me some extra energy for the games. That I&#x27;ve been working on cutting out entirely with decent success.</p>
+<p>Alcohol is one that I could be doing better at overall. They call my hockey league a beer league for a reason. And while I don&#x27;t drink too much at any point, the consistent couple of beers after games don&#x27;t help matters. I could probably do with cutting back more on non-hockey nights as well.</p>
+<p>The one thing I&#x27;ve actually been doing well is not laying in bed prior to going to sleep looking at my phone. I almost always put it on the charger, crawl under the covers and turn off my light. Light-wise, my bedroom is mostly dark. Only light is a little bit of light from the night light in the hallway and the glow of our alarm clock. We have 2 windows, and both have blackout shades, which is nice when I&#x27;m under the weather and need to sleep during the day. Normally though, we only keep one down so that we have the natural light to help wake us in the morning.</p>
+<p>I know proper sleep is necessary for us humans to function properly. It&#x27;s key for recovery and important for our health. I&#x27;m hoping to figure out a better way to get into a better rhythm to make sure the sleep I do get is enoug, and that I don&#x27;t always feel tired. I&#x27;m just trying to figure out how to best get there.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Integrating with Notion's API Using .NET]]></title>
             <link>https://kpwags.com/posts/2023/08/09/integrating-with-notions-api-using-net</link>
