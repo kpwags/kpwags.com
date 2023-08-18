@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-08-16T23:25:24.027Z</updated>
+    <updated>2023-08-18T23:01:46.377Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,65 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - August 18, 2023 (#40)]]></title>
+        <id>https://kpwags.com/reading-log/40</id>
+        <link href="https://kpwags.com/reading-log/40"/>
+        <updated>2023-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey there, this week I read about the question of if a &quot;Regular Joe&quot; could get a hit in the major leagues, more .NET 8 news, NYT and ChatGPT, and more.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                <p>Hey there, this week I read about the question of if a &quot;Regular Joe&quot; could get a hit in the major leagues, more .NET 8 news, NYT and ChatGPT, and more.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__Ysj7n"><h3><span class="source">Eno Sarris:</span> <a href="https://blogs.fangraphs.com/would-chris-hayes-get-a-hit-in-a-full-season-of-play/">Would Chris Hayes Get a Hit in a Full Season of Play?</a></h3><blockquote>
+<p>Hayes wondered the same. “I was recently at a batting cage and spent about half an hour, got the speed up to 70 mph, and after enough of them I was more or less getting around, though mostly fouling pitches off, with occasional solid contact,” he wrote in an email. “BUT: no breaking balls and no pitches out of the zone. I just think any major leaguer would be able to just terrify me with a first pitch fastball and then get me to chase garbage out of the zone and that would happen for literally an entire season.”</p>
+</blockquote><p>I played baseball growing up. I don’t think I’d have much success getting a hit. I think I’d be able to eventually make contact, but not much of any substance. Pitchers today are just too good.</p><hr/></div>
+<h2>Link Blast</h2>
+<h3>🖥 Software Development &amp; Design</h3>
+<p><a href="https://khalidabuhakmeh.com/dotnet-8-interceptors">.NET 8 Interceptors</a> - <em>Khalid Abuhakmeh</em></p>
+<p><a href="https://fffuel.co/css-selectors/">CSS Selectors: A Visual Guide</a> - <em>Sébastien Noël</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-7/">Announcing .NET 8 Preview 7</a> - <em>Richard Lander</em></p>
+<p><a href="https://joshcollinsworth.com/blog/antiquated-react">Things you forgot (or never knew) because of React</a> - <em>Josh Collinsworth</em></p>
+<p><a href="https://blog.jim-nielsen.com/2023/meaning-in-web-tech-stack-ordering/">There’s Meaning in the Ordering of the Web’s Tech Stack</a> - <em>Jim Nielsen</em></p>
+<hr/>
+<h3>📡 Technology &amp; the Internet</h3>
+<p><a href="https://arstechnica.com/tech-policy/2023/08/report-potential-nyt-lawsuit-could-force-openai-to-wipe-chatgpt-and-start-over/">Report: Potential NYT lawsuit could force OpenAI to wipe ChatGPT and start over</a> - <em>Ashley Belanger</em></p>
+<p><a href="https://qz.com/ai-bots-recaptcha-turing-test-websites-authenticity-1850734350">AI bots are so good at mimicking the human brain and vision that CAPTCHAs are useless</a> - <em>Faustine Ngila</em></p>
+<p><a href="https://www.theverge.com/23830432/imac-twenty-five-years-ago-saved-apple">How the iMac saved Apple</a> - <em>Jason Snell</em></p>
+<p><a href="https://blog.archive.org/2023/08/14/internet-archive-responds-to-recording-industry-lawsuit-targeting-obsolete-media/">Internet Archive Responds to Recording Industry Lawsuit Targeting Obsolete Media</a> - <em>Chris Freeland</em></p>
+<hr/>
+<h3>🔬 Science</h3>
+<p><a href="https://www.eso.org/public/news/eso2313/">New type of star gives clues to mysterious origin of magnetars</a> - <em>eso.org</em></p>
+<p><a href="https://arstechnica.com/science/2023/08/lots-of-earth-mass-rogue-planets-could-be-found-by-nasas-roman-telescope/">Rogue planets may be more numerous than stars in our galaxy</a> - <em>Elizabeth Rayne</em></p>
+<p><a href="https://www.quantamagazine.org/jwst-spots-giant-black-holes-all-over-the-early-universe-20230814/">JWST Spots Giant Black Holes All Over the Early Universe</a> - <em>Charlie Wood</em></p>
+<hr/>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.thebignewsletter.com/p/how-fanatics-is-building-a-weird">How Fanatics Is Building a Weird Monopoly Over Sports Trading Cards</a> - <em>Matt Stoller</em></p>
+<p><a href="https://www.wsj.com/articles/asia-factories-consumer-goods-labor-prices-7140ab98">The Era of Ultracheap Stuff Is Under Threat</a> - <em>Jon Emont</em></p>
+<hr/>
+<h3>⚾️ Sports</h3>
+<p><a href="https://www.vikings.com/news/2023-kirk-cousins-quarterback-company-immaculate-grid">How Kirk Cousins &amp; Vikings QB Company Scored 23 in &#x27;Immaculate Grid&#x27;</a> - <em>Lindsey Young</em></p>
+<hr/>
+<h3>📺 Media &amp; Entertainment</h3>
+<p><a href="https://www.polygon.com/23824684/star-trek-spock-strange-new-worlds-actors">Star Trek is finally treating Spock like a human being</a> - <em>Susana Polo</em></p>
+<hr/>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://timharford.com/2023/08/what-id-put-in-my-museum-of-the-economy/">What I’d put in my museum of the economy</a> - <em>Tim Harford</em></p>
+<p><a href="https://www.mcsweeneys.net/articles/youre-a-cyclist-who-was-just-struck-by-a-car-driver-heres-why-it-was-your-fault">You’re a Cyclist Who Was Just Struck by a Car Driver. Here’s Why It Was Your Fault</a> - <em>Chas Gillespie</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2023/08/scam-victim-cant-stop-endless-stream-of-unwanted-amazon-packages/">Amazon won’t stop sending tortured woman unwanted boxes of shoes</a> - <em>Ashley Belanger</em></p>
+<p><a href="https://www.scientificamerican.com/article/ruins-of-neros-theater-discovered-near-vatican1/">Ruins of Emperor Nero’s Theater Discovered near Vatican</a> - <em>Tom Metcalfe</em></p>
+<hr/>
+<p>🎵 A Song to Leave You With</p>
+<h4>Dave Hause - Time Will Tell</h4>
+<p><a href="https://www.youtube.com/watch?v=zd8E4xRheZA" title="Dave Hause - Time Will Tell">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - August 11, 2023 (#39)]]></title>
         <id>https://kpwags.com/reading-log/39</id>
