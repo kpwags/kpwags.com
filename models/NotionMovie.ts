@@ -19,7 +19,6 @@ export interface NotionMovie {
 }
 
 export interface NotionMovieApiResponse {
-    hasMore: boolean;
     nextCursor: string | null;
     results: NotionMovie[];
 }

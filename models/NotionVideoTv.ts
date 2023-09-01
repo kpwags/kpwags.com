@@ -23,7 +23,6 @@ export interface NotionTv {
 }
 
 export interface NotionTvApiResponse {
-    hasMore: boolean;
     nextCursor: string | null;
     results: NotionTv[];
 }
