@@ -35,7 +35,6 @@ export interface NotionVideoGame {
 }
 
 export interface NotionVideoGamesApiResponse {
-    hasMore: boolean;
     nextCursor: string | null;
     results: NotionVideoGame[];
 }

@@ -215,6 +215,15 @@ main.full-width {
     padding: 0 25px;
 }
 
+#nprogress .bar {
+    background-color: var(--primary-color-1);
+    height: 0.6rem;
+}
+
+#nprogress .peg {
+    box-shadow: none;
+}
+
 .cover {
     width: 100%;
     height: 500px;

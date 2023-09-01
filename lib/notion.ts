@@ -3,7 +3,6 @@ import { VideoGame } from '@models/VideoGame';
 import {
     NotionMusicApiResponse,
     NotionMusic,
-    NotionPageBlocks,
 } from '@models/NotionMusic';
 import { NotionVideoGame, NotionVideoGamesApiResponse } from '@models/NotionVideoGame';
 import { Client } from '@notionhq/client';
@@ -44,7 +43,6 @@ const fetchMusicFromNotion = async (cursor?: string): Promise<NotionMusicApiResp
     const music = response.results as unknown as NotionMusic[];
 
     return {
-        hasMore,
         nextCursor,
         results: music,
     };
@@ -95,7 +93,6 @@ const fetchVideoGamesFromNotion = async (cursor?: string): Promise<NotionVideoGa
     const games = response.results as unknown as NotionVideoGame[];
 
     return {
-        hasMore,
         nextCursor,
         results: games,
     };
@@ -143,17 +140,15 @@ const fetchBooksFromNotion = async (cursor?: string): Promise<NotionBooksApiResp
         ],
     });
 
-    const hasMore = response.has_more;
     let nextCursor: string | null = null;
 
-    if (hasMore) {
+    if (response.has_more) {
         nextCursor = response.next_cursor;
     }
 
     const books = response.results as unknown as NotionBook[];
 
     return {
-        hasMore,
         nextCursor,
         results: books,
     };
@@ -178,17 +173,15 @@ const fetchMoviesFromNotion = async (cursor?: string): Promise<NotionMovieApiRes
         ],
     });
 
-    const hasMore = response.has_more;
     let nextCursor: string | null = null;
 
-    if (hasMore) {
+    if (response.has_more) {
         nextCursor = response.next_cursor;
     }
 
     const movies = response.results as unknown as NotionMovie[];
 
     return {
-        hasMore,
         nextCursor,
         results: movies,
     };
@@ -246,17 +239,15 @@ const fetchTvFromNotion = async (cursor?: string): Promise<NotionTvApiResponse> 
         },
     });
 
-    const hasMore = response.has_more;
     let nextCursor: string | null = null;
 
-    if (hasMore) {
+    if (response.has_more) {
         nextCursor = response.next_cursor;
     }
 
     const tvShows = response.results as unknown as NotionTv[];
 
     return {
-        hasMore,
         nextCursor,
         results: tvShows,
     };
@@ -296,29 +287,18 @@ const mapResultToMusic = (m: NotionMusic): MusicAlbum => ({
 export const getMusic = async (): Promise<MusicAlbum[]> => {
     const albums: MusicAlbum[] = [];
 
-    let hasMore = false;
     let nextCursor;
 
-    const response = await fetchMusicFromNotion();
-
-    hasMore = response.hasMore;
-    nextCursor = response.nextCursor;
-
-    response.results.forEach((m) => {
-        albums.push(mapResultToMusic(m));
-    });
-
-    while (hasMore) {
+    do {
         // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchMusicFromNotion(nextCursor) as NotionMusicApiResponse;
+        const response = await fetchMusicFromNotion(nextCursor) as NotionMusicApiResponse;
 
-        hasMore = resp.hasMore;
-        nextCursor = resp.nextCursor;
+        nextCursor = response.nextCursor;
 
-        resp.results.forEach((m) => {
+        response.results.forEach((m) => {
             albums.push(mapResultToMusic(m));
         });
-    }
+    } while (nextCursor);
 
     return albums
         .sort((a, b) => {
@@ -329,87 +309,6 @@ export const getMusic = async (): Promise<MusicAlbum[]> => {
 
             return 0;
         });
-};
-
-type AlbumId = {
-    params: {
-        id: string
-    }
-}
-
-export const getAllAlbumIds = async (): Promise<AlbumId[]> => {
-    const albumIds: string[] = [];
-
-    let hasMore = false;
-    let nextCursor;
-
-    const response = await fetchMusicFromNotion();
-
-    hasMore = response.hasMore;
-    nextCursor = response.nextCursor;
-
-    response.results.forEach((m) => {
-        albumIds.push(m.id);
-    });
-
-    while (hasMore) {
-        // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchMusicFromNotion(nextCursor) as NotionMusicApiResponse;
-
-        hasMore = resp.hasMore;
-        nextCursor = resp.nextCursor;
-
-        resp.results.forEach((m) => {
-            albumIds.push(m.id);
-        });
-    }
-
-    return albumIds.map((id) => ({
-        params: {
-            id,
-        },
-    }));
-};
-
-const getTracks = (trackListing: NotionPageBlocks[]): string[] => {
-    const tracks: string[] = [];
-
-    trackListing.forEach((tl) => {
-        if (tl.numbered_list_item && tl.numbered_list_item.rich_text.length > 0) {
-            tracks.push(tl.numbered_list_item.rich_text[0].plain_text);
-        }
-    });
-
-    return tracks;
-};
-
-export const getAlbumDetails = async (id: string): Promise<MusicAlbum> => {
-    const notion = new Client({
-        auth: process.env.NOTION_API_KEY,
-    });
-
-    const response = await notion.pages.retrieve({ page_id: id });
-
-    const albumDetails = response as unknown as NotionMusic;
-
-    const pageBlocksResponse = await notion.blocks.children.list({
-        block_id: id,
-        page_size: 75,
-    });
-
-    const trackListing = pageBlocksResponse.results as unknown as NotionPageBlocks[];
-    const tracks = getTracks(trackListing);
-
-    return {
-        id: albumDetails.id,
-        artist: albumDetails.properties.Artist.rich_text[0].plain_text,
-        title: albumDetails.properties.Album.title[0].plain_text,
-        coverUrl: albumDetails.properties.CoverUrl.url,
-        genres: albumDetails.properties.Genre.multi_select.map((i) => i.name),
-        formats: albumDetails.properties.Format.multi_select.map((i) => i.name),
-        sortedName: getSortedName(albumDetails.properties.Artist.rich_text[0].plain_text),
-        tracks,
-    };
 };
 
 const mapResultToVideoGame = (result: NotionVideoGame): VideoGame => ({
@@ -428,29 +327,18 @@ const mapResultToVideoGame = (result: NotionVideoGame): VideoGame => ({
 export const getVideoGames = async (): Promise<VideoGame[]> => {
     const games: VideoGame[] = [];
 
-    let hasMore = false;
     let nextCursor;
 
-    const response = await fetchVideoGamesFromNotion();
-
-    hasMore = response.hasMore;
-    nextCursor = response.nextCursor;
-
-    response.results.forEach((vg) => {
-        games.push(mapResultToVideoGame(vg));
-    });
-
-    while (hasMore) {
+    do {
         // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchVideoGamesFromNotion(nextCursor) as NotionVideoGamesApiResponse;
+        const response = await fetchVideoGamesFromNotion(nextCursor) as NotionVideoGamesApiResponse;
 
-        hasMore = resp.hasMore;
-        nextCursor = resp.nextCursor;
+        nextCursor = response.nextCursor;
 
-        resp.results.forEach((vg) => {
+        response.results.forEach((vg) => {
             games.push(mapResultToVideoGame(vg));
         });
-    }
+    } while (nextCursor);
 
     return games;
 };
@@ -471,29 +359,18 @@ const mapResultToBook = (result: NotionBook): Book => ({
 export const getBooks = async (): Promise<Book[]> => {
     const books: Book[] = [];
 
-    let hasMore = false;
     let nextCursor;
 
-    const response = await fetchBooksFromNotion();
-
-    hasMore = response.hasMore;
-    nextCursor = response.nextCursor;
-
-    response.results.forEach((b) => {
-        books.push(mapResultToBook(b));
-    });
-
-    while (hasMore) {
+    do {
         // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchBooksFromNotion(nextCursor) as NotionBooksApiResponse;
+        const response = await fetchBooksFromNotion(nextCursor) as NotionBooksApiResponse;
 
-        hasMore = resp.hasMore;
-        nextCursor = resp.nextCursor;
+        nextCursor = response.nextCursor;
 
-        resp.results.forEach((b) => {
+        response.results.forEach((b) => {
             books.push(mapResultToBook(b));
         });
-    }
+    } while (nextCursor);
 
     return books;
 };
@@ -525,29 +402,18 @@ const mapResultToTvShow = (result: NotionTv): TV => ({
 export const getTvShows = async (): Promise<TV[]> => {
     const tvShows: TV[] = [];
 
-    let hasMore = false;
     let nextCursor;
 
-    const response = await fetchTvFromNotion();
-
-    hasMore = response.hasMore;
-    nextCursor = response.nextCursor;
-
-    response.results.forEach((tv) => {
-        tvShows.push(mapResultToTvShow(tv));
-    });
-
-    while (hasMore) {
+    do {
         // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchTvFromNotion(nextCursor) as NotionTvApiResponse;
+        const response = await fetchTvFromNotion(nextCursor) as NotionTvApiResponse;
 
-        hasMore = resp.hasMore;
-        nextCursor = resp.nextCursor;
+        nextCursor = response.nextCursor;
 
-        resp.results.forEach((tv) => {
+        response.results.forEach((tv) => {
             tvShows.push(mapResultToTvShow(tv));
         });
-    }
+    } while (nextCursor);
 
     return tvShows
         .sort((a, b) => a.sortedName.localeCompare(b.sortedName));
@@ -598,29 +464,18 @@ const mapResultToMovie = (result: NotionMovie): Movie => ({
 export const getMovies = async (): Promise<Movie[]> => {
     const movies: Movie[] = [];
 
-    let hasMore = false;
     let nextCursor;
 
-    const response = await fetchMoviesFromNotion();
-
-    hasMore = response.hasMore;
-    nextCursor = response.nextCursor;
-
-    response.results.forEach((m) => {
-        movies.push(mapResultToMovie(m));
-    });
-
-    while (hasMore) {
+    do {
         // eslint-disable-next-line no-await-in-loop
-        const resp = await fetchMoviesFromNotion(nextCursor) as NotionMovieApiResponse;
+        const response = await fetchMoviesFromNotion(nextCursor) as NotionMovieApiResponse;
 
-        hasMore = resp.hasMore;
-        nextCursor = resp.nextCursor;
+        nextCursor = response.nextCursor;
 
-        resp.results.forEach((m) => {
+        response.results.forEach((m) => {
             movies.push(mapResultToMovie(m));
         });
-    }
+    } while (nextCursor);
 
     return movies;
 };

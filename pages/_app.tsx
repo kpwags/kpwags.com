@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
+import Router from 'next/router';
+import NProgress from 'nprogress';
 import { AppProps } from 'next/app';
 import { BlogContext } from '@contexts/BlogContext';
 import { useTheme } from '@hooks/useTheme';
@@ -9,6 +11,7 @@ import Footer from '@components/Footer';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
 import Theme, { ColorTheme } from '@models/theme';
 
+import 'nprogress/nprogress.css';
 import '@code-hike/mdx/dist/index.css';
 import '../styles/fonts.css';
 import '../styles/kpwags.css';
@@ -76,6 +79,17 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         url = pageProps.readingLog.url || null;
         imageUrl = pageProps.readingLog.socialImageUrl || null;
     }
+
+    NProgress.configure({
+        minimum: 0.3,
+        easing: 'ease',
+        speed: 800,
+        showSpinner: false,
+    });
+
+    Router.events.on('routeChangeStart', () => NProgress.start());
+    Router.events.on('routeChangeComplete', () => NProgress.done());
+    Router.events.on('routeChangeError', () => NProgress.done());
 
     return (
         <>

@@ -26,7 +26,6 @@ export interface NotionBook {
 }
 
 export interface NotionBooksApiResponse {
-    hasMore: boolean;
     nextCursor: string | null;
     results: NotionBook[];
 }

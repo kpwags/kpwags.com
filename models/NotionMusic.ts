@@ -26,7 +26,6 @@ export interface NotionPageBlocks {
 }
 
 export interface NotionMusicApiResponse {
-    hasMore: boolean;
     nextCursor: string | null;
     results: NotionMusic[];
 }
