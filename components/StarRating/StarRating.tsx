@@ -12,8 +12,22 @@ const StarRating = ({ rating }: StarRatingProps): JSX.Element => {
 
         for (let i = 0; i < rating; i += 1) {
             starsHtml.push(
-                <StarIcon key={i} />,
+                <StarIcon
+                    filled
+                    key={i}
+                />,
             );
+        }
+
+        if (rating < 5) {
+            for (let i = rating; i < 5; i += 1) {
+                starsHtml.push(
+                    <StarIcon
+                        filled={false}
+                        key={(5 + i).toString()}
+                    />,
+                );
+            }
         }
 
         return starsHtml;
