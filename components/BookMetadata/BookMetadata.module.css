@@ -1,0 +1,64 @@
+.metadata {
+    margin: 2rem 0;
+    display: flex;
+    gap: 4rem;
+}
+
+.image {
+    min-width: 200px;
+    margin: 0 auto 2rem;
+}
+
+.metadata h3 {
+    color: var(--text);
+    margin-bottom: 0.6rem;
+}
+
+.categories {
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.category {
+    padding: 0 1rem;
+    background-color: var(--primary-color-2);
+    color: var(--tag-text-color);
+    border-radius: 0.25rem;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.links a {
+    text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+    .metadata {
+        display: block;
+    }
+
+    .image {
+        width: 200px;
+        margin: 0 auto 2rem;
+    }
+
+    .links {
+        display: block;
+    }
+
+    .links a {
+        display: block;
+        margin: 0.3rem 0;
+    }
+}

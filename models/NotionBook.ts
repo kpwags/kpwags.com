@@ -22,6 +22,7 @@ export interface NotionBook {
         Rating: NotionNumber;
         Status: NotionSelectStatus;
         DateFinished: NotionDate;
+        ReviewUrlSlug: NotionPlainText;
     };
 }
 

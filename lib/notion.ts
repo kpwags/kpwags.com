@@ -354,6 +354,8 @@ const mapResultToBook = (result: NotionBook): Book => ({
     status: result.properties.Status.select.name === 'In Progress' ? 'current' : 'read',
     link: result.properties.Link.url,
     yearRead: result.properties.DateFinished.date ? new Date(result.properties.DateFinished.date.start).getFullYear() : null,
+    // eslint-disable-next-line camelcase
+    reviewUrlSlug: result.properties.ReviewUrlSlug.rich_text[0]?.plain_text ?? null,
 });
 
 export const getBooks = async (): Promise<Book[]> => {

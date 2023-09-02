@@ -8,4 +8,5 @@ export interface Book {
     thoughts: string | null;
     status: 'current' | 'read';
     yearRead: number | null;
+    reviewUrlSlug: string | null;
 }

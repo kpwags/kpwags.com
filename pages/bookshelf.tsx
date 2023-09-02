@@ -35,7 +35,7 @@ const Bookshelf = ({ books }: BookshelfProps): JSX.Element => {
             <Head><title>Bookshelf - Keith Wagner</title></Head>
             <main className="full-width">
                 <div className={styles.container}>
-                    <h1>Books I&apos;ve Read</h1>
+                    <h1>My Bookshelf</h1>
 
                     {uniqueYears.map((y) => (
                         <div key={y}>
