@@ -1,6 +1,7 @@
 import StarRating from '@components/StarRating';
 import { Book } from '@models/Book';
-import { useState } from 'react';
+import { ReactNode, useState } from 'react';
+import Link from 'next/link';
 
 import styles from './BookListing.module.css';
 
@@ -11,23 +12,31 @@ type BookListingProps = {
 const BookListing = ({ book }: BookListingProps): JSX.Element => {
     const [showThoughts, setShowThoughts] = useState(false);
 
+    const BookLink = ({ children }: { children: ReactNode }): JSX.Element => (
+        <a href={book.link} target="_blank" rel="noreferrer nofollow" className={styles.externalLink}>{children}</a>
+    );
+
     return (
         <div className={styles.item}>
             <div>
-                <a href={book.link} target="_blank" rel="noreferrer">
+                <BookLink>
                     <img src={book.coverUrl} alt={book.title} className={styles.cover} height={300} width={200} />
-                </a>
+                </BookLink>
             </div>
             <div>
-                <a href={book.link} target="_blank" rel="noreferrer">
+                <BookLink>
                     {book.title}
-                </a>
+                </BookLink>
 
                 {book.author ? <div className={styles.meta}>{book.author}</div> : null}
 
                 {(book.rating !== null || book.thoughts !== null) ? (
                     <>
                         {book.rating !== null ? <StarRating rating={book.rating} /> : null}
+
+                        {book.reviewUrlSlug ? (
+                            <Link href={`/books/${book.reviewUrlSlug}`} className={styles.notes}>Book Notes</Link>
+                        ) : null}
 
                         {book.thoughts !== null && (
                             <div className={styles.viewThoughts}>
@@ -39,7 +48,7 @@ const BookListing = ({ book }: BookListingProps): JSX.Element => {
                                         setShowThoughts(!showThoughts);
                                     }}
                                 >
-                                    {showThoughts ? 'Hide Thoughts' : 'View Thoughts'}
+                                    {showThoughts ? 'Hide' : 'Quick Notes'}
                                 </button>
                                 <div className={styles.thoughts} hidden={!showThoughts}>{book.thoughts}</div>
                             </div>
