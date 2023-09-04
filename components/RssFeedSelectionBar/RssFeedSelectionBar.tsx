@@ -11,7 +11,7 @@ const RssFeedSelectionBar = ({
         <h3 className={styles.barHeader}>RSS Feeds</h3>
         <div className={styles.feedOptions}>
             <div>
-                <h3>All Posts</h3>
+                <h3>Everything</h3>
                 <ul>
                     <li><a href="/rss/atom.xml">Atom</a></li>
                     <li><a href="/rss/feed.xml">RSS</a></li>
@@ -32,6 +32,14 @@ const RssFeedSelectionBar = ({
                     <li><a href="/rss/readinglog_atom.xml">Atom</a></li>
                     <li><a href="/rss/readinglog_feed.xml">RSS</a></li>
                     <li><a href="/rss/readinglog_feed.json">JSON</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Book Notes</h3>
+                <ul>
+                    <li><a href="/rss/booknotes_atom.xml">Atom</a></li>
+                    <li><a href="/rss/booknotes_feed.xml">RSS</a></li>
+                    <li><a href="/rss/booknotes_feed.json">JSON</a></li>
                 </ul>
             </div>
         </div>

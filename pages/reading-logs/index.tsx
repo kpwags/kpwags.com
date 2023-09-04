@@ -1,4 +1,3 @@
-import React from 'react';
 import Head from 'next/head';
 import { getPaginatedReadingLogs } from '@lib/readinglog';
 import { GetStaticProps } from 'next';
@@ -17,11 +16,11 @@ export const getStaticProps: GetStaticProps = async () => {
     };
 };
 
-interface BlogProps {
+interface ReadingLogProps {
     readingLogs: ReadingLog[]
 }
 
-const ReadingLogs = ({ readingLogs }: BlogProps): JSX.Element => (
+const ReadingLogs = ({ readingLogs }: ReadingLogProps): JSX.Element => (
     <>
         <Head><title>Reading Logs - Keith Wagner</title></Head>
         <RssFeeds />

@@ -80,6 +80,13 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         imageUrl = pageProps.readingLog.socialImageUrl || null;
     }
 
+    if (pageProps.book) {
+        title = `Book Notes - ${pageProps.book.title} by ${pageProps.book.author}`;
+        description = pageProps.book.excerpt || null;
+        url = pageProps.book.url || null;
+        imageUrl = pageProps.book.socialImageUrl || null;
+    }
+
     NProgress.configure({
         minimum: 0.3,
         easing: 'ease',
@@ -103,7 +110,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                 <link rel="manifest" href="/site.webmanifest" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:site_name" content="Keith Wagner" />
-                {pageProps.post || pageProps.readingLog ? (
+                {pageProps.post || pageProps.readingLog || pageProps.book ? (
                     <>
                         <meta name="description" content={description || ''} />
                         <meta property="og:type" content="article" />

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-09-04T16:41:07.528Z</updated>
+    <updated>2023-09-04T19:01:58.217Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -63,6 +63,38 @@
 <p>🎵 A Song to Leave You With</p>
 <h4>Spanish Love Songs - Pendulum</h4>
 <p><a href="https://www.youtube.com/watch?v=S5JbWqXJN7E" title="Spanish Love Songs - Pendulum">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Book Note - Dead Wake: The Last Crossing of the Lusitania by Erik Larson]]></title>
+        <id>https://kpwags.com/books/erik-larson-dead-wake</id>
+        <link href="https://kpwags.com/books/erik-larson-dead-wake"/>
+        <updated>2023-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This book was an interesting read looking at one of the biggest victims of unrestricted submarine warfare. It was also the start of the events that would bring the US into World War I two years later.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>This book was an interesting read looking at one of the biggest victims of unrestricted submarine warfare. It was also the start of the events that would bring the US into World War I two years later.</p>
+<p>The book Bounces between passenger and crew stories from the <em>Lusitania</em>, the path of <em>U-20</em> and Captain Lieutenant Walther Schwieger, who would sink the <em>Lusitania</em>.</p>
+<p>While talking about Schwieger and the German U-Boat fleet, this line stood out to me:</p>
+<blockquote>
+<p>Unlike large surface craft, a U-boat came to reflect the character and personality of its commander, as though the boat were a suit of steel tailored just for him. This arose from the fact that while on distant patrol the captain received no orders from superiors and had more direct control over his own men than would, say, an admiral aboard a flagship, with a fleet of ships and thousands of men under his command. There were cruel boats and chivalrous boats, lazy boats and energetic boats. Some captains made no attempt to save the lives of merchant seamen; others went so far as to tow lifeboats toward land. One U-boat commander sent the captain of a torpedoed ship three bottles of wine to ease the long row ashore.</p>
+</blockquote>
+<p>Could you imagine being a captain of a ship just sunk by a submarine, and the sub captain pops up and offers you wine?</p>
+<p>The book also talks about how British Intelligence had broken German codes and were tracking <em>U-20</em> and were generally aware of where it was and what it was doing, but had neglected to alert the <em>Lusitania</em> or send any of their warships to help escort it to Liverpool or an alternate port.</p>
+<p>A naval historian, Patrick Beesley later even pointed this out.</p>
+<blockquote>
+<p>&quot;As an Englishman and a lover of the Royal Navy,&quot; he said, &quot;I would prefer to attribute this failure to negligence, even gross negligence, rather than to a conspiracy deliberately to endanger the ship.&quot; But, he said, &quot;on the basis of the considerable volume of information which is now available, I am reluctantly compelled to state that on balance, the most likely explanation is that there was indeed a plot, however imperfect, to endanger the <em>Lusitania</em> in order to involve the United States in the war.&quot; So much was done for the Orion and other warships, he wrote, but nothing for the <em>Lusitania</em>. He struggled with this. No matter how he arranged the evidence, he came back to conspiracy.&quot;</p>
+</blockquote>
+<p>It caps off what was an absolute tragedy costing the lives of almost 1,200 civilians. Carrying munitions bound for the frontlines on a passenger ship is questionable at best, but the lack of escort, or even actionable warnings being sent to the <em>Lusitania</em> after being specifically threatened by Germany should be criminal.</p>
+<p>Morals aside, it was a compelling read. It was interesting to hear all the different stories from some of the passengers on board.</p>
             </div>
         ]]></content>
         <author>

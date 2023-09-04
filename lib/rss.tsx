@@ -6,6 +6,7 @@ import { MDXRemote } from 'next-mdx-remote';
 import ReactDOMServer from 'react-dom/server';
 import { BlogTag } from '@models/BlogTag';
 import { BlogPost } from '@models/blogPost';
+import { BookNote } from '@models/BookNote';
 import marked from 'marked';
 import matter from 'gray-matter';
 import { remarkCodeHike } from '@code-hike/mdx';
@@ -25,9 +26,9 @@ import InDepthNotes from '@components/InDepthNotes';
 import YouTubeEmbed from '@components/RssYouTubeEmbed';
 import CodeSandbox from '@components/CodeSandbox/CodeSandbox';
 
-import { buildUrlFromId } from './utilities';
-import { getPostExcerpt } from './posts';
-import { convertToPost } from './readinglog';
+import { buildUrlFromId, getPostExcerpt } from './utilities';
+import { convertToPost as convertReadingLogToPost } from './readinglog';
+import { convertToPost as convertBookNoteToPost } from './books';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const theme = require('shiki/themes/github-dark-dimmed.json');
@@ -48,6 +49,7 @@ const components = {
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 const readingLogDirectory = path.join(process.cwd(), 'reading-logs');
+const bookNotesDirectory = path.join(process.cwd(), 'books');
 
 export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogPost, b: BlogPost) => {
     if (a.date < b.date) {
@@ -58,6 +60,13 @@ export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogP
 
 export const sortReadingLogs = (posts: ReadingLog[]): ReadingLog[] => posts.sort((a: ReadingLog, b: ReadingLog) => {
     if (a.date < b.date) {
+        return 1;
+    }
+    return -1;
+});
+
+export const sortBookNotes = (posts: BookNote[]): BookNote[] => posts.sort((a: BookNote, b: BookNote) => {
+    if (a.dateFinished < b.dateFinished) {
         return 1;
     }
     return -1;
@@ -149,13 +158,54 @@ const getReadingLogsForRssFeed = async (): Promise<ReadingLog[]> => {
     return sortReadingLogs(posts);
 };
 
+const getBookNotesForRssFeed = async (): Promise<BookNote[]> => {
+    // Get file names under /posts
+    const fileNames = fs.readdirSync(bookNotesDirectory);
+
+    const allBooks: BookNote[] = await Promise.all(fileNames.map(async (fileName) => {
+        const slug = fileName.replace(/\.mdx$/, '');
+
+        // Read markdown file as string
+        const fullPath = path.join(bookNotesDirectory, fileName);
+        const fileContents = fs.readFileSync(fullPath, 'utf8');
+
+        // Use gray-matter to parse the post metadata section
+        const { content, data } = matter(fileContents);
+
+        const html = marked(content);
+        const excerpt = getPostExcerpt(html);
+        const mdx = await serialize(content, { scope: data });
+
+        const categories = data.categories || [] as string[];
+
+        return {
+            slug,
+            title: data.title,
+            author: data.author,
+            categories,
+            links: data.links,
+            coverImage: data.coverImage,
+            dateFinished: data.dateFinished,
+            rating: data.rating,
+            content: mdx.compiledSource,
+            excerpt,
+            url: `/books/${slug}`,
+            socialImageUrl: null,
+        };
+    }));
+
+    return sortBookNotes(allBooks);
+};
+
 const getAllPosts = async (): Promise<Item[]> => {
     const posts = await getPostsForRssFeed();
     const logs = await getReadingLogsForRssFeed();
+    const bookNotes = await getBookNotesForRssFeed();
 
     const allPosts: BlogPost[] = sortPosts([
         ...posts,
-        ...logs.map((l) => convertToPost(l)),
+        ...logs.map((l) => convertReadingLogToPost(l)),
+        ...bookNotes.map((n) => convertBookNoteToPost(n)),
     ]);
 
     const items: Item[] = [];
@@ -285,6 +335,48 @@ const getReadingLogs = async (): Promise<Item[]> => {
     return items;
 };
 
+const getBookNotes = async (): Promise<Item[]> => {
+    const bookNotes = await getBookNotesForRssFeed();
+
+    const items: Item[] = [];
+
+    bookNotes.forEach((note) => {
+        const mdx = (
+            <MDXRemote
+                compiledSource={note.content}
+                components={components}
+                scope={note}
+                frontmatter={note}
+            />
+        );
+
+        const html = ReactDOMServer.renderToStaticMarkup(mdx);
+
+        const htmlContent = `
+            <div>
+                ${html}
+            </div>
+        `;
+
+        items.push({
+            title: `${note.title} by ${note.author}`,
+            id: `https://kpwags.com${note.url}`,
+            link: `https://kpwags.com${note.url}`,
+            description: note.excerpt,
+            content: htmlContent,
+            author: [{
+                name: 'Keith Wagner',
+                email: 'blog@kpwags.com',
+                link: 'https://kpwags.com/',
+            }],
+            date: new Date(note.dateFinished),
+            image: note.socialImageUrl || null,
+        });
+    });
+
+    return items;
+};
+
 const generateRssFeed = async (): Promise<void> => {
     const baseUrl = 'https://kpwags.com';
     const date = new Date();
@@ -327,7 +419,7 @@ const generateBlogPostRssFeed = async (): Promise<void> => {
     const date = new Date();
 
     const feed = new Feed({
-        title: 'Keith Wagner',
+        title: 'Keith Wagner - Blog Posts',
         description: "I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.",
         id: baseUrl,
         link: baseUrl,
@@ -364,7 +456,7 @@ const generateReadingLogRssFeed = async (): Promise<void> => {
     const date = new Date();
 
     const feed = new Feed({
-        title: 'Keith Wagner',
+        title: 'Keith Wagner - Reading Logs',
         description: "I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.",
         id: baseUrl,
         link: baseUrl,
@@ -396,8 +488,54 @@ const generateReadingLogRssFeed = async (): Promise<void> => {
     fs.writeFileSync(`${publicDirectory}/rss/readinglog_feed.json`, feed.json1());
 };
 
+const generateBookNotesRssFeed = async (): Promise<void> => {
+    const baseUrl = 'https://kpwags.com';
+    const date = new Date();
+
+    const feed = new Feed({
+        title: 'Keith Wagner - Book Notes',
+        description: "I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.",
+        id: baseUrl,
+        link: baseUrl,
+        language: 'en',
+        favicon: `${baseUrl}/favicon.ico`,
+        copyright: `${date.getFullYear()} Keith Wagner`,
+        updated: date,
+        generator: 'Next.js using Feed for Node.js',
+        feedLinks: {
+            rss2: `${baseUrl}/rss/booknotes_feed.xml`,
+            json: `${baseUrl}/rss/booknotes_atom.json`,
+            atom: `${baseUrl}/rss/booknotes_feed.xml`,
+        },
+        author: {
+            name: 'Keith Wagner',
+            email: 'blog@kpwags.com',
+            link: 'https://kpwags.com/',
+        },
+    });
+
+    const items = await getBookNotes();
+
+    items.forEach((i) => feed.addItem(i));
+
+    const publicDirectory = path.join(process.cwd(), 'public');
+
+    fs.writeFileSync(`${publicDirectory}/rss/booknotes_feed.xml`, feed.rss2());
+    fs.writeFileSync(`${publicDirectory}/rss/booknotes_atom.xml`, feed.atom1());
+    fs.writeFileSync(`${publicDirectory}/rss/booknotes_feed.json`, feed.json1());
+};
+
+const generateAllRssFeeds = async (): Promise<void> => {
+    await generateRssFeed();
+    await generateReadingLogRssFeed();
+    await generateBlogPostRssFeed();
+    await generateBookNotesRssFeed();
+};
+
 export {
+    generateAllRssFeeds,
     generateRssFeed,
     generateReadingLogRssFeed,
     generateBlogPostRssFeed,
+    generateBookNotesRssFeed,
 };

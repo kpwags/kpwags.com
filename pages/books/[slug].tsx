@@ -1,6 +1,6 @@
 import BookMetadata from '@components/BookMetadata/BookMetadata';
 import { getAllBookSlugs, getBookData } from '@lib/books';
-import { BookPage } from '@models/BookPage';
+import { BookNote } from '@models/BookNote';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { MDXRemote } from 'next-mdx-remote';
 import Head from 'next/head';
@@ -25,7 +25,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 };
 
 interface BookPageProps {
-    book: BookPage
+    book: BookNote
 }
 
 const Post = ({ book }: BookPageProps): JSX.Element => (

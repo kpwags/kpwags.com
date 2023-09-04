@@ -1,4 +1,4 @@
-export interface BookPage {
+export interface BookNote {
     title: string;
     author: string;
     categories: string[];
@@ -8,4 +8,7 @@ export interface BookPage {
     rating: number;
     slug: string;
     content: string;
+    excerpt: string;
+    url: string;
+    socialImageUrl: string | null;
 }

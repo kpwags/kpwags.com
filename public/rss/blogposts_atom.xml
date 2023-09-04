@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
-    <title>Keith Wagner</title>
-    <updated>2023-09-04T16:41:08.735Z</updated>
+    <title>Keith Wagner - Blog Posts</title>
+    <updated>2023-09-04T19:01:59.525Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>

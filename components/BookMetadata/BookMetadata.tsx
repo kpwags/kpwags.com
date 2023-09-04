@@ -1,11 +1,11 @@
-import { BookPage } from '@models/BookPage';
+import { BookNote } from '@models/BookNote';
 import { formatDate } from '@lib/utilities';
 import StarRating from '@components/StarRating/StarRating';
 
 import styles from './BookMetadata.module.css';
 
 interface BookMetadataProps {
-    book: BookPage
+    book: BookNote
 }
 
 const BookMetadata = ({

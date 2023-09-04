@@ -46,6 +46,7 @@ const Header = (): JSX.Element => {
                     <nav className={styles.nav}>
                         <Link aria-label="Blog" href="/blog">Blog</Link>
                         <Link aria-label="Reading Logs" href="/reading-logs">Reading Logs</Link>
+                        <Link aria-label="Book Notes" href="/book-notes">Book Notes</Link>
                         <Link aria-label="About" href="/about" className="hide-on-tablet">About</Link>
                     </nav>
                 </div>
@@ -60,9 +61,9 @@ const Header = (): JSX.Element => {
             </header>
 
             <nav className={styles.mobileNav}>
-                <a href="/blog">Blog</a>
-                <a href="/reading-logs">Reading Logs</a>
-                <a href="/about">About</a>
+                <Link href="/blog">Blog</Link>
+                <Link href="/reading-logs">Reading Logs</Link>
+                <Link href="/book-notes">Book Notes</Link>
             </nav>
 
             <RssFeedSelectionBar
