@@ -4,11 +4,64 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 28 Aug 2023 22:25:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Sep 2023 16:41:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - September 4, 2023 (#42)]]></title>
+            <link>https://kpwags.com/reading-log/42</link>
+            <guid>https://kpwags.com/reading-log/42</guid>
+            <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I finally read a great profile on Mike Masnick, the founder of TechDirt, NASA being concerned with its ability to maintain its Deep Space Network, more reasons to just build your sites, and more.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>This week I finally read a great profile on Mike Masnick, the founder of TechDirt, NASA being concerned with its ability to maintain its Deep Space Network, more reasons to just build your sites, and more.</p>
+<h2>Link Blast</h2>
+<h3>🖥 Software Development &amp; Design</h3>
+<p><a href="https://stackoverflow.blog/2023/08/24/if-you-want-to-address-tech-debt-quantify-it-first/">If you want to address tech debt, quantify it first</a> - <em>Ryan Donovan</em></p>
+<p><a href="http://ryanmorr.com/abstract-away-the-performance-faults-of-queryselectorall/">Abstract Away the Performance Faults of querySelectorAll</a> - <em>Ryan Morr</em></p>
+<p><a href="https://danielcwilson.com/posts/mathematicss-round/">The New CSS Math: round()</a> - <em>Daniel C. Wilson</em></p>
+<p><a href="https://daverupert.com/2023/08/why-rewrite-with-web-components/">If I’m already using React, why should I rewrite my app with Web Components?</a> - <em>Dave Rupert</em></p>
+<p><a href="https://blog.stephaniestimac.com/posts/2023/09/just-build-it/">Just Build It...</a> - <em>Stephanie Stimac</em></p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-retirement-announcement/">Visual Studio for Mac Retirement Announcement</a> - <em>Anthony Cangialosi</em></p>
+<p><a href="https://www.bytehide.com/blog/data-annotations-in-csharp">Data Annotations in C#: Your Complete Guide</a> - <em>ByteHyde</em></p>
+<p><a href="https://robinrendle.com/notes/why-are-websites-embarrassing/">Why are websites embarrassing?</a> - <em>Robin Rendle</em></p>
+<hr/>
+<h3>📡 Technology &amp; the Internet</h3>
+<p><a href="https://www.infinitescroll.us/p/the-internet-is-for-extremism">The Internet is for Extremism</a> - <em>Jeremiah Johnson</em></p>
+<p><a href="https://www.404media.co/i-tracked-nyc-subway-rider-home-omny-mta/">I Tracked an NYC Subway Rider&#x27;s Movements with an MTA ‘Feature’</a> - <em>Joseph Cox</em></p>
+<p><a href="https://www.theverge.com/2023/8/30/23851902/microsoft-bing-popups-windows-11-malware">Microsoft is using malware-like pop-ups in Windows 11 to get people to ditch Google</a> - <em>Tom Warren</em></p>
+<p><a href="https://arstechnica.com/gadgets/2023/08/mcdonalds-ice-cream-machine-teardown-shows-error-codes-dmca-keep-it-broken/">iFixit tears down a McDonald’s ice cream machine, demands DMCA exemption for it</a> - <em>Kevin Purdy</em></p>
+<p><a href="https://www.nytimes.com/2023/07/29/technology/mike-masnick-techdirt-internet-future.html">An Internet Veteran’s Guide to Not Being Scared of Technology</a> - <em>Kashmir Hill</em></p>
+<hr/>
+<h3>🔬 Science</h3>
+<p><a href="https://theconversation.com/space-junk-in-earth-orbit-and-on-the-moon-will-increase-with-future-missions-but-nobodys-in-charge-of-cleaning-it-up-212421">Space junk is on the rise, and no one is in charge of cleaning it up</a> - <em>Chris Impey</em></p>
+<p><a href="https://arstechnica.com/space/2023/08/nasas-artemis-i-mission-nearly-broke-the-deep-space-network/">NASA officials sound alarm over future of the Deep Space Network</a> - <em>Stephen Clark</em></p>
+<p><a href="https://www.ornl.gov/news/neutrons-prove-bond-villain-did-not-cause-arecibo-telescope-collapse">Neutrons prove ‘Bond villain’ did not cause Arecibo telescope collapse</a> - <em>Oak Ridge National Laboratory</em></p>
+<hr/>
+<h3>⚾️ Sports</h3>
+<p><a href="https://theathletic.com/4755552/2023/08/16/mlb-tourette-syndrome-jim-eisenreich">A former MLB player who once struggled with Tourette syndrome finds peace helping others</a> - <em>Zack Meisel</em></p>
+<p><a href="https://theathletic.com/4814360/2023/08/29/professional-womens-hockey-league-teams/">Professional Women’s Hockey League Announces Original 6 Markets, Draft Plan</a> - <em>Hailey Salvian</em></p>
+<hr/>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://shoptalkshow.com/554/">ShopTalk Show #554: Jamstack Thoughts with Brian Rinaldi</a></p>
+<p><a href="https://www.techdirt.com/2023/08/29/techdirt-podcast-episode-363-social-media-mental-health/">Techdirt Podcast #363: Social Media &amp; Mental Health</a></p>
+<hr/>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://www.economist.com/business/2023/08/31/the-best-bosses-know-how-to-subtract-work">The best bosses know how to subtract work</a> - <em>The Economist</em></p>
+<p><a href="https://radleybalko.substack.com/p/devil-in-the-grooves-the-case-against">Devil in the grooves: The case against forensic firearms analysis</a> - <em>Radley Balko</em></p>
+<hr/>
+<p>🎵 A Song to Leave You With</p>
+<h4>Spanish Love Songs - Pendulum</h4>
+<p><a href="https://www.youtube.com/watch?v=S5JbWqXJN7E" title="Spanish Love Songs - Pendulum">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - August 28, 2023 (#41)]]></title>
             <link>https://kpwags.com/reading-log/41</link>
