@@ -23,7 +23,7 @@
 .category {
     padding: 0 1rem;
     background-color: var(--primary-color-2);
-    color: var(--tag-text-color);
+    color: var(--background);
     border-radius: 0.25rem;
 }
 

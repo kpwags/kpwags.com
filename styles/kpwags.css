@@ -107,7 +107,7 @@
 [data-theme*='dark'][data-color-theme*='blue'] {
     --primary-color-1: hsl(213 100% 66%);
     --primary-color-2: hsl(230 100% 67%);
-    --primary-color-3: hsl(223, 79%, 57%);
+    --primary-color-3: hsl(223, 79%, 70%);
 }
 
 [data-color-theme*='orange'] {
