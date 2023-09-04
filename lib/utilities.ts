@@ -28,3 +28,10 @@ export const buildUrlFromId = (id: string): string => {
 };
 
 export const removeAnchorLink = (str: string): string => str.replace(/<a.*?>/ig, '').replace(/<\/a>/ig, '');
+
+export const getPostExcerpt = (html: string): string => {
+    const endParagraphIndex = html.indexOf('</p>');
+    const snippet = html.substring(0, endParagraphIndex);
+
+    return snippet.replace('<p>', '');
+};

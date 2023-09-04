@@ -5,7 +5,7 @@ import marked from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { remarkCodeHike } from '@code-hike/mdx';
-import { buildUrlFromId, removeAnchorLink } from './utilities';
+import { buildUrlFromId, removeAnchorLink, getPostExcerpt } from './utilities';
 import { postsPerPage } from './config';
 import decodeHtmlEntities from './decodeHtmlEntities';
 import generateTagUrl from './generateTagUrl';
@@ -45,13 +45,6 @@ export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogP
     }
     return -1;
 });
-
-export const getPostExcerpt = (html: string): string => {
-    const endParagraphIndex = html.indexOf('</p>');
-    const snippet = html.substring(0, endParagraphIndex);
-
-    return snippet.replace('<p>', '');
-};
 
 export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
     const fileNames = fs.readdirSync(postsDirectory);

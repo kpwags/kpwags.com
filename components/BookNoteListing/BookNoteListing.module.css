@@ -1,0 +1,53 @@
+.bookNote {
+    display: flex;
+    gap: 4rem;
+    margin: 2rem 0;
+}
+
+.image {
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+.bookNote h2 {
+    font-size: 1.9rem;
+}
+
+.bookNote h2 a {
+    text-decoration: underline;
+}
+
+.bookNote h3 {
+    color: var(--text);
+    margin-bottom: 0.6rem;
+}
+
+.categories {
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.category {
+    padding: 0 1rem;
+    background-color: var(--primary-color-2);
+    color: var(--background);
+    border-radius: 0.25rem;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 450px) {
+    .bookNote {
+        display: block;
+    }
+
+    .image {
+        width: 200px;
+        margin: 0 auto 2rem;
+    }
+}

@@ -4,11 +4,7 @@ import Welcome from '@components/Welcome';
 import LatestPosts from '@components/LatestPosts';
 import { BlogPost } from '@models/blogPost';
 import RssFeeds from '@components/RssFeeds';
-import {
-    generateRssFeed,
-    generateReadingLogRssFeed,
-    generateBlogPostRssFeed,
-} from '@lib/rss';
+import { generateAllRssFeeds } from '@lib/rss';
 import { getAllReadingLogs } from '@lib/readinglog';
 import { ReadingLog } from '@models/ReadingLog';
 
@@ -16,9 +12,7 @@ export const getStaticProps: GetStaticProps = async () => {
     const blogPosts = getAllPosts();
     const readingLogs = getAllReadingLogs();
 
-    await generateRssFeed();
-    await generateBlogPostRssFeed();
-    await generateReadingLogRssFeed();
+    await generateAllRssFeeds();
 
     return {
         props: {

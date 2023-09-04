@@ -7,6 +7,7 @@ import { ReadingLog } from '@models/ReadingLog';
 import { BlogPost } from '@models/blogPost';
 import generateTagUrl from './generateTagUrl';
 import { postsPerPage } from './config';
+import { getPostExcerpt } from './utilities';
 
 const readingLogDirectory = path.join(process.cwd(), 'reading-logs');
 const readingLogImagesDirectory = path.join(process.cwd(), 'public', 'images', 'readinglogs');
@@ -17,13 +18,6 @@ export const sortPosts = (posts: ReadingLog[]): ReadingLog[] => posts.sort((a: R
     }
     return -1;
 });
-
-export const getPostExcerpt = (html: string): string => {
-    const endParagraphIndex = html.indexOf('</p>');
-    const snippet = html.substring(0, endParagraphIndex);
-
-    return snippet.replace('<p>', '');
-};
 
 export const getAllReadingLogs = (): ReadingLog[] => {
     const fileNames = fs.readdirSync(readingLogDirectory);

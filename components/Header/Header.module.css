@@ -70,8 +70,4 @@
     .logo img {
         display: none;
     }
-
-    .mobileNav a:last-child {
-        display: none;
-    }
 }
