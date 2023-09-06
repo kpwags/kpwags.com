@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-09-04T19:01:58.217Z</updated>
+    <updated>2023-09-06T23:25:28.303Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,27 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Added Book Notes]]></title>
+        <id>https://kpwags.com/posts/2023/09/06/added-book-notes</id>
+        <link href="https://kpwags.com/posts/2023/09/06/added-book-notes"/>
+        <updated>2023-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You might have noticed that I added a new section to my page called “Book Notes”, and RSS subscribers might have noticed the same thing. Inspired by a <a href="https://mastodon.social/@matthiasott/110983854141456413">Mastodon post by Matthias Ott</a>, I decided to add something more than quick notes on the books I read.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>You might have noticed that I added a new section to my page called “Book Notes”, and RSS subscribers might have noticed the same thing. Inspired by a <a href="https://mastodon.social/@matthiasott/110983854141456413">Mastodon post by Matthias Ott</a>, I decided to add something more than quick notes on the books I read.</p>
+<p>For some books, probably not all, I’m hoping to add more notes and details about what I thought of the book. These notes will show up on the book notes page and my general RSS feed. I also added a separate <a href="https://kpwags.com/rss/booknotes_feed.xml">RSS feed</a> specifically for book notes. You can also go right to the book’s book notes page from my full <a href="https://kpwags.com/bookshelf">bookshelf page</a> if you see the link titled “Book Notes”.</p>
+<p><a href="https://kpwags.com/book-notes">View Book Notes</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reading Log - September 4, 2023 (#42)]]></title>
         <id>https://kpwags.com/reading-log/42</id>
