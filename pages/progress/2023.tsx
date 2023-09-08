@@ -12,7 +12,7 @@ const ProgressFor2023 = (): JSX.Element => (
 
                 <p>I figured it would be a nice idea to create a page to show my progress on my goals for 2023.</p>
 
-                <p><em>Last Updated: September 2, 2022</em></p>
+                <p><em>Last Updated: September 8, 2022</em></p>
 
                 <h2>Goal #1: Learn (Re-Learn?) Guitar</h2>
                 <p>My goal for 2023 teach myself guitar. I want to learn 10 &quot;modern&quot; rock songs.</p>
@@ -26,7 +26,7 @@ const ProgressFor2023 = (): JSX.Element => (
                 <p>My goal for 2023 is to read 30 books.</p>
 
                 <h3>Total Books Read</h3>
-                <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={18} />
+                <ProgressBar color="hsl(271, 88%, 51%)" fullValue={30} currentValue={19} />
 
                 <hr />
 
@@ -34,7 +34,7 @@ const ProgressFor2023 = (): JSX.Element => (
                 <p>My goal for 2023 is to write 12 technical blog posts.</p>
 
                 <h3>Technical Blog Posts Written</h3>
-                <ProgressBar color="hsl(24, 69%, 59%)" fullValue={14} currentValue={6} />
+                <ProgressBar color="hsl(24, 69%, 59%)" fullValue={14} currentValue={7} />
 
                 <hr />
 
