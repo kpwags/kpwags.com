@@ -9,8 +9,7 @@ import generateTagUrl from './generateTagUrl';
 import { postsPerPage } from './config';
 import { getPostExcerpt } from './utilities';
 
-const readingLogDirectory = path.join(process.cwd(), 'reading-logs');
-const readingLogImagesDirectory = path.join(process.cwd(), 'public', 'images', 'readinglogs');
+const readingLogDirectory = path.join(process.cwd(), 'content', 'reading-logs');
 
 export const sortPosts = (posts: ReadingLog[]): ReadingLog[] => posts.sort((a: ReadingLog, b: ReadingLog) => {
     if (a.date < b.date) {
@@ -76,11 +75,6 @@ export const getReadingLogData = async (readingLogNumber: number) : Promise<Read
 
     const tags = data.tags || [] as string[];
 
-    let socialImage = '';
-    if (fs.existsSync(path.join(readingLogImagesDirectory, `${readingLogNumber}.jpg`))) {
-        socialImage = `images/readinglogs/${readingLogNumber}.jpg`;
-    }
-
     return {
         id: readingLogNumber.toString(),
         title: data.title,
@@ -92,7 +86,7 @@ export const getReadingLogData = async (readingLogNumber: number) : Promise<Read
         tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
         content: mdx.compiledSource,
         commentIssueNumber: data.commentIssueNumber,
-        socialImageUrl: socialImage,
+        socialImageUrl: `images/social/reading-logs/${readingLogNumber}.jpg`,
     };
 };
 
@@ -157,7 +151,6 @@ export const convertToPost = (log: ReadingLog): BlogPost => {
         url: log.url,
         content: log.content,
         description: log.excerpt,
-        hasEmbeddedTweet: false,
         tags: log.tags,
         commentIssueNumber: log.commentIssueNumber,
         wordCount: 0,

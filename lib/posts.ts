@@ -36,8 +36,8 @@ type PostQuery = {
     id: string
 }
 
-const postsDirectory = path.join(process.cwd(), 'posts');
-const postImagesDirectory = path.join(process.cwd(), 'public', 'images', 'posts');
+const postsDirectory = path.join(process.cwd(), 'content', 'blog');
+const postImagesDirectory = path.join(process.cwd(), 'public', 'images', 'social', 'blog');
 
 export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogPost, b: BlogPost) => {
     if (a.date < b.date) {
@@ -86,7 +86,6 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             date: data.date,
             subheading: data.subheading || null,
             url,
-            hasEmbeddedTweet: false,
             tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
             content: html,
             isRssOnly: data.isRssOnly || false,
@@ -191,8 +190,8 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
     const tags = data.tags || [] as string[];
 
     let socialImage = null;
-    if (fs.existsSync(path.join(postImagesDirectory, postId, 'social-image.jpg'))) {
-        socialImage = `images/posts/${postId}/social-image.jpg`;
+    if (fs.existsSync(path.join(postImagesDirectory, `${postId}.jpg`))) {
+        socialImage = `images/social/blog/${postId}.jpg`;
     }
 
     // Combine the data with the id
@@ -206,7 +205,6 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         isRssOnly: data.isRssOnly || false,
         description: data.description || decodeHtmlEntities(removeAnchorLink(excerpt)) || null,
         url: buildUrlFromId(postId),
-        hasEmbeddedTweet: data.hasEmbeddedTweet || false,
         tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
         commentIssueNumber: data.commentIssueNumber || null,
         socialImageUrl: socialImage,

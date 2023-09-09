@@ -1,0 +1,13 @@
+.embedded-post {
+    margin: 2rem 0;
+}
+
+.post {
+    border-left: 8px solid var(--primary-color-2);
+    padding-left: 2rem;
+}
+
+.post p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}

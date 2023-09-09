@@ -63,14 +63,12 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     let title: string | null = null;
     let url: string | null = null;
     let imageUrl: string | null = null;
-    let hasEmbeddedTweets = false;
 
     if (pageProps.post) {
         description = pageProps.post.description || pageProps.post.excerpt || null;
         title = pageProps.post.title || null;
         url = pageProps.post.url || null;
         imageUrl = pageProps.post.socialImageUrl || null;
-        hasEmbeddedTweets = pageProps.post.hasEmbeddedTweet || false;
     }
 
     if (pageProps.readingLog) {
@@ -118,7 +116,6 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                         <meta property="og:description" content={description || ''} />
                         <meta property="og:url" content={`https://kpwags.com${url}`} />
                         {imageUrl && <meta property="og:image" content={`https://kpwags.com/${imageUrl}`} />}
-                        {hasEmbeddedTweets && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
                     </>
                 ) : null}
             </Head>

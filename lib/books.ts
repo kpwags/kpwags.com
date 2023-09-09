@@ -14,8 +14,7 @@ type BookId = {
     }
 }
 
-const booksDirectory = path.join(process.cwd(), 'books');
-const bookImagesDirectory = path.join(process.cwd(), 'public', 'images', 'booknotes');
+const booksDirectory = path.join(process.cwd(), 'content', 'book-notes');
 
 export const getAllBookSlugs = (): BookId[] => {
     const fileNames = fs.readdirSync(booksDirectory);
@@ -49,11 +48,6 @@ export const getBookData = async (slug: string) : Promise<BookNote> => {
         },
     });
 
-    let socialImage = null;
-    if (fs.existsSync(path.join(bookImagesDirectory, `${slug}.jpg`))) {
-        socialImage = `images/booknotes/${slug}.jpg`;
-    }
-
     // Combine the data with the id
     return {
         title: data.title,
@@ -67,7 +61,7 @@ export const getBookData = async (slug: string) : Promise<BookNote> => {
         content: mdx.compiledSource,
         excerpt,
         url: `/books/${slug}`,
-        socialImageUrl: socialImage,
+        socialImageUrl: `images/social/book-notes/${slug}.jpg`,
     };
 };
 
@@ -96,11 +90,6 @@ export const getAllBookNotes = (): BookNote[] => {
 
         const categories = data.categories || [] as string[];
 
-        let socialImage = null;
-        if (fs.existsSync(path.join(bookImagesDirectory, `${slug}.jpg`))) {
-            socialImage = `images/booknotes/${slug}.jpg`;
-        }
-
         return {
             slug,
             title: data.title,
@@ -113,7 +102,7 @@ export const getAllBookNotes = (): BookNote[] => {
             content,
             excerpt,
             url: `/books/${slug}`,
-            socialImageUrl: socialImage,
+            socialImageUrl: `images/social/book-notes/${slug}.jpg`,
         };
     });
 
@@ -167,7 +156,6 @@ export const convertToPost = (bookNote: BookNote): BlogPost => {
         url: bookNote.url,
         content: bookNote.content,
         description: bookNote.excerpt,
-        hasEmbeddedTweet: false,
         tags: [],
         wordCount: 0,
         readTime: 0,

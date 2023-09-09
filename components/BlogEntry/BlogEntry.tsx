@@ -6,7 +6,7 @@ import Utterances from '@components/Utterances';
 // Blog Components
 import PostImage from '@components/PostImage';
 import PostVideo from '@components/PostVideo';
-import EmbeddedTweet from '@components/EmbeddedTweet';
+import EmbeddedPost from '@components/EmbeddedPost';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
@@ -23,7 +23,7 @@ const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
 const components = {
     PostImage,
     PostVideo,
-    EmbeddedTweet,
+    EmbeddedPost,
     TableOfContents,
     TableOfContentsPage,
     BookRead,

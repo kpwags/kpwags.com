@@ -17,7 +17,7 @@ import { CH } from '@code-hike/mdx/components';
 // Blog Components
 import PostImage from '@components/RssPostImage';
 import PostVideo from '@components/PostVideo';
-import EmbeddedTweet from '@components/EmbeddedTweet';
+import EmbeddedPost from '@components/EmbeddedPost';
 import TableOfContents from '@components/TableOfContents';
 import TableOfContentsPage from '@components/TableOfContentsPage';
 import BookRead from '@components/BookRead';
@@ -36,7 +36,7 @@ const theme = require('shiki/themes/github-dark-dimmed.json');
 const components = {
     PostImage,
     PostVideo,
-    EmbeddedTweet,
+    EmbeddedPost,
     TableOfContents,
     TableOfContentsPage,
     BookRead,
@@ -47,9 +47,9 @@ const components = {
     CH,
 };
 
-const postsDirectory = path.join(process.cwd(), 'posts');
-const readingLogDirectory = path.join(process.cwd(), 'reading-logs');
-const bookNotesDirectory = path.join(process.cwd(), 'books');
+const postsDirectory = path.join(process.cwd(), 'content', 'blog');
+const readingLogDirectory = path.join(process.cwd(), 'content', 'reading-logs');
+const bookNotesDirectory = path.join(process.cwd(), 'content', 'book-notes');
 
 export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogPost, b: BlogPost) => {
     if (a.date < b.date) {
@@ -109,7 +109,6 @@ const getPostsForRssFeed = async (): Promise<BlogPost[]> => {
             excerpt: excerpt || data.excerpt || null,
             date: data.date,
             url,
-            hasEmbeddedTweet: false,
             tags,
             isRssOnly: data.isRssOnly || false,
             content: mdx.compiledSource,

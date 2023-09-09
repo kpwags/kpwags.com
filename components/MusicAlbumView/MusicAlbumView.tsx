@@ -2,11 +2,11 @@ import { MusicAlbum } from '@models/MusicAlbum';
 
 import styles from './MusicAlbumView.module.css';
 
-type MediaListingProps = {
+type MusicAlbumViewProps = {
     album: MusicAlbum;
 }
 
-const MusicAlbumView = ({ album }: MediaListingProps): JSX.Element => (
+const MusicAlbumView = ({ album }: MusicAlbumViewProps): JSX.Element => (
     <div className={styles.item}>
         <div>
             <img src={album.coverUrl} alt={`${album.title} by ${album.artist}`} className={styles.cover} />
