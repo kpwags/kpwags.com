@@ -35,15 +35,19 @@ const Games = ({ videoGames }: VideoGamesProps): JSX.Element => (
 
             <p>I&apos;ve certainly played more than this, but I figured I&apos;d update this list with some of my thoughts for the video games I&apos;ve played and am currently playing.</p>
 
-            <h2>Currently Playing</h2>
-            <div className={styles.items}>
-                {videoGames.filter((g) => g.status === 'current').map((g) => (
-                    <VideoGameListing
-                        game={g}
-                        key={g.id}
-                    />
-                ))}
-            </div>
+            {videoGames.filter((g) => g.status === 'current').length > 0 ? (
+                <>
+                    <h2>Currently Playing</h2>
+                    <div className={styles.items}>
+                        {videoGames.filter((g) => g.status === 'current').map((g) => (
+                            <VideoGameListing
+                                game={g}
+                                key={g.id}
+                            />
+                        ))}
+                    </div>
+                </>
+            ) : null}
 
             <h2>Played</h2>
 
