@@ -35,15 +35,19 @@ const TVShows = ({ tvShows }: TVShowsProps): JSX.Element => (
 
             <p>I&apos;ve certainly seen more than this, but I figured I&apos;d update this list with some of my thoughts for the TV series I&apos;ve watched and am currently watching.</p>
 
-            <h2>Currently Watching</h2>
-            <div className={styles.items}>
-                {tvShows.filter((tv) => tv.status === 'current').map((tv) => (
-                    <TvShowListing
-                        tvShow={tv}
-                        key={tv.id}
-                    />
-                ))}
-            </div>
+            {tvShows.filter((tv) => tv.status === 'current').length > 0 ? (
+                <>
+                    <h2>Currently Watching</h2>
+                    <div className={styles.items}>
+                        {tvShows.filter((tv) => tv.status === 'current').map((tv) => (
+                            <TvShowListing
+                                tvShow={tv}
+                                key={tv.id}
+                            />
+                        ))}
+                    </div>
+                </>
+            ) : null}
 
             <h2>In-Between Seasons</h2>
             <div className={styles.items}>
