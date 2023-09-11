@@ -4,16 +4,62 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sat, 09 Sep 2023 20:28:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Sep 2023 21:38:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
         <item>
+            <title><![CDATA[Reading Log - September 11, 2023 (#43)]]></title>
+            <link>https://kpwags.com/reading-log/43</link>
+            <guid>https://kpwags.com/reading-log/43</guid>
+            <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we look at privacy nightmares in new cars, updates to security in .NET, email development being awful, and more.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>This week we look at privacy nightmares in new cars, updates to security in .NET, email development being awful, and more.</p>
+<h2>Link Blast</h2>
+<h3>🖥 Software Development &amp; Design</h3>
+<p><a href="https://erikdarling.com/why-you-should-build-debugging-into-your-sql-server-stored-procedures/">Why You Should Build Debugging Into Your SQL Server Stored Procedures</a> - <em>Erik Darling</em></p>
+<p><a href="https://eisenbergeffect.medium.com/libraries-and-frameworks-and-platforms-oh-my-f77a0ec3d57d">Libraries and Frameworks and Platforms, Oh My!</a> - <em>Rob Eisenberg</em></p>
+<p><a href="https://steven-giesel.com/blogPost/f65dee5e-a4eb-44b4-b338-a453acfdd5bd">Turn on Nullability checks by default</a> - <em>Steven Giesel</em></p>
+<p><a href="https://nestenius.se/2023/08/29/bearertoken-the-new-authentication-handler-in-net-8/">BearerToken: The new Authentication handler in .NET 8</a> - <em>Tore Nestenius</em></p>
+<p><a href="https://dodov.dev/blog/why-does-email-development-have-to-suck">Why Does Email Development Have to Suck?</a> - <em>Hristiyan Dodov</em></p>
+<p><a href="https://davidgiard.com/increasing-developer-velocity">Increasing Developer Velocity</a> - <em>David Giard</em></p>
+<p><a href="https://www.dotnetoffice.com/2023/08/best-practices-which-can-improve.html">Best practices which can improve performance of your .NET core application</a> - <em>Dotnet Office</em></p>
+<p><a href="https://code-maze.com/csharp-mark-methods-as-depricated/">How to Mark Methods as Deprecated in C#</a> - <em>Marko Hrnčić</em></p>
+<p><a href="https://jeremybytes.blogspot.com/2023/08/why-do-you-have-to-return-task-whenever.html">Why Do You Have to Return &quot;Task&quot; Whenever You &quot;await&quot; Something in a Method in C#?</a> - <em>Jeremy Clark</em></p>
+<p><a href="https://seankilleen.com/2023/08/my-process-for-submitting-pull-requests/">My Process for Submitting Pull Requests</a> - <em>Sean Killeen</em></p>
+<p><a href="https://chriscoyier.net/2023/09/04/enough-healthy-overlap/">“Enough Healthy Overlap”</a> - <em>Chris Coyier</em></p>
+<hr/>
+<h3>📡 Technology &amp; the Internet</h3>
+<p><a href="https://www.techdirt.com/2023/09/07/mozilla-modern-cars-are-a-privacy-shitshow/">Mozilla: Modern Cars Are A Privacy Shitshow</a> - <em>Karl Bode</em></p>
+<p><a href="https://www.techdirt.com/2023/09/06/marsha-blackburn-makes-it-clear-kosa-is-designed-to-silence-trans-people/">Marsha Blackburn Makes It Clear: KOSA Is Designed To Silence Trans People</a> - <em>Mike Masnick</em></p>
+<p><a href="https://www.techdirt.com/2023/09/05/yet-another-study-shows-no-link-at-all-between-social-media-and-teen-anxiety-and-depression/">Yet Another Study Shows No Link At All Between Social Media And Teen Anxiety And Depression</a> - <em>Mike Masnick</em></p>
+<p><a href="https://www.theverge.com/2023/9/7/23862658/lastpass-security-breach-crypto-heists-hackers">Experts link LastPass security breach to a string of crypto heists</a> - <em>Jess Weatherbed</em></p>
+<hr/>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/space/2023/09/nasa-finally-admits-what-everyone-already-knows-sls-is-unaffordable/">NASA finally admits what everyone already knows: SLS is unaffordable</a> - <em>Eric Berger</em></p>
+<hr/>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://timharford.com/2023/08/the-inconvenient-truth-about-productivity/">The inconvenient truth about productivity</a> - <em>Tim Harford</em></p>
+<p><a href="https://contessacapitaladvisors.com/blog/f/the-mighty-power-of-the-pen">The Mighty Power of the Pen</a> - <em>Contessa Capital Advisors</em></p>
+<p><a href="https://www.antonsten.com/teams/">The Importance of Kindness and Alignment in Building Exceptional Teams</a> - <em>Anton Sten</em></p>
+<hr/>
+<p>🎵 A Song to Leave You With</p>
+<h4>James Horner - Stealing the Enterprise</h4>
+<p><a href="https://www.youtube.com/watch?v=aEmAi8Yp-A0" title="James Horner - Stealing the Enterprise">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
             <title><![CDATA[August 2023 Check-In]]></title>
             <link>https://kpwags.com/posts/2023/09/08/august-2023-check-in</link>
             <guid>https://kpwags.com/posts/2023/09/08/august-2023-check-in</guid>
-            <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 08 Sep 2023 14:00:00 GMT</pubDate>
             <description><![CDATA[August was a mostly uneventful month, which seems to be par for the course for me. I&#39;m good with that though, I like being able to take it easy...especially with this heat.]]></description>
             <content:encoded><![CDATA[
             <div>
@@ -92,7 +138,7 @@
             <title><![CDATA[Integrating Notion into my Site]]></title>
             <link>https://kpwags.com/posts/2023/09/08/integrating-notion-into-my-site</link>
             <guid>https://kpwags.com/posts/2023/09/08/integrating-notion-into-my-site</guid>
-            <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 08 Sep 2023 13:00:00 GMT</pubDate>
             <description><![CDATA[Over the course of the last few weeks I’ve been revising how several of my pages get their data. Instead of having to manually edit a JSON file that’s in my code base, I’ve been pulling from Notion’s API. The benefit of this is that it’ll be easier to update the pages. I figure I’ll show how I did it in hopes of helping others.]]></description>
             <content:encoded><![CDATA[
             <div>
@@ -4583,7 +4629,7 @@ No. Progressive enhancement means making sure your core functionality works with
                 
                 <p>Let me preface this by saying that I definitively enjoy programming with JavaScript. It does have its quirks though!</p>
 <p>I found this through Reddit earlier today and couldn&#x27;t help but laugh.</p>
-<div><blockquote class="EmbeddedPost_post___6Ke1"><p></p>- den (<a href="https://twitter.com/DennisCode" target="_blank" rel="noreferrer noopener">DennisCode</a>) <a href="https://twitter.com/DennisCode/status/1559383962299944960" target="_blank" rel="noreferrer noopener">August 15, 2022</a></blockquote></div>
+<div><blockquote class="EmbeddedPost_post___6Ke1"><p>JavaScript.</p>- den (<a href="https://twitter.com/DennisCode" target="_blank" rel="noreferrer noopener">DennisCode</a>) <a href="https://twitter.com/DennisCode/status/1559383962299944960" target="_blank" rel="noreferrer noopener">August 15, 2022</a></blockquote></div>
             </div>
         ]]></content:encoded>
             <author>blog@kpwags.com (Keith Wagner)</author>
