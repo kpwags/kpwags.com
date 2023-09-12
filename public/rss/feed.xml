@@ -4,11 +4,35 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 11 Sep 2023 21:38:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Sep 2023 23:32:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Email Development Sucks, but Refactoring is Oddly Satisfying]]></title>
+            <link>https://kpwags.com/posts/2023/09/12/email-development-sucks-but-refactoring-is-oddly-satisfying</link>
+            <guid>https://kpwags.com/posts/2023/09/12/email-development-sucks-but-refactoring-is-oddly-satisfying</guid>
+            <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Over the last week at work, I&#39;ve been spending most of my time working on overhauling the email backend code as well as the HTML markup of the emails themselves. <a href="https://dodov.dev/blog/why-does-email-development-have-to-suck">Email development kinda sucks</a> and it hasn&#39;t been the most fun of tasks. With that said, I&#39;m actually kind of enjoying the refactoring part.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                <p><em>This post is for the <a href="https://kpwags.com/posts/2022/08/15/welcome-to-the-rss-club">Secret RSS Club Readers</a>.</em></p>
+                <p>Over the last week at work, I&#x27;ve been spending most of my time working on overhauling the email backend code as well as the HTML markup of the emails themselves. <a href="https://dodov.dev/blog/why-does-email-development-have-to-suck">Email development kinda sucks</a> and it hasn&#x27;t been the most fun of tasks. With that said, I&#x27;m actually kind of enjoying the refactoring part.</p>
+<h2>HTML Markup</h2>
+<p>The email HTML that was originally given to us to use is less than stellar and has been throwing a lot of red flags in our code analysis tools. We&#x27;ve been ignoring them at our own peril for a long while now, but are now starting to get serious about cleaning things up.</p>
+<p>This meant that I had the fun of starting from scratch and building a brand new email template and then testing it out on various devices and apps. Thankfully our app is internal so we don&#x27;t have to test it on every single email client, but even with a limited client base, there&#x27;s plenty of fun to go around. Fix a problem on desktop Outlook, web Outlook breaks. Fix that, then iOS breaks. Cycle, rinse, repeat. Not gonna lie, there&#x27;s a part of me that thinks supporting IE6 would be preferable.</p>
+<p>I was finally able to get a working template and then came the fun part of refactoring how our app sends out email.</p>
+<h2>Refactoring</h2>
+<p>Over the course of the three years of development on the app I&#x27;m working with, the code for the emails have gone all over the place. Part of what I&#x27;m working on, is condensing it into one service to make things far more simpler, and to make using our the template above, all the more easier to use.</p>
+<p>This part is the fun part. I don&#x27;t know what it is, but to see the lines of code shrink and to see all the different calls simplify, is quite satisfying.</p>
+<hr/>
+<p>I guess that&#x27;s the big takeaway from this slightly frustrating work. Certain tasks might suck, but when you can clean the code up and make things simpler and easier to work with, the satisfaction is worth it.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - September 11, 2023 (#43)]]></title>
             <link>https://kpwags.com/reading-log/43</link>
