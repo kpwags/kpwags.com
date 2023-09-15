@@ -8,7 +8,7 @@
     --black-3: hsl(0, 0%, 20%);
     --grey-1: hsl(0, 0%, 69%);
     --grey-2: hsl(0, 0%, 39%);
-    --font: 'JetBrains Mono', SourceCodePro, 'Courier New';
+    --font: 'inconsolata', 'JetBrains Mono', SourceCodePro, 'Courier New';
     --primary-color-1: hsl(144, 100%, 15%);
     --primary-color-2: hsl(142, 68%, 29%);
     --primary-color-3: hsl(124, 95%, 32%);
@@ -204,7 +204,7 @@ html,
 body {
     background-color: var(--background);
     color: var(--text);
-    font-size: 100%;
+    font-size: clamp(1rem, 0.96rem + 0.22vw, 1.125rem);
     font-family: var(--font);
     padding: 0;
     margin: 0;
@@ -253,25 +253,38 @@ hr {
 
 h1 {
     font-weight: 500;
+    font-size: 3.999rem;
     color: var(--primary-color-1);
-    font-size: 3rem;
     margin: 2rem 0;
     padding: 0;
 }
 
 h2 {
     font-weight: 400;
-    color: var(--primary-color-2);
-    font-size: 2.2rem;
+    font-size: 2.999rem;
+    color: var(--primary-color-3);
     margin: 0;
     padding: 0;
 }
 
 h3 {
-    color: var(--primary-color-2);
-    font-size: 1.5rem;
+    font-size: 2.333rem;
+    color: var(--primary-color-1);
     font-weight: 500;
     margin: 0;
+}
+
+h4 {
+    font-size: 2rem;
+    color: var(--primary-color-3);
+}
+
+h5 {
+    font-size: 1.666rem;
+}
+
+h6 {
+    font-size: 1.166rem;
 }
 
 h1 span,
