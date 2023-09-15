@@ -1,0 +1,9 @@
+.archivesList {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.archivesList li {
+    list-style-type: none;
+    margin: 0.75rem 0;
+}

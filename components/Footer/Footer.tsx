@@ -24,6 +24,9 @@ const Footer = (): JSX.Element => (
                 <Link href="/uses" title="Uses">Uses</Link>
             </li>
             <li>
+                <Link href="/archives" title="Archives">Archives</Link>
+            </li>
+            <li>
                 <Link href="/search" title="Search">Search</Link>
             </li>
             <li>
