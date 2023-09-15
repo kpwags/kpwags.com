@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { GetStaticProps } from 'next';
@@ -27,15 +28,15 @@ const ArchivesPage = ({ archives }: ArchiveProps): JSX.Element => (
             <h1>Archives</h1>
 
             {archives.map((a) => (
-                <>
+                <Fragment key={a.year}>
                     <h2><Link href={`/archives/${a.year}`}>{a.year}</Link></h2>
 
                     <ul className={styles.archivesList}>
                         {a.items.map((item) => (
-                            <li><Link href={item.url}>{item.monthYear}</Link></li>
+                            <li key={item.url}><Link href={item.url}>{item.monthYear}</Link></li>
                         ))}
                     </ul>
-                </>
+                </Fragment>
             ))}
         </main>
     </>
