@@ -5,10 +5,18 @@ import marked from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { remarkCodeHike } from '@code-hike/mdx';
-import { buildUrlFromId, removeAnchorLink, getPostExcerpt } from './utilities';
+import { Archives } from '@models/archives';
+import {
+    buildUrlFromId,
+    removeAnchorLink,
+    getPostExcerpt,
+    getDateParts,
+    formatDate,
+} from './utilities';
 import { postsPerPage } from './config';
 import decodeHtmlEntities from './decodeHtmlEntities';
 import generateTagUrl from './generateTagUrl';
+import { getAllReadingLogs, convertToPost } from './readinglog';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const theme = require('shiki/themes/github-dark-dimmed.json');
@@ -26,6 +34,19 @@ type TagPage = {
     params: {
         tag?: string
         page: string
+    }
+}
+
+type YearPage = {
+    params: {
+        year: string;
+    }
+}
+
+type MonthYearPage = {
+    params: {
+        year: string;
+        month: string;
     }
 }
 
@@ -237,4 +258,119 @@ export const searchPosts = (keywords: string, blogPosts: BlogPost[]): BlogPost[]
     });
 
     return posts;
+};
+
+export const getPostYears = (posts: BlogPost[] = []): number[] => {
+    const archiveYears: number[] = [];
+
+    let blogPosts = posts;
+
+    if (blogPosts.length > 0) {
+        blogPosts = getAllPosts();
+        const logs = getAllReadingLogs();
+
+        blogPosts = sortPosts([
+            ...posts,
+            ...logs.map((l) => convertToPost(l)),
+        ]);
+    }
+
+    // get unique years
+    blogPosts.forEach((post) => {
+        const dateParts = getDateParts(post.date);
+        const archiveYear = parseInt(dateParts.year, 10);
+
+        archiveYears.push(archiveYear);
+    });
+
+    const years: number[] = [...new Set(archiveYears)];
+
+    return years;
+};
+
+export const getArchiveYearPages = (): YearPage[] => {
+    const years = getPostYears([]);
+
+    return years.map((y) => ({
+        params: {
+            year: y.toString(),
+        },
+    }));
+};
+
+export const getArchiveMonthYearPages = (): MonthYearPage[] => {
+    const years = getPostYears([]);
+    const months = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+
+    const pages: MonthYearPage[] = [];
+
+    years.forEach((year) => {
+        months.forEach((month) => {
+            pages.push({ params: { year: year.toString(), month } });
+        });
+    });
+
+    return pages;
+};
+
+export const getArchivesList = (): Archives[] => {
+    const archives: Archives[] = [];
+
+    const posts = getAllPosts();
+    const logs = getAllReadingLogs();
+
+    const allPosts: BlogPost[] = sortPosts([
+        ...posts,
+        ...logs.map((l) => convertToPost(l)),
+    ]);
+
+    const years: number[] = getPostYears(allPosts);
+
+    years.forEach((year) => {
+        archives.push({ year, items: [] });
+    });
+
+    posts.forEach((post) => {
+        const monthYear = formatDate(post.date, 'MMMM YYYY');
+        const dateParts = getDateParts(post.date);
+        const archiveYear = parseInt(dateParts.year, 10);
+
+        const archive = archives.find((a) => a.year === archiveYear);
+
+        if (archive) {
+            if (archive.items.filter((a) => a.monthYear === monthYear).length === 0) {
+                archive.items.push({ monthYear, url: `/archives/${dateParts.year}/${dateParts.month}` });
+            }
+        }
+    });
+
+    return archives;
+};
+
+export const getPostsForYear = (year: number): BlogPost[] => {
+    const posts = getAllPosts();
+    const logs = getAllReadingLogs();
+
+    const allPosts: BlogPost[] = sortPosts([
+        ...posts,
+        ...logs.map((l) => convertToPost(l)),
+    ]);
+
+    return allPosts.filter((a) => getDateParts(a.date).year === year.toString());
+};
+
+export const getPostsForMonthAndYear = (year: number, month: number): BlogPost[] => {
+    const posts = getAllPosts();
+    const logs = getAllReadingLogs();
+
+    const allPosts: BlogPost[] = sortPosts([
+        ...posts,
+        ...logs.map((l) => convertToPost(l)),
+    ]);
+
+    return allPosts.filter((a) => {
+        const dateParts = getDateParts(a.date);
+
+        return parseInt(dateParts.year, 10) === year && parseInt(dateParts.month, 10) === month;
+    });
 };
