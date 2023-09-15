@@ -43,14 +43,15 @@ const Header = (): JSX.Element => {
                         <img src="/images/logo.png" alt="Keith Wagner" />
                         <a href="/">Keith Wagner</a>
                     </div>
+                </div>
+                <div className={styles.config}>
                     <nav className={styles.nav}>
                         <Link aria-label="Blog" href="/blog">Blog</Link>
                         <Link aria-label="Reading Logs" href="/reading-logs">Reading Logs</Link>
                         <Link aria-label="Book Notes" href="/book-notes">Book Notes</Link>
-                        <Link aria-label="About" href="/about" className="hide-on-tablet">About</Link>
+                        <Link aria-label="About" href="/about">About</Link>
+                        <Link aria-label="Uses" href="/uses">Uses</Link>
                     </nav>
-                </div>
-                <div className={styles.config}>
                     <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />
                     <SearchHeaderButton onClick={() => setSearchBarVisible(!searchBarVisible)} />
                     <RssFeedButton onClick={() => setRssFeedsVisible(!rssFeedsVisible)} />
@@ -64,6 +65,8 @@ const Header = (): JSX.Element => {
                 <Link href="/blog">Blog</Link>
                 <Link href="/reading-logs">Reading Logs</Link>
                 <Link href="/book-notes">Book Notes</Link>
+                <Link aria-label="About" href="/about">About</Link>
+                <Link aria-label="Uses" href="/uses">Uses</Link>
             </nav>
 
             <RssFeedSelectionBar
