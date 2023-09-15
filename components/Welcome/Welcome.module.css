@@ -21,8 +21,8 @@
 
 .hello img {
     transition: transform 1.2s ease-in-out;
-    filter: drop-shadow(3px 3px 0 var(--primary-color-1)) drop-shadow(-3px 3px 0 var(--primary-color-1)) drop-shadow(3px -3px 0 var(--primary-color-1)) drop-shadow(-3px -3px 0 var(--primary-color-1));
-
+    filter: drop-shadow(3px 3px 0 var(--primary-color-1)) drop-shadow(-3px 3px 0 var(--primary-color-1))
+        drop-shadow(3px -3px 0 var(--primary-color-1)) drop-shadow(-3px -3px 0 var(--primary-color-1));
 }
 
 .hello img:hover {
@@ -38,5 +38,11 @@
         display: block;
         font-size: 1.5rem;
         text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .welcome {
+        margin-top: 0;
     }
 }

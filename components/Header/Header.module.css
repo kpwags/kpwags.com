@@ -50,10 +50,14 @@
 
 .mobileNav {
     display: none;
-    margin: 1rem 0 3rem;
-    gap: 2rem;
-    justify-content: center;
+    margin: 1rem;
     font-size: 1.1rem;
+    text-align: center;
+}
+
+.mobileNav a {
+    display: inline-block;
+    margin: 0rem 1.5rem 1rem;
 }
 
 @media (max-width: 880px) {
@@ -62,7 +66,7 @@
     }
 
     .mobileNav {
-        display: flex;
+        display: block;
     }
 }
 
