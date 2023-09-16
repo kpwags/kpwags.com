@@ -7,7 +7,7 @@ import ReactDOMServer from 'react-dom/server';
 import { BlogTag } from '@models/BlogTag';
 import { BlogPost } from '@models/blogPost';
 import { BookNote } from '@models/BookNote';
-import marked from 'marked';
+import { marked } from 'marked';
 import matter from 'gray-matter';
 import { remarkCodeHike } from '@code-hike/mdx';
 import { serialize } from 'next-mdx-remote/serialize';
@@ -86,7 +86,7 @@ const getPostsForRssFeed = async (): Promise<BlogPost[]> => {
 
         // Use gray-matter to parse the post metadata section
         const { content, data } = matter(fileContents);
-        const html = marked(content);
+        const html = marked.parse(content);
         const excerpt = getPostExcerpt(html);
 
         const mdx = await serialize(content, {
@@ -132,7 +132,7 @@ const getReadingLogsForRssFeed = async (): Promise<ReadingLog[]> => {
 
         // Use gray-matter to parse the post metadata section
         const { content, data } = matter(fileContents);
-        const html = marked(content);
+        const html = marked.parse(content);
         const excerpt = getPostExcerpt(html);
 
         const mdx = await serialize(content, { scope: data });
@@ -171,7 +171,7 @@ const getBookNotesForRssFeed = async (): Promise<BookNote[]> => {
         // Use gray-matter to parse the post metadata section
         const { content, data } = matter(fileContents);
 
-        const html = marked(content);
+        const html = marked.parse(content);
         const excerpt = getPostExcerpt(html);
         const mdx = await serialize(content, { scope: data });
 

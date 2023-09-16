@@ -1,7 +1,7 @@
 import { BookNote } from '@models/BookNote';
 import fs from 'fs';
 import matter from 'gray-matter';
-import marked from 'marked';
+import { marked } from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import path from 'path';
 import { BlogPost } from '@models/blogPost';
@@ -38,7 +38,7 @@ export const getBookData = async (slug: string) : Promise<BookNote> => {
     // Use gray-matter to parse the post metadata section
     const { content, data } = matter(fileContents);
 
-    const html = marked(content);
+    const html = marked.parse(content);
     const excerpt = getPostExcerpt(html);
 
     const mdx = await serialize(content, {
@@ -85,7 +85,7 @@ export const getAllBookNotes = (): BookNote[] => {
         // Use gray-matter to parse the post metadata section
         const { content, data } = matter(fileContents);
 
-        const html = marked(content);
+        const html = marked.parse(content);
         const excerpt = getPostExcerpt(html);
 
         const categories = data.categories || [] as string[];

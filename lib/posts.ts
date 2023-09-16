@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import marked from 'marked';
+import { marked } from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { remarkCodeHike } from '@code-hike/mdx';
@@ -93,7 +93,7 @@ export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
             }
         }
 
-        const html = marked(content);
+        const html = marked.parse(content);
         const url = buildUrlFromId(id);
         const excerpt = getPostExcerpt(html);
 
@@ -197,7 +197,7 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         }
     }
 
-    const html = marked(content);
+    const html = marked.parse(content);
     const excerpt = getPostExcerpt(html);
 
     const mdx = await serialize(content, {

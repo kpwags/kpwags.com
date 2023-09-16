@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import marked from 'marked';
+import { marked } from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { ReadingLog } from '@models/ReadingLog';
 import { BlogPost } from '@models/blogPost';
@@ -32,7 +32,7 @@ export const getAllReadingLogs = (): ReadingLog[] => {
         // Use gray-matter to parse the post metadata section
         const { content, data } = matter(fileContents);
 
-        const html = marked(content);
+        const html = marked.parse(content);
         const url = `/reading-log/${id}`;
         const excerpt = getPostExcerpt(html);
 
@@ -67,7 +67,7 @@ export const getReadingLogData = async (readingLogNumber: number) : Promise<Read
     // Use gray-matter to parse the post metadata section
     const { content, data } = matter(fileContents);
 
-    const html = marked(content);
+    const html = marked.parse(content);
     const excerpt = getPostExcerpt(html);
     const description = data.description ?? excerpt;
 
