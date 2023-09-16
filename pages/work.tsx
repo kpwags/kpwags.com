@@ -78,13 +78,11 @@ const Work = (): JSX.Element => (
                     />
                 )}
                 content={(
-                    <>
-                        <p>
-                            OpenVoter was a social media CMS written in PHP with a MySQL database backend. For the front-end, it
-                            utilized HTML/CSS, Javascript, and jQuery. It allowed users to run their own Digg or Reddit-like
-                            site. It was discontinued in 2012.
-                        </p>
-                    </>
+                    <p>
+                        OpenVoter was a social media CMS written in PHP with a MySQL database backend. For the front-end, it
+                        utilized HTML/CSS, Javascript, and jQuery. It allowed users to run their own Digg or Reddit-like
+                        site. It was discontinued in 2012.
+                    </p>
                 )}
                 bordered={false}
             />

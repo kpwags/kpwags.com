@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import marked from 'marked';
+import { marked } from 'marked';
 import { serialize } from 'next-mdx-remote/serialize';
 import { BlogPost } from '@models/blogPost';
 import { remarkCodeHike } from '@code-hike/mdx';

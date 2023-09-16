@@ -1,6 +1,6 @@
 import StarRating from '@components/StarRating';
 import { Book } from '@models/Book';
-import { ReactNode, useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
 import styles from './BookListing.module.css';
@@ -12,21 +12,17 @@ type BookListingProps = {
 const BookListing = ({ book }: BookListingProps): JSX.Element => {
     const [showThoughts, setShowThoughts] = useState(false);
 
-    const BookLink = ({ children }: { children: ReactNode }): JSX.Element => (
-        <a href={book.link} target="_blank" rel="noreferrer nofollow" className={styles.externalLink}>{children}</a>
-    );
-
     return (
         <div className={styles.item}>
             <div>
-                <BookLink>
+                <a href={book.link} target="_blank" rel="noreferrer nofollow" className={styles.externalLink}>
                     <img src={book.coverUrl} alt={book.title} className={styles.cover} height={300} width={200} />
-                </BookLink>
+                </a>
             </div>
             <div>
-                <BookLink>
+                <a href={book.link} target="_blank" rel="noreferrer nofollow" className={styles.externalLink}>
                     {book.title}
-                </BookLink>
+                </a>
 
                 {book.author ? <div className={styles.meta}>{book.author}</div> : null}
 

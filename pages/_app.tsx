@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 /* eslint-disable react/jsx-props-no-spreading */
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
@@ -8,7 +9,6 @@ import { BlogContext } from '@contexts/BlogContext';
 import { useTheme } from '@hooks/useTheme';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars-experimental
 import Theme, { ColorTheme } from '@models/theme';
 
 import 'nprogress/nprogress.css';

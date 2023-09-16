@@ -7,7 +7,7 @@ import ReactDOMServer from 'react-dom/server';
 import { BlogTag } from '@models/BlogTag';
 import { BlogPost } from '@models/blogPost';
 import { BookNote } from '@models/BookNote';
-import marked from 'marked';
+import { marked } from 'marked';
 import matter from 'gray-matter';
 import { remarkCodeHike } from '@code-hike/mdx';
 import { serialize } from 'next-mdx-remote/serialize';

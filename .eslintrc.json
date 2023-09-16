@@ -30,11 +30,14 @@
         "max-len": ["error", { "code": 180, "ignoreComments": true }],
         "react/react-in-jsx-scope": "off",
         "import/prefer-default-export": 0,
+        "no-restricted-exports": "off",
         // Indent with 4 spaces
         "indent": ["error", 4, { "SwitchCase": 1 }],
 
         // Indent JSX with 4 spaces
         "react/jsx-indent": ["error", 4],
+
+        "react/function-component-definition": "off",
 
         "react/require-default-props": [0],
 
@@ -47,8 +50,7 @@
             "error",
             { "devDependencies": ["**/*.test.js", "**/*.test.jsx", "**/*.test.ts", "**/*.test.tsx", "**/*.d.ts", "**/test/*.js"] }
         ],
-        "@typescript-eslint/no-unused-vars": "off",
-        "@typescript-eslint/no-unused-vars-experimental": "error",
+        "@typescript-eslint/no-unused-vars": "error",
         "no-unused-vars": "off",
         "react/jsx-one-expression-per-line": "off",
         "jsx-a11y/anchor-is-valid": [

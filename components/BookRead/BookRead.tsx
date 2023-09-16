@@ -32,7 +32,7 @@ const BookRead = ({
             />
         </div>
         <div className={styles.description}>
-            <h2>{link ? <a href={link} target="_blank" rel="noreferrer" title="Buy on bookshop.org">{title}</a> : <>{title}</>}</h2>
+            <h2>{link ? <a href={link} target="_blank" rel="noreferrer" title="Buy on bookshop.org">{title}</a> : title}</h2>
             <p className="meta">by {author}</p>
             <p className="thoughts">{thoughts}</p>
         </div>

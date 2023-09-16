@@ -29,24 +29,21 @@ interface BookPageProps {
 }
 
 const Post = ({ book }: BookPageProps): JSX.Element => (
-    <>
+    <main>
+        <Head><title>{`${book.title} - Keith Wagner`}</title></Head>
 
-        <main>
-            <Head><title>{`${book.title} - Keith Wagner`}</title></Head>
+        <BookMetadata book={book} />
 
-            <BookMetadata book={book} />
+        <hr />
 
-            <hr />
-
-            <article className="book-notes">
-                <MDXRemote
-                    compiledSource={book.content}
-                    scope={book}
-                    frontmatter={book}
-                />
-            </article>
-        </main>
-    </>
+        <article className="book-notes">
+            <MDXRemote
+                compiledSource={book.content}
+                scope={book}
+                frontmatter={book}
+            />
+        </article>
+    </main>
 );
 
 export default Post;
