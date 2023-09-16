@@ -23,30 +23,28 @@ interface ReadingLogEntryProps {
 }
 
 const BlogEntry = ({ readingLog }: ReadingLogEntryProps): JSX.Element => (
-    <>
-        <article className="article line-numbers">
-            <PostHeading
-                title={readingLog.title}
-                date={readingLog.date}
-                tags={readingLog.tags}
+    <article className="article line-numbers">
+        <PostHeading
+            title={readingLog.title}
+            date={readingLog.date}
+            tags={readingLog.tags}
+        />
+
+        <div className="content reading-log">
+            <MDXRemote
+                compiledSource={readingLog.content}
+                components={components}
+                scope={readingLog}
+                frontmatter={readingLog}
             />
+        </div>
 
-            <div className="content reading-log">
-                <MDXRemote
-                    compiledSource={readingLog.content}
-                    components={components}
-                    scope={readingLog}
-                    frontmatter={readingLog}
-                />
+        {readingLog.commentIssueNumber !== null && (
+            <div className="comments">
+                <Utterances issueNumber={readingLog.commentIssueNumber} />
             </div>
-
-            {readingLog.commentIssueNumber !== null && (
-                <div className="comments">
-                    <Utterances issueNumber={readingLog.commentIssueNumber} />
-                </div>
-            )}
-        </article>
-    </>
+        )}
+    </article>
 );
 
 export default BlogEntry;

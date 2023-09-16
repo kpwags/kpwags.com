@@ -30,6 +30,7 @@
         "max-len": ["error", { "code": 180, "ignoreComments": true }],
         "react/react-in-jsx-scope": "off",
         "import/prefer-default-export": 0,
+        "no-restricted-exports": "off",
         // Indent with 4 spaces
         "indent": ["error", 4, { "SwitchCase": 1 }],
 
