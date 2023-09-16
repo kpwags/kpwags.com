@@ -7,8 +7,6 @@ interface PostImageProps {
     height: number
     centered?: boolean
     shadowed?: boolean
-    // eslint-disable-next-line react/no-unused-prop-types
-    priority?: boolean
     credit?: JSX.Element
 }
 
