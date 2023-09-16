@@ -4,11 +4,30 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Tue, 12 Sep 2023 23:32:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Sep 2023 21:59:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Summer is Fading]]></title>
+            <link>https://kpwags.com/posts/2023/09/16/summer-is-fading</link>
+            <guid>https://kpwags.com/posts/2023/09/16/summer-is-fading</guid>
+            <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Summer here in the Northeast USA is winding down and I couldn&#39;t be happier.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>Summer here in the Northeast USA is winding down and I couldn&#x27;t be happier.</p>
+<p>I don&#x27;t know how people like summer. I mean I get it, warm weather and sun. But the weather is always too warm. Mid-to-high 80s and hotter and it&#x27;s unbearable to me. I sit or stand still in the shade and all I do is sweat. It doesn&#x27;t even have to be in the 90s or even above 100. It just makes me miserable.</p>
+<p>As I&#x27;m writing this, it&#x27;s in the low 70s with a nice breeze. I&#x27;m sitting out on my front porch with a glass of whiskey soaking it all in. It&#x27;s been a gorgeous day and I&#x27;m looking forward to more of this for the foreseeable future.</p>
+<p>To me, this is the perfect weather. Not too hot, comfortable enough to just sit outside in shorts and a tee shirt and enjoy the fresh air. As the temperature dips in the evening, can even enjoy some fires in the fire pit.</p>
+<p>Some people love summer. I say phooey...give me a nice autumn day.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Email Development Sucks, but Refactoring is Oddly Satisfying]]></title>
             <link>https://kpwags.com/posts/2023/09/12/email-development-sucks-but-refactoring-is-oddly-satisfying</link>
