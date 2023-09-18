@@ -12,7 +12,7 @@
         "statusBar.border": "#5050ff",
         "statusBar.foreground": "#ffffff"
     },
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "ReUI II Mirage (Italic)",
     "editor.tabSize": 4,
     "search.exclude": {
         "**/node_modules": true,
