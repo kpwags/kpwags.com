@@ -1,13 +1,13 @@
 /* eslint-disable max-len */
-import styles from './ThemeSwitchButton.module.css';
+import styles from './SettingsButton.module.css';
 
-type ThemeSwitchButtonProps = {
+type SettingsButtonProps = {
     onClick: () => void
 }
 
-const ThemeSwitchButton = ({
+const SettingsButton = ({
     onClick,
-}: ThemeSwitchButtonProps): JSX.Element => (
+}: SettingsButtonProps): JSX.Element => (
     <svg
         width="24px"
         height="24px"
@@ -23,4 +23,4 @@ const ThemeSwitchButton = ({
     </svg>
 );
 
-export default ThemeSwitchButton;
+export default SettingsButton;

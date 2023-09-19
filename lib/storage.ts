@@ -21,3 +21,11 @@ export const retrieveFromLocalStorage = (key: string, isJson = false): string|un
         return null;
     }
 };
+
+export const removeFromStorage = (key: string): void => {
+    try {
+        if (typeof window !== 'undefined') {
+            window.localStorage.removeItem(key);
+        }
+    } catch { /* don't really care */ }
+};

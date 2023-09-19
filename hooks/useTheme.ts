@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import Theme, { ColorTheme } from '@models/theme';
-import { saveToLocalStorage, retrieveFromLocalStorage } from '../lib/storage';
+import {
+    saveToLocalStorage,
+    retrieveFromLocalStorage,
+    removeFromStorage,
+} from '../lib/storage';
 
 interface UseThemeReturn {
     theme: Theme;
@@ -30,6 +34,12 @@ export const useTheme = (): UseThemeReturn => {
     };
 
     const changeTheme = (t: Theme) => {
+        if (t === 'system') {
+            removeFromStorage('theme');
+            setTheme(getPreferredColorMode());
+            return;
+        }
+
         saveToLocalStorage('theme', t);
         document.documentElement.setAttribute('data-theme', t);
         setTheme(t);

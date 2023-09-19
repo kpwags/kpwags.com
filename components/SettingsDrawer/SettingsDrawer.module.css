@@ -1,0 +1,66 @@
+.settingsDrawer {
+    position: absolute;
+    z-index: 100;
+    width: 640px;
+    top: 0;
+    left: 50%;
+    margin-left: -320px;
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+}
+
+@media (max-width: 680px) {
+    .settingsDrawer {
+        width: 320px;
+        margin-left: -160px;
+    }
+}
+
+.closeLine {
+    text-align: right;
+}
+
+.closeButton {
+    border: none;
+    background-color: transparent;
+}
+
+.closeButton svg {
+    stroke: var(--text);
+}
+
+.modeSection {
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorButton {
+    justify-content: center;
+    width: 19%;
+}
+
+.modeButton {
+    border: 1px solid var(--text);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.modeButton.active {
+    border: 3px solid var(--primary-color-1);
+}
+
+.colorButton.active {
+    border: 5px solid var(--black-1);
+    box-sizing: border-box;
+}
