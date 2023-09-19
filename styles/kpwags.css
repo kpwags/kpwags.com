@@ -166,6 +166,10 @@ p {
     font-size: 1.2rem;
 }
 
+button {
+    cursor: pointer;
+}
+
 a,
 a:visited {
     color: var(--primary-color-1);
@@ -468,6 +472,31 @@ ul.likes li div.source {
 article.book-notes blockquote {
     border-left: 8px solid var(--primary-color-2);
     padding-left: 1.5rem;
+}
+
+button[data-color='red'] {
+    border-color: var(--primary-color-red);
+    background: var(--primary-color-red);
+}
+
+button[data-color='orange'] {
+    border-color: var(--primary-color-orange);
+    background: var(--primary-color-orange);
+}
+
+button[data-color='green'] {
+    border-color: var(--primary-color-green);
+    background: var(--primary-color-green);
+}
+
+button[data-color='blue'] {
+    border-color: var(--primary-color-blue);
+    background: var(--primary-color-blue);
+}
+
+button[data-color='purple'] {
+    border-color: var(--primary-color-purple);
+    background: var(--primary-color-purple);
 }
 
 @media all and (max-width: 1280px) {
