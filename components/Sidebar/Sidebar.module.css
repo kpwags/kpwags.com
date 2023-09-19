@@ -1,0 +1,122 @@
+.sidebar {
+    width: 350px;
+    height: 100vh;
+    background: var(--sidebar);
+    position: fixed;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    padding: 1rem 0;
+    color: var(--primary-color-1);
+    font-size: 2.25rem;
+    order: 2;
+}
+
+.image {
+    margin-top: 2rem;
+    order: 1;
+}
+
+.image img {
+    margin: 0 auto;
+    width: 200px;
+    transition: transform 1.2s ease-in-out;
+    filter: drop-shadow(3px 3px 0 var(--primary-color-1)) drop-shadow(-3px 3px 0 var(--primary-color-1))
+        drop-shadow(3px -3px 0 var(--primary-color-1)) drop-shadow(-3px -3px 0 var(--primary-color-1));
+}
+
+.image img:hover {
+    transform: rotate(360deg);
+}
+
+.nav {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.nav a,
+.nav a:visited {
+    color: var(--primary-color-2);
+    display: block;
+    font-size: 1.65rem;
+    margin-bottom: 0.75rem;
+}
+
+.socialIcons {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 206px;
+    margin-left: -103px;
+    display: flex;
+    column-gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.socialIcons a svg {
+    fill: var(--white-1);
+}
+
+.socialIcons a:hover svg {
+    fill: var(--primary-color-1);
+}
+
+@media (max-width: 1000px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+        display: block;
+    }
+
+    .titleImage {
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+        align-items: center;
+        height: 100px;
+    }
+
+    .image {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .image img {
+        width: 64px;
+        height: 64px;
+        filter: drop-shadow(1px 1px 0 var(--primary-color-1)) drop-shadow(-1px 1px 0 var(--primary-color-1))
+            drop-shadow(1px -1px 0 var(--primary-color-1)) drop-shadow(-1px -1px 0 var(--primary-color-1));
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        gap:1rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .nav a {
+        font-size: 1.2rem;
+    }
+
+    .socialIcons {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav {
+        display: block;
+    }
+
+    .nav a {
+        display: inline-block;
+        margin: 0 1rem 1rem;
+    }
+}

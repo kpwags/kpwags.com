@@ -27,7 +27,7 @@ interface HomeProps {
 }
 
 const Home = ({ posts, readingLogs }: HomeProps): JSX.Element => (
-    <main>
+    <>
         <RssFeeds />
         <Welcome />
 
@@ -42,7 +42,7 @@ const Home = ({ posts, readingLogs }: HomeProps): JSX.Element => (
             posts={readingLogs.map((p) => ({ title: p.title.replace('Reading Log - ', ''), url: p.url }))}
             viewMoreLink="/reading-logs"
         />
-    </main>
+    </>
 );
 
 export default Home;
