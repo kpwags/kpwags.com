@@ -9,11 +9,13 @@ import { BlogContext } from '@contexts/BlogContext';
 import { useTheme } from '@hooks/useTheme';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
+import Sidebar from '@components/Sidebar';
 import Theme, { ColorTheme } from '@models/theme';
 
 import 'nprogress/nprogress.css';
 import '@code-hike/mdx/dist/index.css';
 import '../styles/fonts.css';
+import '../styles/variables.css';
 import '../styles/kpwags.css';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
@@ -127,9 +129,16 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                     changeColorTheme: toggleColor,
                 }}
             >
-                <Header />
-                <Component {...pageProps} />
-                <Footer />
+                <div className="page">
+                    <Header />
+                    <Sidebar />
+                    <main>
+                        <div className="page-content">
+                            <Component {...pageProps} />
+                            <Footer />
+                        </div>
+                    </main>
+                </div>
             </BlogContext.Provider>
         </>
     );
