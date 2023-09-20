@@ -36,7 +36,7 @@ interface HomeProps {
 }
 
 const Home = ({ posts, readingLogs, bookNote }: HomeProps): JSX.Element => (
-    <>
+    <div className="page-content">
         <RssFeeds />
         <Welcome />
 
@@ -57,7 +57,7 @@ const Home = ({ posts, readingLogs, bookNote }: HomeProps): JSX.Element => (
         <div className={styles.viewMore}>
             <Link href="/book-notes">View More</Link>
         </div>
-    </>
+    </div>
 );
 
 export default Home;

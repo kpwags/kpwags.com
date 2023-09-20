@@ -133,8 +133,9 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                     <Header />
                     <Sidebar />
                     <main>
+
+                        <Component {...pageProps} />
                         <div className="page-content">
-                            <Component {...pageProps} />
                             <Footer />
                         </div>
                     </main>
