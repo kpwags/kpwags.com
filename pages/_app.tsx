@@ -10,6 +10,7 @@ import { useTheme } from '@hooks/useTheme';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Sidebar from '@components/Sidebar';
+import SettingsDrawer from '@components/SettingsDrawer';
 import Theme, { ColorTheme } from '@models/theme';
 
 import 'nprogress/nprogress.css';
@@ -29,6 +30,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 
     const [selectedTheme, setSelectedTheme] = useState<Theme>(theme);
     const [selectedColor, setSelectedColor] = useState<ColorTheme>(color);
+    const [settingsDrawerOpen, setSettingsDrawerOpen] = useState<boolean>(false);
 
     useEffect(() => {
         setSelectedTheme(theme);
@@ -129,8 +131,14 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
                     changeColorTheme: toggleColor,
                 }}
             >
+                <SettingsDrawer
+                    visible={settingsDrawerOpen}
+                    onChangeColor={(clr) => toggleColor(clr)}
+                    onChangeMode={(mode) => changeTheme(mode)}
+                    onClose={() => setSettingsDrawerOpen(false)}
+                />
                 <div className="page">
-                    <Header />
+                    <Header onSettingsButtonClicked={() => setSettingsDrawerOpen(!settingsDrawerOpen)} />
                     <Sidebar />
                     <main>
 
