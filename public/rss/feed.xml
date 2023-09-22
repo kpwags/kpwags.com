@@ -4,11 +4,32 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 18 Sep 2023 23:01:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Sep 2023 12:10:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Writing Everyday]]></title>
+            <link>https://kpwags.com/posts/2023/09/22/writing-everyday</link>
+            <guid>https://kpwags.com/posts/2023/09/22/writing-everyday</guid>
+            <pubDate>Fri, 22 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Recently I started reading <em>Trigger Warning</em> by Neil Gaiman. It’s a collection of short stories he’s written. At the beginning, he went through all the stories and briefly touched on each one of them. On one of them he described an interaction between a friend of his, and Ray Bradbury, author of <em>Farenheit 451</em> among others. One line stood out to me.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>Recently I started reading <em>Trigger Warning</em> by Neil Gaiman. It’s a collection of short stories he’s written. At the beginning, he went through all the stories and briefly touched on each one of them. On one of them he described an interaction between a friend of his, and Ray Bradbury, author of <em>Farenheit 451</em> among others. One line stood out to me.</p>
+<blockquote>
+<p>If you want to be a writer, you have to write. Every day. Whether you feel like it or not. That you can&#x27;t just write one book and stop. That it&#x27;s work, but the best kind of work.</p>
+</blockquote>
+<p>I’m not a writer, doubt I’ll ever be, but I have been wanting to write <em>more</em>. I have a few ideas for short stories, I have some blogging ideas, but I never actually dedicate the time to sit down and actually <em>do</em> it.</p>
+<p>I think I’m going to try to change that and try to dedicate some time every day to writing something. Maybe a blog post, maybe a couple paragraphs in a short story, who knows, but <em>something</em>.</p>
+<p>When I have sat down to write, it’s been peaceful and it’s helped me collect my thoughts in a way. Let’s see if I can stick with it.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - September 18, 2023 (#44)]]></title>
             <link>https://kpwags.com/reading-log/44</link>
