@@ -1,7 +1,10 @@
 .bookNote {
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--grey-1);
     display: flex;
     gap: 4rem;
-    margin: 2rem 0;
+    margin: 0 0 5rem;
+    padding: 1rem;
 }
 
 .image {
@@ -19,11 +22,12 @@
 
 .bookNote h3 {
     color: var(--text);
+    font-size: 1.9rem;
     margin-bottom: 0.6rem;
 }
 
 .categories {
-    margin: 1rem 0;
+    margin: 1rem 0 0;
     display: flex;
     gap: 0.5rem;
 }

@@ -3,6 +3,7 @@ import { getAllReadingLogIds, getReadingLogData } from '@lib/readinglog';
 import ReadingLogEntry from '@components/ReadingLogEntry';
 import RssFeeds from '@components/RssFeeds';
 import { ReadingLog } from '@models/ReadingLog';
+import { Head } from 'next/document';
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllReadingLogIds();
@@ -29,6 +30,7 @@ interface PostProps {
 
 const ReadingLogPost = ({ readingLog }: PostProps): JSX.Element => (
     <div className="page-content">
+        <Head><title>{`${readingLog.title} - Keith Wagner`}</title></Head>
         <RssFeeds />
         <ReadingLogEntry readingLog={readingLog} />
     </div>
