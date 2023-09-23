@@ -65,30 +65,28 @@ const Post = ({ posts, lastPage, currentPage }: PostProps): JSX.Element => {
     };
 
     return (
-        <>
+        <div className="page-content">
             <Head><title>Blog - Keith Wagner</title></Head>
             <RssFeeds />
 
-            <main>
-                <h1>Blog</h1>
+            <h1>Blog</h1>
 
-                {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
+            {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}
 
-                <ReactPaginate
-                    marginPagesDisplayed={0}
-                    pageRangeDisplayed={0}
-                    previousLabel="&larr; Newer Posts"
-                    nextLabel="Older Posts &rarr;"
-                    initialPage={currentPage - 1}
-                    pageCount={lastPage}
-                    onPageChange={handlePagination}
-                    containerClassName="pagination"
-                    activeClassName="paginate-active"
-                    nextLinkClassName={currentPage === lastPage ? 'hidden' : 'paginate-next-a'}
-                    previousLinkClassName={currentPage === 1 ? 'hidden' : 'paginate-prev-a'}
-                />
-            </main>
-        </>
+            <ReactPaginate
+                marginPagesDisplayed={0}
+                pageRangeDisplayed={0}
+                previousLabel="&larr; Newer Posts"
+                nextLabel="Older Posts &rarr;"
+                initialPage={currentPage - 1}
+                pageCount={lastPage}
+                onPageChange={handlePagination}
+                containerClassName="pagination"
+                activeClassName="paginate-active"
+                nextLinkClassName={currentPage === lastPage ? 'hidden' : 'paginate-next-a'}
+                previousLinkClassName={currentPage === 1 ? 'hidden' : 'paginate-prev-a'}
+            />
+        </div>
     );
 };
 

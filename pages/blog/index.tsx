@@ -22,22 +22,20 @@ interface BlogProps {
 }
 
 const Blog = ({ posts }: BlogProps): JSX.Element => (
-    <>
+    <div className="page-content">
         <Head><title>Blog - Keith Wagner</title></Head>
         <RssFeeds />
 
-        <main>
-            <h1>Blog</h1>
+        <h1>Blog</h1>
 
-            {posts.map((p) => (<PostListing key={p.id} post={p} />))}
+        {posts.map((p) => (<PostListing key={p.id} post={p} />))}
 
-            <ul className="pagination">
-                <li className="next">
-                    <Link href="/blog/2" className="paginate-next-a">Older Posts &rarr;</Link>
-                </li>
-            </ul>
-        </main>
-    </>
+        <ul className="pagination">
+            <li className="next">
+                <Link href="/blog/2" className="paginate-next-a">Older Posts &rarr;</Link>
+            </li>
+        </ul>
+    </div>
 );
 
 export default Blog;
