@@ -22,7 +22,7 @@ interface ReadingLogEntryProps {
     readingLog: ReadingLog
 }
 
-const BlogEntry = ({ readingLog }: ReadingLogEntryProps): JSX.Element => (
+const ReadingLogEntry = ({ readingLog }: ReadingLogEntryProps): JSX.Element => (
     <article className="article line-numbers">
         <PostHeading
             title={readingLog.title}
@@ -47,4 +47,4 @@ const BlogEntry = ({ readingLog }: ReadingLogEntryProps): JSX.Element => (
     </article>
 );
 
-export default BlogEntry;
+export default ReadingLogEntry;

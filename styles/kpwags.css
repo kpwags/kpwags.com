@@ -215,13 +215,17 @@ a img {
 
 .pagination .paginate-next-a,
 .pagination .paginate-prev-a {
-    color: var(--primary-color-1);
+    color: var(--grey-1);
+    border: 1px solid var(--grey-1);
+    padding: 0.5rem 1rem;
     margin: 0 0.1rem;
 }
 
 .pagination .paginate-next-a:hover,
 .pagination .paginate-prev-a:hover {
-    color: var(--primary-color-2);
+    color: var(--primary-color-1);
+    border-color: var(--primary-color-1);
+    text-decoration: none;
 }
 
 .pagination .break {
@@ -554,5 +558,10 @@ button[data-color='purple'] {
     .contact ul li {
         display: block;
         padding: 0.5rem 0;
+    }
+
+    .article .content.reading-log blockquote,
+    .article .content.reading-log blockquote p {
+        padding: 0rem;
     }
 }

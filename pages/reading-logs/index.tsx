@@ -21,22 +21,20 @@ interface ReadingLogProps {
 }
 
 const ReadingLogs = ({ readingLogs }: ReadingLogProps): JSX.Element => (
-    <>
+    <div className="page-content">
         <Head><title>Reading Logs - Keith Wagner</title></Head>
         <RssFeeds />
 
-        <main>
-            <h1>Reading Logs</h1>
+        <h1>Reading Logs</h1>
 
-            {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
+        {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
 
-            <ul className="pagination">
-                <li className="next">
-                    <Link href="/reading-logs/2" className="paginate-next-a">Older &rarr;</Link>
-                </li>
-            </ul>
-        </main>
-    </>
+        <ul className="pagination">
+            <li className="next">
+                <Link href="/reading-logs/2" className="paginate-next-a">Older &rarr;</Link>
+            </li>
+        </ul>
+    </div>
 );
 
 export default ReadingLogs;
