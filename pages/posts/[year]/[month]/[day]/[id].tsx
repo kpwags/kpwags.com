@@ -34,13 +34,11 @@ interface PostProps {
 }
 
 const Post = ({ post }: PostProps): JSX.Element => (
-    <>
+    <div className="page-content">
         <RssFeeds />
         <PageScrollIndicator />
-        <main>
-            <BlogEntry post={post} />
-        </main>
-    </>
+        <BlogEntry post={post} />
+    </div>
 );
 
 export default Post;

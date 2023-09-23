@@ -215,8 +215,8 @@ a img {
 
 .pagination .paginate-next-a,
 .pagination .paginate-prev-a {
-    color: var(--grey-1);
-    border: 1px solid var(--grey-1);
+    color: var(--text);
+    border: 1px solid var(--text);
     padding: 0.5rem 1rem;
     margin: 0 0.1rem;
 }
