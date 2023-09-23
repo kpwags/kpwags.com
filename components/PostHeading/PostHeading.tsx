@@ -2,6 +2,8 @@ import { BlogTag } from '@models/BlogTag';
 import MetaData from './MetaData';
 import Tags from './Tags';
 
+import styles from './PostHeading.module.css';
+
 interface PostHeadingProps {
     title: string;
     tags: BlogTag[];
@@ -20,7 +22,11 @@ const PostHeading = ({
     <>
         <MetaData date={date} readTime={readTime} />
 
-        <h1>{title}</h1>
+        {title.startsWith('Reading Log - ') ? (
+            <h1><span className={styles.readingLogIntro}>Reading Log -</span>{title.replace('Reading Log - ', '')}</h1>
+        ) : (
+            <h1>{title}</h1>
+        )}
 
         {subheading ? <h2 className="subheading">{subheading}</h2> : null}
 

@@ -28,12 +28,10 @@ interface PostProps {
 }
 
 const ReadingLogPost = ({ readingLog }: PostProps): JSX.Element => (
-    <>
+    <div className="page-content">
         <RssFeeds />
-        <main>
-            <ReadingLogEntry readingLog={readingLog} />
-        </main>
-    </>
+        <ReadingLogEntry readingLog={readingLog} />
+    </div>
 );
 
 export default ReadingLogPost;
