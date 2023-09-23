@@ -65,35 +65,32 @@ const BookNotes = ({ bookNotes, lastPage, currentPage }: BookNoteProps): JSX.Ele
     };
 
     return (
-        <>
+        <div className="page-content">
             <Head><title>Book Notes - Keith Wagner</title></Head>
             <RssFeeds />
 
-            <main>
-                <h1>Book Notes</h1>
+            <h1>Book Notes</h1>
 
-                {notes.map((b) => (
-                    <Fragment key={b.slug}>
-                        <BookNoteListing bookNote={b} />
-                        <hr />
-                    </Fragment>
-                ))}
+            {notes.map((b) => (
+                <Fragment key={b.slug}>
+                    <BookNoteListing bookNote={b} />
+                </Fragment>
+            ))}
 
-                <ReactPaginate
-                    marginPagesDisplayed={0}
-                    pageRangeDisplayed={0}
-                    previousLabel="&larr; Newer"
-                    nextLabel="Older &rarr;"
-                    initialPage={currentPage - 1}
-                    pageCount={lastPage}
-                    onPageChange={handlePagination}
-                    containerClassName="pagination"
-                    activeClassName="paginate-active"
-                    nextLinkClassName={currentPage === lastPage ? 'hidden' : 'paginate-next-a'}
-                    previousLinkClassName={currentPage === 1 ? 'hidden' : 'paginate-prev-a'}
-                />
-            </main>
-        </>
+            <ReactPaginate
+                marginPagesDisplayed={0}
+                pageRangeDisplayed={0}
+                previousLabel="&larr; Newer"
+                nextLabel="Older &rarr;"
+                initialPage={currentPage - 1}
+                pageCount={lastPage}
+                onPageChange={handlePagination}
+                containerClassName="pagination"
+                activeClassName="paginate-active"
+                nextLinkClassName={currentPage === lastPage ? 'hidden' : 'paginate-next-a'}
+                previousLinkClassName={currentPage === 1 ? 'hidden' : 'paginate-prev-a'}
+            />
+        </div>
     );
 };
 

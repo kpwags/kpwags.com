@@ -29,7 +29,7 @@ interface BookPageProps {
 }
 
 const Post = ({ book }: BookPageProps): JSX.Element => (
-    <main>
+    <div className="page-content">
         <Head><title>{`${book.title} - Keith Wagner`}</title></Head>
 
         <BookMetadata book={book} />
@@ -43,7 +43,7 @@ const Post = ({ book }: BookPageProps): JSX.Element => (
                 frontmatter={book}
             />
         </article>
-    </main>
+    </div>
 );
 
 export default Post;
