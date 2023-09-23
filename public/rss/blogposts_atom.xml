@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner - Blog Posts</title>
-    <updated>2023-09-22T12:10:36.699Z</updated>
+    <updated>2023-09-23T18:36:14.127Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,37 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[The Strange Inability to Finish a Project]]></title>
+        <id>https://kpwags.com/posts/2023/09/23/the-strange-inability-to-finish-a-project</id>
+        <link href="https://kpwags.com/posts/2023/09/23/the-strange-inability-to-finish-a-project"/>
+        <updated>2023-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I&#39;m sure I&#39;m not the only one, but I seem to be unable to finish a project. I have a handful side projects I&#39;ve been puttering around with, but haven&#39;t been able to see them through to completion.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>I&#x27;m sure I&#x27;m not the only one, but I seem to be unable to finish a project. I have a handful side projects I&#x27;ve been puttering around with, but haven&#x27;t been able to see them through to completion.</p>
+<p>Here are my current list of side projects I&#x27;ve worked on in some manner, shape or form:</p>
+<ul>
+<li><strong>Digital Family Cookbook</strong> - This is a React/.NET recipe management tool. It&#x27;s probably about 80-90% complete. The UI could use some improvements and other tweaks.</li>
+<li><strong>Card Organizer</strong> - This is a Blazor web app to manage and organize my sports card collection. It&#x27;s probably sitting around 60-70% complete.</li>
+<li><strong>Gamifit</strong> - This is a React/.NET app to track my fitness I&#x27;ve been working on. I&#x27;ve been using a bunch of different apps that all do a good job, but never do what I want, so I&#x27;ve started this. It&#x27;s had a few different iterations and isn&#x27;t that far along.</li>
+<li><strong>Leegtastic</strong> - This is also a React/.NET app to run small sports leagues. I decided to tinker with building one since the site my hockey league runs is absolutely awful. It&#x27;s in the early phases.</li>
+<li><strong>Astro rebuild of my site</strong> - Never finished this one, and probably won&#x27;t. I&#x27;ve been considering it, but for the moment I think I&#x27;ll be sticking with Next.js.</li>
+<li><strong>Personal site work</strong> - I&#x27;m less inclined to include this as I&#x27;m always tinkering and there really is no &quot;final product&quot;.</li>
+</ul>
+<p>I start working on one thing, and then get the urge to switch to a different project. I start that, and then end up switching to a different one.</p>
+<p>At my 9-5, I&#x27;ll finish every project or task I&#x27;m assigned...at home it&#x27;s like the opposite. I mean sure, at work I have to if I want to keep my job, it&#x27;s just kinda funny I can&#x27;t do the same at home.</p>
+<p>I really should just bite the bullet and dedicate myself to something and just push it out the door.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Writing Everyday]]></title>
         <id>https://kpwags.com/posts/2023/09/22/writing-everyday</id>
