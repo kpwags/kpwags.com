@@ -26,7 +26,7 @@ const Blog = ({ posts }: BlogProps): JSX.Element => (
         <Head><title>Blog - Keith Wagner</title></Head>
         <RssFeeds />
 
-        <main>
+        <main className="slim">
             <h1>Blog</h1>
 
             {posts.map((p) => (<PostListing key={p.id} post={p} />))}

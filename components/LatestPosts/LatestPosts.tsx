@@ -1,29 +1,30 @@
 import Link from 'next/link';
+import { BlogPost } from '@models/blogPost';
+import { formatDate } from '@lib/utilities';
 
 import styles from './LatestPosts.module.css';
 
 interface LatestPostsProps {
-    title: string;
-    posts: { title: string, url: string }[];
-    viewMoreLink: string;
+    posts: BlogPost[];
 }
 
 const LatestPosts = ({
-    title,
     posts,
-    viewMoreLink,
 }: LatestPostsProps): JSX.Element => (
     <section className={styles.mostRecentPosts}>
-        <h2>{title}</h2>
-        <div>
-            {posts.map((p) => (
-                <h3 key={p.url}><Link href={p.url}>{p.title}</Link></h3>
-            ))}
+        {posts.map((p) => (
+            <article key={p.id} className={styles.article}>
+                <div className={styles.metadata}>
+                    <div className="post-date">{formatDate(p.date)}</div>
+                </div>
+                <div className={styles.content}>
+                    <h2><Link href={p.url}>{p.title}</Link></h2>
 
-            <div className={styles.viewMore}>
-                <Link href={viewMoreLink}>View More</Link>
-            </div>
-        </div>
+                    {/* eslint-disable-next-line react/no-danger */}
+                    {p.excerpt !== null ? <div className={styles.excerpt} dangerouslySetInnerHTML={{ __html: p.excerpt || 'No content found' }} /> : null}
+                </div>
+            </article>
+        ))}
     </section>
 );
 

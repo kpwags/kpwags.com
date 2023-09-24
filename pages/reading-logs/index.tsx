@@ -25,7 +25,7 @@ const ReadingLogs = ({ readingLogs }: ReadingLogProps): JSX.Element => (
         <Head><title>Reading Logs - Keith Wagner</title></Head>
         <RssFeeds />
 
-        <main>
+        <main className="slim">
             <h1>Reading Logs</h1>
 
             {readingLogs.map((rl) => (<ReadingLogListing key={rl.id} readingLog={rl} />))}
