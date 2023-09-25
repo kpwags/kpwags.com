@@ -4,11 +4,49 @@
         <title>Keith Wagner - Blog Posts</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sat, 23 Sep 2023 18:36:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Sep 2023 22:55:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[My Blogging Workflow]]></title>
+            <link>https://kpwags.com/posts/2023/09/25/my-blogging-workflow</link>
+            <guid>https://kpwags.com/posts/2023/09/25/my-blogging-workflow</guid>
+            <pubDate>Mon, 25 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Since my plan to start writing more will undoubtedly cause more posts on my blog, I figured I&#39;d write down my general workflow on how I go about writing some of my more in-depth blog posts. It might sound familiar, but thought it might help someone who might be starting out.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>Since my plan to start writing more will undoubtedly cause more posts on my blog, I figured I&#x27;d write down my general workflow on how I go about writing some of my more in-depth blog posts. It might sound familiar, but thought it might help someone who might be starting out.</p>
+<h2>Generating a List of Ideas</h2>
+<p>I&#x27;ve been using <a href="https://obsidian.md/">Obsidian</a> tied to a shared folder on iCloud for my notes and journaling. In there I have a note with a list of ideas for blog posts. Some of them are fleshed out some, others are just off-hand thoughts I&#x27;ve had. Whenever I think something might be worth writing about, I add it.</p>
+<h2>Creating an Outline of Sorts</h2>
+<p>Over time, as it grows more legs, I create a second note for it with various bullet points I want to include in the post. Sometimes that even means creating an outline for the post.</p>
+<h2>Time for the First Draft</h2>
+<p>Once I have an outline in place, I go and actually start writing the post. Sometimes I&#x27;ll write the entire thing in one go. Other times, I&#x27;ll edit as I write. But either way, I try to get the guts of what I&#x27;m trying to write out so I can easily go back out and edit it.</p>
+<p>Any images I might add get thrown into a subfolder and then added to the post. I generally at this point don&#x27;t worry about compression or file size, I handle that later.</p>
+<h2>Editing Time</h2>
+<p>At this point, the post is written and I try to go back through and re-read it to see where I might have missed some words, or rambled on too much. I&#x27;m not the greatest writer, so it&#x27;s worth the time.</p>
+<h2>Image Compression and Creating the Post</h2>
+<p>My site runs off <a href="https://nextjs.org/">Next.js</a> and all of my blog posts are mdx files. The first thing I do is create a new branch off my main branch on my site&#x27;s repository. I then create the mdx file in the blog directory. I add the front matter indicating tags, post date, title, etc. and then paste in the markdown from Obsidian. If the post has any images, I use <a href="https://squoosh.app/">Squoosh</a> to resize and compress it so that people viewing don&#x27;t have to deal with massive downloads. I put them in the images directory in my site&#x27;s folder and add them to the mdx file. I have a handy image component that takes advantage of Next.js&#x27; image component to help optimize the image even further.</p>
+<h2>Running My Site &amp; Final Edits</h2>
+<p>My next step is to start up my site locally and view the new post. I go through and make sure that everything looks right, and then I go through and re-read it again to make sure it all makes sense. Sometimes I notice things when I see it live on the web browser that I miss in my notes editor. I make any final edits, also trying to mirror the edits in the notes editor as well, just because.</p>
+<h2>Creating the Social Image</h2>
+<p>I then use my <a href="https://kpwags.com/posts/2022/11/03/building-a-social-image-generator-console-app">social image generator</a> to generate the image for the post. Helpfully, it puts the image exactly where it needs to be in the file system, so there&#x27;s nothing more I need to do.</p>
+<h2>Creating a Pull Request</h2>
+<p>The next step of the process is to commit the code and push the new branch to GitHub. Once there, I open a pull request and Netlify&#x27;s integration will automatically build my site and make sure that everything is up to snuff and it builds correctly. Once that is complete, I can then complete the pull request, and Netlify will deploy it.</p>
+<h2>It&#x27;s Live!</h2>
+<p>Once the PR is completed on GitHub, the site will deploy. In a couple minutes I can refresh my site and viola...the post is there!</p>
+<hr/>
+<p>That&#x27;s basically it. It&#x27;s not a complicated process, I want to keep the friction at a minimum to make it easier to post. The harder it is to get a post up, the less likely I&#x27;m going to go about doing it. It&#x27;d be kind of nice if I could more easily write a post without the whole PR process, but I find having each post be a file makes it easy to store in a git repository to backup and save. I&#x27;ve lost many older (much older) blog posts because they used to be stored in a database that has since been lost to time. My own fault for not backing them up, but still.</p>
+<p>There are also plenty of posts I just write on a whim and might forego some of the early steps if I&#x27;m just feeling like sending something out there.</p>
+<p>Maybe this is more than some want to deal with, but either way, just write. You&#x27;ll find your own process and how to best handle your way of doing things.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[The Strange Inability to Finish a Project]]></title>
             <link>https://kpwags.com/posts/2023/09/23/the-strange-inability-to-finish-a-project</link>
