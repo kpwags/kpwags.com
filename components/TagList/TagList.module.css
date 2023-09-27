@@ -1,0 +1,21 @@
+.tagList {
+    display: block;
+}
+
+.tagList li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.tagList li:not(.lead):after {
+    content: ',';
+}
+
+.tagList li:last-child:after {
+    content: '';
+}
+
+.lead {
+    font-weight: bold;
+}

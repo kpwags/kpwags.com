@@ -1,6 +1,4 @@
 .landing {
-    /* display: flex;
-    column-gap: 1.5rem; */
     margin: 2rem 0;
 }
 
@@ -19,6 +17,7 @@
     min-width: 280px;
     border: 1px solid var(--text);
     padding: 0.5rem;
+    box-shadow: var(--box-shadow);
 }
 
 .image:hover {
@@ -26,6 +25,7 @@
 }
 
 .contentBox {
+    box-shadow: var(--box-shadow);
     border: 1px solid var(--text);
 }
 
@@ -54,4 +54,48 @@
     border-bottom: 1px solid var(--grey-1);
     font-size: 1.2rem;
     background-color: var(--background-lighter);
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    column-gap: 0.5rem;
+}
+
+.more a {
+    color: var(--text);
+    border: 1px solid var(--text);
+    padding: 0.5rem 1rem;
+    margin: 0 0.1rem;
+}
+
+.more a:hover {
+    color: var(--primary-color-1);
+    border-color: var(--primary-color-1);
+    text-decoration: none;
+}
+
+@media (max-width: 450px) {
+    .welcome {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .posts {
+        flex-grow: 2;
+    }
+
+    .image {
+        min-width: 280px;
+        border: 1px solid var(--text);
+        padding: 0.5rem;
+    }
+
+    .image:hover {
+        border-color: var(--primary-color-1);
+    }
 }

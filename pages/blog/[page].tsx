@@ -69,7 +69,7 @@ const Post = ({ posts, lastPage, currentPage }: PostProps): JSX.Element => {
             <Head><title>Blog - Keith Wagner</title></Head>
             <RssFeeds />
 
-            <main className="slim">
+            <main>
                 <h1>Blog</h1>
 
                 {blogPosts.map((p) => (<PostListing key={p.id} post={p} />))}

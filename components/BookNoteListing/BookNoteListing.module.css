@@ -1,7 +1,25 @@
 .bookNote {
+    margin: 2rem 0;
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--grey-1);
+}
+
+.bookNote:hover {
+    border-color: var(--primary-color-1);
+}
+
+.metadata {
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--grey-1);
+    background-color: var(--background-lighter);
+}
+
+.content {
     display: flex;
     gap: 4rem;
-    margin: 2rem 0;
+    padding: 1rem;
 }
 
 .image {
@@ -42,7 +60,7 @@
 }
 
 @media (max-width: 450px) {
-    .bookNote {
+    .content {
         display: block;
     }
 

@@ -1,5 +1,4 @@
 import { BookNote } from '@models/BookNote';
-import { formatDate } from '@lib/utilities';
 import StarRating from '@components/StarRating/StarRating';
 
 import styles from './BookMetadata.module.css';
@@ -18,8 +17,6 @@ const BookMetadata = ({
         <div>
             <h2>{book.title}</h2>
             <h3>{book.author}</h3>
-
-            <div className={styles.date}>{formatDate(book.dateFinished)}</div>
 
             <StarRating
                 rating={book.rating}

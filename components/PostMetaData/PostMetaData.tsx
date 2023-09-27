@@ -1,13 +1,13 @@
 import { formatDate } from '@lib/utilities';
 
-import styles from './PostHeading.module.css';
+import styles from './PostMetaData.module.css';
 
-interface MetaDataProps {
+interface PostMetaDataProps {
     date: Date;
     readTime?: number;
 }
 
-const MetaData = ({ date, readTime }: MetaDataProps): JSX.Element => (
+const PostMetaData = ({ date, readTime }: PostMetaDataProps): JSX.Element => (
     <div className={styles.metadata}>
         <div>{formatDate(date)}</div>
         {
@@ -21,4 +21,4 @@ const MetaData = ({ date, readTime }: MetaDataProps): JSX.Element => (
     </div>
 );
 
-export default MetaData;
+export default PostMetaData;
