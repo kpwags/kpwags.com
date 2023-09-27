@@ -60,7 +60,7 @@
     margin: 0rem 1.5rem 1rem;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 915px) {
     .nav {
         display: none;
     }

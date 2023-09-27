@@ -9,9 +9,9 @@ import SearchBar from '@components/SearchBar';
 import ThemeSwitchButton from '@components/ThemeSwitchButton';
 import ThemeSwitcher from '@components/ThemeSwitcher';
 import { ColorTheme } from '@models/theme';
-
 import RssFeedSelectionBar from '@components/RssFeedSelectionBar';
 import RssFeedButton from '@components/RssFeedButton/RssFeedButton';
+
 import styles from './Header.module.css';
 
 const Header = (): JSX.Element => {

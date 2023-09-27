@@ -1,0 +1,9 @@
+.metadata {
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--grey-1);
+    background-color: var(--background-lighter);
+    display: flex;
+    column-gap: 1rem;
+}

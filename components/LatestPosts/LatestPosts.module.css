@@ -1,32 +1,49 @@
-.mostRecentPosts {
-    margin: 5rem 0;
-}
-
 .mostRecentPosts h2 {
     color: var(--text);
 }
 
-.mostRecentPosts h3 {
-    margin: 1.5rem 0;
-    font-size: 1.5rem;
+.article {
+    margin: 0 0 2.5rem 0;
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--grey-1);
 }
 
-.viewMore {
-    text-align: center;
-    margin: 1rem 0 0;
-    font-size: 1.2rem;
+.article:hover {
+    border-color: var(--primary-color-1);
+}
+
+.article:hover .metadata {
+    border-color: var(--primary-color-1);
+}
+
+.article h2 {
+    font-size: 2.1rem;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.metadata {
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid var(--grey-1);
+    background-color: var(--background-lighter);
+}
+
+.excerpt {
+    font-size: 1.4rem;
 }
 
 @media (max-width: 450px) {
-    .heading {
-        display: block;
+    .metadata {
+        text-align: center;
     }
 
-    .link {
-        display: none;
-    }
-
-    .mobileLink {
-        display: block;
+    .article h2 {
+        margin-bottom: 1rem;
     }
 }

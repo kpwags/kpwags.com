@@ -13,8 +13,8 @@ const YouTubeEmbed = ({
 
     return (
         <iframe
-            width={windowWidth > 600 ? 560 : 300}
-            height={windowWidth > 600 ? 315 : 169}
+            width={windowWidth > 600 ? 560 : 250}
+            height={windowWidth > 600 ? 315 : 141}
             src={`https://www.youtube.com/embed/${id}`}
             title={title}
             frameBorder={0}

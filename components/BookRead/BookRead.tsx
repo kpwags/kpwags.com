@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import Image from 'next/image';
 
 import styles from './BookRead.module.css';
 
@@ -24,7 +23,7 @@ const BookRead = ({
 }: BookReadProps): JSX.Element => (
     <div className={styles.book}>
         <div className="book-image">
-            <Image
+            <img
                 src={coverImageSrc}
                 alt={`${title} by ${author}`}
                 width={width}
