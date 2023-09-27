@@ -451,6 +451,10 @@ a img {
     font-weight: normal;
 }
 
+.article p:last-of-type {
+    margin-bottom: 0;
+}
+
 .article .content {
     padding: 1rem 2rem;
 }
