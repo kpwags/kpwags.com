@@ -85,6 +85,10 @@
         margin-bottom: 2rem;
     }
 
+    .meta {
+        text-align: center;
+    }
+
     .posts {
         flex-grow: 2;
     }
@@ -97,5 +101,9 @@
 
     .image:hover {
         border-color: var(--primary-color-1);
+    }
+
+    .more a {
+        padding: 0.5rem;
     }
 }
