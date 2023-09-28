@@ -16,6 +16,13 @@ const LatestPosts = ({
             <article key={p.id} className={styles.article}>
                 <div className={styles.metadata}>
                     <div className="post-date">{formatDate(p.date)}</div>
+                    {!p.title.startsWith('Reading Log - ') ? (
+                        <>
+                            <div>&bull;</div>
+                            <div className={styles.desktopVersion}>{p.readTime} Minute Read</div>
+                            <div className={styles.mobileVersion}>{p.readTime} {p.readTime > 1 ? 'Minutes' : 'Minute'}</div>
+                        </>
+                    ) : null}
                 </div>
                 <div className={styles.content}>
                     <h2><Link href={p.url}>{p.title}</Link></h2>
