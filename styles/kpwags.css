@@ -180,7 +180,10 @@ select {
     font: inherit;
 }
 
-p,
+p {
+    overflow-wrap: break-word;
+}
+
 h1,
 h2,
 h3,
@@ -570,6 +573,10 @@ a img {
 
 .article .content ul > li > ul {
     margin: 0.75rem 0 0.75rem 3rem;
+}
+
+.article iframe {
+    margin-top: 2rem;
 }
 
 .contact ul {
