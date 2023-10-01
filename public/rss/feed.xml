@@ -4,11 +4,36 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Fri, 29 Sep 2023 21:09:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Oct 2023 16:36:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Staying Silent is Political Too]]></title>
+            <link>https://kpwags.com/posts/2023/10/01/staying-silent-is-political-too</link>
+            <guid>https://kpwags.com/posts/2023/10/01/staying-silent-is-political-too</guid>
+            <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I follow Chris Ferdinandi&#39;s blog <a href="https://gomakethings.com/">Go Make Things</a> and he had a recent post, <a href="https://gomakethings.com/i-follow-you-for-tech-not-politics/">I follow you for tech, not politics</a> that resonated with me.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>I follow Chris Ferdinandi&#x27;s blog <a href="https://gomakethings.com/">Go Make Things</a> and he had a recent post, <a href="https://gomakethings.com/i-follow-you-for-tech-not-politics/">I follow you for tech, not politics</a> that resonated with me.</p>
+<p>It&#x27;s been a common saying all across all kinds of platforms that people complain about others dipping their toes into politics. Whether it be sports stars, musicians and the like. People are always complaining &quot;They should stick to [sports, music, etc.] and stay out of politics!&quot; It can even branch into developers bringing things up on their blogs and personal sites as Chris points out in his post.</p>
+<blockquote>
+<p><strong>My friend, all tech is political.</strong> All technology either reinforces or fights against existing social systems.</p>
+<p>Being apolitical? That’s also political. It’s a choice to maintain status quo systems of repression because they don’t affect you in a negative way.</p>
+</blockquote>
+<p>He&#x27;s right.</p>
+<p>Take me for example, I&#x27;m a straight white male. I hit the figurative jackpot and didn&#x27;t have to do anything to get there. I happen to be who I am through a stroke of pure luck. Most of the decisions that go on in politics at the federal, state and local level have minimal effect on me personally. Me staying silent isn&#x27;t going to move the needle on my life all that much. Staying silent would be my political choice to accept the status quo.</p>
+<p>Me staying silent though also has political ramifications in that the status quo is not good for many that I care about. Me staying silent has the political ramifications that many women, including family and friends, end up losing bodily autonomy and access to basic medical care. It means those in the LGBT community lose rights and access to medical care. It means that teachers and librarians can continue to get attacked for trying to educate the country&#x27;s youth.</p>
+<p>Me staying silent is politics. It&#x27;s the politics of me being okay with those in Washington and Harrisburg doing what they&#x27;re doing.</p>
+<p>Like Chris says, being apolitical is political.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Digging Into Blazor - Forms]]></title>
             <link>https://kpwags.com/posts/2023/09/29/digging-into-blazor-forms</link>
