@@ -4,11 +4,82 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sun, 01 Oct 2023 16:36:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Oct 2023 23:07:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - October 2, 2023 (#46)]]></title>
+            <link>https://kpwags.com/reading-log/46</link>
+            <guid>https://kpwags.com/reading-log/46</guid>
+            <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I read about why analytics are a privacy nightmare and not worth it, NASA seeing what they got back from the asteroid, the FTC going after Amazon and more.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>This week I read about why analytics are a privacy nightmare and not worth it, NASA seeing what they got back from the asteroid, the FTC going after Amazon and more.</p>
+<h2>In Depth</h2>
+<div class="InDepthNote_inDepthNotes__6s_Z7"><h3><span class="source">Joseph Morgenstern:</span> <a href="https://www.newyorker.com/magazine/1995/05/29/the-fifty-nine-story-crisis-citicorp-center">The Skyscraper That Could Have Toppled Over in the Wind</a></h3><p>I remember the first time I heard about this story, it was on a <a href="https://99percentinvisible.org/episode/structural-integrity/">99% Invisible podcast episode</a>.</p><p>The story was riveting, and also scary. I&#x27;d highly suggest reading this article and listening to the episode.</p><hr/></div>
+<h2>Link Blast</h2>
+<h3>🖥 Software Development &amp; Design</h3>
+<p><a href="https://redd.one/blog/one-thing-nobody-explained-to-you-about-typescript">One Thing Nobody Explained To You About TypeScript</a> - <em>Artem Zakharchenko</em></p>
+<p><a href="https://meyerweb.com/eric/thoughts/2023/09/12/nuclear-anchored-sidenotes/">Nuclear Anchored Sidenotes</a> - <em>Eric A. Meyer</em></p>
+<p><a href="https://jeremydmiller.com/2023/09/14/notes-on-teaching-test-driven-development/">Notes on Teaching Test Driven Development</a> - <em>Jeremy D. Miller</em></p>
+<p><a href="https://github.com/readme/podcast/accessible-software-development">Innovation Without Barriers</a> - <em>The ReadME Podcast #27</em></p>
+<hr/>
+<h3>📡 Technology &amp; the Internet</h3>
+<p><a href="https://www.theverge.com/2023/9/25/23888009/spotify-podcast-translation-voice-replication-open-ai">Spotify is going to clone podcasters’ voices — and translate them to other languages</a> - <em>Amrita Khalid</em></p>
+<p><a href="https://pcmaffey.com/counting-ghosts">Counting Ghosts</a> - <em>P.C. Maffey</em></p>
+<p><a href="https://kotaku.com/sony-playstation-hack-breach-ransomware-ransomed-vc-1850870993">‘All Of Sony Systems’ Allegedly Hacked By New Ransomware Group</a> - <em>Levi Winslow</em></p>
+<hr/>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/space/2023/09/scientists-get-first-glimpse-of-samples-returned-from-asteroid/">Scientists just opened the lid to NASA’s asteroid sample canister</a> - <em>Stephen Clark</em></p>
+<hr/>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://arstechnica.com/tech-policy/2023/09/ftc-files-the-big-one-a-lawsuit-alleging-amazon-illegally-maintains-monopoly/">FTC files “the big one,” a lawsuit alleging Amazon illegally maintains monopoly</a> - <em>Jon Brodkin</em></p>
+<hr/>
+<h3>⚾️ Sports</h3>
+<p><a href="https://defector.com/julie-ertz-was-the-uswnt">Julie Ertz Was The USWNT</a> - <em>Tom Ley</em></p>
+<hr/>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://longform.org/player/longform-podcast-527-mary-childs">Longform Podcast #527: Mary Childs</a></p>
+<p><a href="https://podrocket.logrocket.com/elk">PodRocket: Building Elk with Daniel Roe</a></p>
+<p><a href="https://www.npr.org/sections/health-shots/2023/03/13/1162585010/this-veterinarian-says-pets-have-a-lot-to-teach-us-about-love-and-grief">Fresh Air: A veterinarian says pets have a lot to teach us about love and grief</a></p>
+<p><a href="https://www.programmingthrowdown.com/episodes/153-chatgpt/">Programming Throwdown #153: ChatGPT</a></p>
+<p><a href="https://www.npr.org/2023/03/09/1162156179/weve-doubled-life-expectancy-in-100-years-how-did-we-do-it">TED Radio Hour #519: We&#x27;ve doubled life expectancy in 100 years. How did we do it?</a></p>
+<hr/>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://defector.com/not-even-the-patron-stooge-of-fawning-biographies-can-make-elon-musk-look-good">Not Even The Patron Stooge Of Fawning Biographies Can Make Elon Musk Look Good</a> - <em>James Robins</em></p>
+<p><a href="https://arstechnica.com/space/2023/09/space-force-chief-foresees-role-in-protecting-commercial-satellites/">Space Force chief says commercial satellites may need defending</a> - <em>Stephen Clark</em></p>
+<hr/>
+<p>🎵 A Song to Leave You With</p>
+<h4>Jerry Goldsmith - A New Ending</h4>
+<p><a href="https://www.youtube.com/watch?v=0fTTL5Wv2ug" title="Jerry Goldsmith - A New Ending">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[Personal Sites are Never "Done"]]></title>
+            <link>https://kpwags.com/posts/2023/10/02/personal-sites-are-never-done</link>
+            <guid>https://kpwags.com/posts/2023/10/02/personal-sites-are-never-done</guid>
+            <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of these days I&#39;m going to stop itching to redesign my site.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>One of these days I&#x27;m going to stop itching to redesign my site.</p>
+<p>I&#x27;m always tinkering around with my site. I see other people&#x27;s personal sites and see ideas I&#x27;m interested in potentially implementing. I&#x27;m adding or adjusting new features, tweaking the look and feel, and who knows what else.</p>
+<p>In the last week, I completely redesigned my homepage and how I lay out my blog, reading logs, &amp; book notes. This is exactly what I&#x27;m talking about, I can&#x27;t just let things be and focus on the content. I have to be tweaking things. I have a whole bunch of <a href="https://kpwags.com/posts/2023/09/23/the-strange-inability-to-finish-a-project">unfinished side projects</a> that I could be spending time on, instead.</p>
+<p>I was even planning a complete redesign of my site, but have tabled that...thankfully I guess.</p>
+<p>My goal to write every day has started to provide me with a steady flow of content and posts that I&#x27;ll have for the site. It&#x27;s also taken up some of the time I might&#x27;ve originally spent tinkering. Maybe I can recapture some of my time and maybe I can finally shift my focus to finishing one of the side projects that are on my list.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Staying Silent is Political Too]]></title>
             <link>https://kpwags.com/posts/2023/10/01/staying-silent-is-political-too</link>
