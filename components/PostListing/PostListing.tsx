@@ -14,9 +14,13 @@ const PostListing = ({
     <article key={post.id} className={styles.article}>
         <div className={styles.metadata}>
             <div className="post-date">{formatDate(post.date)}</div>
-            <div>&bull;</div>
-            <div className={styles.desktopVersion}>{post.readTime} Minute Read</div>
-            <div className={styles.mobileVersion}>{post.readTime} {post.readTime > 1 ? 'Minutes' : 'Minute'}</div>
+            {post.readTime && post.readTime > 0 ? (
+                <>
+                    <div>&bull;</div>
+                    <div className={styles.desktopVersion}>{post.readTime} Minute Read</div>
+                    <div className={styles.mobileVersion}>{post.readTime} {post.readTime > 1 ? 'Minutes' : 'Minute'}</div>
+                </>
+            ) : null}
         </div>
         <div className={styles.content}>
             <h2><Link href={post.url}>{post.title}</Link></h2>
