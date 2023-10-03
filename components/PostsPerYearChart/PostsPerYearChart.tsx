@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { PostsPerYear } from '@models/Stats';
 import { useEffect, useState } from 'react';
 
@@ -75,7 +76,7 @@ const PostsPerYearChart = ({
         <div className={styles.mainContainer}>
             {yearData.map((d) => (
                 <div key={d.year} className={styles.container}>
-                    <p className={styles.barTitle}>{d.year}<span className={styles.mobileStats}>&nbsp;({d.count})</span></p>
+                    <p className={styles.barTitle}><Link href={`/archives/${d.year}`}>{d.year}</Link><span className={styles.mobileStats}>&nbsp;({d.count})</span></p>
                     <div className={styles.bar}>
                         <div className={styles.innerBar} style={{ backgroundColor: d.color, width: `${d.percentage}%` }} />
                     </div>

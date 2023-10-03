@@ -5,14 +5,14 @@ import timezone from 'dayjs/plugin/timezone';
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-export const formatDate = (value: string|Date, format = 'MMMM D, YYYY'): string => {
+export const formatDate = (value: string | Date, format = 'MMMM D, YYYY'): string => {
     const date = dayjs(value);
     const timeZone = dayjs.tz.guess();
     date.tz(timeZone);
     return date.format(format);
 };
 
-export const formatDateTime = (value: string|Date): string => {
+export const formatDateTime = (value: string | Date): string => {
     const date = dayjs(value);
     const timeZone = dayjs.tz.guess();
     date.tz(timeZone);
@@ -36,8 +36,8 @@ export const getPostExcerpt = (html: string): string => {
     return snippet.replace('<p>', '');
 };
 
-export const getDateParts = (value: string|Date): { year: string, month: string, day: string } => {
-    const date = dayjs(value).add(1, 'day');
+export const getDateParts = (value: string | Date): { year: string, month: string, day: string } => {
+    const date = dayjs(value);
     const timeZone = dayjs.tz.guess();
     date.tz(timeZone);
 
