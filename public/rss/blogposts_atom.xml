@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner - Blog Posts</title>
-    <updated>2023-10-03T22:50:58.028Z</updated>
+    <updated>2023-10-04T23:25:01.929Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,97 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[September 2023 Check-In]]></title>
+        <id>https://kpwags.com/posts/2023/10/04/september-2023-check-in</id>
+        <link href="https://kpwags.com/posts/2023/10/04/september-2023-check-in"/>
+        <updated>2023-10-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The fall season has begun. The weather has <a href="https://kpwags.com/posts/2023/09/16/summer-is-fading">started to chill</a> which is thankful since our AC still needs repairing or replacement.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>The fall season has begun. The weather has <a href="https://kpwags.com/posts/2023/09/16/summer-is-fading">started to chill</a> which is thankful since our AC still needs repairing or replacement.</p>
+<h2>Started Writing More</h2>
+<p>Towards the end of the month, I decided I wanted to start to write more, and made a goal of writing a bit every day. It hasn&#x27;t been that long, but so far, I&#x27;ve been sticking with it. I&#x27;m not always writing a lot, but the thought is to get something down every day. More and or better can come as time progresses I figure.</p>
+<h2>A Dull Month</h2>
+<p>Overall, it&#x27;s been a pretty dull month, which isn&#x27;t a bad thing. The fall hockey season started up and I spent a lot of evenings on the couch watching TV and reading with my wife. I started &quot;attacking&quot; my podcast queue and have slowly been making a little bit of progress.</p>
+<p>I&#x27;m not mad about a quiet month, definitely has its plusses.</p>
+<h2>Monthly Round-Up</h2>
+<p><strong>🏃🏼‍♂️ Running &amp; Biking</strong></p>
+<ul>
+<li><strong>Running:</strong> 20.98 miles</li>
+<li><strong>Biking:</strong> Nope</li>
+</ul>
+<p><strong>🏋🏼‍♂️ Lifting</strong></p>
+<ul>
+<li>Haven’t lifted that much, was kind of a lazy month in that aspect</li>
+</ul>
+<p><strong>📚 Reading</strong></p>
+<p><em>Finished</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/dead-wake-the-last-crossing-of-the-lusitania-erik-larson/7296476?ean=9780307408877">Dead Wake: The Last Crossing of the Lusitania</a> by Erik Larson</li>
+<li><a href="https://bookshop.org/p/books/a-history-of-the-world-in-6-glasses-tom-standage/16634565?ean=9780802715524">A History of the World in 6 Glasses</a> by Tom Standage</li>
+<li><a href="https://bookshop.org/p/books/packing-for-mars-the-curious-science-of-life-in-the-void-mary-roach/1517059?ean=9781324036050">Packing for Mars</a> by Mary Roach</li>
+<li><a href="https://bookshop.org/p/books/talking-to-strangers-what-we-should-know-about-the-people-we-don-t-know-malcolm-gladwell/16344994?ean=9780316299220">Talking to Strangers</a> by Malcolm Gladwell</li>
+<li><a href="https://bookshop.org/p/books/trigger-warning-short-fictions-and-disturbances-neil-gaiman/15543280?ean=9780063075764">Trigger Warning</a> by Neil Gaiman</li>
+</ul>
+<p><em>Started</em></p>
+<ul>
+<li><a href="https://bookshop.org/books/team-of-rivals-the-political-genius-of-abraham-lincoln/9780743270755">Team of Rivals: The Political Genius of Abraham Lincoln</a> by Doris Kearns Goodwin</li>
+</ul>
+<p><strong>✍🏻 Writing</strong></p>
+<ul>
+<li>Continued my reading logs
+<ul>
+<li><a href="https://kpwags.com/reading-log/42">September 4</a></li>
+<li><a href="https://kpwags.com/reading-log/43">September 11</a></li>
+<li><a href="https://kpwags.com/reading-log/44">September 18</a></li>
+<li><a href="https://kpwags.com/reading-log/45">September 25</a></li>
+</ul>
+</li>
+<li>Wrote about
+<ul>
+<li><a href="https://kpwags.com/posts/2023/09/06/added-book-notes">Adding book notes to my site</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/08/integrating-notion-into-my-site">Integrating Notion into my site</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/16/summer-is-fading">Summer fading</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/22/writing-everyday">Writing every day</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/23/the-strange-inability-to-finish-a-project">My inability to finish a side project</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/25/my-blogging-workflow">My blogging workflow</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/27/tackling-my-podcast-queue">Trying to tackle my podcast queue</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/28/analog-versus-digital">Analog versus digital and my draw to analog</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/29/one-more-time-by-blink-182">Blink-182&#x27;s latest single</a></li>
+<li><a href="https://kpwags.com/posts/2023/09/29/digging-into-blazor-forms">Building simple forms in Blazor</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>🎮 Gaming</strong></p>
+<ul>
+<li>Still playing through <a href="https://www.playstation.com/en-us/games/horizon-forbidden-west/">Horizon Forbidden West</a></li>
+</ul>
+<p><strong>📺 Watched</strong></p>
+<ul>
+<li>Continued <a href="https://www.imdb.com/title/tt2261227/">Altered Carbon</a></li>
+<li>Finished <a href="https://www.imdb.com/title/tt5057054/">Jack Ryan</a></li>
+<li>Started season 4 of <a href="https://www.imdb.com/title/tt9184820/">Star Trek: Lower Decks</a></li>
+<li>Started a re-watch of <a href="https://www.imdb.com/title/tt0092455/">Star Trek: The Next Generation</a></li>
+<li>Started <a href="https://www.imdb.com/title/tt3526078/">Schitt&#x27;s Creek</a></li>
+<li>Started, and finished season 3 of <a href="https://www.imdb.com/title/tt7772588/">For All Mankind</a></li>
+</ul>
+<p><strong>🎬 Movies</strong></p>
+<ul>
+<li><a href="https://www.imdb.com/title/tt1392190/">Mad Max: Fury Road</a></li>
+<li><a href="https://www.imdb.com/title/tt0072431/">Young Frankenstein</a></li>
+<li><a href="https://www.imdb.com/title/tt0253754/">Star Trek: Nemesis</a></li>
+</ul>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unit Testing and React Hook Form]]></title>
         <id>https://kpwags.com/posts/2023/10/03/unit-testing-and-react-hook-form</id>
