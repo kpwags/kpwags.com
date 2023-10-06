@@ -7,12 +7,14 @@ type PostVideoProps = {
     height?: number
     centered?: boolean
     shadowed?: boolean
+    credit?: JSX.Element
 }
 
 const PostVideo = ({
     src,
     width,
     height,
+    credit,
     centered = true,
     shadowed = false,
 }: PostVideoProps): JSX.Element => {
@@ -40,6 +42,7 @@ const PostVideo = ({
                 />
                 Not Supported
             </video>
+            {credit && <div className={styles.credit}>{credit}</div>}
         </div>
     );
 };

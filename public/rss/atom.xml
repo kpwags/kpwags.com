@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-10-04T23:25:00.896Z</updated>
+    <updated>2023-10-06T20:44:29.043Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,60 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[It's Another Red October]]></title>
+        <id>https://kpwags.com/posts/2023/10/06/its-another-red-october</id>
+        <link href="https://kpwags.com/posts/2023/10/06/its-another-red-october"/>
+        <updated>2023-10-06T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last year, my Phillies eked into the playoffs and then proceeded to knock out the St. Louis Cardinals, Atlanta Braves, &amp; San Diego Padres to make
+it all the way to the world series. There, they sadly lost to the Houston <s>Cheaters</s> Astros. This year, they&#39;re back in the playoffs and already
+took out the Miami Marlins to reach the NLDS for a rematch against the Braves.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>Last year, my Phillies eked into the playoffs and then proceeded to knock out the St. Louis Cardinals, Atlanta Braves, &amp; San Diego Padres to make
+it all the way to the world series. There, they sadly lost to the Houston <s>Cheaters</s> Astros. This year, they&#x27;re back in the playoffs and already
+took out the Miami Marlins to reach the NLDS for a rematch against the Braves.</p>
+<div class="PostVideo_videoContainer__yzAXU PostVideo_centered__ww3Pa"><video controls=""><source src="/videos/posts/2023-10-06-its-another-red-october/phillies-stott-grand-slam.mp4" type="video/mp4"/>Not Supported</video><div class="PostVideo_credit__m3_6_">Credit: MLB/Phillies</div></div>
+<p>I&#x27;m psyched and excited to watch them make another World Series run!</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Defense of TypeScript]]></title>
+        <id>https://kpwags.com/posts/2023/10/06/in-defense-of-typescript</id>
+        <link href="https://kpwags.com/posts/2023/10/06/in-defense-of-typescript"/>
+        <updated>2023-10-06T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The other day in my quest to go through my podcast queue I was listening to an episode of PodRocket, <a href="https://podrocket.logrocket.com/state-of-js-frameworks">The state of JS frameworks with Chris Ferdinandi</a>. It was a good discussion on some of the downsides of frameworks like React, Vue, and the like. I would highly recommend listening to it.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>The other day in my quest to go through my podcast queue I was listening to an episode of PodRocket, <a href="https://podrocket.logrocket.com/state-of-js-frameworks">The state of JS frameworks with Chris Ferdinandi</a>. It was a good discussion on some of the downsides of frameworks like React, Vue, and the like. I would highly recommend listening to it.</p>
+<p>During the discussion, it veers into TypeScript. Chris questions some of the &quot;gung ho&quot; attitudes people have about TypeScript. And while his criticisms are completely valid and he makes some good points, I wanted to defend some of the uses of TypeScript.</p>
+<p>One of the applications I work on at my job, is an app with a .NET backend with a React/TypeScript frontend. The application is fairly large with a large range of components and models to support all the business cases and logic.</p>
+<p>While we do have a core dev team working on it, other devs have come in and have helped out from time to time. Given the large code base, I do believe TypeScript is a blessing. I think it makes the process of getting up to speed on certain areas within the app smoother and faster. When generating objects or adding components, it becomes easier to know what props and properties the components and objects need as well as their types.</p>
+<p>This does require developers to carefully craft the models so they&#x27;re useful, and it does carry some extra overhead, but for large projects, I&#x27;ve found it invaluable.</p>
+<p>Could this be written without TypeScript? Absolutely. But in use cases of large apps, I believe TypeScript is worth it.</p>
+<p>Me arguing for TypeScript doesn&#x27;t mean that Chris&#x27; arguments are wrong or that he&#x27;s wrong. For smaller, simpler sites and web apps, TypeScript is most certainly overkill. You&#x27;ll spend more time working with and tweaking the TypeScript config than you would just building in JavaScript.</p>
+<blockquote>
+<p>I think that&#x27;s true of most of the tools that we use. State-based UI libraries provide an incredible benefit for certain types of user interfaces and add a lot of overhead and create a lot of potential break points in many, many others. But we have a tendency today to just use them for everything. So, for me, that&#x27;s what it&#x27;s really about, being a little bit more thoughtful about the tools that we choose to use and when and why we choose to use them.</p>
+</blockquote>
+<p>I think this is the key point to all of this. We should be give more consideration to the tools we use and make sure the languages, libraries, frameworks, and all tools are the best ones for the task at hand.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[September 2023 Check-In]]></title>
         <id>https://kpwags.com/posts/2023/10/04/september-2023-check-in</id>
