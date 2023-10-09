@@ -4,11 +4,50 @@
         <title>Keith Wagner - Reading Logs</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 02 Oct 2023 23:07:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Oct 2023 23:40:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - October 9, 2023 (#47)]]></title>
+            <link>https://kpwags.com/reading-log/47</link>
+            <guid>https://kpwags.com/reading-log/47</guid>
+            <pubDate>Mon, 09 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Very podcast heavy this week. The FCC also fines Dish Network for space junk, and more.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                <p>Very podcast heavy this week. The FCC also fines Dish Network for space junk, and more.</p>
+<h2>Link Blast</h2>
+<h3>🖥 Software Development &amp; Design</h3>
+<p><a href="https://daverupert.com/2023/10/nine-a11y-jobs-where-robots-suck/">Nine things automated accessibility tests can’t test</a> - <em>Dave Rupert</em></p>
+<hr/>
+<h3>📡 Technology &amp; the Internet</h3>
+<p><a href="https://www.techdirt.com/2023/10/05/kosa-wont-make-the-internet-safer-for-kids-so-what-will/">KOSA Won’t Make The Internet Safer For Kids. So What Will?</a> - <em>Matthew Lane</em></p>
+<p><a href="https://podcasts.apple.com/us/podcast/cory-doctorow-on-why-the-internet-broke-and-how-to-fix-it/id1441708044?i=1000630225019">Cory Doctorow on Why the Internet Broke and How to Fix It</a> - <em>Cyber Podcast</em></p>
+<p><a href="https://arstechnica.com/tech-policy/2023/10/dish-botches-satellite-deorbit-gets-hit-with-fccs-first-space-debris-fine/">Dish botches satellite deorbit, gets hit with FCC’s first space-debris fine</a> - <em>Jon Brodkin</em></p>
+<p><a href="https://blog.mozilla.org/en/products/firefox/encrypted-hello/">Say (an encrypted) hello to a more private internet.</a> - <em>Dennis Jackson</em></p>
+<hr/>
+<h3>🔬 Science</h3>
+<p><a href="https://www.bbc.com/future/article/20231006-the-soviet-spacecraft-cemetery-in-the-pacific">The Soviet spacecraft cemetery in the Pacific</a> - <em>Zaria Gorvett</em></p>
+<p><a href="https://www.grc.nasa.gov/www/k-12/airplane/guided.htm">Beginner&#x27;s Guide to Aeronautics</a> - <em>NASA</em></p>
+<hr/>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://www.marketplace.org/shows/make-me-smart/crypto-goes-to-court/">Make Me Smart #1017: Crypto goes to court</a></p>
+<p><a href="https://podcasts.apple.com/gb/podcast/316-the-first-abolitionist/id1537788786?i=1000605966605">The Rest is History #316: The First Abolitionist</a></p>
+<p><a href="https://podrocket.logrocket.com/state-of-js-frameworks">Podrocket Podcast: The state of JS frameworks with Chris Ferdinandi</a></p>
+<p><a href="https://changelog.com/jsparty/268">JS Party #268: Recreating Node.js from scratch</a></p>
+<p><a href="https://hanselminutes.com/885/leading-engineers-as-a-non-engineer-with-dailys-sarah-milstein">Hanselminutes #885: Leading engineers as a non-engineer with Daily&#x27;s Sarah Milstein</a></p>
+<p><a href="https://www.dotnetrocks.com/details/1838">.NET Rocks #1838: Blazor United with Javier Nelson and Steve Sanderson</a></p>
+<p><a href="https://freakonomics.com/podcast/insurance-is-sexy-discuss/">Freakonomics Podcast #537: “Insurance Is Sexy.” Discuss.</a></p>
+<hr/>
+<p>🎵 A Song to Leave You With</p>
+<h4>Spanish Love Songs - Haunted</h4>
+<p><a href="https://www.youtube.com/watch?v=bFB4lVRETsc" title="Spanish Love Songs - Haunted">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - October 2, 2023 (#46)]]></title>
             <link>https://kpwags.com/reading-log/46</link>
