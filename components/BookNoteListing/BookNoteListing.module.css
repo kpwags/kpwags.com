@@ -42,6 +42,7 @@
 .bookNote h3 {
     color: var(--text);
     margin-bottom: 0.6rem;
+    font-size: 1.7rem;
 }
 
 .categories {
