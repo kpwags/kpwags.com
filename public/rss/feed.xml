@@ -4,11 +4,89 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Sun, 29 Oct 2023 20:21:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Oct 2023 22:56:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - October 30, 2023 (#48)]]></title>
+            <link>https://kpwags.com/reading-log/48</link>
+            <guid>https://kpwags.com/reading-log/48</guid>
+            <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Still have a lot of my RSS feeds to go through after vacation, but I did read a bit while in Aruba.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>Still have a lot of my RSS feeds to go through after vacation, but I did read a bit while in Aruba.</p>
+<h2>Link Blast</h2>
+<h3>🖥 Software Development &amp; Design</h3>
+<p><a href="https://blog.pragmaticengineer.com/bun-lessons-from-disrupting/">Bun: lessons from disrupting a tech ecosystem</a> - <em>Gergely Orosz</em></p>
+<p><a href="https://blog.pragmaticengineer.com/how-microsoft-does-qa/">How Microsoft does Quality Assurance (QA)</a> - <em>Gergely Orosz</em></p>
+<p><a href="https://pdx.su/blog/2023-07-26-tailwind-and-the-death-of-craftsmanship">Tailwind, and the death of web craftsmanship</a> - <em>Jeff Sandberg</em></p>
+<p><a href="https://jeremybytes.blogspot.com/2023/10/dont-use-taskwhenall-for-interdependent.html">Don&#x27;t Use &quot;Task.WhenAll&quot; for Interdependent Tasks</a> - <em>Jeremy Clarke</em></p>
+<p><a href="https://herman.bearblog.dev/how-i-stay-motivated-as-a-solo-creator/">How I stay motivated as a solo-creator</a> - <em>Herman Martinus</em></p>
+<p><a href="https://www.svix.com/blog/strong-typing-hill-to-die-on/">Strong static typing, a hill I&#x27;m willing to die on...</a> - <em>Tom Hacohen</em></p>
+<p><a href="https://www.code4it.dev/blog/feature-flags-dotnet/">Feature Flags 101: A Guide for ASP.NET Core Developers</a> - <em>Davide Bellone</em></p>
+<p><a href="https://devblogs.microsoft.com/dotnet/the-convenience-of-dotnet/">The convenience of .NET</a> - <em>Richard Lander</em></p>
+<p><a href="https://steven-giesel.com/blogPost/05ecdd16-8dc4-490f-b1cf-780c994346a4">A new way of doing reflection with .NET 8</a> - <em>Steven Giesel</em></p>
+<p><a href="https://andrewlock.net/should-you-use-the-dotnet-8-identity-api-endpoints/">Should you use the .NET 8 Identity API endpoints?</a> - <em>Andrew Lock</em></p>
+<hr/>
+<h3>📡 Technology &amp; the Internet</h3>
+<p><a href="https://www.techdirt.com/2023/10/25/ny-times-tried-to-block-the-internet-archive/">NY Times Tried To Block The Internet Archive</a> - <em>Glyn Moody</em></p>
+<p><a href="https://buttondown.email/blog/dear-mailchimp-users">Dear Mailchimp Users</a> - <em>Buttondown.email</em></p>
+<hr/>
+<h3>🔬 Science</h3>
+<p><a href="https://arstechnica.com/space/2023/10/inspector-general-on-nasas-plans-to-reduce-sls-costs-highly-unrealistic/">NASA should consider commercial alternatives to SLS, inspector general says</a> - <em>Eric Berger</em></p>
+<hr/>
+<h3>🎮 Gaming</h3>
+<p><a href="https://arstechnica.com/gaming/2023/10/microsoft-finally-owns-candy-crush-as-it-closes-69b-activision-blizzard-deal/">Microsoft completes $69B Activision Blizzard deal, its biggest merger ever</a> - <em>Kevin Purdy</em></p>
+<hr/>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://nextbigideaclub.com/magazine/number-go-inside-cryptos-wild-rise-staggering-fall-bookbite/45644/">Number Go Up: Inside Crypto’s Wild Rise and Staggering Fall</a> - <em>Zeke Faux</em></p>
+<p><a href="https://www.economist.com/business/2023/10/08/who-profits-most-from-americas-baffling-health-care-system">Who profits most from America’s baffling health-care system?</a> - <em>The Economist</em></p>
+<p><a href="https://www.marketplace.org/2023/10/10/how-can-a-film-make-almost-1-billion-at-the-box-office-but-still-lose-money/">How can a film make almost $1 billion at the box office but still “lose” money?</a> - <em>Janet Nguyen</em></p>
+<hr/>
+<h3>⚾️ Sports</h3>
+<p><a href="https://defector.com/thats-more-like-the-marlins-we-all-know-and-ignore">That’s More Like The Marlins We All Know And Ignore</a> - <em>Ray Ratto</em></p>
+<p><a href="https://theathletic.com/4959514/2023/10/13/mlb-playoff-system-phillies-astros-braves-dodgers/">Stop whining about MLB’s playoff system. Phillies, Astros show how to have October success</a> - <em>Jayson Stark</em></p>
+<hr/>
+<h3>📺 Media &amp; Entertainment</h3>
+<p><a href="https://arstechnica.com/gadgets/2023/10/report-apple-cancels-the-problem-with-jon-stewart-over-china-ai-topics/">The Problem with Jon Stewart cancellation highlights a problem for Apple’s content</a> - <em>Samuel Axon</em></p>
+<hr/>
+<p>🎵 A Song to Leave You With</p>
+<h4>The Menzingers - Try</h4>
+<p><a href="https://www.youtube.com/watch?v=O-YlefL9PIM" title="The Menzingers - Try">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
+        <item>
+            <title><![CDATA[I Need More Time in the Day]]></title>
+            <link>https://kpwags.com/posts/2023/10/30/i-need-more-time-in-the-day</link>
+            <guid>https://kpwags.com/posts/2023/10/30/i-need-more-time-in-the-day</guid>
+            <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I really need more time in the day. I have so many things I want to do. I want to write more, I want to finish a side project, practice guitar, and more. But after work and cooking dinner, the hours in the day aren’t quite there.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>I really need more time in the day. I have so many things I want to do. I want to write more, I want to finish a side project, practice guitar, and more. But after work and cooking dinner, the hours in the day aren’t quite there.</p>
+<p>Over the course of vacation I read two books that have inspired me to buckle down and focus on side projects and writing.</p>
+<h2>Side Projects</h2>
+<p>I read <a href="https://bookshop.org/p/books/coders-the-making-of-a-new-tribe-and-the-remaking-of-the-world-clive-thompson/12477150?ean=9780735220584">Coders</a> by Clive Thompson. In the book, he talked about the different companies and developers, and what they have been able to accomplish. I’m by no means naive enough to think that my little side projects are going to change the world or anything, but it’d be nice to finish something. Even if the app is just for me and no one else has any use for it, it would make me happy.</p>
+<h2>Writing</h2>
+<p>The other book I read was <a href="https://bookshop.org/p/books/on-writing-a-memoir-of-the-craft-stephen-king/14560198">On Writing</a> by Stephen King. I’ve had several ideas for short stories, novellas, &amp; novels, but have never really sat down and started writing. The book was an interesting look at how he got to be where he is today, and some of the tips and thoughts that have helped him succeed. And while what works for him is by no means universal, it has given me a slight push to write more.</p>
+<p>His one suggestion is to write 1,000 words a day. I have been trying to write every day, but I never really had a word goal. I think that is going to change to be 1,000 words a day.</p>
+<p>Most days while in Aruba, I would spend the late afternoons, after the pool and the sun, but before dinner, in the lobby bar writing over a martini or other cocktail. I’ve made good progress in my writing and am off to a good start, but I’ll need to spend time to keep it up.</p>
+<h2>Everything Else</h2>
+<p>Other things I want to focus on for the last two months of the year are guitar, and my fitness. I’ve been a little lazy of late for fitness, and I want to change that in November and December. I also want to make the time to practice guitar more often. I had been doing it only sporadically, but am hoping to do it at least every other day.</p>
+<p>Like I said, I need more time in the day.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Aruba]]></title>
             <link>https://kpwags.com/posts/2023/10/29/aruba</link>
@@ -29,7 +107,7 @@
 <p>After dinner was just some more drinks and watching the beginning of game 2 of the NLCS.</p>
 <h2>Getting into a Routine</h2>
 <p>After the first full day in Aruba, we got ourselves into a routine. Wake up at 5:30am so we can claim an ideal spot by the pool under an umbrella for shade. Come back up to the room and douse ourselves in sunscreen so we don’t burn, then return to our spots and enjoy the peacefulness before the pool area gets crowded and the music starts. The mornings are so peaceful.</p>
-<p>I don’t like having to get up at 5:30 in the morning just to reserve a pool chair, but it is <strong><em>So</em></strong> peaceful there. The temperature is a little cooler and we can enjoy our books and the quiet. Until 8 or so, there are hardly anyone by the pool. I love it.</p>
+<p>I don’t like having to get up at 5:30 in the morning just to reserve a pool chair, but it is <strong><em>SO</em></strong> peaceful then. The temperature is a little cooler and we can enjoy our books and the quiet. Until 8 or so, there&#x27;s hardly anyone by the pool. I love it.</p>
 <p>Outside of grabbing breakfast and lunch, we generally just hung out under the umbrellas until 2-3pm. I got better acclimated to the heat which made things better. At this point, I would have to re-apply sunscreen and it didn’t seem worth it; nor did I want to risk sunburn. We would venture up to the room, shower, and then come back downstairs to the lobby bar for a drink or two before dinner. We would read or write and take it easy.</p>
 <p>We scheduled all our dinners for 6-6:30pm. They were all good. We loved the hibachi and the Asian restaurants the most. Hibachi is always a good show, and the menu for the Asian-themed restaurant was fantastic. After dinner we would venture back to the lobby bar and enjoy some live music and another drink or two.</p>
 <p>The one exception to this was when we went to have dinner on the beach for our actual anniversary. The resort we were staying at offered a private dinner of the beach as a nice little add-on. We couldn’t resist since this trip is a celebration for our ten year anniversary. The dinner was romantic, and the food was amazing, though the main course was too much food. Felt a little overly stuffed afterwards. Still, would completely recommend it and would do it again.</p>
@@ -43,7 +121,7 @@
 <li><a href="https://bookshop.org/p/books/number-go-up-inside-crypto-s-wild-rise-and-staggering-fall-zeke-faux/19900961?ean=9780593443811">Number Go Up</a> by Zeke Faux</li>
 <li><a href="https://bookshop.org/p/books/black-river-orchard-chuck-wendig/19598190?ean=9780593158746">Black River Orchard</a> by Chuck Wendig</li>
 <li><a href="https://bookshop.org/p/books/extremely-online-the-untold-story-of-fame-influence-and-power-on-the-internet-taylor-lorenz/19718842?ean=9781982146863">Extremely Online</a> by Taylor Lorenz</li>
-<li><a href="https://bookshop.org/p/books/be-useful-seven-tools-for-life-arnold-schwartzenegger/19976031">Be Useful: Seven Tools for Life</a> by Arnold Schwarzenegger</li>
+<li><a href="https://bookshop.org/p/books/be-useful-seven-tools-for-life-arnold-schwartzenegger/19976031">Be Useful</a> by Arnold Schwarzenegger</li>
 <li><a href="https://bookshop.org/books/subprime-attention-crisis-advertising-and-the-time-bomb-at-the-heart-of-the-internet/9780374538651">Subprime Attention Crisis</a> by Tim Hwang</li>
 </ul>
 <h2>Pictures, Because Why Not?</h2>
