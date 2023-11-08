@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner - Blog Posts</title>
-    <updated>2023-11-06T23:56:19.206Z</updated>
+    <updated>2023-11-08T00:47:02.283Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,99 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[October 2023 Check-In]]></title>
+        <id>https://kpwags.com/posts/2023/11/07/october-2023-check-in</id>
+        <link href="https://kpwags.com/posts/2023/11/07/october-2023-check-in"/>
+        <updated>2023-11-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[October was a good month. I spent the latter half of it in Aruba and had a great time. But outside Aruba, the month was mostly quiet.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>October was a good month. I spent the latter half of it in Aruba and had a great time. But outside Aruba, the month was mostly quiet.</p>
+<h2>Aruba</h2>
+<p>Aruba was gorgeous. I wrote about my trip <a href="https://kpwags.com/posts/2023/10/29/aruba">here</a> and was happy to spend 2 weeks in paradise with my wife for our 10 year anniversary. I spent so much of it just enjoying the rest and relaxation. I was happy to come back home to my own bed though.</p>
+<h2>Writing More</h2>
+<p>One of the things I said I was going to do at the end of September was to write more, and to write every day. While I can’t say that I’ve succeeded in writing every day, I have written something almost every day. I only missed 9 days, and 2 of them were travel days to and from Aruba. A lot of what I wrote were either blog posts or draft blog posts that may or may not ever see the light of day. I did get back into writing a story I started back in June. I’m not sure how long the story will end up being, but I plan on spending a lot of time on it in November for NaNoWriMo. Not sure how many blog posts I’ll end up writing, but I’m sure I’ll write some.</p>
+<h2>Getting Back into Fitness</h2>
+<p>When I got back from Aruba and weighed in, I realized I had started to slip a little bit with my fitness goals. I have no issue with letting go while I was in Aruba. It’s a vacation and we only have 1 life to live. Enjoy it. But getting back, I have started to buckle down and pay closer attention to my diet and exercise habits. I’m hoping to continue that into November...and...the holidays.</p>
+<h2>Analog Journaling</h2>
+<p>I had written a month or so ago about my back and forth on whether I liked <a href="https://kpwags.com/posts/2023/09/28/analog-versus-digital">analog or digital</a>. I decided that for my journaling I was going to go back to a moleskine-like notebook and physically write about my days. I have to say I like it. Even during vacation, I spent a little bit of time before bed writing about my days.</p>
+<h2>Monthly Round-Up</h2>
+<p><strong>🏃🏼‍♂️ Running &amp; Biking</strong></p>
+<ul>
+<li><strong>Running:</strong> Only 12.5 miles this month. Being in Aruba for 2 weeks didn’t help.</li>
+<li><strong>Biking:</strong> Nope</li>
+</ul>
+<p><strong>🏋🏼‍♂️ Lifting</strong></p>
+<ul>
+<li>I’ve been slacking off on this, but I’ve started back up at the end of the month.</li>
+</ul>
+<p><strong>📚 Reading</strong></p>
+<p><em>Finished</em></p>
+<ul>
+<li><a href="https://bookshop.org/books/team-of-rivals-the-political-genius-of-abraham-lincoln/9780743270755">Team of Rivals: The Political Genius of Abraham Lincoln</a> by Doris Kearns Goodwin</li>
+<li><a href="https://bookshop.org/p/books/coders-the-making-of-a-new-tribe-and-the-remaking-of-the-world-clive-thompson/12477150?ean=9780735220584">Coders: The Making of a New Tribe and the Remaking of the World</a> by Clive Thompson</li>
+<li><a href="https://bookshop.org/p/books/on-writing-a-memoir-of-the-craft-stephen-king/14560198">On Writing: A Memoir of the Craft</a> by Stephen King</li>
+<li><a href="https://bookshop.org/p/books/starter-villain-john-scalzi/18753219?ean=9780765389220">Starter Villain</a> by John Scalzi</li>
+<li><a href="https://bookshop.org/p/books/your-face-belongs-to-us-a-secretive-startup-s-quest-to-end-privacy-as-we-know-it-kashmir-hill/19573494?ean=9780593448564">Your Face Belongs to Us: A Secretive Startup&#x27;s Quest to End Privacy as We Know It</a> by Kashmir Hill</li>
+<li><a href="https://bookshop.org/p/books/number-go-up-inside-crypto-s-wild-rise-and-staggering-fall-zeke-faux/19900961?ean=9780593443811">Number Go Up: Inside Crypto&#x27;s Wild Rise and Staggering Fall</a> by Zeke Faux</li>
+<li><a href="https://bookshop.org/p/books/black-river-orchard-chuck-wendig/19598190?ean=9780593158746">Black River Orchard</a> by Chuck Wendig</li>
+<li><a href="https://bookshop.org/p/books/extremely-online-the-untold-story-of-fame-influence-and-power-on-the-internet-taylor-lorenz/19718842?ean=9781982146863">Extremely Online: The Untold Story of Fame, Influence, and Power on the Internet</a> by Taylor Lorenz</li>
+<li><a href="https://bookshop.org/p/books/be-useful-seven-tools-for-life-arnold-schwartzenegger/19976031">Be Useful: Seven Tools for Life</a> by Arnold Schwarzenegger</li>
+<li><a href="https://bookshop.org/books/subprime-attention-crisis-advertising-and-the-time-bomb-at-the-heart-of-the-internet/9780374538651">Subprime Attention Crisis: Advertising and the Time Bomb at the Heart of the Internet</a> by Tim Hwang</li>
+<li><a href="https://bookshop.org/p/books/the-poison-eaters-and-other-stories-holly-black/6315246">The Poison Eaters: And Other Stories</a> by Holly Black</li>
+</ul>
+<p><em>Started</em></p>
+<ul>
+<li><a href="https://bookshop.org/p/books/the-forge-of-god-greg-bear/7252312">The Forge of God</a> by Greg Bear</li>
+</ul>
+<p><strong>✍🏻 Writing</strong></p>
+<ul>
+<li>Continued my reading logs
+<ul>
+<li><a href="https://kpwags.com/reading-log/46">October 2</a></li>
+<li><a href="https://kpwags.com/reading-log/47">October 9</a></li>
+<li><a href="https://kpwags.com/reading-log/48">October 30</a></li>
+</ul>
+</li>
+<li>Wrote about
+<ul>
+<li><a href="https://kpwags.com/posts/2023/10/01/staying-silent-is-political-too">Staying silent is political too</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/02/personal-sites-are-never-done">How I’m constantly tweaking my site</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/03/unit-testing-and-react-hook-form">My solution for unit testing React Hook Form</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/06/in-defense-of-typescript">Defending TypeScript</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/06/its-another-red-october">More Phillies postseason baseball</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/07/the-kids-online-safety-act-must-fail">The danger of the Kids Online Safety Act (KOSA)</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/09/the-stress-of-the-playoffs">The stress of being a fan whose team is in the playoffs</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/13/gary-bettman-and-the-nhl-are-cowards-part-2">The NHL and Gary Bettman being cowards (to put it mildly)</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/29/aruba">My trip to Aruba</a></li>
+<li><a href="https://kpwags.com/posts/2023/10/30/i-need-more-time-in-the-day">Being busy and needing more time in the day</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>🎮 Gaming</strong></p>
+<ul>
+<li>Continuing <a href="https://www.playstation.com/en-us/games/horizon-forbidden-west/">Horizon Forbidden West</a></li>
+</ul>
+<p><strong>📺 Watched</strong></p>
+<ul>
+<li>Finished season 4 of <a href="https://www.imdb.com/title/tt9184820/">Star Trek: Lower Decks</a></li>
+<li>Continued <a href="https://www.imdb.com/title/tt3526078/">Schitt’s Creek</a></li>
+</ul>
+<p><strong>🎬 Movies</strong></p>
+<ul>
+<li>None</li>
+</ul>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I Need More Time in the Day]]></title>
         <id>https://kpwags.com/posts/2023/10/30/i-need-more-time-in-the-day</id>
