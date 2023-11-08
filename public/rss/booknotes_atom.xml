@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner - Book Notes</title>
-    <updated>2023-10-14T18:03:28.768Z</updated>
+    <updated>2023-11-08T00:47:03.168Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,55 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Number Go Up: Inside Crypto's Wild Rise and Staggering Fall by Zeke Faux]]></title>
+        <id>https://kpwags.com/books/zeke-faux-number-go-up</id>
+        <link href="https://kpwags.com/books/zeke-faux-number-go-up"/>
+        <updated>2023-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+From the beginning, I thought that crypto was pretty dumb. And it turned out to be even dumber than I imagined. Never before has so much wealth been generated with such flimsy schemes. But what shocked me was not the vapidity of the crypto bros. It was how their heedlessness had devastating consequences for people across the world. By the end, I’d find myself in Cambodia, investigating how crypto fueled a vast human-trafficking scheme run by Chinese gangsters.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                <blockquote>
+<p>From the beginning, I thought that crypto was pretty dumb. And it turned out to be even dumber than I imagined. Never before has so much wealth been generated with such flimsy schemes. But what shocked me was not the vapidity of the crypto bros. It was how their heedlessness had devastating consequences for people across the world. By the end, I’d find myself in Cambodia, investigating how crypto fueled a vast human-trafficking scheme run by Chinese gangsters.</p>
+</blockquote>
+<p>I had heard about this book on an <a href="https://www.marketplace.org/shows/make-me-smart/crypto-goes-to-court/">episode of Make Me Smart</a> and added it to my list. I have been a <a href="https://kpwags.com/posts/2022/11/18/on-ftx-and-crypto-in-general">skeptic of crypto</a> and this book only cemented my feeling that I made the right call skipping over the whole Crypto and NFT craze.</p>
+<blockquote>
+<p>I realized I had walked in on a presentation for a timeshare that I would pay money not to join.</p>
+</blockquote>
+<p>Zeke did a good job going over some of the many crazes, cons, and schemes so many different companies and people have done over the last decade-plus related to cryptocurrency, Initial Coin Offerings (ICOs), and NFTs.</p>
+<blockquote>
+<p>Celsius, it turned out, had $18 billion in assets. I couldn’t believe it. Somehow Celsius had accumulated as much money as a large hedge fund with a business plan that wouldn’t even work for a kid’s lemonade stand.</p>
+</blockquote>
+<p>He presented it with clear language, a good sense of humor, and humility especially after dealing with Sam Bankman-Fried and FTX.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your Face Belongs to Us: A Secretive Startup's Quest to End Privacy as We Know It by Kashmir Hill]]></title>
+        <id>https://kpwags.com/books/kashmir-hill-your-face-belongs-to-us</id>
+        <link href="https://kpwags.com/books/kashmir-hill-your-face-belongs-to-us"/>
+        <updated>2023-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve read several of Kashmir’s articles in the New York Times, so I knew she knows her stuff when it comes to privacy and technology. It’s the primary reason I bought the book. I had heard and read about Clearview because of her reporting.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                <p>I’ve read several of Kashmir’s articles in the New York Times, so I knew she knows her stuff when it comes to privacy and technology. It’s the primary reason I bought the book. I had heard and read about Clearview because of her reporting.</p>
+<p>This book does a good job going into the history of facial recognition, its failures, weaknesses and potential for a very scary future where privacy as we currently know it might not exist.</p>
+<p>She does mention Illinois’ biometrics privacy laws as a good example of how to find a balance of privacy vs. accepting new technology, but it’s still kind of eerie that this kind of technology exists. And since it’s owned by a private company, it can make it harder to deal with.</p>
+<p>I’d highly recommend this book if for no other reason than to understand the scope of what we’re dealing with in terms of facial recognition. You’ll learn some history of the technology too.</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Team of Rivals: The Political Genius of Abraham Lincoln by Doris Kearns Goodwin]]></title>
         <id>https://kpwags.com/books/doris-kearns-goodwin-team-of-rivals</id>
