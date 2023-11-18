@@ -4,11 +4,45 @@
         <title>Keith Wagner - Book Notes</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Wed, 08 Nov 2023 00:47:03 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Nov 2023 00:36:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[The Creative ACT: A Way of Being by Rick Rubin]]></title>
+            <link>https://kpwags.com/books/rick-rubin-the-creative-act</link>
+            <guid>https://kpwags.com/books/rick-rubin-the-creative-act</guid>
+            <pubDate>Thu, 16 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[<blockquote>
+Nothing in this book is known to be true. It&#39;s a reflection on what I&#39;ve noticed. Not facts so much as thoughts.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                <blockquote>
+<p>Nothing in this book is known to be true. It&#x27;s a reflection on what I&#x27;ve noticed. Not facts so much as thoughts.</p>
+</blockquote>
+<blockquote>
+<p>Some ideas may resonate, others may not. A few may awaken an inner knowing you forgot you had. Use what&#x27;s helpful. Let go of the rest.</p>
+</blockquote>
+<p>That’s Rick Rubin’s introduction to the book. From my perspective, it was a good way to go into the book.</p>
+<p>Recently I’ve been trying to branch into my creative side and have been writing a lot more. I even started what started out as a short story and has since only been growing into something more like a novella.</p>
+<blockquote>
+<p>Notice yourself feeling the weight of self-criticism or the pressure to live up to expectations. And remember that commercial success is completely out of your control. All that matters is that you are making something you love, to the best of your ability, here and now.</p>
+</blockquote>
+<p>I enjoyed this book as it gave me a lot of helpful thoughts to get over my concerns that what I’m working on isn’t good. (I mean it might not be good, but it certainly won’t be any good if I just give up.) If I’m enjoying it, which I am, then that’s what matters.</p>
+<blockquote>
+<p>One of the greatest rewards of making art is our ability to share it. Even if there is no audience to receive it, we build the muscle of making something and putting it out into the world. Finishing our work is a good habit to develop. It boosts confidence. Despite our insecurities, the more times we can bring ourselves to release our work, the less weight insecurity has.</p>
+</blockquote>
+<blockquote>
+<p>Avoid overthinking. When you&#x27;re happy with the work and you&#x27;re moved to share it with a friend, it might be time to share it with the world as well.</p>
+</blockquote>
+<p>Again, I have no idea if anything I write will ever be really consumed. I’m not expecting or even targeting commercial success or anything, I’m just trying something new, doing something I’m enjoying. This book helped by pointing that out.</p>
+<p>The book also provided some good tips on breaking through various blockers artists, musicians and writers often face. Some of them would also help with my software development work as well.</p>
+<p>If you’re interested in any kind of creative work, I’d recommend this book.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Number Go Up: Inside Crypto's Wild Rise and Staggering Fall by Zeke Faux]]></title>
             <link>https://kpwags.com/books/zeke-faux-number-go-up</link>
