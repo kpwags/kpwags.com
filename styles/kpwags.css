@@ -402,7 +402,8 @@ a img {
 }
 
 .article:hover .metadata,
-.article:hover .tags {
+.article:hover .tags,
+.article:hover .related-posts {
     border-color: var(--primary-color-1);
 }
 
@@ -417,7 +418,12 @@ a img {
 }
 
 .article .tags {
-    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid var(--grey-1);
+}
+
+.article .related-posts {
+    display: block;
     padding: 0.5rem 1rem;
     border-top: 1px solid var(--grey-1);
 }

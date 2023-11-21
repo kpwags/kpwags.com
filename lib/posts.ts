@@ -168,7 +168,7 @@ export const getPostPages = (): TagPage[] => {
     }));
 };
 
-export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
+export const getPostData = async (query: PostQuery): Promise<BlogPost> => {
     const {
         year,
         month,
@@ -231,10 +231,11 @@ export const getPostData = async (query: PostQuery) : Promise<BlogPost> => {
         socialImageUrl: socialImage,
         wordCount,
         readTime: readingTime,
+        relatedPosts: data.relatedPosts || [],
     };
 };
 
-export const getPaginatedPosts = (page: number, count = postsPerPage): { totalPages: number, posts: BlogPost[]} => {
+export const getPaginatedPosts = (page: number, count = postsPerPage): { totalPages: number, posts: BlogPost[] } => {
     const posts = getAllPosts();
 
     const start = (page - 1) * 10;
