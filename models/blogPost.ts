@@ -1,4 +1,5 @@
 import { BlogTag } from '@models/BlogTag';
+import { RelatedPost } from '@models/RelatedPost';
 
 export interface BlogPost {
     id: string
@@ -15,4 +16,5 @@ export interface BlogPost {
     commentIssueNumber?: number
     wordCount?: number
     readTime?: number
+    relatedPosts?: RelatedPost[]
 }

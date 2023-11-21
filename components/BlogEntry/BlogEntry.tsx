@@ -2,6 +2,7 @@ import dynamic from 'next/dynamic';
 import { MDXRemote } from 'next-mdx-remote';
 import { BlogPost } from '@models/blogPost';
 import TagList from '@components/TagList';
+import RelatedPosts from '@components/RelatedPosts';
 import { formatDate } from '@lib/utilities';
 import Utterances from '@components/Utterances';
 
@@ -64,6 +65,7 @@ const BlogEntry = ({ post }: BlogEntryProps): JSX.Element => (
                 />
             </div>
 
+            <RelatedPosts posts={post.relatedPosts || []} />
             <TagList tags={post.tags} />
         </article>
         {post.commentIssueNumber !== null && (
