@@ -16,6 +16,7 @@ import BookRead from '@components/BookRead';
 import ExternalLink from '@components/ExternalLink';
 import CodeSandbox from '@components/CodeSandbox';
 import InDepthNotes from '@components/InDepthNotes';
+import BlogSeries from '@components/BlogSeries';
 import { CH } from '@code-hike/mdx/components';
 
 const YouTubeEmbed = dynamic(() => import('@components/YouTubeEmbed'), {
@@ -33,6 +34,7 @@ const components = {
     ExternalLink,
     CodeSandbox,
     InDepthNotes,
+    BlogSeries,
     CH,
 };
 

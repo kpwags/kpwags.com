@@ -7,7 +7,19 @@ commentIssueNumber: 128
 
 One of the things I wanted to integrate with this project was user accounts. I am not sure that I really need it since I’m not really intending to release my card collection app as a full fledged website for the masses. But I still wanted to add it in if for no other reason than to learn.
 
-This is another installment in my series. If you haven’t read the others you can read about my [first impressions](https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions) and then [integrating Entity Framework](https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework).
+This is the third installment of my Digging into Blazor series.
+
+<BlogSeries
+    series={{
+        title: 'Digging into Blazor',
+        posts: [
+            { title: 'First Impressions', url: 'https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions', sortOrder: 1, isCurrent: false },
+            { title: 'Integrating with Entity Framework', url: 'https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework', sortOrder: 2, isCurrent: false },
+            { title: 'Setting Up Custom Authentication', url: 'https://kpwags.com/posts/2023/07/31/blazor-custom-authentication', sortOrder: 3, isCurrent: true },
+            { title: 'Forms', url: 'https://kpwags.com/posts/2023/09/29/digging-into-blazor-forms', sortOrder: 4, isCurrent: false }
+        ]
+    }}
+/>
 
 The first thing I realized is that the architecture of Blazor doesn’t handle user authentication in quite the same way that ASP.NET web applications do.
 
