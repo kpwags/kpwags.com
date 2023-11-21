@@ -1,0 +1,29 @@
+.blogSeries {
+    margin: 0 0 32px 0;
+    padding: 16px 0;
+    border-top: 1px dashed var(--primary-color-3);
+    border-bottom: 1px dashed var(--primary-color-3);
+}
+
+.seriesTitle {
+    margin: 0 0 12px 0;
+    font-size: 1.6rem;
+    color: var(--primary-color-1);
+    font-weight: 600;
+}
+
+.posts {
+    margin: 0 !important;
+}
+
+.posts li {
+    list-style-type: none;
+}
+
+.posts a {
+    text-decoration: underline;
+}
+
+.current {
+    font-weight: 600;
+}

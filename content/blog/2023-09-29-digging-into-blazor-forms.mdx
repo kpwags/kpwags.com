@@ -9,9 +9,17 @@ One of the regular things you have to do when building interactive websites and 
 
 This is the 4th entry in my digging into Blazor posts.
 
-1. [First Impressions](https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions)
-2. [Integrating with Entity Framework](https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework)
-3. [Setting Up Custom Authentication](https://kpwags.com/posts/2023/07/31/blazor-custom-authentication)
+<BlogSeries
+    series={{
+        title: 'Digging into Blazor',
+        posts: [
+            { title: 'First Impressions', url: 'https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions', sortOrder: 1, isCurrent: false },
+            { title: 'Integrating with Entity Framework', url: 'https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework', sortOrder: 2, isCurrent: false },
+            { title: 'Setting Up Custom Authentication', url: 'https://kpwags.com/posts/2023/07/31/blazor-custom-authentication', sortOrder: 3, isCurrent: false },
+            { title: 'Forms', url: 'https://kpwags.com/posts/2023/09/29/digging-into-blazor-forms', sortOrder: 4, isCurrent: true }
+        ]
+    }}
+/>
 
 To keep things simple, I'm going to show the "Add Brand" form. If you've read the other posts, you will know I'm building a little web app to organize my sports cards. One of the key pieces of data I want to record is the brand. Back in the day there were all kinds of brands, *Topps*, *Donruss*, *Upper Deck*, etc. For each brand, I want to save the name, and what type of card it makes. For my purposes, the types currently are Baseball & Football.
 

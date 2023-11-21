@@ -25,6 +25,7 @@ import ExternalLink from '@components/ExternalLink';
 import InDepthNotes from '@components/InDepthNotes';
 import YouTubeEmbed from '@components/RssYouTubeEmbed';
 import CodeSandbox from '@components/CodeSandbox/CodeSandbox';
+import BlogSeries from '@components/BlogSeries';
 
 import { buildUrlFromId, getPostExcerpt } from './utilities';
 import { convertToPost as convertReadingLogToPost } from './readinglog';
@@ -44,6 +45,7 @@ const components = {
     ExternalLink,
     CodeSandbox,
     InDepthNotes,
+    BlogSeries,
     CH,
 };
 
