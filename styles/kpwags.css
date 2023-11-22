@@ -25,6 +25,7 @@
     --primary-color-blue: rgb(28, 55, 189);
     --primary-color-purple: hsl(301, 91%, 40%);
     --tag-text-color: hsl(0, 0%, 100%);
+    --width: min(80ch, 100vw - 2rem);
 }
 
 [data-theme*='dark'] {
@@ -139,6 +140,18 @@
     --primary-color-3: hsl(0, 82%, 71%);
 }
 
+[data-width*='slim'] {
+    --width: min(60ch, 100vw - 2rem);
+}
+
+[data-width*='normal'] {
+    --width: min(80ch, 100vw - 2rem);
+}
+
+[data-width*='wide'] {
+    --width: min(160ch, 100vw - 2rem);
+}
+
 /* --- CSS Reset --- */
 *,
 *::before,
@@ -218,7 +231,7 @@ body {
 }
 
 main {
-    width: min(80ch, 100vw - 2rem);
+    width: var(--width);
     margin: 0 auto;
     padding: 0 10px;
     max-width: 100%;

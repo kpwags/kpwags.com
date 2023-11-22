@@ -6,7 +6,7 @@ export const saveToLocalStorage = (key: string, value: string): void => {
     } catch { /* don't really care */ }
 };
 
-export const retrieveFromLocalStorage = (key: string, isJson = false): string|unknown => {
+export const retrieveFromLocalStorage = (key: string, isJson = false): string | unknown => {
     try {
         if (typeof window !== 'undefined') {
             const value = window.localStorage.getItem(key);
@@ -20,4 +20,12 @@ export const retrieveFromLocalStorage = (key: string, isJson = false): string|un
     } catch {
         return null;
     }
+};
+
+export const removeFromLocalStorage = (key: string) => {
+    try {
+        if (typeof window !== 'undefined') {
+            window.localStorage.removeItem(key);
+        }
+    } catch { /* who cares? */ }
 };

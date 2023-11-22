@@ -1,19 +1,27 @@
 import { useEffect, useState } from 'react';
-import Theme, { ColorTheme } from '@models/theme';
-import { saveToLocalStorage, retrieveFromLocalStorage } from '../lib/storage';
+import Theme, { ColorTheme, PageWidth } from '@models/theme';
+import {
+    saveToLocalStorage,
+    retrieveFromLocalStorage,
+    removeFromLocalStorage,
+} from '../lib/storage';
 
 interface UseThemeReturn {
     theme: Theme;
     color: ColorTheme;
+    width: PageWidth;
     themeLoaded: boolean;
     getCurrentTheme: () => Theme;
     getCurrentColor: () => ColorTheme;
+    getCurrentWidth: () => PageWidth;
     changeTheme: (t: Theme) => void;
     changeColor: (c: ColorTheme) => void;
+    changeWidth: (w: PageWidth) => void;
 }
 
 export const useTheme = (): UseThemeReturn => {
     const [theme, setTheme] = useState<Theme>('light');
+    const [width, setWidth] = useState<PageWidth>('normal');
     const [color, setColor] = useState<ColorTheme>('green');
     const [themeLoaded, setThemeLoaded] = useState(false);
 
@@ -30,6 +38,12 @@ export const useTheme = (): UseThemeReturn => {
     };
 
     const changeTheme = (t: Theme) => {
+        if (t === 'system') {
+            removeFromLocalStorage('theme');
+            document.documentElement.setAttribute('data-theme', getPreferredColorMode());
+            return;
+        }
+
         saveToLocalStorage('theme', t);
         document.documentElement.setAttribute('data-theme', t);
         setTheme(t);
@@ -39,6 +53,12 @@ export const useTheme = (): UseThemeReturn => {
         saveToLocalStorage('color', c);
         document.documentElement.setAttribute('data-color-theme', c);
         setColor(c);
+    };
+
+    const changeWidth = (w: PageWidth) => {
+        saveToLocalStorage('width', w);
+        document.documentElement.setAttribute('data-width', w);
+        setWidth(w);
     };
 
     const getCurrentTheme = (): Theme => {
@@ -61,9 +81,20 @@ export const useTheme = (): UseThemeReturn => {
         return color;
     };
 
+    const getCurrentWidth = (): PageWidth => {
+        const localStorageWidth = retrieveFromLocalStorage('width') as PageWidth;
+
+        if (localStorageWidth) {
+            return localStorageWidth;
+        }
+
+        return width;
+    };
+
     useEffect(() => {
         const localTheme = retrieveFromLocalStorage('theme') as Theme;
         const selectedColor = retrieveFromLocalStorage('color') as ColorTheme;
+        const selectedWidth = retrieveFromLocalStorage('width') as PageWidth;
 
         if (localTheme) {
             setTheme(localTheme);
@@ -81,16 +112,27 @@ export const useTheme = (): UseThemeReturn => {
             document.documentElement.setAttribute('data-color-theme', 'green');
         }
 
+        if (selectedWidth) {
+            setWidth(selectedWidth);
+            document.documentElement.setAttribute('data-width', selectedWidth);
+        } else {
+            setWidth('normal');
+            document.documentElement.setAttribute('data-width', 'normal');
+        }
+
         setThemeLoaded(true);
     }, []);
 
     return {
         theme,
         color,
+        width,
         themeLoaded,
         getCurrentTheme,
         getCurrentColor,
+        getCurrentWidth,
         changeTheme,
         changeColor,
+        changeWidth,
     };
 };

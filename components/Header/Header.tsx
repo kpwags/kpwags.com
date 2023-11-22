@@ -1,39 +1,19 @@
 /* eslint-disable max-len */
 import Link from 'next/link';
-import LightDarkSwitch from '@components/LightDarkSwitch';
-import { useTheme } from '@hooks/useTheme';
-import { useContext, useState } from 'react';
-import { BlogContext } from '@contexts/BlogContext';
+import { useState } from 'react';
 import SearchHeaderButton from '@components/SearchHeaderButton';
 import SearchBar from '@components/SearchBar';
 import ThemeSwitchButton from '@components/ThemeSwitchButton';
 import ThemeSwitcher from '@components/ThemeSwitcher';
-import { ColorTheme } from '@models/theme';
 import RssFeedSelectionBar from '@components/RssFeedSelectionBar';
 import RssFeedButton from '@components/RssFeedButton/RssFeedButton';
 
 import styles from './Header.module.css';
 
 const Header = (): JSX.Element => {
-    const { getCurrentTheme } = useTheme();
-
     const [searchBarVisible, setSearchBarVisible] = useState<boolean>(false);
     const [themeSwitcherVisible, setThemeSwitcherVisible] = useState<boolean>(false);
     const [rssFeedsVisible, setRssFeedsVisible] = useState<boolean>(false);
-
-    const { changeTheme, changeColorTheme } = useContext(BlogContext);
-
-    const changeMode = () => {
-        if (getCurrentTheme() === 'light') {
-            changeTheme('dark');
-        } else {
-            changeTheme('light');
-        }
-    };
-
-    const changeColor = (color: ColorTheme) => {
-        changeColorTheme(color);
-    };
 
     return (
         <>
@@ -52,12 +32,9 @@ const Header = (): JSX.Element => {
                         <Link aria-label="About" href="/about">About</Link>
                         <Link aria-label="Uses" href="/uses">Uses</Link>
                     </nav>
-                    <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />
                     <SearchHeaderButton onClick={() => setSearchBarVisible(!searchBarVisible)} />
                     <RssFeedButton onClick={() => setRssFeedsVisible(!rssFeedsVisible)} />
-                    <LightDarkSwitch
-                        onClick={() => changeMode()}
-                    />
+                    <ThemeSwitchButton onClick={() => setThemeSwitcherVisible(!themeSwitcherVisible)} />
                 </div>
             </header>
 
@@ -73,8 +50,8 @@ const Header = (): JSX.Element => {
                 visible={rssFeedsVisible}
             />
             <ThemeSwitcher
+                onClose={() => setThemeSwitcherVisible(false)}
                 visible={themeSwitcherVisible}
-                onChangeColor={(color) => changeColor(color)}
             />
             <SearchBar
                 visible={searchBarVisible}
