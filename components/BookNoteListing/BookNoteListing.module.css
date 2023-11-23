@@ -2,6 +2,7 @@
     margin: 2rem 0;
     box-shadow: var(--box-shadow);
     border: 1px solid var(--grey-1);
+    container-type: inline-size;
 }
 
 .bookNote:hover {
@@ -22,13 +23,12 @@
 
 .content {
     display: flex;
-    gap: 4rem;
-    padding: 1rem;
+    gap: 32px;
+    padding: 16px;
 }
 
 .image {
     min-width: 200px;
-    margin: 0 auto;
 }
 
 .bookNote h2 {
@@ -49,6 +49,7 @@
     margin: 1rem 0;
     display: flex;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .category {
@@ -62,6 +63,12 @@
     font-style: italic;
     margin-bottom: 1rem;
     font-size: 1.2rem;
+}
+
+@container (min-width: 600px) {
+    .content {
+        gap: 64px;
+    }
 }
 
 @media (max-width: 450px) {
