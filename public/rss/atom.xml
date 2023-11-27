@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-11-21T14:04:28.228Z</updated>
+    <updated>2023-11-27T23:31:21.483Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,101 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[Reading Log - November 27, 2023 (#52)]]></title>
+        <id>https://kpwags.com/reading-log/52</id>
+        <link href="https://kpwags.com/reading-log/52"/>
+        <updated>2023-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I&#39;ve been wanting to do more with web components, and a lot of this week is tied to that. Also, NASA makes a calculated risk and more new features in C#.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>I&#x27;ve been wanting to do more with web components, and a lot of this week is tied to that. Also, NASA makes a calculated risk and more new features in C#.</p>
+<h2>Link Blast</h2>
+<h3>🖥 .NET</h3>
+<p><a href="https://pmichaels.net/c-sharp-interceptors/">C# Interceptors</a> - <em>Paul Michaels</em></p>
+<p><a href="https://laurentkempe.com/2023/11/14/whats-new-in-csharp-12/">What&#x27;s new in C# 12</a> - <em>Laurent Kempé</em></p>
+<hr/>
+<h3>🌐 Web Development</h3>
+<p><a href="https://gomakethings.com/detecting-when-a-web-component-is-loaded-with-css/">Detecting when a Web Component is loaded with CSS</a> - <em>Chris Ferdinandi</em></p>
+<p><a href="https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/">Web Components Eliminate JavaScript Framework Lock-in</a> - <em>Jake Lazaroff</em></p>
+<p><a href="https://mikeaparicio.com/posts/2023-05-22-why-were-bad-at-css/">Why we&#x27;re bad at CSS</a> - <em>Mike Aparicio</em></p>
+<p><a href="https://www.smashingmagazine.com/2023/11/few-ways-css-easier-write-2023/">A Few Ways CSS Is Easier To Write In 2023</a> - <em>Geoff Graham</em></p>
+<p><a href="https://blog.jim-nielsen.com/2023/html-web-components-an-example/">HTML Web Components: An Example</a> - <em>Jim Nielsen</em></p>
+<p><a href="https://blog.jim-nielsen.com/2023/width-and-height-in-css/">Width and Height in CSS</a> - <em>Jim Nielsen</em></p>
+<p><a href="https://gomakethings.com/an-example-of-an-html-web-component/">An example of an HTML Web Component</a> - <em>Chris Ferdinandi</em></p>
+<p><a href="https://www.telerik.com/blogs/react-basics-guide-useeffect-hook">React Basics: Guide to the useEffect Hook</a> - <em>John Au-Yeung</em></p>
+<hr/>
+<h3>🛜 The Internet</h3>
+<p><a href="https://www.techdirt.com/2023/11/21/congrats-to-elon-musk-i-didnt-think-you-had-it-in-you-to-file-a-lawsuit-this-stupid-but-you-crazy-bastard-you-did-it/">Congrats To Elon Musk: I Didn’t Think You Had It In You To File A Lawsuit This Stupid. But, You Crazy Bastard, You Did It!</a> - <em>Mike Masnick</em></p>
+<p><a href="https://www.theverge.com/2023/11/20/23970274/x-elon-musk-media-matters-lawsuit-nazi-ads-filed">X sues Media Matters to silence moderation criticism</a> - <em>Adi Robertson</em></p>
+<hr/>
+<h3>🚀 Space</h3>
+<p><a href="https://arstechnica.com/space/2023/11/nasa-will-launch-a-mars-mission-on-blue-origins-first-new-glenn-rocket/">NASA will launch a Mars mission on Blue Origin’s first New Glenn rocket</a> - <em>Stephen Clark</em></p>
+<hr/>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.wsj.com/business/autos/tesla-vs-toyota-is-the-new-hot-battle-in-cars-571a8e68">Tesla vs. Toyota Is the New Hot Battle in Cars</a> - <em>Tim Higgins</em></p>
+<hr/>
+<h3>⚾️ Sports</h3>
+<p><a href="https://defector.com/bring-us-canada">Bring Us Canada</a> - <em>Barry Petchesky</em></p>
+<hr/>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>The Menzingers - Ultraviolet</h4>
+<p><a href="https://www.youtube.com/watch?v=exSRCXS8tlw" title="The Menzingers - Ultraviolet">View on YouTube</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Default Apps]]></title>
+        <id>https://kpwags.com/posts/2023/11/27/default-apps</id>
+        <link href="https://kpwags.com/posts/2023/11/27/default-apps"/>
+        <updated>2023-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve seen several people posting the default apps they use for various tasks so I figured I’d join in.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>I’ve seen several people posting the default apps they use for various tasks so I figured I’d join in.</p>
+<p>📨 <strong>Mail Client:</strong> Default MacOS / iOS Mail App, <a href="https://www.thunderbird.net/en-US/">Thunderbird</a> on PC</p>
+<p>📮 <strong>Mail Server:</strong> <a href="http://fastmail.com">FastMail</a> &amp; <a href="https://mail.google.com">Gmail</a></p>
+<p>📝 <strong>Notes:</strong> Mixture of <a href="http://notion.so">Notion</a> &amp; <a href="https://bear.app/">Bear</a></p>
+<p>✅ <strong>To-Do:</strong> <a href="https://culturedcode.com/things/">Things</a></p>
+<p>📷 <strong>Photo Shooting:</strong> Mostly my iPhone 14 Pro, but I occasionally will use my Canon 60D or my Canon G1X</p>
+<p>🎨 <strong>Photo Editing:</strong> <a href="https://lightroom.adobe.com/">Adobe Lightroom</a></p>
+<p>📆 <strong>Calendar:</strong> Google Calendar for family, FastMail Calendar for personal</p>
+<p>📁 <strong>Cloud File Storage:</strong> <a href="http://dropbox.com">Dropbox</a> mostly</p>
+<p>📖 <strong>RSS:</strong> <a href="https://feedbin.com/">Feedbin</a> with <a href="https://www.reederapp.com/">Reeder</a></p>
+<p>🙍🏻‍♂️ <strong>Contacts:</strong> MacOS/iOS Contacts</p>
+<p>🌐 <strong>Browser:</strong> Desktop: Safari/Arc/Firefox, Mobile: Safari</p>
+<p>💬 <strong>Chat:</strong> Apple Messages</p>
+<p>🔖 <strong>Bookmarks:</strong> All over the place</p>
+<p>📑 <strong>Read It Later:</strong> <a href="http://omnivore.app">Omnivore</a> &amp; <a href="http://feedbin.com">Feedbin</a></p>
+<p>📜 <strong>Word Processing:</strong> Microsoft Word</p>
+<p>📈 <strong>Spreadsheets:</strong> Microsoft Excel</p>
+<p>📊 <strong>Presentations:</strong> Don’t really do these, but would use Microsoft PowerPoint</p>
+<p>🛒 <strong>Shopping Lists:</strong> Apple Notes for Shared, <a href="https://bear.app/">Bear</a> for Personal</p>
+<p>🍴 <strong>Meal Planning:</strong> Google Calendar &amp; <a href="https://macrofactorapp.com/">MacroFactor</a></p>
+<p>💰 <strong>Budgeting and Personal Finance:</strong> Shared Google Sheets</p>
+<p>📰 <strong>News:</strong> RSS</p>
+<p>🎵 <strong>Music:</strong> <a href="https://music.apple.com/us/browse">Apple Music</a> &amp; <a href="https://brushedtype.co/doppler/">Doppler</a></p>
+<p>🎤 <strong>Podcasts:</strong> <a href="https://pocketcasts.com/">PocketCasts</a></p>
+<p>🔐 <strong>Password Management:</strong> <a href="https://1password.com">1Password</a></p>
+<p>🧑‍💻 <strong>Code Editor:</strong> <a href="https://code.visualstudio.com/">VS Code</a>, <a href="https://www.jetbrains.com/rider/">Rider</a>, &amp; <a href="https://visualstudio.microsoft.com/">Visual Studio</a></p>
+<p>✈️ <strong>VPN:</strong> <a href="https://nordvpn.com/">NordVPN</a></p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Media and Protecting Democracy]]></title>
         <id>https://kpwags.com/posts/2023/11/21/the-media-and-protecting-democracy</id>
@@ -995,11 +1090,7 @@ took out the Miami Marlins to reach the NLDS for a rematch against the Braves.</
                 <style>[data-ch-theme="github-dark-dimmed"] {  --ch-t-colorScheme: dark;--ch-t-foreground: #adbac7;--ch-t-background: #22272e;--ch-t-lighter-inlineBackground: #22272ee6;--ch-t-editor-background: #22272e;--ch-t-editor-foreground: #adbac7;--ch-t-editor-lineHighlightBackground: #636e7b1a;--ch-t-editor-rangeHighlightBackground: #ffffff0b;--ch-t-editor-infoForeground: #3794FF;--ch-t-editor-selectionBackground: #264F78;--ch-t-focusBorder: #316dca;--ch-t-tab-activeBackground: #22272e;--ch-t-tab-activeForeground: #adbac7;--ch-t-tab-inactiveBackground: #1c2128;--ch-t-tab-inactiveForeground: #768390;--ch-t-tab-border: #444c56;--ch-t-tab-activeBorder: #22272e;--ch-t-editorGroup-border: #444c56;--ch-t-editorGroupHeader-tabsBackground: #1c2128;--ch-t-editorLineNumber-foreground: #636e7b;--ch-t-input-background: #22272e;--ch-t-input-foreground: #adbac7;--ch-t-input-border: #444c56;--ch-t-icon-foreground: #768390;--ch-t-sideBar-background: #1c2128;--ch-t-sideBar-foreground: #adbac7;--ch-t-sideBar-border: #444c56;--ch-t-list-activeSelectionBackground: #636e7b66;--ch-t-list-activeSelectionForeground: #adbac7;--ch-t-list-hoverBackground: #636e7b1a;--ch-t-list-hoverForeground: #adbac7; }</style>
 <p>One of the regular things you have to do when building interactive websites and applications is to build forms to allow users to enter data. In this post, I’m going to show how to build a simple form in Blazor.</p>
 <p>This is the 4th entry in my digging into Blazor posts.</p>
-<ol>
-<li><a href="https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions">First Impressions</a></li>
-<li><a href="https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework">Integrating with Entity Framework</a></li>
-<li><a href="https://kpwags.com/posts/2023/07/31/blazor-custom-authentication">Setting Up Custom Authentication</a></li>
-</ol>
+<div class="BlogSeries_blogSeries__nMsaP"><div class="BlogSeries_seriesTitle__WY6B3">Series: Digging into Blazor</div><ul class="BlogSeries_posts__qJujQ"><li><a href="https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions">First Impressions</a></li><li><a href="https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework">Integrating with Entity Framework</a></li><li><a href="https://kpwags.com/posts/2023/07/31/blazor-custom-authentication">Setting Up Custom Authentication</a></li><li><span class="BlogSeries_current__vfPt4">Forms</span></li></ul></div>
 <p>To keep things simple, I&#x27;m going to show the &quot;Add Brand&quot; form. If you&#x27;ve read the other posts, you will know I&#x27;m building a little web app to organize my sports cards. One of the key pieces of data I want to record is the brand. Back in the day there were all kinds of brands, <em>Topps</em>, <em>Donruss</em>, <em>Upper Deck</em>, etc. For each brand, I want to save the name, and what type of card it makes. For my purposes, the types currently are Baseball &amp; Football.</p>
 <p>Let&#x27;s dig in.</p>
 <h2>Building the Model</h2>
@@ -2216,7 +2307,8 @@ took out the Miami Marlins to reach the NLDS for a rematch against the Braves.</
                 
                 <style>[data-ch-theme="github-dark-dimmed"] {  --ch-t-colorScheme: dark;--ch-t-foreground: #adbac7;--ch-t-background: #22272e;--ch-t-lighter-inlineBackground: #22272ee6;--ch-t-editor-background: #22272e;--ch-t-editor-foreground: #adbac7;--ch-t-editor-lineHighlightBackground: #636e7b1a;--ch-t-editor-rangeHighlightBackground: #ffffff0b;--ch-t-editor-infoForeground: #3794FF;--ch-t-editor-selectionBackground: #264F78;--ch-t-focusBorder: #316dca;--ch-t-tab-activeBackground: #22272e;--ch-t-tab-activeForeground: #adbac7;--ch-t-tab-inactiveBackground: #1c2128;--ch-t-tab-inactiveForeground: #768390;--ch-t-tab-border: #444c56;--ch-t-tab-activeBorder: #22272e;--ch-t-editorGroup-border: #444c56;--ch-t-editorGroupHeader-tabsBackground: #1c2128;--ch-t-editorLineNumber-foreground: #636e7b;--ch-t-input-background: #22272e;--ch-t-input-foreground: #adbac7;--ch-t-input-border: #444c56;--ch-t-icon-foreground: #768390;--ch-t-sideBar-background: #1c2128;--ch-t-sideBar-foreground: #adbac7;--ch-t-sideBar-border: #444c56;--ch-t-list-activeSelectionBackground: #636e7b66;--ch-t-list-activeSelectionForeground: #adbac7;--ch-t-list-hoverBackground: #636e7b1a;--ch-t-list-hoverForeground: #adbac7; }</style>
 <p>One of the things I wanted to integrate with this project was user accounts. I am not sure that I really need it since I’m not really intending to release my card collection app as a full fledged website for the masses. But I still wanted to add it in if for no other reason than to learn.</p>
-<p>This is another installment in my series. If you haven’t read the others you can read about my <a href="https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions">first impressions</a> and then <a href="https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework">integrating Entity Framework</a>.</p>
+<p>This is the third installment of my Digging into Blazor series.</p>
+<div class="BlogSeries_blogSeries__nMsaP"><div class="BlogSeries_seriesTitle__WY6B3">Series: Digging into Blazor</div><ul class="BlogSeries_posts__qJujQ"><li><a href="https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions">First Impressions</a></li><li><a href="https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework">Integrating with Entity Framework</a></li><li><span class="BlogSeries_current__vfPt4">Setting Up Custom Authentication</span></li><li><a href="https://kpwags.com/posts/2023/09/29/digging-into-blazor-forms">Forms</a></li></ul></div>
 <p>The first thing I realized is that the architecture of Blazor doesn’t handle user authentication in quite the same way that ASP.NET web applications do.</p>
 <p>Blazor uses <a href="https://learn.microsoft.com/en-us/aspnet/signalr/overview/getting-started/introduction-to-signalr">SignalR</a> extensively, and it uses it for authentication and session management as well.</p>
 <p>I figured I’d go through what I had to do to get it working in hopes that it will help someone else.</p>
@@ -3700,6 +3792,7 @@ No. Progressive enhancement means making sure your core functionality works with
                 <style>[data-ch-theme="github-dark-dimmed"] {  --ch-t-colorScheme: dark;--ch-t-foreground: #adbac7;--ch-t-background: #22272e;--ch-t-lighter-inlineBackground: #22272ee6;--ch-t-editor-background: #22272e;--ch-t-editor-foreground: #adbac7;--ch-t-editor-lineHighlightBackground: #636e7b1a;--ch-t-editor-rangeHighlightBackground: #ffffff0b;--ch-t-editor-infoForeground: #3794FF;--ch-t-editor-selectionBackground: #264F78;--ch-t-focusBorder: #316dca;--ch-t-tab-activeBackground: #22272e;--ch-t-tab-activeForeground: #adbac7;--ch-t-tab-inactiveBackground: #1c2128;--ch-t-tab-inactiveForeground: #768390;--ch-t-tab-border: #444c56;--ch-t-tab-activeBorder: #22272e;--ch-t-editorGroup-border: #444c56;--ch-t-editorGroupHeader-tabsBackground: #1c2128;--ch-t-editorLineNumber-foreground: #636e7b;--ch-t-input-background: #22272e;--ch-t-input-foreground: #adbac7;--ch-t-input-border: #444c56;--ch-t-icon-foreground: #768390;--ch-t-sideBar-background: #1c2128;--ch-t-sideBar-foreground: #adbac7;--ch-t-sideBar-border: #444c56;--ch-t-list-activeSelectionBackground: #636e7b66;--ch-t-list-activeSelectionForeground: #adbac7;--ch-t-list-hoverBackground: #636e7b1a;--ch-t-list-hoverForeground: #adbac7; }</style>
 <p>Now that I was getting my feet wet, it was time for me to start laying out the framework for my first real Blazor project. Step one was to get the database setup.</p>
 <p>This is the second post in a multi-part series. If you haven&#x27;t read part one, you can <a href="https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions">read about my first impressions</a>.</p>
+<div class="BlogSeries_blogSeries__nMsaP"><div class="BlogSeries_seriesTitle__WY6B3">Series: Digging into Blazor</div><ul class="BlogSeries_posts__qJujQ"><li><a href="https://kpwags.com/posts/2023/03/19/digging-into-blazor-first-impressions">First Impressions</a></li><li><span class="BlogSeries_current__vfPt4">Integrating with Entity Framework</span></li><li><a href="https://kpwags.com/posts/2023/07/31/blazor-custom-authentication">Setting Up Custom Authentication</a></li><li><a href="https://kpwags.com/posts/2023/09/29/digging-into-blazor-forms">Forms</a></li></ul></div>
 <p>I had already decided to use Entity Framework to interact with my SQL server. I have used Entity Framework plenty in the past so I was familiar with the basics. If you haven&#x27;t used Entity Framework, I would highly recommend reading about it and going through some tutorials. Microsoft provides some <a href="https://learn.microsoft.com/en-us/ef/core/">great documentation</a>.</p>
 <p>The first thing I did was look into how to use <a href="https://learn.microsoft.com/en-us/aspnet/core/blazor/blazor-server-ef-core?view=aspnetcore-7.0">Entity Framework with Blazor</a>.</p>
 <blockquote>
@@ -3944,6 +4037,7 @@ No. Progressive enhancement means making sure your core functionality works with
                 
                 <p>I&#x27;ve been hearing a lot of good things about Blazor for a while now and as a .NET developer I figured it was time for me to see what the fuss was about.</p>
 <p>This post will be the first in a multi-part series.</p>
+<div class="BlogSeries_blogSeries__nMsaP"><div class="BlogSeries_seriesTitle__WY6B3">Series: Digging into Blazor</div><ul class="BlogSeries_posts__qJujQ"><li><span class="BlogSeries_current__vfPt4">First Impressions</span></li><li><a href="https://kpwags.com/posts/2023/04/04/digging-into-blazor-entity-framework">Integrating with Entity Framework</a></li><li><a href="https://kpwags.com/posts/2023/07/31/blazor-custom-authentication">Setting Up Custom Authentication</a></li><li><a href="https://kpwags.com/posts/2023/09/29/digging-into-blazor-forms">Forms</a></li></ul></div>
 <p>To get started, I went through <a href="https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro">Microsoft&#x27;s tutorials</a>. Playing around with it, my first thought was this felt kind of similar to my time years ago working with ASP.NET MVC sites. It was different, and it looked different in a good way, but the little bit of familiarity was definitely beneficial as it gave me a good jumping off point.</p>
 <p>After going through the tutorials, I realized I needed something to build. The best way I&#x27;ve found for myself to learn new languages and tools is to build something. Tutorials only go so far. The project I decided to build is an app to inventory my baseball and <a href="https://en.wikipedia.org/wiki/Star_Wars_Customizable_Card_Game">Star Wars Customizable Card Game</a> cards. I recently found a bunch of cards from when I was a kid, so I figured it&#x27;d be a fun way to learn a new framework.</p>
 <p>The first thing I did was to figure out the technology I was going to use. To make things simple, I was just going to stick with Microsoft technologies for the core of the app. I was going to store the data with Entity Framework and use Microsoft Identity for user authentication. I&#x27;m not sure I really need user authentication for a little side project, but figured “why not?”.</p>
