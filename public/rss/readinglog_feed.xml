@@ -4,7 +4,7 @@
         <title>Keith Wagner - Reading Logs</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 27 Nov 2023 23:31:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Nov 2023 23:43:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <div>
                 <p>I&#x27;ve been wanting to do more with web components, and a lot of this week is tied to that. Also, NASA makes a calculated risk and more new features in C#.</p>
 <h2>Link Blast</h2>
-<h3>🖥 .NET</h3>
+<h3>🖥️ .NET</h3>
 <p><a href="https://pmichaels.net/c-sharp-interceptors/">C# Interceptors</a> - <em>Paul Michaels</em></p>
 <p><a href="https://laurentkempe.com/2023/11/14/whats-new-in-csharp-12/">What&#x27;s new in C# 12</a> - <em>Laurent Kempé</em></p>
 <hr/>
@@ -33,7 +33,7 @@
 <p><a href="https://gomakethings.com/an-example-of-an-html-web-component/">An example of an HTML Web Component</a> - <em>Chris Ferdinandi</em></p>
 <p><a href="https://www.telerik.com/blogs/react-basics-guide-useeffect-hook">React Basics: Guide to the useEffect Hook</a> - <em>John Au-Yeung</em></p>
 <hr/>
-<h3>🛜 The Internet</h3>
+<h3>📡 The Internet</h3>
 <p><a href="https://www.techdirt.com/2023/11/21/congrats-to-elon-musk-i-didnt-think-you-had-it-in-you-to-file-a-lawsuit-this-stupid-but-you-crazy-bastard-you-did-it/">Congrats To Elon Musk: I Didn’t Think You Had It In You To File A Lawsuit This Stupid. But, You Crazy Bastard, You Did It!</a> - <em>Mike Masnick</em></p>
 <p><a href="https://www.theverge.com/2023/11/20/23970274/x-elon-musk-media-matters-lawsuit-nazi-ads-filed">X sues Media Matters to silence moderation criticism</a> - <em>Adi Robertson</em></p>
 <hr/>
@@ -70,10 +70,10 @@
 <p><a href="https://devblogs.microsoft.com/dotnet/announcing-csharp-12/">Announcing C# 12</a> - <em>Kathleen Dollard</em></p>
 <p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/">Announcing .NET 8</a> - <em>Gaurav Seth</em></p>
 <hr/>
-<h3>🛜 The Internet</h3>
+<h3>📡 The Internet</h3>
 <p><a href="https://www.techdirt.com/2023/11/14/but-what-do-we-do-if-google-is-legitimately-just-a-better-search-engine/">But What Do We Do If Google Is Legitimately Just A Better Search Engine?</a> - <em>Mike Masnick</em></p>
 <hr/>
-<h3>📡 Technology</h3>
+<h3>🔌 Technology</h3>
 <p><a href="https://arstechnica.com/security/2023/11/the-fcc-says-new-rules-will-curb-sim-swapping-im-pessimistic/">The FCC says new rules will curb SIM swapping. I’m pessimistic</a> - <em>Dan Goodin</em></p>
 <p><a href="https://www.theverge.com/2023/11/16/23964171/apple-iphone-rcs-support">Apple says iPhones will support RCS in 2024</a> - <em>Emma Roth</em></p>
 <p><a href="https://www.zdnet.com/article/microsoft-is-still-paying-for-its-mobile-mistakes-10-years-later/">Microsoft is still paying for its mobile mistakes 10 years later</a> - <em>Ed Bott</em></p>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kpwags.com</id>
     <title>Keith Wagner</title>
-    <updated>2023-11-28T17:38:54.774Z</updated>
+    <updated>2023-11-30T23:43:36.400Z</updated>
     <generator>Next.js using Feed for Node.js</generator>
     <author>
         <name>Keith Wagner</name>
@@ -14,6 +14,29 @@
     <subtitle>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</subtitle>
     <icon>https://kpwags.com/favicon.ico</icon>
     <rights>2023 Keith Wagner</rights>
+    <entry>
+        <title type="html"><![CDATA[FitVids]]></title>
+        <id>https://kpwags.com/posts/2023/11/30/fitvids</id>
+        <link href="https://kpwags.com/posts/2023/11/30/fitvids"/>
+        <updated>2023-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On each one of my reading logs, I add a YouTube video for “A Song to Leave You With”. It uses a React component to render the embedded YouTube video. Thanks to <a href="https://daverupert.com/">Dave Rupert</a>, I’ve been able to improve it.]]></summary>
+        <content type="html"><![CDATA[
+            <div>
+                
+                
+                <p>On each one of my reading logs, I add a YouTube video for “A Song to Leave You With”. It uses a React component to render the embedded YouTube video. Thanks to <a href="https://daverupert.com/">Dave Rupert</a>, I’ve been able to improve it.</p>
+<p>The one thing I’ve had to deal with was handling different browser sizes. Suffice it to say, I only rendered the iFrame in 2 different sizes. It worked, but was, how shall we put it, sub-optimal. Recently I added a width selector as part of my custom themes for my site and the width issue on the embedded video reared its ugly head again.</p>
+<p>Dave recently posted about <a href="https://daverupert.com/2023/10/fitvids-has-a-web-component-now/">FitVids having a web component</a> and all of a sudden the pieces clicked.</p>
+<p>Thanks to his <code>&lt;fit-vids&gt;</code> web component, my embedded YouTube videos now fit whatever screen they’re displayed on, at whatever width the user chooses on my site.</p>
+<p>Thanks Dave!</p>
+            </div>
+        ]]></content>
+        <author>
+            <name>Keith Wagner</name>
+            <email>blog@kpwags.com</email>
+            <uri>https://kpwags.com/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Book Note - A City on Mars: Can We Settle Space, Should We Settle Space, and Have We Really Thought This Through? by Kelly and Zach Weinersmith]]></title>
         <id>https://kpwags.com/books/kelly-zach-weinersmith-a-city-on-mars</id>
@@ -48,7 +71,7 @@
                 
                 <p>I&#x27;ve been wanting to do more with web components, and a lot of this week is tied to that. Also, NASA makes a calculated risk and more new features in C#.</p>
 <h2>Link Blast</h2>
-<h3>🖥 .NET</h3>
+<h3>🖥️ .NET</h3>
 <p><a href="https://pmichaels.net/c-sharp-interceptors/">C# Interceptors</a> - <em>Paul Michaels</em></p>
 <p><a href="https://laurentkempe.com/2023/11/14/whats-new-in-csharp-12/">What&#x27;s new in C# 12</a> - <em>Laurent Kempé</em></p>
 <hr/>
@@ -62,7 +85,7 @@
 <p><a href="https://gomakethings.com/an-example-of-an-html-web-component/">An example of an HTML Web Component</a> - <em>Chris Ferdinandi</em></p>
 <p><a href="https://www.telerik.com/blogs/react-basics-guide-useeffect-hook">React Basics: Guide to the useEffect Hook</a> - <em>John Au-Yeung</em></p>
 <hr/>
-<h3>🛜 The Internet</h3>
+<h3>📡 The Internet</h3>
 <p><a href="https://www.techdirt.com/2023/11/21/congrats-to-elon-musk-i-didnt-think-you-had-it-in-you-to-file-a-lawsuit-this-stupid-but-you-crazy-bastard-you-did-it/">Congrats To Elon Musk: I Didn’t Think You Had It In You To File A Lawsuit This Stupid. But, You Crazy Bastard, You Did It!</a> - <em>Mike Masnick</em></p>
 <p><a href="https://www.theverge.com/2023/11/20/23970274/x-elon-musk-media-matters-lawsuit-nazi-ads-filed">X sues Media Matters to silence moderation criticism</a> - <em>Adi Robertson</em></p>
 <hr/>
@@ -186,10 +209,10 @@
 <p><a href="https://devblogs.microsoft.com/dotnet/announcing-csharp-12/">Announcing C# 12</a> - <em>Kathleen Dollard</em></p>
 <p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/">Announcing .NET 8</a> - <em>Gaurav Seth</em></p>
 <hr/>
-<h3>🛜 The Internet</h3>
+<h3>📡 The Internet</h3>
 <p><a href="https://www.techdirt.com/2023/11/14/but-what-do-we-do-if-google-is-legitimately-just-a-better-search-engine/">But What Do We Do If Google Is Legitimately Just A Better Search Engine?</a> - <em>Mike Masnick</em></p>
 <hr/>
-<h3>📡 Technology</h3>
+<h3>🔌 Technology</h3>
 <p><a href="https://arstechnica.com/security/2023/11/the-fcc-says-new-rules-will-curb-sim-swapping-im-pessimistic/">The FCC says new rules will curb SIM swapping. I’m pessimistic</a> - <em>Dan Goodin</em></p>
 <p><a href="https://www.theverge.com/2023/11/16/23964171/apple-iphone-rcs-support">Apple says iPhones will support RCS in 2024</a> - <em>Emma Roth</em></p>
 <p><a href="https://www.zdnet.com/article/microsoft-is-still-paying-for-its-mobile-mistakes-10-years-later/">Microsoft is still paying for its mobile mistakes 10 years later</a> - <em>Ed Bott</em></p>
