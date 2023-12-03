@@ -532,7 +532,8 @@ a img {
     margin: 25px 40px;
 }
 
-.article p a {
+.article p a,
+.article ul li a {
     text-decoration: underline;
     text-underline-offset: 0.33rem;
     font-weight: normal;
