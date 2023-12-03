@@ -16,6 +16,14 @@
     content: '';
 }
 
+.tagList li a {
+    text-decoration: none !important;
+}
+
+.tagList li a:hover {
+    text-decoration: underline !important;
+}
+
 .lead {
     font-weight: bold;
 }
