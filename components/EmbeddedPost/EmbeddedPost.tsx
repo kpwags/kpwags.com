@@ -1,7 +1,8 @@
+import { ReactNode } from 'react';
 import styles from './EmbeddedPost.module.css';
 
 interface EmbeddedPostProps {
-    content: string;
+    content: string | ReactNode;
     name: string;
     username: string;
     date: string;
