@@ -1,13 +1,17 @@
-.embedded-post {
-    margin: 2rem 0;
+.embeddedPost {
+    margin: 32px 0;
+    border: 1px solid var(--grey-1) !important;
+    padding: 16px !important;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
 }
 
 .post {
-    border-left: 8px solid var(--primary-color-2);
-    padding-left: 2rem;
+    margin: 0 !important;
 }
 
 .post p {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem !important;
+    margin-bottom: 24px !important;
+    color: var(--text) !important;
 }
