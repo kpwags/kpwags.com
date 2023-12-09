@@ -21,45 +21,47 @@ export const sortPosts = (posts: ReadingLog[]): ReadingLog[] => posts.sort((a: R
 export const getAllReadingLogs = (): ReadingLog[] => {
     const fileNames = fs.readdirSync(readingLogDirectory);
 
-    const allPostsData: ReadingLog[] = fileNames.map((fileName) => {
-        // Remove ".md" from file name to get id
-        const id = fileName.replace(/\.mdx$/, '');
+    const allPostsData: ReadingLog[] = fileNames
+        .filter((filename) => filename.endsWith('.mdx'))
+        .map((fileName) => {
+            // Remove ".md" from file name to get id
+            const id = fileName.replace(/\.mdx$/, '');
 
-        // Read markdown file as string
-        const fullPath = path.join(readingLogDirectory, fileName);
-        const fileContents = fs.readFileSync(fullPath, 'utf8');
+            // Read markdown file as string
+            const fullPath = path.join(readingLogDirectory, fileName);
+            const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-        // Use gray-matter to parse the post metadata section
-        const { content, data } = matter(fileContents);
+            // Use gray-matter to parse the post metadata section
+            const { content, data } = matter(fileContents);
 
-        const html = marked(content);
-        const url = `/reading-log/${id}`;
-        const excerpt = getPostExcerpt(html);
+            const html = marked(content);
+            const url = `/reading-log/${id}`;
+            const excerpt = getPostExcerpt(html);
 
-        const tags = data.tags || [] as string[];
+            const tags = data.tags || [] as string[];
 
-        // Combine the data with the id
-        return {
-            id,
-            title: data.title,
-            number: parseInt(id, 10),
-            excerpt: excerpt || null,
-            description: excerpt || null,
-            date: data.date,
-            url,
-            tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
-            content: html,
-            commentIssueNumber: data.commentIssueNumber,
-            socialImageUrl: null,
-        };
-    });
+            // Combine the data with the id
+            return {
+                id,
+                title: data.title,
+                number: parseInt(id, 10),
+                excerpt: excerpt || null,
+                description: excerpt || null,
+                date: data.date,
+                url,
+                tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
+                content: html,
+                commentIssueNumber: data.commentIssueNumber,
+                socialImageUrl: null,
+            };
+        });
 
     const sortedPosts = sortPosts(allPostsData);
 
     return sortedPosts.filter((p) => new Date(p.date) <= new Date());
 };
 
-export const getReadingLogData = async (readingLogNumber: number) : Promise<ReadingLog> => {
+export const getReadingLogData = async (readingLogNumber: number): Promise<ReadingLog> => {
     const fullPath = path.join(readingLogDirectory, `${readingLogNumber}.mdx`);
 
     const fileContents = fs.readFileSync(fullPath, 'utf8');
@@ -90,7 +92,7 @@ export const getReadingLogData = async (readingLogNumber: number) : Promise<Read
     };
 };
 
-export const getPaginatedReadingLogs = (page: number, count = postsPerPage): { totalPages: number, posts: ReadingLog[]} => {
+export const getPaginatedReadingLogs = (page: number, count = postsPerPage): { totalPages: number, posts: ReadingLog[] } => {
     const posts = getAllReadingLogs();
 
     const start = (page - 1) * 10;
@@ -109,7 +111,7 @@ export const getReadingLogCount = (): number => {
     return posts.length;
 };
 
-export const getReadingLogPages = (): { params: { page: string }}[] => {
+export const getReadingLogPages = (): { params: { page: string } }[] => {
     const readingLogCount = getReadingLogCount();
 
     const maxPage = Math.ceil(readingLogCount / postsPerPage);
@@ -127,18 +129,20 @@ export const getReadingLogPages = (): { params: { page: string }}[] => {
     }));
 };
 
-export const getAllReadingLogIds = (): { params: { readingLogNumber: string }}[] => {
+export const getAllReadingLogIds = (): { params: { readingLogNumber: string } }[] => {
     const fileNames = fs.readdirSync(readingLogDirectory);
 
-    return fileNames.map((filename) => {
-        const readingLogNumber = filename.replace(/\.mdx$/, '');
+    return fileNames
+        .filter((filename) => filename.endsWith('.mdx'))
+        .map((filename) => {
+            const readingLogNumber = filename.replace(/\.mdx$/, '');
 
-        return ({
-            params: {
-                readingLogNumber,
-            },
+            return ({
+                params: {
+                    readingLogNumber,
+                },
+            });
         });
-    });
 };
 
 export const convertToPost = (log: ReadingLog): BlogPost => {
