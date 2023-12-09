@@ -70,53 +70,55 @@ export const sortPosts = (posts: BlogPost[]): BlogPost[] => posts.sort((a: BlogP
 export const getAllPosts = (includeRssOnly = false): BlogPost[] => {
     const fileNames = fs.readdirSync(postsDirectory);
 
-    const allPostsData = fileNames.map((fileName) => {
-        // Remove ".md" from file name to get id
-        const id = fileName.replace(/\.mdx$/, '');
+    const allPostsData = fileNames
+        .filter((filename) => filename.endsWith('.mdx'))
+        .map((fileName) => {
+            // Remove ".md" from file name to get id
+            const id = fileName.replace(/\.mdx$/, '');
 
-        // Read markdown file as string
-        const fullPath = path.join(postsDirectory, fileName);
-        const fileContents = fs.readFileSync(fullPath, 'utf8');
+            // Read markdown file as string
+            const fullPath = path.join(postsDirectory, fileName);
+            const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-        // Use gray-matter to parse the post metadata section
-        const { content, data } = matter(fileContents);
+            // Use gray-matter to parse the post metadata section
+            const { content, data } = matter(fileContents);
 
-        let wordCount = null;
-        let readingTime = null;
+            let wordCount = null;
+            let readingTime = null;
 
-        if (!data.ignoreWordCount) {
-            wordCount = content.split(' ').length - 1;
-            readingTime = Math.round(wordCount / 200);
+            if (!data.ignoreWordCount) {
+                wordCount = content.split(' ').length - 1;
+                readingTime = Math.round(wordCount / 200);
 
-            if (readingTime === 0) {
-                readingTime = 1;
+                if (readingTime === 0) {
+                    readingTime = 1;
+                }
             }
-        }
 
-        const html = marked(content);
-        const url = buildUrlFromId(id);
-        const excerpt = getPostExcerpt(html);
+            const html = marked(content);
+            const url = buildUrlFromId(id);
+            const excerpt = getPostExcerpt(html);
 
-        const tags = data.tags || [] as string[];
+            const tags = data.tags || [] as string[];
 
-        // Combine the data with the id
-        const blogPost: BlogPost = {
-            id,
-            title: data.title,
-            excerpt: excerpt || null,
-            date: data.date,
-            subheading: data.subheading || null,
-            url,
-            tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
-            content: html,
-            isRssOnly: data.isRssOnly || false,
-            wordCount,
-            readTime: readingTime,
-            socialImageUrl: null,
-        };
+            // Combine the data with the id
+            const blogPost: BlogPost = {
+                id,
+                title: data.title,
+                excerpt: excerpt || null,
+                date: data.date,
+                subheading: data.subheading || null,
+                url,
+                tags: tags.map((t: string) => ({ name: t, url: generateTagUrl(t) })),
+                content: html,
+                isRssOnly: data.isRssOnly || false,
+                wordCount,
+                readTime: readingTime,
+                socialImageUrl: null,
+            };
 
-        return blogPost;
-    });
+            return blogPost;
+        });
 
     const sortedPosts = sortPosts(allPostsData);
 
@@ -135,19 +137,21 @@ export const getPostCount = (): number => {
 export const getAllPostIds = (): PostId[] => {
     const fileNames = fs.readdirSync(postsDirectory);
 
-    return fileNames.map((filename) => {
-        const arr = filename.replace(/\.mdx$/, '').split('-');
-        const id = arr.splice(3).join('-');
+    return fileNames
+        .filter((filename) => filename.endsWith('.mdx'))
+        .map((filename) => {
+            const arr = filename.replace(/\.mdx$/, '').split('-');
+            const id = arr.splice(3).join('-');
 
-        return ({
-            params: {
-                year: arr[0].toString(),
-                month: arr[1].toString(),
-                day: arr[2].toString(),
-                id,
-            },
+            return ({
+                params: {
+                    year: arr[0].toString(),
+                    month: arr[1].toString(),
+                    day: arr[2].toString(),
+                    id,
+                },
+            });
         });
-    });
 };
 
 export const getPostPages = (): TagPage[] => {

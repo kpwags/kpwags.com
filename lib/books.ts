@@ -19,18 +19,20 @@ const booksDirectory = path.join(process.cwd(), 'content', 'book-notes');
 export const getAllBookSlugs = (): BookId[] => {
     const fileNames = fs.readdirSync(booksDirectory);
 
-    return fileNames.map((filename) => {
-        const slug = filename.replace(/\.mdx$/, '');
+    return fileNames
+        .filter((filename) => filename.endsWith('.mdx'))
+        .map((filename) => {
+            const slug = filename.replace(/\.mdx$/, '');
 
-        return ({
-            params: {
-                slug,
-            },
+            return ({
+                params: {
+                    slug,
+                },
+            });
         });
-    });
 };
 
-export const getBookData = async (slug: string) : Promise<BookNote> => {
+export const getBookData = async (slug: string): Promise<BookNote> => {
     const fullPath = path.join(booksDirectory, `${slug}.mdx`);
 
     const fileContents = fs.readFileSync(fullPath, 'utf8');
@@ -75,41 +77,43 @@ export const sortBookNotes = (posts: BookNote[]): BookNote[] => posts.sort((a: B
 export const getAllBookNotes = (): BookNote[] => {
     const fileNames = fs.readdirSync(booksDirectory);
 
-    const allBooks: BookNote[] = fileNames.map((fileName) => {
-        const slug = fileName.replace(/\.mdx$/, '');
+    const allBooks: BookNote[] = fileNames
+        .filter((filename) => filename.endsWith('.mdx'))
+        .map((fileName) => {
+            const slug = fileName.replace(/\.mdx$/, '');
 
-        // Read markdown file as string
-        const fullPath = path.join(booksDirectory, fileName);
-        const fileContents = fs.readFileSync(fullPath, 'utf8');
+            // Read markdown file as string
+            const fullPath = path.join(booksDirectory, fileName);
+            const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-        // Use gray-matter to parse the post metadata section
-        const { content, data } = matter(fileContents);
+            // Use gray-matter to parse the post metadata section
+            const { content, data } = matter(fileContents);
 
-        const html = marked(content);
-        const excerpt = getPostExcerpt(html);
+            const html = marked(content);
+            const excerpt = getPostExcerpt(html);
 
-        const categories = data.categories || [] as string[];
+            const categories = data.categories || [] as string[];
 
-        return {
-            slug,
-            title: data.title,
-            author: data.author,
-            categories,
-            links: data.links,
-            coverImage: data.coverImage,
-            dateFinished: data.dateFinished,
-            rating: data.rating,
-            content,
-            excerpt,
-            url: `/books/${slug}`,
-            socialImageUrl: `images/social/book-notes/${slug}.jpg`,
-        };
-    });
+            return {
+                slug,
+                title: data.title,
+                author: data.author,
+                categories,
+                links: data.links,
+                coverImage: data.coverImage,
+                dateFinished: data.dateFinished,
+                rating: data.rating,
+                content,
+                excerpt,
+                url: `/books/${slug}`,
+                socialImageUrl: `images/social/book-notes/${slug}.jpg`,
+            };
+        });
 
     return sortBookNotes(allBooks);
 };
 
-export const getPaginatedBookNotes = (page: number, count = postsPerPage): { totalPages: number, bookNotes: BookNote[]} => {
+export const getPaginatedBookNotes = (page: number, count = postsPerPage): { totalPages: number, bookNotes: BookNote[] } => {
     const bookNotes = getAllBookNotes();
 
     const start = (page - 1) * 10;
@@ -128,7 +132,7 @@ export const getBookNoteCount = (): number => {
     return posts.length;
 };
 
-export const getBookNotePages = (): { params: { page: string }}[] => {
+export const getBookNotePages = (): { params: { page: string } }[] => {
     const bookNoteCount = getBookNoteCount();
 
     const maxPage = Math.ceil(bookNoteCount / postsPerPage);
