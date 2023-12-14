@@ -4,11 +4,38 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Mon, 11 Dec 2023 22:49:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Dec 2023 22:23:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Switching to Eleventy]]></title>
+            <link>https://kpwags.com/posts/2023/12/14/switching-to-eleventy</link>
+            <guid>https://kpwags.com/posts/2023/12/14/switching-to-eleventy</guid>
+            <pubDate>Thu, 14 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I think at this point, my plan is to rebuild my blog with <a href="https://www.11ty.dev">Eleventy</a>. Playing around with it I feel like it’s the simplest tool to do what I need. I still have a lot to learn with it, but I’m hoping that it will be the platform everything I’ve read says it is.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>I think at this point, my plan is to rebuild my blog with <a href="https://www.11ty.dev">Eleventy</a>. Playing around with it I feel like it’s the simplest tool to do what I need. I still have a lot to learn with it, but I’m hoping that it will be the platform everything I’ve read says it is.</p>
+<h2>Initial Thoughts</h2>
+<h3>No TypeScript</h3>
+<p>I know I’m going to get some flak for this, but this is the first time in a little while I haven’t used TypeScript. There have been some places I’ve missed it, but it’s not a big deal. It certainly makes the build and upgrade path easier.</p>
+<h3>I Kind of Miss MDX</h3>
+<p>One of the nice things I appreciated with Next.js is the ability to write my posts in MDX. I could include the various components I’ve written for my posts to make things a little simpler when writing posts that used shareable components. I haven’t quite figured this part out yet on Eleventy.</p>
+<p>Eleventy has WebC and it has what it calls short codes that allow me to put templates into my markdown files, but they don’t feel quite the same as the React components I’m used to being able to use. This could certainly be a “personal taste” thing.</p>
+<h3>Simpler Build Process</h3>
+<p>The build process for Eleventy is simpler than that of Next.js. It generates static HTML which feels cleaner. It should also make deployments easier. I haven’t really looked into that yet, but I figure it shouldn’t be too difficult.</p>
+<hr/>
+<h2>My Current Status</h2>
+<p>My current status is that I have a GitHub project where I will be going through and rebuilding all my pages in Eleventy. I got all my blog posts moved over, and am currently working on my reading logs. It’s a slow(ish) process, but I’m also working on a different look and feel. I’m also doing my best to keep it maintainable for the future. My plan is to write a lot more in 2024 so I want to have my site be in a good place when this is all over.</p>
+<p>I definitely won’t be finished by the end of the year, but the process of learning and building with Eleventy has been fun.</p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Reading Log - December 11, 2023 (#54)]]></title>
             <link>https://kpwags.com/reading-log/54</link>
