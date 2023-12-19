@@ -4,11 +4,60 @@
         <title>Keith Wagner</title>
         <link>https://kpwags.com</link>
         <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
-        <lastBuildDate>Thu, 14 Dec 2023 22:23:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Dec 2023 15:41:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed for Node.js</generator>
         <language>en</language>
         <copyright>2023 Keith Wagner</copyright>
+        <item>
+            <title><![CDATA[Reading Log - December 19, 2023 (#55)]]></title>
+            <link>https://kpwags.com/reading-log/55</link>
+            <guid>https://kpwags.com/reading-log/55</guid>
+            <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A day late this week, but still a bunch of great articles on Apple, CSS animations, why you don&#39;t always need JavaScript, and more.]]></description>
+            <content:encoded><![CDATA[
+            <div>
+                
+                
+                <p>A day late this week, but still a bunch of great articles on Apple, CSS animations, why you don&#x27;t always need JavaScript, and more.</p>
+<h2>Link Blast</h2>
+<h3>🖥 .NET</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/learn-dotnet8-beginner-videos/">Learn .NET 8 with New Beginner Videos</a> - <em>Katie Savage &amp; Jayme Singleton</em></p>
+<hr/>
+<h3>🌐 Web Development</h3>
+<p><a href="https://www.htmhell.dev/adventcalendar/2023/2/">You don&#x27;t need JavaScript for that</a> - <em>Kilian Valkhof</em></p>
+<p><a href="https://www.bennadel.com/blog/4536-creating-a-marquee-effect-with-css-animations.htm">Creating A Marquee Effect With CSS Animations</a> - <em>Ben Nadel</em></p>
+<p><a href="https://joshcollinsworth.com/blog/antiquated-react">Things you forgot (or never knew) because of React</a> - <em>Josh Collinsworth</em></p>
+<hr/>
+<h3>🔌 Technology</h3>
+<p><a href="https://www.inverse.com/tech/apple-app-store-15th-anniversary-past-present-future">15 Years Ago, Apple’s App Store Changed Everything. Now It Needs a Reboot.</a> - <em>Christina Warren</em></p>
+<p><a href="https://www.theverge.com/2023/12/13/23990706/google-apple-court-order-required-push-notification-ron-wyden-letter-surveillance-e2e-encryptionz">Apple will make it harder for governments to get your push notifications</a> - <em>Wes Davis</em></p>
+<p><a href="https://www.techdirt.com/2023/12/11/apples-nonsensical-attack-on-beeper-for-making-apples-own-users-safer/">Apple’s Nonsensical Attack On Beeper For Making Apple’s Own Users Safer</a> - <em>Mike Masnick</em></p>
+<hr/>
+<h3>🎮 Gaming</h3>
+<p><a href="https://arstechnica.com/gaming/2023/12/how-the-internet-killed-e3/">E3 is officially dead, and so is the version of the industry it was made for</a> - <em>Kyle Orland</em></p>
+<hr/>
+<h3>📈 Business &amp; Finance</h3>
+<p><a href="https://www.theverge.com/2023/12/18/24005996/adobe-figma-acquisition-abandoned-termination-fee">Adobe abandons $20 billion acquisition of Figma</a> - <em>Jess Weatherbed</em></p>
+<p><a href="https://defector.com/the-rise-and-fall-of-starter-the-coolest-company-on-earth">The Rise And Fall Of Starter, The Coolest Company On Earth</a> - <em>Keith Paradise</em></p>
+<hr/>
+<h3>🎧 Podcasts</h3>
+<p><a href="https://changelog.com/podcast/535">The Changelog #535: Examining capitalism&#x27;s chokepoints</a></p>
+<p><a href="https://nodogmapodcast.bryanhogan.net/172-stormy-peters-supporting-open-source-software-communities/">No Dogma #172: Stormy Peters, Supporting Open Source Software Communities</a></p>
+<hr/>
+<h3>🏛️ Politics</h3>
+<p><a href="https://www.techdirt.com/2023/12/14/republicans-are-mad-the-fcc-rejected-elon-musks-attempt-to-get-a-billion-dollars-in-subsidies-to-deliver-pricey-satellite-broadband-to-some-traffic-medians/">Republicans Are Mad The FCC Rejected Elon Musk’s Attempt To Get A Billion Dollars In Subsidies To Deliver Pricey Satellite Broadband To Some Traffic Medians</a> - <em>Karl Bode</em></p>
+<hr/>
+<h3>🎒 Everything Else</h3>
+<p><a href="https://arstechnica.com/science/2023/12/cvs-rite-aid-walgreens-hand-out-medical-records-to-cops-without-warrants/">CVS, Rite Aid, Walgreens hand out medical records to cops without warrants</a> - <em>Beth Mole</em></p>
+<hr/>
+<h3>🎵 A Song to Leave You With</h3>
+<h4>“Weird Al” Yankovic - The Night Santa Went Crazy</h4>
+<p><a href="https://www.youtube.com/watch?v=0FJU4GrXztE" title="“Weird Al” Yankovic - The Night Santa Went Crazy">View on YouTube</a></p>
+            </div>
+        ]]></content:encoded>
+            <author>blog@kpwags.com (Keith Wagner)</author>
+        </item>
         <item>
             <title><![CDATA[Switching to Eleventy]]></title>
             <link>https://kpwags.com/posts/2023/12/14/switching-to-eleventy</link>
