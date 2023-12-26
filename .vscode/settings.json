@@ -21,7 +21,7 @@
         "**/.next": true
     },
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": "explicit"
     },
     "eslint.format.enable": true,
     "typescript.tsdk": "node_modules/typescript/lib",
